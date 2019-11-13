@@ -1,0 +1,55 @@
+аксон	axon
+аллергия	allergy
+алюминий	aluminium
+анемия	anemia
+артерия	artery
+бензин	gasoline
+бериллий	beryllium
+биом	biome
+биосфера	biosphere
+биотехнология	biotechnology
+геология	geology
+геоморфология	geomorphology
+гравитация	gravity
+группа крови	blood type
+калория	calorie
+кома	coma
+кровь	blood
+кровяное давление	blood pressure
+лес	forest
+песец	arctic fox
+плод	fruit
+спирты	alcohol
+фоссилии	fossil
+химическая реакция	chemical reaction
+химический элемент	chemical element
+химия	chemistry
+холера	cholera
+холестерин	cholesterol
+эвкалипт	eucalyptus
+экосистема	ecosystem
+электрический двигатель	electric motor
+электролиз	electrolysis
+электрон	electron
+эпидемиология	epidemiology
+эпилепсия	epilepsy
+анаграмма	anagrams
+анахронизм	anachronism
+арабское письмо	arabic alphabet
+беневенто	benevento
+берилл	beryl
+блог	blog
+булева алгебра	boolean algebra (structure)
+бумеранг	boomerang
+валентиниан i	valentinian i
+валентиниан ii	valentinian ii
+валентиниан iii	valentinian iii
+водолей (созвездие)	aquarius (constellation)
+евангелие от иоанна	gospel of john
+евангелие от луки	gospel of luke
+евангелие от марка	gospel of mark
+жасмин	jasmine
+индейки	turkey (bird)
+история игрушек	toy story
+кошка	cat
+химера	hemera
