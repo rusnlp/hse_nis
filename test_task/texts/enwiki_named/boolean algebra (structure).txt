@@ -1,0 +1,2035 @@
+
+
+
+In abstract algebra, a '''Boolean algebra''' or '''Boolean lattice''' is a complemented distributive lattice. This type of algebraic structure captures essential properties of both set operations and logic operations. A Boolean algebra can be seen as a generalization of a power set algebra or a field of sets, or its elements can be viewed as generalized truth values. It is also a special case of a De Morgan algebra and a Kleene algebra (with involution).
+
+Every Boolean algebra gives rise to a Boolean ring, and vice versa, with ring multiplication corresponding to conjunction or meet ∧, and ring addition to exclusive disjunction or symmetric difference (not disjunction ∨). However, the theory of Boolean rings has an inherent asymmetry between the two operators, while the axioms and theorems of Boolean algebra express the symmetry of the theory described by the duality principle.
+Boolean lattice of subsets
+__TOC__
+
+== History ==  
+
+The term "Boolean algebra" honors George Boole (1815–1864), a self-educated English mathematician. He introduced the algebraic system initially in a small pamphlet, ''The Mathematical Analysis of Logic'', published in 1847 in response to an ongoing public controversy between Augustus De Morgan and William Hamilton, and later as a more substantial book, ''The Laws of Thought'', published in 1854. Boole's formulation differs from that described above in some important respects. For example, conjunction and disjunction in Boole were not a dual pair of operations. Boolean algebra emerged in the 1860s, in papers written by William Jevons and Charles Sanders Peirce. The first systematic presentation of Boolean algebra and distributive lattices is owed to the 1890 ''Vorlesungen'' of Ernst Schröder. The first extensive treatment of Boolean algebra in English is A. N. Whitehead's 1898 ''Universal Algebra''. Boolean algebra as an axiomatic algebraic structure in the modern axiomatic sense begins with a 1904 paper by Edward V. Huntington. Boolean algebra came of age as serious mathematics with the work of Marshall Stone in the 1930s, and with Garrett Birkhoff's 1940 ''Lattice Theory''. In the 1960s, Paul Cohen, Dana Scott, and others found deep new results in mathematical logic and axiomatic set theory using offshoots of Boolean algebra, namely forcing and Boolean-valued models.
+ 
+A '''Boolean algebra''' is a six-tuple consisting of a set ''A'', equipped with two binary operations ∧ (called "meet" or "and"), ∨ (called "join" or "or"), a unary operation ¬ (called "complement" or "not") and two elements 0 and 1 in ''A'' (called "bottom" and "top", or "least" and "greatest" element, also denoted by the symbols ⊥ and ⊤, respectively), such that for all elements ''a'', ''b'' and ''c'' of ''A'', the following axioms hold:
+
+::
+
+
+''a'' ∨ (''b'' ∨ ''c'') = (''a'' ∨ ''b'') ∨ ''c''
+
+''a'' ∧ (''b'' ∧ ''c'') = (''a'' ∧ ''b'') ∧ ''c''
+
+ associativity
+
+
+
+''a'' ∨ ''b'' = ''b'' ∨ ''a''
+
+''a'' ∧ ''b'' = ''b'' ∧ ''a''
+
+ commutativity
+
+
+
+''a'' ∨ (''a'' ∧ ''b'') = ''a''
+
+''a'' ∧ (''a'' ∨ ''b'') = ''a''
+
+ absorption
+
+
+
+''a'' ∨ 0 = ''a''
+
+''a'' ∧ 1 = ''a''
+
+ identity
+
+
+
+''a'' ∨ (''b'' ∧ ''c'') = (''a'' ∨ ''b'') ∧ (''a'' ∨ ''c'')  
+
+''a'' ∧ (''b'' ∨ ''c'') = (''a'' ∧ ''b'') ∨ (''a'' ∧ ''c'')  
+
+ distributivity
+
+
+
+''a'' ∨ ¬''a'' = 1
+
+''a'' ∧ ¬''a'' = 0
+
+ complements
+
+
+Note, however, that the absorption law and even the associativity law can be excluded from the set of axioms as they can be derived from the other axioms (see Proven properties).
+
+A Boolean algebra with only one element is called a '''trivial Boolean algebra''' or a '''degenerate Boolean algebra'''. (Some authors require 0 and 1 to be ''distinct'' elements in order to exclude this case.)
+
+It follows from the last three pairs of axioms above (identity, distributivity and complements), or from the absorption axiom, that
+::''a'' = ''b'' ∧ ''a''     if and only if     ''a'' ∨ ''b'' = ''b''.
+The relation ≤ defined by ''a'' ≤ ''b'' if these equivalent conditions hold, is a partial order with least element 0 and greatest element 1. The meet ''a'' ∧ ''b'' and the join ''a'' ∨ ''b'' of two elements coincide with their infimum and supremum, respectively, with respect to ≤.
+
+The first four pairs of axioms constitute a definition of a bounded lattice.
+
+It follows from the first five pairs of axioms that any complement is unique.
+
+The set of axioms is self-dual in the sense that if one exchanges ∨ with ∧ and 0 with 1 in an axiom, the result is again an axiom. Therefore, by applying this operation to a Boolean algebra (or Boolean lattice), one obtains another Boolean algebra with the same elements; it is called its '''dual'''.
+ 
+* The simplest non-trivial Boolean algebra, the two-element Boolean algebra, has only two elements, 0 and 1, and is defined by the rules:
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ∧ 
+
+ 0 
+
+ 1
+
+
+
+ 0
+
+ 0 
+
+ 0
+
+
+
+ 1
+
+ 0 
+
+ 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ∨ 
+
+ 0 
+
+ 1
+
+
+
+ 0
+
+ 0 
+
+ 1
+
+
+
+ 1
+
+ 1 
+
+ 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ''a'' 
+
+ 0 
+
+ 1
+
+
+
+ ¬''a''
+
+ 1 
+
+ 0
+
+
+
+
+
+:* It has applications in logic, interpreting 0 as ''false'', 1 as ''true'', ∧ as ''and'', ∨ as ''or'', and ¬ as ''not''. Expressions involving variables and the Boolean operations represent statement forms, and two such expressions can be shown to be equal using the above axioms if and only if the corresponding statement forms are logically equivalent.
+
+:* The two-element Boolean algebra is also used for circuit design in electrical engineering; here 0 and 1 represent the two different states of one bit in a digital circuit, typically high and low voltage. Circuits are described by expressions containing variables, and two such expressions are equal for all values of the variables if and only if the corresponding circuits have the same input-output behavior. Furthermore, every possible input-output behavior can be modeled by a suitable Boolean expression.
+
+:* The two-element Boolean algebra is also important in the general theory of Boolean algebras, because an equation involving several variables is generally true in all Boolean algebras if and only if it is true in the two-element Boolean algebra (which can be checked by a trivial brute force algorithm for small numbers of variables). This can for example be used to show that the following laws (''Consensus theorems'') are generally valid in all Boolean algebras:
+:** (''a'' ∨ ''b'') ∧ (¬''a'' ∨ ''c'') ∧ (''b'' ∨ ''c'') ≡ (''a'' ∨ ''b'') ∧ (¬''a'' ∨ ''c'')
+:** (''a'' ∧ ''b'') ∨ (¬''a'' ∧ ''c'') ∨ (''b'' ∧ ''c'') ≡ (''a'' ∧ ''b'') ∨ (¬''a'' ∧ ''c'')
+
+* The power set (set of all subsets) of any given nonempty set ''S'' forms a Boolean algebra, an algebra of sets, with the two operations ∨ := ∪ (union) and ∧ := ∩ (intersection). The smallest element 0 is the empty set and the largest element 1 is the set ''S'' itself.
+
+:* After the two-element Boolean algebra, the simplest Boolean algebra is that defined by the power set of two atoms:
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ∧ 
+
+ 0 
+
+ a 
+
+ b 
+
+ 1
+
+
+
+ 0
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0
+
+
+
+ a
+
+ 0 
+
+ a 
+
+ 0 
+
+ a
+
+
+
+ b
+
+ 0 
+
+ 0 
+
+ b 
+
+ b
+
+
+
+ 1
+
+ 0 
+
+ a 
+
+ b 
+
+ 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ∨ 
+
+ 0 
+
+ a 
+
+ b 
+
+ 1
+
+
+
+ 0
+
+ 0 
+
+ a 
+
+ b 
+
+ 1
+
+
+
+ a
+
+ a 
+
+ a 
+
+ 1 
+
+ 1
+
+
+
+ b
+
+ b 
+
+ 1 
+
+ b 
+
+ 1
+
+
+
+ 1
+
+ 1 
+
+ 1 
+
+ 1 
+
+ 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ''x'' 
+
+ 0 
+
+ a 
+
+ b 
+
+ 1
+
+
+
+ ¬''x''
+
+ 1 
+
+ b 
+
+ a 
+
+ 0
+
+
+
+
+
+* The set of all subsets of ''S'' that are either finite or cofinite is a Boolean algebra, an algebra of sets.
+* Starting with the propositional calculus with κ sentence symbols, form the Lindenbaum algebra (that is, the set of sentences in the propositional calculus modulo logical equivalence).  This construction yields a Boolean algebra.  It is in fact the free Boolean algebra on κ generators.  A truth assignment in propositional calculus is then a Boolean algebra homomorphism from this algebra to the two-element Boolean algebra.
+* Given any linearly ordered set ''L'' with a least element, the interval algebra is the smallest algebra of subsets of ''L'' containing all of the half-open intervals ''a'', ''b'') such that ''a'' is in ''L'' and ''b'' is either in ''L'' or equal to ∞.  Interval algebras are useful in the study of Lindenbaum–Tarski algebras; every countable Boolean algebra is isomorphic to an interval algebra.
+
+Hasse diagram of the Boolean algebra of divisors of 30.
+* For any natural number ''n'', the set of all positive divisors of ''n'', defining ''a''≤''b'' if ''a'' divides ''b'', forms a distributive lattice. This lattice is a Boolean algebra if and only if ''n'' is square-free. The bottom and the top element of this Boolean algebra is the natural number 1 and ''n'', respectively. The complement of ''a'' is given by ''n''/''a''. The meet and the join of ''a'' and ''b'' is given by the greatest common divisor (gcd) and the least common multiple (lcm) of ''a'' and ''b'', respectively. The ring addition ''a''+''b'' is given by lcm(''a'',''b'')/gcd(''a'',''b''). The picture shows an example for ''n'' = 30. As a counter-example, considering the non-square-free ''n''=60, the greatest common divisor of 30 and its complement 2 would be 2, while it should be the bottom element 1.
+* Other examples of Boolean algebras arise from topological spaces: if ''X'' is a topological space, then the collection of all subsets of ''X'' which are both open and closed forms a Boolean algebra with the operations ∨ := ∪ (union) and ∧ := ∩ (intersection).
+* If ''R'' is an arbitrary ring and we define the set of ''central idempotents'' by  ''A'' = { ''e'' ∈ ''R'' : ''e''2 = ''e'', ''ex'' = ''xe'', ∀''x'' ∈ ''R'' }  then the set ''A'' becomes a Boolean algebra with the operations ''e'' ∨ ''f'' := ''e'' + ''f'' - ''ef'' and ''e'' ∧ ''f'' := ''ef''.
+ 
+
+A ''homomorphism'' between two Boolean algebras ''A'' and ''B'' is a function ''f'' : ''A'' → ''B'' such that for all ''a'', ''b'' in ''A'':
+
+: ''f''(''a'' ∨ ''b'') = ''f''(''a'') ∨ ''f''(''b''),
+: ''f''(''a'' ∧ ''b'') = ''f''(''a'') ∧ ''f''(''b''),
+: ''f''(0) = 0,
+: ''f''(1) = 1.
+
+It then follows that ''f''(¬''a'') = ¬''f''(''a'') for all ''a'' in ''A''. The class of all Boolean algebras, together with this notion of morphism, forms a full subcategory of the category of lattices.
+
+
+An ''isomorphism'' between two Boolean algebras ''A'' and ''B'' is a homomorphism ''f'' : ''A'' → ''B'' with an inverse homomorphism, that is, a homomorphism ''g'' : ''B'' → ''A'' such that the composition ''g'' ◌ ''f'': ''A'' → ''A'' is the identity function on ''A'', and the composition ''f'' ◌ ''g'': ''B'' → ''B'' is the identity function on ''B''.  A homomorphism of Boolean algebras is an isomorphism if and only if it is bijective.
+ 
+Every Boolean algebra (''A'', ∧, ∨) gives rise to a ring (''A'', +, ·) by defining ''a'' + ''b'' := (''a'' ∧ ¬''b'') ∨ (''b'' ∧ ¬''a'') = (''a'' ∨ ''b'') ∧ ¬(''a'' ∧ ''b'') (this operation is called symmetric difference in the case of sets and XOR in the case of logic) and ''a'' · ''b'' := ''a'' ∧ ''b''. The zero element of this ring coincides with the 0 of the Boolean algebra; the multiplicative identity element of the ring is the 1 of the Boolean algebra. This ring has the property that ''a'' · ''a'' = ''a'' for all ''a'' in ''A''; rings with this property are called Boolean rings.
+
+Conversely, if a Boolean ring ''A'' is given, we can turn it into a Boolean algebra by defining ''x'' ∨ ''y'' := ''x'' + ''y'' + (''x'' · ''y'') and ''x'' ∧ ''y'' := ''x'' · ''y''.
+
+Since these two constructions are inverses of each other, we can say that every Boolean ring arises from a Boolean algebra, and vice versa. Furthermore, a map ''f'' : ''A'' → ''B'' is a homomorphism of Boolean algebras if and only if it is a homomorphism of Boolean rings. The categories of Boolean rings and Boolean algebras are equivalent.
+
+Hsiang (1985) gave a rule-based algorithm to check whether two arbitrary expressions denote the same value in every Boolean ring.
+
+More generally, Boudet, Jouannaud, and Schmidt-Schauß (1989) gave an algorithm to solve equations between arbitrary Boolean-ring expressions.
+Employing the similarity of Boolean rings and Boolean algebras, both algorithms have applications in automated theorem proving.
+ 
+An ''ideal'' of the Boolean algebra ''A'' is a subset ''I'' such that for all ''x'', ''y'' in ''I'' we have ''x'' ∨ ''y'' in ''I'' and for all ''a'' in ''A'' we have ''a'' ∧ ''x'' in ''I''. This notion of ideal coincides with the notion of ring ideal in the Boolean ring ''A''. An ideal ''I'' of ''A'' is called ''prime'' if ''I'' ≠ ''A'' and if ''a'' ∧ ''b'' in ''I'' always implies ''a'' in ''I'' or ''b'' in ''I''. Furthermore, for every ''a'' ∈ ''A'' we have that ''a'' ∧ ''-a'' = 0 ∈ ''I'' and then ''a'' ∈ ''I'' or ''-a'' ∈ ''I'' for every ''a'' ∈ ''A'', if ''I'' is prime. An ideal ''I'' of ''A'' is called ''maximal'' if ''I'' ≠ ''A'' and if the only ideal properly containing ''I'' is ''A'' itself. For an ideal ''I'', if ''a'' ∉ ''I'' and ''-a'' ∉ ''I'', then ''I'' ∪ {''a''} or ''I'' ∪ {''-a''} is properly contained in another ideal ''J''. Hence, that an ''I'' is not maximal and therefore the notions of prime ideal and maximal ideal are equivalent in Boolean algebras. Moreover, these notions coincide with ring theoretic ones of prime ideal and maximal ideal in the Boolean ring ''A''.
+
+The dual of an ''ideal'' is a ''filter''. A ''filter'' of the Boolean algebra ''A'' is a subset ''p'' such that for all ''x'', ''y'' in ''p'' we have ''x'' ∧ ''y'' in ''p'' and for all ''a'' in ''A'' we have ''a'' ∨ ''x'' in ''p''. The dual of a ''maximal'' (or ''prime'') ''ideal'' in a Boolean algebra is ''ultrafilter''. Ultrafilters can alternatively be described as 2-valued morphisms from ''A'' to the two-element Boolean algebra. The statement ''every filter in a Boolean algebra can be extended to an ultrafilter'' is called the ''Ultrafilter Theorem'' and cannot be proven in ZF, if ZF is consistent. Within ZF, it is strictly weaker than the axiom of choice.
+The Ultrafilter Theorem has many equivalent formulations: ''every Boolean algebra has an ultrafilter'', ''every ideal in a Boolean algebra can be extended to a prime ideal'', etc.
+ 
+It can be shown that every ''finite'' Boolean algebra is isomorphic to the Boolean algebra of all subsets of a finite set.  Therefore, the number of elements of every finite Boolean algebra is a power of two.
+
+Stone's celebrated ''representation theorem for Boolean algebras'' states that ''every'' Boolean algebra ''A'' is isomorphic to the Boolean algebra of all clopen sets in some (compact totally disconnected Hausdorff) topological space.
+ 
+
+
+
+ '''Proven properties'''
+
+
+
+
+
+
+
+ '''UId1''' 
+
+   
+
+ If ''x'' ∨ ''o'' = ''x'' for all ''x'', then ''o'' = 0
+
+
+
+ Proof:      
+
+    
+
+ If ''x'' ∨ ''o'' = ''x'', then
+
+
+
+             
+
+  
+
+ 0
+
+
+
+             
+
+ = 
+
+ 0 ∨ ''o'' 
+
+ by assumption
+
+
+
+             
+
+ = 
+
+ ''o'' ∨ 0 
+
+ by '''Cmm1'''
+
+
+
+             
+
+ = 
+
+ ''o'' 
+
+ by '''Idn1'''
+
+
+
+ '''UId2'''   dual   If ''x'' ∧ ''i'' = ''x'' for all ''x'', then ''i'' = 1
+
+
+
+
+
+
+
+ '''Idm1''' 
+
+   
+
+ ''x'' ∨ ''x'' = ''x''
+
+
+
+ Proof:      
+
+   
+
+ ''x'' ∨ ''x''
+
+
+
+             
+
+ = 
+
+ (''x'' ∨ ''x'') ∧ 1 
+
+ by '''Idn2'''
+
+
+
+             
+
+ = 
+
+ (''x'' ∨ ''x'') ∧ (''x'' ∨ ¬''x'') 
+
+ by '''Cpl1'''
+
+
+
+             
+
+ = 
+
+ ''x'' ∨ (''x'' ∧ ¬''x'') 
+
+ by '''Dst1'''
+
+
+
+             
+
+ = 
+
+ ''x'' ∨ 0 
+
+ by '''Cpl2'''
+
+
+
+             
+
+ = 
+
+ ''x'' 
+
+ by '''Idn1'''
+
+
+
+ '''Idm2'''   dual   ''x'' ∧ ''x'' = ''x''
+
+
+
+
+
+
+
+ '''Bnd1''' 
+
+   
+
+ ''x'' ∨ 1 = 1
+
+
+
+ Proof:      
+
+   
+
+ ''x'' ∨ 1
+
+
+
+             
+
+ = 
+
+ (''x'' ∨ 1) ∧ 1 
+
+ by '''Idn2'''
+
+
+
+             
+
+ = 
+
+ 1 ∧ (''x'' ∨ 1) 
+
+ by '''Cmm2'''
+
+
+
+             
+
+ = 
+
+ (''x'' ∨ ¬''x'') ∧ (''x'' ∨ 1) 
+
+ by '''Cpl1'''
+
+
+
+             
+
+ = 
+
+ ''x'' ∨ (¬''x'' ∧ 1) 
+
+ by '''Dst1'''
+
+
+
+             
+
+ = 
+
+ ''x'' ∨ ¬''x'' 
+
+ by '''Idn2'''
+
+
+
+             
+
+ = 
+
+ 1 
+
+ by '''Cpl1'''
+
+
+
+ '''Bnd2'''   dual   ''x'' ∧ 0 = 0
+
+
+
+
+
+
+
+ '''Abs1'''  
+
+   
+
+ ''x'' ∨ (''x'' ∧ ''y'')  = ''x''
+
+
+
+ Proof:      
+
+   
+
+ ''x'' ∨ (''x'' ∧ ''y'')
+
+
+
+             
+
+ = 
+
+ (''x'' ∧ 1) ∨ (''x'' ∧ ''y'') 
+
+ by '''Idn2'''
+
+
+
+             
+
+ = 
+
+ ''x'' ∧ (1 ∨ ''y'') 
+
+ by '''Dst2'''
+
+
+
+             
+
+ = 
+
+ ''x'' ∧ (''y'' ∨ 1) 
+
+ by '''Cmm1'''
+
+
+
+             
+
+ = 
+
+ ''x'' ∧ 1 
+
+ by '''Bnd1'''
+
+
+
+             
+
+ = 
+
+ ''x'' 
+
+ by '''Idn2'''
+
+
+
+ '''Abs2'''   dual   ''x'' ∧ (''x'' ∨ ''y'') = ''x''
+
+
+
+
+
+
+
+ '''UNg'''  
+
+   
+
+ If ''x'' ∨ ''x''n = 1 and ''x'' ∧ ''x''n = 0, then ''x''n = ¬''x''
+
+
+
+ Proof:      
+
+   
+
+ If ''x'' ∨ ''x''n = 1 and ''x'' ∧ ''x''n = 0, then
+
+
+
+             
+
+   
+
+''x''n
+
+
+
+             
+
+ = 
+
+ ''x''n ∧ 1 
+
+ by '''Idn2'''
+
+
+
+             
+
+ = 
+
+ ''x''n ∧ (''x'' ∨ ¬''x'') 
+
+ by '''Cpl1'''
+
+
+
+             
+
+ = 
+
+ (''x''n ∧ ''x'') ∨ (''x''n ∧ ¬''x'') 
+
+ by '''Dst2'''
+
+
+
+             
+
+ = 
+
+ (''x'' ∧ ''x''n) ∨ (¬''x'' ∧ ''x''n) 
+
+ by '''Cmm2'''
+
+
+
+             
+
+ = 
+
+ 0 ∨ (¬''x'' ∧ ''x''n) 
+
+ by assumption
+
+
+
+             
+
+ = 
+
+ (''x'' ∧ ¬''x'')  ∨ (¬''x'' ∧ ''x''n) 
+
+ by '''Cpl2'''
+
+
+
+             
+
+ = 
+
+ (¬''x'' ∧ ''x'')  ∨ (¬''x'' ∧ ''x''n) 
+
+ by '''Cmm2'''
+
+
+
+             
+
+ = 
+
+ ¬''x'' ∧ (''x'' ∨ ''x''n) 
+
+ by '''Dst2'''
+
+
+
+             
+
+ = 
+
+ ¬''x'' ∧ 1 
+
+ by assumption
+
+
+
+             
+
+ = 
+
+ ¬''x'' 
+
+ by '''Idn2'''
+
+
+
+
+
+
+
+
+
+ '''DNg'''  
+
+   
+
+ ¬¬''x'' = ''x''
+
+
+
+ Proof:      
+
+     
+
+ ¬''x'' ∨ ''x'' = ''x'' ∨ ¬''x'' = 1 
+
+ by '''Cmm1''', '''Cpl1'''
+
+
+
+             
+
+ and 
+
+ ¬''x'' ∧ ''x'' = ''x'' ∧ ¬''x'' = 0 
+
+ by '''Cmm2''', '''Cpl2'''
+
+
+
+             
+
+ hence 
+
+ ''x'' = ¬¬''x'' 
+
+ by '''UNg'''
+
+
+
+
+
+
+
+
+
+ '''A1'''  
+
+   
+
+ ''x'' ∨ (¬''x'' ∨ ''y'') = 1
+
+
+
+ Proof:      
+
+   
+
+ ''x'' ∨ (¬''x'' ∨ ''y'')
+
+
+
+             
+
+ = 
+
+ (''x'' ∨ (¬''x'' ∨ ''y'')) ∧ 1 
+
+ by '''Idn2'''
+
+
+
+             
+
+ = 
+
+ 1 ∧ (''x'' ∨ (¬''x'' ∨ ''y'')) 
+
+ by '''Cmm2'''
+
+
+
+             
+
+ = 
+
+ (''x'' ∨ ¬''x'') ∧ (''x'' ∨ (¬''x'' ∨ ''y'')) 
+
+ by '''Cpl1'''
+
+
+
+             
+
+ = 
+
+ ''x'' ∨ (¬''x'' ∧ (¬''x'' ∨ ''y'')) 
+
+ by '''Dst1'''
+
+
+
+             
+
+ = 
+
+ ''x'' ∨ ¬''x'' 
+
+ by '''Abs2'''
+
+
+
+             
+
+ = 
+
+ 1 
+
+ by '''Cpl1'''
+
+
+
+ '''A2'''   dual   ''x'' ∧ (¬''x'' ∧ ''y'') = 0
+
+
+
+
+
+
+
+ '''B1'''  
+
+   
+
+ (''x'' ∨ ''y'') ∨ (¬''x'' ∧ ¬''y'') = 1
+
+
+
+ Proof:      
+
+   
+
+ (''x'' ∨ ''y'') ∨ (¬''x'' ∧ ¬''y'')
+
+
+
+             
+
+ = 
+
+ ((''x'' ∨ ''y'') ∨ ¬''x'') ∧ ((''x'' ∨ ''y'') ∨  ¬''y'') 
+
+ by '''Dst1'''
+
+
+
+             
+
+ = 
+
+ (¬''x'' ∨ (''x'' ∨ ''y'')) ∧ (¬''y'' ∨ (''y'' ∨ ''x'')) 
+
+ by '''Cmm1'''
+
+
+
+             
+
+ = 
+
+ (¬''x'' ∨ (¬¬''x'' ∨ ''y'')) ∧ (¬''y'' ∨ (¬¬''y'' ∨ ''x'')) 
+
+ by '''DNg'''
+
+
+
+             
+
+ = 
+
+ 1 ∧ 1 
+
+ by '''A1'''
+
+
+
+             
+
+ = 
+
+ 1 
+
+ by '''Idn2'''
+
+
+
+ '''B2'''   dual   (''x'' ∧ ''y'') ∧ (¬''x'' ∨ ¬''y'') = 0
+
+
+
+
+
+
+
+ '''C1'''  
+
+   
+
+ (''x'' ∨ ''y'') ∧ (¬''x'' ∧ ¬''y'') = 0
+
+
+
+ Proof:      
+
+   
+
+ (''x'' ∨ ''y'') ∧ (¬''x'' ∧ ¬''y'')
+
+
+
+             
+
+ = 
+
+ (¬''x'' ∧ ¬''y'') ∧ (''x'' ∨ ''y'') 
+
+ by '''Cmm2'''
+
+
+
+             
+
+ = 
+
+ ((¬''x'' ∧ ¬''y'') ∧ ''x'') ∨ ((¬''x'' ∧ ¬''y'') ∧ ''y'') 
+
+ by '''Dst2'''
+
+
+
+             
+
+ = 
+
+ (''x'' ∧ (¬''x'' ∧ ¬''y'')) ∨ (''y'' ∧ (¬''y'' ∧ ¬''x'')) 
+
+ by '''Cmm2'''
+
+
+
+             
+
+ = 
+
+ 0 ∨ 0 
+
+ by '''A2'''
+
+
+
+             
+
+ = 
+
+ 0 
+
+ by '''Idn1'''
+
+
+
+ '''C2'''   dual   (''x'' ∧ ''y'') ∨ (¬''x'' ∨ ¬''y'') = 1
+
+
+
+
+
+
+
+ '''DMg1'''  
+
+   
+
+ ¬(''x'' ∨ ''y'') = ¬''x'' ∧ ¬''y''
+
+
+
+ Proof:      
+
+   
+
+ by '''B1''', '''C1''', and '''UNg'''
+
+
+
+ '''DMg2'''   dual   ¬(''x'' ∧ ''y'') = ¬''x'' ∨ ¬''y''
+
+
+
+
+
+
+
+ '''D1'''  
+
+   
+
+ (''x''∨(''y''∨''z'')) ∨ ¬''x'' = 1
+
+
+
+ Proof:      
+
+   
+
+ (''x'' ∨ (''y'' ∨ ''z'')) ∨ ¬''x''
+
+
+
+             
+
+ = 
+
+ ¬''x'' ∨ (''x'' ∨ (''y'' ∨ ''z'')) 
+
+ by '''Cmm1'''
+
+
+
+             
+
+ = 
+
+ ¬''x'' ∨ (¬¬''x'' ∨ (''y'' ∨ ''z'')) 
+
+ by '''DNg'''
+
+
+
+             
+
+ = 
+
+ 1 
+
+ by '''A1'''
+
+
+
+ '''D2'''   dual   (''x''∧(''y''∧''z'')) ∧ ¬''x'' = 0
+
+
+
+
+
+
+
+ '''E1'''  
+
+   
+
+ ''y'' ∧ (''x''∨(''y''∨''z'')) = ''y''
+
+
+
+ Proof:      
+
+   
+
+ ''y'' ∧ (''x'' ∨ (''y'' ∨ ''z''))
+
+
+
+             
+
+ = 
+
+ (''y'' ∧ ''x'') ∨ (''y'' ∧ (''y'' ∨ ''z'')) 
+
+ by '''Dst2'''
+
+
+
+             
+
+ = 
+
+ (''y'' ∧ ''x'') ∨ ''y'' 
+
+ by '''Abs2'''
+
+
+
+             
+
+ = 
+
+ ''y'' ∨ (''y'' ∧ ''x'') 
+
+ by '''Cmm1'''
+
+
+
+             
+
+ = 
+
+ ''y'' 
+
+ by '''Abs1'''
+
+
+
+ '''E2'''   dual   ''y'' ∨ (''x''∧(''y''∧''z'')) = ''y''
+
+
+
+
+
+
+
+ '''F1'''  
+
+   
+
+ (''x''∨(''y''∨''z'')) ∨ ¬''y'' = 1
+
+
+
+ Proof:      
+
+   
+
+ (''x'' ∨ (''y'' ∨ ''z'')) ∨ ¬''y''
+
+
+
+             
+
+ = 
+
+ ¬''y'' ∨ (''x'' ∨ (''y'' ∨ ''z'')) 
+
+ by '''Cmm1'''
+
+
+
+             
+
+ = 
+
+ (¬''y'' ∨ (''x'' ∨ (''y'' ∨ ''z''))) ∧ 1 
+
+ by '''Idn2'''
+
+
+
+             
+
+ = 
+
+ 1 ∧ (¬''y'' ∨ (''x'' ∨ (''y'' ∨ ''z''))) 
+
+ by '''Cmm2'''
+
+
+
+             
+
+ = 
+
+ (''y'' ∨ ¬''y'') ∧ (¬''y'' ∨ (''x'' ∨ (''y'' ∨ ''z''))) 
+
+ by '''Cpl1'''
+
+
+
+             
+
+ = 
+
+ (¬''y'' ∨ ''y'') ∧ (¬''y'' ∨ (''x'' ∨ (''y'' ∨ ''z''))) 
+
+ by '''Cmm1'''
+
+
+
+             
+
+ = 
+
+ ¬''y'' ∨ (''y'' ∧ (''x'' ∨ (''y'' ∨ ''z''))) 
+
+ by '''Dst1'''
+
+
+
+             
+
+ = 
+
+ ¬''y'' ∨ ''y'' 
+
+ by '''E1'''
+
+
+
+             
+
+ = 
+
+ ''y'' ∨ ¬''y'' 
+
+ by '''Cmm1'''
+
+
+
+             
+
+ = 
+
+ 1 
+
+ by '''Cpl1'''
+
+
+
+ '''F2'''   dual   (''x''∧(''y''∧''z'')) ∧ ¬''y'' = 0
+
+
+
+
+
+
+
+ '''G1'''  
+
+   
+
+ (''x''∨(''y''∨''z'')) ∨ ¬''z'' = 1
+
+
+
+ Proof:      
+
+   
+
+ (''x'' ∨ (''y'' ∨ ''z'')) ∨ ¬''z''
+
+
+
+             
+
+ = 
+
+ (''x'' ∨ (''z'' ∨ ''y'')) ∨ ¬''z'' 
+
+ by '''Cmm1'''
+
+
+
+             
+
+ = 
+
+ 1 
+
+ by '''F1'''
+
+
+
+ '''G2'''   dual     (''x''∧(''y''∧''z'')) ∧ ¬''z'' = 0
+
+
+
+
+
+
+
+ '''H1'''  
+
+   
+
+ ¬((''x''∨''y'')∨''z'') ∧ ''x'' = 0
+
+
+
+ Proof:      
+
+   
+
+ ¬((''x'' ∨ ''y'') ∨ ''z'') ∧ ''x''
+
+
+
+             
+
+ = 
+
+ (¬(''x'' ∨ ''y'') ∧ ¬''z'') ∧ ''x'' 
+
+ by '''DMg1'''
+
+
+
+             
+
+ = 
+
+ ((¬''x'' ∧ ¬''y'') ∧ ¬''z'') ∧ ''x'' 
+
+ by '''DMg1'''
+
+
+
+             
+
+ = 
+
+ ''x'' ∧ ((¬''x'' ∧ ¬''y'') ∧ ¬''z'') 
+
+ by '''Cmm2'''
+
+
+
+             
+
+ = 
+
+ (''x'' ∧ ((¬''x'' ∧ ¬''y'') ∧ ¬''z'')) ∨ 0 
+
+ by '''Idn1'''
+
+
+
+             
+
+ = 
+
+ 0 ∨ (''x'' ∧ ((¬''x'' ∧ ¬''y'') ∧ ¬''z'')) 
+
+ by '''Cmm1'''
+
+
+
+             
+
+ = 
+
+ (''x'' ∧ ¬''x'') ∨ (''x'' ∧ ((¬''x'' ∧ ¬''y'') ∧ ¬''z'')) 
+
+ by '''Cpl1'''
+
+
+
+             
+
+ = 
+
+ ''x'' ∧ (¬''x'' ∨ ((¬''x'' ∧ ¬''y'') ∧ ¬''z'')) 
+
+ by '''Dst2'''
+
+
+
+             
+
+ = 
+
+ ''x'' ∧ (¬''x'' ∨ (¬''z'' ∧ (¬''x'' ∧ ¬''y''))) 
+
+ by '''Cmm2'''
+
+
+
+             
+
+ = 
+
+ ''x'' ∧ ¬''x'' 
+
+ by '''E2'''
+
+
+
+             
+
+ = 
+
+ 0 
+
+ by '''Cpl2'''
+
+
+
+ '''H2'''   dual     ¬((''x''∧''y'')∧''z'') ∨ ''x'' = 1
+
+
+
+
+
+
+
+ '''I1'''  
+
+   
+
+ ¬((''x''∨''y'')∨''z'') ∧ ''y'' = 0
+
+
+
+ Proof:      
+
+   
+
+ ¬((''x'' ∨ ''y'') ∨ ''z'') ∧ ''y''
+
+
+
+             
+
+ = 
+
+ ¬((''y'' ∨ ''x'') ∨ ''z'') ∧ ''y'' 
+
+ by '''Cmm1'''
+
+
+
+             
+
+ = 
+
+ 0 
+
+ by '''H1'''
+
+
+
+ '''I2'''   dual     ¬((''x''∧''y'')∧''z'') ∨ ''y'' = 1
+
+
+
+
+
+
+
+ '''J1'''  
+
+   
+
+ ¬((''x''∨''y'')∨''z'') ∧ ''z'' = 0
+
+
+
+ Proof:      
+
+   
+
+ ¬((''x'' ∨ ''y'') ∨ ''z'') ∧ ''z''
+
+
+
+             
+
+ = 
+
+ (¬(''x'' ∨ ''y'') ∧ ¬''z'') ∧ ''z'' 
+
+ by '''DMg1'''
+
+
+
+             
+
+ = 
+
+ ''z'' ∧ (¬(''x'' ∨ ''y'') ∧ ¬''z'') 
+
+ by '''Cmm2'''
+
+
+
+             
+
+ = 
+
+ ''z'' ∧ ( ¬''z'' ∧ ¬(''x'' ∨ ''y'')) 
+
+ by '''Cmm2'''
+
+
+
+             
+
+ = 
+
+ 0 
+
+ by '''A2'''
+
+
+
+ '''J2'''   dual     ¬((''x''∧''y'')∧''z'') ∨ ''z'' = 1
+
+
+
+
+
+
+
+ '''K1'''  
+
+   
+
+ (''x'' ∨ (''y'' ∨ ''z'')) ∨ ¬((''x'' ∨ ''y'') ∨ ''z'') = 1
+
+
+
+ Proof:      
+
+   
+
+ (''x''∨(''y''∨''z'')) ∨ ¬((''x'' ∨ ''y'') ∨ ''z'')
+
+
+
+             
+
+ = 
+
+ (''x''∨(''y''∨''z'')) ∨ (¬(''x'' ∨ ''y'') ∧ ¬''z'') 
+
+ by '''DMg1'''
+
+
+
+             
+
+ = 
+
+ (''x''∨(''y''∨''z'')) ∨ ((¬''x'' ∧ ¬''y'') ∧ ¬''z'') 
+
+ by '''DMg1'''
+
+
+
+             
+
+ = 
+
+ ((''x''∨(''y''∨''z'')) ∨ (¬''x'' ∧ ¬''y'')) ∧  ((''x''∨(''y''∨''z'')) ∨ ¬''z'')
+
+ by '''Dst1'''
+
+
+
+             
+
+ = 
+
+ (((''x''∨(''y''∨''z'')) ∨ ¬''x'') ∧ ((''x''∨(''y''∨''z'')) ∨ ¬''y'')) ∧  ((''x''∨(''y''∨''z'')) ∨ ¬''z'')
+
+ by '''Dst1'''
+
+
+
+             
+
+ = 
+
+ (1 ∧ 1) ∧ 1 
+
+ by '''D1''','''F1''','''G1'''
+
+
+
+             
+
+ = 
+
+ 1 
+
+ by '''Idn2'''
+
+
+
+ '''K2'''   dual     (''x'' ∧ (''y'' ∧ ''z'')) ∧ ¬((''x'' ∧ ''y'') ∧ ''z'') = 0
+
+
+
+
+
+
+
+ '''L1'''  
+
+   
+
+ (''x'' ∨ (''y'' ∨ ''z'')) ∧ ¬((''x'' ∨ ''y'') ∨ ''z'') = 0
+
+
+
+ Proof:      
+
+   
+
+ (''x'' ∨ (''y'' ∨ ''z'')) ∧ ¬((''x'' ∨ ''y'') ∨ ''z'')
+
+
+
+             
+
+ = 
+
+ ¬((''x''∨''y'')∨''z'') ∧ (''x'' ∨ (''y'' ∨ ''z'')) 
+
+ by '''Cmm2'''
+
+
+
+             
+
+ = 
+
+ (¬((''x''∨''y'')∨''z'') ∧ ''x'') ∨ (¬((''x''∨''y'')∨''z'') ∧ (''y'' ∨ ''z'')) 
+
+ by '''Dst2'''
+
+
+
+             
+
+ = 
+
+ (¬((''x''∨''y'')∨''z'') ∧ ''x'') ∨ ((¬((''x''∨''y'')∨''z'') ∧ ''y'') ∨ (¬((''x''∨''y'')∨''z'') ∧ ''z'')) 
+
+ by '''Dst2'''
+
+
+
+             
+
+ = 
+
+ 0 ∨ (0 ∨ 0) 
+
+ by '''H1''','''I1''','''J1'''
+
+
+
+             
+
+ = 
+
+ 0 
+
+ by '''Idn1'''
+
+
+
+ '''L2'''   dual    (''x'' ∧ (''y'' ∧ ''z'')) ∨ ¬((''x'' ∧ ''y'') ∧ ''z'') = 1
+
+
+
+
+
+
+
+ '''Ass1'''  
+
+   
+
+ ''x'' ∨ (''y'' ∨ ''z'') = (''x'' ∨ ''y'') ∨ ''z''
+
+
+
+ Proof:      
+
+   
+
+ by '''K1''', '''L1''', '''UNg''', '''DNg'''
+
+
+
+ '''Ass2'''   dual     ''x'' ∧ (''y'' ∧ ''z'') = (''x'' ∧ ''y'') ∧ ''z''
+
+
+
+
+
+
+
+
+
+ Abbreviations
+
+
+
+ '''UId''' 
+
+  Unique Identity
+
+
+
+ '''Idm''' 
+
+ Idempotence
+
+
+
+ '''Bnd''' 
+
+ Boundaries
+
+
+
+ '''Abs''' 
+
+ Absorption law
+
+
+
+ '''UNg''' 
+
+  Unique Negation
+
+
+
+ '''DNg''' 
+
+ Double negation
+
+
+
+ '''DMg''' 
+
+ De Morgan's Law
+
+
+
+ '''Ass''' 
+
+ Associativity
+
+
+
+
+
+
+
+ '''Huntington 1904 Boolean algebra axioms'''
+
+
+
+ '''Idn1'''  
+
+ ''x'' ∨ 0 = ''x''
+
+ '''Idn2'''  
+
+ ''x'' ∧ 1 = ''x''
+
+
+
+ '''Cmm1''' 
+
+ ''x'' ∨ ''y'' = ''y'' ∨ ''x''
+
+ '''Cmm2''' 
+
+ ''x'' ∧ ''y'' = ''y'' ∧ ''x''
+
+
+
+ '''Dst1'''  
+
+ ''x'' ∨ (''y''∧''z'') = (''x''∨''y'') ∧ (''x''∨''z'')
+
+ '''Dst2'''  
+
+ ''x'' ∧ (''y''∨''z'') = (''x''∧''y'') ∨ (''x''∧''z'')
+
+
+
+ '''Cpl1'''   
+
+ ''x'' ∨ ¬''x'' = 1
+
+ '''Cpl2'''   
+
+ ''x'' ∧ ¬''x'' = 0
+
+
+
+
+
+
+
+
+
+ Abbreviations
+
+
+
+ '''Idn''' 
+
+ Identity
+
+
+
+ '''Cmm''' 
+
+ Commutativity
+
+
+
+ '''Dst''' 
+
+ Distributivity
+
+
+
+ '''Cpl''' 
+
+ Complements
+
+
+
+
+
+The first axiomatization of Boolean lattices/algebras in general was given by the English philosopher and mathematician Alfred North Whitehead in 1898.
+It included the above axioms and additionally ''x''∨1=1 and ''x''∧0=0.
+In 1904, the American mathematician Edward V. Huntington (1874–1952) gave probably the most parsimonious axiomatization based on ∧, ∨, ¬, even proving the associativity laws (see box).
+He also proved that these axioms are independent of each other.
+In 1933, Huntington set out the following elegant axiomatization for Boolean algebra.  It requires just one binary operation + and a unary functional symbol ''n'', to be read as 'complement', which satisfy the following laws:
+
+# ''Commutativity'': ''x'' + ''y'' = ''y'' + ''x''.
+# ''Associativity'': (''x'' + ''y'') + ''z'' = ''x'' + (''y'' + ''z'').
+# ''Huntington equation'': ''n''(''n''(''x'') + ''y'') + ''n''(''n''(''x'') + ''n''(''y'')) = ''x''.
+
+Herbert Robbins immediately asked: If the Huntington equation is replaced with its dual, to wit:
+
+:4. ''Robbins Equation'': ''n''(''n''(''x'' + ''y'') + ''n''(''x'' + ''n''(''y''))) = ''x'',
+
+do (1), (2), and (4) form a basis for Boolean algebra? Calling (1), (2), and (4) a ''Robbins algebra'', the question then becomes: Is every Robbins algebra a Boolean algebra? This question (which came to be known as the Robbins conjecture) remained open for decades, and became a favorite question of Alfred Tarski and his students. In 1996, William McCune at Argonne National Laboratory, building on earlier work by Larry Wos, Steve Winker, and Bob Veroff, answered Robbins's question in the affirmative: Every Robbins algebra is a Boolean algebra. Crucial to McCune's proof was the automated reasoning program EQP he designed. For a simplification of McCune's proof, see Dahn (1998).
+
+Further work has been done for reducing the number of axioms; see Minimal axioms for Boolean algebra.
+
+
+ 
+
+
+
+ 
+
+
+Removing the requirement of existence of a unit from the axioms of Boolean algebra yields "generalized Boolean algebras". Formally, a distributive lattice ''B'' is a generalized Boolean lattice, if it has a smallest element 0 and for any elements ''a'' and ''b'' in ''B'' such that ''a'' ≤ ''b'', there exists an element ''x'' such that a ∧ x = 0 and a ∨ x = b. Defining a ∖ b as the unique ''x'' such that (a ∧ b) ∨ x = a and (a ∧ b) ∧ x = 0, we say that the structure (B,∧,∨,∖,0) is a ''generalized Boolean algebra'', while (B,∨,0) is a ''generalized Boolean semilattice''. Generalized Boolean lattices are exactly the ideals of Boolean lattices.
+
+A structure that satisfies all axioms for Boolean algebras except the two distributivity axioms is called an orthocomplemented lattice. Orthocomplemented lattices arise naturally in quantum logic as lattices of closed subspaces for separable Hilbert spaces.
+ 
+ 
+ *. See Section 2.5.
+*
+*
+*. See Chapter 2.
+*.
+*
+*.
+*.
+*.
+*
+*
+*.
+*.
+*.
+*. In 3 volumes. (Vol.1:, Vol.2:, Vol.3:)
+*.
+*.
+*. Reprinted by Dover Publications, 1979.
+*
+*
+ * 
+* Stanford Encyclopedia of Philosophy: " The Mathematics of Boolean Algebra," by J. Donald Monk.
+* McCune W., 1997. '' Robbins Algebras Are Boolean'' JAR 19(3), 263—276
+*  "Boolean Algebra" by Eric W. Weisstein, Wolfram Demonstrations Project, 2007.
+* Burris, Stanley N.; Sankappanavar, H. P., 1981. '' A Course in Universal Algebra.''  Springer-Verlag. .
+* 
+
+
+
+

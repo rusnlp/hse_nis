@@ -1,59 +1,43 @@
 import os
 import glob
 import re
-
+import numpy as np
+import logging
+logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
+import sys
+from preprocess import unify_sym, process #https://github.com/akutuzov/webvectors/blob/master/preprocessing/rus_preprocessing_udpipe.py
+from ufal.udpipe import Model, Pipeline
 from nltk.corpus import stopwords
 stop = stopwords.words('russian')
-from pymystem3.mystem import Mystem
-myst = Mystem()
-
 from gensim.models import KeyedVectors
-import numpy as np
-
 from sklearn.metrics.pairwise import cosine_similarity
-
 from tqdm import tqdm # визуализация в виде прогресс-бара
+from ufal.udpipe import Model, Pipeline
+
+
+ru_model_path = 'models\\ru_syntagrus.udpipe'
+ru_model = Model.load(ru_model_path)
+ru_process_pipeline = Pipeline(ru_model, 'tokenize', Pipeline.DEFAULT, Pipeline.DEFAULT, 'conllu')
+
 
 
     # ПРЕДОБРАБОТКА
 
-# словарь конвертации майстемовских тегов в теги universal
-conv = {'A':      'ADJ',
-        'ADV':    'ADV',
-        'ADVPRO': 'ADV',
-        'ANUM':   'ADJ',
-        'APRO':   'DET',
-        'COM':    'ADJ',
-        'CONJ':   'SCONJ',
-        'INTJ':   'INTJ',
-        'NONLEX': 'X',
-        'NUM':    'NUM',
-        'PART':   'PART',
-        'PR':     'ADP',
-        'S':      'NOUN',
-        'SPRO':   'PRON',
-        'UNKN':   'X',
-        'V':      'VERB'}
+def udpipe_process(string, lang, keep_pos=True, keep_punct=False):
+    # принимает строку, возвращает список токенов
+    res = unify_sym(string.strip())
+    if lang == 'ru':
+        output = process(ru_process_pipeline, res, keep_pos, keep_punct)
+    return output
+
 
 # Превращаем список токенов в список лемм с pos-тегами (этот формат нужен для предобученной модели с rusvectores)
 def lemmas(tokens):
     lems = [] # список лемма_pos
     for token in tokens: # для каждого токена в списке токенов
         if token.isalpha() and token not in stop: # слово, но не стоп-слово
-            #lem = myst.lemmatize(token)[0] # альтернативный способ получать леммы, но только их
-            #print(lem)
-            analiz = myst.analyze(token)[0]  # анализируем слово
-            #print(analiz)
-            if analiz['analysis']:  # если у майстема есть варианты разбора для токена
-                lem = analiz['analysis'][0]['lex'] # берём из анализа лемму (там в по ключу берётся список, в котором только один элемент -- словарь)
-                #print(lem)
-                gram = re.findall('\w+', analiz['analysis'][0]['gr'])  # получаем все граммемы из анализа
-                #print(gram)
-                pos = gram[0] # первая граммема -- часть речи
-                ud_pos = conv.get(pos) # конвертируем майстемовский тег в формат universal
-                #print(pos, ud_pos)
-                lems.append('{}_{}'.format(lem, ud_pos)) # сохраняем в список лемма_pos
-
+            analiz = udpipe_process(token, lang='ru', keep_pos=True)  # анализируем слово
+            lems += analiz
     return lems
 
 # Предобработка каждого текста в списке файлов и получение списка лемм для каждого
@@ -65,10 +49,9 @@ def process_corpus(files):
         tokens = [word.replace('́', '') for word in re.findall('\w+́?\w+', text)] # ловим слова (в т.ч. с ударениями) и удаляем ударения, если есть
         #print(tokens)
         # превращаем список токенов в список лемм с pos-тегами
-        lems = lemmas(tokens[:5]) #\\ возьмём первые n токенов для скорости
+        lems = lemmas(tokens)
         #print(lems)
         corpus.append(lems) # добавляем список лемм в корпус
-
     return corpus
 
 
@@ -92,9 +75,8 @@ def vectorize_text(tokens):
 def vectorize_corpus(corpus):
     corpus_vecs = [] # список [[вектор текста 1], [вектор текста 2], [...]]
     for text in corpus: # для каждого текста в корпусе
-        t_vec = vectorize_text(text) # получаем вектор для текста
+        t_vec = vectorize_text(text) # получаем вектор для текста'
         corpus_vecs.append(t_vec) # добавляем вектор текста в список векторов
-
     return corpus_vecs
 
 
@@ -116,28 +98,29 @@ def search_similar(text, corpus_vecs): # подаём текст как спис
 def rating(similars): # принимаем словарь близостей
     similars = sorted(similars.items(), key=lambda tup: tup[1], reverse=True) # сортируем словарь по значениям в порядке убывания: сортируем список кортежей (key, value) по value
     # similars: [(i, sim), (j, sim), (...)]
-    for i, item in enumerate(similars): # для индекса, кортежа в similars
-        print('{}. {}.txt ({})'.format(i+1, item[0], item[1])) # принтим текст и его близость #i+1, т.к. нумерация с 0
-
+    similars_list = []
+    for i, item in enumerate(similars):
+        similars_list += [('{}. {}.txt ({})'.format(i, item[0], item[1]))]
+    print(*(similars_list[1:11]))
+    return 0
 
 
 # получаем список файлов
-os.chdir('texts/ruwiki') # заходим в папку с текстами
-files = glob.glob('*.txt')[:5] # получаем список файлов txt #\\ для скорости взяли n текстов
+os.chdir('texts/ruwiki_named') # заходим в папку с текстами
+files = glob.glob('*.txt') # получаем список файлов txt #\\ для скорости взяли n текстов
 #print(files)
 
 corpus = process_corpus(files) # предобрабатываем текст
 #print(corpus)
-print()
 
 os.chdir('../../models') # заходим в папку с моделью
-w2v = KeyedVectors.load_word2vec_format('ru.bin', binary=True, encoding='utf-8') # подгружаем предобученную модель
+w2v = KeyedVectors.load_word2vec_format('rusvect.bin', binary=True, encoding='utf-8') # подгружаем предобученную модель
 #print(w2v.vector_size) # посмотреть размерность векторов
-
 corpus_vecs = vectorize_corpus(corpus) # векторизуем корпус
 #print(corpus_vecs.shape) # (corpus_size, dim)
 
-similars = search_similar(corpus[0], corpus_vecs) # рассчитываем близости текстов корпуса к данному тексту (взяли первый текст в корпусе)
-#print(similars)
 
-rating(similars) # отражировали тексты по близости
+similars = search_similar(corpus[0], corpus_vecs) # рассчитываем близости текстов корпуса к данному тексту (взяли первый текст в корпусе)
+
+if __name__ == "__main__":
+    rating(similars) # отражировали тексты по близости
