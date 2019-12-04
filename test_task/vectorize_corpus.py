@@ -14,7 +14,6 @@ import sys
 import zipfile
 from json import load as jload
 from pickle import dump as pdump
-
 import numpy as np
 from gensim import models
 from tqdm import tqdm
@@ -24,15 +23,14 @@ logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=lo
 
 # TODO: векторизовать на выбор: либо по списку слов, либо по множеству
 def vectorize_text(tokens, w2v):
-    words = [token for token in tokens if
-             token in w2v]  # составляем список токенов, которые есть в модели
+    # составляем список токенов, которые есть в модели:
+    words = [token for token in tokens if token in w2v]
     if not words:  # если ни одного слова нет в модели
         print('Я ничего не знаю из этих токенов: {}'.format(tokens), file=sys.stderr)
         return np.zeros(w2v.vector_size)  # возвращаем нули
     # заводим матрицу нужной размерности (кол-во слов, размерность предобученных векторв),
     # состоящую из нулей:
-    t_vecs = np.zeros((len(words),
-                       w2v.vector_size))
+    t_vecs = np.zeros((len(words), w2v.vector_size))
     for i, token in enumerate(words):  # для каждого слова
         t_vecs[i, :] = w2v.get_vector(token)  # получаем вектор из модели
     t_vec = np.sum(t_vecs, axis=0)  # суммируем вектора по столбцам
@@ -124,12 +122,13 @@ if __name__ == "__main__":
             # TODO: сделать генераторм?
             title = texts_mapping[i2lang].get(str(nr))
             # print(title)
-            lemmatized_text = lemmatized[
-                title]  # по номеру из маппинга берём название и находим его в леммах
+            # по номеру из маппинга берём название и находим его в леммах:
+            lemmatized_text = lemmatized[title]
             # print(text)
             lemmatized_corpus.append(lemmatized_text)
-        lemmatized_corpus = np.array(
-            lemmatized_corpus)  # \\будет так меньше места занимать, чем список?
+
+        # \\будет так меньше места занимать, чем список?
+        lemmatized_corpus = np.array(lemmatized_corpus)
         # print(corpus.shape) #(54,)
 
         emb_model = load_embeddings(args.model_path)
