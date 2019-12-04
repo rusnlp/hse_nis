@@ -12,6 +12,8 @@ echo 'Мама мыла раму.' | python3 rus_preprocessing_udpipe.py
 zcat large_corpus.txt.gz | python3 rus_preprocessing_udpipe.py | gzip > processed_corpus.txt.gz
 '''
 
+#TODO: собрать все теги с https://github.com/olesar/ruUD/blob/master/conversion/RussianUD_XPOSlist.md
+stop_pos = {'DET', 'SCONJ', 'INTJ', 'CCONJ', 'ADP', 'X', 'NUM', 'PART', 'PRON', 'AUX'}
 
 
 def num_replace(word):
@@ -59,6 +61,7 @@ def list_replace(search, replacement, text):
 
 
 def unify_sym(text):  # принимает строку в юникоде
+    # TODO: удалять ударения из слов, если ещё не
     text = list_replace \
         ('\u00AB\u00BB\u2039\u203A\u201E\u201A\u201C\u201F\u2018\u201B\u201D\u2019', '\u0022', text)
 
