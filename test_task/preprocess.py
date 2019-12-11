@@ -1,16 +1,18 @@
-import re
-
-'''
-Этот скрипт принимает на вход необработанный русский текст 
+"""
+Вспомогательный модуль, основанный на
+https://github.com/akutuzov/webvectors/blob/master/preprocessing/rus_preprocessing_udpipe.py
+Функция process принимает на вход необработанный русский текст
 (одно предложение на строку или один абзац на строку).
 Он токенизируется, лемматизируется и размечается по частям речи с использованием UDPipe.
-На выход подаётся последовательность разделенных пробелами лемм с частями речи 
-("зеленый_NOUN трамвай_NOUN").
-Их можно непосредственно использовать в моделях с RusVectōrēs (https://rusvectores.org).
-Примеры запуска:
-echo 'Мама мыла раму.' | python3 rus_preprocessing_udpipe.py
-zcat large_corpus.txt.gz | python3 rus_preprocessing_udpipe.py | gzip > processed_corpus.txt.gz
-'''
+На выход подаётся список лемм с частями речи ["зеленый_NOUN, трамвай_NOUN"],
+и пустой список, если в строке нет токенов, пригодных для разбора.
+
+Также есть множество функциональных чатей речи для фильтрации стоп-слов и
+функция унификации символов unicode.
+"""
+
+import re
+
 
 #TODO: собрать все теги с https://github.com/olesar/ruUD/blob/master/conversion/RussianUD_XPOSlist.md
 stop_pos = {'DET', 'SCONJ', 'INTJ', 'CCONJ', 'ADP', 'X', 'NUM', 'PART', 'PRON', 'AUX'}
@@ -113,7 +115,8 @@ def unify_sym(text):  # принимает строку в юникоде
 
     alphabet = list \
             (
-            '\t\n\r абвгдеёзжийклмнопрстуфхцчшщьыъэюяАБВГДЕЁЗЖИЙКЛМНОПРСТУФХЦЧШЩЬЫЪЭЮЯ,.[]{}()=+-−*&^%$#@!~;:0123456789§/\|"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ ')
+            '\t\n\r абвгдеёзжийклмнопрстуфхцчшщьыъэюяАБВГДЕЁЗЖИЙКЛМНОПРСТУФХЦЧШЩЬЫЪЭЮЯ,.[]{}()=+-−*&^%$#@!~;:0123456789§/\|"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ '
+        )
 
     alphabet.append("'")
 
