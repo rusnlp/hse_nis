@@ -21,6 +21,7 @@ valentinian ii.txt	valentinian i.txt
 valentinian iii.txt	valentinian i.txt
 aquarius (constellation).txt	gospel of john.txt
 geology.txt	geomorphology.txt
+geomorphology.txt	geology.txt
 gravity.txt	boomerang.txt
 blood type.txt	blood.txt
 gospel of john.txt	gospel of luke.txt
