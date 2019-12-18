@@ -16,6 +16,7 @@ from json import load as jload
 from pickle import dump as pdump
 
 import numpy as np
+from numpy.linalg import norm
 from gensim import models
 from tqdm import tqdm
 
@@ -71,14 +72,18 @@ def vectorize_text(tokens, w2v):
         t_vecs[i, :] = w2v.get_vector(token)  # получаем вектор из модели
     t_vec = np.sum(t_vecs, axis=0)  # суммируем вектора по столбцам
     t_vec = np.divide(t_vec, len(words))  # считаем средний вектор
+
     return t_vec  # возвращаем np.array размерноти (dim,)
 
 
 # Составляем список с векторами текстов для всего корпуса
-def vectorize_corpus(corpus, w2v):
+def vectorize_corpus(corpus, w2v, emb_dim):
     # TODO: делать np.array?
-    vectors = [vectorize_text(text, w2v) for text in tqdm(corpus)]
-    # список [[вектор текста 1], [вектор текста 2], [...]]
+    vectors = np.zeros((len(corpus), emb_dim))
+    for i, text in tqdm(enumerate(corpus)):
+        vectors[i, :] = vectorize_text(text, w2v)
+    # матрица [[вектор текста 1], [вектор текста 2], [...]]
+    vectors = vectors/norm(vectors, axis=1, keepdims=True) # нормализуем матрицу
     return vectors
 
 
@@ -132,9 +137,10 @@ if __name__ == "__main__":
             lemmatized_corpus.append(lemmatized_text)
 
         emb_model = load_embeddings(args.model_path)
+        emb_dim = emb_model.vector_size
         emb_model = emb_model.wv  # TODO: у Пети был deprecation warning
 
-        corpus_vecs = vectorize_corpus(lemmatized_corpus, emb_model)  # векторизуем корпус
+        corpus_vecs = vectorize_corpus(lemmatized_corpus, emb_model, emb_dim)  # векторизуем корпус
         # print(*(corpus_vecs))
         # print(len(corpus_vecs))
 

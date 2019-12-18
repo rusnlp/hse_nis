@@ -1,35 +1,32 @@
 """
-Считаем, что все тексты, которые ищем, априори добавлены в корпус, предобработаны, вектора для всего построены
+Считаем, что все тексты, которые ищем, априори добавлены в корпус, предобработаны,
+вектора для всего построены
 
 Подаём название текста, язык, путь к папке с текстами, путь к маппингу, тип модели, которой векторизовали,
 можно подать кол-во ближайших статей
 Получаем n ближайших записей в виде списка кортежей (заголовок, близость) -- напечатем рейтинг,
 если не сделали verbose=False
 
-python "mono-lang search.py" кровь ru texts/ruwiki texts/titles_mapping.json simple --included=True
-python "mono-lang search.py" blood en texts/enwiki texts/titles_mapping.json simple --included=True
-python "mono-lang search.py" blood en texts/enwiki texts/titles_mapping.json simple --top=10
+python "mono-lang_search.py" кровь ru texts/ruwiki texts/titles_mapping.json simple --included=True
+python "mono-lang_search.py" blood en texts/enwiki texts/titles_mapping.json simple --included=True
+python "mono-lang_search.py" blood en texts/enwiki texts/titles_mapping.json simple --top=10
 """
 
 import argparse
 from json import load as jload
 from pickle import load as pload
 
-from sklearn.metrics.pairwise import cosine_similarity
-from tqdm import tqdm
+import numpy as np
+from numpy.linalg import norm
 
 
 # Для каждого текста в корпусе считаем косинусную близость к данному
 def search_similar(target_vec, corpus_vecs):  # подаём текст как вектор и векторизованный корпус
-    similars = {}  # словарь {индекс текста в корпусе: близость к данному}
-    for i, v in tqdm(enumerate(corpus_vecs)):
-        # для индекса, вектора для каждого текста в корпусе
-        # для cosine_similarity придётся изменить размерность векторов (dim,) -> (1, dim),
-        # т.е. вместо [0 0 0 0] получаем [[0 0 0 0]]
-        # вычисляем косинусную близость для данного вектора и вектора текста
-        sim = cosine_similarity(target_vec.reshape(1, target_vec.shape[0]), v.reshape(1, v.shape[0]))
-        # print(sim)
-        similars[i] = sim[0][0]  # для индекса текста добавили его близость к данному в словарь
+    target_vec = target_vec/norm(target_vec) # нормализуем вектор текста
+    sim_vecs = np.dot(corpus_vecs, target_vec)
+    # словарь {индекс текста в корпусе: близость к данному}
+    similars = {i:sim for i, sim in enumerate(sim_vecs)}
+
     # print(similars)
     return similars
 
@@ -64,7 +61,8 @@ if __name__ == "__main__":
     parser.add_argument('mapping_path', type=str,
                         help='Файл маппинга заголовков в индексы и обратно в формате json')
     parser.add_argument('model_type', type=str,
-                        help='Краткое имя модели векторизации, чтобы не путать файлы. Будет использовано как имя pkl')
+                        help='Краткое имя модели векторизации, чтобы не путать файлы. '
+                             'Будет использовано как имя pkl')
     parser.add_argument('--included', type=bool, default=False,
                         help='Включена ли статья в корпус (default: False)')
     parser.add_argument('--top', type=int, default=1,
