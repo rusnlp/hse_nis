@@ -1,10 +1,10 @@
 """
-Принимаем на вход язык, путь к папке с корпусом, путь к модели с векторами и тип модели
+Принимаем на вход язык, путь к папке с корпусом, путь к модели с векторами и путь, куда сохранять векторизованный корпус
 (пока есть только simple)
-Сохраняем в той же папке pkl со списком векторов
+Сохраняем pkl со списком векторов
 
-python vectorize_corpus.py ru texts/ruwiki texts/titles_mapping.json models/ru.bin simple
-python vectorize_corpus.py en texts/enwiki texts/titles_mapping.json models/en.bin simple
+python vectorize_corpus.py --lang=ru --lemmatized_path=texts/ruwiki/lemmatized.json --mapping_path=texts/titles_mapping.json --model_embeddings_path=models/ru.bin --output_embeddings_path=texts/ruwiki/simple.pkl
+python vectorize_corpus.py --lang=en --lemmatized_path=texts/enwiki/lemmatized.json --mapping_path=texts/titles_mapping.json --model_embeddings_path=models/en.bin --output_embeddings_path=texts/enwiki/simple.pkl
 """
 
 import logging
@@ -21,6 +21,33 @@ from gensim import models
 from tqdm import tqdm
 
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(
+        description='Векторизация корпуса и сохранение его в pkl')
+    parser.add_argument('--lang', type=str, required=True,
+                        help='Язык, для которго разбираем, нужен для определения словаря в маппинге (ru/en)')
+    parser.add_argument('--lemmatized_path', type=str, required=True,
+                        help='Путь к файлу json, в котором хранятся лемматизированные файлы')
+    parser.add_argument('--mapping_path', type=str, required=True,
+                        help='Файл маппинга заголовков в индексы и обратно в формате json')
+    parser.add_argument('--model_embeddings_path', type=str, required=True,
+                        help='Путь к модели для векторизации корпуса')
+    parser.add_argument('--output_embeddings_path', type=str, required=True,
+                        help='Путь к файлу pkl, в котором будет лежать векторизованный корпус')
+    parser.add_argument('--no_duplicates', type=int, default=0,
+                        help='Брать ли для каждого типа в тексте вектор только по одному разу (0|1; default: 0)')
+
+    return parser.parse_args()
+
+
+class NotLemmatizedError(Exception):
+    def __init__(self):
+        self.text = 'Нечего векторизовать! Пожалуйста, сначала лемматизируйте тексты'
+
+    def __str__(self):
+        return repr(self.text)
 
 
 def load_embeddings(embeddings_file):
@@ -58,90 +85,75 @@ def load_embeddings(embeddings_file):
     return model
 
 
-# TODO: векторизовать на выбор: либо по списку слов, либо по множеству
-def vectorize_text(tokens, w2v):
-    # составляем список токенов, которые есть в модели
+def vectorize_text(tokens, w2v, no_duplicates):
+    # возвращаем нормализованный np.array размерноти (dim,)
     words = [token for token in tokens if token in w2v]
-    if not words:  # если ни одного слова нет в модели
+    if not words:
         print('Я ничего не знаю из этих токенов: {}'.format(tokens), file=sys.stderr)
         return np.zeros(w2v.vector_size)  # возвращаем нули
-    # заводим матрицу нужной размерности (кол-во слов, размерность предобученных векторв),
-    # состоящую из нулей
+    if no_duplicates:
+        words = set(words)
+    # заводим матрицу нужной размерности (кол-во слов, размерность предобученных векторв), состоящую из нулей
     t_vecs = np.zeros((len(words), w2v.vector_size))
-    for i, token in enumerate(words):  # для каждого слова
-        t_vecs[i, :] = w2v.get_vector(token)  # получаем вектор из модели
-    t_vec = np.sum(t_vecs, axis=0)  # суммируем вектора по столбцам
-    t_vec = np.divide(t_vec, len(words))  # считаем средний вектор
-
-    return t_vec  # возвращаем np.array размерноти (dim,)
+    for i, token in enumerate(words):
+        t_vecs[i, :] = w2v[token]
+    t_vec = np.sum(t_vecs, axis=0)
+    t_vec = np.divide(t_vec, len(words))
+    vec = t_vec / norm(t_vec)
+    return vec
 
 
 # Составляем список с векторами текстов для всего корпуса
-def vectorize_corpus(corpus, w2v, emb_dim):
-    # TODO: делать np.array?
+def vectorize_corpus(corpus, w2v, emb_dim, output_vecs_path, no_duplicates):
+    # матрица [[вектор текста 1], [вектор текста 2], [...]]
+    not_vectorized = []
     vectors = np.zeros((len(corpus), emb_dim))
     for i, text in tqdm(enumerate(corpus)):
-        vectors[i, :] = vectorize_text(text, w2v)
-    # матрица [[вектор текста 1], [вектор текста 2], [...]]
-    vectors = vectors/norm(vectors, axis=1, keepdims=True) # нормализуем матрицу
-    return vectors
+        vector = vectorize_text(text, w2v, no_duplicates)
+        if len(vector) != 0:  # для np.array нельзя просто if
+            vectors[i, :] = vector
+            pdump(vectors, open(output_vecs_path, 'wb'))
+        else:
+            not_vectorized.append(i)
+            continue
+    return vectors, not_vectorized
 
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(
-        description='Векторизация корпуса и сохранение его в pkl в папке с текстами')
-    parser.add_argument('lang', type=str,
-                        help='Язык, для которго разбираем, нужен для определения словаря в маппинге (ru/en)')
-    parser.add_argument('texts_path', type=str,
-                        help='Папка, в которой лежат тексты в формате txt')
-    parser.add_argument('mapping_path', type=str,
-                        help='Файл маппинга заголовков в индексы и обратно в формате json')
-    parser.add_argument('model_path', type=str,
-                        help='Папка, в которой лежит модель для векторизации корпуса')
-    parser.add_argument('model_type', type=str,
-                        help='Краткое имя модели векторизации, чтобы не путать файлы. '
-                             'Будет использовано как имя pkl')
-    args = parser.parse_args()
+def main():
+    args = parse_args()
 
     i2lang = 'i2{}'.format(args.lang)
-    lang2i = '{}2i'.format(args.lang)
-    output_vecs_path = '{}/{}.pkl'.format(args.texts_path, args.model_type)
-    lemmatized_path = '{}/lemmatized.json'.format(args.texts_path)
 
     # собираем лемматизированные тексты из lemmatized
-    if not os.path.isfile(lemmatized_path):  # ничего ещё из этого корпуса не разбирали
-        print('Ничего ещё не разбирали, нечего векторизовать!'
-              '\nПожалуйста, сначала лемматизируйте тексты', file=sys.stderr)
-        raise (SystemExit(0))  # заканчиваем работу
+    if not os.path.isfile(args.lemmatized_path):  # ничего ещё из этого корпуса не разбирали
+        raise NotLemmatizedError()
+
     else:  # если существует уже разбор каких-то файлов
-        lemmatized = jload(open(lemmatized_path, encoding='utf-8'))
+        lemmatized = jload(open(args.lemmatized_path, encoding='utf-8'))
         print('Понял, сейчас векторизуем', file=sys.stderr)
 
         # TODO: не векторизовать то, что уже есть, к этому добавлять новое
-        # TODO: хранить вектора словарём, не списком?
 
         # получаем список файлов
         texts_mapping = jload(open(args.mapping_path))
-        # print(texts_mapping)
 
         lemmatized_corpus = []
-        # print(texts_mapping[i2lang])
         for nr in range(len(texts_mapping[i2lang])):  # для каждого номера в маппинге
             # порядок текстов -- как в индексах
-            # TODO: сделать генератором?
             title = texts_mapping[i2lang].get(str(nr))
-            # print(title)
             # по номеру из маппинга берём название и находим его в леммах
             lemmatized_text = lemmatized[title]
-            # print(text)
             lemmatized_corpus.append(lemmatized_text)
 
-        emb_model = load_embeddings(args.model_path)
+        emb_model = load_embeddings(args.model_embeddings_path)
         emb_dim = emb_model.vector_size
-        emb_model = emb_model.wv  # TODO: у Пети был deprecation warning
+        emb_model = emb_model.wv
 
-        corpus_vecs = vectorize_corpus(lemmatized_corpus, emb_model, emb_dim)  # векторизуем корпус
-        # print(*(corpus_vecs))
-        # print(len(corpus_vecs))
+        _, not_vectorized = vectorize_corpus(lemmatized_corpus, emb_model, emb_dim, args.output_embeddings_path,
+                                                                                    args.no_duplicates)
+        if not_vectorized:
+            print('Не удалось векторизовать следующие тексты:\n{}'.format('\n'.join(not_vectorized)), file=sys.stderr)
 
-        pdump(corpus_vecs, open(output_vecs_path, 'wb'))
+
+if __name__ == "__main__":
+    main()
