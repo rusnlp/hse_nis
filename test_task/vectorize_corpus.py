@@ -1,10 +1,15 @@
 """
-Принимаем на вход язык, путь к папке с корпусом, путь к модели с векторами и путь, куда сохранять векторизованный корпус
-(пока есть только simple)
+Принимаем на вход язык, путь к папке с корпусом, путь к модели с векторами и путь,
+куда сохранять векторизованный корпус (пока есть только simple)
 Сохраняем pkl со списком векторов
 
-python vectorize_corpus.py --lang=ru --lemmatized_path=texts/ruwiki/lemmatized.json --mapping_path=texts/titles_mapping.json --model_embeddings_path=models/ru.bin --output_embeddings_path=texts/ruwiki/simple.pkl
-python vectorize_corpus.py --lang=en --lemmatized_path=texts/enwiki/lemmatized.json --mapping_path=texts/titles_mapping.json --model_embeddings_path=models/en.bin --output_embeddings_path=texts/enwiki/simple.pkl
+python vectorize_corpus.py --lang=ru --lemmatized_path=texts/ruwiki/lemmatized.json
+--mapping_path=texts/titles_mapping.json --model_embeddings_path=models/ru.bin
+--output_embeddings_path=texts/ruwiki/simple.pkl
+
+python vectorize_corpus.py --lang=en --lemmatized_path=texts/enwiki/lemmatized.json
+--mapping_path=texts/titles_mapping.json --model_embeddings_path=models/en.bin
+--output_embeddings_path=texts/enwiki/simple.pkl
 """
 
 import logging
@@ -27,7 +32,8 @@ def parse_args():
     parser = argparse.ArgumentParser(
         description='Векторизация корпуса и сохранение его в pkl')
     parser.add_argument('--lang', type=str, required=True,
-                        help='Язык, для которго разбираем, нужен для определения словаря в маппинге (ru/en)')
+                        help='Язык, для которго разбираем, '
+                             'нужен для определения словаря в маппинге (ru/en)')
     parser.add_argument('--lemmatized_path', type=str, required=True,
                         help='Путь к файлу json, в котором хранятся лемматизированные файлы')
     parser.add_argument('--mapping_path', type=str, required=True,
@@ -37,7 +43,8 @@ def parse_args():
     parser.add_argument('--output_embeddings_path', type=str, required=True,
                         help='Путь к файлу pkl, в котором будет лежать векторизованный корпус')
     parser.add_argument('--no_duplicates', type=int, default=0,
-                        help='Брать ли для каждого типа в тексте вектор только по одному разу (0|1; default: 0)')
+                        help='Брать ли для каждого типа в тексте вектор только по одному разу '
+                             '(0|1; default: 0)')
 
     return parser.parse_args()
 
@@ -93,7 +100,8 @@ def vectorize_text(tokens, w2v, no_duplicates):
         return np.zeros(w2v.vector_size)  # возвращаем нули
     if no_duplicates:
         words = set(words)
-    # заводим матрицу нужной размерности (кол-во слов, размерность предобученных векторв), состоящую из нулей
+    # заводим матрицу нужной размерности (кол-во слов, размерность предобученных векторв),
+    # состоящую из нулей
     t_vecs = np.zeros((len(words), w2v.vector_size))
     for i, token in enumerate(words):
         t_vecs[i, :] = w2v[token]
@@ -149,10 +157,11 @@ def main():
         emb_dim = emb_model.vector_size
         emb_model = emb_model.wv
 
-        _, not_vectorized = vectorize_corpus(lemmatized_corpus, emb_model, emb_dim, args.output_embeddings_path,
-                                                                                    args.no_duplicates)
+        _, not_vectorized = vectorize_corpus(lemmatized_corpus, emb_model, emb_dim,
+                                             args.output_embeddings_path, args.no_duplicates)
         if not_vectorized:
-            print('Не удалось векторизовать следующие тексты:\n{}'.format('\n'.join(not_vectorized)), file=sys.stderr)
+            print('Не удалось векторизовать следующие тексты:\n{}'.
+                  format('\n'.join(not_vectorized)), file=sys.stderr)
 
 
 if __name__ == "__main__":

@@ -2,15 +2,22 @@
 Считаем, что все тексты, которые ищем, априори добавлены в корпус, предобработаны,
 вектора для всего построены
 
-Подаём название текста, язык, путь к векторизованному корпусу, путь к маппингу, можно подать кол-во ближайших статей
+Подаём название текста, язык, путь к векторизованному корпусу, путь к маппингу, можно подать
+кол-во ближайших статей
 Получаем n ближайших записей в виде списка кортежей (заголовок, близость) -- напечатем рейтинг,
 если не сделали verbose=False
 
-python monolang_search.py --target_article_path=кровь --lang=ru --mapping_path=texts/titles_mapping.json --corpus_embeddings_path=texts/ruwiki/simple.pkl --top=10
-python monolang_search.py --target_article_path=blood --lang=en --mapping_path=texts/titles_mapping.json --corpus_embeddings_path=texts/enwiki/simple.pkl --top=10
+python monolang_search.py --target_article_path=кровь --lang=ru
+--mapping_path=texts/titles_mapping.json --corpus_embeddings_path=texts/ruwiki/simple.pkl --top=10
+python monolang_search.py --target_article_path=blood --lang=en
+--mapping_path=texts/titles_mapping.json --corpus_embeddings_path=texts/enwiki/simple.pkl --top=10
 
-python monolang_search.py --target_article_path=texts/ruwiki/бензин.txt --lang=ru --mapping_path=texts/titles_mapping.json --corpus_embeddings_path=texts/ruwiki/simple.pkl --top=10 --included=0 --udpipe_path=models/ru.udpipe --model_embeddings_path=models/ru.bin
-python monolang_search.py --target_article_path=texts/enwiki/gasoline.txt --lang=en --mapping_path=texts/titles_mapping.json --corpus_embeddings_path=texts/enwiki/simple.pkl --top=10 --included=0 --udpipe_path=models/en.udpipe --model_embeddings_path=models/en.bin
+python monolang_search.py --target_article_path=texts/ruwiki/бензин.txt --lang=ru
+--mapping_path=texts/titles_mapping.json --corpus_embeddings_path=texts/ruwiki/simple.pkl --top=10
+--included=0 --udpipe_path=models/ru.udpipe --model_embeddings_path=models/ru.bin
+python monolang_search.py --target_article_path=texts/enwiki/gasoline.txt --lang=en
+--mapping_path=texts/titles_mapping.json --corpus_embeddings_path=texts/enwiki/simple.pkl --top=10
+--included=0 --udpipe_path=models/en.udpipe --model_embeddings_path=models/en.bin
 """
 
 import argparse
@@ -27,7 +34,8 @@ def parse_args():
                         help='Путь к статье в формате txt, для которой ищем ближайшие.'
                              '\nЕсли статья из корпуса, то только назание без формата')
     parser.add_argument('--lang', type=str, required=True,
-                        help='Язык, для которго разбираем, нужен для определения словаря в маппинге (ru/en)')
+                        help='Язык, для которого разбираем, '
+                             'нужен для определения словаря в маппинге (ru/en)')
     parser.add_argument('--mapping_path', type=str, required=True,
                         help='Файл маппинга заголовков в индексы и обратно в формате json')
     parser.add_argument('--corpus_embeddings_path', type=str, required=True,
@@ -44,20 +52,22 @@ def parse_args():
     parser.add_argument('--keep_pos', type=int, default=1,
                         help='Возвращать ли леммы, помеченные pos-тегами (0|1; default: 1)')
     parser.add_argument('--keep_stops', type=int, default=0,
-                        help='Сохранять ли слова, получившие тег функциональной части речи (0|1; default: 0)')
+                        help='Сохранять ли слова, получившие тег функциональной части речи '
+                             '(0|1; default: 0)')
     parser.add_argument('--keep_punct', type=int, default=0,
                         help='Сохранять ли знаки препинания (0|1; default: 0)')
     parser.add_argument('--model_embeddings_path', type=str, default='',
                         help='Папка, в которой лежит модель для векторизации корпуса')
     parser.add_argument('--no_duplicates', type=int, default=0,
-                        help='Брать ли для каждого типа в тексте вектор только по одному разу (0|1; default: 0)')
+                        help='Брать ли для каждого типа в тексте вектор только по одному разу '
+                             '(0|1; default: 0)')
 
     return parser.parse_args()
 
 
 class NotIncludedError(Exception):
     def __init__(self):
-        self.text = 'Текста с таким названием нет в корпусе! Пожалуйста, измените значение параметра included'
+        self.text = 'Такого текста нет в корпусе! Пожалуйста, измените значение параметра included'
 
     def __str__(self):
         return self.text
@@ -101,17 +111,20 @@ def search_similar(target_vec, corpus_vecs):  # подаём текст как �
 
 
 # Ранжируем тексты по близости и принтим красивый списочек
-def make_rating(target_article, similars, verbose, n, included, texts_mapping, i2lang):  # принимаем словарь близостей
-    # сортируем словарь по значениям в порядке убывания: сортируем список кортежей (key, value) по value
+# принимаем словарь близостей
+def make_rating(target_article, similars, verbose, n, included, texts_mapping, i2lang):
+    # сортируем словарь по значениям в порядке убывания:
+    # сортируем список кортежей (key, value) по value
     sorted_simkeys = sorted(similars, key=similars.get, reverse=True)
     # similars: [i, j, ...]
-    similars_list = [(texts_mapping[i2lang].get(str(simkey)), similars[simkey]) for simkey in sorted_simkeys]
+    similars_list = [(texts_mapping[i2lang].get(str(simkey)), similars[simkey])
+                     for simkey in sorted_simkeys]
     # [(i_title, sim), (j_title, sim), (...)]
     if included:  # если статья включена в корпус
         # на 0 индексе всегда будет сама статья, если она из корпуса
         similars_list = similars_list[1:]
 
-    if n == -1: # нужен вывод всех статей
+    if n == -1:  # нужен вывод всех статей
         if verbose:
             print('\nРейтинг статей по близости к {}:'.format(n, target_article))
             for i, sim_item in enumerate(similars_list[:n]):
@@ -148,9 +161,9 @@ def main():
         if not args.udpipe_path or not args.model_embeddings_path:
             raise NoModelProvided
 
-        target_article, target_article_vec = prepare_new_article(args.target_article_path, args.udpipe_path,
-                                                args.model_embeddings_path,
-                                                args.keep_pos, args.keep_punct, args.keep_stops, args.no_duplicates)
+        target_article, target_article_vec = prepare_new_article(
+            args.target_article_path, args.udpipe_path, args.model_embeddings_path, args.keep_pos,
+            args.keep_punct, args.keep_stops, args.no_duplicates)
 
     similars = search_similar(target_article_vec, corpus_vecs)
     make_rating(target_article, similars, n=args.top, verbose=args.verbose, included=args.included,
