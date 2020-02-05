@@ -29,7 +29,8 @@ def parse_args():
                         help='Путь к статье в формате txt, для которой ищем ближайшие.'
                              '\nЕсли статья из корпуса, то только назание без формата')
     parser.add_argument('--lang', type=str, required=True,
-                        help='Язык, для которго разбираем, нужен для определения словаря в маппинге (ru/en)')
+                        help='Язык, для которго разбираем, нужен для определения словаря '
+                             'в маппинге (ru/en)')
     parser.add_argument('--mapping_path', type=str, required=True,
                         help='Файл маппинга заголовков в индексы и обратно в формате json')
     parser.add_argument('--corpus_embeddings_path', type=str, required=True,
@@ -46,13 +47,15 @@ def parse_args():
     parser.add_argument('--keep_pos', type=int, default=1,
                         help='Возвращать ли леммы, помеченные pos-тегами (0|1; default: 1)')
     parser.add_argument('--keep_stops', type=int, default=0,
-                        help='Сохранять ли слова, получившие тег функциональной части речи (0|1; default: 0)')
+                        help='Сохранять ли слова, получившие тег функциональной части речи '
+                             '(0|1; default: 0)')
     parser.add_argument('--keep_punct', type=int, default=0,
                         help='Сохранять ли знаки препинания (0|1; default: 0)')
     parser.add_argument('--model_embeddings_path', type=str, default='',
                         help='Папка, в которой лежит модель для векторизации корпуса')
     parser.add_argument('--no_duplicates', type=int, default=0,
-                        help='Брать ли для каждого типа в тексте вектор только по одному разу (0|1; default: 0)')
+                        help='Брать ли для каждого типа в тексте вектор только по одному разу '
+                             '(0|1; default: 0)')
 
     return parser.parse_args()
 
@@ -62,7 +65,8 @@ class NotIncludedError(Exception):
     Указали included=True для текста, которого нет в маппинге
     """
     def __init__(self):
-        self.text = 'Текста с таким названием нет в корпусе! Пожалуйста, измените значение параметра included'
+        self.text = 'Текста с таким названием нет в корпусе! ' \
+                    'Пожалуйста, измените значение параметра included'
 
     def __str__(self):
         return self.text
@@ -103,7 +107,8 @@ def prepare_new_article(article_path, udpipe_path, model_embeddings_path,
     logging.info('Загружаю модель {} для обработки нового текста'.format(udpipe_path))
     udpipe_model = Model.load(udpipe_path)
     logging.info('Загрузил модель {}'.format(udpipe_path))
-    process_pipeline = Pipeline(udpipe_model, 'tokenize', Pipeline.DEFAULT, Pipeline.DEFAULT, 'conllu')
+    process_pipeline = Pipeline(udpipe_model, 'tokenize', Pipeline.DEFAULT,
+                                Pipeline.DEFAULT, 'conllu')
 
     logging.info('Лемматизирую текст {}'.format(article_path))
     text = open(article_path, encoding='utf-8').read().lower().strip().splitlines()
@@ -142,13 +147,14 @@ def make_rating(target_article, sim_dict, verbose, n, included, mapping, i2lang_
     :return: индексы текстов и близость к данному в порядке убывания (список кортежей)
     """
     sorted_simkeys = sorted(sim_dict, key=sim_dict.get, reverse=True)
-    sim_list = [(mapping[i2lang_name].get(str(simkey)), sim_dict[simkey]) for simkey in sorted_simkeys]
+    sim_list = [(mapping[i2lang_name].get(str(simkey)), sim_dict[simkey])
+                for simkey in sorted_simkeys]
 
     if included:
         # на 0 индексе всегда будет сама статья, если она из корпуса
         sim_list.pop(0)
 
-    if n == -1: # нужен вывод всех статей
+    if n == -1:  # нужен вывод всех статей
         if verbose:
             print('\nРейтинг статей по близости к {}:'.format(n, target_article))
             for i, sim_item in enumerate(sim_list[:n]):
@@ -185,13 +191,13 @@ def main():
         if not args.udpipe_path or not args.model_embeddings_path:
             raise NoModelProvided
 
-        target_article, target_article_vec = prepare_new_article(args.target_article_path, args.udpipe_path,
-                                                                 args.model_embeddings_path,
-                                                                 args.keep_pos, args.keep_punct, args.keep_stops,
-                                                                 args.no_duplicates)
+        target_article, target_article_vec = prepare_new_article(
+            args.target_article_path, args.udpipe_path, args.model_embeddings_path, args.keep_pos,
+            args.keep_punct, args.keep_stops, args.no_duplicates)
 
     similars = search_similar(target_article_vec, corpus_vecs)
-    rating = make_rating(target_article, similars, args.verbose, args.top, args.included, texts_mapping, i2lang)
+    rating = make_rating(target_article, similars, args.verbose, args.top, args.included,
+                         texts_mapping, i2lang)
 
 
 if __name__ == "__main__":
