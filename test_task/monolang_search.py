@@ -178,8 +178,7 @@ def main():
     corpus_vecs = pload(open(args.corpus_embeddings_path, 'rb'))
 
     if args.included:
-        target_article_title = args.target_article_path.lower()
-        target_article = '{}.txt'.format(target_article_title)
+        target_article = args.target_article_path.lower()
         target_article_id = texts_mapping[lang2i].get(target_article)
 
         if not target_article_id:

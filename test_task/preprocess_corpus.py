@@ -111,11 +111,11 @@ def process_corpus(pipeline, lemmatized, texts_path, files, keep_pos, keep_punct
 def main():
     args = parse_args()
 
-    all_files = [f for f in os.listdir(args.texts_path) if f.endswith('.txt')]
+    all_files = [f for f in os.listdir(args.texts_path)]
 
     lemmatized_dict = load_lemmatized(args.lemmatized_path, args.forced)
 
-    new_files = [file for file in all_files if file.endswith('txt') and file not in lemmatized_dict]
+    new_files = [file for file in all_files if file not in lemmatized_dict]
     print('Новых текстов: {}'.format(len(new_files)), file=sys.stderr)
 
     if new_files:
