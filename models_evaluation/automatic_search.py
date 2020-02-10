@@ -16,19 +16,15 @@ top = 5
 
 
 titles = []
-langs = []
 with open(tsv_path, 'r', encoding='utf-8') as articles:
     for line in articles.readlines():
         titles += [line.split('\t')[0]]
-        langs += [line.split('\t')[1][:2]] #[:2] - ru или en без \t
 os.chdir(test_task_path)
-i = 0
 results = []
 for title in titles:
-    search = 'python monolang_search.py --target_article_path={} --lang={} --mapping_path={} --corpus_embeddings_path={}' \
-             ' --top={}'.format(title, langs[i], mapping_path, corpus_embeddings_path, 5)
+    search = 'python monolang_search.py --target_article_path={} --lang=cross --mapping_path={} --corpus_embeddings_path={}' \
+             ' --top={}'.format(title, mapping_path, corpus_embeddings_path, 5)
     output = subprocess.check_output(search, encoding='utf-8')
-    i += 1
     #print(output)
     results += [output]
 
