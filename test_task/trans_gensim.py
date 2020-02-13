@@ -1,5 +1,5 @@
 '''
-Запускала без командной строки, просто скрипт в пайчарме
+Запускала без командной строки, просто скрипт в пайчарме. Нужны русская и английская модели и очищенный двуязычный словарь ru-en_lem_clean.txt
 '''
 
 from gensim.models import translation_matrix, TranslationMatrix
@@ -10,7 +10,7 @@ from json import load as jload
 bidict_path = 'models/muse_bidicts/ru-en_lem_clean.txt'
 source_word_vec_file = 'models/ru.bin'
 target_word_vec_file = 'models/en.bin'
-transmat_path = 'models/ru_en_lem_trans_gensim'
+transmat_path = 'models/ru_en_lem_trans_gensim' # сохранить обученную матрицу
 
 
 lines = open(bidict_path, encoding='utf-8').read().splitlines()
@@ -21,25 +21,27 @@ source_word_vec = KeyedVectors.load_word2vec_format(source_word_vec_file, binary
 target_word_vec = KeyedVectors.load_word2vec_format(target_word_vec_file, binary=True)
 
 
+# обучение матрицы
 transmat = translation_matrix.TranslationMatrix(source_word_vec, target_word_vec, pairs)
 transmat.train(pairs)
 print("the shape of translation matrix is: ", transmat.translation_matrix.shape)
-transmat.save(transmat_path)
+transmat.save(transmat_path) # сохраняется целый объект, у которого есть матрица
 
+# подгружаем сохранённый объект
 transmat = TranslationMatrix.load(transmat_path)
-#vecs = transmat.source_lang_vec.vectors
-#print(vecs)
-#print(vecs.shape)
+# vecs = transmat.source_lang_vec.vectors # хранит выровненные исходную и целевую матрицы эмбеддинигов
+# print(vecs)
+# print(vecs.shape)
 
 
 # Для слова из двуязычного словаря всё работает
-translated = transmat.translate('человек_NOUN', 5)
+translated = transmat.translate('человек_NOUN', 5) # ordered dict с исходным словом и 5 ближайшими словами
 print(translated)
-trw = translated['человек_NOUN'][0]
+trw = translated['человек_NOUN'][0] # берём первое их предсказанных слов
 print(trw)
-idx = transmat.target_lang_vec.index2word.index(trw)
+idx = transmat.target_lang_vec.index2word.index(trw) # он хранит список слов, которым соответсвуют вектора в выровненных матрицах
 print(idx)
-print(transmat.target_lang_vec.vectors[idx])
+print(transmat.target_lang_vec.vectors[idx]) # по индексу предсказанного слова вытаскиваем его вектор
 
 print('='*50)
 
