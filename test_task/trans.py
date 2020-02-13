@@ -1,19 +1,22 @@
-'''
-Запускала без командной строки, просто скрипт в пайчарме. Нужны русская и английская модели и двуязычный словарь ru-en_lem.txt
-'''
-'''
+#!/usr/bin/python3.6
+# coding: utf-8
+
+"""
+Запускала без командной строки, просто скрипт в пайчарме.
+Нужны русская и английская модели и двуязычный словарь ru-en_lem.txt
 https://github.com/ltgoslo/diachronic_armed_conflicts/blob/master/helpers.py
-'''
+"""
 
 import numpy as np
 from tqdm import tqdm
-from gensim import models
 import logging
 import zipfile
 import json
-
+from gensim import models
+from argparse import ArgumentParser
 
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
+
 
 def load_embeddings(modelfile):
     if modelfile.endswith('.txt.gz') or modelfile.endswith('.txt'):
@@ -34,8 +37,8 @@ def load_embeddings(modelfile):
 
             # Loading the model itself:
             stream = archive.open("model.bin")  # or model.txt, if you want to look at the model
-            model = models.KeyedVectors.load_word2vec_format( stream, binary=True,
-                                                              unicode_errors='replace')
+            model = models.KeyedVectors.load_word2vec_format(stream, binary=True,
+                                                             unicode_errors='replace')
     else:
         # model = models.Word2Vec.load(modelfile)
         model = models.KeyedVectors.load(modelfile)  # For newer models
@@ -54,14 +57,13 @@ def normalequation(data, target, lambda_value, vector_size):
     return theta
 
 
-
-def learn_projection(src_vectors, tar_vectors, embed_size, lmbd=1.0, save2file=None):
+def learn_projection(src_vectors, tar_vectors, lmbd=1.0, save2file=None):
     src_vectors = np.mat([[i for i in vec] for vec in src_vectors])
     tar_vectors = np.mat([[i for i in vec] for vec in tar_vectors])
     m = len(src_vectors)
     x = np.c_[np.ones(m), src_vectors]  # Adding bias term to the source vectors
 
-    num_features = embed_size
+    num_features = src_vectors.shape[1]
 
     # Build initial zero transformation matrix
     learned_projection = np.zeros((num_features, x.shape[1]))
@@ -77,12 +79,12 @@ def learn_projection(src_vectors, tar_vectors, embed_size, lmbd=1.0, save2file=N
 
     if save2file:
         # Saving matrix to file:
-        np.savetxt(save2file, learned_projection, delimiter=',')
+        np.save(save2file, learned_projection)
     return learned_projection
 
 
 def predict(src_word, src_embedding, tar_emdedding, projection, topn=10):
-    test = np.mat(src_embedding[src_word]) # нашли вектор слова в исходной модели
+    test = np.mat(src_embedding[src_word])  # нашли вектор слова в исходной модели
     test = np.c_[1.0, test]  # Adding bias term
     predicted_vector = np.dot(projection, test.T)
     predicted_vector = np.squeeze(np.asarray(predicted_vector))
@@ -91,17 +93,28 @@ def predict(src_word, src_embedding, tar_emdedding, projection, topn=10):
     nearest_neighbors = tar_emdedding.most_similar(positive=[predicted_vector], topn=topn)
     return nearest_neighbors, predicted_vector
 
+
 if __name__ == "__main__":
-    src_model_path = '182.zip'
-    tar_model_path = '200.zip'
-    bidict_path = 'ru-en_lem.txt'
+    # add command line arguments
+    # this is probably the easiest way to store args for downstream
+    parser = ArgumentParser()
+    parser.add_argument('--spath', required=True, help="Path to the source model")
+    parser.add_argument('--tpath', required=True, help="Path to the target model")
+    parser.add_argument('--dic', help="Path to the bilingual dictionary", default="ru-en_lem.txt")
+    parser.add_argument('--lmbd', action='store', type=float, default=1.0)
+    parser.add_argument('--out', help="File to save the matrix to", default="proj.npy")
+    args = parser.parse_args()
+
+    src_model_path = args.spath
+    tar_model_path = args.tpath
+    bidict_path = args.dic
 
     src_model = load_embeddings(src_model_path)
     tar_model = load_embeddings(tar_model_path)
 
     # выбираем пары слов в двуязычном словаре, которые есть в обеих моделях
     lines = open(bidict_path, encoding='utf-8').read().splitlines()
-    print(len(lines))
+    print('Number of lines in the dictionary:', len(lines))
     learn_pairs = []
     not_learn_pairs = []
     for line in tqdm(lines):
@@ -113,9 +126,11 @@ if __name__ == "__main__":
     print('Pairs to learn a transformation on:', len(learn_pairs))
     print('Skipped pairs:', len(not_learn_pairs))
 
-    #open('models/muse_bidicts/ru-en_lem_clean.txt', 'w', encoding='utf-8').write('\n'.join(['{}\t{}'.format(pair[0], pair[1]) for pair in learn_pairs]))
+    # open('models/muse_bidicts/ru-en_lem_clean.txt', 'w', encoding='utf-8').
+    # write('\n'.join(['{}\t{}'.format(pair[0], pair[1]) for pair in learn_pairs]))
     # слова, на которых не обучались, но можем получить для них вектор
-    # print([word for word in tqdm(src_model.vocab) if word not in [line.split()[0] for line in tqdm(lines)]])
+    # print([word for word in tqdm(src_model.vocab) if word not in [line.split()[0]
+    # for line in tqdm(lines)]])
 
     dim = src_model.vector_size
 
@@ -124,9 +139,9 @@ if __name__ == "__main__":
     # делаем парные матрицы
     source_matrix = np.zeros((len(learn_pairs), dim))
     target_matrix = np.zeros((len(learn_pairs), dim))
-    for i, pair in tqdm(enumerate(learn_pairs)):
-        source_matrix[i, :] = src_model[pair[0]]
-        target_matrix[i, :] = tar_model[pair[1]]
+    for nr, pair in tqdm(enumerate(learn_pairs)):
+        source_matrix[nr, :] = src_model[pair[0]]
+        target_matrix[nr, :] = tar_model[pair[1]]
     print(source_matrix.shape)
     print(target_matrix.shape)
 
@@ -139,7 +154,7 @@ if __name__ == "__main__":
     # print(target_matrix.shape)
 
     # обучаем модель на парных матрицах
-    proj = learn_projection(source_matrix, target_matrix, dim, lmbd=1.0, save2file='prj.txt')
+    proj = learn_projection(source_matrix, target_matrix, lmbd=args.lmbd, save2file=args.out)
     print(proj.shape)
 
     # слово из двуязычного словаря
