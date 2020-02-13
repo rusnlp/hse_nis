@@ -1,5 +1,5 @@
 '''
-Запускала без командной строки, просто скрипт в пайчарме
+Запускала без командной строки, просто скрипт в пайчарме. Нужны русская и английская модели и двуязычный словарь ru-en_lem.txt
 '''
 '''
 https://github.com/ltgoslo/diachronic_armed_conflicts/blob/master/helpers.py
@@ -69,7 +69,7 @@ def learn_projection(src_vectors, tar_vectors, embed_size, lmbd=1.0, save2file=N
 
 
 def predict(src_word, src_embedding, tar_emdedding, projection, topn=10):
-    test = np.mat(src_embedding[src_word]) # нашли вектор слова
+    test = np.mat(src_embedding[src_word]) # нашли вектор слова в исходной модели
     test = np.c_[1.0, test]  # Adding bias term
     predicted_vector = np.dot(projection, test.T)
     predicted_vector = np.squeeze(np.asarray(predicted_vector))
@@ -81,6 +81,7 @@ def predict(src_word, src_embedding, tar_emdedding, projection, topn=10):
 src_model = load_embeddings(src_model_path)
 tar_model = load_embeddings(src_model_path)
 
+# выбираем пары слов в двуязычном словаре, которые есть в обеих моделях
 lines = open(bidict_path, encoding='utf-8').read().splitlines()
 print(len(lines))
 learn_pairs = []
@@ -116,6 +117,7 @@ print(target_matrix.shape)
 # target_matrix = pload(open('models/en_clean_lem.pkl', 'rb'))
 # print(target_matrix.shape)
 
+# обучаем модель на парных матрицах
 proj = learn_projection(source_matrix, target_matrix, dim, lmbd=1.0, save2file='prj.txt')
 print(proj.shape)
 
