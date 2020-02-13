@@ -1,15 +1,22 @@
 '''
+Запускала без командной строки, просто скрипт в пайчарме
+'''
+'''
 https://github.com/ltgoslo/diachronic_armed_conflicts/blob/master/helpers.py
 '''
 
 import numpy as np
-from pickle import load
+from pickle import load as pload, dump as pdump
 from tqdm import tqdm
 from gensim import models
 import logging
 
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
+
+src_model_path = 'models/ru.bin'
+tar_model_path = 'models/en.bin'
+bidict_path = 'models/muse_bidicts/ru-en_lem.txt'
 
 def load_embeddings(modelfile):
     if modelfile.endswith('.txt.gz') or modelfile.endswith('.txt'):
@@ -71,18 +78,51 @@ def predict(src_word, src_embedding, tar_emdedding, projection, topn=10):
     return nearest_neighbors, predicted_vector
 
 
-src_model = load_embeddings('models/ru.bin')
-tar_model = load_embeddings('models/en.bin')
+src_model = load_embeddings(src_model_path)
+tar_model = load_embeddings(src_model_path)
 
-embed_size = 300
-src_vectors = load(open('models/ru_clean_lem.pkl', 'rb'))
-print(src_vectors.shape)
-tar_vectors = load(open('models/en_clean_lem.pkl', 'rb'))
-print(tar_vectors.shape)
+lines = open(bidict_path, encoding='utf-8').read().splitlines()
+print(len(lines))
+learn_pairs = []
+not_learn_pairs = []
+for line in tqdm(lines):
+    pair = line.split()
+    if pair[0] in src_model.vocab and pair[1] in tar_model.vocab:
+        learn_pairs.append((pair[0], pair[1]))
+    elif pair[0] not in src_model.vocab and pair[1] not in tar_model.vocab:
+        not_learn_pairs.append((pair[0], pair[1]))
+print(len(learn_pairs), learn_pairs)
+print(len(not_learn_pairs), not_learn_pairs)
+#open('models/muse_bidicts/ru-en_lem_clean.txt', 'w', encoding='utf-8').write('\n'.join(['{}\t{}'.format(pair[0], pair[1]) for pair in learn_pairs]))
+# слова, на которых не обучались, но можем получить для них вектор
+# print([word for word in tqdm(src_model.vocab) if word not in [line.split()[0] for line in tqdm(lines)]])
 
-proj = learn_projection(src_vectors, tar_vectors, embed_size, lmbd=1.0, save2file='prj.txt')
+dim = src_model.vector_size
+
+# делаем парные матрицы
+source_matrix = np.zeros((len(learn_pairs), dim))
+target_matrix = np.zeros((len(learn_pairs), dim))
+for i, pair in tqdm(enumerate(learn_pairs)):
+    source_matrix[i, :] = src_model[pair[0]]
+    target_matrix[i, :] = tar_model[pair[1]]
+print(source_matrix.shape)
+print(target_matrix.shape)
+
+#pdump(source_matrix, open('models/ru_clean_lem.pkl', 'wb'))
+#pdump(target_matrix, open('models/en_clean_lem.pkl', 'wb'))
+
+# source_matrix = pload(open('models/ru_clean_lem.pkl', 'rb'))
+# print(source_matrix.shape)
+# target_matrix = pload(open('models/en_clean_lem.pkl', 'rb'))
+# print(target_matrix.shape)
+
+proj = learn_projection(source_matrix, target_matrix, dim, lmbd=1.0, save2file='prj.txt')
 print(proj.shape)
 
+# слово из двуязычного словаря
 candidates = predict('человек_NOUN', src_model, tar_model, proj)
 print(candidates)
 
+# слово не из двуязычного словаря, но из модели
+candidates = predict('шнурочек_NOUN', src_model, tar_model, proj)
+print(candidates)
