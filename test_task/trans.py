@@ -10,19 +10,33 @@ from pickle import load as pload, dump as pdump
 from tqdm import tqdm
 from gensim import models
 import logging
+import zipfile
+import json
 
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
 
-src_model_path = 'models/ru.bin'
-tar_model_path = 'models/en.bin'
-bidict_path = 'models/muse_bidicts/ru-en_lem.txt'
-
 def load_embeddings(modelfile):
     if modelfile.endswith('.txt.gz') or modelfile.endswith('.txt'):
-        model = models.KeyedVectors.load_word2vec_format(modelfile, binary=False)
+        model = models.KeyedVectors.load_word2vec_format(modelfile, binary=False,
+                                                         unicode_errors='replace')
     elif modelfile.endswith('.bin.gz') or modelfile.endswith('.bin'):
-        model = models.KeyedVectors.load_word2vec_format(modelfile, binary=True)
+        model = models.KeyedVectors.load_word2vec_format(modelfile, binary=True,
+                                                         unicode_errors='replace')
+    # ZIP archive from the NLPL vector repository:
+    elif modelfile.endswith('.zip'):
+        with zipfile.ZipFile(modelfile, "r") as archive:
+            # Loading and showing the metadata of the model:
+            metafile = archive.open('meta.json')
+            metadata = json.loads(metafile.read())
+            for key in metadata:
+                print(key, metadata[key])
+            print('============')
+
+            # Loading the model itself:
+            stream = archive.open("model.bin")  # or model.txt, if you want to look at the model
+            model = models.KeyedVectors.load_word2vec_format(
+                stream, binary=True, unicode_errors='replace')
     else:
         # model = models.Word2Vec.load(modelfile)
         model = models.KeyedVectors.load(modelfile)  # For newer models
@@ -39,7 +53,6 @@ def normalequation(data, target, lambda_value, vector_size):
     # Normal equation:
     theta = np.linalg.pinv(data.T * data + lambda_value * regularizer) * data.T * target
     return theta
-
 
 
 def learn_projection(src_vectors, tar_vectors, embed_size, lmbd=1.0, save2file=None):
@@ -74,55 +87,65 @@ def predict(src_word, src_embedding, tar_emdedding, projection, topn=10):
     predicted_vector = np.dot(projection, test.T)
     predicted_vector = np.squeeze(np.asarray(predicted_vector))
     # Our predictions:
-    nearest_neighbors = tar_emdedding.most_similar(positive=[predicted_vector], topn=topn) # нашли ближайшие в другой модели
+    # нашли ближайшие в другой модели
+    nearest_neighbors = tar_emdedding.most_similar(positive=[predicted_vector], topn=topn)
     return nearest_neighbors, predicted_vector
 
 
-src_model = load_embeddings(src_model_path)
-tar_model = load_embeddings(src_model_path)
+if __name__ == "__main__":
+    src_model_path = '182.zip'
+    tar_model_path = '200.zip'
+    bidict_path = 'ru-en_lem.txt'
 
-lines = open(bidict_path, encoding='utf-8').read().splitlines()
-print(len(lines))
-learn_pairs = []
-not_learn_pairs = []
-for line in tqdm(lines):
-    pair = line.split()
-    if pair[0] in src_model.vocab and pair[1] in tar_model.vocab:
-        learn_pairs.append((pair[0], pair[1]))
-    elif pair[0] not in src_model.vocab and pair[1] not in tar_model.vocab:
-        not_learn_pairs.append((pair[0], pair[1]))
-print(len(learn_pairs), learn_pairs)
-print(len(not_learn_pairs), not_learn_pairs)
-#open('models/muse_bidicts/ru-en_lem_clean.txt', 'w', encoding='utf-8').write('\n'.join(['{}\t{}'.format(pair[0], pair[1]) for pair in learn_pairs]))
-# слова, на которых не обучались, но можем получить для них вектор
-# print([word for word in tqdm(src_model.vocab) if word not in [line.split()[0] for line in tqdm(lines)]])
+    src_model = load_embeddings(src_model_path)
+    tar_model = load_embeddings(tar_model_path)
 
-dim = src_model.vector_size
+    lines = open(bidict_path, encoding='utf-8').read().splitlines()
+    print(len(lines))
+    learn_pairs = []
+    not_learn_pairs = []
+    for line in tqdm(lines):
+        pair = line.split()
+        if pair[0] in src_model.vocab and pair[1] in tar_model.vocab:
+            learn_pairs.append((pair[0], pair[1]))
+        elif pair[0] not in src_model.vocab and pair[1] not in tar_model.vocab:
+            not_learn_pairs.append((pair[0], pair[1]))
+    print('Pairs to learn a transformation on:', len(learn_pairs))
+    print('Skipped pairs:', len(not_learn_pairs))
 
-# делаем парные матрицы
-source_matrix = np.zeros((len(learn_pairs), dim))
-target_matrix = np.zeros((len(learn_pairs), dim))
-for i, pair in tqdm(enumerate(learn_pairs)):
-    source_matrix[i, :] = src_model[pair[0]]
-    target_matrix[i, :] = tar_model[pair[1]]
-print(source_matrix.shape)
-print(target_matrix.shape)
+    learn_pairs = learn_pairs
 
-#pdump(source_matrix, open('models/ru_clean_lem.pkl', 'wb'))
-#pdump(target_matrix, open('models/en_clean_lem.pkl', 'wb'))
+    # open('models/muse_bidicts/ru-en_lem_clean.txt', 'w', encoding='utf-8').write('\n'.join(['{}\t{}'.format(pair[0], pair[1]) for pair in learn_pairs]))
+    # слова, на которых не обучались, но можем получить для них вектор
+    # print([word for word in tqdm(src_model.vocab) if word not in [line.split()[0] for line in tqdm(lines)]])
 
-# source_matrix = pload(open('models/ru_clean_lem.pkl', 'rb'))
-# print(source_matrix.shape)
-# target_matrix = pload(open('models/en_clean_lem.pkl', 'rb'))
-# print(target_matrix.shape)
+    dim = src_model.vector_size
 
-proj = learn_projection(source_matrix, target_matrix, dim, lmbd=1.0, save2file='prj.txt')
-print(proj.shape)
+    assert src_model.vector_size == tar_model.vector_size
 
-# слово из двуязычного словаря
-candidates = predict('человек_NOUN', src_model, tar_model, proj)
-print(candidates)
+    # делаем парные матрицы
+    source_matrix = np.zeros((len(learn_pairs), dim))
+    target_matrix = np.zeros((len(learn_pairs), dim))
+    for nr, pair in tqdm(enumerate(learn_pairs)):
+        source_matrix[nr, :] = src_model[pair[0]]
+        target_matrix[nr, :] = tar_model[pair[1]]
+    print(source_matrix.shape)
+    print(target_matrix.shape)
+    # pdump(source_matrix, open('models/ru_clean_lem.pkl', 'wb'))
+    # pdump(target_matrix, open('models/en_clean_lem.pkl', 'wb'))
 
-# слово не из двуязычного словаря, но из модели
-candidates = predict('шнурочек_NOUN', src_model, tar_model, proj)
-print(candidates)
+    # source_matrix = pload(open('models/ru_clean_lem.pkl', 'rb'))
+    # print(source_matrix.shape)
+    # target_matrix = pload(open('models/en_clean_lem.pkl', 'rb'))
+    # print(target_matrix.shape)
+
+    proj = learn_projection(source_matrix, target_matrix, dim, lmbd=1.0, save2file='prj.txt')
+    print(proj.shape)
+
+    # слово из двуязычного словаря
+    candidates = predict('человек_NOUN', src_model, tar_model, proj)
+    print(candidates[0])
+
+    # слово не из двуязычного словаря, но из модели
+    candidates = predict('шнурочек_NOUN', src_model, tar_model, proj)
+    print(candidates[0])
