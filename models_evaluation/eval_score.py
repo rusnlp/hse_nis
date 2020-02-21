@@ -6,7 +6,7 @@ Results - полученные ближайшие статьи
 "Muse 21", где "Muse" - название модели, "21" - id или порядковый номер аннотатора
 На выходе получаем Krippendorff's alpha и среднюю оценку по каждой модели
 
-python eval_score.py --path='C:/data/RUSNLP_MAP_EVAL.TSV'
+python eval_score.py --path=C:/data/RUSNLP_MAP_EVAL.TSV
 """""
 
 import krippendorff
@@ -54,7 +54,7 @@ def mean_and_krip(path):
                 model_columns += [column]
         model_df = df[model_columns]
         models_mean = model_df.mean()
-        krip = krippendorff.alpha(model_df)
+        krip = krippendorff.alpha(model_df.T)
         print('Krippendorff\'s alpha coefficient for {}:'.format(model), krip)
         total_mean = models_mean.sum()/len(models_mean)
         print('Mean value for {}:'.format(model), total_mean)
