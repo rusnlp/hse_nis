@@ -1,0 +1,108 @@
+аксон.txt	axon.txt
+аллергия.txt	allergy.txt
+алюминий.txt	aluminium.txt
+анемия.txt	anemia.txt
+артерия.txt	artery.txt
+бензин.txt	gasoline.txt
+бериллий.txt	beryllium.txt
+биом.txt	biome.txt
+биосфера.txt	biosphere.txt
+биотехнология.txt	biotechnology.txt
+геология.txt	geology.txt
+геоморфология.txt	geomorphology.txt
+гравитация.txt	gravity.txt
+группа крови.txt	blood type.txt
+калория.txt	calorie.txt
+кома.txt	coma.txt
+кровь.txt	blood.txt
+кровяное давление.txt	blood pressure.txt
+лес.txt	forest.txt
+песец.txt	arctic fox.txt
+плод.txt	fruit.txt
+спирты.txt	alcohol.txt
+фоссилии.txt	fossil.txt
+химическая реакция.txt	chemical reaction.txt
+химический элемент.txt	chemical element.txt
+химия.txt	chemistry.txt
+холера.txt	cholera.txt
+холестерин.txt	cholesterol.txt
+эвкалипт.txt	eucalyptus.txt
+экосистема.txt	ecosystem.txt
+электрический двигатель.txt	electric motor.txt
+электролиз.txt	electrolysis.txt
+электрон.txt	electron.txt
+эпидемиология.txt	epidemiology.txt
+эпилепсия.txt	epilepsy.txt
+анаграмма.txt	anagrams.txt
+анахронизм.txt	anachronism.txt
+арабское письмо.txt	arabic alphabet.txt
+беневенто.txt	benevento.txt
+берилл.txt	beryl.txt
+блог.txt	blog.txt
+булева алгебра.txt	boolean algebra (structure).txt
+бумеранг.txt	boomerang.txt
+валентиниан i.txt	valentinian i.txt
+валентиниан ii.txt	valentinian ii.txt
+валентиниан iii.txt	valentinian iii.txt
+водолей (созвездие).txt	aquarius (constellation).txt
+евангелие от иоанна.txt	gospel of john.txt
+евангелие от луки.txt	gospel of luke.txt
+евангелие от марка.txt	gospel of mark.txt
+жасмин.txt	jasmine.txt
+индейки.txt	turkey (bird).txt
+история игрушек.txt	toy story.txt
+кошка.txt	cat.txt
+axon.txt	аксон.txt
+allergy.txt	аллергия.txt
+aluminium.txt	алюминий.txt
+anemia.txt	анемия.txt
+artery.txt	артерия.txt
+gasoline.txt	бензин.txt
+beryllium.txt	бериллий.txt
+biome.txt	биом.txt
+biosphere.txt	биосфера.txt
+biotechnology.txt	биотехнология.txt
+geology.txt	геология.txt
+geomorphology.txt	геоморфология.txt
+gravity.txt	гравитация.txt
+blood type.txt	группа крови.txt
+calorie.txt	калория.txt
+coma.txt	кома.txt
+blood.txt	кровь.txt
+blood pressure.txt	кровяное давление.txt
+forest.txt	лес.txt
+arctic fox.txt	песец.txt
+fruit.txt	плод.txt
+alcohol.txt	спирты.txt
+fossil.txt	фоссилии.txt
+chemical reaction.txt	химическая реакция.txt
+chemical element.txt	химический элемент.txt
+chemistry.txt	химия.txt
+cholera.txt	холера.txt
+cholesterol.txt	холестерин.txt
+eucalyptus.txt	эвкалипт.txt
+ecosystem.txt	экосистема.txt
+electric motor.txt	электрический двигатель.txt
+electrolysis.txt	электролиз.txt
+electron.txt	электрон.txt
+epidemiology.txt	эпидемиология.txt
+epilepsy.txt	эпилепсия.txt
+anagrams.txt	анаграмма.txt
+anachronism.txt	анахронизм.txt
+arabic alphabet.txt	арабское письмо.txt
+benevento.txt	беневенто.txt
+beryl.txt	берилл.txt
+blog.txt	блог.txt
+boolean algebra (structure).txt	булева алгебра.txt
+boomerang.txt	бумеранг.txt
+valentinian i.txt	валентиниан i.txt
+valentinian ii.txt	валентиниан ii.txt
+valentinian iii.txt	валентиниан iii.txt
+aquarius (constellation).txt	водолей (созвездие).txt
+gospel of john.txt	евангелие от иоанна.txt
+gospel of luke.txt	евангелие от луки.txt
+gospel of mark.txt	евангелие от марка.txt
+jasmine.txt	жасмин.txt
+turkey (bird).txt	индейки.txt
+toy story.txt	история игрушек.txt
+cat.txt	кошка.txt
