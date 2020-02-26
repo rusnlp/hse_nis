@@ -2,25 +2,24 @@
 На вход принимается путь к таблице tsv. В ней обязательно есть 2 столбца: 
 Target article - статья запроса 
 Results - полученные ближайшие статьи
-Также есть столбцы с оценками моделей. Их число может варьироваться и они должны иметь следующий вид:
+Также есть столбцы с оценками моделей. Их число может варьироваться и они должны иметь 
+следующий вид:
 "Muse 21", где "Muse" - название модели, "21" - id или порядковый номер аннотатора
 На выходе получаем Krippendorff's alpha и среднюю оценку по каждой модели
 
 python eval_score.py --path=C:/data/RUSNLP_MAP_EVAL.TSV
 """""
 
+import argparse
+import re
 import krippendorff
 import pandas as pd
-from pandas import DataFrame
-import re
-import argparse
 
 
 def parse_args():
     parser = argparse.ArgumentParser(
         description='Средняя оценка аннотаторов и коэффициент их согласия для каждой модели')
-    parser.add_argument('--path', type=str, required=True,
-                        help='Язык, для которго разбираем, нужен для определения словаря в маппинге (ru/en)')
+    parser.add_argument('--path', type=str, required=True, help='Путь к файлу с оценками')
     return parser.parse_args()
 
 
@@ -56,7 +55,7 @@ def mean_and_krip(path):
         models_mean = model_df.mean()
         krip = krippendorff.alpha(model_df.T)
         print('Krippendorff\'s alpha coefficient for {}:'.format(model), krip)
-        total_mean = models_mean.sum()/len(models_mean)
+        total_mean = models_mean.sum() / len(models_mean)
         print('Mean value for {}:'.format(model), total_mean)
 
 
