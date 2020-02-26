@@ -6,7 +6,7 @@
 * русские эмбеддинги: [ruwikiruscorpora_upos_skipgram_300_2_2019](http://vectors.nlpl.eu/repository/20/182.zip)
 * английские эмбеддинги: [300-English Wikipedia Dump of February 2017](http://vectors.nlpl.eu/repository/20/3.zip)
 
-### Одноязычный поиск
+### Одноязычный и кроссязыковой поиск
 
 **preprocess:** вспомогательный модуль, основанный на [этом скрипте](https://github.com/akutuzov/webvectors/blob/master/preprocessing/rus_preprocessing_udpipe.py)
 
@@ -44,7 +44,7 @@
 
 | Аргумент | Тип | Описание |
 | :-------- | :---: | :---------|
-| lang | str | Язык, для которго разбираем; нужен для определения словаря в маппинге
+| lang | str | Язык, для которго разбираем; нужен для определения словаря в маппинге. "сross" - для кроссязыкового словаря
 | lemmatized_path | str | Путь к файлу json с лемматизированными текстами
 | mapping_path | str | Файл маппинга заголовков в индексы и обратно в формате json
 | model_embeddings_path | str | Путь к модели для векторизации корпуса
@@ -72,7 +72,7 @@
 | Аргумент | Тип | Описание |
 | :-------- | :---: | :---------|
 | target_article_path | str | Путь к статье в формате txt, для которой ищем ближайшие. Если статья из корпуса, то только название без формата
-| lang | str  | Язык, для которго разбираем; нужен для определения словаря в маппинге
+| lang | str  | Язык, для которго разбираем; нужен для определения словаря в маппинге. "сross" - для кроссязыкового поиска
 | mapping_path | str | Файл маппинга заголовков в индексы и обратно в формате json
 | corpus_embeddings_path | str | Путь к файлу pkl, в котором лежит векторизованный корпус
 
@@ -114,7 +114,7 @@
 
 | Аргумент | Тип | Описание |
 | :-------- | :---: | :---------|
-| lang | str | Язык, для которого разбираем; нужен для определения словаря в маппинге
+| lang | str | Язык, для которого разбираем; нужен для определения словаря в маппинге. "сross" - для кроссязыкового словаря
 | mapping_path | str | Файл маппинга заголовков в индексы и обратно в формате json
 | corpus_embeddings_path | str | Путь к файлу pkl, в котором лежит векторизованный корпус
 | golden_standard_path | str | Файл с парами наиболее близких статей
@@ -124,7 +124,23 @@
 * ```python evaluate_corpus.py --lang=ru --corpus_embeddings_path=texts/ruwiki/simple.pkl --mapping_path=texts/titles_mapping.json --golden_standard_path=texts/ru_similar_titles.txt```
 * ```python evaluate_corpus.py --lang=en --corpus_embeddings_path=texts/enwiki/simple.pkl --mapping_path=texts/titles_mapping.json --golden_standard_path=texts/en_similar_titles.txt```
 
+## Оценка качества моделей
+
+| Модель | URL | Топ-1 | Топ-5 | Топ-10 |
+| :-------- |:---: | :---: | :---: | ---:|
+| Monolang               |
+| Ru_wiki |http://vectors.nlpl.eu/repository/20/182.zip  |42.59 |75.93 | 87.04 |
+| Ru_ruscorpora |http://vectors.nlpl.eu/repository/20/180.zip |35.19 |75.93 | 88.89 |
+| Ru_tayga |http://vectors.nlpl.eu/repository/20/185.zip  |48.15|72.22 | 88.89 |
+| Ru_news |http://vectors.nlpl.eu/repository/20/184.zip  |44.44 |72.22 | 87.04 |
+| En |  | 46.30 |81.48 | 90.74 |
+| Crosslang               |
+| Baseline | Ru_wiki  | 51.85 |87.96 | 95.37 |
+| MUSE |Ru: https://dl.fbaipublicfiles.com/arrival/vectors/wiki.multi.ru.vec  En: https://dl.fbaipublicfiles.com/arrival/vectors/wiki.multi.en.vec | 34.26 |90.74 | 100.00 |
+| Laser|  |  | |  |
+| LTM|  | | |  |
 
 
-____________________________________________
-### Кроссязыковой поиск
+
+
+
