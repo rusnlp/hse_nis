@@ -3,8 +3,8 @@
 import pandas as pd
 import re
 
-path = 'C:/data-txt/extracted_texts/Baseline_results.txt' # вход
-path2 = "C:/data-txt/extracted_texts/baselinetsv.tsv" # выход, tsv таблица
+path = 'Muse_results.txt'  # вход
+path2 = "musecsv.csv"  # выход, csv таблица
 
 with open (path, 'r', encoding='utf-8') as file:
     results = file.read()
