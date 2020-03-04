@@ -92,7 +92,7 @@ class ProjectionVectorizer(BaseVectorizer):
         test = np.c_[1.0, test]  # Adding bias term
         predicted_vec = np.dot(self.projection, test.T)
         predicted_vec = np.squeeze(np.asarray(predicted_vec))
-        predicted_vec = self.get_norm_vec(predicted_vec)
+        # print('Проецирую и нормализую вектор')
         return predicted_vec
 
     def predict_projection_word(self, src_word, tar_emdedding, topn=10):
@@ -117,7 +117,7 @@ class ProjectionVectorizer(BaseVectorizer):
             src_vec = self.model[token]
             t_vecs[i, :] = self.project_vec(src_vec)
         t_vec = self.get_mean_vec(t_vecs, words)
-        # TODO: уже нормализованные же, да?
+        t_vec = self.get_norm_vec(t_vec)
 
         return t_vec
 
