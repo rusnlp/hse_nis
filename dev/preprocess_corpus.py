@@ -1,6 +1,14 @@
 """
 Принимаем на вход путь к папке с корпусом и путь к модели
 Сохраняем json с лемматизированныеми текстами по названиям файлов
+
+С pos-тегами:
+python preprocess_corpus.py --texts_path=texts/ruwiki --udpipe_path=models/ru.udpipe --lemmatized_path=texts/ru_pos_lemmatized.json
+python preprocess_corpus.py --texts_path=texts/enwiki --udpipe_path=models/en.udpipe --lemmatized_path=texts/en_pos_lemmatized.json
+
+Без pos-тегов:
+python preprocess_corpus.py --texts_path=texts/ruwiki --udpipe_path=models/ru.udpipe --lemmatized_path=texts/ru_lemmatized.json --keep_pos=0
+python preprocess_corpus.py --texts_path=texts/enwiki --udpipe_path=models/en.udpipe --lemmatized_path=texts/en_lemmatized.json --keep_pos=0
 """
 
 import argparse
@@ -11,12 +19,12 @@ from json import dump as jdump, load as jload
 from tqdm import tqdm
 from ufal.udpipe import Model, Pipeline
 
-from preprocess import unify_sym, process
+from utils.preprocess import unify_sym, process
 
 
 def parse_args():
     """
-    :return: объект со всеми аршументами (argparse.Namespace)
+    :return: объект со всеми аргументами (argparse.Namespace)
     """
     parser = argparse.ArgumentParser(
         description='Лемматизация корпуса и сохранение его в json')
@@ -25,8 +33,8 @@ def parse_args():
     parser.add_argument('--udpipe_path', type=str, required=True,
                         help='Путь к модели udpipe для обработки корпуса')
     parser.add_argument('--lemmatized_path', type=str, required=True,
-                        help='Путь к файлу json, в который будут сохраняться лемматизированные файлы. '
-                             'Если файл уже существует, он будет пополняться')
+                        help='Путь к файлу json, в который будут сохраняться лемматизированные файлы.'
+                             ' Если файл уже существует, он будет пополняться')
     parser.add_argument('--keep_pos', type=int, default=1,
                         help='Возвращать ли леммы, помеченные pos-тегами (0|1; default: 1)')
     parser.add_argument('--keep_stops', type=int, default=0,

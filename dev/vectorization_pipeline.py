@@ -1,7 +1,12 @@
 """
-python vectorization_pipeline.py --src_lemmatized_path=texts/ru_lemmatized.json --tar_lemmatized_path=texts/en_lemmatized.json --direction=ru-en --method=model --mapping_path=texts/titles_mapping.json --src_embeddings_path=models/ru_vecmap.vec --tar_embeddings_path=models/en_vecmap.vec --src_output_embeddings_path=texts/ru_vecmap.pkl --tar_output_embeddings_path=texts/en_vecmap.pkl --common_output_embeddings_path=texts/common_vecmap.pkl --forced=1
-python vectorization_pipeline.py --src_lemmatized_path=texts/ru_lemmatized.json --tar_lemmatized_path=texts/en_lemmatized.json --direction=ru-en --method=projection --mapping_path=texts/titles_mapping.json --src_embeddings_path=models/ru.bin --tar_embeddings_path=models/en.bin --src_output_embeddings_path=texts/ru_projection.pkl --tar_output_embeddings_path=texts/en_projection.pkl --common_output_embeddings_path=texts/common_projection.pkl --projection_path=words/ru-en_proj.txt --forced=1
-python vectorization_pipeline.py --src_lemmatized_path=texts/ru_lemmatized.json --tar_lemmatized_path=texts/en_lemmatized.json --direction=ru-en --method=translation --mapping_path=texts/titles_mapping.json --src_embeddings_path=models/ru.bin --tar_embeddings_path=models/en.bin --src_output_embeddings_path=texts/ru_trans.pkl --tar_output_embeddings_path=texts/en_trans.pkl --common_output_embeddings_path=texts/common_trans.pkl --bidict_path=words/ru-en_lem.txt --forced=1
+vecmap:
+python vectorization_pipeline.py --src_lemmatized_path=texts/ru_pos_lemmatized.json --tar_lemmatized_path=texts/en_pos_lemmatized.json --direction=ru-en --method=model --mapping_path=texts/titles_mapping.json --src_embeddings_path=models/ru_vecmap.vec --tar_embeddings_path=models/en_vecmap.vec --src_output_vectors_path=texts/ru_vecmap.pkl --tar_output_vectors_path=texts/en_vecmap.pkl --common_output_vectors_path=texts/common_vecmap.pkl --forced=1
+muse:
+python vectorization_pipeline.py --src_lemmatized_path=texts/ru_lemmatized.json --tar_lemmatized_path=texts/en_lemmatized.json --direction=ru-en --method=model --mapping_path=texts/titles_mapping.json --src_embeddings_path=models/ru_muse.vec --tar_embeddings_path=models/en_muse.vec --src_output_vectors_path=texts/ru_muse.pkl --tar_output_vectors_path=texts/en_muse.pkl --common_output_vectors_path=texts/common_muse.pkl --forced=1
+projection:
+python vectorization_pipeline.py --src_lemmatized_path=texts/ru_pos_lemmatized.json --tar_lemmatized_path=texts/en_pos_lemmatized.json --direction=ru-en --method=projection --mapping_path=texts/titles_mapping.json --src_embeddings_path=models/ru.bin --tar_embeddings_path=models/en.bin --src_output_vectors_path=texts/ru_projection.pkl --tar_output_vectors_path=texts/en_projection.pkl --common_output_vectors_path=texts/common_projection.pkl --projection_path=words/ru-en_proj.txt --forced=1
+translation:
+python vectorization_pipeline.py --src_lemmatized_path=texts/ru_pos_lemmatized.json --tar_lemmatized_path=texts/en_pos_lemmatized.json --direction=ru-en --method=translation --mapping_path=texts/titles_mapping.json --src_embeddings_path=models/en.bin --tar_embeddings_path=models/en.bin --src_output_vectors_path=texts/ru_trans.pkl --tar_output_vectors_path=texts/en_trans.pkl --common_output_vectors_path=texts/common_trans.pkl --bidict_path=words/ru-en_lem.txt --forced=1
 """
 
 import argparse
@@ -12,12 +17,14 @@ from tqdm import tqdm
 from json import load as jload, dump as jdump
 from pickle import dump as pdump, load as pload
 
-from vectorization import build_vectorizer, vectorize_corpus
+from utils.vectorization import build_vectorizer, vectorize_corpus
+from utils.arguments import check_args
 
 
 def parse_args():
     parser = argparse.ArgumentParser(
-        description='Пайплайн для векторизации двух корпусов любой моделью и составления общей матрицы и общего маппинга')
+        description='Пайплайн для векторизации двух корпусов любой моделью '
+                    'и составления общей матрицы и общего маппинга')
     parser.add_argument('--src_lemmatized_path', type=str, required=True,
                         help='Путь к лемматизованным текстам на исходном языке в формате json')
     parser.add_argument('--tar_lemmatized_path', type=str, required=True,
@@ -28,19 +35,21 @@ def parse_args():
                         help='Метод векторизации (model/translation/projection)')
     parser.add_argument('--mapping_path', type=str, required=True,
                         help='Файл маппинга заголовков в индексы и обратно в формате json')
-    parser.add_argument('--src_embeddings_path', type=str, required=True,
+    parser.add_argument('--src_embeddings_path', type=str,
                         help='Путь к модели векторизации для исходного языка')
-    parser.add_argument('--tar_embeddings_path', type=str, required=True,
+    parser.add_argument('--tar_embeddings_path', type=str,
                         help='Путь к модели векторизации для целевого языка')
-    parser.add_argument('--src_output_embeddings_path', type=str, required=True,
-                        help='Путь к pkl, в котором лежит уже векторизованный корпус на исходном языке')
-    parser.add_argument('--tar_output_embeddings_path', type=str, required=True,
-                        help='Путь к pkl, в котором лежит уже векторизованный корпус на целевом языке')
-    parser.add_argument('--common_output_embeddings_path', type=str, required=True,
+    parser.add_argument('--common_output_vectors_path', type=str, required=True,
                         help='Путь к pkl, в котором лежит объединённый векторизованный корпус')
-    parser.add_argument('--bidict_path', type=str, default='',
+    parser.add_argument('--src_output_vectors_path', type=str,
+                        help='Путь к pkl, в котором лежит '
+                             'уже векторизованный корпус на исходном языке')
+    parser.add_argument('--tar_output_vectors_path', type=str,
+                        help='Путь к pkl, в котором лежит '
+                             'уже векторизованный корпус на целевом языке')
+    parser.add_argument('--bidict_path', type=str,
                         help='Путь к двуязычному словарю в формате txt')
-    parser.add_argument('--projection_path', type=str, default='',
+    parser.add_argument('--projection_path', type=str,
                         help='Путь к матрице трансформации в формате txt')
     parser.add_argument('--no_duplicates', type=int, default=0,
                         help='Брать ли для каждого типа в тексте вектор только по одному разу '
@@ -75,11 +84,11 @@ def get_lemmatized_corpus(mapping, i2lang_name, lemmatized, n_new):
     return corpus
 
 
-def load_vectorized(output_embeddings_path, forced):
+def load_vectorized(output_vectors_path, forced):
     """загрузка матрицы с векторами корпуса, если есть"""
     # если существует уже какой-то векторизованный корпус
-    if os.path.isfile(output_embeddings_path) and not forced:
-        vectorized = pload(open(output_embeddings_path, 'rb'))
+    if os.path.isfile(output_vectors_path) and not forced:
+        vectorized = pload(open(output_vectors_path, 'rb'))
         print('Уже что-то векторизовали!', file=sys.stderr)
 
     else:  # ничего ещё из этого корпуса не векторизовали или принудительно обновляем всё
@@ -90,7 +99,7 @@ def load_vectorized(output_embeddings_path, forced):
 
 
 def main_onelang(direction, lang, texts_mapping, lemmatized_path, embeddings_path,
-                 output_embeddings_path, method, no_duplicates, projection_path, bidict_path, forced):
+                 output_vectors_path, method, no_duplicates, projection_path, bidict_path, forced):
     i2lang = 'i2{}'.format(lang)
 
     # собираем лемматизированные тексты из lemmatized
@@ -102,7 +111,7 @@ def main_onelang(direction, lang, texts_mapping, lemmatized_path, embeddings_pat
         print('Понял, сейчас векторизуем.', file=sys.stderr)
 
         # подгружаем старое, если было
-        old_vectorized = load_vectorized(output_embeddings_path, forced)
+        old_vectorized = load_vectorized(output_vectors_path, forced)
 
         # появились ли новые номера в маппинге
         n_new_texts = len(texts_mapping[i2lang]) - len(old_vectorized)
@@ -130,7 +139,8 @@ def main_onelang(direction, lang, texts_mapping, lemmatized_path, embeddings_pat
 
             new_vectorized, not_vectorized = vectorize_corpus(
                 lemmatized_corpus, new_vectorized, vectorizer, starts_from=len(old_vectorized))
-            pdump(new_vectorized, open(output_embeddings_path, 'wb'))
+            if output_vectors_path:
+                pdump(new_vectorized, open(output_vectors_path, 'wb'))
 
             if not_vectorized:
                 print('Не удалось векторизовать следующие тексты:\n{}'.
@@ -156,19 +166,28 @@ def to_common(texts_mapping, common2i, i2common, common_vectorized, vectorized, 
 
 def main():
     args = parse_args()
+    model_required = {'model': ['src_embeddings_path', 'tar_embeddings_path'],
+                     'translation': ['tar_embeddings_path', 'bidict_path'],
+                     'projection': ['src_embeddings_path', 'tar_embeddings_path', 'projection_path']
+                     }
+    check_args(args, 'method', model_required)
 
     directions = {d: lang for d, lang in zip(['src', 'tar'], args.direction.split('-'))}
     print(directions)
 
     texts_mapping = jload(open(args.mapping_path))
 
+    print('Векторизую src')
     src_vectorized = main_onelang('src', directions['src'], texts_mapping, args.src_lemmatized_path,
-                                  args.src_embeddings_path, args.src_output_embeddings_path, args.method,
-                                  args.no_duplicates, args.projection_path, args.bidict_path, args.forced)
+                                  args.src_embeddings_path, args.src_output_vectors_path,
+                                  args.method, args.no_duplicates, args.projection_path,
+                                  args.bidict_path, args.forced)
     # print(src_vectorized)
+    print('Векторизую tar')
     tar_vectorized = main_onelang('tar', directions['tar'], texts_mapping, args.tar_lemmatized_path,
-                                  args.tar_embeddings_path, args.tar_output_embeddings_path, args.method,
-                                  args.no_duplicates, args.projection_path, args.bidict_path, args.forced)
+                                  args.tar_embeddings_path, args.tar_output_vectors_path,
+                                  args.method, args.no_duplicates, args.projection_path,
+                                  args.bidict_path, args.forced)
     # print(tar_vectorized)
 
     # собираем общие матрицу и маппинг
@@ -188,14 +207,14 @@ def main():
                                                       directions['src'],
                                                       start_from=len(tar_vectorized))
 
-    pdump(common_vectorized, open(args.common_output_embeddings_path, 'wb'))
+    pdump(common_vectorized, open(args.common_output_vectors_path, 'wb'))
 
     texts_mapping['common2i'] = common2i
     texts_mapping['i2common'] = i2common
     jdump(texts_mapping, open(args.mapping_path, 'w', encoding='utf-8'))
 
-    print(i2common)
-    print(common2i)
+    # print(i2common)
+    # print(common2i)
 
 
 if __name__ == "__main__":

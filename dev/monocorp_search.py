@@ -7,9 +7,33 @@
 Получаем n ближайших записей в виде списка кортежей (заголовок, близость)
 Напечатем рейтинг, если не поставили verbose=False
 
-python monocorp_search.py --target_article_path=gasoline.txt --lang=cross --mapping_path=texts/titles_mapping.json --corpus_embeddings_path=texts/common_trans.pkl --top=10
-python monocorp_search.py --target_article_path=gasoline.txt --lang=cross --mapping_path=texts/titles_mapping.json --corpus_embeddings_path=texts/common_vecmap.pkl --top=10
-python monocorp_search.py --target_article_path=gasoline.txt --lang=cross --mapping_path=texts/titles_mapping.json --corpus_embeddings_path=texts/common_projection.pkl --top=10
+vecmap:
+python monocorp_search.py --target_article_path=gasoline.txt --lang=cross --mapping_path=texts/titles_mapping.json --corpus_vectors_path=texts/common_vecmap.pkl --top=10
+ru внешняя:
+python monocorp_search.py --target_article_path=texts/ruwiki/бензин.txt --lang=cross --mapping_path=texts/titles_mapping.json --corpus_vectors_path=texts/common_vecmap.pkl --top=10 --included=0 --udpipe_path=models/ru.udpipe --method=model --embeddings_path=models/ru_vecmap.vec
+en внешняя:
+python monocorp_search.py --target_article_path=texts/enwiki/gasoline.txt --lang=cross --mapping_path=texts/titles_mapping.json --corpus_vectors_path=texts/common_vecmap.pkl --top=10 --included=0 --udpipe_path=models/en.udpipe --method=model --embeddings_path=models/en_vecmap.vec
+
+muse:
+python monocorp_search.py --target_article_path=gasoline.txt --lang=cross --mapping_path=texts/titles_mapping.json --corpus_vectors_path=texts/common_muse.pkl --top=10
+ru внешняя:
+python monocorp_search.py --target_article_path=texts/ruwiki/бензин.txt --lang=cross --mapping_path=texts/titles_mapping.json --corpus_vectors_path=texts/common_muse.pkl --top=10 --included=0 --udpipe_path=models/ru.udpipe --keep_pos=0 --method=model --embeddings_path=models/ru_muse.vec
+en внешняя:
+python monocorp_search.py --target_article_path=texts/enwiki/gasoline.txt --lang=cross --mapping_path=texts/titles_mapping.json --corpus_vectors_path=texts/common_muse.pkl --top=10 --included=0 --udpipe_path=models/en.udpipe --keep_pos=0 --method=model --embeddings_path=models/en_muse.vec
+
+projection:
+python monocorp_search.py --target_article_path=gasoline.txt --lang=cross --mapping_path=texts/titles_mapping.json --corpus_vectors_path=texts/common_projection.pkl --top=10
+ru внешняя:
+python monocorp_search.py --target_article_path=texts/ruwiki/бензин.txt --lang=cross --mapping_path=texts/titles_mapping.json --corpus_vectors_path=texts/common_projection.pkl --top=10 --included=0 --udpipe_path=models/ru.udpipe --method=projection --embeddings_path=models/en.bin --projection_path=words/ru-en_proj.txt
+en внешняя:
+python monocorp_search.py --target_article_path=texts/enwiki/gasoline.txt --lang=cross --mapping_path=texts/titles_mapping.json --corpus_vectors_path=texts/common_projection.pkl --top=10 --included=0 --udpipe_path=models/en.udpipe --method=model --embeddings_path=models/en.bin
+
+translation:
+python monocorp_search.py --target_article_path=gasoline.txt --lang=cross --mapping_path=texts/titles_mapping.json --corpus_vectors_path=texts/common_trans.pkl --top=10
+ru внешняя:
+python monocorp_search.py --target_article_path=texts/ruwiki/бензин.txt --lang=cross --mapping_path=texts/titles_mapping.json --corpus_vectors_path=texts/common_trans.pkl --top=10 --included=0 --udpipe_path=models/ru.udpipe --method=translation --embeddings_path=models/en.bin --bidict_path=words/ru-en_lem.txt
+en внешняя:
+python monocorp_search.py --target_article_path=texts/enwiki/gasoline.txt --lang=cross --mapping_path=texts/titles_mapping.json --corpus_vectors_path=texts/common_trans.pkl --top=10 --included=0 --udpipe_path=models/en.udpipe --method=model --embeddings_path=models/en.bin
 """
 
 import argparse
@@ -17,23 +41,24 @@ from json import load as jload
 from pickle import load as pload
 
 import numpy as np
+from utils.arguments import check_args
 
 
 def parse_args():
     """
-    :return: объект со всеми аршументами (argparse.Namespace)
+    :return: объект со всеми аргументами (argparse.Namespace)
     """
     parser = argparse.ArgumentParser(
         description='Ранжирование статей на основе косинусной близости векторов')
     parser.add_argument('--target_article_path', type=str, required=True,
                         help='Путь к статье в формате txt, для которой ищем ближайшие.'
-                             '\nЕсли статья из корпуса, то только назание без формата')
+                             '\nЕсли статья из корпуса, то только назание с форматом')
     parser.add_argument('--lang', type=str, required=True,
-                        help='Язык, для которго разбираем; '
-                             'нужен для определения словаря в маппинге (ru/en)')
+                        help='Язык, для которого разбираем; '
+                             'нужен для определения словаря в маппинге (ru/en/cross')
     parser.add_argument('--mapping_path', type=str, required=True,
                         help='Файл маппинга заголовков в индексы и обратно в формате json')
-    parser.add_argument('--corpus_embeddings_path', type=str, required=True,
+    parser.add_argument('--corpus_vectors_path', type=str, required=True,
                         help='Путь к файлу pkl, в котором лежит векторизованный корпус')
     parser.add_argument('--top', type=int, default=1,
                         help='Сколько близких статeй возвращать (default: 1; -1 for all)')
@@ -42,7 +67,8 @@ def parse_args():
     # ДЛЯ ВНЕШНИХ ТЕКСТОВ:
     parser.add_argument('--included', type=int, default=1,
                         help='Включена ли статья в корпус (0|1; default: 1)')
-    parser.add_argument('--udpipe_path', type=str, default='',
+    # ДЛЯ ПРЕДОБРАБОТКИ
+    parser.add_argument('--udpipe_path', type=str,
                         help='Папка, в которой лежит модель udpipe для обработки нового текста')
     parser.add_argument('--keep_pos', type=int, default=1,
                         help='Возвращать ли леммы, помеченные pos-тегами (0|1; default: 1)')
@@ -51,8 +77,15 @@ def parse_args():
                              '(0|1; default: 0)')
     parser.add_argument('--keep_punct', type=int, default=0,
                         help='Сохранять ли знаки препинания (0|1; default: 0)')
-    parser.add_argument('--model_embeddings_path', type=str, default='',
-                        help='Папка, в которой лежит модель для векторизации корпуса')
+    # ДЛЯ ВЕКТОРИЗАЦИИ
+    parser.add_argument('--method', type=str,
+                        help='Метод векторизации (model/translation/projection)')
+    parser.add_argument('--embeddings_path', type=str,
+                        help='Папка, в которой лежит модель для векторизации текста')
+    parser.add_argument('--bidict_path', type=str,
+                        help='Путь к двуязычному словарю в формате txt')
+    parser.add_argument('--projection_path', type=str,
+                        help='Путь к матрице трансформации в формате txt')
     parser.add_argument('--no_duplicates', type=int, default=0,
                         help='Брать ли для каждого типа в тексте вектор только по одному разу '
                              '(0|1; default: 0)')
@@ -84,22 +117,25 @@ class NoModelProvided(Exception):
         return self.text
 
 
-def prepare_new_article(article_path, udpipe_path, model_embeddings_path,
-                        keep_pos, keep_punct, keep_stops, no_duplicates):
+def prepare_new_article(article_path, udpipe_path, keep_pos, keep_punct, keep_stops,
+                        method, embeddings_path, no_duplicates, projection_path, bidict_path):
     """
     :param article_path: путь к новому тексту (строка)
     :param udpipe_path: путь к модели udpipe для лемматизации (строка)
-    :param model_embeddings_path: путь к модели для векторизации (строка)
     :param keep_pos: оставлять ли pos-теги (pseudo-boolean int)
     :param keep_punct: оставлять ли пунктуацию (pseudo-boolean int)
     :param keep_stops: оставлять ли стоп-слова (pseudo-boolean int)
+    :param method:
+    :param embeddings_path: путь к модели для векторизации (строка)
     :param no_duplicates: векторизовать по множеству слов, а не по спику (pseudo-boolean)
+    :param projection_path:
+    :param bidict_path:
     :return: вектор нового текста (np.array)
     """
     import logging
     from ufal.udpipe import Model, Pipeline
     from preprocess_corpus import process_text
-    from vectorize_corpus import load_embeddings, vectorize_text
+    from utils.vectorization import build_vectorizer
 
     logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
@@ -116,10 +152,10 @@ def prepare_new_article(article_path, udpipe_path, model_embeddings_path,
     lems = process_text(process_pipeline, text, keep_pos, keep_punct, keep_stops)
     logging.info('Лемматризировал текст {}, приступаю к векторизации'.format(article_path))
 
-    emb_model = load_embeddings(model_embeddings_path)
-    emb_model = emb_model.wv
+    vectorizer = build_vectorizer('src', method, embeddings_path, no_duplicates,
+                                  projection_path, bidict_path)
 
-    article_vec = vectorize_text(lems, emb_model, no_duplicates)
+    article_vec = vectorizer.vectorize_text(lems)
 
     return article_title, article_vec
 
@@ -173,17 +209,29 @@ def make_rating(target_article, sim_dict, verbose, n, included, mapping, i2lang_
 def main():
     args = parse_args()
 
+    included_required = {
+        0: ['udpipe_path', 'embeddings_path', 'method']
+    }
+    # Проверяем, всё ли указали для внешней статьи
+    check_args(args, 'included', included_required)
+    if not args.included:
+        model_required = {'model': ['embeddings_path'],
+                         'translation': ['embeddings_path', 'bidict_path'],
+                         'projection': ['embeddings_path', 'projection_path']
+                         }
+        check_args(args, 'method', model_required)
+
     i2lang = 'i2{}'.format(args.lang)
     lang2i = '{}2i'.format(args.lang)
     texts_mapping = jload(open(args.mapping_path))
-    corpus_vecs = pload(open(args.corpus_embeddings_path, 'rb'))
+    corpus_vecs = pload(open(args.corpus_vectors_path, 'rb'))
     print(corpus_vecs.shape)
 
     if args.included:
         target_article = args.target_article_path
         print(target_article)
         target_article_id = texts_mapping[lang2i].get(target_article)
-        print(texts_mapping[i2lang])
+        # print(texts_mapping[i2lang])
 
         if not target_article_id:
             raise NotIncludedError
@@ -191,12 +239,10 @@ def main():
         target_article_vec = corpus_vecs[target_article_id]
 
     else:
-        if not args.udpipe_path or not args.model_embeddings_path:
-            raise NoModelProvided
-
-        target_article, target_article_vec = prepare_new_article(
-            args.target_article_path, args.udpipe_path, args.model_embeddings_path,
-            args.keep_pos, args.keep_punct, args.keep_stops, args.no_duplicates)
+        target_article, target_article_vec = prepare_new_article(args.target_article_path,
+                                args.udpipe_path, args.keep_pos, args.keep_punct, args.keep_stops,
+                                args.method, args.embeddings_path, args.no_duplicates,
+                                args.projection_path, args.bidict_path)
 
     similars = search_similar(target_article_vec, corpus_vecs)
     # print(similars)
