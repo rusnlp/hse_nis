@@ -1,6 +1,6 @@
-'''
+"""
 Автоматический запуск поиска для списка статей
-'''
+"""
 
 import argparse
 import os
@@ -10,7 +10,7 @@ from tqdm import tqdm
 
 def parse_args():
     parser = argparse.ArgumentParser(
-        description='Поочерёдный поиск ближайших статей к заданным и сохраенние результатов')
+        description='Поочерёдный поиск ближайших статей к заданным и сохранение результатов')
     parser.add_argument('--titles_path', type=str, required=True,
                         help='Список заголовков, для которых запускаем поиск')
     parser.add_argument('--mapping_path', type=str, required=True,
@@ -39,11 +39,10 @@ def main():
     create_dir(args.result_path[:args.result_path.rfind('/')])
 
     titles = [line.split()[0] for line in open(args.titles_path, encoding='utf-8').readlines()]
-    # print(titles)
 
     results = []
     for title in tqdm(titles):
-        command = '''python monocorp_search.py --target_article_path={} --lang={} \
+        command = '''python3 monocorp_search.py --target_article_path={} --lang={} \
         --mapping_path={} --corpus_vectors_path={}'''.\
             format(title, args.lang, args.mapping_path, args.corpus_vectors_path)
         if args.top:
