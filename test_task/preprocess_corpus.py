@@ -1,9 +1,6 @@
 """
 Принимаем на вход путь к папке с корпусом и путь к модели
 Сохраняем json с лемматизированныеми текстами по названиям файлов
-
-python preprocess_corpus.py --texts_path=texts/ruwiki --udpipe_path=models/ru.udpipe --lemmatized_path=texts/ruwiki/lemmatized.json --forced=1
-python preprocess_corpus.py --texts_path=texts/enwiki --udpipe_path=models/en.udpipe --lemmatized_path=texts/enwiki/lemmatized.json
 """
 
 import argparse
@@ -14,26 +11,24 @@ from json import dump as jdump, load as jload
 from tqdm import tqdm
 from ufal.udpipe import Model, Pipeline
 
-from preprocess import unify_sym, process
+from utils.preprocessing import process_unified
 
 
 def parse_args():
-    """
-    :return: объект со всеми аршументами (argparse.Namespace)
-    """
     parser = argparse.ArgumentParser(
         description='Лемматизация корпуса и сохранение его в json')
     parser.add_argument('--texts_path', type=str, required=True,
-                        help='Папка, в которой лежат тексты в формате txt')
+                        help='Папка, в которой лежат тексты')
     parser.add_argument('--udpipe_path', type=str, required=True,
                         help='Путь к модели udpipe для обработки корпуса')
     parser.add_argument('--lemmatized_path', type=str, required=True,
-                        help='Путь к файлу json, в который будут сохраняться лемматизированные файлы. '
-                             'Если файл уже существует, он будет пополняться')
+                        help='Путь к файлу json, в который будут сохраняться лемматизированные файлы.'
+                             ' Если файл уже существует, он будет пополняться')
     parser.add_argument('--keep_pos', type=int, default=1,
                         help='Возвращать ли леммы, помеченные pos-тегами (0|1; default: 1)')
     parser.add_argument('--keep_stops', type=int, default=0,
-                        help='Сохранять ли слова, получившие тег функциональной части речи (0|1; default: 0)')
+                        help='Сохранять ли слова, получившие тег функциональной части речи '
+                             '(0|1; default: 0)')
     parser.add_argument('--keep_punct', type=int, default=0,
                         help='Сохранять ли знаки препинания (0|1; default: 0)')
     parser.add_argument('--forced', type=int, default=0,
@@ -48,7 +43,8 @@ def load_lemmatized(lemmatized_path, forced):
     :param forced: принудительно лемматизировать весь корпус заново (pseudo-boolean int)
     :return: словарю заголовков и лемм
     """
-    if os.path.isfile(lemmatized_path) and not forced:  # если существует уже разбор каких-то файлов
+    # если существует уже разбор каких-то файлов
+    if os.path.isfile(lemmatized_path) and not forced:
         lemmatized = jload(open(lemmatized_path, encoding='utf-8'))
         print('Уже что-то разбирали!', file=sys.stderr)
 
@@ -71,9 +67,7 @@ def process_text(pipeline, text_lines, keep_pos, keep_punct, keep_stops):
     text_lems = []  # придётся экстендить, а с генератором плохо читается
 
     for line in text_lines:
-        line = unify_sym(line.strip())
-        line_lems = process(pipeline, line, keep_pos, keep_punct, keep_stops)
-
+        line_lems = process_unified(line, pipeline, keep_pos, keep_punct, keep_stops)
         if line_lems:  # если не пустая строка
             text_lems.extend(line_lems)
 
@@ -95,14 +89,15 @@ def process_corpus(pipeline, lemmatized, texts_path, files, keep_pos, keep_punct
     not_lemmatized = []
 
     for file in tqdm(files):
-        text = open('{}/{}'.format(texts_path, file), encoding='utf-8').read().lower().strip().splitlines()
+        text = open('{}/{}'.format(texts_path, file), encoding='utf-8').\
+            read().lower().strip().splitlines()
         text_lems = process_text(pipeline, text, keep_pos, keep_punct, keep_stops)
 
         if text_lems:
             lemmatized[file] = text_lems
 
         else:  # с текстом что-то не так, и там не остаётся нормальных лемм
-            not_lemmatized.append('{}/{}'.format(texts_path, file))
+            not_lemmatized.append(file)
             continue
 
     return lemmatized, not_lemmatized
@@ -120,16 +115,18 @@ def main():
 
     if new_files:
         udpipe_model = Model.load(args.udpipe_path)
-        process_pipeline = Pipeline(udpipe_model, 'tokenize', Pipeline.DEFAULT, Pipeline.DEFAULT, 'conllu')
+        process_pipeline = Pipeline(
+            udpipe_model, 'tokenize', Pipeline.DEFAULT, Pipeline.DEFAULT, 'conllu')
 
-        lemmatized_texts, not_lemmatized_texts = process_corpus(process_pipeline, lemmatized_dict, args.texts_path, new_files,
-                                                    keep_pos=args.keep_pos, keep_punct=args.keep_punct,
-                                                    keep_stops=args.keep_stops)
+        lemmatized_texts, not_lemmatized_texts = process_corpus(
+            process_pipeline, lemmatized_dict, args.texts_path, new_files,
+            keep_pos=args.keep_pos, keep_punct=args.keep_punct, keep_stops=args.keep_stops)
 
         jdump(lemmatized_texts, open(args.lemmatized_path, 'w', encoding='utf-8'))
 
         if not_lemmatized_texts:
-            print('Не удалось разобрать следующие файлы:\n{}'.format('\n'.join(not_lemmatized_texts)), file=sys.stderr)
+            print('Не удалось разобрать следующие файлы:\n{}'.
+                  format('\n'.join(not_lemmatized_texts)), file=sys.stderr)
 
 
 if __name__ == "__main__":

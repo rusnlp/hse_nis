@@ -1,0 +1,755 @@
+1. Топ-5 ближайших статей к аксон.txt:
+1. артерия.txt (0.922300107008282)
+2. axon.txt (0.9170293172437524)
+3. кровь.txt (0.9156601568721661)
+4. кровяное давление.txt (0.9115702694917788)
+5. аллергия.txt (0.9092952428185898)
+
+2. Топ-5 ближайших статей к аллергия.txt:
+1. холера.txt (0.9712143710701748)
+2. эпилепсия.txt (0.9704091873760897)
+3. анемия.txt (0.9676096346106142)
+4. кома.txt (0.9612325474325429)
+5. allergy.txt (0.9583538685591542)
+
+3. Топ-5 ближайших статей к алюминий.txt:
+1. бериллий.txt (0.9740790517830004)
+2. aluminium.txt (0.9507422352867068)
+3. бензин.txt (0.9444503831702008)
+4. спирты.txt (0.9437998645021325)
+5. beryllium.txt (0.9421801472867894)
+
+4. Топ-5 ближайших статей к анемия.txt:
+1. аллергия.txt (0.9676096346106142)
+2. кома.txt (0.9662605333133149)
+3. холера.txt (0.9595452202184112)
+4. холестерин.txt (0.9586065715588511)
+5. anemia.txt (0.9576838219669135)
+
+5. Топ-5 ближайших статей к артерия.txt:
+1. кровь.txt (0.9355069699035164)
+2. кровяное давление.txt (0.9307738770007337)
+3. artery.txt (0.922302264441498)
+4. аксон.txt (0.922300107008282)
+5. кома.txt (0.9140337465641362)
+
+6. Топ-5 ближайших статей к бензин.txt:
+1. gasoline.txt (0.9548873637769915)
+2. спирты.txt (0.9467603157378832)
+3. алюминий.txt (0.9444503831702008)
+4. aluminium.txt (0.9239094882566202)
+5. бериллий.txt (0.9231100809818742)
+
+7. Топ-5 ближайших статей к бериллий.txt:
+1. алюминий.txt (0.9740790517830004)
+2. beryllium.txt (0.9492256974668858)
+3. aluminium.txt (0.9451397140016944)
+4. химия.txt (0.9445202490391089)
+5. химический элемент.txt (0.9418424652379391)
+
+8. Топ-5 ближайших статей к биом.txt:
+1. лес.txt (0.955518779385236)
+2. геоморфология.txt (0.9386439462909514)
+3. biome.txt (0.9345548219082942)
+4. экосистема.txt (0.9291018692359583)
+5. биосфера.txt (0.9182028786462654)
+
+9. Топ-5 ближайших статей к биосфера.txt:
+1. экосистема.txt (0.9613791245056749)
+2. biosphere.txt (0.953066327994259)
+3. геоморфология.txt (0.9508665506263766)
+4. геология.txt (0.9397520670350952)
+5. фоссилии.txt (0.9385835701492932)
+
+10. Топ-5 ближайших статей к биотехнология.txt:
+1. biotechnology.txt (0.9498033978283382)
+2. химия.txt (0.944567287253771)
+3. экосистема.txt (0.9442301549241854)
+4. эпидемиология.txt (0.9408268022713666)
+5. аллергия.txt (0.9273868584410249)
+
+11. Топ-5 ближайших статей к геология.txt:
+1. геоморфология.txt (0.9648635456278516)
+2. geology.txt (0.9405703104201579)
+3. биосфера.txt (0.9397520670350952)
+4. экосистема.txt (0.9349124309316781)
+5. geomorphology.txt (0.9321259561164787)
+
+12. Топ-5 ближайших статей к геоморфология.txt:
+1. геология.txt (0.9648635456278516)
+2. geomorphology.txt (0.9584494522592033)
+3. экосистема.txt (0.9531475681651808)
+4. биосфера.txt (0.9508665506263766)
+5. geology.txt (0.9499636913504599)
+
+13. Топ-5 ближайших статей к гравитация.txt:
+1. gravity.txt (0.9606550333819446)
+2. электрон.txt (0.9444945478537587)
+3. экосистема.txt (0.9331338656877219)
+4. electron.txt (0.9324939603119653)
+5. химия.txt (0.9300316424881414)
+
+14. raceback (most recent call last):
+  File "monocorp_search.py", line 225, in <module>
+    main()
+  File "monocorp_search.py", line 206, in main
+    raise NotIncludedError
+__main__.NotIncludedError: Такого текста нет в корпусе! Пожалуйста, измените значение параметра included
+
+15. Топ-5 ближайших статей к калория.txt:
+1. calorie.txt (0.9509829651136782)
+2. экосистема.txt (0.9349185891344648)
+3. химия.txt (0.9308566207325732)
+4. бензин.txt (0.923104781164334)
+5. кровяное давление.txt (0.9227621113296939)
+
+16. Топ-5 ближайших статей к кома.txt:
+1. анемия.txt (0.9662605333133149)
+2. эпилепсия.txt (0.9649255890237358)
+3. аллергия.txt (0.9612325474325429)
+4. холера.txt (0.9471763060201503)
+5. холестерин.txt (0.9355837873218599)
+
+17. Топ-5 ближайших статей к кровь.txt:
+1. холестерин.txt (0.9569915062747681)
+2. blood.txt (0.9563589299261777)
+3. холера.txt (0.9525712294135171)
+4. аллергия.txt (0.9514886284197047)
+5. анемия.txt (0.9492052229393564)
+
+18. raceback (most recent call last):
+  File "monocorp_search.py", line 225, in <module>
+    main()
+  File "monocorp_search.py", line 206, in main
+    raise NotIncludedError
+__main__.NotIncludedError: Такого текста нет в корпусе! Пожалуйста, измените значение параметра included
+
+19. Топ-5 ближайших статей к лес.txt:
+1. биом.txt (0.955518779385236)
+2. эвкалипт.txt (0.9494584225233715)
+3. forest.txt (0.9458730731954257)
+4. eucalyptus.txt (0.9387243234321123)
+5. геоморфология.txt (0.9307717382602684)
+
+20. Топ-5 ближайших статей к песец.txt:
+1. arctic fox.txt (0.9339445019905255)
+2. кошка.txt (0.9313208583152472)
+3. лес.txt (0.9225407105944332)
+4. индейки.txt (0.919312963398027)
+5. эвкалипт.txt (0.915236148838819)
+
+21. Топ-5 ближайших статей к плод.txt:
+1. эвкалипт.txt (0.9563079851302863)
+2. fruit.txt (0.9331132904664028)
+3. фоссилии.txt (0.9242985761608877)
+4. eucalyptus.txt (0.910503221232053)
+5. жасмин.txt (0.9100158609002386)
+
+22. Топ-5 ближайших статей к спирты.txt:
+1. химия.txt (0.954285511024753)
+2. химическая реакция.txt (0.9480414609537364)
+3. бензин.txt (0.9467603157378832)
+4. алюминий.txt (0.9437998645021325)
+5. бериллий.txt (0.9402931994074993)
+
+23. Топ-5 ближайших статей к фоссилии.txt:
+1. экосистема.txt (0.9454708959206928)
+2. fossil.txt (0.9423287569089648)
+3. биосфера.txt (0.9385835701492932)
+4. геоморфология.txt (0.9333303389336226)
+5. химия.txt (0.9295852699502705)
+
+24. raceback (most recent call last):
+  File "monocorp_search.py", line 225, in <module>
+    main()
+  File "monocorp_search.py", line 206, in main
+    raise NotIncludedError
+__main__.NotIncludedError: Такого текста нет в корпусе! Пожалуйста, измените значение параметра included
+
+25. raceback (most recent call last):
+  File "monocorp_search.py", line 225, in <module>
+    main()
+  File "monocorp_search.py", line 206, in main
+    raise NotIncludedError
+__main__.NotIncludedError: Такого текста нет в корпусе! Пожалуйста, измените значение параметра included
+
+26. Топ-5 ближайших статей к химия.txt:
+1. химический элемент.txt (0.9688129872778987)
+2. химическая реакция.txt (0.9621259110648017)
+3. chemistry.txt (0.9584713220766603)
+4. спирты.txt (0.954285511024753)
+5. экосистема.txt (0.9459514091690564)
+
+27. Топ-5 ближайших статей к холера.txt:
+1. аллергия.txt (0.9712143710701748)
+2. анемия.txt (0.9595452202184112)
+3. эпилепсия.txt (0.9594482849288962)
+4. cholera.txt (0.956621624622812)
+5. кровь.txt (0.9525712294135171)
+
+28. Топ-5 ближайших статей к холестерин.txt:
+1. анемия.txt (0.9586065715588511)
+2. кровь.txt (0.9569915062747681)
+3. аллергия.txt (0.9545922661769712)
+4. холера.txt (0.9485488624041305)
+5. cholesterol.txt (0.9451266970988828)
+
+29. Топ-5 ближайших статей к эвкалипт.txt:
+1. плод.txt (0.9563079851302863)
+2. лес.txt (0.9494584225233715)
+3. eucalyptus.txt (0.9472456653393532)
+4. фоссилии.txt (0.9278730173551862)
+5. жасмин.txt (0.9186582706392289)
+
+30. Топ-5 ближайших статей к экосистема.txt:
+1. биосфера.txt (0.9613791245056749)
+2. ecosystem.txt (0.9535739167470734)
+3. геоморфология.txt (0.9531475681651808)
+4. химия.txt (0.9459514091690564)
+5. фоссилии.txt (0.9454708959206928)
+
+31. raceback (most recent call last):
+  File "monocorp_search.py", line 225, in <module>
+    main()
+  File "monocorp_search.py", line 206, in main
+    raise NotIncludedError
+__main__.NotIncludedError: Такого текста нет в корпусе! Пожалуйста, измените значение параметра included
+
+32. Топ-5 ближайших статей к электролиз.txt:
+1. бериллий.txt (0.9315779518745209)
+2. electrolysis.txt (0.9309496711357459)
+3. химическая реакция.txt (0.9301868563776139)
+4. алюминий.txt (0.9272263658895057)
+5. спирты.txt (0.9222996339341489)
+
+33. Топ-5 ближайших статей к электрон.txt:
+1. гравитация.txt (0.9444945478537587)
+2. electron.txt (0.9393477966641792)
+3. химический элемент.txt (0.9282380550524876)
+4. химия.txt (0.9271397121069831)
+5. калория.txt (0.9083550519808945)
+
+34. Топ-5 ближайших статей к эпидемиология.txt:
+1. epidemiology.txt (0.9482461747836772)
+2. холера.txt (0.9473924433896843)
+3. биотехнология.txt (0.9408268022713666)
+4. cholera.txt (0.925495430666523)
+5. аллергия.txt (0.9242692356363236)
+
+35. Топ-5 ближайших статей к эпилепсия.txt:
+1. аллергия.txt (0.9704091873760898)
+2. кома.txt (0.9649255890237358)
+3. холера.txt (0.9594482849288963)
+4. анемия.txt (0.9571093363374501)
+5. coma.txt (0.9505835556484932)
+
+36. Топ-5 ближайших статей к анаграмма.txt:
+1. анахронизм.txt (0.9488288144141317)
+2. anachronism.txt (0.9395392542327791)
+3. блог.txt (0.9308722047230289)
+4. gospel of john.txt (0.9266186567366479)
+5. anagrams.txt (0.9253321500866671)
+
+37. Топ-5 ближайших статей к анахронизм.txt:
+1. anachronism.txt (0.9515199486102435)
+2. анаграмма.txt (0.9488288144141317)
+3. блог.txt (0.9097849663415508)
+4. gospel of john.txt (0.9061405538883032)
+5. gospel of mark.txt (0.9037932030733679)
+
+38. raceback (most recent call last):
+  File "monocorp_search.py", line 225, in <module>
+    main()
+  File "monocorp_search.py", line 206, in main
+    raise NotIncludedError
+__main__.NotIncludedError: Такого текста нет в корпусе! Пожалуйста, измените значение параметра included
+
+39. Топ-5 ближайших статей к беневенто.txt:
+1. benevento.txt (0.9628813573891637)
+2. валентиниан i.txt (0.9501907079298906)
+3. валентиниан ii.txt (0.9428767764743324)
+4. valentinian iii.txt (0.9416995402613193)
+5. valentinian i.txt (0.9361866572049077)
+
+40. Топ-5 ближайших статей к берилл.txt:
+1. бериллий.txt (0.9225015668476879)
+2. beryl.txt (0.9160588622383188)
+3. фоссилии.txt (0.9039904806679913)
+4. алюминий.txt (0.8965943545767426)
+5. эвкалипт.txt (0.8927262739409255)
+
+41. Топ-5 ближайших статей к блог.txt:
+1. blog.txt (0.96879470876714)
+2. анаграмма.txt (0.9308722047230289)
+3. anachronism.txt (0.9124898506081629)
+4. анахронизм.txt (0.9097849663415508)
+5. anagrams.txt (0.8987073098766427)
+
+42. raceback (most recent call last):
+  File "monocorp_search.py", line 225, in <module>
+    main()
+  File "monocorp_search.py", line 206, in main
+    raise NotIncludedError
+__main__.NotIncludedError: Такого текста нет в корпусе! Пожалуйста, измените значение параметра included
+
+43. Топ-5 ближайших статей к бумеранг.txt:
+1. boomerang.txt (0.9547035576052005)
+2. кошка.txt (0.9190355633489443)
+3. cat.txt (0.9023117673667165)
+4. эвкалипт.txt (0.9001707455455566)
+5. анаграмма.txt (0.8999748666918496)
+
+44. raceback (most recent call last):
+  File "monocorp_search.py", line 225, in <module>
+    main()
+  File "monocorp_search.py", line 206, in main
+    raise NotIncludedError
+__main__.NotIncludedError: Такого текста нет в корпусе! Пожалуйста, измените значение параметра included
+
+45. raceback (most recent call last):
+  File "monocorp_search.py", line 225, in <module>
+    main()
+  File "monocorp_search.py", line 206, in main
+    raise NotIncludedError
+__main__.NotIncludedError: Такого текста нет в корпусе! Пожалуйста, измените значение параметра included
+
+46. raceback (most recent call last):
+  File "monocorp_search.py", line 225, in <module>
+    main()
+  File "monocorp_search.py", line 206, in main
+    raise NotIncludedError
+__main__.NotIncludedError: Такого текста нет в корпусе! Пожалуйста, измените значение параметра included
+
+47. raceback (most recent call last):
+  File "monocorp_search.py", line 225, in <module>
+    main()
+  File "monocorp_search.py", line 206, in main
+    raise NotIncludedError
+__main__.NotIncludedError: Такого текста нет в корпусе! Пожалуйста, измените значение параметра included
+
+48. raceback (most recent call last):
+  File "monocorp_search.py", line 225, in <module>
+    main()
+  File "monocorp_search.py", line 206, in main
+    raise NotIncludedError
+__main__.NotIncludedError: Такого текста нет в корпусе! Пожалуйста, измените значение параметра included
+
+49. raceback (most recent call last):
+  File "monocorp_search.py", line 225, in <module>
+    main()
+  File "monocorp_search.py", line 206, in main
+    raise NotIncludedError
+__main__.NotIncludedError: Такого текста нет в корпусе! Пожалуйста, измените значение параметра included
+
+50. raceback (most recent call last):
+  File "monocorp_search.py", line 225, in <module>
+    main()
+  File "monocorp_search.py", line 206, in main
+    raise NotIncludedError
+__main__.NotIncludedError: Такого текста нет в корпусе! Пожалуйста, измените значение параметра included
+
+51. Топ-5 ближайших статей к жасмин.txt:
+1. jasmine.txt (0.9332356361282892)
+2. эвкалипт.txt (0.9186582706392289)
+3. плод.txt (0.9100158609002386)
+4. eucalyptus.txt (0.8942782836424961)
+5. лес.txt (0.8878668464560024)
+
+52. Топ-5 ближайших статей к индейки.txt:
+1. песец.txt (0.919312963398027)
+2. эвкалипт.txt (0.9148755802671966)
+3. кошка.txt (0.9144532477969467)
+4. turkey (bird).txt (0.914079516773548)
+5. arctic fox.txt (0.9077080532766977)
+
+53. raceback (most recent call last):
+  File "monocorp_search.py", line 225, in <module>
+    main()
+  File "monocorp_search.py", line 206, in main
+    raise NotIncludedError
+__main__.NotIncludedError: Такого текста нет в корпусе! Пожалуйста, измените значение параметра included
+
+54. Топ-5 ближайших статей к кошка.txt:
+1. cat.txt (0.9474811319741803)
+2. песец.txt (0.9313208583152472)
+3. бумеранг.txt (0.9190355633489443)
+4. индейки.txt (0.9144532477969467)
+5. холера.txt (0.9128519604465725)
+
+55. Топ-5 ближайших статей к axon.txt:
+1. artery.txt (0.9297670248976712)
+2. coma.txt (0.9175119073785764)
+3. аксон.txt (0.9170293172437524)
+4. cholesterol.txt (0.9158796618380394)
+5. blood.txt (0.9003150321775659)
+
+56. Топ-5 ближайших статей к allergy.txt:
+1. anemia.txt (0.9670331122067289)
+2. cholera.txt (0.9648939060467943)
+3. epilepsy.txt (0.9594070489208292)
+4. аллергия.txt (0.9583538685591542)
+5. coma.txt (0.9501218151432309)
+
+57. Топ-5 ближайших статей к aluminium.txt:
+1. beryllium.txt (0.9880755371378801)
+2. electrolysis.txt (0.9669724538448483)
+3. chemical element.txt (0.9589851605380466)
+4. chemical reaction.txt (0.9544688528345128)
+5. chemistry.txt (0.9529238897078168)
+
+58. Топ-5 ближайших статей к anemia.txt:
+1. allergy.txt (0.9670331122067289)
+2. blood.txt (0.9623710869414359)
+3. анемия.txt (0.9576838219669135)
+4. blood type.txt (0.9545592726068295)
+5. epilepsy.txt (0.9532422199784573)
+
+59. Топ-5 ближайших статей к artery.txt:
+1. blood pressure.txt (0.9612374618928473)
+2. blood.txt (0.954703172114328)
+3. anemia.txt (0.9422975102589038)
+4. coma.txt (0.9411244598652007)
+5. axon.txt (0.9297670248976712)
+
+60. Топ-5 ближайших статей к gasoline.txt:
+1. бензин.txt (0.9548873637769915)
+2. aluminium.txt (0.9407884224111607)
+3. beryllium.txt (0.9338980265411063)
+4. calorie.txt (0.9317807929878335)
+5. cholera.txt (0.9152367382864267)
+
+61. Топ-5 ближайших статей к beryllium.txt:
+1. aluminium.txt (0.9880755371378801)
+2. electrolysis.txt (0.9653692586482777)
+3. chemical element.txt (0.9640220025649675)
+4. chemistry.txt (0.9566504571892092)
+5. chemical reaction.txt (0.951069944509551)
+
+62. Топ-5 ближайших статей к biome.txt:
+1. forest.txt (0.9496552558805937)
+2. биом.txt (0.9345548219082942)
+3. biosphere.txt (0.9258092300365652)
+4. ecosystem.txt (0.9226871163300643)
+5. geomorphology.txt (0.9208816487052006)
+
+63. Топ-5 ближайших статей к biosphere.txt:
+1. geomorphology.txt (0.954059324047662)
+2. биосфера.txt (0.953066327994259)
+3. geology.txt (0.9505970059858122)
+4. ecosystem.txt (0.9501988643955072)
+5. fossil.txt (0.945302225262805)
+
+64. Топ-5 ближайших статей к biotechnology.txt:
+1. биотехнология.txt (0.9498033978283382)
+2. ecosystem.txt (0.9439597947498478)
+3. epidemiology.txt (0.9387683221857335)
+4. cholera.txt (0.9335929985438387)
+5. allergy.txt (0.9225731376866309)
+
+65. Топ-5 ближайших статей к geology.txt:
+1. geomorphology.txt (0.9788356467858709)
+2. fossil.txt (0.9604973957748113)
+3. biosphere.txt (0.9505970059858122)
+4. геоморфология.txt (0.9499636913504599)
+5. геология.txt (0.9405703104201579)
+
+66. Топ-5 ближайших статей к geomorphology.txt:
+1. geology.txt (0.9788356467858709)
+2. геоморфология.txt (0.9584494522592033)
+3. biosphere.txt (0.954059324047662)
+4. ecosystem.txt (0.9513086166068457)
+5. fossil.txt (0.9465017005713827)
+
+67. Топ-5 ближайших статей к gravity.txt:
+1. гравитация.txt (0.9606550333819446)
+2. electron.txt (0.9517859414543488)
+3. chemistry.txt (0.9166498397413388)
+4. электрон.txt (0.9081790457806378)
+5. geology.txt (0.9074367761322251)
+
+68. raceback (most recent call last):
+  File "monocorp_search.py", line 225, in <module>
+    main()
+  File "monocorp_search.py", line 206, in main
+    raise NotIncludedError
+__main__.NotIncludedError: Такого текста нет в корпусе! Пожалуйста, измените значение параметра included
+
+69. Топ-5 ближайших статей к calorie.txt:
+1. калория.txt (0.9509829651136782)
+2. gasoline.txt (0.9317807929878335)
+3. chemistry.txt (0.9281228364584231)
+4. beryllium.txt (0.9259846584283322)
+5. aluminium.txt (0.9241288945728131)
+
+70. Топ-5 ближайших статей к coma.txt:
+1. epilepsy.txt (0.970490057173606)
+2. anemia.txt (0.9529198712559557)
+3. эпилепсия.txt (0.9505835556484934)
+4. allergy.txt (0.9501218151432309)
+5. аллергия.txt (0.9440047272730838)
+
+71. Топ-5 ближайших статей к blood.txt:
+1. blood type.txt (0.9643554790162268)
+2. anemia.txt (0.9623710869414359)
+3. кровь.txt (0.9563589299261777)
+4. artery.txt (0.954703172114328)
+5. blood pressure.txt (0.9478398611882314)
+
+72. raceback (most recent call last):
+  File "monocorp_search.py", line 225, in <module>
+    main()
+  File "monocorp_search.py", line 206, in main
+    raise NotIncludedError
+__main__.NotIncludedError: Такого текста нет в корпусе! Пожалуйста, измените значение параметра included
+
+73. Топ-5 ближайших статей к forest.txt:
+1. eucalyptus.txt (0.9601448513463821)
+2. biome.txt (0.9496552558805937)
+3. лес.txt (0.9458730731954257)
+4. ecosystem.txt (0.9241421327011787)
+5. биом.txt (0.9131261756669814)
+
+74. raceback (most recent call last):
+  File "monocorp_search.py", line 225, in <module>
+    main()
+  File "monocorp_search.py", line 206, in main
+    raise NotIncludedError
+__main__.NotIncludedError: Такого текста нет в корпусе! Пожалуйста, измените значение параметра included
+
+75. Топ-5 ближайших статей к fruit.txt:
+1. плод.txt (0.9331132904664028)
+2. eucalyptus.txt (0.9213048732264396)
+3. jasmine.txt (0.916348794110195)
+4. эвкалипт.txt (0.9084239017560982)
+5. фоссилии.txt (0.8738452586263099)
+
+76. raceback (most recent call last):
+  File "monocorp_search.py", line 225, in <module>
+    main()
+  File "monocorp_search.py", line 206, in main
+    raise NotIncludedError
+__main__.NotIncludedError: Такого текста нет в корпусе! Пожалуйста, измените значение параметра included
+
+77. Топ-5 ближайших статей к fossil.txt:
+1. geology.txt (0.9604973957748113)
+2. geomorphology.txt (0.9465017005713827)
+3. biosphere.txt (0.945302225262805)
+4. фоссилии.txt (0.9423287569089648)
+5. ecosystem.txt (0.9410445232056598)
+
+78. raceback (most recent call last):
+  File "monocorp_search.py", line 225, in <module>
+    main()
+  File "monocorp_search.py", line 206, in main
+    raise NotIncludedError
+__main__.NotIncludedError: Такого текста нет в корпусе! Пожалуйста, измените значение параметра included
+
+79. raceback (most recent call last):
+  File "monocorp_search.py", line 225, in <module>
+    main()
+  File "monocorp_search.py", line 206, in main
+    raise NotIncludedError
+__main__.NotIncludedError: Такого текста нет в корпусе! Пожалуйста, измените значение параметра included
+
+80. Топ-5 ближайших статей к chemistry.txt:
+1. chemical element.txt (0.9680070425336198)
+2. chemical reaction.txt (0.9638841402861198)
+3. химия.txt (0.9584713220766603)
+4. beryllium.txt (0.9566504571892092)
+5. aluminium.txt (0.9529238897078168)
+
+81. Топ-5 ближайших статей к cholera.txt:
+1. allergy.txt (0.9648939060467943)
+2. холера.txt (0.956621624622812)
+3. anemia.txt (0.9459672108509358)
+4. epidemiology.txt (0.9454724929279872)
+5. epilepsy.txt (0.9443752330189115)
+
+82. Топ-5 ближайших статей к cholesterol.txt:
+1. anemia.txt (0.9484764733723068)
+2. холестерин.txt (0.9451266970988828)
+3. blood.txt (0.9435898670958283)
+4. allergy.txt (0.9371385067299821)
+5. artery.txt (0.929047352493032)
+
+83. Топ-5 ближайших статей к eucalyptus.txt:
+1. forest.txt (0.9601448513463821)
+2. эвкалипт.txt (0.9472456653393532)
+3. лес.txt (0.9387243234321123)
+4. fossil.txt (0.937076561232174)
+5. turkey (bird).txt (0.9299466979272468)
+
+84. Топ-5 ближайших статей к ecosystem.txt:
+1. экосистема.txt (0.9535739167470734)
+2. geomorphology.txt (0.9513086166068457)
+3. biosphere.txt (0.9501988643955072)
+4. biotechnology.txt (0.9439597947498478)
+5. fossil.txt (0.9410445232056598)
+
+85. raceback (most recent call last):
+  File "monocorp_search.py", line 225, in <module>
+    main()
+  File "monocorp_search.py", line 206, in main
+    raise NotIncludedError
+__main__.NotIncludedError: Такого текста нет в корпусе! Пожалуйста, измените значение параметра included
+
+86. Топ-5 ближайших статей к electrolysis.txt:
+1. chemical reaction.txt (0.967065232404031)
+2. aluminium.txt (0.9669724538448483)
+3. beryllium.txt (0.9653692586482777)
+4. chemistry.txt (0.9442195672598924)
+5. электролиз.txt (0.9309496711357459)
+
+87. Топ-5 ближайших статей к electron.txt:
+1. gravity.txt (0.9517859414543488)
+2. chemistry.txt (0.9461232301019484)
+3. электрон.txt (0.939347796664179)
+4. beryllium.txt (0.9375735052072617)
+5. chemical element.txt (0.9326103898839124)
+
+88. Топ-5 ближайших статей к epidemiology.txt:
+1. эпидемиология.txt (0.948246174783677)
+2. epilepsy.txt (0.9455649125736326)
+3. cholera.txt (0.9454724929279872)
+4. allergy.txt (0.941390867580254)
+5. biotechnology.txt (0.9387683221857335)
+
+89. Топ-5 ближайших статей к epilepsy.txt:
+1. coma.txt (0.970490057173606)
+2. allergy.txt (0.9594070489208292)
+3. anemia.txt (0.9532422199784573)
+4. эпилепсия.txt (0.9473804627669813)
+5. epidemiology.txt (0.9455649125736326)
+
+90. Топ-5 ближайших статей к anagrams.txt:
+1. анаграмма.txt (0.9253321500866671)
+2. arabic alphabet.txt (0.9205730996570669)
+3. boomerang.txt (0.9116851597416952)
+4. anachronism.txt (0.9077425029679388)
+5. toy story.txt (0.9007538614648553)
+
+91. Топ-5 ближайших статей к anachronism.txt:
+1. анахронизм.txt (0.9515199486102435)
+2. gospel of john.txt (0.9450845680569411)
+3. анаграмма.txt (0.9395392542327791)
+4. gospel of mark.txt (0.9377468352637036)
+5. gospel of luke.txt (0.9336413908540704)
+
+92. raceback (most recent call last):
+  File "monocorp_search.py", line 225, in <module>
+    main()
+  File "monocorp_search.py", line 206, in main
+    raise NotIncludedError
+__main__.NotIncludedError: Такого текста нет в корпусе! Пожалуйста, измените значение параметра included
+
+93. Топ-5 ближайших статей к benevento.txt:
+1. беневенто.txt (0.9628813573891637)
+2. valentinian iii.txt (0.9531377023036383)
+3. valentinian i.txt (0.9504710223170625)
+4. valentinian ii.txt (0.9367312001498689)
+5. валентиниан i.txt (0.9284879947482267)
+
+94. Топ-5 ближайших статей к beryl.txt:
+1. eucalyptus.txt (0.917423642596861)
+2. берилл.txt (0.9160588622383188)
+3. geology.txt (0.9087436236085034)
+4. aluminium.txt (0.9080626951064732)
+5. fossil.txt (0.9071696734845595)
+
+95. Топ-5 ближайших статей к blog.txt:
+1. блог.txt (0.96879470876714)
+2. anachronism.txt (0.9158908758564268)
+3. toy story.txt (0.9001637780731401)
+4. anagrams.txt (0.8979710453424972)
+5. анаграмма.txt (0.8972858159857696)
+
+96. raceback (most recent call last):
+  File "monocorp_search.py", line 225, in <module>
+    main()
+  File "monocorp_search.py", line 206, in main
+    raise NotIncludedError
+__main__.NotIncludedError: Такого текста нет в корпусе! Пожалуйста, измените значение параметра included
+
+97. Топ-5 ближайших статей к boomerang.txt:
+1. бумеранг.txt (0.9547035576052005)
+2. cat.txt (0.9155906903031028)
+3. anagrams.txt (0.9116851597416952)
+4. arctic fox.txt (0.9033941918613302)
+5. toy story.txt (0.8996229413097862)
+
+98. raceback (most recent call last):
+  File "monocorp_search.py", line 225, in <module>
+    main()
+  File "monocorp_search.py", line 206, in main
+    raise NotIncludedError
+__main__.NotIncludedError: Такого текста нет в корпусе! Пожалуйста, измените значение параметра included
+
+99. raceback (most recent call last):
+  File "monocorp_search.py", line 225, in <module>
+    main()
+  File "monocorp_search.py", line 206, in main
+    raise NotIncludedError
+__main__.NotIncludedError: Такого текста нет в корпусе! Пожалуйста, измените значение параметра included
+
+100. raceback (most recent call last):
+  File "monocorp_search.py", line 225, in <module>
+    main()
+  File "monocorp_search.py", line 206, in main
+    raise NotIncludedError
+__main__.NotIncludedError: Такого текста нет в корпусе! Пожалуйста, измените значение параметра included
+
+101. raceback (most recent call last):
+  File "monocorp_search.py", line 225, in <module>
+    main()
+  File "monocorp_search.py", line 206, in main
+    raise NotIncludedError
+__main__.NotIncludedError: Такого текста нет в корпусе! Пожалуйста, измените значение параметра included
+
+102. raceback (most recent call last):
+  File "monocorp_search.py", line 225, in <module>
+    main()
+  File "monocorp_search.py", line 206, in main
+    raise NotIncludedError
+__main__.NotIncludedError: Такого текста нет в корпусе! Пожалуйста, измените значение параметра included
+
+103. raceback (most recent call last):
+  File "monocorp_search.py", line 225, in <module>
+    main()
+  File "monocorp_search.py", line 206, in main
+    raise NotIncludedError
+__main__.NotIncludedError: Такого текста нет в корпусе! Пожалуйста, измените значение параметра included
+
+104. raceback (most recent call last):
+  File "monocorp_search.py", line 225, in <module>
+    main()
+  File "monocorp_search.py", line 206, in main
+    raise NotIncludedError
+__main__.NotIncludedError: Такого текста нет в корпусе! Пожалуйста, измените значение параметра included
+
+105. Топ-5 ближайших статей к jasmine.txt:
+1. жасмин.txt (0.9332356361282892)
+2. eucalyptus.txt (0.9190779019857896)
+3. fruit.txt (0.916348794110195)
+4. эвкалипт.txt (0.8993137915109224)
+5. плод.txt (0.8923510338593187)
+
+106. raceback (most recent call last):
+  File "monocorp_search.py", line 225, in <module>
+    main()
+  File "monocorp_search.py", line 206, in main
+    raise NotIncludedError
+__main__.NotIncludedError: Такого текста нет в корпусе! Пожалуйста, измените значение параметра included
+
+107. raceback (most recent call last):
+  File "monocorp_search.py", line 225, in <module>
+    main()
+  File "monocorp_search.py", line 206, in main
+    raise NotIncludedError
+__main__.NotIncludedError: Такого текста нет в корпусе! Пожалуйста, измените значение параметра included
+
+108. Топ-5 ближайших статей к cat.txt:
+1. кошка.txt (0.9474811319741803)
+2. arctic fox.txt (0.9406028497764655)
+3. turkey (bird).txt (0.9283025853321323)
+4. cholera.txt (0.9232012377028531)
+5. fossil.txt (0.9231476268128664)
