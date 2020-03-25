@@ -1,4 +1,5 @@
 # hse_nis
+Этот readme содержит описание репозитория в целом и готовые примеры запуска. Подробнее про аргументы каждого скрипта можно почитать в [readme test_task](https://github.com/rusnlp/hse_nis/blob/master/test_task/README.md), а таблицы с оценкой recall для каждого метода поиска -- в [scores](https://github.com/rusnlp/hse_nis/blob/master/scores.md)
 
 ## texts_conf
 Вектора для текстов на статьях с конференций
@@ -42,8 +43,12 @@
 
 * без pos-тегов (для muse):
 
-```python preprocess_corpus.py --texts_path=../texts_conf/texts/RU --udpipe_path=../models/ru.udpipe --lemmatized_path=../texts_conf/texts/ru_lemmatized.json --keep_pos=0```
-```python preprocess_corpus.py --texts_path=../texts_conf/texts/EN --udpipe_path=../models/en.udpipe --lemmatized_path=../texts_conf/texts/en_lemmatized.json --keep_pos=0```
+```python preprocess_corpus.py --texts_path=../texts_wiki/ruwiki --udpipe_path=../models/ru.udpipe --lemmatized_path=../texts_wiki/ru_lemmatized.json --keep_pos=0```
+```python preprocess_corpus.py --texts_path=../texts_wiki/enwiki --udpipe_path=../models/en.udpipe --lemmatized_path=../texts_wiki/en_lemmatized.json --keep_pos=0```
+
+* уже предобработанные статьи
+```python preprocess_corpus.py --texts_path=../texts_wiki/ruwiki --lemmatized_path=../texts_wiki/ru_pos_lemmatized.json --preprocessed=1```
+```python preprocess_corpus.py --texts_path=../texts_wiki/enwiki --lemmatized_path=../texts_wiki/en_pos_lemmatized.json --preprocessed=1```
 
 #### Обучение проекции
 
@@ -74,15 +79,15 @@
 
 * muse
 
-```python monocorp_search.py --target_article_path=anemia.txt --lang=cross --mapping_path=../texts_wiki/mapping.json --corpus_vectors_path=../texts_wiki/common_muse.pkl --top=10```
+```python monocorp_search.py --target_article_path=anemia.txt --lang=cross --mapping_path=../texts_wiki/mapping.json --corpus_vectors_path=../texts_wiki/common_muse.pkl --top=10 --with_url=1 --url_mapping_path=../texts_wiki/hash_title_url.tsv```
 
 * translation
 
-```python monocorp_search.py --target_article_path=anemia.txt --lang=cross --mapping_path=../texts_wiki/mapping.json --corpus_vectors_path=../texts_wiki/common_trans.pkl --top=10```
+```python monocorp_search.py --target_article_path=anemia.txt --lang=cross --mapping_path=../texts_wiki/mapping.json --corpus_vectors_path=../texts_wiki/common_trans.pkl --top=10 --with_url=1 --url_mapping_path=../texts_wiki/hash_title_url.tsv```
 
 * projection
 
-```python monocorp_search.py --target_article_path=anemia.txt --lang=cross --mapping_path=../texts_wiki/mapping.json --corpus_vectors_path=../texts_wiki/common_projection.pkl --top=10```
+```python monocorp_search.py --target_article_path=anemia.txt --lang=cross --mapping_path=../texts_wiki/mapping.json --corpus_vectors_path=../texts_wiki/common_projection.pkl --top=10 --with_url=1 --url_mapping_path=../texts_wiki/hash_title_url.tsv```
 
 
 #### Оценка
@@ -106,19 +111,19 @@
 #### Автоматический поиск для списка заголовков
 * vecmap
 
-```python automatic_search.py --titles_path=../texts_wiki/standards/titles.txt --mapping_path=../texts_wiki/mapping.json --corpus_vectors_path=../texts_wiki/common_vecmap.pkl --result_path=../texts_wiki/search_results/results_vecmap.txt --top=5```
+```python automatic_search.py --titles_path=../texts_wiki/standards/titles.txt --mapping_path=../texts_wiki/mapping.json --corpus_vectors_path=../texts_wiki/common_vecmap.pkl --result_path=../texts_wiki/search_results/results_vecmap.txt --top=5 --with_url=1 --url_mapping_path=../texts_wiki/hash_title_url.tsv```
 
 * muse
 
-```python automatic_search.py --titles_path=../texts_wiki/standards/titles.txt --mapping_path=../texts_wiki/mapping.json --corpus_vectors_path=../texts_wiki/common_muse.pkl --result_path=../texts_wiki/search_results/results_muse.txt --top=5```
+```python automatic_search.py --titles_path=../texts_wiki/standards/titles.txt --mapping_path=../texts_wiki/mapping.json --corpus_vectors_path=../texts_wiki/common_muse.pkl --result_path=../texts_wiki/search_results/results_muse.txt --top=5 --with_url=1 --url_mapping_path=../texts_wiki/hash_title_url.tsv```
 
 * translation
 
-```python automatic_search.py --titles_path=../texts_wiki/standards/titles.txt --mapping_path=../texts_wiki/mapping.json --corpus_vectors_path=../texts_wiki/common_trans.pkl --result_path=../texts_wiki/search_results/results_trans.txt --top=5```
+```python automatic_search.py --titles_path=../texts_wiki/standards/titles.txt --mapping_path=../texts_wiki/mapping.json --corpus_vectors_path=../texts_wiki/common_trans.pkl --result_path=../texts_wiki/search_results/results_trans.txt --top=5 --with_url=1 --url_mapping_path=../texts_wiki/hash_title_url.tsv```
 
 * projection
 
-```python automatic_search.py --titles_path=../texts_wiki/standards/titles.txt --mapping_path=../texts_wiki/mapping.json --corpus_vectors_path=../texts_wiki/common_projection.pkl --result_path=../texts_wiki/search_results/results_projection.txt --top=5```
+```python automatic_search.py --titles_path=../texts_wiki/standards/titles.txt --mapping_path=../texts_wiki/mapping.json --corpus_vectors_path=../texts_wiki/common_projection.pkl --result_path=../texts_wiki/search_results/results_projection.txt --top=5 --with_url=1 --url_mapping_path=../texts_wiki/hash_title_url.tsv```
 
 
 
@@ -137,6 +142,11 @@
 
 ```python preprocess_corpus.py --texts_path=../texts_conf/texts/RU --udpipe_path=../models/ru.udpipe --lemmatized_path=../texts_conf/texts/ru_lemmatized.json --keep_pos=0```
 ```python preprocess_corpus.py --texts_path=../texts_conf/texts/EN --udpipe_path=../models/en.udpipe --lemmatized_path=../texts_conf/texts/en_lemmatized.json --keep_pos=0```
+
+* уже предобработанные статьи
+```python preprocess_corpus.py --texts_path=../texts_conf/texts/RU --lemmatized_path=.../texts_conf/texts/ru_pos_lemmatized.json --preprocessed=1```
+```python preprocess_corpus.py --texts_path=../texts_conf/texts/EN --lemmatized_path=.../texts_conf/texts/en_pos_lemmatized.json --preprocessed=1```
+
 
 #### Обучение проекции
 ```python learn_projection.py --src_model_path=../models/ru.bin --tar_model_path=../models/en.bin --bidict_path=../words/ru-en_lem.txt --proj_path=../words/ru-en_proj.txt```
@@ -162,37 +172,37 @@
 #### Поиск
 * vecmap
 
-```python monocorp_search.py --target_article_path=aist_2012_c6bc0383ea448fcb7e5f45ac85a1afb2d12505ef --lang=cross --mapping_path=../texts_conf/texts/mapping.json --corpus_vectors_path=../texts_conf/texts/common_vecmap.pkl --top=10```
+```python monocorp_search.py --target_article_path=aist_2012_c6bc0383ea448fcb7e5f45ac85a1afb2d12505ef --lang=cross --mapping_path=../texts_conf/texts/mapping.json --corpus_vectors_path=../texts_conf/texts/common_vecmap.pkl --top=10 --with_url=1 --url_mapping_path=../texts_conf/hash_title_url.tsv```
 
 * muse
 
-```python monocorp_search.py --target_article_path=aist_2012_c6bc0383ea448fcb7e5f45ac85a1afb2d12505ef --lang=cross --mapping_path=../texts_conf/texts/mapping.json --corpus_vectors_path=../texts_conf/texts/common_muse.pkl --top=10```
+```python monocorp_search.py --target_article_path=aist_2012_c6bc0383ea448fcb7e5f45ac85a1afb2d12505ef --lang=cross --mapping_path=../texts_conf/texts/mapping.json --corpus_vectors_path=../texts_conf/texts/common_muse.pkl --top=10 --with_url=1 --url_mapping_path=../texts_conf/hash_title_url.tsv```
 
 * translation
 
-```python monocorp_search.py --target_article_path=aist_2012_c6bc0383ea448fcb7e5f45ac85a1afb2d12505ef --lang=cross --mapping_path=../texts_conf/texts/mapping.json --corpus_vectors_path=../texts_conf/texts/common_trans.pkl --top=10```
+```python monocorp_search.py --target_article_path=aist_2012_c6bc0383ea448fcb7e5f45ac85a1afb2d12505ef --lang=cross --mapping_path=../texts_conf/texts/mapping.json --corpus_vectors_path=../texts_conf/texts/common_trans.pkl --top=10 --with_url=1 --url_mapping_path=../texts_conf/hash_title_url.tsv```
 
 * projection
 
-```python monocorp_search.py --target_article_path=aist_2012_c6bc0383ea448fcb7e5f45ac85a1afb2d12505ef --lang=cross --mapping_path=../texts_conf/texts/mapping.json --corpus_vectors_path=../texts_conf/texts/common_projection.pkl --top=10```
+```python monocorp_search.py --target_article_path=aist_2012_c6bc0383ea448fcb7e5f45ac85a1afb2d12505ef --lang=cross --mapping_path=../texts_conf/texts/mapping.json --corpus_vectors_path=../texts_conf/texts/common_projection.pkl --top=10 --with_url=1 --url_mapping_path=../texts_conf/hash_title_url.tsv```
 
 
 #### Автоматический поиск для списка заголовков
 * vecmap
 
-```python automatic_search.py --titles_path=../texts_conf/20ru20en.tsv --mapping_path=../texts_conf/texts/mapping.json --corpus_vectors_path=../texts_conf/texts/common_vecmap.pkl --result_path=../texts_conf/search_results/results_vecmap.txt --top=5```
+```python automatic_search.py --titles_path=../texts_conf/20ru20en.tsv --mapping_path=../texts_conf/texts/mapping.json --corpus_vectors_path=../texts_conf/texts/common_vecmap.pkl --result_path=../texts_conf/search_results/results_vecmap.txt --top=5 --with_url=1 --url_mapping_path=../texts_conf/hash_title_url.tsv```
 
 * muse
 
-```python automatic_search.py --titles_path=../texts_conf/20ru20en.tsv --mapping_path=../texts_conf/texts/mapping.json --corpus_vectors_path=../texts_conf/texts/common_muse.pkl --result_path=../texts_conf/search_results/results_muse.txt --top=5```
+```python automatic_search.py --titles_path=../texts_conf/20ru20en.tsv --mapping_path=../texts_conf/texts/mapping.json --corpus_vectors_path=../texts_conf/texts/common_muse.pkl --result_path=../texts_conf/search_results/results_muse.txt --top=5 --with_url=1 --url_mapping_path=../texts_conf/hash_title_url.tsv```
 
 * translation
 
-```python automatic_search.py --titles_path=../texts_conf/20ru20en.tsv --mapping_path=../texts_conf/texts/mapping.json --corpus_vectors_path=../texts_conf/texts/common_trans.pkl --result_path=../texts_conf/search_results/results_trans.txt --top=5```
+```python automatic_search.py --titles_path=../texts_conf/20ru20en.tsv --mapping_path=../texts_conf/texts/mapping.json --corpus_vectors_path=../texts_conf/texts/common_trans.pkl --result_path=../texts_conf/search_results/results_trans.txt --top=5 --with_url=1 --url_mapping_path=../texts_conf/hash_title_url.tsv```
 
 * projection
 
-```python automatic_search.py --titles_path=../texts_conf/20ru20en.tsv --mapping_path=../texts_conf/texts/mapping.json --corpus_vectors_path=../texts_conf/texts/common_projection.pkl --result_path=../texts_conf/search_results/results_projection.txt --top=5```
+```python automatic_search.py --titles_path=../texts_conf/20ru20en.tsv --mapping_path=../texts_conf/texts/mapping.json --corpus_vectors_path=../texts_conf/texts/common_projection.pkl --result_path=../texts_conf/search_results/results_projection.txt --top=5 --with_url=1 --url_mapping_path=../texts_conf/hash_title_url.tsv```
 
 
 #### Подсчёт средней оценки и коэффициента согласия аннотаторов (альфа Криппендорфа)

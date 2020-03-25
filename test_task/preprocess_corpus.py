@@ -11,6 +11,7 @@ from json import dump as jdump, load as jload
 from tqdm import tqdm
 from ufal.udpipe import Model, Pipeline
 
+from utils.arguments import check_args
 from utils.preprocessing import process_unified
 
 
@@ -19,7 +20,7 @@ def parse_args():
         description='Лемматизация корпуса и сохранение его в json')
     parser.add_argument('--texts_path', type=str, required=True,
                         help='Папка, в которой лежат тексты')
-    parser.add_argument('--udpipe_path', type=str, required=True,
+    parser.add_argument('--udpipe_path', type=str,
                         help='Путь к модели udpipe для обработки корпуса')
     parser.add_argument('--lemmatized_path', type=str, required=True,
                         help='Путь к файлу json, в который будут сохраняться лемматизированные файлы.'
@@ -33,7 +34,8 @@ def parse_args():
                         help='Сохранять ли знаки препинания (0|1; default: 0)')
     parser.add_argument('--forced', type=int, default=0,
                         help='Принудительно лемматизировать весь корпус заново (0|1; default: 0)')
-
+    parser.add_argument('--preprocessed', type=int, default=0,
+                        help='Лежат ли в папке уже предобработанные тексты (0|1; default: 0)')
     return parser.parse_args()
 
 
@@ -41,7 +43,7 @@ def load_lemmatized(lemmatized_path, forced):
     """
     :param lemmatized_path: путь к словарю заголовков и лемм (строка)
     :param forced: принудительно лемматизировать весь корпус заново (pseudo-boolean int)
-    :return: словарю заголовков и лемм
+    :return: словарь заголовков и лемм
     """
     # если существует уже разбор каких-то файлов
     if os.path.isfile(lemmatized_path) and not forced:
@@ -52,6 +54,15 @@ def load_lemmatized(lemmatized_path, forced):
         lemmatized = {}
         print('Ничего ещё не разбирали, сейчас будем', file=sys.stderr)
 
+    return lemmatized
+
+
+def collect_texts(lemmatized, texts_path, files):
+    '''собираем тексты из папки в словарь'''
+    for file in tqdm(files):
+        text = open('{}/{}'.format(texts_path, file), encoding='utf-8').\
+            read().lower().strip().split()
+        lemmatized[file] = text
     return lemmatized
 
 
@@ -106,6 +117,12 @@ def process_corpus(pipeline, lemmatized, texts_path, files, keep_pos, keep_punct
 def main():
     args = parse_args()
 
+    preprocessed_required = {
+        0: ['udpipe_path']
+    }
+    # Проверяем, всё ли указали для непредобработанных статей
+    check_args(args, 'preprocessed', preprocessed_required)
+
     all_files = [f for f in os.listdir(args.texts_path)]
 
     lemmatized_dict = load_lemmatized(args.lemmatized_path, args.forced)
@@ -114,19 +131,24 @@ def main():
     print('Новых текстов: {}'.format(len(new_files)), file=sys.stderr)
 
     if new_files:
-        udpipe_model = Model.load(args.udpipe_path)
-        process_pipeline = Pipeline(
-            udpipe_model, 'tokenize', Pipeline.DEFAULT, Pipeline.DEFAULT, 'conllu')
 
-        lemmatized_texts, not_lemmatized_texts = process_corpus(
-            process_pipeline, lemmatized_dict, args.texts_path, new_files,
-            keep_pos=args.keep_pos, keep_punct=args.keep_punct, keep_stops=args.keep_stops)
+        if args.preprocessed:  # если файлы уже предобработаны
+            full_lemmatized_dict = collect_texts(lemmatized_dict, args.texts_path, new_files)
 
-        jdump(lemmatized_texts, open(args.lemmatized_path, 'w', encoding='utf-8'))
+        else:
+            udpipe_model = Model.load(args.udpipe_path)
+            process_pipeline = Pipeline(
+                udpipe_model, 'tokenize', Pipeline.DEFAULT, Pipeline.DEFAULT, 'conllu')
 
-        if not_lemmatized_texts:
-            print('Не удалось разобрать следующие файлы:\n{}'.
-                  format('\n'.join(not_lemmatized_texts)), file=sys.stderr)
+            full_lemmatized_dict, not_lemmatized_texts = process_corpus(
+                process_pipeline, lemmatized_dict, args.texts_path, new_files,
+                keep_pos=args.keep_pos, keep_punct=args.keep_punct, keep_stops=args.keep_stops)
+
+            if not_lemmatized_texts:
+                print('Не удалось разобрать следующие файлы:\n{}'.
+                      format('\n'.join(not_lemmatized_texts)), file=sys.stderr)
+
+        jdump(full_lemmatized_dict, open(args.lemmatized_path, 'w', encoding='utf-8'))
 
 
 if __name__ == "__main__":

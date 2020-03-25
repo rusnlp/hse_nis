@@ -14,6 +14,7 @@ from pickle import load as pload
 
 import numpy as np
 from utils.arguments import check_args
+from utils.loaders import load_article_data
 
 
 def parse_args():
@@ -33,6 +34,10 @@ def parse_args():
                         help='Сколько близких статeй возвращать (default: 1; -1 for all)')
     parser.add_argument('--verbose', type=int, default=1,
                         help='Принтить ли рейтинг (0|1; default: 0)')
+    parser.add_argument('--with_url', type=int, default=0,
+                        help='Добавлять ссылки к заголовкам (0|1; default: 0)')
+    parser.add_argument('--url_mapping_path', type=str,
+                        help='Путь к файлу маппинга заголовков в ссылки')
     # ДЛЯ ВНЕШНИХ ТЕКСТОВ:
     parser.add_argument('--included', type=int, default=1,
                         help='Включена ли статья в корпус (0|1; default: 1)')
@@ -141,7 +146,35 @@ def search_similar(vector, vectors):
     return sim_dict
 
 
-def make_rating(target_article, sim_dict, verbose, n, included, mapping, i2lang_name):
+def get_lang(title, mapping):
+    '''ищем заголовок в словарях маппига и извлекаем язык '''
+    lang_dicts = [key for key in mapping.keys() if key.endswith('2i') and 'cross' not in key]
+    for lang_dict in lang_dicts:
+        if title in mapping[lang_dict]:
+            lang = lang_dict.split('2')[0]
+            break  # будем надеться, что статей с одинаковым названием нет (хеши-то разные)
+    return lang
+
+
+def get_url_tail(target_article, article_data):
+    '''получаем форматированную ссылку на статью, если есть'''
+    url_tail = article_data[target_article].get('url', '')
+    if url_tail:
+        url_tail = ' = {}'.format(url_tail)
+    return url_tail
+
+
+def verbose_rating(target_article, mapping, result_dicts, n, article_data=None):
+    verbosed = 'Рейтинг статей по близости к {} ({}):{}\n'\
+        .format(target_article, get_lang(target_article, mapping), get_url_tail(target_article, article_data))
+    for i, result_dict in enumerate(result_dicts[:n]):
+        verbosed += '{}. {} ({}): {}{}\n'.\
+              format(i + 1, result_dict['title'], result_dict['lang'], result_dict['sim'], get_url_tail(result_dict['title'], article_data))
+    return verbosed
+
+
+def make_rating(target_article, sim_dict, verbose, n, included, mapping, i2lang_name,
+                with_url=0, article_data=None):
     """
     :param target_article: заголовок статьи, для которой ищем ближайшие (строка)
     :param sim_dict: индексы статей в корпусе и близость к данной (словарь)
@@ -152,74 +185,97 @@ def make_rating(target_article, sim_dict, verbose, n, included, mapping, i2lang_
     :param i2lang_name: название словаря индекс-заголовок в маппинге (строка)
     :return: индексы текстов и близость к данному в порядке убывания (список кортежей)
     """
+
     sorted_simkeys = sorted(sim_dict, key=sim_dict.get, reverse=True)
     sim_list = [(mapping[i2lang_name].get(str(simkey)), sim_dict[simkey])
                 for simkey in sorted_simkeys]
 
-    if included:
-        # на 0 индексе всегда будет сама статья, если она из корпуса
+    if included:  # на 0 индексе всегда будет сама статья, если она из корпуса
         sim_list.pop(0)
 
+    result_dicts = []  # словари с данными ближайших статей
+    for i, (title, sim) in enumerate(sim_list):
+        result_dict = {'title': title, 'sim': sim, 'lang': get_lang(title, mapping)}
+        if with_url:
+            result_dict['url'] = article_data[title].get('url')
+            result_dict['real_title'] = article_data[title].get('real_title')
+        result_dicts.append(result_dict)
+
     if n == -1:  # нужен вывод всех статей
-        if verbose:
-            print('\nРейтинг статей по близости к {}:'.format(n, target_article))
-            for i, sim_item in enumerate(sim_list[:n]):
-                print('{}. {} ({})'.format(i + 1, sim_item[0], sim_item[1]))
-        return sim_list
+        n = len(sim_list)
 
-    else:
-        if verbose:
-            print('\nТоп-{} ближайших статей к {}:'.format(n, target_article))
-            for i, sim_item in enumerate(sim_list[:n]):
-                print('{}. {} ({})'.format(i + 1, sim_item[0], sim_item[1]))
-        return sim_list[:n]  # если нужна будет одна статья, вернётся список с одним элементом
+    # вывод всё равно придётся делать для получения в automatic_search
+    verbosed_rating = verbose_rating(target_article, mapping, result_dicts, n, article_data)
+    if verbose:
+        print(verbosed_rating)
+
+    # если нужна будет одна статья, вернётся список с одним элементом
+    return result_dicts[:n], verbosed_rating
 
 
-def main():
-    args = parse_args()
+def main(target_article_path, lang, mapping_path, corpus_vectors_path,
+         top=1, verbose=1, included=1, udpipe_path='', keep_pos=1, keep_stops=0, keep_punct=0,
+         method='', embeddings_path='', bidict_path='', projection_path='', no_duplicates=0,
+         with_url=0, url_mapping_path=''):
 
-    included_required = {
-        0: ['udpipe_path', 'embeddings_path', 'method']
-    }
-    # Проверяем, всё ли указали для внешней статьи
-    check_args(args, 'included', included_required)
-    if not args.included:
-        model_required = {'model': ['embeddings_path'],
-                         'translation': ['embeddings_path', 'bidict_path'],
-                         'projection': ['embeddings_path', 'projection_path']
-                         }
-        check_args(args, 'method', model_required)
+    i2lang = 'i2{}'.format(lang)
+    lang2i = '{}2i'.format(lang)
+    texts_mapping = jload(open(mapping_path))
+    corpus_vecs = pload(open(corpus_vectors_path, 'rb'))
 
-    i2lang = 'i2{}'.format(args.lang)
-    lang2i = '{}2i'.format(args.lang)
-    texts_mapping = jload(open(args.mapping_path))
-    corpus_vecs = pload(open(args.corpus_vectors_path, 'rb'))
-    # print(corpus_vecs.shape)
+    article_data = None
+    if with_url:
+        article_data = load_article_data(url_mapping_path)
 
-    if args.included:
-        target_article = args.target_article_path
-        # print(target_article)
+    if included:
+        target_article = target_article_path
         target_article_id = texts_mapping[lang2i].get(target_article)
-        # print(texts_mapping[i2lang])
 
-        if not target_article_id:
+        if target_article_id is None:  # просто not нельзя, т.к. есть статьи с id 0
+            print(texts_mapping['en2i'])
+            print(target_article)
             raise NotIncludedError
 
         target_article_vec = corpus_vecs[target_article_id]
 
     else:
-        target_article, target_article_vec = prepare_new_article(args.target_article_path,
-                                args.udpipe_path, args.keep_pos, args.keep_punct, args.keep_stops,
-                                args.method, args.embeddings_path, args.no_duplicates,
-                                args.projection_path, args.bidict_path)
+        target_article, target_article_vec = prepare_new_article(
+            target_article_path, udpipe_path, keep_pos, keep_punct, keep_stops,
+            method, embeddings_path, no_duplicates, projection_path, bidict_path)
 
     similars = search_similar(target_article_vec, corpus_vecs)
-    # print(similars)
-    rating = make_rating(target_article, similars, args.verbose, args.top, args.included,
-                         texts_mapping, i2lang)
+    rating, verbosed_rating = make_rating(target_article, similars, verbose, top, included,
+                         texts_mapping, i2lang, with_url, article_data)
 
-    return rating
+    return rating, verbosed_rating
 
 
 if __name__ == "__main__":
-    main()
+    args = parse_args()
+
+    # всё ли указали для прикрепления ссылок
+    url_required = {
+        1: ['url_mapping_path']
+    }
+    check_args(args, 'with_url', url_required)
+
+    # Проверяем, всё ли указали для внешней статьи
+    included_required = {
+        0: ['udpipe_path', 'embeddings_path', 'method']
+    }
+
+    check_args(args, 'included', included_required)
+
+    if not args.included:
+        model_required = {'model': ['embeddings_path'],
+                          'translation': ['embeddings_path', 'bidict_path'],
+                          'projection': ['embeddings_path', 'projection_path']
+                          }
+        check_args(args, 'method', model_required)
+
+
+    rating, verbosed_rating = main(args.target_article_path, args.lang, args.mapping_path,
+                                   args.corpus_vectors_path, args.top, args.verbose, args.included,
+                                   args.udpipe_path, args.keep_pos, args.keep_stops, args.keep_punct,
+         args.method, args.embeddings_path, args.bidict_path, args.projection_path, args.no_duplicates,
+                                   args.with_url, args.url_mapping_path)

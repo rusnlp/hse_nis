@@ -4,9 +4,9 @@
 
 import argparse
 import os
-import subprocess
 from tqdm import tqdm
 
+import monocorp_search
 
 def parse_args():
     parser = argparse.ArgumentParser(
@@ -21,9 +21,16 @@ def parse_args():
                         help='Файл, куда сохранятся результаты поиска')
     parser.add_argument('--lang', type=str, default='cross',
                         help='Язык, для которого разбираем; нужен для определения словаря в маппинге')
-    parser.add_argument('--top', type=int,
+    parser.add_argument('--top', type=int, default=1,
                         help='Сколько близких статeй возвращать (default: 1; -1 for all)')
+    parser.add_argument('--verbose', type=int, default=0,
+                        help='Принтить ли рейтинг (0|1; default: 0)')
+    parser.add_argument('--with_url', type=int, default=0,
+                        help='Добавлять ссылки к заголовкам (0|1; default: 0)')
+    parser.add_argument('--url_mapping_path', type=str,
+                        help='Путь к файлу маппинга заголовков в ссылки')
     return parser.parse_args()
+
 
 
 def create_dir(path):
@@ -38,20 +45,21 @@ def main():
 
     create_dir(args.result_path[:args.result_path.rfind('/')])
 
-    titles = [line.split()[0] for line in open(args.titles_path, encoding='utf-8').readlines()]
+    titles = [line.split('\t')[0] for line in open(args.titles_path, encoding='utf-8').readlines()]
 
     results = []
     for title in tqdm(titles):
-        command = '''python3 monocorp_search.py --target_article_path={} --lang={} \
-        --mapping_path={} --corpus_vectors_path={}'''.\
-            format(title, args.lang, args.mapping_path, args.corpus_vectors_path)
-        if args.top:
-            command += ' --top={}'.format(args.top)
+        try:
+            rating, verbosed_rating = monocorp_search.main(title, args.lang, args.mapping_path,
+                                                args.corpus_vectors_path, args.top,
+                                                verbose=args.verbose, with_url=args.with_url,
+                                                url_mapping_path=args.url_mapping_path)
+            results += [verbosed_rating]
 
-        output = subprocess.getoutput(command)
-        results += [output]
+        except KeyError:
+            print(title)
 
-    formated_results = ['{}. {}'.format(i+1, result[1:]) for i, result in enumerate(results)]
+    formated_results = ['{}. {}'.format(i+1, result) for i, result in enumerate(results)]
     open(args.result_path, 'w', encoding='utf-8').write('\n\n'.join(formated_results))
 
 

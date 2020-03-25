@@ -59,3 +59,12 @@ def load_bidict(bidict_path):
     bidict = {line.split()[0]: line.split()[1] for line in lines}
     # print(len(lines))
     return bidict
+
+
+def load_article_data(article_data_path):
+    '''получаем словарь хеш: название, ссылка'''
+    lines = open(article_data_path, encoding='utf-8').read().splitlines()
+    article_data = {line.split('\t')[0]:
+                    {'real_title': line.split('\t')[1], 'url': line.split('\t')[2]} for line in lines}
+    # print(article_data)
+    return article_data
