@@ -161,17 +161,17 @@ def get_url_tail(target_article, article_data):
     try:  # если вобще подан article_data и в нём есть target_article
         url_tail = article_data[target_article].get('url', '')
         if url_tail:
-            url_tail = ' = {}'.format(url_tail)
+            url_tail = url_tail
         return url_tail
     except:
         return ''
 
 
 def verbose_rating(target_article, mapping, result_dicts, n, article_data=None):
-    verbosed = 'Рейтинг статей по близости к {} ({}):{}\n'\
+    verbosed = '\t{}\t{}\t\t{}\n'\
         .format(target_article, get_lang(target_article, mapping), get_url_tail(target_article, article_data))
     for i, result_dict in enumerate(result_dicts[:n]):
-        verbosed += '{}. {} ({}): {}{}\n'.\
+        verbosed += '{}\t{}\t{}\t{}\t{}\n'.\
               format(i + 1, result_dict['title'], result_dict['lang'], result_dict['sim'], get_url_tail(result_dict['title'], article_data))
     return verbosed
 
@@ -281,8 +281,7 @@ if __name__ == "__main__":
                           }
         check_args(args, 'method', model_required)
 
-
-    rating, verbosed_rating = main(args.target_article_path, args.lang, args.mapping_path,
+    rating, verbosed_rating, missed_urls = main(args.target_article_path, args.lang, args.mapping_path,
                                    args.corpus_vectors_path, args.top, args.verbose, args.included,
                                    args.udpipe_path, args.keep_pos, args.keep_stops, args.keep_punct,
          args.method, args.embeddings_path, args.bidict_path, args.projection_path, args.no_duplicates,

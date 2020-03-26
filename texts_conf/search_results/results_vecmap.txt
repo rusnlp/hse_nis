@@ -1,318 +1,318 @@
-1. Рейтинг статей по близости к aist_2012_c6bc0383ea448fcb7e5f45ac85a1afb2d12505ef (ru): = http://koost.eveel.ru/science/AICT12.pdf
-1. dialogue_2002_6ceb561d3e45ab6fbe101c9133078d6e6ee16363 (ru): 0.9841376433586901 = -
-2. dialogue_2004_c0a72ca836616cf11818e91f3ab4d2d12d197796 (ru): 0.9837091513040368 = http://www.dialog-21.ru/media/2570/sokolova.pdf
-3. dialogue_2007_ed6163bfb0a77facf854c1bf117a6c472c418e06 (ru): 0.9834338518682857 = http://www.dialog-21.ru/media/1832/11.pdf
-4. dialogue_2002_142141991ce299bf6f2a74e154d6c4aa63ab7412 (ru): 0.983323734790392 = -
-5. dialogue_2010_31de5df62927b731f2bd1fd8447c407461da3107 (ru): 0.9829780917726073 = http://www.dialog-21.ru/media/1692/67.pdf
-
-
-2. Рейтинг статей по близости к dialogue_2000_d779021b5cfc493595763bb6c4c3574894e715a9 (ru): = -
-1. dialogue_2013_9e07db0858cc736b01bb291c7e3e2eeea4eec57e (ru): 0.9870773915384213 = http://www.dialog-21.ru/media/1219/alpatovvm.pdf
-2. dialogue_2000_fb13a686c835b566e6b030de601c25cd9d029a03 (ru): 0.9855485364456602 = -
-3. dialogue_2000_e77432c4b1eb8ace8e6805a7607cd573c8e97ef0 (ru): 0.9827946117196973 = -
-4. dialogue_2002_b8f3a7274eb56feb8ee4cd96a86cafac7b24ff05 (ru): 0.9825010545391275 = -
-5. dialogue_2006_e489d0ae60ac3ad7bb4f37e8a5ad1aa30fe233ec (ru): 0.9814596668245166 = http://www.dialog-21.ru/media/1994/percov.pdf
-
-
-3. Рейтинг статей по близости к dialogue_2000_36d974d4d7e5f5c5dad83e90551a821a0a2c9f3e (ru): = -
-1. dialogue_2002_c4c0f63feb5ca3438ecd8cbc84280e5d5eb733db (ru): 0.9865050690429669 = -
-2. dialogue_2001_4d688c18a8921a58cdcc5cf5e470cfac21662c43 (ru): 0.9857995121904168 = -
-3. dialogue_2002_c892d983251fd4a9aaaa9d3823fd1f5c47efa736 (ru): 0.98302771699572 = -
-4. dialogue_2001_1e8ea9cca9a7b84341d7c27f80ff5ef7ac8a9985 (ru): 0.9764865483858283 = -
-5. dialogue_2008_90a7d21d7ce5960a8854f82e0472f1ff7af0f471 (ru): 0.9759374146964732 = http://www.dialog-21.ru/media/1727/6.pdf
-
-
-4. Рейтинг статей по близости к dialogue_2000_c484e5f1e10cf1b0a63b184ce32b8a48d50a3cbe (ru): = -
-1. dialogue_2013_0ac379abcec662bfcdace5103b100f419383220a (ru): 0.9815233332239248 = http://www.dialog-21.ru/media/1264/lyashevskaya-mitrofanova.pdf
-2. dialogue_2000_b4f454bdcdec2a76ed843448e377336afc05032b (ru): 0.9810278238101282 = -
-3. dialogue_2006_504ecadba8e6c6b4b29e5e1706b5b288a335ae0d (ru): 0.9805818324750479 = http://www.dialog-21.ru/media/1971/krylov.pdf
-4. dialogue_2000_fb47f14905f30772e75b7dd2eef1efa7c18084bc (ru): 0.9801903150560578 = -
-5. dialogue_2002_862ff86c97b14361d5129fcfd5c49e267f084a73 (ru): 0.9795506601779864 = -
-
-
-5. Рейтинг статей по близости к dialogue_2000_8da4e8aef1ada2f8a21b8873256f68c2c0e9e529 (ru): = -
-1. dialogue_2007_0b09db4182e9aabfee9019a3b1c08e9aafdbbf15 (ru): 0.9929636049561499 = http://www.dialog-21.ru/media/1903/82.pdf
-2. dialogue_2008_657658b7188aae17889619e8c3b3554fd4be9a26 (ru): 0.9913435426328514 = http://www.dialog-21.ru/media/1804/84.pdf
-3. dialogue_2006_952c75a21aaab9e275b2c623d2689ab65c756d47 (ru): 0.9897778692157042 = http://www.dialog-21.ru/media/2029/zimmerling.pdf
-4. dialogue_2009_0b78e9bd4c7803f6b6822cc70e213e362d9d2dc9 (ru): 0.987690669614823 = http://www.dialog-21.ru/media/1631/81.pdf
-5. dialogue_2007_6f11e3941c5b83075a4c089325d863c1349bc148 (ru): 0.9834362606887416 = http://www.dialog-21.ru/media/1845/24.pdf
-
-
-6. Рейтинг статей по близости к dialogue_2002_1278cd2b6bcea491ef72101cf6f227cbfc664289 (ru): = -
-1. dialogue_2002_d3c8a2a3ad72c94f653904793659c86972d61bb5 (ru): 0.8121565648636091 = -
-2. dialogue_2012_4a5d5f13d3874fb42a87711012eeab881c4eb3a8 (ru): 0.8016016661255949 = http://www.dialog-21.ru/media/1339/71.pdf
-3. dialogue_2002_abaf95b5c66e73d382e5597c91b8cf56110ece3f (ru): 0.7938472130857073 = -
-4. dialogue_2002_7a08ec25ad268621c10533fe459b07eac81aa967 (ru): 0.7890959816618037 = -
-5. dialogue_2006_0f9517bae23b03a9891e5afa92b7fa9583654467 (ru): 0.7791839997208618 = http://www.dialog-21.ru/media/2049/shmeleva.pdf
-
-
-7. Рейтинг статей по близости к dialogue_2002_977c4161efebe2a2da2bc9070b4c366f6dd7790d (ru): = -
-1. dialogue_2001_86d74f3bc770ec15a94bff16b28698291010853f (ru): 0.9922171363770109 = -
-2. dialogue_2000_656d0d77d8325fa9636a973be944d8b6f6cb924a (ru): 0.9915489644401146 = -
-3. dialogue_2002_95ec453188ac28fa8af193d4c4f0d3989b72eefe (ru): 0.9870984431419814 = -
-4. dialogue_2007_51fd2c9f1a772bf1f0642e63ba7a4c1de5089931 (ru): 0.9869697700311818 = http://www.dialog-21.ru/media/1831/10.pdf
-5. dialogue_2010_cafa183e7f5c6d90005f12cec6fca88a31b02378 (ru): 0.9866510181762592 = http://www.dialog-21.ru/media/1696/71.pdf
-
-
-8. Рейтинг статей по близости к dialogue_2002_189f5dd4351f966d86f836462283ef485f0255cd (ru): = -
-1. dialogue_2006_94358299f43a22fc4a98943d9aae99341b158608 (ru): 0.9712568219004438 = http://www.dialog-21.ru/media/2005/starostin.pdf
-2. dialogue_2001_09e3b519a2276fe25446cf717ab04b7e1d1654e5 (ru): 0.9689974223816763 = -
-3. dialogue_2004_362ef4c32d51ff3d0cc37fdfdfc411b9b1be72b1 (ru): 0.9685256043979512 = http://www.dialog-21.ru/media/2557/perekrestenko.pdf
-4. dialogue_2006_504ecadba8e6c6b4b29e5e1706b5b288a335ae0d (ru): 0.9675930472796698 = http://www.dialog-21.ru/media/1971/krylov.pdf
-5. dialogue_2005_f0716199b0fb1c9cea6ceaba385fde12118646d1 (ru): 0.9675276166211615 = http://www.dialog-21.ru/media/2414/perekrestenkoa.pdf
-
-
-9. Рейтинг статей по близости к dialogue_2003_e0f3ab61a399630033ac49475bf036c043196202 (ru): = http://www.dialog-21.ru/media/2611/bolshakov.pdf
-1. dialogue_2000_aa737aec6c6aca16230c8f4793e25fe94a99bced (ru): 0.9833008479230478 = -
-2. dialogue_2009_ac4a1cd7d3a5d29ea900544527574468fa4d13c4 (ru): 0.9811357811216707 = http://www.dialog-21.ru/media/1624/74.pdf
-3. dialogue_2011_7200c18071a8974f2f383ed885b576a5bc31bebb (ru): 0.9805069999855879 = http://www.dialog-21.ru/media/1438/37.pdf
-4. dialogue_2012_f72aeeb582a7e35f44b1c8517b574009e04787ac (ru): 0.9799989562060833 = http://www.dialog-21.ru/media/1315/123.pdf
-5. dialogue_2009_4fde7b1a42f7e9d0e27f31294071c2e9e2cde14c (ru): 0.9796602289088266 = http://www.dialog-21.ru/media/1576/26.pdf
-
-
-10. Рейтинг статей по близости к dialogue_2003_ccc14b44cd5851614cd4adfbd59dd73fcdb8a09e (ru): = http://www.dialog-21.ru/media/2677/pekar.pdf
-1. dialogue_2004_4bcf5826b7d5003df12f07c646fa971ac7ac48f6 (ru): 0.9778559642985687 = http://www.dialog-21.ru/media/2556/pekar.pdf
-2. dialogue_2002_586a53fd1369411ce28af3c73f813cd7ee699bde (ru): 0.9771427333923166 = -
-3. dialogue_2013_c583511eaf4b137c9f14af2f0ed3fe24b815dea8 (ru): 0.976003814136223 = http://www.dialog-21.ru/media/1220/antonovaaj.pdf
-4. dialogue_2012_6f98c8c49bbc12ffd37a03650656e0ac119bd296 (ru): 0.9721876242817056 = http://www.dialog-21.ru/media/1354/150.pdf
-5. dialogue_2009_96fe9e297f9ba870b07148f0377038e8583381ab (ru): 0.9711083902470204 = http://www.dialog-21.ru/media/1617/67.pdf
-
-
-11. Рейтинг статей по близости к dialogue_2003_b42261987b561abd566100c046ad51dd958702a6 (ru): = http://www.dialog-21.ru/media/2678/percov.pdf
-1. dialogue_2000_f911271f58e2817b4e2eb3289bcb5f1153c64d03 (ru): 0.9854315712536287 = -
-2. dialogue_2007_ed67c940fe22dc3e82e4e5694785bd4a244e0f14 (ru): 0.977996554884081 = http://www.dialog-21.ru/media/1859/38.pdf
-3. dialogue_2009_0b78e9bd4c7803f6b6822cc70e213e362d9d2dc9 (ru): 0.977338476335557 = http://www.dialog-21.ru/media/1631/81.pdf
-4. dialogue_2006_efac0ef41b692b6dfb2e8d9a4fa6d420c332e2db (ru): 0.9750932946397513 = http://www.dialog-21.ru/media/1993/pazelskaya.pdf
-5. dialogue_2000_14962741f3da1c4341632c7b13906b149d7b20f8 (ru): 0.974499179739459 = -
-
-
-12. Рейтинг статей по близости к dialogue_2019_4a5c4385216b2220faf8860da8101e1c3744c9ca (ru): = http://www.dialog-21.ru/media/4582/apresjanvju-066.pdf
-1. dialogue_2018_0eb84d5355d2391499df211f5922f3135d5592ee (ru): 0.9895725277750329 = http://www.dialog-21.ru/media/4285/apresyanvju.pdf
-2. dialogue_2004_4c05fde1a895912e844e663e608f5398e2b9c5b6 (ru): 0.9844837008350007 = http://www.dialog-21.ru/media/2509/gankin.pdf
-3. dialogue_2013_4b0ee8b52c633bc2cc9ee587756a5e3f776a8a66 (ru): 0.9840323833088049 = http://www.dialog-21.ru/media/1254/korotaevna.pdf
-4. dialogue_2019_3824adc497a9eb6d964638500081edef76c643f2 (ru): 0.9835893160300474 = http://www.dialog-21.ru/media/4583/apresjanvjuplusorlovav-012.pdf
-5. dialogue_2014_3342b475b2cdd0061beb08bdfe7795364b788731 (ru): 0.9835574282948701 = http://www.dialog-21.ru/digests/dialog2014/materials/pdf/BorisovaEG.pdf
-
-
-13. Рейтинг статей по близости к dialogue_2006_b8c6726eb307e468087cc332646b274ed4c821bc (ru): = http://www.dialog-21.ru/media/1954/iomdinb.pdf
-1. dialogue_2018_52d7ec2abc79699f01012a79b1540626e87131c4 (ru): 0.9871491776485989 = http://www.dialog-21.ru/media/4315/levontinaib_shmelevad.pdf
-2. dialogue_2015_5ae5ce82cd8cf56a11ba04b33a8fc50a8e1c5c21 (ru): 0.9856879988606696 = http://www.dialog-21.ru/digests/dialog2015/materials/pdf/DobrovolskijDOLevontinaIB.pdf
-3. dialogue_2019_f0e2520e152969eced10e85d612e59e97bb7440b (ru): 0.9854484167636173 = http://www.dialog-21.ru/media/4639/zalizniakannaapluspaduchevaev-038.pdf
-4. dialogue_2012_68cc91137e1b4d8adc600c866579d191282ae807 (ru): 0.9849725536606734 = http://www.dialog-21.ru/media/1324/156.pdf
-5. dialogue_2011_f78ff140eb114fae7ac137e6ad6341e82fde816a (ru): 0.9847187932710625 = http://www.dialog-21.ru/media/1442/41.pdf
+1. 	aist_2012_c6bc0383ea448fcb7e5f45ac85a1afb2d12505ef	ru		http://koost.eveel.ru/science/AICT12.pdf
+1	dialogue_2002_6ceb561d3e45ab6fbe101c9133078d6e6ee16363	ru	0.9841376433586901	http://www.dialog-21.ru/digest/2002/articles/zatsman/
+2	dialogue_2004_c0a72ca836616cf11818e91f3ab4d2d12d197796	ru	0.9837091513040368	http://www.dialog-21.ru/media/2570/sokolova.pdf
+3	dialogue_2007_ed6163bfb0a77facf854c1bf117a6c472c418e06	ru	0.9834338518682857	http://www.dialog-21.ru/media/1832/11.pdf
+4	dialogue_2002_142141991ce299bf6f2a74e154d6c4aa63ab7412	ru	0.983323734790392	http://www.dialog-21.ru/digest/2002/articles/khahalin1/
+5	dialogue_2010_31de5df62927b731f2bd1fd8447c407461da3107	ru	0.9829780917726073	http://www.dialog-21.ru/media/1692/67.pdf
+
+
+2. 	dialogue_2000_d779021b5cfc493595763bb6c4c3574894e715a9	ru		http://www.dialog-21.ru/digest/2000/articles/borisova/
+1	dialogue_2013_9e07db0858cc736b01bb291c7e3e2eeea4eec57e	ru	0.9870773915384213	http://www.dialog-21.ru/media/1219/alpatovvm.pdf
+2	dialogue_2000_fb13a686c835b566e6b030de601c25cd9d029a03	ru	0.9855485364456602	http://www.dialog-21.ru/digest/2000/articles/loutikova/
+3	dialogue_2000_e77432c4b1eb8ace8e6805a7607cd573c8e97ef0	ru	0.9827946117196973	http://www.dialog-21.ru/digest/2000/articles/parshin/
+4	dialogue_2002_b8f3a7274eb56feb8ee4cd96a86cafac7b24ff05	ru	0.9825010545391275	http://www.dialog-21.ru/digest/2002/articles/nepejvoda/
+5	dialogue_2006_e489d0ae60ac3ad7bb4f37e8a5ad1aa30fe233ec	ru	0.9814596668245166	http://www.dialog-21.ru/media/1994/percov.pdf
+
+
+3. 	dialogue_2000_36d974d4d7e5f5c5dad83e90551a821a0a2c9f3e	ru		http://www.dialog-21.ru/digest/2000/articles/ryabtseva/
+1	dialogue_2002_c4c0f63feb5ca3438ecd8cbc84280e5d5eb733db	ru	0.9865050690429669	http://www.dialog-21.ru/digest/2002/articles/novoselova/
+2	dialogue_2001_4d688c18a8921a58cdcc5cf5e470cfac21662c43	ru	0.9857995121904168	http://www.dialog-21.ru/digest/2001/articles/zaretskaya/
+3	dialogue_2002_c892d983251fd4a9aaaa9d3823fd1f5c47efa736	ru	0.98302771699572	http://www.dialog-21.ru/digest/2002/articles/zaretskaya/
+4	dialogue_2001_1e8ea9cca9a7b84341d7c27f80ff5ef7ac8a9985	ru	0.9764865483858283	http://www.dialog-21.ru/digest/2001/articles/kozerenko/
+5	dialogue_2008_90a7d21d7ce5960a8854f82e0472f1ff7af0f471	ru	0.9759374146964732	http://www.dialog-21.ru/media/1727/6.pdf
+
+
+4. 	dialogue_2000_c484e5f1e10cf1b0a63b184ce32b8a48d50a3cbe	ru		http://www.dialog-21.ru/digest/2000/articles/sokirko/
+1	dialogue_2013_0ac379abcec662bfcdace5103b100f419383220a	ru	0.9815233332239248	http://www.dialog-21.ru/media/1264/lyashevskaya-mitrofanova.pdf
+2	dialogue_2000_b4f454bdcdec2a76ed843448e377336afc05032b	ru	0.9810278238101282	http://www.dialog-21.ru/digest/2000/articles/semenova/
+3	dialogue_2006_504ecadba8e6c6b4b29e5e1706b5b288a335ae0d	ru	0.9805818324750479	http://www.dialog-21.ru/media/1971/krylov.pdf
+4	dialogue_2000_fb47f14905f30772e75b7dd2eef1efa7c18084bc	ru	0.9801903150560578	http://www.dialog-21.ru/digest/2000/articles/leontyeva/
+5	dialogue_2002_862ff86c97b14361d5129fcfd5c49e267f084a73	ru	0.9795506601779864	http://www.dialog-21.ru/digest/2002/articles/pertsova/
+
+
+5. 	dialogue_2000_8da4e8aef1ada2f8a21b8873256f68c2c0e9e529	ru		http://www.dialog-21.ru/digest/2000/articles/zimmerling/
+1	dialogue_2007_0b09db4182e9aabfee9019a3b1c08e9aafdbbf15	ru	0.9929636049561499	http://www.dialog-21.ru/media/1903/82.pdf
+2	dialogue_2008_657658b7188aae17889619e8c3b3554fd4be9a26	ru	0.9913435426328514	http://www.dialog-21.ru/media/1804/84.pdf
+3	dialogue_2006_952c75a21aaab9e275b2c623d2689ab65c756d47	ru	0.9897778692157042	http://www.dialog-21.ru/media/2029/zimmerling.pdf
+4	dialogue_2009_0b78e9bd4c7803f6b6822cc70e213e362d9d2dc9	ru	0.987690669614823	http://www.dialog-21.ru/media/1631/81.pdf
+5	dialogue_2007_6f11e3941c5b83075a4c089325d863c1349bc148	ru	0.9834362606887416	http://www.dialog-21.ru/media/1845/24.pdf
+
+
+6. 	dialogue_2002_1278cd2b6bcea491ef72101cf6f227cbfc664289	ru		http://www.dialog-21.ru/digest/2002/articles/ibragimov/
+1	dialogue_2002_d3c8a2a3ad72c94f653904793659c86972d61bb5	ru	0.8121565648636091	http://www.dialog-21.ru/digest/2002/articles/zazaeva/
+2	dialogue_2012_4a5d5f13d3874fb42a87711012eeab881c4eb3a8	ru	0.8016016661255949	http://www.dialog-21.ru/media/1339/71.pdf
+3	dialogue_2002_abaf95b5c66e73d382e5597c91b8cf56110ece3f	ru	0.7938472130857073	http://www.dialog-21.ru/digest/2002/articles/zevakhina/
+4	dialogue_2002_7a08ec25ad268621c10533fe459b07eac81aa967	ru	0.7890959816618037	http://www.dialog-21.ru/digest/2002/articles/minlos/
+5	dialogue_2006_0f9517bae23b03a9891e5afa92b7fa9583654467	ru	0.7791839997208618	http://www.dialog-21.ru/media/2049/shmeleva.pdf
+
+
+7. 	dialogue_2002_977c4161efebe2a2da2bc9070b4c366f6dd7790d	ru		http://www.dialog-21.ru/digest/2002/articles/odintsev/
+1	dialogue_2001_86d74f3bc770ec15a94bff16b28698291010853f	ru	0.9922171363770109	http://www.dialog-21.ru/digest/2001/articles/odintsev/
+2	dialogue_2000_656d0d77d8325fa9636a973be944d8b6f6cb924a	ru	0.9915489644401146	http://www.dialog-21.ru/digest/2000/articles/odintsev/
+3	dialogue_2002_95ec453188ac28fa8af193d4c4f0d3989b72eefe	ru	0.9870984431419814	http://www.dialog-21.ru/digest/2002/articles/ermakov/
+4	dialogue_2007_51fd2c9f1a772bf1f0642e63ba7a4c1de5089931	ru	0.9869697700311818	http://www.dialog-21.ru/media/1831/10.pdf
+5	dialogue_2010_cafa183e7f5c6d90005f12cec6fca88a31b02378	ru	0.9866510181762592	http://www.dialog-21.ru/media/1696/71.pdf
+
+
+8. 	dialogue_2002_189f5dd4351f966d86f836462283ef485f0255cd	ru		http://www.dialog-21.ru/digest/2002/articles/perekrestenko/
+1	dialogue_2006_94358299f43a22fc4a98943d9aae99341b158608	ru	0.9712568219004438	http://www.dialog-21.ru/media/2005/starostin.pdf
+2	dialogue_2001_09e3b519a2276fe25446cf717ab04b7e1d1654e5	ru	0.9689974223816763	http://www.dialog-21.ru/digest/2001/articles/azhichakov/
+3	dialogue_2004_362ef4c32d51ff3d0cc37fdfdfc411b9b1be72b1	ru	0.9685256043979512	http://www.dialog-21.ru/media/2557/perekrestenko.pdf
+4	dialogue_2006_504ecadba8e6c6b4b29e5e1706b5b288a335ae0d	ru	0.9675930472796698	http://www.dialog-21.ru/media/1971/krylov.pdf
+5	dialogue_2005_f0716199b0fb1c9cea6ceaba385fde12118646d1	ru	0.9675276166211615	http://www.dialog-21.ru/media/2414/perekrestenkoa.pdf
+
+
+9. 	dialogue_2003_e0f3ab61a399630033ac49475bf036c043196202	ru		http://www.dialog-21.ru/media/2611/bolshakov.pdf
+1	dialogue_2000_aa737aec6c6aca16230c8f4793e25fe94a99bced	ru	0.9833008479230478	http://www.dialog-21.ru/digest/2000/articles/galunov/
+2	dialogue_2009_ac4a1cd7d3a5d29ea900544527574468fa4d13c4	ru	0.9811357811216707	http://www.dialog-21.ru/media/1624/74.pdf
+3	dialogue_2011_7200c18071a8974f2f383ed885b576a5bc31bebb	ru	0.9805069999855879	http://www.dialog-21.ru/media/1438/37.pdf
+4	dialogue_2012_f72aeeb582a7e35f44b1c8517b574009e04787ac	ru	0.9799989562060833	http://www.dialog-21.ru/media/1315/123.pdf
+5	dialogue_2009_4fde7b1a42f7e9d0e27f31294071c2e9e2cde14c	ru	0.9796602289088266	http://www.dialog-21.ru/media/1576/26.pdf
+
+
+10. 	dialogue_2003_ccc14b44cd5851614cd4adfbd59dd73fcdb8a09e	ru		http://www.dialog-21.ru/media/2677/pekar.pdf
+1	dialogue_2004_4bcf5826b7d5003df12f07c646fa971ac7ac48f6	ru	0.9778559642985687	http://www.dialog-21.ru/media/2556/pekar.pdf
+2	dialogue_2002_586a53fd1369411ce28af3c73f813cd7ee699bde	ru	0.9771427333923166	http://www.dialog-21.ru/digest/2002/articles/pekar/
+3	dialogue_2013_c583511eaf4b137c9f14af2f0ed3fe24b815dea8	ru	0.976003814136223	http://www.dialog-21.ru/media/1220/antonovaaj.pdf
+4	dialogue_2012_6f98c8c49bbc12ffd37a03650656e0ac119bd296	ru	0.9721876242817056	http://www.dialog-21.ru/media/1354/150.pdf
+5	dialogue_2009_96fe9e297f9ba870b07148f0377038e8583381ab	ru	0.9711083902470204	http://www.dialog-21.ru/media/1617/67.pdf
+
+
+11. 	dialogue_2003_b42261987b561abd566100c046ad51dd958702a6	ru		http://www.dialog-21.ru/media/2678/percov.pdf
+1	dialogue_2000_f911271f58e2817b4e2eb3289bcb5f1153c64d03	ru	0.9854315712536287	http://www.dialog-21.ru/digest/2000/articles/krylov/
+2	dialogue_2007_ed67c940fe22dc3e82e4e5694785bd4a244e0f14	ru	0.977996554884081	http://www.dialog-21.ru/media/1859/38.pdf
+3	dialogue_2009_0b78e9bd4c7803f6b6822cc70e213e362d9d2dc9	ru	0.977338476335557	http://www.dialog-21.ru/media/1631/81.pdf
+4	dialogue_2006_efac0ef41b692b6dfb2e8d9a4fa6d420c332e2db	ru	0.9750932946397513	http://www.dialog-21.ru/media/1993/pazelskaya.pdf
+5	dialogue_2000_14962741f3da1c4341632c7b13906b149d7b20f8	ru	0.974499179739459	http://www.dialog-21.ru/digest/2000/articles/pertsov/
+
+
+12. 	dialogue_2019_4a5c4385216b2220faf8860da8101e1c3744c9ca	ru		http://www.dialog-21.ru/media/4582/apresjanvju-066.pdf
+1	dialogue_2018_0eb84d5355d2391499df211f5922f3135d5592ee	ru	0.9895725277750329	http://www.dialog-21.ru/media/4285/apresyanvju.pdf
+2	dialogue_2004_4c05fde1a895912e844e663e608f5398e2b9c5b6	ru	0.9844837008350007	http://www.dialog-21.ru/media/2509/gankin.pdf
+3	dialogue_2013_4b0ee8b52c633bc2cc9ee587756a5e3f776a8a66	ru	0.9840323833088049	http://www.dialog-21.ru/media/1254/korotaevna.pdf
+4	dialogue_2019_3824adc497a9eb6d964638500081edef76c643f2	ru	0.9835893160300474	http://www.dialog-21.ru/media/4583/apresjanvjuplusorlovav-012.pdf
+5	dialogue_2014_3342b475b2cdd0061beb08bdfe7795364b788731	ru	0.9835574282948701	http://www.dialog-21.ru/digests/dialog2014/materials/pdf/BorisovaEG.pdf
+
+
+13. 	dialogue_2006_b8c6726eb307e468087cc332646b274ed4c821bc	ru		http://www.dialog-21.ru/media/1954/iomdinb.pdf
+1	dialogue_2018_52d7ec2abc79699f01012a79b1540626e87131c4	ru	0.9871491776485989	http://www.dialog-21.ru/media/4315/levontinaib_shmelevad.pdf
+2	dialogue_2015_5ae5ce82cd8cf56a11ba04b33a8fc50a8e1c5c21	ru	0.9856879988606696	http://www.dialog-21.ru/digests/dialog2015/materials/pdf/DobrovolskijDOLevontinaIB.pdf
+3	dialogue_2019_f0e2520e152969eced10e85d612e59e97bb7440b	ru	0.9854484167636173	http://www.dialog-21.ru/media/4639/zalizniakannaapluspaduchevaev-038.pdf
+4	dialogue_2012_68cc91137e1b4d8adc600c866579d191282ae807	ru	0.9849725536606734	http://www.dialog-21.ru/media/1324/156.pdf
+5	dialogue_2011_f78ff140eb114fae7ac137e6ad6341e82fde816a	ru	0.9847187932710625	http://www.dialog-21.ru/media/1442/41.pdf
 
 
-14. Рейтинг статей по близости к dialogue_2006_500e96450545e5b1778ee12e7e83dd23945ace7c (ru): = http://www.dialog-21.ru/media/1996/podlesskaya.pdf
-1. dialogue_2013_60a42db6b8cc0c523f57938607f88b0398e153c3 (ru): 0.9858659026247147 = http://www.dialog-21.ru/media/1281/podlesskayavi.pdf
-2. dialogue_2007_2e30ec4ef54387419885b0d339ae800ed84740f0 (ru): 0.9808642456176515 = http://www.dialog-21.ru/media/1892/71.pdf
-3. dialogue_2002_eb972d964119b90202db5239a38c08c5ba590839 (ru): 0.9804307358343741 = -
-4. dialogue_2013_4b0ee8b52c633bc2cc9ee587756a5e3f776a8a66 (ru): 0.979408535571993 = http://www.dialog-21.ru/media/1254/korotaevna.pdf
-5. dialogue_2004_4c05fde1a895912e844e663e608f5398e2b9c5b6 (ru): 0.9793449667181213 = http://www.dialog-21.ru/media/2509/gankin.pdf
+14. 	dialogue_2006_500e96450545e5b1778ee12e7e83dd23945ace7c	ru		http://www.dialog-21.ru/media/1996/podlesskaya.pdf
+1	dialogue_2013_60a42db6b8cc0c523f57938607f88b0398e153c3	ru	0.9858659026247147	http://www.dialog-21.ru/media/1281/podlesskayavi.pdf
+2	dialogue_2007_2e30ec4ef54387419885b0d339ae800ed84740f0	ru	0.9808642456176515	http://www.dialog-21.ru/media/1892/71.pdf
+3	dialogue_2002_eb972d964119b90202db5239a38c08c5ba590839	ru	0.9804307358343741	http://www.dialog-21.ru/digest/2002/articles/epifantseva/
+4	dialogue_2013_4b0ee8b52c633bc2cc9ee587756a5e3f776a8a66	ru	0.979408535571993	http://www.dialog-21.ru/media/1254/korotaevna.pdf
+5	dialogue_2004_4c05fde1a895912e844e663e608f5398e2b9c5b6	ru	0.9793449667181213	http://www.dialog-21.ru/media/2509/gankin.pdf
 
 
-15. Рейтинг статей по близости к dialogue_2006_0b84d340edc8c21225ced251746f5013078b5df3 (ru): = http://www.dialog-21.ru/media/1929/belikov.pdf
-1. dialogue_2008_92dc674e50f5feacea9e19b58409a4d06a687146 (ru): 0.9832862433056055 = http://www.dialog-21.ru/media/1728/7.pdf
-2. dialogue_2012_fcfbb30f92ce6f0b2e3889ded9b03512309ae0b9 (ru): 0.9768506382653225 = http://www.dialog-21.ru/media/1357/3.pdf
-3. dialogue_2009_af411bd52e2f3cf5f1e024262af7e10ce3efab08 (ru): 0.9764099712185794 = http://www.dialog-21.ru/media/1555/05.pdf
-4. dialogue_2010_dfecb18eeefdcaf8f197be057f0ce8053d793da6 (ru): 0.9750925782017608 = http://www.dialog-21.ru/media/1657/32.pdf
-5. dialogue_2003_6fb11e26a1a7de66362eee17723710a2a875cfe5 (ru): 0.9750715582875381 = http://www.dialog-21.ru/media/2608/belikov.pdf
+15. 	dialogue_2006_0b84d340edc8c21225ced251746f5013078b5df3	ru		http://www.dialog-21.ru/media/1929/belikov.pdf
+1	dialogue_2008_92dc674e50f5feacea9e19b58409a4d06a687146	ru	0.9832862433056055	http://www.dialog-21.ru/media/1728/7.pdf
+2	dialogue_2012_fcfbb30f92ce6f0b2e3889ded9b03512309ae0b9	ru	0.9768506382653225	http://www.dialog-21.ru/media/1357/3.pdf
+3	dialogue_2009_af411bd52e2f3cf5f1e024262af7e10ce3efab08	ru	0.9764099712185794	http://www.dialog-21.ru/media/1555/05.pdf
+4	dialogue_2010_dfecb18eeefdcaf8f197be057f0ce8053d793da6	ru	0.9750925782017608	http://www.dialog-21.ru/media/1657/32.pdf
+5	dialogue_2003_6fb11e26a1a7de66362eee17723710a2a875cfe5	ru	0.9750715582875381	http://www.dialog-21.ru/media/2608/belikov.pdf
 
 
-16. Рейтинг статей по близости к dialogue_2006_616c78c53b3b322a4eea4418d1d10d9d1508cf12 (ru): = http://www.dialog-21.ru/media/2024/zaliznyak2.pdf
-1. dialogue_2008_33f8132d7279f34984acd7ce373830bfdea6599f (ru): 0.9796548080129235 = http://www.dialog-21.ru/media/1744/23.pdf
-2. dialogue_2007_8b928b108aae7fc55c38f33b2456ae5e2d6889ab (ru): 0.9790304552074982 = http://www.dialog-21.ru/media/1854/33.pdf
-3. dialogue_2017_4764b1d97f58093df9caa377385a9a280f81e3bc (ru): 0.9757894944964085 = http://www.dialog-21.ru/media/3907/dobrovol-skijdolevontinaib.pdf
-4. dialogue_2015_bc80b684c8eb71dd999dab8eb458c0efb4ab531e (ru): 0.9751147140792754 = http://www.dialog-21.ru/digests/dialog2015/materials/pdf/ZalizniakAnnaA.pdf
-5. dialogue_2017_093856064e8b96038bbdbb6c563857b1fc90d8eb (ru): 0.9750035018156948 = http://www.dialog-21.ru/media/3941/rakhilinaev.pdf
+16. 	dialogue_2006_616c78c53b3b322a4eea4418d1d10d9d1508cf12	ru		http://www.dialog-21.ru/media/2024/zaliznyak2.pdf
+1	dialogue_2008_33f8132d7279f34984acd7ce373830bfdea6599f	ru	0.9796548080129235	http://www.dialog-21.ru/media/1744/23.pdf
+2	dialogue_2007_8b928b108aae7fc55c38f33b2456ae5e2d6889ab	ru	0.9790304552074982	http://www.dialog-21.ru/media/1854/33.pdf
+3	dialogue_2017_4764b1d97f58093df9caa377385a9a280f81e3bc	ru	0.9757894944964085	http://www.dialog-21.ru/media/3907/dobrovol-skijdolevontinaib.pdf
+4	dialogue_2015_bc80b684c8eb71dd999dab8eb458c0efb4ab531e	ru	0.9751147140792754	http://www.dialog-21.ru/digests/dialog2015/materials/pdf/ZalizniakAnnaA.pdf
+5	dialogue_2017_093856064e8b96038bbdbb6c563857b1fc90d8eb	ru	0.9750035018156948	http://www.dialog-21.ru/media/3941/rakhilinaev.pdf
 
 
-17. Рейтинг статей по близости к dialogue_2007_8b928b108aae7fc55c38f33b2456ae5e2d6889ab (ru): = http://www.dialog-21.ru/media/1854/33.pdf
-1. dialogue_2008_33f8132d7279f34984acd7ce373830bfdea6599f (ru): 0.989951062623549 = http://www.dialog-21.ru/media/1744/23.pdf
-2. dialogue_2017_8c3578e219bc70001746d4b4dd6164ac98b36634 (ru): 0.9896862821640973 = http://www.dialog-21.ru/media/3915/iomdinll.pdf
-3. dialogue_2018_d96b445a13582434d34f6926199abb387f78d2fa (ru): 0.9888383410750554 = http://www.dialog-21.ru/media/4301/iomdinll.pdf
-4. dialogue_2015_99e788fae4442d09f82ce0dc29b33dde52628d53 (ru): 0.9880403641723656 = http://www.dialog-21.ru/digests/dialog2015/materials/pdf/VilinbakhovaEL.pdf
-5. dialogue_2008_8c7a918cab82a9c11fe9be5b89f1c24ec861a69e (ru): 0.9877059058635704 = http://www.dialog-21.ru/media/1801/81.pdf
+17. 	dialogue_2007_8b928b108aae7fc55c38f33b2456ae5e2d6889ab	ru		http://www.dialog-21.ru/media/1854/33.pdf
+1	dialogue_2008_33f8132d7279f34984acd7ce373830bfdea6599f	ru	0.989951062623549	http://www.dialog-21.ru/media/1744/23.pdf
+2	dialogue_2017_8c3578e219bc70001746d4b4dd6164ac98b36634	ru	0.9896862821640973	http://www.dialog-21.ru/media/3915/iomdinll.pdf
+3	dialogue_2018_d96b445a13582434d34f6926199abb387f78d2fa	ru	0.9888383410750554	http://www.dialog-21.ru/media/4301/iomdinll.pdf
+4	dialogue_2015_99e788fae4442d09f82ce0dc29b33dde52628d53	ru	0.9880403641723656	http://www.dialog-21.ru/digests/dialog2015/materials/pdf/VilinbakhovaEL.pdf
+5	dialogue_2008_8c7a918cab82a9c11fe9be5b89f1c24ec861a69e	ru	0.9877059058635704	http://www.dialog-21.ru/media/1801/81.pdf
 
 
-18. Рейтинг статей по близости к dialogue_2007_5095e9f5bb85baafc76ad77f4b79d7f412c5b0c7 (ru): = http://www.dialog-21.ru/media/1828/07.pdf
-1. dialogue_2002_d1de430cf94bc088d7d83ee8b3c21b3fc5892315 (ru): 0.9856053708913358 = -
-2. dialogue_2018_0937452382ad2a1dcb6a58de9fb087e961d79f00 (ru): 0.984034909734032 = http://www.dialog-21.ru/media/4300/inkovaoyu_nurievv.pdf
-3. dialogue_2008_e04b9cb0703a66d38bfc8d4857329a47ff929bf2 (ru): 0.9833361813806145 = http://www.dialog-21.ru/media/1750/29.pdf
-4. dialogue_2002_9192629ba7e676b1df9d2b5ba4655fb05b911d1b (ru): 0.9805319220545963 = -
-5. dialogue_2012_6b446fe096a696723592a89ba544ff888f687eb5 (ru): 0.9801311200210765 = http://www.dialog-21.ru/media/1319/104.pdf
+18. 	dialogue_2007_5095e9f5bb85baafc76ad77f4b79d7f412c5b0c7	ru		http://www.dialog-21.ru/media/1828/07.pdf
+1	dialogue_2002_d1de430cf94bc088d7d83ee8b3c21b3fc5892315	ru	0.9856053708913358	http://www.dialog-21.ru/digest/2002/articles/iomdinl/
+2	dialogue_2018_0937452382ad2a1dcb6a58de9fb087e961d79f00	ru	0.984034909734032	http://www.dialog-21.ru/media/4300/inkovaoyu_nurievv.pdf
+3	dialogue_2008_e04b9cb0703a66d38bfc8d4857329a47ff929bf2	ru	0.9833361813806145	http://www.dialog-21.ru/media/1750/29.pdf
+4	dialogue_2002_9192629ba7e676b1df9d2b5ba4655fb05b911d1b	ru	0.9805319220545963	http://www.dialog-21.ru/digest/2002/articles/daragan/
+5	dialogue_2012_6b446fe096a696723592a89ba544ff888f687eb5	ru	0.9801311200210765	http://www.dialog-21.ru/media/1319/104.pdf
 
 
-19. Рейтинг статей по близости к dialogue_2008_6a1e4a79b6d2b9e462fa7bec85618c7cac2e9a5c (ru): = http://www.dialog-21.ru/media/1731/10.pdf
-1. dialogue_2002_2cac21d3c083446e56c1b28ce1581d9eceefbffc (ru): 0.9836814408877419 = -
-2. dialogue_2010_dd85ec5a52067b67f483595701bbd1c0e4b370d0 (ru): 0.9827201045830956 = http://www.dialog-21.ru/media/1700/75.pdf
-3. dialogue_2018_c8e13efcc7fcc866f619d3f5f6d3cbedff02126d (ru): 0.9811208319182696 = http://www.dialog-21.ru/media/4337/tiskindb.pdf
-4. dialogue_2005_aac67404496eac13770aa575ab09a9f66d01f7d5 (ru): 0.9806726856389953 = http://www.dialog-21.ru/media/2379/khitrovan.pdf
-5. dialogue_2006_90ae81bb60515855d7e43fbacd84ba08437d5040 (ru): 0.9802349170099891 = http://www.dialog-21.ru/media/2013/uryson.pdf
+19. 	dialogue_2008_6a1e4a79b6d2b9e462fa7bec85618c7cac2e9a5c	ru		http://www.dialog-21.ru/media/1731/10.pdf
+1	dialogue_2002_2cac21d3c083446e56c1b28ce1581d9eceefbffc	ru	0.9836814408877419	http://www.dialog-21.ru/digest/2002/articles/uryson/
+2	dialogue_2010_dd85ec5a52067b67f483595701bbd1c0e4b370d0	ru	0.9827201045830956	http://www.dialog-21.ru/media/1700/75.pdf
+3	dialogue_2018_c8e13efcc7fcc866f619d3f5f6d3cbedff02126d	ru	0.9811208319182696	http://www.dialog-21.ru/media/4337/tiskindb.pdf
+4	dialogue_2005_aac67404496eac13770aa575ab09a9f66d01f7d5	ru	0.9806726856389953	http://www.dialog-21.ru/media/2379/khitrovan.pdf
+5	dialogue_2006_90ae81bb60515855d7e43fbacd84ba08437d5040	ru	0.9802349170099891	http://www.dialog-21.ru/media/2013/uryson.pdf
 
 
-20. Рейтинг статей по близости к dialogue_2008_dc9a40c27eddb5b643374118291292eeb842ceb4 (ru): = http://www.dialog-21.ru/media/1733/12.pdf
-1. dialogue_2005_5a1b5048bdcc898db93c47219face35c9e4b723b (ru): 0.9738582610304153 = http://www.dialog-21.ru/media/2353/batalinaam.pdf
-2. dialogue_2007_10e01615a901e344eb602d17f8deb88a8574f7bd (ru): 0.9690679992431338 = http://www.dialog-21.ru/media/1879/58.pdf
-3. dialogue_2012_f72aeeb582a7e35f44b1c8517b574009e04787ac (ru): 0.9683301174175494 = http://www.dialog-21.ru/media/1315/123.pdf
-4. dialogue_2003_d852a1a3b161d7cedb53f0df5247070aa95d975b (ru): 0.9662721059307029 = http://www.dialog-21.ru/media/2673/packin.pdf
-5. dialogue_2012_272ab43b2ec575a2888b18a7eb1bc8cc18f3f08e (ru): 0.9662538336636596 = http://www.dialog-21.ru/media/1385/toldova.pdf
+20. 	dialogue_2008_dc9a40c27eddb5b643374118291292eeb842ceb4	ru		http://www.dialog-21.ru/media/1733/12.pdf
+1	dialogue_2005_5a1b5048bdcc898db93c47219face35c9e4b723b	ru	0.9738582610304153	http://www.dialog-21.ru/media/2353/batalinaam.pdf
+2	dialogue_2007_10e01615a901e344eb602d17f8deb88a8574f7bd	ru	0.9690679992431338	http://www.dialog-21.ru/media/1879/58.pdf
+3	dialogue_2012_f72aeeb582a7e35f44b1c8517b574009e04787ac	ru	0.9683301174175494	http://www.dialog-21.ru/media/1315/123.pdf
+4	dialogue_2003_d852a1a3b161d7cedb53f0df5247070aa95d975b	ru	0.9662721059307029	http://www.dialog-21.ru/media/2673/packin.pdf
+5	dialogue_2012_272ab43b2ec575a2888b18a7eb1bc8cc18f3f08e	ru	0.9662538336636596	http://www.dialog-21.ru/media/1385/toldova.pdf
 
 
-21. Рейтинг статей по близости к dialogue_2005_ed84ad87736180089a879a6c7b428c0f04cb0108 (en): = http://www.dialog-21.ru/media/2412/partee_dialog2005.pdf
-1. dialogue_2009_783e2b7a11ce82262de32a479d25d7788eda2bd9 (en): 0.9601785435783647 = http://www.dialog-21.ru/media/1642/92.pdf
-2. dialogue_2012_9577168b37efef5c565150422f4152cc896ed336 (en): 0.9483845039185408 = http://www.dialog-21.ru/media/1386/anisimovich.pdf
-3. dialogue_2006_b432120124313d998313e874381515e215795861 (en): 0.9460180483999991 = http://www.dialog-21.ru/media/2052/guentner.pdf
-4. dialogue_2013_3cc6fc1cb591614dbfcf9de72afcecb94a29984a (en): 0.9445682258241699 = http://www.dialog-21.ru/media/1229/bogdanovav.pdf
-5. dialogue_2019_2ae11e31cca0b3255f6d974e3ca933a49b03d961 (en): 0.9431143811078634 = http://www.dialog-21.ru/media/4829/inshakovaes-167.pdf
+21. 	dialogue_2005_ed84ad87736180089a879a6c7b428c0f04cb0108	en		http://www.dialog-21.ru/media/2412/partee_dialog2005.pdf
+1	dialogue_2009_783e2b7a11ce82262de32a479d25d7788eda2bd9	en	0.9601785435783647	http://www.dialog-21.ru/media/1642/92.pdf
+2	dialogue_2012_9577168b37efef5c565150422f4152cc896ed336	en	0.9483845039185408	http://www.dialog-21.ru/media/1386/anisimovich.pdf
+3	dialogue_2006_b432120124313d998313e874381515e215795861	en	0.9460180483999991	http://www.dialog-21.ru/media/2052/guentner.pdf
+4	dialogue_2013_3cc6fc1cb591614dbfcf9de72afcecb94a29984a	en	0.9445682258241699	http://www.dialog-21.ru/media/1229/bogdanovav.pdf
+5	dialogue_2019_2ae11e31cca0b3255f6d974e3ca933a49b03d961	en	0.9431143811078634	http://www.dialog-21.ru/media/4829/inshakovaes-167.pdf
 
 
-22. Рейтинг статей по близости к dialogue_2011_932991ab2d00dc921a169451422516953658d9e0 (en): = http://www.dialog-21.ru/media/1412/12.pdf
-1. dialogue_2014_af9b1fe3c184a5ffaf2c3f91591a3e2ae1c8fc53 (en): 0.9720339648172605 = http://www.dialog-21.ru/digests/dialog2014/materials/pdf/ProtopopovaEV.pdf
-2. aist_2016_5502d95e123c814f393f04aceb3351ac063b7ce5 (en): 0.9662746342920189 = https://link.springer.com/chapter/10.1007/978-3-319-52920-2_14
-3. dialogue_2014_b630b20e0466993aab02a76be74f028983236935 (en): 0.9625721811155938 = http://www.dialog-21.ru/digests/dialog2014/materials/pdf/StrebkovDY.pdf
-4. dialogue_2014_262ccdb84da9eb460eebee5ab33f7f53f2221fb4 (en): 0.9618434837124389 = http://www.dialog-21.ru/digests/dialog2014/materials/pdf/LoukachevitchNV.pdf
-5. dialogue_2012_83e3b55807a9116b93aac4883a2afafb4c66ea44 (en): 0.9603232334288426 = http://www.dialog-21.ru/media/1388/iomdin.pdf
+22. 	dialogue_2011_932991ab2d00dc921a169451422516953658d9e0	en		http://www.dialog-21.ru/media/1412/12.pdf
+1	dialogue_2014_af9b1fe3c184a5ffaf2c3f91591a3e2ae1c8fc53	en	0.9720339648172605	http://www.dialog-21.ru/digests/dialog2014/materials/pdf/ProtopopovaEV.pdf
+2	aist_2016_5502d95e123c814f393f04aceb3351ac063b7ce5	en	0.9662746342920189	https://link.springer.com/chapter/10.1007/978-3-319-52920-2_14
+3	dialogue_2014_b630b20e0466993aab02a76be74f028983236935	en	0.9625721811155938	http://www.dialog-21.ru/digests/dialog2014/materials/pdf/StrebkovDY.pdf
+4	dialogue_2014_262ccdb84da9eb460eebee5ab33f7f53f2221fb4	en	0.9618434837124389	http://www.dialog-21.ru/digests/dialog2014/materials/pdf/LoukachevitchNV.pdf
+5	dialogue_2012_83e3b55807a9116b93aac4883a2afafb4c66ea44	en	0.9603232334288426	http://www.dialog-21.ru/media/1388/iomdin.pdf
 
 
-23. Рейтинг статей по близости к dialogue_2012_7cb46f3e1e715fa315256ca30404faf312bdaba8 (en): = http://www.dialog-21.ru/media/1329/136.pdf
-1. dialogue_2019_e0fb6cddde32cd3daebf6a02eb2c680bcb45cddc (en): 0.959808342258799 = http://www.dialog-21.ru/media/4614/lyashevskayaon-163.pdf
-2. dialogue_2014_b630b20e0466993aab02a76be74f028983236935 (en): 0.956986622637829 = http://www.dialog-21.ru/digests/dialog2014/materials/pdf/StrebkovDY.pdf
-3. dialogue_2013_deddec313871a0a920cd612bf6746a30fd5fcb38 (en): 0.9518374112223695 = http://www.dialog-21.ru/media/1288/skopinavaam-hetsevichys.pdf
-4. aist_2015_3510e16a598e3df1f53950a7a95479454cfdc0f9 (en): 0.9509299992225771 = https://link.springer.com/chapter/10.1007/978-3-319-26123-2_31
-5. ainl_2016_1427f443fcfdce2f6745cec5519954b092546a73 (en): 0.949558184174479 = http://ieeexplore.ieee.org/document/7891854/
+23. 	dialogue_2012_7cb46f3e1e715fa315256ca30404faf312bdaba8	en		http://www.dialog-21.ru/media/1329/136.pdf
+1	dialogue_2019_e0fb6cddde32cd3daebf6a02eb2c680bcb45cddc	en	0.959808342258799	http://www.dialog-21.ru/media/4614/lyashevskayaon-163.pdf
+2	dialogue_2014_b630b20e0466993aab02a76be74f028983236935	en	0.956986622637829	http://www.dialog-21.ru/digests/dialog2014/materials/pdf/StrebkovDY.pdf
+3	dialogue_2013_deddec313871a0a920cd612bf6746a30fd5fcb38	en	0.9518374112223695	http://www.dialog-21.ru/media/1288/skopinavaam-hetsevichys.pdf
+4	aist_2015_3510e16a598e3df1f53950a7a95479454cfdc0f9	en	0.9509299992225771	https://link.springer.com/chapter/10.1007/978-3-319-26123-2_31
+5	ainl_2016_1427f443fcfdce2f6745cec5519954b092546a73	en	0.949558184174479	http://ieeexplore.ieee.org/document/7891854/
 
 
-24. Рейтинг статей по близости к dialogue_2012_9577168b37efef5c565150422f4152cc896ed336 (en): = http://www.dialog-21.ru/media/1386/anisimovich.pdf
-1. dialogue_2014_549d30855d3302722626eea0f4f6fce692d455e3 (en): 0.9785285454291118 = http://www.dialog-21.ru/digests/dialog2014/materials/pdf/LeontievAPPetrovaMA.pdf
-2. dialogue_2012_c560994a48589b9b2fd52b0aa93c4f4991e84558 (en): 0.9728694651553088 = http://www.dialog-21.ru/media/1387/98.pdf
-3. dialogue_2012_83e3b55807a9116b93aac4883a2afafb4c66ea44 (en): 0.9722400037504639 = http://www.dialog-21.ru/media/1388/iomdin.pdf
-4. dialogue_2013_3cc6fc1cb591614dbfcf9de72afcecb94a29984a (en): 0.9707568546307428 = http://www.dialog-21.ru/media/1229/bogdanovav.pdf
-5. dialogue_2010_9a68ac49595370279b9cd66c9cd0f98adb30803e (en): 0.9704659517621952 = http://www.dialog-21.ru/media/1718/93.pdf
+24. 	dialogue_2012_9577168b37efef5c565150422f4152cc896ed336	en		http://www.dialog-21.ru/media/1386/anisimovich.pdf
+1	dialogue_2014_549d30855d3302722626eea0f4f6fce692d455e3	en	0.9785285454291118	http://www.dialog-21.ru/digests/dialog2014/materials/pdf/LeontievAPPetrovaMA.pdf
+2	dialogue_2012_c560994a48589b9b2fd52b0aa93c4f4991e84558	en	0.9728694651553088	http://www.dialog-21.ru/media/1387/98.pdf
+3	dialogue_2012_83e3b55807a9116b93aac4883a2afafb4c66ea44	en	0.9722400037504639	http://www.dialog-21.ru/media/1388/iomdin.pdf
+4	dialogue_2013_3cc6fc1cb591614dbfcf9de72afcecb94a29984a	en	0.9707568546307428	http://www.dialog-21.ru/media/1229/bogdanovav.pdf
+5	dialogue_2010_9a68ac49595370279b9cd66c9cd0f98adb30803e	en	0.9704659517621952	http://www.dialog-21.ru/media/1718/93.pdf
 
 
-25. Рейтинг статей по близости к dialogue_2013_67593c77c4471d62e33dd08afab4dfc231ecbcde (en): = http://www.dialog-21.ru/media/1238/dikonovv.pdf
-1. dialogue_2018_a98a147c789cea9ebc1404f527dec0512681e7b0 (en): 0.9678809343288927 = http://www.dialog-21.ru/media/4326/petrovama.pdf
-2. dialogue_2014_262ccdb84da9eb460eebee5ab33f7f53f2221fb4 (en): 0.9653309408365345 = http://www.dialog-21.ru/digests/dialog2014/materials/pdf/LoukachevitchNV.pdf
-3. dialogue_2015_f1482eb4242e69961c4f3a86c25de502e2db46ec (en): 0.9632982291733638 = http://www.dialog-21.ru/digests/dialog2015/materials/pdf/GoncharovaMBetal.pdf
-4. ainl_2017_52b3ff456fef7c23d793018785ed6c5e379c4b13 (en): 0.963152458139932 = https://link.springer.com/chapter/10.1007/978-3-319-71746-3_10
-5. dialogue_2015_057c0e0d8f09d4930b81f09a47b43c1e55cdf0f3 (en): 0.9597687232627711 = http://www.dialog-21.ru/digests/dialog2015/materials/pdf/KiselevYABraslavskiPIetal.pdf
+25. 	dialogue_2013_67593c77c4471d62e33dd08afab4dfc231ecbcde	en		http://www.dialog-21.ru/media/1238/dikonovv.pdf
+1	dialogue_2018_a98a147c789cea9ebc1404f527dec0512681e7b0	en	0.9678809343288927	http://www.dialog-21.ru/media/4326/petrovama.pdf
+2	dialogue_2014_262ccdb84da9eb460eebee5ab33f7f53f2221fb4	en	0.9653309408365345	http://www.dialog-21.ru/digests/dialog2014/materials/pdf/LoukachevitchNV.pdf
+3	dialogue_2015_f1482eb4242e69961c4f3a86c25de502e2db46ec	en	0.9632982291733638	http://www.dialog-21.ru/digests/dialog2015/materials/pdf/GoncharovaMBetal.pdf
+4	ainl_2017_52b3ff456fef7c23d793018785ed6c5e379c4b13	en	0.963152458139932	https://link.springer.com/chapter/10.1007/978-3-319-71746-3_10
+5	dialogue_2015_057c0e0d8f09d4930b81f09a47b43c1e55cdf0f3	en	0.9597687232627711	http://www.dialog-21.ru/digests/dialog2015/materials/pdf/KiselevYABraslavskiPIetal.pdf
 
 
-26. Рейтинг статей по близости к dialogue_2014_7b482dc59ce6ed3a99f45eafed6ef078dea83b79 (en): = http://www.dialog-21.ru/digests/dialog2014/materials/pdf/BorschevVBParteeBH.pdf
-1. dialogue_2012_9577168b37efef5c565150422f4152cc896ed336 (en): 0.949372836018748 = http://www.dialog-21.ru/media/1386/anisimovich.pdf
-2. dialogue_2014_0148d45ccdd3bb09390fadb459ecd6222d4d9738 (en): 0.9485207461849376 = http://www.dialog-21.ru/digests/dialog2014/materials/pdf/MilicevicJTimoshenkoS.pdf
-3. dialogue_2016_0d16ab0f2f3491f42cb6434cd830cf3a8a69a1bd (en): 0.9463028921431567 = http://www.dialog-21.ru/media/3385/bukiagtetal.pdf
-4. dialogue_2017_bf2a7948a7d8d95763359cda45847385a6c8faeb (en): 0.9459004104496562 = http://www.dialog-21.ru/media/3904/boguslavskyi.pdf
-5. ainl_2018_4a1cfa0d5590039527787019b48066f0c9fffadb (en): 0.9458581527709339 = https://link.springer.com/chapter/10.1007/978-3-030-01204-5_8
+26. 	dialogue_2014_7b482dc59ce6ed3a99f45eafed6ef078dea83b79	en		http://www.dialog-21.ru/digests/dialog2014/materials/pdf/BorschevVBParteeBH.pdf
+1	dialogue_2012_9577168b37efef5c565150422f4152cc896ed336	en	0.949372836018748	http://www.dialog-21.ru/media/1386/anisimovich.pdf
+2	dialogue_2014_0148d45ccdd3bb09390fadb459ecd6222d4d9738	en	0.9485207461849376	http://www.dialog-21.ru/digests/dialog2014/materials/pdf/MilicevicJTimoshenkoS.pdf
+3	dialogue_2016_0d16ab0f2f3491f42cb6434cd830cf3a8a69a1bd	en	0.9463028921431567	http://www.dialog-21.ru/media/3385/bukiagtetal.pdf
+4	dialogue_2017_bf2a7948a7d8d95763359cda45847385a6c8faeb	en	0.9459004104496562	http://www.dialog-21.ru/media/3904/boguslavskyi.pdf
+5	ainl_2018_4a1cfa0d5590039527787019b48066f0c9fffadb	en	0.9458581527709339	https://link.springer.com/chapter/10.1007/978-3-030-01204-5_8
 
 
-27. Рейтинг статей по близости к dialogue_2014_19122ea4d4e9f052fda3a7d65d9d6fa88dcaad5b (en): = http://www.dialog-21.ru/digests/dialog2014/materials/pdf/ZimmerlingAV.pdf
-1. dialogue_2013_0bd8e22d96bce1f8490f95c96b4452802d148e28 (en): 0.9734510937704283 = http://www.dialog-21.ru/media/1298/zimmerlingav.pdf
-2. dialogue_2015_58fb067c791846681ad5fc4e612ed26180d92307 (en): 0.9542607171449577 = http://www.dialog-21.ru/digests/dialog2015/materials/pdf/BogdanovAVGorbunovaIM.pdf
-3. dialogue_2017_5ac351a68efb56b2e92cf5ea32d54067bbf2439d (en): 0.9494377994821767 = http://www.dialog-21.ru/media/3923/letuchiyab.pdf
-4. dialogue_2011_438f2428713ec12f0d17804cbec5d405e3590e12 (en): 0.9454113991066906 = http://www.dialog-21.ru/media/1472/71.pdf
-5. dialogue_2009_783e2b7a11ce82262de32a479d25d7788eda2bd9 (en): 0.944796439519329 = http://www.dialog-21.ru/media/1642/92.pdf
+27. 	dialogue_2014_19122ea4d4e9f052fda3a7d65d9d6fa88dcaad5b	en		http://www.dialog-21.ru/digests/dialog2014/materials/pdf/ZimmerlingAV.pdf
+1	dialogue_2013_0bd8e22d96bce1f8490f95c96b4452802d148e28	en	0.9734510937704283	http://www.dialog-21.ru/media/1298/zimmerlingav.pdf
+2	dialogue_2015_58fb067c791846681ad5fc4e612ed26180d92307	en	0.9542607171449577	http://www.dialog-21.ru/digests/dialog2015/materials/pdf/BogdanovAVGorbunovaIM.pdf
+3	dialogue_2017_5ac351a68efb56b2e92cf5ea32d54067bbf2439d	en	0.9494377994821767	http://www.dialog-21.ru/media/3923/letuchiyab.pdf
+4	dialogue_2011_438f2428713ec12f0d17804cbec5d405e3590e12	en	0.9454113991066906	http://www.dialog-21.ru/media/1472/71.pdf
+5	dialogue_2009_783e2b7a11ce82262de32a479d25d7788eda2bd9	en	0.944796439519329	http://www.dialog-21.ru/media/1642/92.pdf
 
 
-28. Рейтинг статей по близости к dialogue_2015_87b497262b42d4d275a0394ff6bf9c92d9a2afc7 (en): = http://www.dialog-21.ru/digests/dialog2015/materials/pdf/IvanovVVetal.pdf
-1. dialogue_2015_134cb8995dd20f4bb853702b63e9edadc2c7df2f (en): 0.9775045605744554 = http://www.dialog-21.ru/digests/dialog2015/materials/pdf/BlinovPDKotelnikovEV.pdf
-2. dialogue_2015_6e1f13dd827d92f1a0900435f28e1829c76fcd01 (en): 0.9762061457471415 = http://www.dialog-21.ru/digests/dialog2015/materials/pdf/MayorovVDetal.pdf
-3. dialogue_2014_996aa430f6b2dc398c1e5212162ee6b5f17f189a (en): 0.972866826127057 = http://www.dialog-21.ru/digests/dialog2014/materials/pdf/BlinovPDKotelnikovEV.pdf
-4. dialogue_2013_cfb80c5b79ac4637d17048039b0d1c1fc2d68a27 (en): 0.9723552558879309 = http://www.dialog-21.ru/media/1226/blinovpd.pdf
-5. aist_2016_1356a10e62120390fc319a721150bfbe9482eed3 (en): 0.9718069494068027 = https://link.springer.com/chapter/10.1007/978-3-319-52920-2_20
-
-
-29. Рейтинг статей по близости к dialogue_2016_c1f6ca221c4c2c4b39b029a802f645d911d9dfd9 (en): = http://www.dialog-21.ru/media/3425/shirokovaaetal.pdf
-1. dialogue_2001_021a9e82cfe5bf2040a88f58267471fca7a6366a (en): 0.9673510574531932 = http://www.dialog-21.ru/digest/2001/articles/mihkla/
-2. dialogue_2009_6bc8291ac11d9cd0a16a175a189cb728653ed08c (en): 0.964880683227813 = http://www.dialog-21.ru/media/1641/91.pdf
-3. ainl_2016_fe01f43405b33cea9236f97fb484594f9adce505 (en): 0.9580829184280855 = http://ieeexplore.ieee.org/document/7891858/
-4. ainl_2018_fdc265a678017c20e64f10429cf5f1b373f871db (en): 0.9542196899563353 = https://link.springer.com/chapter/10.1007/978-3-030-01204-5_4
-5. dialogue_2013_5c12b26c3a1dd1910bdd48b580cdac0038c23aaa (en): 0.9522679796800826 = http://www.dialog-21.ru/media/1291/solomennikai.pdf
-
-
-30. Рейтинг статей по близости к dialogue_2016_1ca08ad514b70f52f4475f72894dfe8321054580 (en): = http://www.dialog-21.ru/media/3384/berdi%C4%8Devskisaetal.pdf
-1. aist_2015_3510e16a598e3df1f53950a7a95479454cfdc0f9 (en): 0.97074374035976 = https://link.springer.com/chapter/10.1007/978-3-319-26123-2_31
-2. ainl_2018_fdc265a678017c20e64f10429cf5f1b373f871db (en): 0.9657794260200929 = https://link.springer.com/chapter/10.1007/978-3-030-01204-5_4
-3. dialogue_2013_6b5edb088d7188e47b2f957abb08fa2ece0e86c7 (en): 0.9630192544996802 = http://www.dialog-21.ru/media/1283/protopopovaev.pdf
-4. ainl_2017_008141633713e94b23d4b59aae97a229364e6df7 (en): 0.9628044431617679 = https://link.springer.com/chapter/10.1007/978-3-319-71746-3_12
-5. dialogue_2015_d22dd8c9904753c6129d7705a1a426e315509d71 (en): 0.9611330131105857 = http://www.dialog-21.ru/digests/dialog2015/materials/pdf/ProtopopovaAntonovaAMisyurevA.pdf
-
-
-31. Рейтинг статей по близости к dialogue_2017_6407e00d6077550a0b837e661734f0ad1adfd30a (en): = http://www.dialog-21.ru/media/3913/gureenkovaoaetal.pdf
-1. dialogue_2019_8cc8a65499e25b4d5ac355966d164f48794e5326 (en): 0.9792859439482182 = http://www.dialog-21.ru/media/4595/chistovaevplusetal-076.pdf
-2. dialogue_2017_7be9a228ca855ad40a4435aba03d8f5c5c2ac392 (en): 0.9780034053743007 = http://www.dialog-21.ru/media/3943/romanovav.pdf
-3. dialogue_2017_64842a287bba3d0b4829b0b0d5f53086a6514de0 (en): 0.9747104029469054 = http://www.dialog-21.ru/media/3928/loukachevitchnvetal.pdf
-4. aist_2018_3b4a66d1e88d2674772efe01f34ba1b412b49756 (en): 0.9741164732864436 = https://link.springer.com/chapter/10.1007/978-3-030-11027-7_12
-5. dialogue_2013_c278667a996e945cd9f07ed12964986747e4d152 (en): 0.9740063276531612 = http://www.dialog-21.ru/media/1273/nekhaiiv.pdf
-
-
-32. Рейтинг статей по близости к dialogue_2017_4b9b6213a17d94ebadbbe7373a73430c1ba47282 (en): = http://www.dialog-21.ru/media/3945/shelmanovaodevyatkinda.pdf
-1. aist_2015_87dbe14d1930039d517d969e84a3504f8af4cc03 (en): 0.976689052534144 = https://link.springer.com/chapter/10.1007/978-3-319-26123-2_32
-2. dialogue_2019_8cc8a65499e25b4d5ac355966d164f48794e5326 (en): 0.9750577556494093 = http://www.dialog-21.ru/media/4595/chistovaevplusetal-076.pdf
-3. dialogue_2017_7be9a228ca855ad40a4435aba03d8f5c5c2ac392 (en): 0.9744371937111147 = http://www.dialog-21.ru/media/3943/romanovav.pdf
-4. ainl_2017_8c133c4589f12a1ce238c159d844ad4e06d0767d (en): 0.970862532061777 = https://arxiv.org/abs/1711.04154
-5. aist_2019_efed15362c0565177ddf09bdd07301b016b657e4 (en): 0.9702993150522287 = https://link.springer.com/chapter/10.1007/978-3-030-37334-4_15
-
-
-33. Рейтинг статей по близости к dialogue_2017_d94d7e3801d8f21c3421ddc7b67f48f60ef7997d (en): = http://www.dialog-21.ru/media/3961/vinogradovaoietal.pdf
-1. dialogue_2018_8199d54eb226a7a544ec156a32c9912cf53d1359 (en): 0.9705725466072842 = http://www.dialog-21.ru/media/4312/laposhina%D0%B0n.pdf
-2. dialogue_2018_f49e5d3bee8499b46bf37c11ebeb1369d105bada (en): 0.9688811041194305 = http://www.dialog-21.ru/media/4302/ivanovvv.pdf
-3. dialogue_2016_994c6757f99e42a0aa7c6d5521437e930b035003 (en): 0.9615086299825726 = http://www.dialog-21.ru/media/3440/vinogradovaoi.pdf
-4. dialogue_2016_26cc181f8f467bde0690517f45d93ddafd8d9288 (en): 0.9607271140982254 = http://www.dialog-21.ru/media/3400/koltsovaoyuetal.pdf
-5. aist_2019_d6b02078db975995b1bd27b4d370c829357b9ed3 (en): 0.9592896941022295 = https://link.springer.com/chapter/10.1007/978-3-030-37334-4_12
-
-
-34. Рейтинг статей по близости к dialogue_2018_37e12e9856473293c99667fa95da1e72abb1aff6 (en): = http://www.dialog-21.ru/media/4287/arefyevnv.pdf
-1. dialogue_2019_9e8586d83095fc0bb44577c37c4b8661dc21bfd8 (en): 0.9878550208733909 = http://www.dialog-21.ru/media/4590/bolshakovaeiplussapinas-036.pdf
-2. ainl_2019_79e0519d19e9fb8fad9598c872ac50824e8d4270 (en): 0.9864382328341091 = https://link.springer.com/chapter/10.1007/978-3-030-34518-1_11
-3. dialogue_2019_b85523b62f37e902a7c897bf5a942bbc2df49ca8 (en): 0.9796698313418648 = http://www.dialog-21.ru/media/4628/sorokinаа-163.pdf
-4. aist_2018_3b4a66d1e88d2674772efe01f34ba1b412b49756 (en): 0.9783823068978232 = https://link.springer.com/chapter/10.1007/978-3-030-11027-7_12
-5. dialogue_2018_95f62d40c614e814a5fc7514891a9505b3a0e261 (en): 0.977189675548803 = http://www.dialog-21.ru/media/4530/sorokinaa.pdf
-
-
-35. Рейтинг статей по близости к dialogue_2018_8199d54eb226a7a544ec156a32c9912cf53d1359 (en): = http://www.dialog-21.ru/media/4312/laposhina%D0%B0n.pdf
-1. dialogue_2018_f49e5d3bee8499b46bf37c11ebeb1369d105bada (en): 0.9816097045355818 = http://www.dialog-21.ru/media/4302/ivanovvv.pdf
-2. dialogue_2017_d94d7e3801d8f21c3421ddc7b67f48f60ef7997d (en): 0.9705725466072842 = http://www.dialog-21.ru/media/3961/vinogradovaoietal.pdf
-3. aist_2014_b52e30d63f16b825c659b285e3410d02146ab8c5 (en): 0.9692382194012465 = https://link.springer.com/chapter/10.1007/978-3-319-12580-0_9
-4. aist_2019_d6b02078db975995b1bd27b4d370c829357b9ed3 (en): 0.9640011080784574 = https://link.springer.com/chapter/10.1007/978-3-030-37334-4_12
-5. dialogue_2016_26cc181f8f467bde0690517f45d93ddafd8d9288 (en): 0.963028323862931 = http://www.dialog-21.ru/media/3400/koltsovaoyuetal.pdf
-
-
-36. Рейтинг статей по близости к dialogue_2018_6d5a00769f373ca7a31c81bb33d9944981d61f52 (en): = http://www.dialog-21.ru/media/4321/nedoluzhkoa.pdf
-1. dialogue_2015_fbad5d6963674202385bc9062ba88ebf2baddcf6 (en): 0.9797423171408877 = http://www.dialog-21.ru/digests/dialog2015/materials/pdf/NedoluzhkoAetal.pdf
-2. dialogue_2018_288cc208175b724bee284a6ede9ecdb24e31384e (en): 0.9724207815111617 = http://www.dialog-21.ru/media/4322/nedoluzhkoa_lapshinova-koltunskie.pdf
-3. dialogue_2016_b3b729e5ef8e7563d0480dcf353a60baa4f49710 (en): 0.9627306487406164 = http://www.dialog-21.ru/media/3435/toldovasyuetal.pdf
-4. dialogue_2019_647244be9125ffcfbb9b9add77ab97cb7621fc6b (en): 0.9621562429592794 = http://www.dialog-21.ru/media/4592/budennayaev-128.pdf
-5. dialogue_2012_caba46a9d6f3fa600c3b211f81aa1f1457ff419e (en): 0.9611567252125097 = http://www.dialog-21.ru/media/1341/149.pdf
-
-
-37. Рейтинг статей по близости к dialogue_2018_288cc208175b724bee284a6ede9ecdb24e31384e (en): = http://www.dialog-21.ru/media/4322/nedoluzhkoa_lapshinova-koltunskie.pdf
-1. dialogue_2018_6d5a00769f373ca7a31c81bb33d9944981d61f52 (en): 0.9724207815111617 = http://www.dialog-21.ru/media/4321/nedoluzhkoa.pdf
-2. dialogue_2015_fbad5d6963674202385bc9062ba88ebf2baddcf6 (en): 0.9707369194183566 = http://www.dialog-21.ru/digests/dialog2015/materials/pdf/NedoluzhkoAetal.pdf
-3. dialogue_2012_caba46a9d6f3fa600c3b211f81aa1f1457ff419e (en): 0.9619257368539219 = http://www.dialog-21.ru/media/1341/149.pdf
-4. dialogue_2014_d92e7c2c46cfd4c0cc971d8eacafa2d27559ba50 (en): 0.9597248495746691 = http://www.dialog-21.ru/digests/dialog2014/materials/pdf/ZangenfeindRSonnenhauserB.pdf
-5. dialogue_2016_b3b729e5ef8e7563d0480dcf353a60baa4f49710 (en): 0.9592092109104825 = http://www.dialog-21.ru/media/3435/toldovasyuetal.pdf
-
-
-38. Рейтинг статей по близости к dialogue_2019_74610d867309cc74c401a526aecc13100e3cf53c (en): = http://www.dialog-21.ru/media/4622/rossyaykinpoplusloukachevitchnv-127.pdf
-1. dialogue_2012_62f93d9eb7b55a8e4ec58ddcbf3721d8baac588e (en): 0.9784438104494626 = http://www.dialog-21.ru/media/1376/126.pdf
-2. dialogue_2018_f51648c56d3d1a493e77a966297a1e85c39fe94e (en): 0.9778522644222019 = http://www.dialog-21.ru/media/4528/konovalovvp_tumunbayarovazb.pdf
-3. aist_2019_02b2c8d44ffdd2f7a4145621ee67f48fe46f0b9c (en): 0.9742273662942194 = https://link.springer.com/chapter/10.1007/978-3-030-37334-4_20
-4. dialogue_2016_47916c39d8fcdf58f96f3567f729ba36a4cbe76e (en): 0.9740014697856896 = http://www.dialog-21.ru/media/3436/tutubalinaevbraslavskipi.pdf
-5. dialogue_2017_3084c566cb86ff1899eaab590cf64d2957522af8 (en): 0.9739962065830764 = http://www.dialog-21.ru/media/3963/zakharovvp.pdf
-
-
-39. Рейтинг статей по близости к ainl_2016_0790fcd7a4965a62eb8127d48d03e51a5467f34d (en): = http://ieeexplore.ieee.org/document/7891792/
-1. dialogue_2013_0e61db3362725c6b58c4c9b20f79874af70182b3 (en): 0.9611384214265559 = http://www.dialog-21.ru/media/1267/marchuckaa.pdf
-2. aist_2017_63e8327f5ed2b9a30b7a71d71896fe6ebce4c06e (en): 0.96019796559718 = https://link.springer.com/chapter/10.1007/978-3-319-73013-4_6
-3. ainl_2018_0dc0b8f51dfc6921e7babb9eeadb5e38858c8145 (en): 0.959388161781083 = https://link.springer.com/chapter/10.1007/978-3-030-01204-5_2
-4. ainl_2019_c1083550f1b05b8be05c36d62d6cf60c60007ffb (en): 0.9585528702251453 = https://link.springer.com/chapter/10.1007/978-3-030-34518-1_6
-5. ainl_2019_32bf200f2332da4e5cda67801674ee2624c4ba99 (en): 0.9570595259383174 = https://link.springer.com/chapter/10.1007/978-3-030-34518-1_12
-
-
-40. Рейтинг статей по близости к aist_2015_310f043fe1734af7e2c1e1b6e386730be7102d59 (en): = https://link.springer.com/chapter/10.1007/978-3-319-26123-2_36
-1. aist_2016_1ba82b96a62f1a33a29c9a031989d26279f1ad4c (en): 0.9827963754213753 = https://link.springer.com/chapter/10.1007/978-3-319-52920-2_13
-2. ainl_2017_8a7924b89158c4c84ac036ef9be90fd82cf034fa (en): 0.9721677997382054 = https://arxiv.org/abs/1709.09686
-3. ainl_2017_8c133c4589f12a1ce238c159d844ad4e06d0767d (en): 0.969534730548087 = https://arxiv.org/abs/1711.04154
-4. ainl_2018_0dc0b8f51dfc6921e7babb9eeadb5e38858c8145 (en): 0.9686268620696745 = https://link.springer.com/chapter/10.1007/978-3-030-01204-5_2
-5. ainl_2018_64e321e851bf553d0fe8bb7a50a1a108d34fcd5f (en): 0.9675290052030008 = https://link.springer.com/chapter/10.1007/978-3-030-01204-5_5
+28. 	dialogue_2015_87b497262b42d4d275a0394ff6bf9c92d9a2afc7	en		http://www.dialog-21.ru/digests/dialog2015/materials/pdf/IvanovVVetal.pdf
+1	dialogue_2015_134cb8995dd20f4bb853702b63e9edadc2c7df2f	en	0.9775045605744554	http://www.dialog-21.ru/digests/dialog2015/materials/pdf/BlinovPDKotelnikovEV.pdf
+2	dialogue_2015_6e1f13dd827d92f1a0900435f28e1829c76fcd01	en	0.9762061457471415	http://www.dialog-21.ru/digests/dialog2015/materials/pdf/MayorovVDetal.pdf
+3	dialogue_2014_996aa430f6b2dc398c1e5212162ee6b5f17f189a	en	0.972866826127057	http://www.dialog-21.ru/digests/dialog2014/materials/pdf/BlinovPDKotelnikovEV.pdf
+4	dialogue_2013_cfb80c5b79ac4637d17048039b0d1c1fc2d68a27	en	0.9723552558879309	http://www.dialog-21.ru/media/1226/blinovpd.pdf
+5	aist_2016_1356a10e62120390fc319a721150bfbe9482eed3	en	0.9718069494068027	https://link.springer.com/chapter/10.1007/978-3-319-52920-2_20
+
+
+29. 	dialogue_2016_c1f6ca221c4c2c4b39b029a802f645d911d9dfd9	en		http://www.dialog-21.ru/media/3425/shirokovaaetal.pdf
+1	dialogue_2001_021a9e82cfe5bf2040a88f58267471fca7a6366a	en	0.9673510574531932	http://www.dialog-21.ru/digest/2001/articles/mihkla/
+2	dialogue_2009_6bc8291ac11d9cd0a16a175a189cb728653ed08c	en	0.964880683227813	http://www.dialog-21.ru/media/1641/91.pdf
+3	ainl_2016_fe01f43405b33cea9236f97fb484594f9adce505	en	0.9580829184280855	http://ieeexplore.ieee.org/document/7891858/
+4	ainl_2018_fdc265a678017c20e64f10429cf5f1b373f871db	en	0.9542196899563353	https://link.springer.com/chapter/10.1007/978-3-030-01204-5_4
+5	dialogue_2013_5c12b26c3a1dd1910bdd48b580cdac0038c23aaa	en	0.9522679796800826	http://www.dialog-21.ru/media/1291/solomennikai.pdf
+
+
+30. 	dialogue_2016_1ca08ad514b70f52f4475f72894dfe8321054580	en		http://www.dialog-21.ru/media/3384/berdi%C4%8Devskisaetal.pdf
+1	aist_2015_3510e16a598e3df1f53950a7a95479454cfdc0f9	en	0.97074374035976	https://link.springer.com/chapter/10.1007/978-3-319-26123-2_31
+2	ainl_2018_fdc265a678017c20e64f10429cf5f1b373f871db	en	0.9657794260200929	https://link.springer.com/chapter/10.1007/978-3-030-01204-5_4
+3	dialogue_2013_6b5edb088d7188e47b2f957abb08fa2ece0e86c7	en	0.9630192544996802	http://www.dialog-21.ru/media/1283/protopopovaev.pdf
+4	ainl_2017_008141633713e94b23d4b59aae97a229364e6df7	en	0.9628044431617679	https://link.springer.com/chapter/10.1007/978-3-319-71746-3_12
+5	dialogue_2015_d22dd8c9904753c6129d7705a1a426e315509d71	en	0.9611330131105857	http://www.dialog-21.ru/digests/dialog2015/materials/pdf/ProtopopovaAntonovaAMisyurevA.pdf
+
+
+31. 	dialogue_2017_6407e00d6077550a0b837e661734f0ad1adfd30a	en		http://www.dialog-21.ru/media/3913/gureenkovaoaetal.pdf
+1	dialogue_2019_8cc8a65499e25b4d5ac355966d164f48794e5326	en	0.9792859439482182	http://www.dialog-21.ru/media/4595/chistovaevplusetal-076.pdf
+2	dialogue_2017_7be9a228ca855ad40a4435aba03d8f5c5c2ac392	en	0.9780034053743007	http://www.dialog-21.ru/media/3943/romanovav.pdf
+3	dialogue_2017_64842a287bba3d0b4829b0b0d5f53086a6514de0	en	0.9747104029469054	http://www.dialog-21.ru/media/3928/loukachevitchnvetal.pdf
+4	aist_2018_3b4a66d1e88d2674772efe01f34ba1b412b49756	en	0.9741164732864436	https://link.springer.com/chapter/10.1007/978-3-030-11027-7_12
+5	dialogue_2013_c278667a996e945cd9f07ed12964986747e4d152	en	0.9740063276531612	http://www.dialog-21.ru/media/1273/nekhaiiv.pdf
+
+
+32. 	dialogue_2017_4b9b6213a17d94ebadbbe7373a73430c1ba47282	en		http://www.dialog-21.ru/media/3945/shelmanovaodevyatkinda.pdf
+1	aist_2015_87dbe14d1930039d517d969e84a3504f8af4cc03	en	0.976689052534144	https://link.springer.com/chapter/10.1007/978-3-319-26123-2_32
+2	dialogue_2019_8cc8a65499e25b4d5ac355966d164f48794e5326	en	0.9750577556494093	http://www.dialog-21.ru/media/4595/chistovaevplusetal-076.pdf
+3	dialogue_2017_7be9a228ca855ad40a4435aba03d8f5c5c2ac392	en	0.9744371937111147	http://www.dialog-21.ru/media/3943/romanovav.pdf
+4	ainl_2017_8c133c4589f12a1ce238c159d844ad4e06d0767d	en	0.970862532061777	https://arxiv.org/abs/1711.04154
+5	aist_2019_efed15362c0565177ddf09bdd07301b016b657e4	en	0.9702993150522287	https://link.springer.com/chapter/10.1007/978-3-030-37334-4_15
+
+
+33. 	dialogue_2017_d94d7e3801d8f21c3421ddc7b67f48f60ef7997d	en		http://www.dialog-21.ru/media/3961/vinogradovaoietal.pdf
+1	dialogue_2018_8199d54eb226a7a544ec156a32c9912cf53d1359	en	0.9705725466072842	http://www.dialog-21.ru/media/4312/laposhina%D0%B0n.pdf
+2	dialogue_2018_f49e5d3bee8499b46bf37c11ebeb1369d105bada	en	0.9688811041194305	http://www.dialog-21.ru/media/4302/ivanovvv.pdf
+3	dialogue_2016_994c6757f99e42a0aa7c6d5521437e930b035003	en	0.9615086299825726	http://www.dialog-21.ru/media/3440/vinogradovaoi.pdf
+4	dialogue_2016_26cc181f8f467bde0690517f45d93ddafd8d9288	en	0.9607271140982254	http://www.dialog-21.ru/media/3400/koltsovaoyuetal.pdf
+5	aist_2019_d6b02078db975995b1bd27b4d370c829357b9ed3	en	0.9592896941022295	https://link.springer.com/chapter/10.1007/978-3-030-37334-4_12
+
+
+34. 	dialogue_2018_37e12e9856473293c99667fa95da1e72abb1aff6	en		http://www.dialog-21.ru/media/4287/arefyevnv.pdf
+1	dialogue_2019_9e8586d83095fc0bb44577c37c4b8661dc21bfd8	en	0.9878550208733909	http://www.dialog-21.ru/media/4590/bolshakovaeiplussapinas-036.pdf
+2	ainl_2019_79e0519d19e9fb8fad9598c872ac50824e8d4270	en	0.9864382328341091	https://link.springer.com/chapter/10.1007/978-3-030-34518-1_11
+3	dialogue_2019_b85523b62f37e902a7c897bf5a942bbc2df49ca8	en	0.9796698313418648	http://www.dialog-21.ru/media/4628/sorokinаа-163.pdf
+4	aist_2018_3b4a66d1e88d2674772efe01f34ba1b412b49756	en	0.9783823068978232	https://link.springer.com/chapter/10.1007/978-3-030-11027-7_12
+5	dialogue_2018_95f62d40c614e814a5fc7514891a9505b3a0e261	en	0.977189675548803	http://www.dialog-21.ru/media/4530/sorokinaa.pdf
+
+
+35. 	dialogue_2018_8199d54eb226a7a544ec156a32c9912cf53d1359	en		http://www.dialog-21.ru/media/4312/laposhina%D0%B0n.pdf
+1	dialogue_2018_f49e5d3bee8499b46bf37c11ebeb1369d105bada	en	0.9816097045355818	http://www.dialog-21.ru/media/4302/ivanovvv.pdf
+2	dialogue_2017_d94d7e3801d8f21c3421ddc7b67f48f60ef7997d	en	0.9705725466072842	http://www.dialog-21.ru/media/3961/vinogradovaoietal.pdf
+3	aist_2014_b52e30d63f16b825c659b285e3410d02146ab8c5	en	0.9692382194012465	https://link.springer.com/chapter/10.1007/978-3-319-12580-0_9
+4	aist_2019_d6b02078db975995b1bd27b4d370c829357b9ed3	en	0.9640011080784574	https://link.springer.com/chapter/10.1007/978-3-030-37334-4_12
+5	dialogue_2016_26cc181f8f467bde0690517f45d93ddafd8d9288	en	0.963028323862931	http://www.dialog-21.ru/media/3400/koltsovaoyuetal.pdf
+
+
+36. 	dialogue_2018_6d5a00769f373ca7a31c81bb33d9944981d61f52	en		http://www.dialog-21.ru/media/4321/nedoluzhkoa.pdf
+1	dialogue_2015_fbad5d6963674202385bc9062ba88ebf2baddcf6	en	0.9797423171408877	http://www.dialog-21.ru/digests/dialog2015/materials/pdf/NedoluzhkoAetal.pdf
+2	dialogue_2018_288cc208175b724bee284a6ede9ecdb24e31384e	en	0.9724207815111617	http://www.dialog-21.ru/media/4322/nedoluzhkoa_lapshinova-koltunskie.pdf
+3	dialogue_2016_b3b729e5ef8e7563d0480dcf353a60baa4f49710	en	0.9627306487406164	http://www.dialog-21.ru/media/3435/toldovasyuetal.pdf
+4	dialogue_2019_647244be9125ffcfbb9b9add77ab97cb7621fc6b	en	0.9621562429592794	http://www.dialog-21.ru/media/4592/budennayaev-128.pdf
+5	dialogue_2012_caba46a9d6f3fa600c3b211f81aa1f1457ff419e	en	0.9611567252125097	http://www.dialog-21.ru/media/1341/149.pdf
+
+
+37. 	dialogue_2018_288cc208175b724bee284a6ede9ecdb24e31384e	en		http://www.dialog-21.ru/media/4322/nedoluzhkoa_lapshinova-koltunskie.pdf
+1	dialogue_2018_6d5a00769f373ca7a31c81bb33d9944981d61f52	en	0.9724207815111617	http://www.dialog-21.ru/media/4321/nedoluzhkoa.pdf
+2	dialogue_2015_fbad5d6963674202385bc9062ba88ebf2baddcf6	en	0.9707369194183566	http://www.dialog-21.ru/digests/dialog2015/materials/pdf/NedoluzhkoAetal.pdf
+3	dialogue_2012_caba46a9d6f3fa600c3b211f81aa1f1457ff419e	en	0.9619257368539219	http://www.dialog-21.ru/media/1341/149.pdf
+4	dialogue_2014_d92e7c2c46cfd4c0cc971d8eacafa2d27559ba50	en	0.9597248495746691	http://www.dialog-21.ru/digests/dialog2014/materials/pdf/ZangenfeindRSonnenhauserB.pdf
+5	dialogue_2016_b3b729e5ef8e7563d0480dcf353a60baa4f49710	en	0.9592092109104825	http://www.dialog-21.ru/media/3435/toldovasyuetal.pdf
+
+
+38. 	dialogue_2019_74610d867309cc74c401a526aecc13100e3cf53c	en		http://www.dialog-21.ru/media/4622/rossyaykinpoplusloukachevitchnv-127.pdf
+1	dialogue_2012_62f93d9eb7b55a8e4ec58ddcbf3721d8baac588e	en	0.9784438104494626	http://www.dialog-21.ru/media/1376/126.pdf
+2	dialogue_2018_f51648c56d3d1a493e77a966297a1e85c39fe94e	en	0.9778522644222019	http://www.dialog-21.ru/media/4528/konovalovvp_tumunbayarovazb.pdf
+3	aist_2019_02b2c8d44ffdd2f7a4145621ee67f48fe46f0b9c	en	0.9742273662942194	https://link.springer.com/chapter/10.1007/978-3-030-37334-4_20
+4	dialogue_2016_47916c39d8fcdf58f96f3567f729ba36a4cbe76e	en	0.9740014697856896	http://www.dialog-21.ru/media/3436/tutubalinaevbraslavskipi.pdf
+5	dialogue_2017_3084c566cb86ff1899eaab590cf64d2957522af8	en	0.9739962065830764	http://www.dialog-21.ru/media/3963/zakharovvp.pdf
+
+
+39. 	ainl_2016_0790fcd7a4965a62eb8127d48d03e51a5467f34d	en		http://ieeexplore.ieee.org/document/7891792/
+1	dialogue_2013_0e61db3362725c6b58c4c9b20f79874af70182b3	en	0.9611384214265559	http://www.dialog-21.ru/media/1267/marchuckaa.pdf
+2	aist_2017_63e8327f5ed2b9a30b7a71d71896fe6ebce4c06e	en	0.96019796559718	https://link.springer.com/chapter/10.1007/978-3-319-73013-4_6
+3	ainl_2018_0dc0b8f51dfc6921e7babb9eeadb5e38858c8145	en	0.959388161781083	https://link.springer.com/chapter/10.1007/978-3-030-01204-5_2
+4	ainl_2019_c1083550f1b05b8be05c36d62d6cf60c60007ffb	en	0.9585528702251453	https://link.springer.com/chapter/10.1007/978-3-030-34518-1_6
+5	ainl_2019_32bf200f2332da4e5cda67801674ee2624c4ba99	en	0.9570595259383174	https://link.springer.com/chapter/10.1007/978-3-030-34518-1_12
+
+
+40. 	aist_2015_310f043fe1734af7e2c1e1b6e386730be7102d59	en		https://link.springer.com/chapter/10.1007/978-3-319-26123-2_36
+1	aist_2016_1ba82b96a62f1a33a29c9a031989d26279f1ad4c	en	0.9827963754213753	https://link.springer.com/chapter/10.1007/978-3-319-52920-2_13
+2	ainl_2017_8a7924b89158c4c84ac036ef9be90fd82cf034fa	en	0.9721677997382054	https://arxiv.org/abs/1709.09686
+3	ainl_2017_8c133c4589f12a1ce238c159d844ad4e06d0767d	en	0.969534730548087	https://arxiv.org/abs/1711.04154
+4	ainl_2018_0dc0b8f51dfc6921e7babb9eeadb5e38858c8145	en	0.9686268620696745	https://link.springer.com/chapter/10.1007/978-3-030-01204-5_2
+5	ainl_2018_64e321e851bf553d0fe8bb7a50a1a108d34fcd5f	en	0.9675290052030008	https://link.springer.com/chapter/10.1007/978-3-030-01204-5_5
