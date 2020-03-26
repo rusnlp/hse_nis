@@ -2,7 +2,7 @@
 1	dialogue_2001_88874ea324b9b16041a4de25aa66da381752e829	ru	0.9845153322151312	http://www.dialog-21.ru/digest/2001/articles/malkovsky/
 2	dialogue_2005_d1b85a36c684eecf82e8fdcfd16cbb24f87337ff	ru	0.9795480189942937	http://www.dialog-21.ru/media/2437/zagoruykong.pdf
 3	dialogue_2007_44a893894e8bebdff7b15ad5b266798f29f2fc86	ru	0.9792774717779749	http://www.dialog-21.ru/media/1893/72.pdf
-4	aist_2012_4fdc60d1642dbc1c30338a560f5c6ede9fbc5dc1	ru	0.9788982277830338	-
+4	aist_2012_4fdc60d1642dbc1c30338a560f5c6ede9fbc5dc1	ru	0.9788982277830338	http://legacy.aistconf.org/stuff/aist2012.pdf
 5	dialogue_2012_ddf46926fb7f7b3530f49e3f43d1f1817741f971	ru	0.9778002089398742	http://www.dialog-21.ru/media/1372/94.pdf
 
 
