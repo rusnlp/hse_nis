@@ -69,7 +69,7 @@
 
 * projection
 
-```python vectorization_pipeline.py --src_lemmatized_path=../texts_wiki/ru_pos_lemmatized.json --tar_lemmatized_path=../texts_wiki/en_pos_lemmatized.json --direction=ru-en --method=projection --mapping_path=../texts_wiki/mapping.json --src_embeddings_path=../models/ru.bin --tar_embeddings_path=../models/en.bin --src_output_vectors_path=../texts_wiki/ru_projection.pkl --tar_output_vectors_path=../texts_wiki/en_projection.pkl --common_output_vectors_path=../texts_wiki/common_projection.pkl --projection_path=../words/ru-en_proj.txt```
+```python vectorization_pipeline.py --src_lemmatized_path=../texts_wiki/ru_pos_lemmatized.json --tar_lemmatized_path=../texts_wiki/en_pos_lemmatized.json --direction=ru-en --method=projection --mapping_path=../texts_wiki/mapping.json --src_embeddings_path=../models/ru.bin --tar_embeddings_path=../models/en.bin --src_output_vectors_path=../texts_wiki/ru_proj.pkl --tar_output_vectors_path=../texts_wiki/en_proj.pkl --common_output_vectors_path=../texts_wiki/common_proj.pkl --projection_path=../words/ru-en_proj.txt```
 
 
 #### Поиск
@@ -87,7 +87,7 @@
 
 * projection
 
-```python monocorp_search.py --target_article_path=anemia.txt --lang=cross --mapping_path=../texts_wiki/mapping.json --corpus_vectors_path=../texts_wiki/common_projection.pkl --top=10 --with_url=1 --url_mapping_path=../texts_wiki/hash_title_url.tsv```
+```python monocorp_search.py --target_article_path=anemia.txt --lang=cross --mapping_path=../texts_wiki/mapping.json --corpus_vectors_path=../texts_wiki/common_proj.pkl --top=10 --with_url=1 --url_mapping_path=../texts_wiki/hash_title_url.tsv```
 
 
 #### Оценка
@@ -105,32 +105,32 @@
 
 * projection
 
-```python evaluate_corpus.py --lang=cross --corpus_vectors_path=../texts_wiki/common_projection.pkl --mapping_path=../texts_wiki/mapping.json --golden_standard_path=../texts_wiki/standards/titles.txt```
+```python evaluate_corpus.py --lang=cross --corpus_vectors_path=../texts_wiki/common_proj.pkl --mapping_path=../texts_wiki/mapping.json --golden_standard_path=../texts_wiki/standards/titles.txt```
 
 
 #### Автоматический поиск для списка заголовков
 * vecmap
 
-```python automatic_search.py --titles_path=../texts_wiki/standards/titles.txt --mapping_path=../texts_wiki/mapping.json --corpus_vectors_path=../texts_wiki/common_vecmap.pkl --result_path=../texts_wiki/search_results/results_vecmap.txt --top=5 --with_url=1 --url_mapping_path=../texts_wiki/hash_title_url.tsv```
+```python automatic_search.py --titles_path=../texts_wiki/standards/titles.txt --mapping_path=../texts_wiki/mapping.json --corpus_vectors_path=../texts_wiki/common_vecmap.pkl --result_path=../texts_wiki/search_results/results_vecmap.txt --top=5```
 
 * muse
 
-```python automatic_search.py --titles_path=../texts_wiki/standards/titles.txt --mapping_path=../texts_wiki/mapping.json --corpus_vectors_path=../texts_wiki/common_muse.pkl --result_path=../texts_wiki/search_results/results_muse.txt --top=5 --with_url=1 --url_mapping_path=../texts_wiki/hash_title_url.tsv```
+```python automatic_search.py --titles_path=../texts_wiki/standards/titles.txt --mapping_path=../texts_wiki/mapping.json --corpus_vectors_path=../texts_wiki/common_muse.pkl --result_path=../texts_wiki/search_results/results_muse.txt --top=5```
 
 * translation
 
-```python automatic_search.py --titles_path=../texts_wiki/standards/titles.txt --mapping_path=../texts_wiki/mapping.json --corpus_vectors_path=../texts_wiki/common_trans.pkl --result_path=../texts_wiki/search_results/results_trans.txt --top=5 --with_url=1 --url_mapping_path=../texts_wiki/hash_title_url.tsv```
+```python automatic_search.py --titles_path=../texts_wiki/standards/titles.txt --mapping_path=../texts_wiki/mapping.json --corpus_vectors_path=../texts_wiki/common_trans.pkl --result_path=../texts_wiki/search_results/results_trans.txt --top=5```
 
 * projection
 
-```python automatic_search.py --titles_path=../texts_wiki/standards/titles.txt --mapping_path=../texts_wiki/mapping.json --corpus_vectors_path=../texts_wiki/common_projection.pkl --result_path=../texts_wiki/search_results/results_projection.txt --top=5 --with_url=1 --url_mapping_path=../texts_wiki/hash_title_url.tsv```
+```python automatic_search.py --titles_path=../texts_wiki/standards/titles.txt --mapping_path=../texts_wiki/mapping.json --corpus_vectors_path=../texts_wiki/common_proj.pkl --result_path=../texts_wiki/search_results/results_proj.txt --top=5```
 
 
 
 ## Статьи с конференций
 #### Создание маппинга 
-```python create_mapping.py --texts_path=../conf_evaluation/RU --lang=ru --mapping_path=../models_evaluation/mapping.json```
-```python create_mapping.py --texts_path=../conf_evaluation/EN --lang=en --mapping_path=../models_evaluation/mapping.json```
+```python create_mapping.py --texts_path=../texts_conf/texts/RU --lang=ru --mapping_path=../texts_conf/texts/mapping.json```
+```python create_mapping.py --texts_path=../texts_conf/texts/EN --lang=en --mapping_path=../texts_conf/texts/mapping.json```
 
 #### Предобработка
 * С pos-тегами:
@@ -166,7 +166,7 @@
 
 * projection
 
-```python vectorization_pipeline.py --src_lemmatized_path=../texts_conf/texts/ru_pos_lemmatized.json --tar_lemmatized_path=../texts_conf/texts/en_pos_lemmatized.json --direction=ru-en --method=projection --mapping_path=../texts_conf/texts/mapping.json --src_embeddings_path=../models/ru.bin --tar_embeddings_path=../models/en.bin --src_output_vectors_path=../texts_conf/texts/ru_projection.pkl --tar_output_vectors_path=../texts_conf/texts/en_projection.pkl --common_output_vectors_path=../texts_conf/texts/common_projection.pkl --projection_path=../words/ru-en_proj.txt```
+```python vectorization_pipeline.py --src_lemmatized_path=../texts_conf/texts/ru_pos_lemmatized.json --tar_lemmatized_path=../texts_conf/texts/en_pos_lemmatized.json --direction=ru-en --method=projection --mapping_path=../texts_conf/texts/mapping.json --src_embeddings_path=../models/ru.bin --tar_embeddings_path=../models/en.bin --src_output_vectors_path=../texts_conf/texts/ru_proj.pkl --tar_output_vectors_path=../texts_conf/texts/en_proj.pkl --common_output_vectors_path=../texts_conf/texts/common_proj.pkl --projection_path=../words/ru-en_proj.txt```
 
 
 #### Поиск
@@ -184,7 +184,7 @@
 
 * projection
 
-```python monocorp_search.py --target_article_path=aist_2012_c6bc0383ea448fcb7e5f45ac85a1afb2d12505ef --lang=cross --mapping_path=../texts_conf/texts/mapping.json --corpus_vectors_path=../texts_conf/texts/common_projection.pkl --top=10 --with_url=1 --url_mapping_path=../texts_conf/hash_title_url.tsv```
+```python monocorp_search.py --target_article_path=aist_2012_c6bc0383ea448fcb7e5f45ac85a1afb2d12505ef --lang=cross --mapping_path=../texts_conf/texts/mapping.json --corpus_vectors_path=../texts_conf/texts/common_proj.pkl --top=10 --with_url=1 --url_mapping_path=../texts_conf/hash_title_url.tsv```
 
 
 #### Автоматический поиск для списка заголовков
@@ -202,7 +202,7 @@
 
 * projection
 
-```python automatic_search.py --titles_path=../texts_conf/20ru20en.tsv --mapping_path=../texts_conf/texts/mapping.json --corpus_vectors_path=../texts_conf/texts/common_projection.pkl --result_path=../texts_conf/search_results/results_projection.txt --top=5 --with_url=1 --url_mapping_path=../texts_conf/hash_title_url.tsv```
+```python automatic_search.py --titles_path=../texts_conf/20ru20en.tsv --mapping_path=../texts_conf/texts/mapping.json --corpus_vectors_path=../texts_conf/texts/common_proj.pkl --result_path=../texts_conf/search_results/results_proj.txt --top=5 --with_url=1 --url_mapping_path=../texts_conf/hash_title_url.tsv```
 
 
 #### Подсчёт средней оценки и коэффициента согласия аннотаторов (альфа Криппендорфа)

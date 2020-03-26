@@ -158,10 +158,13 @@ def get_lang(title, mapping):
 
 def get_url_tail(target_article, article_data):
     '''получаем форматированную ссылку на статью, если есть'''
-    url_tail = article_data[target_article].get('url', '')
-    if url_tail:
-        url_tail = ' = {}'.format(url_tail)
-    return url_tail
+    try:  # если вобще подан article_data и в нём есть target_article
+        url_tail = article_data[target_article].get('url', '')
+        if url_tail:
+            url_tail = ' = {}'.format(url_tail)
+        return url_tail
+    except:
+        return ''
 
 
 def verbose_rating(target_article, mapping, result_dicts, n, article_data=None):
@@ -194,11 +197,16 @@ def make_rating(target_article, sim_dict, verbose, n, included, mapping, i2lang_
         sim_list.pop(0)
 
     result_dicts = []  # словари с данными ближайших статей
+    missed_urls = []  # список статей, пропущенных в hash_title_url
     for i, (title, sim) in enumerate(sim_list):
         result_dict = {'title': title, 'sim': sim, 'lang': get_lang(title, mapping)}
         if with_url:
-            result_dict['url'] = article_data[title].get('url')
-            result_dict['real_title'] = article_data[title].get('real_title')
+            try:
+                result_dict['url'] = article_data[title].get('url')
+                result_dict['real_title'] = article_data[title].get('real_title')
+            except KeyError:
+                # print(False, title)
+                missed_urls.append((result_dict['title'], result_dict['lang']))
         result_dicts.append(result_dict)
 
     if n == -1:  # нужен вывод всех статей
@@ -210,7 +218,7 @@ def make_rating(target_article, sim_dict, verbose, n, included, mapping, i2lang_
         print(verbosed_rating)
 
     # если нужна будет одна статья, вернётся список с одним элементом
-    return result_dicts[:n], verbosed_rating
+    return result_dicts[:n], verbosed_rating, missed_urls
 
 
 def main(target_article_path, lang, mapping_path, corpus_vectors_path,
@@ -244,10 +252,10 @@ def main(target_article_path, lang, mapping_path, corpus_vectors_path,
             method, embeddings_path, no_duplicates, projection_path, bidict_path)
 
     similars = search_similar(target_article_vec, corpus_vecs)
-    rating, verbosed_rating = make_rating(target_article, similars, verbose, top, included,
+    rating, verbosed_rating, missed_urls = make_rating(target_article, similars, verbose, top, included,
                          texts_mapping, i2lang, with_url, article_data)
 
-    return rating, verbosed_rating
+    return rating, verbosed_rating, missed_urls
 
 
 if __name__ == "__main__":

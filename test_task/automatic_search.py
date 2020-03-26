@@ -48,19 +48,20 @@ def main():
     titles = [line.split('\t')[0] for line in open(args.titles_path, encoding='utf-8').readlines()]
 
     results = []
+    missed_urls_all = []
     for title in tqdm(titles):
-        try:
-            rating, verbosed_rating = monocorp_search.main(title, args.lang, args.mapping_path,
-                                                args.corpus_vectors_path, args.top,
-                                                verbose=args.verbose, with_url=args.with_url,
-                                                url_mapping_path=args.url_mapping_path)
-            results += [verbosed_rating]
-
-        except KeyError:
-            print(title)
+        rating, verbosed_rating, missed_urls = monocorp_search.main(title, args.lang, args.mapping_path,
+                                            args.corpus_vectors_path, args.top,
+                                            verbose=args.verbose, with_url=args.with_url,
+                                            url_mapping_path=args.url_mapping_path)
+        results += [verbosed_rating]
+        missed_urls_all += missed_urls
 
     formated_results = ['{}. {}'.format(i+1, result) for i, result in enumerate(results)]
     open(args.result_path, 'w', encoding='utf-8').write('\n\n'.join(formated_results))
+
+    missed_urls_all = set(missed_urls_all)
+    print('Нет в hash_title_urls {}: {}'.format(len(missed_urls_all), missed_urls_all))
 
 
 if __name__ == '__main__':
