@@ -1,7 +1,6 @@
 import pandas as pd
 
-
-paths = ['results_muse.txt', 'results_proj.txt', 'results_trans.txt', 'results_vecmap.txt']
+paths = ['results_muse_5.txt', 'results_proj_5.txt', 'results_trans_5.txt', 'results_vecmap_5.txt']
 for path in paths:
     with open(path, 'r', encoding='utf-8') as file:
         df = pd.read_csv(file, sep='\t', header=None)
