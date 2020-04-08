@@ -1,12 +1,13 @@
 from collections import defaultdict
 from json import dump, load
 import os
+import sys
 from telegram.ext import Updater
 from telegram.ext import Filters
 from telegram.ext import CommandHandler, MessageHandler, ConversationHandler
 from telegram import ReplyKeyboardMarkup, KeyboardButton
 
-from settings import token, help_text, forms_path, marked_forms_path, users_marked_path
+from settings import token, help_text, forms_path, marked_forms_path, users_marked_path, log_path
 
 
 class Bot():
@@ -14,6 +15,7 @@ class Bot():
         self.forms_path = forms_path
         self.marked_forms_path = marked_forms_path
         self.users_marked_path = users_marked_path
+        self.log_path = log_path
 
         forms, marked_forms, users_marked = self.load_data()
         self.forms = forms
@@ -34,6 +36,8 @@ class Bot():
         self.updater = Updater(token=token)
         self.updater.dispatcher.add_handler(CommandHandler('start', self.start))
         self.updater.dispatcher.add_handler(MainHandler)
+
+        self.print_log('Работаем!\n')
 
     def load_data(self):
         try:
@@ -63,6 +67,15 @@ class Bot():
         dump(self.marked_forms, open(self.marked_forms_path, 'w', encoding='utf-8'))
         dump(self.users_marked, open(self.users_marked_path, 'w', encoding='utf-8'))
 
+    def print_log(self, *args):
+        print(*args)
+        stdout = sys.stdout
+        logout = open(self.log_path, 'a')
+        sys.stdout = logout
+        print(*args)
+        logout.close()
+        sys.stdout = stdout
+
     start_markup = [[KeyboardButton('Начать'), KeyboardButton('Помощь')]]
     start_menu = ReplyKeyboardMarkup(start_markup, resize_keyboard=True, one_time_keyboard=False)
 
@@ -77,24 +90,24 @@ class Bot():
 
     def suggest_form(self, chat_id):
         user_marked = self.users_marked[str(chat_id)]  # получаем список уже размеченных для пользователя
-        print(chat_id, 'уже размечал', user_marked)
+        self.print_log(chat_id, 'уже размечал', user_marked)
         # определяем, какая форма нуждается в разметке
         forms_in_need = sorted(self.marked_forms, key=self.marked_forms.get)
-        print("В разметке нуждаются", forms_in_need)
+        self.print_log(self.marked_forms, "\nВ разметке нуждаются", forms_in_need)
         i = 0
         try:
             while forms_in_need[i] in user_marked:
                 i += 1
             form_id = forms_in_need[i]
             form = {'form_id': form_id, 'form_link': self.forms[form_id]}
-            print('Выбрали форму', form)
+            self.print_log('Выбрали форму', form)
         except IndexError:
             form = None
 
         return form
 
     def handle_message(self, bot, update):
-        print("\nReceived", update.message)
+        self.print_log("\nReceived", update.message)
         message_text = update.message.text.lower()
         chat_id = update.message.chat_id
         react_dict = {'начать': 'Сейчас подкинем Вам статей на разметку...',
@@ -109,12 +122,12 @@ class Bot():
                 self.users_marked[str(chat_id)].append(form['form_id'])  # занесли в список размеченных для пользователя
                 bot.sendMessage(chat_id=chat_id, text='Спасибо за разметку!', reply_markup=self.cont_menu)
                 self.backup_data()
-                print(chat_id, 'разметил', form['form_id'])
+                self.print_log(chat_id, 'разметил', form['form_id'])
                 return 'new'
 
             else:
                 bot.sendMessage(chat_id=chat_id, text='Вы герой и разметили все наши формы!')
-                print(chat_id, 'разметил все формы')
+                self.print_log(chat_id, 'разметил все формы')
                 return ConversationHandler.END
 
         if update.message.text.lower() == 'помощь':
@@ -123,6 +136,5 @@ class Bot():
 
 
 if __name__ == "__main__":
-    print('Работаем!\n')
     bot = Bot(token)
     bot.updater.start_polling()
