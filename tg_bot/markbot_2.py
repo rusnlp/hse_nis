@@ -1,3 +1,5 @@
+# http://t.me/bottytest_bot
+
 from collections import defaultdict
 from json import dump, load
 import os
