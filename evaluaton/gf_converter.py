@@ -9,8 +9,6 @@ import pandas as pd
 import re
 import numpy as np
 
-path1 = "C:/Users/79850/Desktop/учеба/НИС/гугл-формы"
-path2 = "C:/Users/79850/Desktop/учеба/НИС/models_eval"
 
 def parse_args():
     parser = argparse.ArgumentParser(
@@ -19,6 +17,7 @@ def parse_args():
                                                                 'результатов гугл-опроса формата "5-8.csv"(т.е. ответы для статей запроса 5-8)')
     parser.add_argument('--save_path', type=str, required=True, help='путь к директории для сохранения результатов')
     return parser.parse_args()
+
 
 def read_and_transform(path):
     for root, dirs, files in os.walk(path):
