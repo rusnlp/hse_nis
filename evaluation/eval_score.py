@@ -20,7 +20,6 @@ def score(path):
     df = pd.read_csv(path, sep=',', header=None)
     total_mean = df.mean(axis=1).mean()
     score_matrix = df.T.values
-    print(score_matrix)
     krip = krippendorff.alpha(score_matrix, level_of_measurement='ratio')
     print('Krippendorff\'s alpha coefficient:', round(krip, 3))
     print('Mean score:', round(total_mean, 3))
