@@ -33,21 +33,25 @@
 ## Статьи википедии
 #### Создание маппинга
 ```python create_mapping.py --texts_path=../texts_wiki/ruwiki --lang=ru --mapping_path=../texts_wiki/mapping.json```
+
 ```python create_mapping.py --texts_path=../texts_wiki/enwiki --lang=en --mapping_path=../texts_wiki/mapping.json```
 
 #### Предобработка
 * С pos-тегами:
 
 ```python preprocess_corpus.py --texts_path=../texts_wiki/ruwiki --udpipe_path=../models/ru.udpipe --lemmatized_path=../texts_wiki/ru_pos_lemmatized.json```
+
 ```python preprocess_corpus.py --texts_path=../texts_wiki/enwiki --udpipe_path=../models/en.udpipe --lemmatized_path=../texts_wiki/en_pos_lemmatized.json```
 
 * без pos-тегов (для muse):
 
 ```python preprocess_corpus.py --texts_path=../texts_wiki/ruwiki --udpipe_path=../models/ru.udpipe --lemmatized_path=../texts_wiki/ru_lemmatized.json --keep_pos=0```
+
 ```python preprocess_corpus.py --texts_path=../texts_wiki/enwiki --udpipe_path=../models/en.udpipe --lemmatized_path=../texts_wiki/en_lemmatized.json --keep_pos=0```
 
 * уже предобработанные статьи
 ```python preprocess_corpus.py --texts_path=../texts_wiki/ruwiki --lemmatized_path=../texts_wiki/ru_pos_lemmatized.json --preprocessed=1```
+
 ```python preprocess_corpus.py --texts_path=../texts_wiki/enwiki --lemmatized_path=../texts_wiki/en_pos_lemmatized.json --preprocessed=1```
 
 #### Обучение проекции
@@ -129,22 +133,28 @@
 
 ## Статьи с конференций
 #### Создание маппинга 
+
 ```python create_mapping.py --texts_path=../texts_conf/texts/RU --lang=ru --mapping_path=../texts_conf/texts/mapping.json```
+
 ```python create_mapping.py --texts_path=../texts_conf/texts/EN --lang=en --mapping_path=../texts_conf/texts/mapping.json```
 
 #### Предобработка
 * С pos-тегами:
 
 ```python preprocess_corpus.py --texts_path=../texts_conf/texts/RU --udpipe_path=../models/ru.udpipe --lemmatized_path=../texts_conf/texts/ru_pos_lemmatized.json```
+
 ```python preprocess_corpus.py --texts_path=../texts_conf/texts/EN --udpipe_path=../models/en.udpipe --lemmatized_path=../texts_conf/texts/en_pos_lemmatized.json```
 
 * без pos-тегов (для muse):
 
 ```python preprocess_corpus.py --texts_path=../texts_conf/texts/RU --udpipe_path=../models/ru.udpipe --lemmatized_path=../texts_conf/texts/ru_lemmatized.json --keep_pos=0```
+
 ```python preprocess_corpus.py --texts_path=../texts_conf/texts/EN --udpipe_path=../models/en.udpipe --lemmatized_path=../texts_conf/texts/en_lemmatized.json --keep_pos=0```
 
 * уже предобработанные статьи
+
 ```python preprocess_corpus.py --texts_path=../texts_conf/texts/RU --lemmatized_path=.../texts_conf/texts/ru_pos_lemmatized.json --preprocessed=1```
+
 ```python preprocess_corpus.py --texts_path=../texts_conf/texts/EN --lemmatized_path=.../texts_conf/texts/en_pos_lemmatized.json --preprocessed=1```
 
 
