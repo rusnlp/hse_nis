@@ -2,7 +2,7 @@ from json import dump, load
 from os import mkdir
 from test_task.utils.loaders import load_embeddings
 
-vocab_path = 'words/vocab'
+vocab_path = 'words/vocab/'
 
 try:
     mkdir(vocab_path)
@@ -17,15 +17,15 @@ ru_simple_path = 'models/ru.bin'
 ru_vecmap_path = 'models/ru_vecmap.vec'
 ru_muse_path = 'models/ru_muse.vec'
 
-en_simple_vocab_path = vocab_path+'/en_simple_vocab.txt'
-en_vecmap_vocab_path = vocab_path+'/en_vecmap_vocab.txt'
-en_muse_vocab_path = vocab_path+'/en_muse_vocab.txt'
+en_simple_vocab_path = vocab_path+'en_simple_vocab.txt'
+en_vecmap_vocab_path = vocab_path+'en_vecmap_vocab.txt'
+en_muse_vocab_path = vocab_path+'en_muse_vocab.txt'
 
-ru_simple_vocab_path = vocab_path+'/ru_simple_vocab.txt'
-ru_vecmap_vocab_path = vocab_path+'/ru_vecmap_vocab.txt'
-ru_muse_vocab_path = vocab_path+'/ru_muse_vocab.txt'
+ru_simple_vocab_path = vocab_path+'ru_simple_vocab.txt'
+ru_vecmap_vocab_path = vocab_path+'ru_vecmap_vocab.txt'
+ru_muse_vocab_path = vocab_path+'ru_muse_vocab.txt'
 
-vocab_diffs_path = vocab_path+'/vocab_diffs.json'
+vocab_diffs_path = vocab_path+'vocab_diffs.json'
 
 
 # СОХРАНИТЬ СЛОВАРИ ИЗ МОДЕЛЕЙ
@@ -84,3 +84,9 @@ vocab_diffs_path = vocab_path+'/vocab_diffs.json'
 # dump(vocab_diffs, open(vocab_diffs_path, 'w', encoding='utf-8'))
 
 
+# vocab_diffs = load(open(vocab_diffs_path, encoding='utf-8'))
+# print(vocab_diffs.keys())
+# for k in vocab_diffs.keys():
+#     vocab_diff = vocab_diffs[k]
+#     vocab_diff_path = vocab_path + k.replace(' ', '_') + '.txt'
+#     open(vocab_diff_path, 'w', encoding='utf-8').write('\n'.join(vocab_diff))
