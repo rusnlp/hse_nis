@@ -72,7 +72,8 @@ def main():
 
     missed_urls_all = set(missed_urls_all)
     print('Нет в hash_title_urls: {}'.format(len(missed_urls_all)))
-    open(args.mis_info_path, 'w', encoding='utf-8').write('\n'.join(list(missed_urls_all)))
+    if missed_urls_all:
+        open(args.mis_info_path, 'w', encoding='utf-8').write('\n'.join(list(missed_urls_all)))
 
 
 if __name__ == '__main__':
