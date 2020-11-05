@@ -207,13 +207,7 @@ def make_rating(target_article, sim_dict, verbose, included, mapping, with_url=0
                 simpaper.url = article_data[title].get('url')
                 simpaper.real_title = article_data[title].get('real_title')
             except KeyError:
-                # print(False, title)
-                try:  # возможно, надо убрать расширение
-                    title = title.split('.')[0]
-                    simpaper.url = article_data[title].get('url')
-                    simpaper.real_title = article_data[title].get('real_title')
-                except KeyError:
-                    missed_urls.append(str(simpaper))
+                missed_urls.append(str(simpaper))
         simpapers.append(simpaper)
 
     if included:  # на 0 индексе всегда будет сама статья, если она из корпуса

@@ -274,8 +274,10 @@ def process_line(content, lemmatize=1, keep_pos=1, keep_punct=0, keep_stops=1):
     if not keep_punct:
         tagged_toks = [tok for tok in tagged_toks if tok.pos != 'PUNCT']
 
-    if not keep_stops:
-        tagged_toks = [tok for tok in tagged_toks if tok.pos not in stop_pos]
+    if not keep_stops: # убираем ещё слова длиной 1
+        tagged_toks = [tok for tok in tagged_toks if tok.pos not in stop_pos
+                                                     or len(tok.lemma) > 1
+                                                     or len(tok.token) > 1]
 
     if lemmatize:
         words = [tok.lemma for tok in tagged_toks]
@@ -286,7 +288,6 @@ def process_line(content, lemmatize=1, keep_pos=1, keep_punct=0, keep_stops=1):
         words = ['{}_{}'.format(word, tok.pos) for word, tok in zip(words, tagged_toks)]
 
     return words
-    # return tagged_toks
 
 
 def get_text(conllu_text, lemmatize, keep_pos, keep_punct, keep_stops, unite=1):
@@ -313,3 +314,9 @@ def translate_line(text, trans_dict):
     '''Перевод строки по двуязычному словарю'''
     translated_text = [trans_dict[word] for word in text if word in trans_dict]
     return translated_text
+
+
+def clean_ext(name):
+    # TODO: сделать как-то умнее, чтобы не трогала точки в названиях?
+    name = name.split('.')[0]
+    return name

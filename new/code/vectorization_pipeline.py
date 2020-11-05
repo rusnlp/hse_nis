@@ -10,7 +10,7 @@ from tqdm import tqdm
 from json import dump as jdump
 
 from utils.loaders import load_vectorized, load_mapping
-from utils.preprocessing import get_text
+from utils.preprocessing import get_text, clean_ext
 from utils.vectorization import build_vectorizer, vectorize_corpus, save_text_vectors
 from utils.arguments import check_args
 
@@ -69,8 +69,6 @@ def parse_args():
 
     return parser.parse_args()
 
-# TODO: храним словари с текстами, как раньше?
-# TODO: убрала проверку предыдущей векторизации
 
 def get_corpus(texts_path, lemmatize, keep_pos, keep_punct, keep_stops, unite):
     """собираем тексты из conllu в список"""
@@ -78,11 +76,8 @@ def get_corpus(texts_path, lemmatize, keep_pos, keep_punct, keep_stops, unite):
     for file in tqdm(os.listdir(texts_path)):
         text = open('{}/{}'.format(texts_path, file), encoding='utf-8').read().strip()
         preprocessed = get_text(text, lemmatize, keep_pos, keep_punct, keep_stops, unite)
-        if lemmatize:
-            texts[file] = preprocessed
-        else:
-            # убираем слова длиной 1. TODO: убираем везде и переносим в модуль?
-            texts[file] = [tok for tok in preprocessed if len(tok) != 1]
+        texts[clean_ext(file)] = preprocessed
+
     return texts
 
 

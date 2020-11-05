@@ -1,108 +1,108 @@
-аксон.conllu	axon.conllu
-аллергия.conllu	allergy.conllu
-алюминий.conllu	aluminium.conllu
-анемия.conllu	anemia.conllu
-артерия.conllu	artery.conllu
-бензин.conllu	gasoline.conllu
-бериллий.conllu	beryllium.conllu
-биом.conllu	biome.conllu
-биосфера.conllu	biosphere.conllu
-биотехнология.conllu	biotechnology.conllu
-геология.conllu	geology.conllu
-геоморфология.conllu	geomorphology.conllu
-гравитация.conllu	gravity.conllu
-группа крови.conllu	blood type.conllu
-калория.conllu	calorie.conllu
-кома.conllu	coma.conllu
-кровь.conllu	blood.conllu
-кровяное давление.conllu	blood pressure.conllu
-лес.conllu	forest.conllu
-песец.conllu	arctic fox.conllu
-плод.conllu	fruit.conllu
-спирты.conllu	alcohol.conllu
-фоссилии.conllu	fossil.conllu
-химическая реакция.conllu	chemical reaction.conllu
-химический элемент.conllu	chemical element.conllu
-химия.conllu	chemistry.conllu
-холера.conllu	cholera.conllu
-холестерин.conllu	cholesterol.conllu
-эвкалипт.conllu	eucalyptus.conllu
-экосистема.conllu	ecosystem.conllu
-электрический двигатель.conllu	electric motor.conllu
-электролиз.conllu	electrolysis.conllu
-электрон.conllu	electron.conllu
-эпидемиология.conllu	epidemiology.conllu
-эпилепсия.conllu	epilepsy.conllu
-анаграмма.conllu	anagrams.conllu
-анахронизм.conllu	anachronism.conllu
-арабское письмо.conllu	arabic alphabet.conllu
-беневенто.conllu	benevento.conllu
-берилл.conllu	beryl.conllu
-блог.conllu	blog.conllu
-булева алгебра.conllu	boolean algebra (structure).conllu
-бумеранг.conllu	boomerang.conllu
-валентиниан i.conllu	valentinian i.conllu
-валентиниан ii.conllu	valentinian ii.conllu
-валентиниан iii.conllu	valentinian iii.conllu
-водолей (созвездие).conllu	aquarius (constellation).conllu
-евангелие от иоанна.conllu	gospel of john.conllu
-евангелие от луки.conllu	gospel of luke.conllu
-евангелие от марка.conllu	gospel of mark.conllu
-жасмин.conllu	jasmine.conllu
-индейки.conllu	turkey (bird).conllu
-история игрушек.conllu	toy story.conllu
-кошка.conllu	cat.conllu
-axon.conllu	аксон.conllu
-allergy.conllu	аллергия.conllu
-aluminium.conllu	алюминий.conllu
-anemia.conllu	анемия.conllu
-artery.conllu	артерия.conllu
-gasoline.conllu	бензин.conllu
-beryllium.conllu	бериллий.conllu
-biome.conllu	биом.conllu
-biosphere.conllu	биосфера.conllu
-biotechnology.conllu	биотехнология.conllu
-geology.conllu	геология.conllu
-geomorphology.conllu	геоморфология.conllu
-gravity.conllu	гравитация.conllu
-blood type.conllu	группа крови.conllu
-calorie.conllu	калория.conllu
-coma.conllu	кома.conllu
-blood.conllu	кровь.conllu
-blood pressure.conllu	кровяное давление.conllu
-forest.conllu	лес.conllu
-arctic fox.conllu	песец.conllu
-fruit.conllu	плод.conllu
-alcohol.conllu	спирты.conllu
-fossil.conllu	фоссилии.conllu
-chemical reaction.conllu	химическая реакция.conllu
-chemical element.conllu	химический элемент.conllu
-chemistry.conllu	химия.conllu
-cholera.conllu	холера.conllu
-cholesterol.conllu	холестерин.conllu
-eucalyptus.conllu	эвкалипт.conllu
-ecosystem.conllu	экосистема.conllu
-electric motor.conllu	электрический двигатель.conllu
-electrolysis.conllu	электролиз.conllu
-electron.conllu	электрон.conllu
-epidemiology.conllu	эпидемиология.conllu
-epilepsy.conllu	эпилепсия.conllu
-anagrams.conllu	анаграмма.conllu
-anachronism.conllu	анахронизм.conllu
-arabic alphabet.conllu	арабское письмо.conllu
-benevento.conllu	беневенто.conllu
-beryl.conllu	берилл.conllu
-blog.conllu	блог.conllu
-boolean algebra (structure).conllu	булева алгебра.conllu
-boomerang.conllu	бумеранг.conllu
-valentinian i.conllu	валентиниан i.conllu
-valentinian ii.conllu	валентиниан ii.conllu
-valentinian iii.conllu	валентиниан iii.conllu
-aquarius (constellation).conllu	водолей (созвездие).conllu
-gospel of john.conllu	евангелие от иоанна.conllu
-gospel of luke.conllu	евангелие от луки.conllu
-gospel of mark.conllu	евангелие от марка.conllu
-jasmine.conllu	жасмин.conllu
-turkey (bird).conllu	индейки.conllu
-toy story.conllu	история игрушек.conllu
-cat.conllu	кошка.conllu
+аксон	axon
+аллергия	allergy
+алюминий	aluminium
+анемия	anemia
+артерия	artery
+бензин	gasoline
+бериллий	beryllium
+биом	biome
+биосфера	biosphere
+биотехнология	biotechnology
+геология	geology
+геоморфология	geomorphology
+гравитация	gravity
+группа крови	blood type
+калория	calorie
+кома	coma
+кровь	blood
+кровяное давление	blood pressure
+лес	forest
+песец	arctic fox
+плод	fruit
+спирты	alcohol
+фоссилии	fossil
+химическая реакция	chemical reaction
+химический элемент	chemical element
+химия	chemistry
+холера	cholera
+холестерин	cholesterol
+эвкалипт	eucalyptus
+экосистема	ecosystem
+электрический двигатель	electric motor
+электролиз	electrolysis
+электрон	electron
+эпидемиология	epidemiology
+эпилепсия	epilepsy
+анаграмма	anagrams
+анахронизм	anachronism
+арабское письмо	arabic alphabet
+беневенто	benevento
+берилл	beryl
+блог	blog
+булева алгебра	boolean algebra (structure)
+бумеранг	boomerang
+валентиниан i	valentinian i
+валентиниан ii	valentinian ii
+валентиниан iii	valentinian iii
+водолей (созвездие)	aquarius (constellation)
+евангелие от иоанна	gospel of john
+евангелие от луки	gospel of luke
+евангелие от марка	gospel of mark
+жасмин	jasmine
+индейки	turkey (bird)
+история игрушек	toy story
+кошка	cat
+axon	аксон
+allergy	аллергия
+aluminium	алюминий
+anemia	анемия
+artery	артерия
+gasoline	бензин
+beryllium	бериллий
+biome	биом
+biosphere	биосфера
+biotechnology	биотехнология
+geology	геология
+geomorphology	геоморфология
+gravity	гравитация
+blood type	группа крови
+calorie	калория
+coma	кома
+blood	кровь
+blood pressure	кровяное давление
+forest	лес
+arctic fox	песец
+fruit	плод
+alcohol	спирты
+fossil	фоссилии
+chemical reaction	химическая реакция
+chemical element	химический элемент
+chemistry	химия
+cholera	холера
+cholesterol	холестерин
+eucalyptus	эвкалипт
+ecosystem	экосистема
+electric motor	электрический двигатель
+electrolysis	электролиз
+electron	электрон
+epidemiology	эпидемиология
+epilepsy	эпилепсия
+anagrams	анаграмма
+anachronism	анахронизм
+arabic alphabet	арабское письмо
+benevento	беневенто
+beryl	берилл
+blog	блог
+boolean algebra (structure)	булева алгебра
+boomerang	бумеранг
+valentinian i	валентиниан i
+valentinian ii	валентиниан ii
+valentinian iii	валентиниан iii
+aquarius (constellation)	водолей (созвездие)
+gospel of john	евангелие от иоанна
+gospel of luke	евангелие от луки
+gospel of mark	евангелие от марка
+jasmine	жасмин
+turkey (bird)	индейки
+toy story	история игрушек
+cat	кошка

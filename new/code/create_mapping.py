@@ -4,6 +4,7 @@
 import argparse
 from json import load, dump
 import os
+from utils.preprocessing import clean_ext
 
 
 def parse_args():
@@ -36,8 +37,8 @@ def main():
     i2lang = 'i2{}'.format(args.lang)
     lang2i = '{}2i'.format(args.lang)
     files = [file for file in os.listdir(args.texts_path)]
-    mapping[i2lang] = {i: file for i, file in enumerate(files)}
-    mapping[lang2i] = {file: i for i, file in enumerate(files)}
+    mapping[i2lang] = {i: clean_ext(file) for i, file in enumerate(files)}
+    mapping[lang2i] = {clean_ext(file): i for i, file in enumerate(files)}
     print('Новый маппинг:')
     print('\t'.join(['{}: {} объекта'.format(k, len(v)) for k, v in mapping.items()]))
     dump(mapping, open(args.mapping_path, 'w', encoding='utf-8'))

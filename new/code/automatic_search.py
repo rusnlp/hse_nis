@@ -59,8 +59,6 @@ def main():
     missed_urls_all = []
 
     for title in tqdm(titles):
-        if not title.endswith('.conllu'):  # TODO: автоматически добавлять расширения везде
-            title = title+'.conllu'
 
         rating, verbosed_rating, missed_urls = main_search(title, lang2i_name, texts_mapping,
                                             corpus_model, args.top,

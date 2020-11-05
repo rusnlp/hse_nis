@@ -100,3 +100,5 @@ def load_article_data(article_data_path):
                     {'real_title': line.split('\t')[1], 'url': line.split('\t')[2]} for line in lines}
     # print(article_data)
     return article_data
+
+
