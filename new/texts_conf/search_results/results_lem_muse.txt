@@ -1,0 +1,279 @@
+1. 	aist_2012_c6bc0383ea448fcb7e5f45ac85a1afb2d12505ef.conllu	ru	http://legacy.aistconf.org/stuff/aist2012.pdf
+1	dialogue_2004_c0a72ca836616cf11818e91f3ab4d2d12d197796.conllu	ru	0.987192690372467	http://www.dialog-21.ru/media/2570/sokolova.pdf
+2	dialogue_2004_9a6ae04ed899d810149ad05dcfb19b5410b81948.conllu	ru	0.9823570847511292	http://www.dialog-21.ru/media/2495/boldasov.pdf
+3	dialogue_2005_67bd4e3578f0c09bcd42f2bf13357458b058ae6b.conllu	ru	0.982352614402771	http://www.dialog-21.ru/media/2391/kozerenko-e.pdf
+4	dialogue_2010_31de5df62927b731f2bd1fd8447c407461da3107.conllu	ru	0.9819285273551941	http://www.dialog-21.ru/media/1692/67.pdf
+5	aist_2013_b71d0656a3a557fad10c3fdd21170cedd8a779bf.conllu	ru	0.9815260171890259	http://legacy.aistconf.org/stuff/aist2013.pdf
+
+2. 	dialogue_2000_d779021b5cfc493595763bb6c4c3574894e715a9.conllu	ru	http://www.dialog-21.ru/digest/2000/articles/borisova/
+1	dialogue_2000_fb13a686c835b566e6b030de601c25cd9d029a03.conllu	ru	0.9875325560569763	http://www.dialog-21.ru/digest/2000/articles/loutikova/
+2	dialogue_2013_9e07db0858cc736b01bb291c7e3e2eeea4eec57e.conllu	ru	0.9867677092552185	http://www.dialog-21.ru/media/1219/alpatovvm.pdf
+3	dialogue_2003_3f014a74453fdf5c9aeec75b1757515d1135b9e0.conllu	ru	0.9836061000823975	http://www.dialog-21.ru/media/2642/kobozeva.pdf
+4	dialogue_2003_7530c233ee5aae52940b95033cca5be71580ef85.conllu	ru	0.9831553101539612	http://www.dialog-21.ru/media/2612/borisova.pdf
+5	dialogue_2006_5b74294f357c4348e29540ce173f25171bdecde4.conllu	ru	0.9829921722412109	http://www.dialog-21.ru/media/1964/kopotev.pdf
+
+3. 	dialogue_2000_36d974d4d7e5f5c5dad83e90551a821a0a2c9f3e.conllu	ru	http://www.dialog-21.ru/digest/2000/articles/ryabtseva/
+1	dialogue_2002_c3936ad5677e01d1d42185af3bdf802bcce54fa9.conllu	ru	0.9913352727890015	http://www.dialog-21.ru/digest/2002/articles/ryabtseva/
+2	dialogue_2003_3f014a74453fdf5c9aeec75b1757515d1135b9e0.conllu	ru	0.9863219261169434	http://www.dialog-21.ru/media/2642/kobozeva.pdf
+3	dialogue_2002_c4c0f63feb5ca3438ecd8cbc84280e5d5eb733db.conllu	ru	0.9860169887542725	http://www.dialog-21.ru/digest/2002/articles/novoselova/
+4	dialogue_2001_4d688c18a8921a58cdcc5cf5e470cfac21662c43.conllu	ru	0.9852727651596069	http://www.dialog-21.ru/digest/2001/articles/zaretskaya/
+5	dialogue_2002_c892d983251fd4a9aaaa9d3823fd1f5c47efa736.conllu	ru	0.9831557273864746	http://www.dialog-21.ru/digest/2002/articles/zaretskaya/
+
+4. 	dialogue_2000_c484e5f1e10cf1b0a63b184ce32b8a48d50a3cbe.conllu	ru	http://www.dialog-21.ru/digest/2000/articles/sokirko/
+1	dialogue_2000_fb47f14905f30772e75b7dd2eef1efa7c18084bc.conllu	ru	0.9830328226089478	http://www.dialog-21.ru/digest/2000/articles/leontyeva/
+2	dialogue_2009_bdfb54393aff0476b947f95364ba61f6433a4a9c.conllu	ru	0.9828498363494873	http://www.dialog-21.ru/media/1587/37.pdf
+3	dialogue_2001_5efd5f54c9b9189e389321b1aeddd62659fe47a8.conllu	ru	0.9819835424423218	http://www.dialog-21.ru/digest/2001/articles/leontyeva/
+4	dialogue_2010_b7faa43bf943f5668f42fa9a65cbdda40f592f4d.conllu	ru	0.9817478656768799	http://www.dialog-21.ru/media/1665/40.pdf
+5	dialogue_2004_db21f01ba76d742aae8e617373e4c1972f87a4b9.conllu	ru	0.9816604256629944	http://www.dialog-21.ru/media/2553/packin.pdf
+
+5. 	dialogue_2000_8da4e8aef1ada2f8a21b8873256f68c2c0e9e529.conllu	ru	http://www.dialog-21.ru/digest/2000/articles/zimmerling/
+1	dialogue_2007_0b09db4182e9aabfee9019a3b1c08e9aafdbbf15.conllu	ru	0.9930034279823303	http://www.dialog-21.ru/media/1903/82.pdf
+2	dialogue_2008_657658b7188aae17889619e8c3b3554fd4be9a26.conllu	ru	0.9899688959121704	http://www.dialog-21.ru/media/1805/85.pdf
+3	dialogue_2006_952c75a21aaab9e275b2c623d2689ab65c756d47.conllu	ru	0.9895839095115662	http://www.dialog-21.ru/media/2029/zimmerling.pdf
+4	dialogue_2009_0b78e9bd4c7803f6b6822cc70e213e362d9d2dc9.conllu	ru	0.9857864379882812	http://www.dialog-21.ru/media/1631/81.pdf
+5	dialogue_2015_cfc9663af0a93fd7226ca903ae6a665b6db9f86a.conllu	ru	0.9850119948387146	http://www.dialog-21.ru/digests/dialog2015/materials/pdf/KisselevaXLTatevosovSG.pdf
+
+6. 	dialogue_2002_1278cd2b6bcea491ef72101cf6f227cbfc664289.conllu	ru	http://www.dialog-21.ru/digest/2002/articles/ibragimov/
+1	dialogue_2003_963c0e6513feb869dc7ea994fd4a6689a751ef8c.conllu	ru	0.91436368227005	http://www.dialog-21.ru/media/2676/paselskaja.pdf
+2	dialogue_2004_f1bc2dcaae7147698d986b63337fe6bce3d80385.conllu	ru	0.8970770835876465	http://www.dialog-21.ru/media/2561/rubinshtein.pdf
+3	dialogue_2005_c6dafba76be65a2a5faaeaefcf3827917966bba6.conllu	ru	0.8966756463050842	http://www.dialog-21.ru/media/2350/azarova-ivanov-ovchinnikov.pdf
+4	dialogue_2002_7a08ec25ad268621c10533fe459b07eac81aa967.conllu	ru	0.8950603604316711	http://www.dialog-21.ru/digest/2002/articles/minlos/
+5	dialogue_2006_0f9517bae23b03a9891e5afa92b7fa9583654467.conllu	ru	0.8929301500320435	http://www.dialog-21.ru/media/2049/shmeleva.pdf
+
+7. 	dialogue_2002_977c4161efebe2a2da2bc9070b4c366f6dd7790d.conllu	ru	http://www.dialog-21.ru/digest/2002/articles/odintsev/
+1	dialogue_2001_86d74f3bc770ec15a94bff16b28698291010853f.conllu	ru	0.9918874502182007	http://www.dialog-21.ru/digest/2001/articles/odintsev/
+2	dialogue_2000_656d0d77d8325fa9636a973be944d8b6f6cb924a.conllu	ru	0.9898611307144165	http://www.dialog-21.ru/digest/2000/articles/odintsev/
+3	dialogue_2002_95ec453188ac28fa8af193d4c4f0d3989b72eefe.conllu	ru	0.9875727891921997	http://www.dialog-21.ru/digest/2002/articles/ermakov/
+4	dialogue_2010_cafa183e7f5c6d90005f12cec6fca88a31b02378.conllu	ru	0.986710250377655	http://www.dialog-21.ru/media/1696/71.pdf
+5	dialogue_2002_142141991ce299bf6f2a74e154d6c4aa63ab7412.conllu	ru	0.9865326881408691	http://www.dialog-21.ru/digest/2002/articles/khahalin1/
+
+8. 	dialogue_2002_189f5dd4351f966d86f836462283ef485f0255cd.conllu	ru	http://www.dialog-21.ru/digest/2002/articles/perekrestenko/
+1	dialogue_2005_f0716199b0fb1c9cea6ceaba385fde12118646d1.conllu	ru	0.9758542776107788	http://www.dialog-21.ru/media/2414/perekrestenkoa.pdf
+2	dialogue_2007_ed6163bfb0a77facf854c1bf117a6c472c418e06.conllu	ru	0.9736073017120361	http://www.dialog-21.ru/media/1832/11.pdf
+3	dialogue_2006_94358299f43a22fc4a98943d9aae99341b158608.conllu	ru	0.9729382991790771	http://www.dialog-21.ru/media/2005/starostin.pdf
+4	dialogue_2004_362ef4c32d51ff3d0cc37fdfdfc411b9b1be72b1.conllu	ru	0.972602128982544	http://www.dialog-21.ru/media/2557/perekrestenko.pdf
+5	dialogue_2013_0ac379abcec662bfcdace5103b100f419383220a.conllu	ru	0.972099781036377	http://www.dialog-21.ru/media/1264/lyashevskaya-mitrofanova.pdf
+
+9. 	dialogue_2003_e0f3ab61a399630033ac49475bf036c043196202.conllu	ru	http://www.dialog-21.ru/media/2611/bolshakov.pdf
+1	dialogue_2006_d98b067197b8a857941ed7964f623502395c3315.conllu	ru	0.9828107357025146	http://www.dialog-21.ru/media/1933/bolshakova.pdf
+2	aist_2013_850a8c2b914358a5124c7051ac01bb5c59f28c6f.conllu	ru	0.9825755953788757	http://legacy.aistconf.org/stuff/aist2013.pdf
+3	dialogue_2010_654a11da5a92fd9ef5df40bdbf209938e4fca7bf.conllu	ru	0.981644332408905	http://www.dialog-21.ru/media/1659/34.pdf
+4	dialogue_2010_876535f5ba9b1ba713193827361eed3068366794.conllu	ru	0.9813567399978638	http://www.dialog-21.ru/media/1647/22.pdf
+5	dialogue_2014_f3bc6814efc3760ed6e1539710b6fb234e3f4671.conllu	ru	0.9808290004730225	http://www.dialog-21.ru/digests/dialog2014/materials/pdf/BelikovVI.pdf
+
+10. 	dialogue_2003_ccc14b44cd5851614cd4adfbd59dd73fcdb8a09e.conllu	ru	http://www.dialog-21.ru/media/2677/pekar.pdf
+1	dialogue_2002_586a53fd1369411ce28af3c73f813cd7ee699bde.conllu	ru	0.9798974990844727	http://www.dialog-21.ru/digest/2002/articles/pekar/
+2	dialogue_2010_89654a6e174bee3159dfb0992fc50386d87840a1.conllu	ru	0.9794864654541016	http://www.dialog-21.ru/media/1653/28.pdf
+3	dialogue_2004_4bcf5826b7d5003df12f07c646fa971ac7ac48f6.conllu	ru	0.9790988564491272	http://www.dialog-21.ru/media/2556/pekar.pdf
+4	dialogue_2009_96fe9e297f9ba870b07148f0377038e8583381ab.conllu	ru	0.9787306785583496	http://www.dialog-21.ru/media/1617/67.pdf
+5	dialogue_2012_0a001d407b1cf2a74999fd05536a51978f627836.conllu	ru	0.9777799844741821	http://www.dialog-21.ru/media/1380/105.pdf
+
+11. 	dialogue_2003_b42261987b561abd566100c046ad51dd958702a6.conllu	ru	http://www.dialog-21.ru/media/2678/percov.pdf
+1	dialogue_2000_f911271f58e2817b4e2eb3289bcb5f1153c64d03.conllu	ru	0.9817781448364258	http://www.dialog-21.ru/digest/2000/articles/krylov/
+2	dialogue_2004_4c05fde1a895912e844e663e608f5398e2b9c5b6.conllu	ru	0.9803311228752136	http://www.dialog-21.ru/media/2509/gankin.pdf
+3	dialogue_2006_3ae7aa2ebf6641e8a3e1ea68d3b1a6a15f1e1ab2.conllu	ru	0.9789354801177979	http://www.dialog-21.ru/media/1952/grudeva.pdf
+4	dialogue_2008_1a8f4e0fad2e4388b2aa60abb8a455f8fbd3a6d2.conllu	ru	0.9780075550079346	http://www.dialog-21.ru/media/1725/4.pdf
+5	dialogue_2007_ed67c940fe22dc3e82e4e5694785bd4a244e0f14.conllu	ru	0.9778154492378235	http://www.dialog-21.ru/media/1859/38.pdf
+
+12. 	dialogue_2019_4a5c4385216b2220faf8860da8101e1c3744c9ca.conllu	ru	http://www.dialog-21.ru/media/4582/apresjanvju-066.pdf
+1	dialogue_2018_0eb84d5355d2391499df211f5922f3135d5592ee.conllu	ru	0.9915177226066589	http://www.dialog-21.ru/media/4285/apresyanvju.pdf
+2	dialogue_2018_c8e13efcc7fcc866f619d3f5f6d3cbedff02126d.conllu	ru	0.9850934743881226	http://www.dialog-21.ru/media/4337/tiskindb.pdf
+3	dialogue_2018_0937452382ad2a1dcb6a58de9fb087e961d79f00.conllu	ru	0.9819775223731995	http://www.dialog-21.ru/media/4300/inkovaoyu_nurievv.pdf
+4	dialogue_2019_3824adc497a9eb6d964638500081edef76c643f2.conllu	ru	0.9817082285881042	http://www.dialog-21.ru/media/4583/apresjanvjuplusorlovav-012.pdf
+5	dialogue_2019_c0d48d7b8d531ddd59c5f5d953b0957c9fab35b3.conllu	ru	0.9816652536392212	http://www.dialog-21.ru/media/4634/tiskindb-065.pdf
+
+13. 	dialogue_2006_b8c6726eb307e468087cc332646b274ed4c821bc.conllu	ru	http://www.dialog-21.ru/media/1954/iomdinb.pdf
+1	dialogue_2018_52d7ec2abc79699f01012a79b1540626e87131c4.conllu	ru	0.9911234378814697	http://www.dialog-21.ru/media/4315/levontinaib_shmelevad.pdf
+2	dialogue_2010_c252069136aa7bb3b8769e50b37854e9229df599.conllu	ru	0.99078369140625	http://www.dialog-21.ru/media/1490/15.pdf
+3	dialogue_2019_f0e2520e152969eced10e85d612e59e97bb7440b.conllu	ru	0.9892565608024597	http://www.dialog-21.ru/media/4639/zalizniakannaapluspaduchevaev-038.pdf
+4	dialogue_2017_093856064e8b96038bbdbb6c563857b1fc90d8eb.conllu	ru	0.9888937473297119	http://www.dialog-21.ru/media/3941/rakhilinaev.pdf
+5	dialogue_2013_9dbe16ce07df4823e232657f0c2b12df14673302.conllu	ru	0.9886815547943115	http://www.dialog-21.ru/media/1274/paduchevaev.pdf
+
+14. 	dialogue_2006_500e96450545e5b1778ee12e7e83dd23945ace7c.conllu	ru	http://www.dialog-21.ru/media/1996/podlesskaya.pdf
+1	dialogue_2013_60a42db6b8cc0c523f57938607f88b0398e153c3.conllu	ru	0.9900733232498169	http://www.dialog-21.ru/media/1281/podlesskayavi.pdf
+2	dialogue_2007_2e30ec4ef54387419885b0d339ae800ed84740f0.conllu	ru	0.9870019555091858	http://www.dialog-21.ru/media/1892/71.pdf
+3	dialogue_2013_4b0ee8b52c633bc2cc9ee587756a5e3f776a8a66.conllu	ru	0.985957145690918	http://www.dialog-21.ru/media/1254/korotaevna.pdf
+4	dialogue_2019_6950c7c7ff7613ae643005c50f4caa7ae5fbdbee.conllu	ru	0.985405445098877	http://www.dialog-21.ru/media/4611/levontinaibpluspolinskyms-029.pdf
+5	dialogue_2010_f88783641be7a02234e49ac66bf46b3220ecc034.conllu	ru	0.9849177598953247	http://www.dialog-21.ru/media/1683/58.pdf
+
+15. 	dialogue_2006_0b84d340edc8c21225ced251746f5013078b5df3.conllu	ru	http://www.dialog-21.ru/media/1929/belikov.pdf
+1	dialogue_2008_92dc674e50f5feacea9e19b58409a4d06a687146.conllu	ru	0.987666130065918	http://www.dialog-21.ru/media/1728/7.pdf
+2	dialogue_2009_af411bd52e2f3cf5f1e024262af7e10ce3efab08.conllu	ru	0.9869866371154785	http://www.dialog-21.ru/media/1555/05.pdf
+3	dialogue_2012_5c971351607a8c9d3467cd3fce4330e4e3568527.conllu	ru	0.9853103160858154	http://www.dialog-21.ru/media/1317/2.pdf
+4	dialogue_2005_70bf5d9dc5224e5f078532a9261474b731e96b05.conllu	ru	0.9847614169120789	http://www.dialog-21.ru/media/2354/belikov-v.pdf
+5	dialogue_2014_12511ab58e84736932afa8d7bdc3ba92327141fc.conllu	ru	0.9840409159660339	http://www.dialog-21.ru/digests/dialog2014/materials/pdf/MikheevMJu.pdf
+
+16. 	dialogue_2006_616c78c53b3b322a4eea4418d1d10d9d1508cf12.conllu	ru	http://www.dialog-21.ru/media/2024/zaliznyak2.pdf
+1	dialogue_2008_33f8132d7279f34984acd7ce373830bfdea6599f.conllu	ru	0.9842090606689453	http://www.dialog-21.ru/media/1745/24.pdf
+2	dialogue_2017_093856064e8b96038bbdbb6c563857b1fc90d8eb.conllu	ru	0.982992947101593	http://www.dialog-21.ru/media/3941/rakhilinaev.pdf
+3	dialogue_2017_4764b1d97f58093df9caa377385a9a280f81e3bc.conllu	ru	0.9822901487350464	http://www.dialog-21.ru/media/3907/dobrovol-skijdolevontinaib.pdf
+4	dialogue_2016_70cc4173f4c190e0ad3d7190a5cc5b4fbb2da178.conllu	ru	0.9821163415908813	http://www.dialog-21.ru/media/3423/sharonovia.pdf
+5	dialogue_2019_03f4c316f774af7eb5e83660acb0635578d6c9e8.conllu	ru	0.9820549488067627	http://www.dialog-21.ru/media/4585/baranovanplusdobrovolskij-do-043.pdf
+
+17. 	dialogue_2007_8b928b108aae7fc55c38f33b2456ae5e2d6889ab.conllu	ru	http://www.dialog-21.ru/media/1854/33.pdf
+1	dialogue_2008_33f8132d7279f34984acd7ce373830bfdea6599f.conllu	ru	0.989863395690918	http://www.dialog-21.ru/media/1745/24.pdf
+2	dialogue_2007_c5b4c2921839ea73d33306d411cbbb9dbc1c7b45.conllu	ru	0.9893394708633423	http://www.dialog-21.ru/media/1850/29.pdf
+3	dialogue_2017_8c3578e219bc70001746d4b4dd6164ac98b36634.conllu	ru	0.9883811473846436	http://www.dialog-21.ru/media/3915/iomdinll.pdf
+4	dialogue_2016_70cc4173f4c190e0ad3d7190a5cc5b4fbb2da178.conllu	ru	0.9882616996765137	http://www.dialog-21.ru/media/3423/sharonovia.pdf
+5	dialogue_2015_99e788fae4442d09f82ce0dc29b33dde52628d53.conllu	ru	0.987838625907898	http://www.dialog-21.ru/digests/dialog2015/materials/pdf/VilinbakhovaEL.pdf
+
+18. 	dialogue_2007_5095e9f5bb85baafc76ad77f4b79d7f412c5b0c7.conllu	ru	http://www.dialog-21.ru/media/1828/07.pdf
+1	dialogue_2014_0dcf3e0729a792f4b40d2a00929ab6ce287c9e01.conllu	ru	0.9874799251556396	http://www.dialog-21.ru/digests/dialog2014/materials/pdf/PiperskiAChSominAA.pdf
+2	dialogue_2002_d1de430cf94bc088d7d83ee8b3c21b3fc5892315.conllu	ru	0.987267255783081	http://www.dialog-21.ru/digest/2002/articles/iomdinl/
+3	dialogue_2016_5996b01d5092eef86a386fb365dd78f11fb66c15.conllu	ru	0.9866738319396973	http://www.dialog-21.ru/media/3439/vilinbakhovael.pdf
+4	dialogue_2019_3824adc497a9eb6d964638500081edef76c643f2.conllu	ru	0.9865221977233887	http://www.dialog-21.ru/media/4583/apresjanvjuplusorlovav-012.pdf
+5	dialogue_2013_725a6f6c0949db6a776b238748da29f50eff7bf7.conllu	ru	0.9852822422981262	http://www.dialog-21.ru/media/1280/piperskiach.pdf
+
+19. 	dialogue_2008_6a1e4a79b6d2b9e462fa7bec85618c7cac2e9a5c.conllu	ru	http://www.dialog-21.ru/media/1731/10.pdf
+1	dialogue_2015_905259288acc2b0b411e6921a61fe01b3588738b.conllu	ru	0.9837964773178101	http://www.dialog-21.ru/digests/dialog2015/materials/pdf/ApresyanVY.pdf
+2	dialogue_2008_2b93353016aa43fb1860804c326a6c0e0f881482.conllu	ru	0.9835277795791626	http://www.dialog-21.ru/media/1768/47.pdf
+3	dialogue_2005_aac67404496eac13770aa575ab09a9f66d01f7d5.conllu	ru	0.9826114177703857	http://www.dialog-21.ru/media/2379/khitrovan.pdf
+4	dialogue_2005_0fdc51a9a4da37d1e64fb666e64cc0672b824c78.conllu	ru	0.9822359085083008	http://www.dialog-21.ru/media/2372/grudeva-e.pdf
+5	dialogue_2008_667d9bd3cf29b0f32118051e2ebdaa0a6ff4f7dd.conllu	ru	0.9814996719360352	http://www.dialog-21.ru/media/1783/63.pdf
+
+20. 	dialogue_2008_dc9a40c27eddb5b643374118291292eeb842ceb4.conllu	ru	http://www.dialog-21.ru/media/1733/12.pdf
+1	dialogue_2000_4fb7ea3f9be2161136e78391502d2a1b5256d53c.conllu	ru	0.974673330783844	http://www.dialog-21.ru/digest/2000/articles/kostyrkin/
+2	dialogue_2007_10e01615a901e344eb602d17f8deb88a8574f7bd.conllu	ru	0.9739145040512085	http://www.dialog-21.ru/media/1879/58.pdf
+3	dialogue_2012_f72aeeb582a7e35f44b1c8517b574009e04787ac.conllu	ru	0.9737370610237122	http://www.dialog-21.ru/media/1315/123.pdf
+4	dialogue_2012_272ab43b2ec575a2888b18a7eb1bc8cc18f3f08e.conllu	ru	0.9720830321311951	http://www.dialog-21.ru/media/1385/toldova.pdf
+5	dialogue_2007_51fd2c9f1a772bf1f0642e63ba7a4c1de5089931.conllu	ru	0.9720231294631958	http://www.dialog-21.ru/media/1831/10.pdf
+
+21. 	dialogue_2005_ed84ad87736180089a879a6c7b428c0f04cb0108.conllu	en	http://www.dialog-21.ru/media/2412/partee_dialog2005.pdf
+1	dialogue_2009_783e2b7a11ce82262de32a479d25d7788eda2bd9.conllu	en	0.9824124574661255	http://www.dialog-21.ru/media/1642/92.pdf
+2	dialogue_2019_2ae11e31cca0b3255f6d974e3ca933a49b03d961.conllu	en	0.9795835018157959	http://www.dialog-21.ru/media/4829/inshakovaes-167.pdf
+3	dialogue_2014_0148d45ccdd3bb09390fadb459ecd6222d4d9738.conllu	en	0.9789438843727112	http://www.dialog-21.ru/digests/dialog2014/materials/pdf/MilicevicJTimoshenkoS.pdf
+4	dialogue_2014_7b482dc59ce6ed3a99f45eafed6ef078dea83b79.conllu	en	0.9770666360855103	http://www.dialog-21.ru/digests/dialog2014/materials/pdf/BorschevVBParteeBH.pdf
+5	dialogue_2014_19122ea4d4e9f052fda3a7d65d9d6fa88dcaad5b.conllu	en	0.9770329594612122	http://www.dialog-21.ru/digests/dialog2014/materials/pdf/ZimmerlingAV.pdf
+
+22. 	dialogue_2011_932991ab2d00dc921a169451422516953658d9e0.conllu	en	http://www.dialog-21.ru/media/1412/12.pdf
+1	aist_2015_3510e16a598e3df1f53950a7a95479454cfdc0f9.conllu	en	0.9841268658638	https://link.springer.com/chapter/10.1007/978-3-319-26123-2_31
+2	dialogue_2014_af9b1fe3c184a5ffaf2c3f91591a3e2ae1c8fc53.conllu	en	0.9839014410972595	http://www.dialog-21.ru/digests/dialog2014/materials/pdf/ProtopopovaEV.pdf
+3	dialogue_2012_83e3b55807a9116b93aac4883a2afafb4c66ea44.conllu	en	0.9829283952713013	http://www.dialog-21.ru/media/1388/iomdin.pdf
+4	aist_2016_5502d95e123c814f393f04aceb3351ac063b7ce5.conllu	en	0.9823143482208252	https://link.springer.com/chapter/10.1007/978-3-319-52920-2_14
+5	dialogue_2014_b630b20e0466993aab02a76be74f028983236935.conllu	en	0.9822406768798828	http://www.dialog-21.ru/digests/dialog2014/materials/pdf/StrebkovDY.pdf
+
+23. 	dialogue_2012_7cb46f3e1e715fa315256ca30404faf312bdaba8.conllu	en	http://www.dialog-21.ru/media/1329/136.pdf
+1	aist_2015_3510e16a598e3df1f53950a7a95479454cfdc0f9.conllu	en	0.9761003851890564	https://link.springer.com/chapter/10.1007/978-3-319-26123-2_31
+2	dialogue_2019_e0fb6cddde32cd3daebf6a02eb2c680bcb45cddc.conllu	en	0.9752148389816284	http://www.dialog-21.ru/media/4614/lyashevskayaon-163.pdf
+3	dialogue_2014_b630b20e0466993aab02a76be74f028983236935.conllu	en	0.9751148223876953	http://www.dialog-21.ru/digests/dialog2014/materials/pdf/StrebkovDY.pdf
+4	ainl_2016_1427f443fcfdce2f6745cec5519954b092546a73.conllu	en	0.9740598201751709	http://ieeexplore.ieee.org/document/7891854/
+5	dialogue_2011_81015f662b0a380fcac62adffe0e9e28c117bb9a.conllu	en	0.9727699756622314	http://www.dialog-21.ru/media/1460/59.pdf
+
+24. 	dialogue_2012_9577168b37efef5c565150422f4152cc896ed336.conllu	en	http://www.dialog-21.ru/media/1386/anisimovich.pdf
+1	dialogue_2012_83e3b55807a9116b93aac4883a2afafb4c66ea44.conllu	en	0.9881093502044678	http://www.dialog-21.ru/media/1388/iomdin.pdf
+2	dialogue_2014_549d30855d3302722626eea0f4f6fce692d455e3.conllu	en	0.9867871999740601	http://www.dialog-21.ru/digests/dialog2014/materials/pdf/LeontievAPPetrovaMA.pdf
+3	dialogue_2010_9a68ac49595370279b9cd66c9cd0f98adb30803e.conllu	en	0.9863796234130859	http://www.dialog-21.ru/media/1718/93.pdf
+4	dialogue_2016_a9a4187827028ec45dc3392f172c91190d91cfbf.conllu	en	0.9861297607421875	http://www.dialog-21.ru/media/3379/arkhangelskiyta.pdf
+5	dialogue_2013_3cc6fc1cb591614dbfcf9de72afcecb94a29984a.conllu	en	0.9860104322433472	http://www.dialog-21.ru/media/1229/bogdanovav.pdf
+
+25. 	dialogue_2013_67593c77c4471d62e33dd08afab4dfc231ecbcde.conllu	en	http://www.dialog-21.ru/media/1238/dikonovv.pdf
+1	dialogue_2015_064ebfb9508fb3771108746070cf2f669b8bf76a.conllu	en	0.9842119216918945	http://www.dialog-21.ru/digests/dialog2015/materials/pdf/UstalovDA.pdf
+2	dialogue_2014_262ccdb84da9eb460eebee5ab33f7f53f2221fb4.conllu	en	0.9839671850204468	http://www.dialog-21.ru/digests/dialog2014/materials/pdf/LoukachevitchNV.pdf
+3	dialogue_2015_f1482eb4242e69961c4f3a86c25de502e2db46ec.conllu	en	0.9819738268852234	http://www.dialog-21.ru/digests/dialog2015/materials/pdf/GoncharovaMBetal.pdf
+4	dialogue_2015_057c0e0d8f09d4930b81f09a47b43c1e55cdf0f3.conllu	en	0.981767475605011	http://www.dialog-21.ru/digests/dialog2015/materials/pdf/KiselevYABraslavskiPIetal.pdf
+5	dialogue_2016_b9e0904dcf163e6822d1efe0f77ebc34148178e1.conllu	en	0.9812642931938171	http://www.dialog-21.ru/media/3409/loukachevitchnvetal.pdf
+
+26. 	dialogue_2014_7b482dc59ce6ed3a99f45eafed6ef078dea83b79.conllu	en	http://www.dialog-21.ru/digests/dialog2014/materials/pdf/BorschevVBParteeBH.pdf
+1	dialogue_2014_0148d45ccdd3bb09390fadb459ecd6222d4d9738.conllu	en	0.9832434058189392	http://www.dialog-21.ru/digests/dialog2014/materials/pdf/MilicevicJTimoshenkoS.pdf
+2	ainl_2018_4a1cfa0d5590039527787019b48066f0c9fffadb.conllu	en	0.9803183078765869	https://link.springer.com/chapter/10.1007/978-3-030-01204-5_8
+3	dialogue_2017_bf2a7948a7d8d95763359cda45847385a6c8faeb.conllu	en	0.9794971942901611	http://www.dialog-21.ru/media/3904/boguslavskyi.pdf
+4	dialogue_2016_0d16ab0f2f3491f42cb6434cd830cf3a8a69a1bd.conllu	en	0.9791191816329956	http://www.dialog-21.ru/media/3385/bukiagtetal.pdf
+5	ainl_2016_aeb2c5f4c3aa9a5381a35d89991b41901794381d.conllu	en	0.9778146743774414	http://ieeexplore.ieee.org/document/7891859/
+
+27. 	dialogue_2014_19122ea4d4e9f052fda3a7d65d9d6fa88dcaad5b.conllu	en	http://www.dialog-21.ru/digests/dialog2014/materials/pdf/ZimmerlingAV.pdf
+1	dialogue_2013_0bd8e22d96bce1f8490f95c96b4452802d148e28.conllu	en	0.9892064929008484	http://www.dialog-21.ru/media/1298/zimmerlingav.pdf
+2	dialogue_2015_58fb067c791846681ad5fc4e612ed26180d92307.conllu	en	0.983335554599762	http://www.dialog-21.ru/digests/dialog2015/materials/pdf/BogdanovAVGorbunovaIM.pdf
+3	dialogue_2019_2ae11e31cca0b3255f6d974e3ca933a49b03d961.conllu	en	0.9808632731437683	http://www.dialog-21.ru/media/4829/inshakovaes-167.pdf
+4	dialogue_2015_069c945a59db52a1cfc547e2030991d9a35d856d.conllu	en	0.9788099527359009	http://www.dialog-21.ru/digests/dialog2015/materials/pdf/ZimmerlingAVLyutikovaEA.pdf
+5	dialogue_2005_ed84ad87736180089a879a6c7b428c0f04cb0108.conllu	en	0.9770330190658569	http://www.dialog-21.ru/media/2412/partee_dialog2005.pdf
+
+28. 	dialogue_2015_87b497262b42d4d275a0394ff6bf9c92d9a2afc7.conllu	en	http://www.dialog-21.ru/digests/dialog2015/materials/pdf/IvanovVVetal.pdf
+1	dialogue_2015_134cb8995dd20f4bb853702b63e9edadc2c7df2f.conllu	en	0.9928147196769714	http://www.dialog-21.ru/digests/dialog2015/materials/pdf/BlinovPDKotelnikovEV.pdf
+2	dialogue_2015_6e1f13dd827d92f1a0900435f28e1829c76fcd01.conllu	en	0.9908072352409363	http://www.dialog-21.ru/digests/dialog2015/materials/pdf/MayorovVDetal.pdf
+3	dialogue_2015_c95629fb9bd77ddca47604357255746d7a6487a0.conllu	en	0.9890226721763611	http://www.dialog-21.ru/digests/dialog2015/materials/pdf/LoukachevitchNVetal.pdf
+4	dialogue_2014_996aa430f6b2dc398c1e5212162ee6b5f17f189a.conllu	en	0.9888889789581299	http://www.dialog-21.ru/digests/dialog2014/materials/pdf/BlinovPDKotelnikovEV.pdf
+5	aist_2016_1356a10e62120390fc319a721150bfbe9482eed3.conllu	en	0.9870423674583435	https://link.springer.com/chapter/10.1007/978-3-319-52920-2_20
+
+29. 	dialogue_2016_c1f6ca221c4c2c4b39b029a802f645d911d9dfd9.conllu	en	http://www.dialog-21.ru/media/3425/shirokovaaetal.pdf
+1	dialogue_2009_6bc8291ac11d9cd0a16a175a189cb728653ed08c.conllu	en	0.9854989051818848	http://www.dialog-21.ru/media/1641/91.pdf
+2	dialogue_2001_021a9e82cfe5bf2040a88f58267471fca7a6366a.conllu	en	0.9841524958610535	http://www.dialog-21.ru/digest/2001/articles/mihkla/
+3	ainl_2018_fdc265a678017c20e64f10429cf5f1b373f871db.conllu	en	0.9814856052398682	https://link.springer.com/chapter/10.1007/978-3-030-01204-5_4
+4	dialogue_2013_5c12b26c3a1dd1910bdd48b580cdac0038c23aaa.conllu	en	0.9813122749328613	http://www.dialog-21.ru/media/1291/solomennikai.pdf
+5	dialogue_2016_9c03daad12b268dbbdd4c91fc827191efa016e0f.conllu	en	0.9804257154464722	http://www.dialog-21.ru/media/3429/sorokinaashavrinato.pdf
+
+30. 	dialogue_2016_1ca08ad514b70f52f4475f72894dfe8321054580.conllu	en	http://www.dialog-21.ru/media/3384/berdi%C4%8Devskisaetal.pdf
+1	aist_2016_50e90213fe47c4527e82fbdb0849255f365bd7fb.conllu	en	0.9871749877929688	https://link.springer.com/chapter/10.1007/978-3-319-52920-2_16
+2	dialogue_2011_64a6e5fca2c52210d927131af2cbf8962ce3d016.conllu	en	0.9866315126419067	http://www.dialog-21.ru/media/1459/58.pdf
+3	dialogue_2013_6b5edb088d7188e47b2f957abb08fa2ece0e86c7.conllu	en	0.9856523871421814	http://www.dialog-21.ru/media/1283/protopopovaev.pdf
+4	ainl_2017_008141633713e94b23d4b59aae97a229364e6df7.conllu	en	0.9853098392486572	https://link.springer.com/chapter/10.1007/978-3-319-71746-3_12
+5	dialogue_2017_5b4d5ac24c70c29003065b717451cfbc995d09c3.conllu	en	0.9843207597732544	http://www.dialog-21.ru/media/3951/sorokinaetal.pdf
+
+31. 	dialogue_2017_6407e00d6077550a0b837e661734f0ad1adfd30a.conllu	en	http://www.dialog-21.ru/media/3913/gureenkovaoaetal.pdf
+1	dialogue_2017_c3891ca5834982ee8e7fc5585002508bf40f0f52.conllu	en	0.9899495244026184	http://www.dialog-21.ru/media/3954/sysoevaaetal.pdf
+2	dialogue_2014_12d2a2ff7e1674980388f9a86c74976e1bb828be.conllu	en	0.9879526495933533	http://www.dialog-21.ru/digests/dialog2014/materials/pdf/MuzychkaSA.pdf
+3	dialogue_2017_7be9a228ca855ad40a4435aba03d8f5c5c2ac392.conllu	en	0.9878032803535461	http://www.dialog-21.ru/media/3943/romanovav.pdf
+4	dialogue_2017_32ef8ddceca283cb33d46edff37cb8e16331d434.conllu	en	0.9874445199966431	http://www.dialog-21.ru/media/3956/toldovasionovm.pdf
+5	aist_2018_3b4a66d1e88d2674772efe01f34ba1b412b49756.conllu	en	0.9872745275497437	https://link.springer.com/chapter/10.1007/978-3-030-11027-7_12
+
+32. 	dialogue_2017_4b9b6213a17d94ebadbbe7373a73430c1ba47282.conllu	en	http://www.dialog-21.ru/media/3945/shelmanovaodevyatkinda.pdf
+1	aist_2015_87dbe14d1930039d517d969e84a3504f8af4cc03.conllu	en	0.9909197688102722	https://link.springer.com/chapter/10.1007/978-3-319-26123-2_32
+2	dialogue_2019_8cc8a65499e25b4d5ac355966d164f48794e5326.conllu	en	0.9880955815315247	http://www.dialog-21.ru/media/4595/chistovaevplusetal-076.pdf
+3	dialogue_2017_7be9a228ca855ad40a4435aba03d8f5c5c2ac392.conllu	en	0.9867976307868958	http://www.dialog-21.ru/media/3943/romanovav.pdf
+4	dialogue_2014_b62168b517e302eb756c1faebcafc345748fcbf9.conllu	en	0.9867013096809387	http://www.dialog-21.ru/digests/dialog2014/materials/pdf/ShelmanovAOSmirnovIV.pdf
+5	aist_2019_efed15362c0565177ddf09bdd07301b016b657e4.conllu	en	0.9860984683036804	https://link.springer.com/chapter/10.1007/978-3-030-37334-4_15
+
+33. 	dialogue_2017_d94d7e3801d8f21c3421ddc7b67f48f60ef7997d.conllu	en	http://www.dialog-21.ru/media/3961/vinogradovaoietal.pdf
+1	dialogue_2018_8199d54eb226a7a544ec156a32c9912cf53d1359.conllu	en	0.987532913684845	http://www.dialog-21.ru/media/4312/laposhina%D0%B0n.pdf
+2	dialogue_2016_994c6757f99e42a0aa7c6d5521437e930b035003.conllu	en	0.9866054058074951	http://www.dialog-21.ru/media/3440/vinogradovaoi.pdf
+3	dialogue_2018_f49e5d3bee8499b46bf37c11ebeb1369d105bada.conllu	en	0.9847605228424072	http://www.dialog-21.ru/media/4302/ivanovvv.pdf
+4	dialogue_2015_3f2e67cc4bbbc560dcba69a5d5c1465353e2f309.conllu	en	0.9819779992103577	http://www.dialog-21.ru/digests/dialog2015/materials/pdf/MalafeevAYu.pdf
+5	aist_2019_d6b02078db975995b1bd27b4d370c829357b9ed3.conllu	en	0.9816479086875916	https://link.springer.com/chapter/10.1007/978-3-030-37334-4_12
+
+34. 	dialogue_2018_37e12e9856473293c99667fa95da1e72abb1aff6.conllu	en	http://www.dialog-21.ru/media/4287/arefyevnv.pdf
+1	ainl_2019_79e0519d19e9fb8fad9598c872ac50824e8d4270.conllu	en	0.9912057518959045	https://link.springer.com/chapter/10.1007/978-3-030-34518-1_11
+2	dialogue_2019_b85523b62f37e902a7c897bf5a942bbc2df49ca8.conllu	en	0.9907002449035645	http://www.dialog-21.ru/media/4628/sorokinаа-163.pdf
+3	dialogue_2019_9e8586d83095fc0bb44577c37c4b8661dc21bfd8.conllu	en	0.9906137585639954	http://www.dialog-21.ru/media/4590/bolshakovaeiplussapinas-036.pdf
+4	dialogue_2015_112a8b3e9753b3c36f6cadfba49d55a87a6e73aa.conllu	en	0.9899037480354309	http://www.dialog-21.ru/digests/dialog2015/materials/pdf/ArefyevNVetal.pdf
+5	aist_2018_3b4a66d1e88d2674772efe01f34ba1b412b49756.conllu	en	0.9887478351593018	https://link.springer.com/chapter/10.1007/978-3-030-11027-7_12
+
+35. 	dialogue_2018_8199d54eb226a7a544ec156a32c9912cf53d1359.conllu	en	http://www.dialog-21.ru/media/4312/laposhina%D0%B0n.pdf
+1	dialogue_2018_f49e5d3bee8499b46bf37c11ebeb1369d105bada.conllu	en	0.9916164875030518	http://www.dialog-21.ru/media/4302/ivanovvv.pdf
+2	dialogue_2017_d94d7e3801d8f21c3421ddc7b67f48f60ef7997d.conllu	en	0.9875328540802002	http://www.dialog-21.ru/media/3961/vinogradovaoietal.pdf
+3	aist_2014_b52e30d63f16b825c659b285e3410d02146ab8c5.conllu	en	0.9873788952827454	https://link.springer.com/chapter/10.1007/978-3-319-12580-0_9
+4	dialogue_2015_3f2e67cc4bbbc560dcba69a5d5c1465353e2f309.conllu	en	0.9847577214241028	http://www.dialog-21.ru/digests/dialog2015/materials/pdf/MalafeevAYu.pdf
+5	dialogue_2016_42b4099699ff462647b136d0406e71c5757a732d.conllu	en	0.9844081997871399	http://www.dialog-21.ru/media/3422/romanovavetal.pdf
+
+36. 	dialogue_2018_6d5a00769f373ca7a31c81bb33d9944981d61f52.conllu	en	http://www.dialog-21.ru/media/4321/nedoluzhkoa.pdf
+1	dialogue_2015_fbad5d6963674202385bc9062ba88ebf2baddcf6.conllu	en	0.9923840165138245	http://www.dialog-21.ru/digests/dialog2015/materials/pdf/NedoluzhkoAetal.pdf
+2	dialogue_2018_288cc208175b724bee284a6ede9ecdb24e31384e.conllu	en	0.984336256980896	http://www.dialog-21.ru/media/4322/nedoluzhkoa_lapshinova-koltunskie.pdf
+3	dialogue_2012_8316b9ea0ead3358a61c81ef3ddf39722ef2a5bd.conllu	en	0.9835478067398071	http://www.dialog-21.ru/media/1335/124.pdf
+4	dialogue_2017_c456f96d43886627d9c9c6d41d7558b9a48b903a.conllu	en	0.9825289249420166	http://www.dialog-21.ru/media/3920/kunilovskayama.pdf
+5	dialogue_2019_647244be9125ffcfbb9b9add77ab97cb7621fc6b.conllu	en	0.9802595376968384	http://www.dialog-21.ru/media/4592/budennayaev-128.pdf
+
+37. 	dialogue_2018_288cc208175b724bee284a6ede9ecdb24e31384e.conllu	en	http://www.dialog-21.ru/media/4322/nedoluzhkoa_lapshinova-koltunskie.pdf
+1	dialogue_2015_fbad5d6963674202385bc9062ba88ebf2baddcf6.conllu	en	0.9848650097846985	http://www.dialog-21.ru/digests/dialog2015/materials/pdf/NedoluzhkoAetal.pdf
+2	dialogue_2018_6d5a00769f373ca7a31c81bb33d9944981d61f52.conllu	en	0.984336256980896	http://www.dialog-21.ru/media/4321/nedoluzhkoa.pdf
+3	dialogue_2013_2d81873bbb1e202be37d928701ed567ab53de182.conllu	en	0.9814053177833557	http://www.dialog-21.ru/media/1239/dobrovolskijdo.pdf
+4	dialogue_2014_d92e7c2c46cfd4c0cc971d8eacafa2d27559ba50.conllu	en	0.9802255034446716	http://www.dialog-21.ru/digests/dialog2014/materials/pdf/ZangenfeindRSonnenhauserB.pdf
+5	dialogue_2014_549d30855d3302722626eea0f4f6fce692d455e3.conllu	en	0.9794686436653137	http://www.dialog-21.ru/digests/dialog2014/materials/pdf/LeontievAPPetrovaMA.pdf
+
+38. 	dialogue_2019_74610d867309cc74c401a526aecc13100e3cf53c.conllu	en	http://www.dialog-21.ru/media/4622/rossyaykinpoplusloukachevitchnv-127.pdf
+1	dialogue_2018_f51648c56d3d1a493e77a966297a1e85c39fe94e.conllu	en	0.9895380735397339	http://www.dialog-21.ru/media/4528/konovalovvp_tumunbayarovazb.pdf
+2	ainl_2017_8c133c4589f12a1ce238c159d844ad4e06d0767d.conllu	en	0.9885379672050476	https://link.springer.com/chapter/10.1007/978-3-319-71746-3_15
+3	dialogue_2017_3dddc6eaf72eaf46f6ee5433a45d114296a70852.conllu	en	0.9883369207382202	http://www.dialog-21.ru/media/3959/ustalovda.pdf
+4	dialogue_2017_64842a287bba3d0b4829b0b0d5f53086a6514de0.conllu	en	0.9877883195877075	http://www.dialog-21.ru/media/3928/loukachevitchnvetal.pdf
+5	dialogue_2015_1f213aab9c62140b24e19188e093ea43db88ec1a.conllu	en	0.9872838854789734	http://www.dialog-21.ru/digests/dialog2015/materials/pdf/PanchenkoAetal.pdf
+
+39. 	ainl_2016_0790fcd7a4965a62eb8127d48d03e51a5467f34d.conllu	en	https://fruct.org/publications/AINL-FRUCT-2016/files/Bas.pdf
+1	dialogue_2013_0e61db3362725c6b58c4c9b20f79874af70182b3.conllu	en	0.9829318523406982	http://www.dialog-21.ru/media/1267/marchuckaa.pdf
+2	aist_2018_825c3a4586be7f4448d2ab54c0405ee028edfc6b.conllu	en	0.9813052415847778	https://link.springer.com/chapter/10.1007/978-3-030-11027-7_7
+3	dialogue_2016_9385c1fb0119d54169158dff324dd43fb25e0e37.conllu	en	0.9799098372459412	http://www.dialog-21.ru/media/3433/sysoevaaandrianovia.pdf
+4	dialogue_2017_c3891ca5834982ee8e7fc5585002508bf40f0f52.conllu	en	0.9798190593719482	http://www.dialog-21.ru/media/3954/sysoevaaetal.pdf
+5	dialogue_2015_6e1f13dd827d92f1a0900435f28e1829c76fcd01.conllu	en	0.9796172380447388	http://www.dialog-21.ru/digests/dialog2015/materials/pdf/MayorovVDetal.pdf
+
+40. 	aist_2015_310f043fe1734af7e2c1e1b6e386730be7102d59.conllu	en	https://link.springer.com/chapter/10.1007/978-3-319-26123-2_36
+1	aist_2016_1ba82b96a62f1a33a29c9a031989d26279f1ad4c.conllu	en	0.9937544465065002	https://link.springer.com/chapter/10.1007/978-3-319-52920-2_13
+2	ainl_2017_8c133c4589f12a1ce238c159d844ad4e06d0767d.conllu	en	0.9866093397140503	https://link.springer.com/chapter/10.1007/978-3-319-71746-3_15
+3	aist_2014_793ad5d2e1b4d6f72fa3e7275ac7b6b886d61749.conllu	en	0.9862605929374695	https://link.springer.com/chapter/10.1007/978-3-319-12580-0_3
+4	ainl_2017_52e3056c4c5991253aaff90d98225e12df85a3e3.conllu	en	0.9853018522262573	https://link.springer.com/chapter/10.1007/978-3-319-71746-3_16
+5	ainl_2018_0dc0b8f51dfc6921e7babb9eeadb5e38858c8145.conllu	en	0.9845147132873535	https://link.springer.com/chapter/10.1007/978-3-030-01204-5_2

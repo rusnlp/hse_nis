@@ -1,0 +1,54 @@
+аксон.conllu	кома.conllu
+аллергия.conllu	холера.conllu
+алюминий.conllu	бериллий.conllu
+анаграмма.conllu	анахронизм.conllu
+анахронизм.conllu	анаграмма.conllu
+анемия.conllu	кровь.conllu
+арабское письмо.conllu	анаграмма.conllu
+артерия.conllu	кровь.conllu
+беневенто.conllu	валентиниан i.conllu
+бензин.conllu	алюминий.conllu
+берилл.conllu	геология.conllu
+бериллий.conllu	алюминий.conllu
+биом.conllu	экосистема.conllu
+биосфера.conllu	экосистема.conllu
+биотехнология.conllu	химия.conllu
+блог.conllu	арабское письмо.conllu
+булева алгебра.conllu	химия.conllu
+бумеранг.conllu	гравитация.conllu
+валентиниан i.conllu	валентиниан ii.conllu
+валентиниан ii.conllu	валентиниан i.conllu
+валентиниан iii.conllu	валентиниан i.conllu
+водолей (созвездие).conllu	евангелие от иоанна.conllu
+геология.conllu	геоморфология.conllu
+геоморфология.conllu	геология.conllu
+гравитация.conllu	бумеранг.conllu
+группа крови.conllu	кровь.conllu
+евангелие от иоанна.conllu	евангелие от луки.conllu
+евангелие от луки.conllu	евангелие от марка.conllu
+евангелие от марка.conllu	евангелие от иоанна.conllu
+жасмин.conllu	эвкалипт.conllu
+индейки.conllu	кошка.conllu
+история игрушек.conllu	водолей (созвездие).conllu
+калория.conllu	холестерин.conllu
+кома.conllu	эпилепсия.conllu
+кошка.conllu	песец.conllu
+кровь.conllu	кровяное давление.conllu
+кровяное давление.conllu	кровь.conllu
+лес.conllu	экосистема.conllu
+песец.conllu	кошка.conllu
+плод.conllu	жасмин.conllu
+спирты.conllu	химия.conllu
+фоссилии.conllu	геология.conllu
+химическая реакция.conllu	химия.conllu
+химический элемент.conllu	химия.conllu
+химия.conllu	химический элемент.conllu
+холера.conllu	аллергия.conllu
+холестерин.conllu	калории.conllu
+эвкалипт.conllu	лес.conllu
+экосистема.conllu	биом.conllu
+электрический двигатель.conllu	бензин.conllu
+электролиз.conllu	химия.conllu
+электрон.conllu	электролиз.conllu
+эпидемиология.conllu	холера.conllu
+эпилепсия.conllu	кома.conllu

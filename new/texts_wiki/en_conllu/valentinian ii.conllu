@@ -1,0 +1,1744 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = '''valentinian ii''' (;
+1	'	'	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	'	'	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+3	'	'	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+4	valentinian	valentinian	ADJ	A	Degree=Pos	5	amod	_	_
+5	ii	ii	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+6	'	'	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	'	'	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+8	'	'	PUNCT	FB	_	5	punct	_	_
+9	(	(	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 2
+# text = 37115 may 392), was roman emperor from ad 375 to 392.
+1	37115	37115	NUM	N	NumType=Card	8	nummod	_	_
+2	may	may	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+3	392	392	NUM	N	NumType=Card	2	nummod	_	SpaceAfter=No
+4	)	)	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	was	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+7	roman	roman	ADJ	A	Degree=Pos	8	amod	_	_
+8	emperor	emperor	NOUN	S	Number=Sing	0	root	_	_
+9	from	from	ADP	E	_	10	case	_	_
+10	ad	have	NOUN	S	Number=Sing	8	nmod	_	_
+11	375	375	NUM	N	NumType=Card	10	nummod	_	_
+12	to	to	ADP	E	_	13	case	_	_
+13	392	392	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n\s
+
+# sent_id = 3
+# text = flavius valentinianus was born to emperor valentinian i and his second wife, justina.
+1	flavius	flavius	PRON	PE	Number=Plur|Person=1|PronType=Prs	2	nmod	_	_
+2	valentinianus	valentinianus	PRON	PE	Number=Plur|Person=1|PronType=Prs	4	nsubj:pass	_	_
+3	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	born	bear	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+5	to	to	PART	PART	_	6	mark	_	_
+6	emperor	emperor	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	valentinian	valentinian	ADJ	A	Degree=Pos	8	amod	_	_
+8	i	i	NOUN	S	Number=Sing	6	obj	_	_
+9	and	and	CCONJ	CC	_	12	cc	_	_
+10	his	his	DET	AP	Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+11	second	second	ADJ	NO	Degree=Pos|NumType=Ord	12	amod	_	_
+12	wife	wife	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	justina	justina	X	X	_	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = he was the half-brother of valentinian's other son, gratian, who had shared the imperial title with his father since 367.
+1	he	he	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	was	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+3	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+4	half	half	ADJ	A	Degree=Pos	6	amod	_	SpaceAfter=No
+5	-	-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+6	brother	brother	NOUN	S	Number=Sing	0	root	_	_
+7	of	of	ADP	E	_	11	case	_	_
+8	valentinian	valentinian	NOUN	S	Number=Sing	11	nmod	_	SpaceAfter=No
+9	's	's	PART	PART	_	8	case	_	_
+10	other	other	ADJ	A	Degree=Pos	11	amod	_	_
+11	son	son	NOUN	S	Number=Sing	6	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	gratian	gratian	ADJ	A	Degree=Pos	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	11	punct	_	_
+15	who	who	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	had	have	AUX	VA	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	17	aux	_	_
+17	shared	shar	VERB	V	Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+18	the	the	DET	RD	Definite=Def|PronType=Art	20	det	_	_
+19	imperial	imperial	ADJ	A	Degree=Pos	20	amod	_	_
+20	title	title	NOUN	S	Number=Sing	17	obj	_	_
+21	with	with	ADP	E	_	23	case	_	_
+22	his	his	DET	AP	Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	father	father	NOUN	S	Number=Sing	17	obl	_	_
+24	since	since	ADP	E	_	25	case	_	_
+25	367	367	NUM	N	NumType=Card	17	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = he had three sisters:
+1	he	he	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	had	have	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	three	three	NUM	N	NumType=Card	4	nummod	_	_
+4	sisters	sister	NOUN	S	Number=Plur	2	obj	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 6
+# text = galla, grata and justa.
+1	galla	galla	DET	RI	Definite=Ind|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	grata	gratum	NOUN	S	Number=Sing	0	root	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	justa	justum	NOUN	S	Number=Sing	3	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = the elder valentinian died on campaign in pannonia in 375.
+1	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+2	elder	elder	ADJ	A	Degree=Pos	3	amod	_	_
+3	valentinian	valentinian	NOUN	S	Number=Sing	4	nsubj	_	_
+4	died	died	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	on	on	ADP	E	_	6	case	_	_
+6	campaign	campaign	NOUN	S	Number=Sing	4	obl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	pannonia	pannonia	NOUN	S	Number=Plur	4	obl	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	375	375	NUM	N	NumType=Card	4	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = neither gratian (then in trier) nor his uncle valens (emperor for the east) were consulted by the army commanders on the scene.
+1	neither	neither	DET	DI	PronType=Ind	2	det	_	_
+2	gratian	gratian	NOUN	S	Number=Sing	19	nsubj:pass	_	_
+3	(	(	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+4	then	then	ADV	B	_	6	advmod	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	trier	trier	NOUN	S	Number=Sing	2	nmod	_	SpaceAfter=No
+7	)	)	PUNCT	FB	_	6	punct	_	_
+8	nor	nor	CCONJ	CC	_	11	cc	_	_
+9	his	his	DET	AP	Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+10	uncle	uncle	ADJ	A	Degree=Pos	11	amod	_	_
+11	valens	valens	NOUN	S	Number=Plur	2	conj	_	_
+12	(	(	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+13	emperor	emperor	NOUN	S	Number=Sing	11	appos	_	_
+14	for	for	ADP	E	_	16	case	_	_
+15	the	the	DET	RD	Definite=Def|PronType=Art	16	det	_	_
+16	east	east	NOUN	S	Number=Sing	13	nmod	_	SpaceAfter=No
+17	)	)	PUNCT	FB	_	13	punct	_	_
+18	were	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	19	aux:pass	_	_
+19	consulted	consult	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+20	by	by	ADP	E	_	23	case	_	_
+21	the	the	DET	RD	Definite=Def|PronType=Art	23	det	_	_
+22	army	army	NOUN	S	Number=Sing	23	nmod	_	_
+23	commanders	commander	NOUN	S	Number=Plur	19	obl	_	_
+24	on	on	ADP	E	_	26	case	_	_
+25	the	the	DET	RD	Definite=Def|PronType=Art	26	det	_	_
+26	scene	scene	NOUN	S	Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 9
+# text = instead of merely acknowledging gratian as his father's successor, valentinian i's generals acclaimed the four-year-old valentinian ''augustus'' on 22 november 375.
+1	instead	instead	ADV	B	_	16	advmod	_	_
+2	of	of	ADP	E	_	5	case	_	_
+3	merely	merely	ADV	B	_	4	advmod	_	_
+4	acknowledging	acknowledge	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	5	acl	_	_
+5	gratian	gratian	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+6	as	as	ADP	E	_	10	case	_	_
+7	his	his	DET	AP	Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	father	father	NOUN	S	Number=Sing	10	nmod	_	SpaceAfter=No
+9	's	's	PART	PART	_	8	case	_	_
+10	successor	successor	NOUN	S	Number=Sing	16	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	valentinian	valentinian	ADJ	A	Degree=Pos	15	amod	_	_
+13	i	i	NOUN	S	Number=Sing	15	nmod	_	SpaceAfter=No
+14	's	's	PART	PART	_	13	case	_	_
+15	generals	general	NOUN	S	Number=Plur	16	nsubj	_	_
+16	acclaimed	acclaim	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	the	the	DET	RD	Definite=Def|PronType=Art	23	det	_	_
+18	four	four	NUM	N	NumType=Card	20	nummod	_	SpaceAfter=No
+19	-	-	PUNCT	FF	_	20	punct	_	SpaceAfter=No
+20	year	year	NOUN	S	Number=Sing	22	obl	_	SpaceAfter=No
+21	-	-	PUNCT	FF	_	22	punct	_	SpaceAfter=No
+22	old	old	ADJ	A	Degree=Pos	23	amod	_	_
+23	valentinian	valentinian	NOUN	S	Number=Sing	16	obj	_	_
+24	'	'	PART	PART	_	23	case	_	SpaceAfter=No
+25	'	'	PART	PART	_	23	case	_	SpaceAfter=No
+26	augustus	augustus	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	16	advcl	_	SpaceAfter=No
+27	'	'	PART	PART	_	26	case	_	SpaceAfter=No
+28	'	'	PART	PART	_	26	compound:prt	_	_
+29	on	on	ADP	E	_	30	case	_	_
+30	22	22	NUM	N	NumType=Card	26	obl	_	_
+31	november	november	ADP	E	_	32	case	_	_
+32	375	375	NUM	N	NumType=Card	26	obl	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 10
+# text = the army, and its frankish general merobaudes, may have been uneasy about gratian's lack of military ability, and so raised a boy who would not immediately aspire to military command.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	army	army	NOUN	S	Number=Sing	13	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	8	punct	_	_
+4	and	and	CCONJ	CC	_	8	cc	_	_
+5	its	its	DET	AP	Number=Sing|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+6	frankish	frankish	ADJ	A	Degree=Pos	8	amod	_	_
+7	general	general	ADJ	A	Degree=Pos	8	amod	_	_
+8	merobaudes	merobaude	NOUN	S	Number=Plur	2	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	may	may	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+11	have	have	AUX	VA	VerbForm=Inf	13	aux	_	_
+12	been	be	AUX	V	Tense=Past|VerbForm=Part	13	cop	_	_
+13	uneasy	uneasy	ADJ	A	Degree=Pos	0	root	_	_
+14	about	about	ADP	E	_	17	case	_	_
+15	gratian	gratian	NOUN	S	Number=Sing	17	nmod	_	SpaceAfter=No
+16	's	's	PART	PART	_	15	case	_	_
+17	lack	lack	NOUN	S	Number=Sing	13	obl	_	_
+18	of	of	ADP	E	_	20	case	_	_
+19	military	military	ADJ	A	Degree=Pos	20	amod	_	_
+20	ability	ability	NOUN	S	Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	24	punct	_	_
+22	and	and	CCONJ	CC	_	24	cc	_	_
+23	so	so	ADV	B	_	24	advmod	_	_
+24	raised	raise	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	17	conj	_	_
+25	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	26	det	_	_
+26	boy	boy	NOUN	S	Number=Sing	24	obj	_	_
+27	who	who	PRON	PR	PronType=Rel	31	nsubj	_	_
+28	would	will	AUX	VM	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	31	aux	_	_
+29	not	not	PART	PART	Polarity=Neg	30	advmod	_	_
+30	immediately	immediately	ADV	B	_	31	advmod	_	_
+31	aspire	aspire	VERB	V	VerbForm=Inf	26	acl:relcl	_	_
+32	to	to	PART	PART	_	33	mark	_	_
+33	military	military	VERB	V	VerbForm=Inf	31	xcomp	_	_
+34	command	command	NOUN	S	Number=Sing	33	obj	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	13	punct	_	SpacesAfter=\n\s\n
+
+# newpar
+# sent_id = 11
+# text = solidus of valentinian ii gratian, forced to accommodate the generals who supported his half-brother, governed the trans-alpine provinces (including gaul, hispania, and britain), while italy, part of illyricum, and north africa were under the rule of valentinian.
+1	solidus	solidus	PRON	PE	Number=Plur|Person=1|PronType=Prs	19	nsubj	_	_
+2	of	of	ADP	E	_	5	case	_	_
+3	valentinian	valentinian	DET	RI	Definite=Ind|Number=Sing|PronType=Art	5	det	_	_
+4	ii	second	ADJ	NO	Degree=Pos|NumType=Ord	5	amod	_	SpacesAfter=\n
+5	gratian	gratian	NOUN	S	Number=Sing	1	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	forced	force	VERB	V	Tense=Past|VerbForm=Part	1	acl	_	_
+8	to	to	PART	PART	_	9	mark	_	_
+9	accommodate	accommodate	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	11	det	_	_
+11	generals	general	NOUN	S	Number=Plur	9	obj	_	_
+12	who	who	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	supported	support	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
+14	his	his	DET	AP	Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+15	half	half	ADJ	A	Degree=Pos	17	amod	_	SpaceAfter=No
+16	-	-	PUNCT	FF	_	17	punct	_	SpaceAfter=No
+17	brother	brother	NOUN	S	Number=Sing	13	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	1	punct	_	_
+19	governed	govern	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20	the	the	DET	RD	Definite=Def|PronType=Art	24	det	_	_
+21	trans	trans	NOUN	S	Number=Plur	24	nmod	_	SpaceAfter=No
+22	-	-	PUNCT	FF	_	23	punct	_	SpaceAfter=No
+23	alpine	alpine	NUM	N	NumType=Card	21	nummod	_	_
+24	provinces	province	NOUN	S	Number=Plur	19	obj	_	_
+25	(	(	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+26	including	include	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	24	acl	_	_
+27	gaul	gaul	NOUN	S	Number=Sing	26	obj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	29	punct	_	_
+29	hispania	hispania	NOUN	S	Number=Plur	27	conj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	32	punct	_	_
+31	and	and	CCONJ	CC	_	32	cc	_	_
+32	britain	britain	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	27	conj	_	SpaceAfter=No
+33	)	)	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	19	punct	_	_
+35	while	while	SCONJ	CS	_	38	mark	_	_
+36	italy	italy	ADV	B	_	38	advmod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	36	punct	_	_
+38	part	part	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+39	of	of	ADP	E	_	40	case	_	_
+40	illyricum	illyricum	NOUN	S	Number=Sing	38	obl	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	44	punct	_	_
+42	and	and	CCONJ	CC	_	44	cc	_	_
+43	north	north	ADJ	A	Degree=Pos	44	amod	_	_
+44	africa	africa	NOUN	S	Number=Plur	19	conj	_	_
+45	were	be	AUX	V	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	48	cop	_	_
+46	under	under	ADP	E	_	48	case	_	_
+47	the	the	DET	RD	Definite=Def|PronType=Art	48	det	_	_
+48	rule	rule	NOUN	S	Number=Sing	19	obl	_	_
+49	of	of	ADP	E	_	50	case	_	_
+50	valentinian	valentinian	NOUN	S	Number=Sing	48	nmod	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 12
+# text = in 378, their uncle, the emperor valens, was killed in battle with the goths at adrianople, and gratian invited the general theodosius to be emperor in the east.
+1	in	in	ADP	E	_	2	case	_	_
+2	378	378	NUM	N	NumType=Card	12	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	their	their	DET	AP	Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	uncle	uncle	NOUN	S	Number=Sing	12	nsubj:pass	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	the	the	DET	RD	Definite=Def|PronType=Art	9	det	_	_
+8	emperor	emperor	NOUN	S	Number=Sing	9	nmod	_	_
+9	valens	valens	NOUN	S	Number=Plur	5	appos	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
+12	killed	kil	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	battle	battle	NOUN	S	Number=Sing	12	obl	_	_
+15	with	with	ADP	E	_	17	case	_	_
+16	the	the	DET	RD	Definite=Def|PronType=Art	17	det	_	_
+17	goths	goth	NOUN	S	Number=Plur	12	obl	_	_
+18	at	at	ADP	E	_	19	case	_	_
+19	adrianople	adrianople	NOUN	S	Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	23	punct	_	_
+21	and	and	CCONJ	CC	_	23	cc	_	_
+22	gratian	gratian	ADJ	A	Degree=Pos	23	amod	_	_
+23	invited	invit	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	12	conj	_	_
+24	the	the	DET	RD	Definite=Def|PronType=Art	26	det	_	_
+25	general	general	ADJ	A	Degree=Pos	26	amod	_	_
+26	theodosius	theodosius	NOUN	S	Number=Sing	23	obj	_	_
+27	to	to	PART	PART	_	29	mark	_	_
+28	be	be	AUX	VA	VerbForm=Inf	29	aux	_	_
+29	emperor	emperor	VERB	V	VerbForm=Inf	23	xcomp	_	_
+30	in	in	ADP	E	_	32	case	_	_
+31	the	the	DET	RD	Definite=Def|PronType=Art	32	det	_	_
+32	east	east	NOUN	S	Number=Sing	29	obl	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 13
+# text = as a child, valentinian ii was under the influence of his arian mother, the empress justina, and the imperial court at milan, an influence contested by the nicene bishop of milan, ambrose.
+1	as	as	ADP	E	_	3	case	_	_
+2	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	3	det	_	_
+3	child	child	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	valentinian	valentinian	ADJ	A	Degree=Pos	6	amod	_	_
+6	ii	ii	NOUN	S	Number=Sing	10	nsubj	_	_
+7	was	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+8	under	under	ADP	E	_	10	case	_	_
+9	the	the	DET	RD	Definite=Def|PronType=Art	10	det	_	_
+10	influence	influence	NOUN	S	Number=Sing	0	root	_	_
+11	of	of	ADP	E	_	14	case	_	_
+12	his	his	DET	AP	Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+13	arian	arian	ADJ	A	Degree=Pos	14	amod	_	_
+14	mother	mother	NOUN	S	Number=Sing	10	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	10	punct	_	_
+16	the	the	DET	RD	Definite=Def|PronType=Art	18	det	_	_
+17	empress	empress	NOUN	S	Number=Sing	18	nmod	_	_
+18	justina	justina	NOUN	S	Number=Sing	10	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	23	punct	_	_
+20	and	and	CCONJ	CC	_	23	cc	_	_
+21	the	the	DET	RD	Definite=Def|PronType=Art	23	det	_	_
+22	imperial	imperial	ADJ	A	Degree=Pos	23	amod	_	_
+23	court	court	NOUN	S	Number=Sing	10	conj	_	_
+24	at	at	ADP	E	_	25	case	_	_
+25	milan	milan	NOUN	S	Number=Sing	23	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	28	det	_	_
+28	influence	influence	NOUN	S	Number=Sing	25	nmod	_	_
+29	contested	contest	VERB	V	Tense=Past|VerbForm=Part	28	acl	_	_
+30	by	by	ADP	E	_	33	case	_	_
+31	the	the	DET	RD	Definite=Def|PronType=Art	33	det	_	_
+32	nicene	nicene	NOUN	S	Number=Sing	33	nmod	_	_
+33	bishop	bishop	NOUN	S	Number=Sing	29	obl	_	_
+34	of	of	ADP	E	_	35	case	_	_
+35	milan	milan	NOUN	S	Number=Sing	37	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	35	punct	_	_
+37	ambrose	ambrose	NOUN	S	Number=Sing	33	conj	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 14
+# text = justina used her influence over her young son to oppose the nicean party which was championed by ambrose.
+1	justina	justina	NOUN	S	Number=Plur	2	nsubj	_	_
+2	used	use	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	her	her	DET	AP	Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	influence	influence	NOUN	S	Number=Sing	2	obj	_	_
+5	over	over	ADP	E	_	8	case	_	_
+6	her	her	DET	AP	Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+7	young	young	ADJ	A	Degree=Pos	8	amod	_	_
+8	son	son	NOUN	S	Number=Sing	2	obl	_	_
+9	to	to	PART	PART	_	10	mark	_	_
+10	oppose	oppose	VERB	V	VerbForm=Inf	2	advcl	_	_
+11	the	the	DET	RD	Definite=Def|PronType=Art	13	det	_	_
+12	nicean	nicean	ADJ	A	Degree=Pos	13	amod	_	_
+13	party	party	NOUN	S	Number=Sing	10	obj	_	_
+14	which	which	PRON	PR	PronType=Rel	16	nsubj:pass	_	_
+15	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux:pass	_	_
+16	championed	champion	VERB	V	Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+17	by	by	ADP	E	_	18	case	_	_
+18	ambrose	ambrose	NOUN	S	Number=Sing	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = in 385 ambrose refused an imperial request to hand over the portian basilica for the celebration of easter by the imperial court.
+1	in	in	ADP	E	_	2	case	_	_
+2	385	385	NUM	N	NumType=Card	4	obl	_	_
+3	ambrose	ambrose	PRON	PD	Number=Plur|PronType=Dem	4	nsubj	_	_
+4	refused	refuse	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	7	det	_	_
+6	imperial	imperial	ADJ	A	Degree=Pos	7	amod	_	_
+7	request	request	NOUN	S	Number=Sing	4	obj	_	_
+8	to	to	ADP	E	_	9	case	_	_
+9	hand	hand	NOUN	S	Number=Sing	7	nmod	_	_
+10	over	over	ADP	E	_	13	case	_	_
+11	the	the	DET	RD	Definite=Def|PronType=Art	13	det	_	_
+12	portian	portian	ADJ	A	Degree=Pos	13	amod	_	_
+13	basilica	basilica	NOUN	S	Number=Plur	4	obl	_	_
+14	for	for	ADP	E	_	16	case	_	_
+15	the	the	DET	RD	Definite=Def|PronType=Art	16	det	_	_
+16	celebration	celebration	NOUN	S	Number=Sing	13	nmod	_	_
+17	of	of	ADP	E	_	18	case	_	_
+18	easter	east	NOUN	S	Number=Sing	16	nmod	_	_
+19	by	by	ADP	E	_	22	case	_	_
+20	the	the	DET	RD	Definite=Def|PronType=Art	22	det	_	_
+21	imperial	imperial	ADJ	A	Degree=Pos	22	amod	_	_
+22	court	court	NOUN	S	Number=Sing	4	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = when he was summoned to be punished to the imperial palace, the orthodox populace rioted, and justina's gothic troops were prevented by the arch-bishop himself, standing in the doorway, from entering the basilica.
+1	when	when	SCONJ	CS	_	4	mark	_	_
+2	he	he	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	_
+3	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	summoned	summon	VERB	V	Tense=Past|VerbForm=Part	15	advcl	_	_
+5	to	to	PART	PART	_	7	mark	_	_
+6	be	be	AUX	VA	VerbForm=Inf	7	aux:pass	_	_
+7	punished	punish	VERB	V	Tense=Past|VerbForm=Part	4	xcomp	_	_
+8	to	to	ADP	E	_	11	case	_	_
+9	the	the	DET	RD	Definite=Def|PronType=Art	11	det	_	_
+10	imperial	imperial	ADJ	A	Degree=Pos	11	amod	_	_
+11	palace	palace	NOUN	S	Number=Sing	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	the	the	DET	RD	Definite=Def|PronType=Art	15	det	_	_
+14	orthodox	orthodox	ADJ	A	Degree=Pos	15	amod	_	_
+15	populace	populace	NOUN	S	Number=Sing	24	nsubj:pass	_	_
+16	rioted	riote	VERB	V	Tense=Past|VerbForm=Part	15	acl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	22	punct	_	_
+18	and	and	CCONJ	CC	_	22	cc	_	_
+19	justina	justina	NOUN	S	Number=Sing	22	nmod	_	SpaceAfter=No
+20	's	's	PART	PART	_	19	case	_	_
+21	gothic	gothic	ADJ	A	Degree=Pos	22	amod	_	_
+22	troops	troop	NOUN	S	Number=Plur	15	conj	_	_
+23	were	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	24	aux:pass	_	_
+24	prevented	prevent	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+25	by	by	ADP	E	_	29	case	_	_
+26	the	the	DET	RD	Definite=Def|PronType=Art	29	det	_	_
+27	arch	arch	NOUN	S	Number=Sing	29	nmod	_	SpaceAfter=No
+28	-	-	PUNCT	FF	_	27	punct	_	SpaceAfter=No
+29	bishop	bishop	NOUN	S	Number=Sing	24	obl	_	_
+30	himself	he	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	24	punct	_	_
+32	standing	stande	VERB	V	VerbForm=Ger	24	conj	_	_
+33	in	in	ADP	E	_	35	case	_	_
+34	the	the	DET	RD	Definite=Def|PronType=Art	35	det	_	_
+35	doorway	doorway	NOUN	S	Number=Sing	32	obl	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	24	punct	_	_
+37	from	from	ADP	E	_	38	mark	_	_
+38	entering	enter	VERB	V	VerbForm=Ger	24	advcl	_	_
+39	the	the	DET	RD	Definite=Def|PronType=Art	40	det	_	_
+40	basilica	basilica	NOUN	S	Number=Sing	38	obj	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 17
+# text = justina was forced to back down.
+1	justina	justina	DET	RI	Definite=Ind|Number=Sing|PronType=Art	3	nsubj:pass	_	_
+2	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	forced	force	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+4	to	to	PART	PART	_	5	mark	_	_
+5	back	back	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	down	down	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = afterwards, justina ordered legislation to rescind the penalties enacted by gratian and valentinian against heresy, proclaiming universal toleration.
+1	afterwards	afterwards	ADV	B	_	18	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	justina	justina	DET	RI	Definite=Ind|Number=Sing|PronType=Art	5	det	_	_
+4	ordered	orde	VERB	V	Tense=Past|VerbForm=Part	5	acl	_	_
+5	legislation	legislation	NOUN	S	Number=Sing	18	nsubj	_	_
+6	to	to	PART	PART	_	7	mark	_	_
+7	rescind	rescind	VERB	V	VerbForm=Inf	5	acl	_	_
+8	the	the	DET	RD	Definite=Def|PronType=Art	9	det	_	_
+9	penalties	penalty	NOUN	S	Number=Plur	7	obj	_	_
+10	enacted	enact	VERB	V	Tense=Past|VerbForm=Part	9	acl	_	_
+11	by	by	ADP	E	_	12	case	_	_
+12	gratian	gratian	NOUN	S	Number=Sing	10	obl	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	valentinian	valentinian	NOUN	S	Number=Sing	12	conj	_	_
+15	against	against	ADP	E	_	16	case	_	_
+16	heresy	heresy	NOUN	S	Number=Sing	10	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	5	punct	_	_
+18	proclaiming	proclaim	VERB	V	VerbForm=Ger	0	root	_	_
+19	universal	universal	ADJ	A	Degree=Pos	20	amod	_	_
+20	toleration	toleration	NOUN	S	Number=Sing	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 19
+# text = when ambrose was found, as no doubt she had intended, to have determinedly infracted the new laws, justina again tried to have him banished, and ambrose was forced to barricade himself, with the enthusiastic backing of the people, within the walls of the basilica.
+1	when	when	SCONJ	CS	_	4	mark	_	_
+2	ambrose	ambrose	PRON	PD	Number=Plur|PronType=Dem	4	nsubj:pass	_	_
+3	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	found	find	VERB	V	Tense=Past|VerbForm=Part	11	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	as	as	ADP	E	_	8	case	_	_
+7	no	no	DET	DI	PronType=Ind	8	det	_	_
+8	doubt	doubt	NOUN	S	Number=Sing	11	obl	_	_
+9	she	she	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	had	have	AUX	VA	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
+11	intended	intend	VERB	V	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	to	to	PART	PART	_	14	mark	_	_
+14	have	have	VERB	V	VerbForm=Inf	11	advcl	_	_
+15	determinedly	determinedly	ADV	B	_	16	advmod	_	_
+16	infracted	infract	VERB	V	Person=3|Tense=Past|VerbForm=Part	14	xcomp	_	_
+17	the	the	DET	RD	Definite=Def|PronType=Art	19	det	_	_
+18	new	new	ADJ	A	Degree=Pos	19	amod	_	_
+19	laws	law	NOUN	S	Number=Plur	16	obj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	16	punct	_	_
+21	justina	justina	DET	RI	Definite=Ind|Number=Sing|PronType=Art	23	det	_	_
+22	again	again	ADV	B	_	23	advmod	_	_
+23	tried	try	VERB	V	Tense=Past|VerbForm=Part	16	conj	_	_
+24	to	to	PART	PART	_	25	mark	_	_
+25	have	have	VERB	V	VerbForm=Inf	23	xcomp	_	_
+26	him	he	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	obj	_	_
+27	banished	banish	VERB	V	Tense=Past|VerbForm=Part	25	xcomp	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	32	punct	_	_
+29	and	and	CCONJ	CC	_	32	cc	_	_
+30	ambrose	ambrose	NOUN	S	Number=Sing	32	nsubj:pass	_	_
+31	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	32	aux:pass	_	_
+32	forced	force	VERB	V	Tense=Past|VerbForm=Part	27	conj	_	_
+33	to	to	PART	PART	_	34	mark	_	_
+34	barricade	barricake	VERB	V	VerbForm=Inf	32	xcomp	_	_
+35	himself	he	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	obj	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	34	punct	_	_
+37	with	with	ADP	E	_	40	case	_	_
+38	the	the	DET	RD	Definite=Def|PronType=Art	40	det	_	_
+39	enthusiastic	enthusiastic	ADJ	A	Degree=Pos	40	amod	_	_
+40	backing	backing	NOUN	S	Number=Sing	34	obl	_	_
+41	of	of	ADP	E	_	43	case	_	_
+42	the	the	DET	RD	Definite=Def|PronType=Art	43	det	_	_
+43	people	people	NOUN	S	Number=Plur	40	nmod	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	34	punct	_	_
+45	within	within	ADP	E	_	47	case	_	_
+46	the	the	DET	RD	Definite=Def|PronType=Art	47	det	_	_
+47	walls	wall	NOUN	S	Number=Plur	34	obl	_	_
+48	of	of	ADP	E	_	50	case	_	_
+49	the	the	DET	RD	Definite=Def|PronType=Art	50	det	_	_
+50	basilica	basilica	NOUN	S	Number=Sing	47	nmod	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 20
+# text = the imperial troops besieged him, but ambrose held on, reinforcing the resolution of his followers by allegedly unearthing, beneath the foundations of the church, the bodies of two ancient martyrs.
+1	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+2	imperial	imperial	ADJ	A	Degree=Pos	3	amod	_	_
+3	troops	troop	NOUN	S	Number=Plur	4	nsubj	_	_
+4	besieged	besiege	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	him	he	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	but	but	CCONJ	CC	_	9	cc	_	_
+8	ambrose	ambrose	PRON	PD	Number=Plur|PronType=Dem	9	nsubj	_	_
+9	held	hold	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+10	on	on	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	reinforcing	reinforce	VERB	V	VerbForm=Ger	9	advcl	_	_
+13	the	the	DET	RD	Definite=Def|PronType=Art	14	det	_	_
+14	resolution	resolution	NOUN	S	Number=Sing	12	obj	_	_
+15	of	of	ADP	E	_	17	case	_	_
+16	his	his	DET	AP	Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	followers	follower	NOUN	S	Number=Plur	14	nmod	_	_
+18	by	by	ADP	E	_	20	case	_	_
+19	allegedly	allegedly	ADV	B	_	20	advmod	_	_
+20	unearthing	unearthing	ADJ	A	Degree=Pos	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	24	punct	_	_
+22	beneath	beneath	CCONJ	CC	_	24	cc	_	_
+23	the	the	DET	RD	Definite=Def|PronType=Art	24	det	_	_
+24	foundations	foundation	NOUN	S	Number=Plur	20	conj	_	_
+25	of	of	ADP	E	_	27	case	_	_
+26	the	the	DET	RD	Definite=Def|PronType=Art	27	det	_	_
+27	church	church	NOUN	S	Number=Sing	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	17	punct	_	_
+29	the	the	DET	RD	Definite=Def|PronType=Art	30	det	_	_
+30	bodies	body	NOUN	S	Number=Plur	17	appos	_	_
+31	of	of	ADP	E	_	34	case	_	_
+32	two	two	NUM	N	NumType=Card	34	nummod	_	_
+33	ancient	ancient	ADJ	A	Degree=Pos	34	amod	_	_
+34	martyrs	martyr	NOUN	S	Number=Plur	30	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 21
+# text = theodosius, the orthodox emperor of the east, interceded, forcing justina to again relent.
+1	theodosius	theodosius	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+4	orthodox	orthodox	ADJ	A	Degree=Pos	5	amod	_	_
+5	emperor	emperor	NOUN	S	Number=Sing	13	nmod	_	_
+6	of	of	ADP	E	_	8	case	_	_
+7	the	the	DET	RD	Definite=Def|PronType=Art	8	det	_	_
+8	east	east	NOUN	S	Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	interceded	intercede	VERB	V	Tense=Past|VerbForm=Part	5	acl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	forcing	force	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	13	acl	_	_
+13	justina	justina	NOUN	S	Number=Plur	0	root	_	_
+14	to	to	PART	PART	_	15	mark	_	_
+15	again	again	VERB	V	VerbForm=Inf	13	acl	_	_
+16	relent	relent	NOUN	S	Number=Sing	15	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 22
+# text = magnus maximus was to use the emperor's heterodoxy against him.
+1	magnus	magnus	PRON	PE	Number=Plur|Person=1|PronType=Prs	0	root	_	_
+2	maximus	maximus	PRON	PE	Number=Plur|Person=1|PronType=Prs	1	nmod	_	_
+3	was	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	cop	_	_
+4	to	to	PART	PART	_	5	mark	_	_
+5	use	use	VERB	V	VerbForm=Inf	1	csubj	_	_
+6	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+7	emperor	emperor	NOUN	S	Number=Sing	9	nmod	_	SpaceAfter=No
+8	's	's	PART	PART	_	7	case	_	_
+9	heterodoxy	heterodoxy	NOUN	S	Number=Sing	5	obj	_	_
+10	against	against	ADP	E	_	11	case	_	_
+11	him	he	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\s
+
+# sent_id = 23
+# text = valentinian also tried to restrain the despoiling of pagan temples in rome.
+1	valentinian	valentinian	AUX	VM	VerbForm=Inf	3	aux	_	_
+2	also	also	ADV	B	_	3	advmod	_	_
+3	tried	try	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+4	to	to	PART	PART	_	5	mark	_	_
+5	restrain	restrain	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+7	despoiling	despoiling	NOUN	S	Number=Sing	5	obj	_	_
+8	of	of	ADP	E	_	10	case	_	_
+9	pagan	pagan	ADJ	A	Degree=Pos	10	amod	_	_
+10	temples	temple	NOUN	S	Number=Plur	7	nmod	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	rome	rome	NOUN	S	Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 24
+# text = buoyed by this instruction, the pagan senators, led by aurelius symmachus, the prefect of rome, petitioned in 384 for the restoration of the altar of victory in the senate house, which had been removed by gratian in 382.
+1	buoyed	buoy	VERB	V	Tense=Past|VerbForm=Part	8	acl	_	_
+2	by	by	ADP	E	_	4	case	_	_
+3	this	this	DET	DD	Number=Sing|PronType=Dem	4	det	_	_
+4	instruction	instruction	NOUN	S	Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	the	the	DET	RD	Definite=Def|PronType=Art	8	det	_	_
+7	pagan	pagan	ADJ	A	Degree=Pos	8	amod	_	_
+8	senators	senator	NOUN	S	Number=Plur	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	led	lead	VERB	V	Tense=Past|VerbForm=Part	8	acl	_	_
+11	by	by	ADP	E	_	13	case	_	_
+12	aurelius	aurelius	ADJ	A	Degree=Pos	13	amod	_	_
+13	symmachus	symmachus	NOUN	S	Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	8	punct	_	_
+15	the	the	DET	RD	Definite=Def|PronType=Art	16	det	_	_
+16	prefect	prefect	NOUN	S	Number=Sing	8	appos	_	_
+17	of	of	ADP	E	_	18	case	_	_
+18	rome	rome	NOUN	S	Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	16	punct	_	_
+20	petitioned	petition	VERB	V	Tense=Past|VerbForm=Part	8	acl	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	384	384	NUM	N	NumType=Card	20	obl	_	_
+23	for	for	ADP	E	_	25	case	_	_
+24	the	the	DET	RD	Definite=Def|PronType=Art	25	det	_	_
+25	restoration	restoration	NOUN	S	Number=Sing	20	obl	_	_
+26	of	of	ADP	E	_	28	case	_	_
+27	the	the	DET	RD	Definite=Def|PronType=Art	28	det	_	_
+28	altar	altar	NOUN	S	Number=Sing	25	nmod	_	_
+29	of	of	ADP	E	_	30	case	_	_
+30	victory	victory	NOUN	S	Number=Sing	28	nmod	_	_
+31	in	in	ADP	E	_	34	case	_	_
+32	the	the	DET	RD	Definite=Def|PronType=Art	34	det	_	_
+33	senate	senate	ADJ	A	Degree=Pos	34	amod	_	_
+34	house	house	NOUN	S	Number=Sing	8	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	8	punct	_	_
+36	which	which	PRON	PR	PronType=Rel	39	nsubj:pass	_	_
+37	had	have	AUX	VA	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	39	aux	_	_
+38	been	be	AUX	VA	Tense=Past|VerbForm=Part	39	aux:pass	_	_
+39	removed	remove	VERB	V	Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+40	by	by	ADP	E	_	41	case	_	_
+41	gratian	gratian	NOUN	S	Number=Sing	39	obl	_	_
+42	in	in	ADP	E	_	43	case	_	_
+43	382	382	NUM	N	NumType=Card	39	obl	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 25
+# text = valentinian, at the insistence of ambrose, refused the request and, in so doing, rejected the traditions and rituals of pagan rome to which symmachus had appealed.
+1	valentinian	valentinian	NOUN	S	Number=Sing	9	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	at	at	ADP	E	_	5	case	_	_
+4	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+5	insistence	insistence	NOUN	S	Number=Sing	1	nmod	_	_
+6	of	of	ADP	E	_	7	case	_	_
+7	ambrose	ambrose	NOUN	S	Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	refused	refuse	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	11	det	_	_
+11	request	request	NOUN	S	Number=Sing	9	obj	_	_
+12	and	and	CCONJ	CC	_	18	cc	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	18	punct	_	_
+14	in	in	ADP	E	_	16	mark	_	_
+15	so	so	ADV	B	_	16	advmod	_	_
+16	doing	do	VERB	V	VerbForm=Ger	18	advcl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	rejected	reject	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+19	the	the	DET	RD	Definite=Def|PronType=Art	20	det	_	_
+20	traditions	traditions	NOUN	S	Number=Plur	18	obj	_	_
+21	and	and	CCONJ	CC	_	22	cc	_	_
+22	rituals	ritual	NOUN	S	Number=Plur	20	conj	_	_
+23	of	of	ADP	E	_	25	case	_	_
+24	pagan	pagan	ADJ	A	Degree=Pos	25	amod	_	_
+25	rome	rome	NOUN	S	Number=Sing	22	nmod	_	_
+26	to	to	ADP	E	_	27	case	_	_
+27	which	which	PRON	PR	PronType=Rel	30	obl	_	_
+28	symmachus	symmachus	PRON	PE	Number=Plur|Person=1|PronType=Prs	30	nsubj	_	_
+29	had	have	AUX	VA	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	30	aux	_	_
+30	appealed	appeal	VERB	V	Tense=Past|VerbForm=Part	25	acl:relcl	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 26
+# text = in 383, magnus maximus, commander of the armies in britain, declared himself emperor and established himself in gaul and hispania.
+1	in	in	ADP	E	_	2	case	_	_
+2	383	383	NUM	N	NumType=Card	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	magnus	magnus	PRON	PE	Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+5	maximus	maximus	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	commander	commander	ADP	E	_	10	case	_	_
+8	of	of	ADP	E	_	7	fixed	_	_
+9	the	the	DET	RD	Definite=Def|PronType=Art	10	det	_	_
+10	armies	army	NOUN	S	Number=Plur	5	obl	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	britain	britain	NOUN	S	Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	5	punct	_	_
+14	declared	declare	VERB	V	Tense=Past|VerbForm=Part	5	advcl	_	_
+15	himself	he	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nmod	_	_
+16	emperor	emperor	NOUN	S	Number=Sing	14	obj	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	established	establishe	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	14	conj	_	_
+19	himself	he	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	gaul	gaul	ADJ	A	Number=Sing	18	obl	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	hispania	hispania	X	X	_	21	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 27
+# text = gratian died while fleeing him.
+1	gratian	gratian	NOUN	S	Number=Sing	2	nsubj	_	_
+2	died	die	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	while	while	SCONJ	CS	_	4	mark	_	_
+4	fleeing	flee	VERB	V	VerbForm=Ger	2	advcl	_	_
+5	him	he	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 28
+# text = for a time the court of valentinian, through the mediation of ambrose, came to an accommodation with the usurper, and theodosius recognized maximus as co-emperor of the west.
+1	for	for	ADP	E	_	3	case	_	_
+2	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	3	det	_	_
+3	time	time	NOUN	S	Number=Sing	15	obl	_	_
+4	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+5	court	court	NOUN	S	Number=Sing	3	nmod	_	_
+6	of	of	ADP	E	_	7	case	_	_
+7	valentinian	valentinian	NOUN	S	Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	through	through	ADP	E	_	11	case	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	11	det	_	_
+11	mediation	mediation	NOUN	S	Number=Sing	15	obl	_	_
+12	of	of	ADP	E	_	13	case	_	_
+13	ambrose	ambrose	NOUN	S	Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	11	punct	_	_
+15	came	come	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16	to	to	ADP	E	_	18	case	_	_
+17	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	18	det	_	_
+18	accommodation	accommodation	NOUN	S	Number=Sing	15	obl	_	_
+19	with	with	ADP	E	_	21	case	_	_
+20	the	the	DET	RD	Definite=Def|PronType=Art	21	det	_	_
+21	usurper	usurper	NOUN	S	Number=Sing	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	25	punct	_	_
+23	and	and	CCONJ	CC	_	25	cc	_	_
+24	theodosius	theodosius	PRON	PE	Number=Plur|Person=1|PronType=Prs	25	nsubj	_	_
+25	recognized	recognized	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	15	conj	_	_
+26	maximus	maximus	ADJ	A	Degree=Pos	25	xcomp	_	_
+27	as	as	ADP	E	_	28	case	_	_
+28	co-emperor	co-emperor	NOUN	S	Number=Sing	25	obl	_	_
+29	of	of	ADP	E	_	31	case	_	_
+30	the	the	DET	RD	Definite=Def|PronType=Art	31	det	_	_
+31	west	west	NOUN	S	Number=Sing	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 29
+# text = in 386 or 387, maximus crossed the alps into the po valley and threatened milan.
+1	in	in	ADP	E	_	2	case	_	_
+2	386	386	NUM	N	NumType=Card	7	obl	_	_
+3	or	or	CCONJ	CC	_	4	cc	_	_
+4	387	387	NUM	N	NumType=Card	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	maximus	maximus	PRON	PE	Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+7	crossed	cross	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	the	the	DET	RD	Definite=Def|PronType=Art	9	det	_	_
+9	alps	alp	NOUN	S	Number=Plur	7	obj	_	_
+10	into	into	ADP	E	_	12	case	_	_
+11	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+12	po	po	NOUN	S	Number=Sing	7	obl	_	_
+13	valley	valley	NUM	N	NumType=Card	12	nummod	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	threatened	threaten	ADJ	A	Degree=Pos	16	amod	_	_
+16	milan	milan	NOUN	S	Number=Sing	12	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 30
+# text = valentinian ii and justina fled to theodosius in thessalonica.
+1	valentinian	valentinian	ADJ	A	Degree=Pos	2	amod	_	_
+2	ii	ii	NOUN	S	Number=Sing	5	nsubj	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	justina	justina	NOUN	S	Number=Sing	2	conj	_	_
+5	fled	flee	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	to	to	ADP	E	_	7	case	_	_
+7	theodosius	theodosius	PRON	PE	Number=Plur|Person=1|PronType=Prs	5	obl	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	thessalonica	thessalonica	NOUN	S	Number=Plur	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 31
+# text = the latter came to an agreement, cemented by his marriage to valentinian's sister galla, to restore the young emperor in the west.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	latter	latter	PRON	NO	NumType=Ord|PronType=Ind	3	nsubj	_	_
+3	came	come	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	to	to	ADP	E	_	6	case	_	_
+5	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	6	det	_	_
+6	agreement	agreement	NOUN	S	Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	cemented	cement	VERB	V	Tense=Past|VerbForm=Part	6	acl	_	_
+9	by	by	ADP	E	_	11	case	_	_
+10	his	his	DET	AP	Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	marriage	marriage	NOUN	S	Number=Sing	8	obl	_	_
+12	to	to	ADP	E	_	16	case	_	_
+13	valentinian	valentinian	NOUN	S	Number=Sing	16	nmod	_	SpaceAfter=No
+14	's	's	PART	PART	_	13	case	_	_
+15	sister	sister	NOUN	S	Number=Sing	16	nmod	_	_
+16	galla	galla	NOUN	S	Number=Sing	8	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	3	punct	_	_
+18	to	to	PART	PART	_	19	mark	_	_
+19	restore	restore	VERB	V	VerbForm=Inf	3	advcl	_	_
+20	the	the	DET	RD	Definite=Def|PronType=Art	22	det	_	_
+21	young	young	ADJ	A	Degree=Pos	22	amod	_	_
+22	emperor	emperor	NOUN	S	Number=Sing	19	obj	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	the	the	DET	RD	Definite=Def|PronType=Art	25	det	_	_
+25	west	west	NOUN	S	_	19	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\s
+
+# sent_id = 32
+# text = in 388, theodosius marched west and defeated maximus.
+1	in	in	ADP	E	_	2	case	_	_
+2	388	388	NUM	N	NumType=Card	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	theodosius	theodosius	PRON	PE	Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+5	marched	march	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	west	west	ADJ	A	Degree=Sup	5	obj	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	defeated	defeated	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+9	maximus	maximus	PRON	PE	Number=Plur|Person=1|PronType=Prs	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 33
+# text = although he was to appoint both of his sons emperor (arcadius in 383, honorius in 393), theodosius remained loyal to the dynasty of valentinian i. solidus minted by valentinian ii.
+1	although	although	SCONJ	CS	_	5	mark	_	_
+2	he	he	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	was	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	to	to	PART	PART	_	5	mark	_	_
+5	appoint	appoint	VERB	V	VerbForm=Inf	22	advcl	_	_
+6	both	both	CCONJ	CC	_	10	cc	_	_
+7	of	of	ADP	E	_	10	case	_	_
+8	his	his	DET	AP	Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+9	sons	son	ADJ	A	Degree=Pos	10	amod	_	_
+10	emperor	emperor	NOUN	S	Number=Sing	5	obl	_	_
+11	(	(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	arcadius	arcadius	PRON	PE	Number=Plur|Person=1|PronType=Prs	10	appos	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	383	383	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	honorius	honorius	PRON	PE	Number=Plur|Person=1|PronType=Prs	12	nmod	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	393	393	NUM	N	NumType=Card	16	nummod	_	SpaceAfter=No
+19	)	)	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	5	punct	_	_
+21	theodosius	theodosius	PRON	PE	Number=Plur|Person=1|PronType=Prs	22	nsubj	_	_
+22	remained	remain	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+23	loyal	loyal	ADJ	A	Degree=Pos	22	obj	_	_
+24	to	to	ADP	E	_	26	case	_	_
+25	the	the	DET	RD	Definite=Def|PronType=Art	26	det	_	_
+26	dynasty	dynasty	NOUN	S	Number=Sing	22	obl	_	_
+27	of	of	ADP	E	_	29	case	_	_
+28	valentinian	valentinian	ADJ	A	Degree=Pos	29	amod	_	_
+29	i	i	NOUN	S	Number=Sing	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	22	punct	_	SpacesAfter=\n\s
+31	solidus	solidus	PRON	PE	Number=Plur|Person=1|PronType=Prs	22	obj	_	_
+32	minted	mint	VERB	V	Tense=Past|VerbForm=Part	31	acl	_	_
+33	by	by	ADP	E	_	35	case	_	_
+34	valentinian	valentinian	ADJ	A	Degree=Pos	35	amod	_	_
+35	ii	ii	NOUN	S	Number=Sing	32	obl	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 34
+# text = on the reverse, both valentinian and theodosius i are celebrated as victorious.
+1	on	on	ADP	E	_	3	case	_	_
+2	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+3	reverse	reverse	NOUN	S	Number=Sing	11	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	both	both	CCONJ	CC	_	6	cc	_	_
+6	valentinian	valentinian	ADJ	A	Degree=Pos	3	conj	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	theodosius	theodosius	ADJ	A	Degree=Pos	9	amod	_	_
+9	i	i	NOUN	S	Number=Sing	3	conj	_	_
+10	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	celebrated	celebrate	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+12	as	as	ADP	E	_	13	case	_	_
+13	victorious	victorious	PRON	PE	Number=Plur|Person=1|PronType=Prs	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 35
+# text = after the defeat of maximus, theodosius remained in milan until 391.
+1	after	after	ADP	E	_	3	case	_	_
+2	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+3	defeat	defeat	NOUN	S	Number=Sing	8	obl	_	_
+4	of	of	ADP	E	_	5	case	_	_
+5	maximus	maximus	NOUN	S	Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	theodosius	theodosius	PRON	PE	Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+8	remained	remain	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	milan	milan	NOUN	S	Number=Sing	8	obl	_	_
+11	until	until	ADP	E	_	12	case	_	_
+12	391	391	NUM	N	NumType=Card	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 36
+# text = valentinian took no part in theodosius's triumphal celebrations over maximus.
+1	valentinian	valentinian	ADJ	A	Degree=Pos	2	amod	_	_
+2	took	take	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DI	PronType=Ind	4	det	_	_
+4	part	part	NOUN	S	Number=Sing	2	obj	_	_
+5	in	in	ADP	E	_	9	case	_	_
+6	theodosius	theodosius	PRON	PE	Number=Plur|Person=1|PronType=Prs	9	nmod	_	SpaceAfter=No
+7	's	's	PART	PART	_	6	case	_	_
+8	triumphal	triumphal	ADJ	A	Degree=Pos	9	amod	_	_
+9	celebrations	celebration	NOUN	S	Number=Plur	2	obl	_	_
+10	over	over	ADP	E	_	11	case	_	_
+11	maximus	maximus	PRON	PE	Number=Plur|Person=1|PronType=Prs	2	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 37
+# text = valentinian and his court were installed at vienne in gaul, while theodosius appointed key administrators in the west and had coins minted, which implied his guardianship over the 17-year-old.
+1	valentinian	valentinian	NOUN	S	Number=Sing	6	nsubj:pass	_	_
+2	and	and	CCONJ	CC	_	4	cc	_	_
+3	his	his	DET	AP	Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	court	court	NOUN	S	Number=Sing	1	conj	_	_
+5	were	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+6	installed	instal	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+7	at	at	ADP	E	_	8	case	_	_
+8	vienne	vienne	NOUN	S	Number=Sing	6	obl	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	gaul	gaul	NOUN	S	Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	while	while	SCONJ	CS	_	14	mark	_	_
+13	theodosius	theodosius	PRON	PE	Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
+14	appointed	appoint	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	6	advcl	_	_
+15	key	key	NOUN	S	Number=Sing	16	nmod	_	_
+16	administrators	administrator	NOUN	S	Number=Plur	14	obj	_	_
+17	in	in	ADP	E	_	22	case	_	_
+18	the	the	DET	RD	Definite=Def|PronType=Art	22	det	_	_
+19	west	west	ADJ	A	Degree=Sup	22	amod	_	_
+20	and	and	CCONJ	CC	_	22	cc	_	_
+21	had	have	ADJ	A	Degree=Pos	22	amod	_	_
+22	coins	coin	NOUN	S	Number=Plur	14	obl	_	_
+23	minted	mint	VERB	V	Tense=Past|VerbForm=Part	22	acl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	14	punct	_	_
+25	which	which	PRON	PR	PronType=Rel	26	nsubj	_	_
+26	implied	imply	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
+27	his	his	DET	AP	Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	guardianship	guardianship	NOUN	S	Number=Sing	26	obj	_	_
+29	over	over	ADP	E	_	35	case	_	_
+30	the	the	DET	RD	Definite=Def|PronType=Art	35	det	_	_
+31	17	17	NUM	N	NumType=Card	33	nummod	_	SpaceAfter=No
+32	-	-	PUNCT	FF	_	31	punct	_	SpaceAfter=No
+33	year	year	NOUN	S	Number=Sing	35	obl	_	SpaceAfter=No
+34	-	-	PUNCT	FF	_	33	punct	_	SpaceAfter=No
+35	old	old	ADJ	A	Degree=Pos	26	obl	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\s\s
+
+# sent_id = 38
+# text = justina had already died, and vienne was far away from the influence of ambrose.
+1	justina	justina	DET	RI	Definite=Ind|Number=Sing|PronType=Art	4	det	_	_
+2	had	have	AUX	VA	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	already	already	ADV	B	_	4	advmod	_	_
+4	died	die	VERB	V	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	10	punct	_	_
+6	and	and	CCONJ	CC	_	10	cc	_	_
+7	vienne	vienne	PRON	PE	Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+8	was	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+9	far	far	ADV	B	_	10	advmod	_	_
+10	away	away	ADV	B	_	13	advmod	_	_
+11	from	from	ADP	E	_	13	case	_	_
+12	the	the	DET	RD	Definite=Def|PronType=Art	13	det	_	_
+13	influence	influence	NOUN	S	Number=Sing	4	obl	_	_
+14	of	of	ADP	E	_	15	case	_	_
+15	ambrose	ambrose	NOUN	S	Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 39
+# text = theodosius's trusted general, the frank arbogast, was appointed magister militum for the western provinces (bar africa) and guardian of valentinian.
+1	theodosius	theodosius	PRON	PE	Number=Plur|Person=1|PronType=Prs	11	nsubj:pass	_	SpaceAfter=No
+2	's	's	PART	PART	_	1	case	_	_
+3	trusted	trust	VERB	V	Tense=Past|VerbForm=Part	1	acl	_	_
+4	general	general	ADJ	A	Degree=Pos	8	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	the	the	DET	RD	Definite=Def|PronType=Art	8	det	_	_
+7	frank	frank	ADJ	A	Degree=Pos	8	amod	_	_
+8	arbogast	arbogast	NOUN	S	Number=Sing	3	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
+11	appointed	appoint	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+12	magister	magister	ADV	B	Degree=Cmp	13	advmod	_	_
+13	militum	militum	NOUN	S	Number=Sing	11	xcomp	_	_
+14	for	for	ADP	E	_	17	case	_	_
+15	the	the	DET	RD	Definite=Def|PronType=Art	17	det	_	_
+16	western	western	ADJ	A	Degree=Pos	17	amod	_	_
+17	provinces	province	NOUN	S	Number=Plur	13	nmod	_	_
+18	(	(	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+19	bar	bar	CCONJ	CC	_	20	cc	_	_
+20	africa	africa	X	X	_	17	conj	_	SpaceAfter=No
+21	)	)	PUNCT	FB	_	20	punct	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	guardian	guardian	NOUN	S	Number=Sing	17	conj	_	_
+24	of	of	ADP	E	_	25	case	_	_
+25	valentinian	valentinian	NOUN	S	Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 40
+# text = acting in the name of valentinian, arbogast was actually subordinate only to theodosius.
+1	acting	acte	VERB	V	VerbForm=Ger	11	advcl	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+4	name	name	NOUN	S	Number=Sing	1	obl	_	_
+5	of	of	ADP	E	_	6	case	_	_
+6	valentinian	valentinian	NOUN	S	Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	arbogast	arbogast	ADV	B	_	11	advmod	_	_
+9	was	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+10	actually	actually	ADV	B	_	11	advmod	_	_
+11	subordinate	subordinate	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	only	only	ADV	B	_	14	advmod	_	_
+13	to	to	ADP	E	_	14	case	_	_
+14	theodosius	theodosius	PRON	PE	Number=Plur|Person=1|PronType=Prs	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 41
+# text = while the general campaigned successfully on the rhine, the young emperor remained at vienne, in contrast to his warrior father and his older brother, who had campaigned at his age.
+1	while	while	SCONJ	CS	_	4	mark	_	_
+2	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+3	general	full	ADJ	A	Degree=Pos	4	amod	_	_
+4	campaigned	campaign	VERB	V	Tense=Past|VerbForm=Part	12	advcl	_	_
+5	successfully	successfully	ADV	B	_	4	advmod	_	_
+6	on	on	ADP	E	_	8	case	_	_
+7	the	the	DET	RD	Definite=Def|PronType=Art	8	det	_	_
+8	rhine	rhine	NOUN	S	Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+11	young	young	ADJ	A	Degree=Pos	12	amod	_	_
+12	emperor	emperor	NOUN	S	Number=Sing	0	root	_	_
+13	remained	remain	VERB	V	Tense=Past|VerbForm=Part	12	acl	_	_
+14	at	at	ADP	E	_	15	case	_	_
+15	vienne	vienne	NOUN	S	Number=Sing	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	12	punct	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	contrast	contrast	NOUN	S	Number=Sing	12	nmod	_	_
+19	to	to	ADP	E	_	22	case	_	_
+20	his	his	DET	AP	Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+21	warrior	warrior	ADJ	A	Degree=Pos	22	amod	_	_
+22	father	father	NOUN	S	Number=Sing	18	nmod	_	_
+23	and	and	CCONJ	CC	_	26	cc	_	_
+24	his	his	DET	AP	Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+25	older	older	ADJ	A	Degree=Cmp	26	amod	_	_
+26	brother	brother	NOUN	S	Gender=Masc|Number=Sing	22	conj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	22	punct	_	_
+28	who	who	PRON	PR	PronType=Rel	30	nsubj	_	_
+29	had	have	AUX	VA	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	30	aux	_	_
+30	campaigned	campaign	VERB	V	Tense=Past|VerbForm=Part	22	acl:relcl	_	_
+31	at	at	ADP	E	_	33	case	_	_
+32	his	his	DET	AP	Poss=Yes|PronType=Prs	33	nmod:poss	_	_
+33	age	age	NOUN	S	Number=Sing	30	obl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 42
+# text = arbogast's domination over the emperor was considerable, and the general even murdered harmonius, a friend of valentinian suspected of taking bribes, in the emperor's presence.
+1	arbogast	arbogast	NOUN	S	Number=Sing	3	nmod	_	SpaceAfter=No
+2	's	's	PART	PART	_	1	case	_	_
+3	domination	domination	NOUN	S	Number=Sing	8	nsubj	_	_
+4	over	over	ADP	E	_	6	case	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+6	emperor	emperor	NOUN	S	Number=Sing	3	nmod	_	_
+7	was	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+8	considerable	considerable	ADJ	A	Degree=Pos	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	14	punct	_	_
+10	and	and	CCONJ	CC	_	14	cc	_	_
+11	the	the	DET	RD	Definite=Def|PronType=Art	14	det	_	_
+12	general	general	ADJ	A	Degree=Pos	14	amod	_	_
+13	even	even	ADV	B	_	14	advmod	_	_
+14	murdered	murder	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
+15	harmonius	harmonius	PRON	PE	Number=Plur|Person=1|PronType=Prs	14	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	14	punct	_	_
+17	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	18	det	_	_
+18	friend	friend	NOUN	S	Number=Sing	14	nsubj	_	_
+19	of	of	ADP	E	_	21	case	_	_
+20	valentinian	valentinian	ADJ	A	Degree=Pos	21	amod	_	_
+21	suspected	suspect	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	18	acl	_	_
+22	of	of	ADP	E	_	23	mark	_	_
+23	taking	take	VERB	V	VerbForm=Ger	21	advcl	_	_
+24	bribes	bribe	NOUN	S	Number=Plur	23	obj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	23	punct	_	_
+26	in	in	ADP	E	_	30	case	_	_
+27	the	the	DET	RD	Definite=Def|PronType=Art	28	det	_	_
+28	emperor	emperor	NOUN	S	Number=Sing	30	nmod	_	SpaceAfter=No
+29	's	's	PART	PART	_	28	case	_	_
+30	presence	presence	NOUN	S	Number=Sing	23	obl	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 43
+# text = the crisis reached a peak when arbogast prohibited the emperor from leading the gallic armies into italy to oppose a barbarian threat.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	crisis	crisis	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	reached	reach	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	5	det	_	_
+5	peak	peak	NOUN	S	Number=Sing	3	obj	_	_
+6	when	when	SCONJ	CS	_	8	mark	_	_
+7	arbogast	arbogast	ADV	B	Degree=Sup	8	advmod	_	_
+8	prohibited	prohibit	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	3	advcl	_	_
+9	the	the	DET	RD	Definite=Def|PronType=Art	10	det	_	_
+10	emperor	emperor	NOUN	S	Number=Sing	8	obj	_	_
+11	from	from	ADP	E	_	12	mark	_	_
+12	leading	lead	VERB	V	VerbForm=Ger	8	advcl	_	_
+13	the	the	DET	RD	Definite=Def|PronType=Art	15	det	_	_
+14	gallic	gallic	ADJ	A	Degree=Pos	15	amod	_	_
+15	armies	army	NOUN	S	Number=Plur	12	obj	_	_
+16	into	into	ADP	E	_	17	case	_	_
+17	italy	italy	ADV	B	_	12	advmod	_	_
+18	to	to	PART	PART	_	19	mark	_	_
+19	oppose	oppose	VERB	V	VerbForm=Inf	12	advcl	_	_
+20	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	22	det	_	_
+21	barbarian	barbarian	ADJ	A	Degree=Pos	22	amod	_	_
+22	threat	threat	NOUN	S	Number=Sing	19	obj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 44
+# text = valentinian, in response, formally dismissed arbogast.
+1	valentinian	valentinian	NOUN	S	Number=Sing	7	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	response	response	NOUN	S	Number=Sing	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	formally	formally	ADV	B	_	7	advmod	_	_
+7	dismissed	dismiss	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	arbogast	arbogast	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 45
+# text = the latter ignored the order, publicly tearing it up and arguing that valentinian had not appointed him in the first place.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	latter	latter	PRON	NO	NumType=Ord|PronType=Ind	3	nsubj	_	_
+3	ignored	ignore	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+5	order	order	NOUN	S	Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	publicly	publicly	ADV	B	_	8	advmod	_	_
+8	tearing	tear	VERB	V	VerbForm=Ger	3	conj	_	_
+9	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	up	up	ADV	B	_	8	compound:prt	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	arguing	argue	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	8	conj	_	_
+13	that	that	SCONJ	CS	_	17	mark	_	_
+14	valentinian	valentinian	ADJ	A	Degree=Pos	17	nsubj	_	_
+15	had	have	AUX	VA	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	17	aux	_	_
+16	not	not	PART	PART	Polarity=Neg	17	advmod	_	_
+17	appointed	appoint	VERB	V	Tense=Past|VerbForm=Part	12	ccomp	_	_
+18	him	he	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+19	in	in	ADP	E	_	22	case	_	_
+20	the	the	DET	RD	Definite=Def|PronType=Art	22	det	_	_
+21	first	first	ADJ	NO	Degree=Pos|NumType=Ord	22	amod	_	_
+22	place	place	NOUN	S	Number=Sing	17	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 46
+# text = the reality of where the power lay was openly displayed.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	reality	reality	NOUN	S	Number=Sing	0	root	_	_
+3	of	of	ADP	E	_	10	mark	_	_
+4	where	where	ADV	B	_	10	advmod	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+6	power	power	NOUN	S	Number=Sing	7	nmod	_	_
+7	lay	lay	NOUN	S	Number=Sing	10	nsubj:pass	_	_
+8	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
+9	openly	openly	ADV	B	_	10	advmod	_	_
+10	displayed	display	VERB	V	Tense=Past|VerbForm=Part	2	acl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 47
+# text = valentinian wrote to theodosius and ambrose complaining of his subordination to his general.
+1	valentinian	valentinian	ADJ	A	Degree=Pos	2	amod	_	_
+2	wrote	write	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	E	_	4	case	_	_
+4	theodosius	theodosius	PRON	PE	Number=Plur|Person=1|PronType=Prs	2	obl	_	_
+5	and	and	CCONJ	CC	_	7	cc	_	_
+6	ambrose	ambrose	DET	DD	Number=Plur|PronType=Dem	7	det	_	_
+7	complaining	complaining	NOUN	S	Number=Sing	4	conj	_	_
+8	of	of	ADP	E	_	10	case	_	_
+9	his	his	DET	AP	Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	subordination	subordination	NOUN	S	Number=Sing	7	nmod	_	_
+11	to	to	ADP	E	_	13	case	_	_
+12	his	his	DET	AP	Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	general	full	ADJ	A	Degree=Pos	7	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 48
+# text = in explicit rejection of his earlier arianism, he invited ambrose to come to vienne to baptize him.
+1	in	in	ADP	E	_	3	case	_	_
+2	explicit	explicit	ADJ	A	Degree=Pos	3	amod	_	_
+3	rejection	rejection	NOUN	S	Number=Sing	10	obl	_	_
+4	of	of	ADP	E	_	7	case	_	_
+5	his	his	DET	AP	Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+6	earlier	earlier	ADJ	A	Degree=Cmp	7	amod	_	_
+7	arianism	arianism	NOUN	S	Number=Sing	3	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	he	he	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	invited	invit	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	ambrose	ambrose	VERB	V	Mood=Imp|Person=2|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+12	to	to	PART	PART	_	13	mark	_	_
+13	come	come	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	to	to	PART	PART	_	15	mark	_	_
+15	vienne	vienne	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	to	to	PART	PART	_	17	mark	_	_
+17	baptize	baptize	VERB	V	VerbForm=Inf	15	xcomp	_	_
+18	him	he	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 49
+# text = on 15 may 392, valentinian was found hanged in his residence in vienne.
+1	on	on	ADP	E	_	2	case	_	_
+2	15	15	NUM	N	NumType=Card	8	obl	_	_
+3	may	may	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+4	392	392	NUM	N	NumType=Card	6	nummod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	valentinian	valentinian	NOUN	S	Number=Sing	8	nsubj:pass	_	_
+7	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	found	find	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+9	hanged	hang	VERB	V	Tense=Past|VerbForm=Part	8	xcomp	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	his	his	DET	AP	Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	residence	residence	NOUN	S	Number=Sing	9	obl	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	vienne	vienne	NOUN	S	Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 50
+# text = arbogast maintained that the emperor's death was suicide.
+1	arbogast	arbogast	ADV	B	_	2	advmod	_	_
+2	maintained	maintain	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	CS	_	9	mark	_	_
+4	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+5	emperor	emperor	NOUN	S	Number=Sing	7	nmod	_	SpaceAfter=No
+6	's	's	PART	PART	_	5	case	_	_
+7	death	death	NOUN	S	Number=Sing	9	nsubj	_	_
+8	was	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+9	suicide	suicide	ADJ	A	Degree=Pos	2	ccomp	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 51
+# text = most sources agree, however, that arbogast murdered him with his own hands, or paid the praetorians.
+1	most	most	ADV	B	_	2	advmod	_	_
+2	sources	source	NOUN	S	Number=Plur	3	nsubj	_	_
+3	agree	agree	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	however	however	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	that	that	SCONJ	CS	_	9	mark	_	_
+8	arbogast	arbogast	NOUN	S	Number=Sing	9	nsubj	_	_
+9	murdered	murder	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+10	him	he	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	with	with	ADP	E	_	14	case	_	_
+12	his	his	DET	AP	Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+13	own	own	ADJ	A	Degree=Pos	14	amod	_	_
+14	hands	hand	NOUN	S	Number=Plur	9	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	or	or	CCONJ	CC	_	17	cc	_	_
+17	paid	pay	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+18	the	the	DET	RD	Definite=Def|PronType=Art	19	det	_	_
+19	praetorians	praetorian	NOUN	S	Number=Plur	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 52
+# text = zosimus writing in the early sixth century from constantinople, states that arbogast had valentinian murdered;
+1	zosimus	zosimus	DET	DI	PronType=Ind	2	det	_	_
+2	writing	write	NOUN	S	Number=Sing	0	root	_	_
+3	in	in	ADP	E	_	7	case	_	_
+4	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+5	early	early	ADJ	A	Degree=Pos	6	amod	_	_
+6	sixth	sixth	NOUN	S	Number=Sing	7	nmod	_	_
+7	century	century	NOUN	S	Number=Sing	16	obl	_	_
+8	from	from	ADP	E	_	9	case	_	_
+9	constantinople	constantinople	NOUN	S	Number=Sing	16	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	states	state	NOUN	S	Number=Plur	16	nsubj:pass	_	_
+12	that	that	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	arbogast	arbogast	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14	had	have	AUX	VA	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	_
+15	valentinian	valentinian	AUX	VM	VerbForm=Inf	16	aux:pass	_	_
+16	murdered	murder	VERB	V	Tense=Past|VerbForm=Part	2	acl	_	SpaceAfter=No
+17	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 53
+# text = ancient authorities being divided in their opinion.
+1	ancient	ancient	ADJ	A	Degree=Pos	2	amod	_	_
+2	authorities	authority	NOUN	S	Number=Plur	4	nsubj:pass	_	_
+3	being	be	AUX	VA	Number=Sing|Tense=Pres|VerbForm=Part	4	aux:pass	_	_
+4	divided	divide	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	their	their	DET	AP	Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	opinion	opinion	NOUN	S	Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 54
+# text = ambrose's eulogy is the only contemporary western source for valentinian's death.
+1	ambrose	ambrose	NOUN	S	Number=Sing	3	nmod	_	SpaceAfter=No
+2	's	's	PART	PART	_	1	case	_	_
+3	eulogy	eulogy	NOUN	S	Number=Sing	9	nsubj	_	_
+4	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	9	det	_	_
+6	only	only	ADV	B	_	7	advmod	_	_
+7	contemporary	contemporary	ADJ	A	Degree=Pos	9	amod	_	_
+8	western	western	ADJ	A	Degree=Pos	9	amod	_	_
+9	source	source	NOUN	S	Number=Sing	0	root	_	_
+10	for	for	ADP	E	_	13	case	_	_
+11	valentinian	valentinian	NOUN	S	Number=Sing	13	nmod	_	SpaceAfter=No
+12	's	's	PART	PART	_	11	case	_	_
+13	death	death	NOUN	S	Number=Sing	9	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 55
+# text = it is ambiguous on the question of the emperor's death, which is not surprising, as ambrose represents him as a model of christian virtue.
+1	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	ambiguous	ambiguous	ADJ	A	Degree=Pos	0	root	_	_
+4	on	on	ADP	E	_	6	case	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+6	question	question	NOUN	S	Number=Sing	3	obl	_	_
+7	of	of	ADP	E	_	11	case	_	_
+8	the	the	DET	RD	Definite=Def|PronType=Art	9	det	_	_
+9	emperor	emperor	NOUN	S	Number=Sing	11	nmod	_	SpaceAfter=No
+10	's	's	PART	PART	_	9	case	_	_
+11	death	death	NOUN	S	Number=Sing	6	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	which	which	PRON	PR	PronType=Rel	16	nsubj	_	_
+14	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	not	not	PART	PART	Polarity=Neg	16	advmod	_	_
+16	surprising	surprising	ADJ	A	Degree=Pos	3	acl:relcl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	as	as	SCONJ	CS	_	20	mark	_	_
+19	ambrose	ambrose	PRON	PD	Number=Plur|PronType=Dem	20	nsubj	_	_
+20	represents	represent	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+21	him	he	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+22	as	as	ADP	E	_	24	case	_	_
+23	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	24	det	_	_
+24	model	model	NOUN	S	Number=Sing	20	obl	_	_
+25	of	of	ADP	E	_	27	case	_	_
+26	christian	christian	ADJ	A	Degree=Pos	27	amod	_	_
+27	virtue	virtue	NOUN	S	Number=Sing	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 56
+# text = suicide, not murder, would make the bishop dissemble on this key question.
+1	suicide	suicide	NOUN	S	Number=Sing	7	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	4	punct	_	_
+3	not	not	PART	PART	Polarity=Neg	4	advmod	_	_
+4	murder	murder	NOUN	S	Number=Sing	1	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	would	will	AUX	VM	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
+7	make	make	VERB	V	VerbForm=Inf	0	root	_	_
+8	the	the	DET	RD	Definite=Def|PronType=Art	9	det	_	_
+9	bishop	bishop	NOUN	S	Number=Sing	7	obj	_	_
+10	dissemble	dissemble	ADJ	A	Degree=Pos	7	xcomp	_	_
+11	on	on	ADP	E	_	14	case	_	_
+12	this	this	DET	DD	Number=Sing|PronType=Dem	14	det	_	_
+13	key	key	NOUN	S	Number=Sing	14	nmod	_	_
+14	question	question	NOUN	S	Number=Sing	7	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 57
+# text = the young man's body was conveyed in ceremony to milan for burial by ambrose, mourned by his sisters justa and grata.
+1	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+2	young	young	ADJ	A	Degree=Pos	5	amod	_	_
+3	man	man	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+4	's	's	PART	PART	_	3	case	_	_
+5	body	body	NOUN	S	Number=Sing	7	nsubj:pass	_	_
+6	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	conveyed	convey	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	ceremony	ceremony	NOUN	S	Number=Sing	7	obl	_	_
+10	to	to	ADP	E	_	11	case	_	_
+11	milan	milan	NOUN	S	Number=Sing	7	obl	_	_
+12	for	for	ADP	E	_	13	case	_	_
+13	burial	burial	NOUN	S	Number=Sing	11	nmod	_	_
+14	by	by	ADP	E	_	15	case	_	_
+15	ambrose	ambrose	NOUN	S	Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	7	punct	_	_
+17	mourned	mourned	VERB	V	Tense=Past|VerbForm=Part	7	acl	_	_
+18	by	by	ADP	E	_	21	case	_	_
+19	his	his	DET	AP	Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+20	sisters	sister	NOUN	S	Number=Plur	21	nmod	_	_
+21	justa	justum	NOUN	S	Number=Sing	17	obl	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	grata	gratum	NOUN	S	Number=Sing	21	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 58
+# text = he was laid in a porphyry sarcophagus next to his brother gratian, most probably in the chapel of sant'aquilino attached to san lorenzo.
+1	he	he	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	laid	lay	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	6	det	_	_
+6	porphyry	porphyry	NOUN	S	Number=Sing	3	obl	_	_
+7	sarcophagus	sarcophagus	ADP	E	_	8	case	_	_
+8	next	next	NOUN	S	Number=Sing	6	nmod	_	_
+9	to	to	ADP	E	_	12	case	_	_
+10	his	his	DET	AP	Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+11	brother	brother	ADJ	A	Degree=Pos	12	amod	_	_
+12	gratian	gratian	NOUN	S	Number=Sing	3	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	most	most	ADV	B	_	15	advmod	_	_
+15	probably	probably	ADV	B	_	3	advmod	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	the	the	DET	RD	Definite=Def|PronType=Art	18	det	_	_
+18	chapel	chapel	NOUN	S	Number=Sing	3	obl	_	_
+19	of	of	ADP	E	_	20	case	_	_
+20	sant	sant	NOUN	S	Number=Sing	18	nmod	_	SpaceAfter=No
+21	'	'	PART	PART	_	20	case	_	SpaceAfter=No
+22	aquilino	aquilino	ADV	B	_	23	advmod	_	_
+23	attached	attach	VERB	V	Tense=Past|VerbForm=Part	20	acl	_	_
+24	to	to	ADP	E	_	26	case	_	_
+25	san	san	DET	RI	Definite=Ind|Number=Sing|PronType=Art	26	det	_	_
+26	lorenzo	lorenzo	NOUN	S	Number=Sing	23	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 59
+# text = at first arbogast recognized theodosius's son arcadius as emperor in the west, seemingly surprised by his charge's death.
+1	at	at	ADP	E	_	3	case	_	_
+2	first	first	ADJ	NO	Degree=Pos|NumType=Ord	3	amod	_	_
+3	arbogast	arbogast	NOUN	S	Number=Sing	0	root	_	_
+4	recognized	recognize	VERB	V	Tense=Past|VerbForm=Part	3	acl	_	_
+5	theodosius	theodosius	PRON	PE	Number=Plur|Person=1|PronType=Prs	7	nmod	_	SpaceAfter=No
+6	's	's	PART	PART	_	5	case	_	_
+7	son	son	NOUN	S	Number=Sing	4	obj	_	_
+8	arcadius	arcadius	CCONJ	CC	_	10	cc	_	_
+9	as	as	ADP	E	_	10	case	_	_
+10	emperor	emperor	NOUN	S	Number=Sing	7	conj	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	the	the	DET	RD	Definite=Def|PronType=Art	13	det	_	_
+13	west	west	NOUN	S	Number=Sing	3	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	seemingly	seemingly	ADV	B	_	16	advmod	_	_
+16	surprised	surprize	VERB	V	Tense=Past|VerbForm=Part	3	acl	_	_
+17	by	by	ADP	E	_	21	case	_	_
+18	his	his	DET	AP	Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	charge	charge	NOUN	S	Number=Sing	21	nmod	_	SpaceAfter=No
+20	's	's	PART	PART	_	19	case	_	_
+21	death	death	NOUN	S	Number=Sing	16	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\s
+
+# sent_id = 60
+# text = after three months, during which he had no communication from theodosius, arbogast selected an imperial official, eugenius, as emperor.
+1	after	after	ADP	E	_	3	case	_	_
+2	three	three	NUM	N	NumType=Card	3	nummod	_	_
+3	months	months	NOUN	S	Number=Plur	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	during	during	ADP	E	_	6	case	_	_
+6	which	which	PRON	PR	PronType=Rel	3	nmod	_	_
+7	he	he	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	had	have	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	no	no	DET	DI	PronType=Ind	10	det	_	_
+10	communication	communication	NOUN	S	Number=Sing	8	obj	_	_
+11	from	from	ADP	E	_	12	case	_	_
+12	theodosius	theodosius	PRON	PE	Number=Plur|Person=1|PronType=Prs	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	arbogast	arbogast	ADV	B	Degree=Sup	15	advmod	_	_
+15	selected	select	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
+16	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	18	det	_	_
+17	imperial	imperial	ADJ	A	Degree=Pos	18	amod	_	_
+18	official	official	ADJ	A	Degree=Pos	15	xcomp	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	eugenius	eugenius	CCONJ	CC	_	18	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	23	punct	_	_
+22	as	as	SCONJ	CS	_	23	mark	_	_
+23	emperor	emperor	NOUN	S	Number=Sing	20	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 61
+# text = theodosius initially tolerated this regime but, in january 393, elevated the eight-year-old honorius as ''augustus'' to succeed valentinian ii.
+1	theodosius	theodosius	PRON	PE	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	initially	initially	ADV	B	_	3	advmod	_	_
+3	tolerated	tolerate	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	this	this	DET	DD	Number=Sing|PronType=Dem	5	det	_	_
+5	regime	regime	NOUN	S	Number=Sing	3	obj	_	_
+6	but	but	CCONJ	CC	_	9	cc	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	january	january	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+10	393	393	NUM	N	NumType=Card	9	nummod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	elevated	elevate	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+13	the	the	DET	RD	Definite=Def|PronType=Art	19	det	_	_
+14	eight	eight	NUM	N	NumType=Card	16	nummod	_	SpaceAfter=No
+15	-	-	PUNCT	FF	_	16	punct	_	SpaceAfter=No
+16	year	year	NOUN	S	Number=Sing	18	obl	_	SpaceAfter=No
+17	-	-	PUNCT	FF	_	18	punct	_	SpaceAfter=No
+18	old	old	ADJ	A	Degree=Pos	19	amod	_	_
+19	honorius	honorius	NOUN	S	Number=Sing	12	obj	_	_
+20	as	as	ADP	E	_	23	mark	_	_
+21	'	'	PART	PART	_	20	case	_	SpaceAfter=No
+22	'	'	PART	PART	_	20	fixed	_	SpaceAfter=No
+23	augustus	augustus	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	12	advcl	_	SpaceAfter=No
+24	'	'	PART	PART	_	23	case	_	SpaceAfter=No
+25	'	'	PART	PART	_	23	compound:prt	_	_
+26	to	to	PART	PART	_	27	mark	_	_
+27	succeed	succeed	VERB	V	VerbForm=Inf	23	xcomp	_	_
+28	valentinian	valentinian	ADJ	A	Degree=Pos	29	amod	_	_
+29	ii	ii	NOUN	S	Number=Sing	27	obj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 62
+# text = civil war ensued and, in 394, theodosius defeated eugenius and arbogast at the battle of frigidus river.
+1	civil	civil	ADJ	A	Degree=Pos	2	amod	_	_
+2	war	war	NOUN	S	Number=Sing	3	nsubj	_	_
+3	ensued	ensue	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+4	and	and	CCONJ	CC	_	10	cc	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	10	punct	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	394	394	NUM	N	NumType=Card	10	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	theodosius	theodosius	PRON	PE	Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+10	defeated	defeate	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+11	eugenius	eugenius	PRON	PE	Number=Plur|Person=1|PronType=Prs	10	obj	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	arbogast	arbogast	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	10	conj	_	_
+14	at	at	ADP	E	_	16	case	_	_
+15	the	the	DET	RD	Definite=Def|PronType=Art	16	det	_	_
+16	battle	battle	NOUN	S	Number=Sing	13	obl	_	_
+17	of	of	ADP	E	_	19	case	_	_
+18	frigidus	frigidus	ADJ	A	Degree=Pos	19	amod	_	_
+19	river	river	NOUN	S	Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\s
+
+# sent_id = 63
+# text = valentinian himself seems to have exercised no real authority, and was a figurehead for various powerful interests:
+1	valentinian	valentinian	SCONJ	CS	_	3	mark	_	_
+2	himself	him	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	seems	seem	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	to	to	PART	PART	_	6	mark	_	_
+5	have	have	AUX	VA	VerbForm=Inf	6	aux	_	_
+6	exercised	exercise	VERB	V	Tense=Past|VerbForm=Part	3	ccomp	_	_
+7	no	no	DET	DI	PronType=Ind	9	det	_	_
+8	real	real	ADJ	A	Degree=Pos	9	amod	_	_
+9	authority	authority	NOUN	S	Number=Sing	6	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	14	punct	_	_
+11	and	and	CCONJ	CC	_	14	cc	_	_
+12	was	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	_
+13	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	14	det	_	_
+14	figurehead	figurehead	NOUN	S	Number=Sing	3	conj	_	_
+15	for	for	ADP	E	_	18	case	_	_
+16	various	various	ADJ	A	Degree=Pos	18	amod	_	_
+17	powerful	powerful	ADJ	A	Degree=Pos	18	amod	_	_
+18	interests	interest	NOUN	S	Number=Plur	14	nmod	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 64
+# text = his mother, his co-emperors, and powerful generals.
+1	his	his	DET	AP	Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	mother	mother	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	his	his	DET	AP	Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	co-emperors	co-emperor	NOUN	S	Number=Plur	2	appos	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	powerful	powerful	ADJ	A	Degree=Pos	9	amod	_	_
+9	generals	generals	NOUN	S	Number=Plur	5	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 65
+# text = since the crisis of the third century the empire had been ruled by powerful generals, a situation formalised by diocletian and his collegiate system which collapsed a year after his death in 305.
+1	since	since	ADP	E	_	3	case	_	_
+2	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+3	crisis	crisis	NOUN	S	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+4	of	of	ADP	E	_	7	case	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+6	third	third	ADJ	NO	Degree=Pos|NumType=Ord	7	amod	_	_
+7	century	century	NOUN	S	Number=Sing	9	nmod	_	_
+8	the	the	DET	RD	Definite=Def|PronType=Art	9	det	_	_
+9	empire	empire	NOUN	S	Number=Sing	3	nmod	_	_
+10	had	have	AUX	VA	Tense=Past|VerbForm=Part	12	aux	_	_
+11	been	be	AUX	VA	Tense=Past|VerbForm=Part	12	aux:pass	_	_
+12	ruled	rule	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+13	by	by	ADP	E	_	15	case	_	_
+14	powerful	powerful	ADJ	A	Degree=Pos	15	amod	_	_
+15	generals	general	NOUN	S	Number=Plur	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	12	punct	_	_
+17	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	18	det	_	_
+18	situation	situation	NOUN	S	Number=Sing	12	appos	_	_
+19	formalised	formalize	VERB	V	Tense=Past|VerbForm=Part	18	acl	_	_
+20	by	by	ADP	E	_	21	case	_	_
+21	diocletian	diocletian	NOUN	S	Number=Sing	19	obl	_	_
+22	and	and	CCONJ	CC	_	25	cc	_	_
+23	his	his	DET	AP	Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+24	collegiate	collegiate	ADJ	A	Degree=Pos	25	amod	_	_
+25	system	system	NOUN	S	Number=Sing	21	conj	_	_
+26	which	which	PRON	PR	PronType=Rel	27	nsubj	_	_
+27	collapsed	collapse	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	25	acl:relcl	_	_
+28	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	29	det	_	_
+29	year	year	NOUN	S	Number=Sing	27	obj	_	_
+30	after	after	ADP	E	_	32	case	_	_
+31	his	his	DET	AP	Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+32	death	death	NOUN	S	Number=Sing	27	obl	_	_
+33	in	in	ADP	E	_	34	case	_	_
+34	305	305	NUM	N	NumType=Card	27	obl	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 66
+# text = while constantine i and his sons while strong military figures re-established the practice of hereditary succession adopted by valentinian i. the obvious flaw in these two competing requirements came in the reign of valentinian ii, a child.
+1	while	while	SCONJ	CS	_	11	mark	_	_
+2	constantine	constantine	ADJ	A	Degree=Pos	3	amod	_	_
+3	i	i	NOUN	S	Number=Sing	11	nsubj	_	_
+4	and	and	CCONJ	CC	_	6	cc	_	_
+5	his	his	DET	AP	Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	sons	son	NOUN	S	Number=Plur	3	conj	_	_
+7	while	while	SCONJ	CS	_	11	mark	_	_
+8	strong	strong	ADJ	A	Degree=Pos	10	amod	_	_
+9	military	military	ADJ	A	Degree=Pos	10	amod	_	_
+10	figures	figure	NOUN	S	Number=Plur	11	nsubj	_	_
+11	re-established	re-establish	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	30	advcl	_	_
+12	the	the	DET	RD	Definite=Def|PronType=Art	13	det	_	_
+13	practice	practice	NOUN	S	Number=Sing	11	obj	_	_
+14	of	of	ADP	E	_	16	case	_	_
+15	hereditary	hereditary	ADJ	A	Degree=Pos	16	amod	_	_
+16	succession	succession	NOUN	S	Number=Sing	13	nmod	_	_
+17	adopted	adopt	VERB	V	Tense=Past|VerbForm=Part	16	acl	_	_
+18	by	by	ADP	E	_	20	case	_	_
+19	valentinian	valentinian	ADJ	A	Degree=Pos	20	amod	_	_
+20	i	i	NOUN	S	Number=Sing	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	11	punct	_	_
+22	the	the	DET	RD	Definite=Def|PronType=Art	24	det	_	_
+23	obvious	obvious	ADJ	A	Degree=Pos	24	amod	_	_
+24	flaw	flaw	NOUN	S	Number=Sing	30	nsubj	_	_
+25	in	in	ADP	E	_	29	case	_	_
+26	these	this	DET	DD	Number=Plur|PronType=Dem	29	det	_	_
+27	two	two	NUM	N	NumType=Card	29	nummod	_	_
+28	competing	competing	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	29	acl	_	_
+29	requirements	requirement	NOUN	S	Number=Plur	24	nmod	_	_
+30	came	come	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+31	in	in	ADP	E	_	33	case	_	_
+32	the	the	DET	RD	Definite=Def|PronType=Art	33	det	_	_
+33	reign	reign	NOUN	S	Number=Sing	30	obl	_	_
+34	of	of	ADP	E	_	39	case	_	_
+35	valentinian	valentinian	ADJ	A	Degree=Pos	39	amod	_	_
+36	ii	ii	ADJ	NO	Degree=Pos|NumType=Ord	39	amod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	36	punct	_	_
+38	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	39	det	_	_
+39	child	child	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	30	punct	_	_
+
+# sent_id = 67
+# text = his reign was a harbinger of the fifth century, when children or nonentities, reigning as emperors, were controlled by powerful generals and officials in the west and in the east until mid-century.
+1	his	his	DET	AP	Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	reign	reign	NOUN	S	Number=Sing	5	nsubj	_	_
+3	was	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	5	det	_	_
+5	harbinger	harbinger	NOUN	S	Number=Sing	0	root	_	_
+6	of	of	ADP	E	_	9	case	_	_
+7	the	the	DET	RD	Definite=Def|PronType=Art	9	det	_	_
+8	fifth	fifth	ADJ	NO	Degree=Pos|NumType=Ord	9	amod	_	_
+9	century	century	NOUN	S	Number=Sing	5	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	when	when	SCONJ	CS	_	21	mark	_	_
+12	children	child	NOUN	S	Gender=Masc|Number=Plur	21	nsubj:pass	_	_
+13	or	or	CCONJ	CC	_	14	cc	_	_
+14	nonentities	nonentity	NOUN	S	Number=Plur	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	reigning	reign	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	12	acl	_	_
+17	as	as	ADP	E	_	18	case	_	_
+18	emperors	emperor	NOUN	S	Number=Plur	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	12	punct	_	_
+20	were	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	21	aux:pass	_	_
+21	controlled	control	VERB	V	Tense=Past|VerbForm=Part	5	acl	_	_
+22	by	by	ADP	E	_	24	case	_	_
+23	powerful	powerful	ADJ	A	Degree=Pos	24	amod	_	_
+24	generals	general	NOUN	S	Number=Plur	21	obl	_	_
+25	and	and	CCONJ	CC	_	26	cc	_	_
+26	officials	official	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	_
+27	in	in	ADP	E	_	29	case	_	_
+28	the	the	DET	RD	Definite=Def|PronType=Art	29	det	_	_
+29	west	west	ADJ	A	Degree=Sup	26	obl	_	_
+30	and	and	CCONJ	CC	_	33	cc	_	_
+31	in	in	ADP	E	_	33	case	_	_
+32	the	the	DET	RD	Definite=Def|PronType=Art	33	det	_	_
+33	east	east	NOUN	S	Number=Sing	29	conj	_	_
+34	until	until	ADP	E	_	37	case	_	_
+35	mid	mid	ADJ	A	Degree=Pos	37	amod	_	SpaceAfter=No
+36	-	-	PUNCT	FF	_	35	punct	_	SpaceAfter=No
+37	century	century	NOUN	S	Number=Sing	33	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\s
+
+# sent_id = 68
+# text = *list of unsolved deaths * . * * * . this list of roman laws of the fourth century shows laws passed by valentinian ii relating to christianity.
+1	*	*	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+2	list	list	NOUN	S	Number=Sing	21	obl	_	_
+3	of	of	ADP	E	_	5	case	_	_
+4	unsolved	unsolved	ADJ	A	Degree=Pos	5	amod	_	_
+5	deaths	death	NOUN	S	Number=Plur	2	nmod	_	SpacesAfter=\n\s\n\s\n\s
+6	*	*	PUNCT	FF	_	5	punct	_	_
+7	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+8	*	*	PUNCT	FF	_	2	punct	_	SpacesAfter=\s\n
+9	*	*	PUNCT	FF	_	2	punct	_	SpacesAfter=\n\s\n
+10	*	*	PUNCT	FF	_	2	punct	_	_
+11	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\s
+12	this	this	DET	DD	Number=Sing|PronType=Dem	13	det	_	_
+13	list	list	NOUN	S	Number=Sing	21	nsubj	_	_
+14	of	of	ADP	E	_	16	case	_	_
+15	roman	roman	ADJ	A	Degree=Pos	16	amod	_	_
+16	laws	law	NOUN	S	Number=Plur	13	nmod	_	_
+17	of	of	ADP	E	_	20	case	_	_
+18	the	the	DET	RD	Definite=Def|PronType=Art	20	det	_	_
+19	fourth	fourth	ADJ	A	Degree=Pos	20	amod	_	_
+20	century	century	NOUN	S	Number=Sing	16	nmod	_	_
+21	shows	show	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+22	laws	law	NOUN	S	Number=Plur	21	obj	_	_
+23	passed	passe	VERB	V	Tense=Past|VerbForm=Part	22	acl	_	_
+24	by	by	ADP	E	_	26	case	_	_
+25	valentinian	valentinian	ADJ	A	Degree=Pos	26	amod	_	_
+26	ii	ii	NOUN	S	Number=Sing	23	obl	_	_
+27	relating	relate	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	26	acl	_	_
+28	to	to	ADP	E	_	29	case	_	_
+29	christianity	christianity	NOUN	S	Number=Sing	27	obl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	21	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 69
+# text = * . * . * .
+1	*	*	PUNCT	FF	_	0	root	_	_
+2	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+3	*	*	PUNCT	FF	_	1	punct	_	_
+4	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+5	*	*	PUNCT	FF	_	1	punct	_	_
+6	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

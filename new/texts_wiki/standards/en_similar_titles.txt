@@ -1,0 +1,54 @@
+axon.conllu	coma.conllu
+allergy.conllu	cholera.conllu
+aluminium.conllu	beryllium.conllu
+anagrams.conllu	anachronism.conllu
+anachronism.conllu	anagrams.conllu
+anemia.conllu	blood.conllu
+arabic alphabet.conllu	anagrams.conllu
+artery.conllu	blood.conllu
+benevento.conllu	valentinian i.conllu
+gasoline.conllu	aluminium.conllu
+beryl.conllu	geology.conllu
+beryllium.conllu	aluminium.conllu
+biome.conllu	ecosystem.conllu
+biosphere.conllu	ecosystem.conllu
+biotechnology.conllu	chemistry.conllu
+blog.conllu	arabic alphabet.conllu
+boolean algebra (structure).conllu	chemistry.conllu
+boomerang.conllu	gravity.conllu
+valentinian i.conllu	valentinian ii.conllu
+valentinian ii.conllu	valentinian i.conllu
+valentinian iii.conllu	valentinian i.conllu
+aquarius (constellation).conllu	gospel of john.conllu
+geology.conllu	geomorphology.conllu
+geomorphology.conllu	geology.conllu
+gravity.conllu	boomerang.conllu
+blood type.conllu	blood.conllu
+gospel of john.conllu	gospel of luke.conllu
+gospel of luke.conllu	gospel of mark.conllu
+gospel of mark.conllu	gospel of john.conllu
+jasmine.conllu	eucalyptus.conllu
+turkey (bird).conllu	cat.conllu
+toy story.conllu	aquarius (constellation).conllu
+calorie.conllu	cholesterol.conllu
+coma.conllu	epilepsy.conllu
+cat.conllu	arctic fox.conllu
+blood.conllu	blood pressure.conllu
+blood pressure.conllu	blood.conllu
+forest.conllu	ecosystem.conllu
+arctic fox.conllu	cat.conllu
+fruit.conllu	jasmine.conllu
+alcohol.conllu	chemistry.conllu
+fossil.conllu	geology.conllu
+chemical reaction.conllu	chemistry.conllu
+chemical element.conllu	chemistry.conllu
+chemistry.conllu	chemical element.conllu
+cholera.conllu	allergy.conllu
+cholesterol.conllu	calorie.conllu
+eucalyptus.conllu	forest.conllu
+ecosystem.conllu	biome.conllu
+electric motor.conllu	gasoline.conllu
+electrolysis.conllu	chemistry.conllu
+electron.conllu	electrolysis.conllu
+epidemiology.conllu	cholera.conllu
+epilepsy.conllu	coma.conllu

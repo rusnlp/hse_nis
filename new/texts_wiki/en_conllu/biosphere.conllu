@@ -1,0 +1,2112 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = a false-color composite of global oceanic and terrestrial photoautotroph abundance, from september 2001 to august 2017.
+1	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	5	det	_	_
+2	false	false	NOUN	S	Number=Sing	4	nmod	_	SpaceAfter=No
+3	-	-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+4	color	color	NOUN	S	Number=Sing	5	nmod	_	_
+5	composite	composite	NOUN	S	Number=Sing	0	root	_	_
+6	of	of	ADP	E	_	12	case	_	_
+7	global	global	ADJ	A	Degree=Pos	8	amod	_	_
+8	oceanic	oceanic	ADJ	A	Degree=Pos	11	amod	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	terrestrial	terrestrial	ADJ	A	Degree=Pos	8	conj	_	_
+11	photoautotroph	photoautotroph	NOUN	S	Number=Sing	12	nmod	_	_
+12	abundance	abundance	NOUN	S	Number=Sing	5	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	5	punct	_	_
+14	from	from	ADP	E	_	15	case	_	_
+15	september	september	NOUN	S	Number=Sing	5	nmod	_	_
+16	2001	2001	NUM	N	NumType=Card	15	nummod	_	_
+17	to	to	PART	PART	_	18	mark	_	_
+18	august	august	VERB	V	VerbForm=Inf	5	acl	_	_
+19	2017	2017	NUM	N	NumType=Card	18	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = provided by the seawifs project, nasa/goddard space flight center and orbimage.
+1	provided	provide	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+2	by	by	ADP	E	_	5	case	_	_
+3	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+4	seawifs	seawif	NOUN	S	Number=Plur	5	nmod	_	SpacesAfter=\n\s
+5	project	project	NOUN	S	Number=Sing	1	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	nasa	nasa	X	X	_	5	conj	_	SpaceAfter=No
+8	/	/	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+9	goddard	goddard	ADJ	A	Degree=Pos	12	amod	_	_
+10	space	space	NOUN	S	Number=Sing	12	nmod	_	_
+11	flight	flay	NOUN	S	Number=Sing	12	nmod	_	_
+12	center	center	NOUN	S	Number=Sing	5	conj	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	orbimage	orbimage	NOUN	S	Number=Sing	5	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = the '''biosphere''' (from greek βίος ''bíos'' "life" and σφαῖρα ''sphaira'' "sphere") also known as the '''ecosphere''' (from greek οἶκος ''oîkos'' "environment" and σφαῖρα), is the worldwide sum of all ecosystems.
+1	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+2	'	'	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+3	'	'	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+4	'	'	PART	PART	_	3	case	_	SpaceAfter=No
+5	biosphere	biosphere	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	'	'	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	'	'	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+8	'	'	PUNCT	FB	_	5	punct	_	_
+9	(	(	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+10	from	from	ADP	E	_	18	case	_	_
+11	greek	greek	ADJ	A	Degree=Pos	12	amod	_	_
+12	βίος	βίος	NOUN	S	Number=Sing	14	nmod	_	_
+13	'	'	PART	PART	_	12	case	_	SpaceAfter=No
+14	'bíos	'bío	NOUN	S	Number=Plur	18	nmod	_	SpaceAfter=No
+15	'	'	PART	PART	_	14	case	_	SpaceAfter=No
+16	'	'	PART	PART	_	14	case	_	_
+17	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+18	life	life	NOUN	S	Number=Sing	5	obl	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	24	punct	_	_
+20	and	and	CCONJ	CC	_	24	cc	_	_
+21	σφαῖρα	σφαῖρα	NOUN	S	Number=Sing	24	nmod	_	_
+22	'	'	PART	PART	_	21	case	_	SpaceAfter=No
+23	'	'	PART	PART	_	21	case	_	SpaceAfter=No
+24	sphaira	sphaira	NOUN	S	Number=Sing	18	conj	_	SpaceAfter=No
+25	'	'	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+26	'	'	PUNCT	FB	_	24	punct	_	_
+27	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+28	sphere	sphere	PRON	_	_	24	nmod	_	SpaceAfter=No
+29	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+30	)	)	PUNCT	FB	_	24	punct	_	_
+31	also	also	ADV	B	_	32	advmod	_	_
+32	known	know	ADJ	A	Degree=Pos	18	amod	_	_
+33	as	as	ADP	E	_	38	mark	_	_
+34	the	the	DET	RD	Definite=Def|PronType=Art	38	det	_	_
+35	'	'	PUNCT	FB	_	34	punct	_	SpaceAfter=No
+36	'	'	PUNCT	FB	_	34	punct	_	SpaceAfter=No
+37	'	'	PART	PART	_	38	mark	_	SpaceAfter=No
+38	ecosphere	ecosphere	VERB	V	VerbForm=Inf	32	advcl	_	SpaceAfter=No
+39	'	'	PUNCT	FB	_	38	punct	_	SpaceAfter=No
+40	'	'	PUNCT	FB	_	38	punct	_	SpaceAfter=No
+41	'	'	PUNCT	FB	_	38	punct	_	_
+42	(	(	PUNCT	FB	_	52	punct	_	SpaceAfter=No
+43	from	from	ADP	E	_	52	case	_	_
+44	greek	greek	ADJ	A	Degree=Pos	45	amod	_	_
+45	οἶκος	οἶκος	NOUN	S	Number=Sing	48	nmod	_	_
+46	'	'	PART	PART	_	45	case	_	SpaceAfter=No
+47	'	'	PART	PART	_	45	case	_	SpaceAfter=No
+48	oîkos	oîko	NOUN	S	Number=Plur	52	nmod	_	SpaceAfter=No
+49	'	'	PART	PART	_	48	case	_	SpaceAfter=No
+50	'	'	PART	PART	_	48	case	_	_
+51	"	"	PUNCT	FB	_	52	punct	_	SpaceAfter=No
+52	environment	environment	NOUN	S	Number=Sing	38	obl	_	SpaceAfter=No
+53	"	"	PUNCT	FB	_	52	punct	_	_
+54	and	and	CCONJ	CC	_	55	cc	_	_
+55	σφαῖρα	σφαῖρα	NOUN	S	Number=Sing	52	conj	_	SpaceAfter=No
+56	)	)	PUNCT	FB	_	52	punct	_	SpaceAfter=No
+57	,	,	PUNCT	FF	_	38	punct	_	_
+58	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	61	cop	_	_
+59	the	the	DET	RD	Definite=Def|PronType=Art	61	det	_	_
+60	worldwide	worldwide	ADJ	A	Degree=Pos	61	amod	_	_
+61	sum	sum	NOUN	S	Number=Sing	32	nsubj	_	_
+62	of	of	ADP	E	_	64	case	_	_
+63	all	all	DET	T	PronType=Tot	64	det	_	_
+64	ecosystems	ecosystem	NOUN	S	Number=Plur	61	nmod	_	SpaceAfter=No
+65	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = it can also be termed the zone of life on earth, a closed system (apart from solar and cosmic radiation and heat from the interior of the earth), and largely self-regulating.
+1	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	5	nsubj:pass	_	_
+2	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	also	also	ADV	B	_	5	advmod	_	_
+4	be	be	AUX	VA	VerbForm=Inf	5	aux:pass	_	_
+5	termed	term	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+6	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+7	zone	zone	NOUN	S	Number=Sing	5	obl	_	_
+8	of	of	ADP	E	_	9	case	_	_
+9	life	life	NOUN	S	Number=Sing	7	nmod	_	_
+10	on	on	ADP	E	_	11	case	_	_
+11	earth	earth	NOUN	S	Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	15	det	_	_
+14	closed	closed	ADJ	A	Degree=Pos	15	amod	_	_
+15	system	system	NOUN	S	Number=Sing	5	obl	_	_
+16	(	(	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+17	apart	apart	ADV	B	_	22	advmod	_	_
+18	from	from	ADP	E	_	22	case	_	_
+19	solar	solar	ADJ	A	Degree=Pos	22	amod	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	cosmic	cosmic	ADJ	A	Degree=Pos	19	conj	_	_
+22	radiation	radiation	NOUN	S	Number=Sing	15	nmod	_	_
+23	and	and	CCONJ	CC	_	24	cc	_	_
+24	heat	heat	NOUN	S	Number=Sing	22	conj	_	_
+25	from	from	ADP	E	_	27	case	_	_
+26	the	the	DET	RD	Definite=Def|PronType=Art	27	det	_	_
+27	interior	interior	NOUN	S	Number=Sing	22	nmod	_	SpacesAfter=\s\n
+28	of	of	ADP	E	_	30	case	_	_
+29	the	the	DET	RD	Definite=Def|PronType=Art	30	det	_	_
+30	earth	earth	NOUN	S	Number=Sing	27	nmod	_	SpaceAfter=No
+31	)	)	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	35	punct	_	_
+33	and	and	CCONJ	CC	_	35	cc	_	_
+34	largely	largely	ADV	B	_	35	advmod	_	_
+35	self-regulating	self-regulating	ADJ	A	Degree=Pos	15	conj	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = by the most general biophysiological definition, the biosphere is the global ecological system integrating all living beings and their relationships, including their interaction with the elements of the lithosphere, geosphere, hydrosphere, and atmosphere.
+1	by	by	ADP	E	_	6	case	_	_
+2	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+3	most	most	ADV	B	_	4	advmod	_	_
+4	general	full	ADJ	A	Degree=Pos	6	amod	_	_
+5	biophysiological	biophysiological	ADJ	A	Degree=Pos	6	amod	_	_
+6	definition	definition	NOUN	S	Number=Sing	14	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	the	the	DET	RD	Definite=Def|PronType=Art	9	det	_	_
+9	biosphere	biosphere	NOUN	S	Number=Sing	14	nsubj	_	_
+10	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+11	the	the	DET	RD	Definite=Def|PronType=Art	14	det	_	_
+12	global	global	ADJ	A	Degree=Pos	14	amod	_	_
+13	ecological	ecologic	ADJ	A	Degree=Pos	14	amod	_	_
+14	system	system	NOUN	S	Number=Sing	0	root	_	_
+15	integrating	integrat	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	14	acl	_	_
+16	all	all	DET	T	PronType=Tot	18	det	_	_
+17	living	living	ADJ	A	Degree=Pos	18	amod	_	_
+18	beings	being	NOUN	S	Number=Plur	15	obj	_	_
+19	and	and	CCONJ	CC	_	21	cc	_	_
+20	their	their	DET	AP	Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	relationships	relationship	NOUN	S	Number=Plur	18	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	14	punct	_	_
+23	including	include	VERB	V	VerbForm=Ger	14	acl	_	_
+24	their	their	DET	AP	Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+25	interaction	interaction	NOUN	S	Number=Sing	23	obj	_	_
+26	with	with	ADP	E	_	28	case	_	_
+27	the	the	DET	RD	Definite=Def|PronType=Art	28	det	_	_
+28	elements	element	NOUN	S	Number=Plur	23	obl	_	_
+29	of	of	ADP	E	_	31	case	_	_
+30	the	the	DET	RD	Definite=Def|PronType=Art	31	det	_	_
+31	lithosphere	lithosphere	NOUN	S	Number=Sing	28	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	33	punct	_	_
+33	geosphere	geosphere	ADV	B	_	31	advmod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	35	punct	_	_
+35	hydrosphere	hydrosphere	ADV	B	_	31	conj	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	38	punct	_	_
+37	and	and	CCONJ	CC	_	38	cc	_	_
+38	atmosphere	atmosphere	ADV	B	_	31	conj	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 6
+# text = the biosphere is postulated to have evolved, beginning with a process of biopoiesis (life created naturally from non-living matter, such as simple organic compounds) or biogenesis (life created from living matter), at least some 3.5 billion years ago.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	biosphere	biosphere	NOUN	S	Number=Sing	4	nsubj:pass	_	_
+3	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	postulated	postulate	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+5	to	to	PART	PART	_	7	mark	_	_
+6	have	have	AUX	VA	VerbForm=Inf	7	aux	_	_
+7	evolved	evolve	VERB	V	Tense=Past|VerbForm=Part	4	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	beginning	begin	VERB	V	VerbForm=Ger	7	advcl	_	_
+10	with	with	ADP	E	_	12	case	_	_
+11	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	12	det	_	_
+12	process	process	NOUN	S	Number=Sing	9	obl	_	_
+13	of	of	ADP	E	_	14	case	_	_
+14	biopoiesis	biopoiesis	PRON	PP	Poss=Yes|PronType=Prs	16	nmod	_	_
+15	(	(	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	life	life	NOUN	S	Number=Sing	12	nmod	_	_
+17	created	create	VERB	V	Tense=Past|VerbForm=Part	16	acl	_	_
+18	naturally	naturally	ADV	B	_	17	advmod	_	_
+19	from	from	ADP	E	_	23	case	_	_
+20	non	non	ADV	BN	PronType=Neg	22	advmod	_	SpaceAfter=No
+21	-	-	PUNCT	FF	_	22	punct	_	SpaceAfter=No
+22	living	living	ADJ	A	Degree=Pos	23	amod	_	_
+23	matter	matter	NOUN	S	Number=Sing	17	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	16	punct	_	_
+25	such	such	ADJ	A	Degree=Pos	29	amod	_	_
+26	as	as	ADP	E	_	25	fixed	_	_
+27	simple	simple	ADJ	A	Degree=Pos	29	amod	_	_
+28	organic	organic	ADJ	A	Degree=Pos	29	amod	_	_
+29	compounds	compound	NOUN	S	Number=Plur	16	conj	_	SpaceAfter=No
+30	)	)	PUNCT	FB	_	29	punct	_	_
+31	or	or	CCONJ	CC	_	32	cc	_	_
+32	biogenesis	biogenesis	ADJ	A	Degree=Pos	16	conj	_	_
+33	(	(	PUNCT	FB	_	34	punct	_	SpaceAfter=No
+34	life	life	NOUN	S	Number=Sing	32	obl	_	_
+35	created	create	VERB	V	Tense=Past|VerbForm=Part	34	acl	_	_
+36	from	from	ADP	E	_	38	case	_	_
+37	living	living	ADJ	A	Degree=Pos	38	amod	_	_
+38	matter	matter	NOUN	S	Number=Sing	35	obl	_	SpaceAfter=No
+39	)	)	PUNCT	FB	_	34	punct	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	16	punct	_	_
+41	at	at	ADV	B	_	46	advmod	_	_
+42	least	least	ADV	B	Degree=Sup	41	fixed	_	_
+43	some	some	ADV	B	_	45	advmod	_	_
+44	3.5	3.5	NUM	N	NumType=Card	45	compound	_	_
+45	billion	billion	NUM	N	NumType=Card	46	nummod	_	_
+46	years	year	NOUN	S	Number=Plur	47	obl	_	_
+47	ago	ago	ADV	B	_	16	advmod	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = in a general sense, biospheres are any closed, self-regulating systems containing ecosystems.
+1	in	in	ADP	E	_	4	case	_	_
+2	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	4	det	_	_
+3	general	general	ADJ	A	Degree=Pos	4	amod	_	_
+4	sense	sense	NOUN	S	Number=Sing	9	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	biospheres	biosphere	NOUN	S	Number=Plur	9	nsubj	_	_
+7	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	any	any	ADV	B	_	9	advmod	_	_
+9	closed	closed	ADJ	A	Degree=Pos	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	self-regulating	self-regulating	VERB	V	Person=3|VerbForm=Ger	9	advcl	_	_
+12	systems	system	NOUN	S	Number=Plur	11	obj	_	_
+13	containing	contai	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	12	acl	_	_
+14	ecosystems	ecosystem	NOUN	S	Number=Plur	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 8
+# text = this includes artificial biospheres such as biosphere 2 and bios-3, and potentially ones on other planets or moons.
+1	this	this	PRON	PD	Number=Sing|PronType=Dem	2	nsubj	_	_
+2	includes	include	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	artificial	artificial	ADJ	A	Degree=Pos	4	amod	_	_
+4	biospheres	biosphere	NOUN	S	Number=Plur	2	obj	_	_
+5	such	such	ADJ	A	Degree=Pos	7	amod	_	_
+6	as	as	ADP	E	_	5	fixed	_	_
+7	biosphere	biosphere	NOUN	S	Number=Sing	4	nmod	_	_
+8	2	2	NUM	N	NumType=Card	7	nummod	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	bios	bio	NOUN	S	Number=Plur	7	conj	_	SpaceAfter=No
+11	-	-	PUNCT	FF	_	12	punct	_	SpaceAfter=No
+12	3	3	NUM	N	NumType=Card	7	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	16	punct	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	potentially	potentially	ADV	B	_	16	advmod	_	_
+16	ones	one	PRON	PE	Number=Plur|Person=3|PronType=Prs	2	conj	_	_
+17	on	on	ADP	E	_	19	case	_	_
+18	other	other	ADJ	A	Degree=Pos	19	amod	_	_
+19	planets	planet	NOUN	S	Number=Plur	16	nmod	_	_
+20	or	or	CCONJ	CC	_	21	cc	_	_
+21	moons	moon	NOUN	S	Number=Plur	19	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\s\n
+
+# newpar
+# sent_id = 9
+# text = a beach scene on earth, simultaneously showing the lithosphere (ground), hydrosphere (ocean) and atmosphere (air) the term "biosphere" was coined by geologist eduard suess in 1875, which he defined as the place on earth's surface where life dwells.
+1	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	3	det	_	_
+2	beach	beach	ADJ	A	Degree=Pos	3	amod	_	_
+3	scene	scene	NOUN	S	Number=Sing	0	root	_	_
+4	on	on	ADP	E	_	5	case	_	_
+5	earth	earth	NOUN	S	Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	simultaneously	simultaneously	ADV	B	_	8	advmod	_	_
+8	showing	show	VERB	V	VerbForm=Ger	3	acl	_	_
+9	the	the	DET	RD	Definite=Def|PronType=Art	10	det	_	_
+10	lithosphere	lithosphere	NOUN	S	Number=Sing	8	obj	_	_
+11	(	(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	ground	ground	NOUN	S	Number=Sing	10	nmod	_	SpaceAfter=No
+13	)	)	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	8	punct	_	_
+15	hydrosphere	hydrosphere	ADV	B	_	17	advmod	_	_
+16	(	(	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	ocean	ocean	NOUN	S	Number=Sing	8	obl	_	SpaceAfter=No
+18	)	)	PUNCT	FB	_	17	punct	_	_
+19	and	and	CCONJ	CC	_	30	cc	_	_
+20	atmosphere	atmosphere	ADV	B	_	30	advmod	_	_
+21	(	(	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+22	air	air	NOUN	S	Number=Sing	30	obl	_	SpaceAfter=No
+23	)	)	PUNCT	FB	_	22	punct	_	SpacesAfter=\n
+24	the	the	DET	RD	Definite=Def|PronType=Art	25	det	_	_
+25	term	term	NOUN	S	Number=Sing	30	nsubj:pass	_	_
+26	"	"	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+27	biosphere	biosphere	PRON	_	_	25	nmod	_	SpaceAfter=No
+28	"	"	PUNCT	FB	_	27	punct	_	_
+29	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	aux:pass	_	_
+30	coined	coin	VERB	V	Tense=Past|VerbForm=Part	17	conj	_	_
+31	by	by	ADP	E	_	34	case	_	_
+32	geologist	geologist	ADJ	A	Degree=Pos	34	amod	_	_
+33	eduard	eduard	ADJ	NO	Degree=Pos|NumType=Ord	34	amod	_	_
+34	suess	suess	NOUN	S	Number=Sing	30	obl	_	_
+35	in	in	ADP	E	_	36	case	_	_
+36	1875	1875	NUM	N	NumType=Card	30	obl	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	30	punct	_	_
+38	which	which	PRON	PR	PronType=Rel	40	obj	_	_
+39	he	he	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	40	nsubj	_	_
+40	defined	define	VERB	V	Tense=Past|VerbForm=Part	30	acl:relcl	_	_
+41	as	as	ADP	E	_	43	case	_	_
+42	the	the	DET	RD	Definite=Def|PronType=Art	43	det	_	_
+43	place	place	NOUN	S	Number=Sing	40	obl	_	_
+44	on	on	ADP	E	_	47	case	_	_
+45	earth	earth	NOUN	S	Number=Sing	47	nmod	_	SpaceAfter=No
+46	's	's	PART	PART	_	45	case	_	_
+47	surface	surface	NOUN	S	Number=Sing	40	obl	_	_
+48	where	where	SCONJ	CS	_	50	case	_	_
+49	life	life	NOUN	S	Number=Sing	50	nmod	_	_
+50	dwells	dwell	NOUN	S	Number=Plur	47	nmod	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = while the concept has a geological origin, it is an indication of the effect of both charles darwin and matthew f.
+1	while	while	SCONJ	CS	_	4	mark	_	_
+2	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+3	concept	concept	NOUN	S	Number=Sing	4	nsubj	_	_
+4	has	have	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+5	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	7	det	_	_
+6	geological	geological	ADJ	A	Degree=Pos	7	amod	_	_
+7	origin	origin	NOUN	S	Number=Sing	4	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+10	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	12	det	_	_
+12	indication	indication	NOUN	S	Number=Sing	0	root	_	_
+13	of	of	ADP	E	_	15	case	_	_
+14	the	the	DET	RD	Definite=Def|PronType=Art	15	det	_	_
+15	effect	effect	NOUN	S	Number=Sing	12	nmod	_	_
+16	of	of	ADP	E	_	18	case	_	_
+17	both	both	DET	DI	PronType=Ind	18	det	_	_
+18	charles	charle	NOUN	S	Number=Plur	15	nmod	_	_
+19	darwin	darwin	ADJ	A	Degree=Pos	18	amod	_	_
+20	and	and	CCONJ	CC	_	22	cc	_	_
+21	matthew	matthew	ADJ	A	Degree=Pos	22	amod	_	_
+22	f	f	NOUN	S	Number=Sing	18	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 11
+# text = maury on the earth sciences.
+1	maury	maury	NOUN	S	Number=Sing	0	root	_	_
+2	on	on	ADP	E	_	5	case	_	_
+3	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+4	earth	earth	ADJ	A	Degree=Pos	5	amod	_	_
+5	sciences	science	NOUN	S	Number=Plur	1	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = the biosphere's ecological context comes from the 1920s (see vladimir i. vernadsky), preceding the 1935 introduction of the term "ecosystem" by sir arthur tansley (see ecology history).
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	biosphere	biosphere	NOUN	S	Number=Sing	5	nmod	_	SpaceAfter=No
+3	's	's	PART	PART	_	2	case	_	_
+4	ecological	ecologic	ADJ	A	Degree=Pos	5	amod	_	_
+5	context	context	NOUN	S	Number=Sing	6	nsubj	_	_
+6	comes	come	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	from	from	ADP	E	_	9	case	_	_
+8	the	the	DET	RD	Definite=Def|PronType=Art	9	det	_	_
+9	1920s	1920	NOUN	S	Number=Plur	6	obl	_	_
+10	(	(	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	see	see	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+12	vladimir	vladimir	DET	AP	Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	i	i	NOUN	S	Number=Sing	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	11	punct	_	_
+15	vernadsky	vernadsky	ADV	B	_	11	advmod	_	SpaceAfter=No
+16	)	)	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	6	punct	_	_
+18	preceding	precede	VERB	V	VerbForm=Ger	6	advcl	_	_
+19	the	the	DET	RD	Definite=Def|PronType=Art	21	det	_	_
+20	1935	1935	NUM	N	NumType=Card	21	nummod	_	_
+21	introduction	introduction	NOUN	S	Number=Sing	18	obj	_	_
+22	of	of	ADP	E	_	24	case	_	_
+23	the	the	DET	RD	Definite=Def|PronType=Art	24	det	_	_
+24	term	term	NOUN	S	Number=Sing	26	nmod	_	_
+25	"	"	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+26	ecosystem	ecosystem	NOUN	S	Number=Sing	21	nmod	_	SpaceAfter=No
+27	"	"	PUNCT	FB	_	26	punct	_	_
+28	by	by	ADP	E	_	33	case	_	_
+29	sir	sir	SCONJ	CS	_	33	mark	_	_
+30	arthur	arthur	DET	AP	Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+31	tansley	tansley	NOUN	S	Number=Sing	33	nsubj	_	_
+32	(	(	PUNCT	FB	_	33	punct	_	SpaceAfter=No
+33	see	see	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	26	advcl	_	_
+34	ecology	ecology	NOUN	S	Number=Sing	35	nmod	_	_
+35	history	history	NOUN	S	Number=Sing	33	obj	_	SpaceAfter=No
+36	)	)	PUNCT	FB	_	33	punct	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 13
+# text = vernadsky defined ecology as the science of the biosphere.
+1	vernadsky	vernadsky	ADV	B	_	3	advmod	_	_
+2	defined	define	ADJ	A	Degree=Pos	3	amod	_	_
+3	ecology	ecology	NOUN	S	Number=Sing	0	root	_	_
+4	as	as	ADP	E	_	6	case	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+6	science	science	NOUN	S	Number=Sing	3	nmod	_	_
+7	of	of	ADP	E	_	9	case	_	_
+8	the	the	DET	RD	Definite=Def|PronType=Art	9	det	_	_
+9	biosphere	biosphere	NOUN	S	Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = it is an interdisciplinary concept for integrating astronomy, geophysics, meteorology, biogeography, evolution, geology, geochemistry, hydrology and, generally speaking, all life and earth sciences.
+1	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	5	det	_	_
+4	interdisciplinary	interdisciplinary	ADJ	A	Degree=Pos	5	amod	_	_
+5	concept	concept	NOUN	S	Number=Sing	0	root	_	_
+6	for	for	ADP	E	_	8	case	_	_
+7	integrating	integrat	ADJ	A	Degree=Pos	8	amod	_	_
+8	astronomy	astronomy	NOUN	S	Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	geophysics	geophysics	NOUN	S	Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	meteorology	meteorology	NOUN	S	Number=Sing	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	biogeography	biogeography	NOUN	S	Number=Sing	8	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	evolution	evolution	NOUN	S	Number=Sing	8	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	geology	geology	NOUN	S	Number=Sing	8	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	geochemistry	geochemistry	NOUN	S	Number=Sing	8	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	hydrology	hydrology	NOUN	S	Number=Sing	8	conj	_	_
+23	and	and	CCONJ	CC	_	26	cc	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	26	punct	_	_
+25	generally	generally	ADV	B	_	26	advmod	_	_
+26	speaking	speak	VERB	V	VerbForm=Ger	5	conj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	26	punct	_	_
+28	all	all	DET	T	PronType=Tot	29	det	_	_
+29	life	life	NOUN	S	Number=Sing	26	obj	_	_
+30	and	and	CCONJ	CC	_	32	cc	_	_
+31	earth	earth	ADJ	A	Degree=Pos	32	amod	_	_
+32	sciences	sciences	NOUN	S	Number=Plur	29	conj	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 15
+# text = === narrow definition === geochemists define the biosphere as being the total sum of living organisms (the "biomass" or "biota" as referred to by biologists and ecologists).
+1	===	===	SYM	X	_	5	nmod	_	_
+2	narrow	narrow	ADJ	A	Degree=Pos	3	amod	_	_
+3	definition	definition	NOUN	S	Number=Sing	5	nmod	_	_
+4	===	===	SYM	X	_	5	nmod	_	SpacesAfter=\n
+5	geochemists	geochemist	NOUN	S	Number=Plur	6	nsubj	_	_
+6	define	define	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	the	the	DET	RD	Definite=Def|PronType=Art	8	det	_	_
+8	biosphere	biosphere	NOUN	S	Number=Sing	6	obj	_	_
+9	as	as	ADP	E	_	13	case	_	_
+10	being	be	AUX	V	VerbForm=Ger	13	cop	_	_
+11	the	the	DET	RD	Definite=Def|PronType=Art	13	det	_	_
+12	total	total	ADJ	A	Degree=Pos	13	amod	_	_
+13	sum	sum	NOUN	S	Number=Sing	6	obl	_	_
+14	of	of	ADP	E	_	16	case	_	_
+15	living	living	ADJ	A	Degree=Pos	16	amod	_	_
+16	organisms	organism	NOUN	S	Number=Plur	13	nmod	_	_
+17	(	(	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+18	the	the	DET	RD	Definite=Def|PronType=Art	20	det	_	_
+19	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+20	biomass	biomass	NOUN	S	Number=Plur	6	obl	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	20	punct	_	_
+22	or	or	CCONJ	CC	_	24	cc	_	_
+23	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+24	biota	biota	NOUN	S	Number=Plur	20	conj	_	SpaceAfter=No
+25	"	"	PUNCT	FB	_	24	punct	_	_
+26	as	as	ADP	E	_	27	mark	_	_
+27	referred	refer	VERB	V	Tense=Past|VerbForm=Part	20	acl	_	_
+28	to	to	ADP	E	_	30	case	_	_
+29	by	by	ADP	E	_	30	case	_	_
+30	biologists	biologist	NOUN	S	Number=Plur	27	obl	_	_
+31	and	and	CCONJ	CC	_	32	cc	_	_
+32	ecologists	ecologist	NOUN	S	Number=Plur	30	conj	_	SpaceAfter=No
+33	)	)	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 16
+# text = in this sense, the biosphere is but one of four separate components of the geochemical model, the other three being ''geosphere'', ''hydrosphere'', and ''atmosphere''.
+1	in	in	ADP	E	_	3	case	_	_
+2	this	this	DET	DD	Number=Sing|PronType=Dem	3	det	_	_
+3	sense	sense	NOUN	S	Number=Sing	9	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+6	biosphere	biosphere	NOUN	S	Number=Sing	9	nsubj	_	_
+7	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	but	but	CCONJ	CC	_	9	cc	_	_
+9	one	one	NUM	N	NumType=Card	0	root	_	_
+10	of	of	ADP	E	_	13	case	_	_
+11	four	four	NUM	N	NumType=Card	13	nummod	_	_
+12	separate	separate	ADJ	A	Degree=Pos	13	amod	_	_
+13	components	component	NOUN	S	Number=Plur	9	nmod	_	_
+14	of	of	ADP	E	_	17	case	_	_
+15	the	the	DET	RD	Definite=Def|PronType=Art	17	det	_	_
+16	geochemical	geochemical	ADJ	A	Degree=Pos	17	amod	_	_
+17	model	model	NOUN	S	Number=Sing	13	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	9	punct	_	_
+19	the	the	DET	RD	Definite=Def|PronType=Art	25	det	_	_
+20	other	other	ADJ	A	Degree=Pos	25	amod	_	_
+21	three	three	NUM	N	NumType=Card	25	nummod	_	_
+22	being	be	AUX	V	VerbForm=Ger	25	aux	_	_
+23	'	'	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+24	'	'	PART	PART	_	22	case	_	SpaceAfter=No
+25	geosphere	geosphere	VERB	V	VerbForm=Inf	9	conj	_	SpaceAfter=No
+26	'	'	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+27	'	'	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	25	punct	_	_
+29	'	'	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+30	'	'	PART	PART	_	25	compound:prt	_	SpaceAfter=No
+31	hydrosphere	hydrosphere	VERB	V	VerbForm=Inf	25	xcomp	_	SpaceAfter=No
+32	'	'	PART	PART	_	31	case	_	SpaceAfter=No
+33	'	'	PART	PART	_	31	compound:prt	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	36	punct	_	_
+35	and	and	CCONJ	CC	_	36	cc	_	_
+36	'	'	PART	PART	_	31	conj	_	SpaceAfter=No
+37	'	'	PART	PART	_	36	case	_	SpaceAfter=No
+38	atmosphere	atmosphere	ADV	B	_	36	advmod	_	SpaceAfter=No
+39	'	'	PUNCT	FB	_	38	punct	_	SpaceAfter=No
+40	'	'	PUNCT	FB	_	38	punct	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	25	punct	_	_
+
+# sent_id = 17
+# text = when these four component spheres are combined into one system, it is known as the ecosphere.
+1	when	when	SCONJ	CS	_	7	mark	_	_
+2	these	this	DET	DD	Number=Plur|PronType=Dem	5	det	_	_
+3	four	four	NUM	N	NumType=Card	5	nummod	_	_
+4	component	component	ADJ	A	Degree=Pos	5	amod	_	_
+5	spheres	sphere	NOUN	S	Number=Plur	7	nsubj:pass	_	_
+6	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	combined	combine	VERB	V	Tense=Past|VerbForm=Part	14	advcl	_	_
+8	into	into	ADP	E	_	10	case	_	_
+9	one	one	NUM	N	NumType=Card	10	nummod	_	_
+10	system	system	NOUN	S	Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+13	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	known	known	ADJ	A	Degree=Pos	0	root	_	_
+15	as	as	ADP	E	_	17	case	_	_
+16	the	the	DET	RD	Definite=Def|PronType=Art	17	det	_	_
+17	ecosphere	ecosphere	NOUN	S	Number=Sing	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 18
+# text = this term was coined during the 1960s and encompasses both biological and physical components of the planet.
+1	this	this	DET	DD	Number=Sing|PronType=Dem	2	det	_	_
+2	term	term	NOUN	S	Number=Sing	4	nsubj:pass	_	_
+3	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	coined	coin	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+5	during	during	ADP	E	_	7	case	_	_
+6	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+7	1960s	1960	NOUN	S	Number=Plur	4	obl	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	encompasses	encompass	NOUN	S	Number=Plur	7	conj	_	_
+10	both	both	CCONJ	CC	_	14	cc	_	_
+11	biological	biologic	ADJ	A	Degree=Pos	14	amod	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	physical	physical	ADJ	A	Degree=Pos	11	conj	_	_
+14	components	component	NOUN	S	Number=Plur	7	conj	_	_
+15	of	of	ADP	E	_	17	case	_	_
+16	the	the	DET	RD	Definite=Def|PronType=Art	17	det	_	_
+17	planet	planet	NOUN	S	Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 19
+# text = the second international conference on closed life systems defined ''biospherics'' as the science and technology of analogs and models of earth's biosphere;
+1	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+2	second	second	ADJ	NO	Degree=Pos|NumType=Ord	4	amod	_	_
+3	international	international	ADJ	A	Degree=Pos	4	amod	_	_
+4	conference	conference	NOUN	S	Number=Sing	0	root	_	_
+5	on	on	ADP	E	_	8	case	_	_
+6	closed	close	ADJ	A	Degree=Pos	8	amod	_	_
+7	life	life	NOUN	S	Number=Sing	8	nmod	_	_
+8	systems	systems	NOUN	S	Number=Plur	4	nmod	_	_
+9	defined	define	VERB	V	Tense=Past|VerbForm=Part	4	acl	_	_
+10	'	'	PART	PART	_	9	case	_	SpaceAfter=No
+11	'	'	PART	PART	_	9	case	_	SpaceAfter=No
+12	biospherics	biospherics	NOUN	S	Number=Plur	9	obl	_	SpaceAfter=No
+13	'	'	PART	PART	_	12	case	_	SpaceAfter=No
+14	'	'	PART	PART	_	12	case	_	_
+15	as	as	ADP	E	_	17	case	_	_
+16	the	the	DET	RD	Definite=Def|PronType=Art	17	det	_	_
+17	science	science	NOUN	S	Number=Sing	9	obl	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	technology	technology	NOUN	S	Number=Sing	17	conj	_	_
+20	of	of	ADP	E	_	21	case	_	_
+21	analogs	analog	NOUN	S	Number=Plur	19	nmod	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	models	model	NOUN	S	Number=Plur	21	conj	_	_
+24	of	of	ADP	E	_	27	case	_	_
+25	earth	earth	NOUN	S	Number=Sing	27	nmod	_	SpaceAfter=No
+26	's	's	PART	PART	_	25	case	_	_
+27	biosphere	biosphere	NOUN	S	Number=Sing	21	nmod	_	SpaceAfter=No
+28	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 20
+# text = i.e., artificial earth-like biospheres.
+1	i.e	i.e	ADV	B	_	8	advmod	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	artificial	artificial	ADJ	A	Degree=Pos	8	amod	_	_
+5	earth	earth	ADJ	A	Degree=Pos	8	amod	_	SpaceAfter=No
+6	-	-	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+7	like	like	ADJ	A	Degree=Pos	8	amod	_	_
+8	biospheres	biosphere	NOUN	S	Number=Plur	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 21
+# text = others may include the creation of artificial non-earth biospheres—for example, human-centered biospheres or a native martian biosphere—as part of the topic of biospherics.
+1	others	other	PRON	PI	Number=Plur|PronType=Ind	3	nsubj	_	_
+2	may	may	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	include	include	VERB	V	VerbForm=Inf	0	root	_	_
+4	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+5	creation	creation	NOUN	S	Number=Sing	3	obj	_	_
+6	of	of	ADP	E	_	11	case	_	_
+7	artificial	artificial	ADJ	A	Degree=Pos	11	amod	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	SpaceAfter=No
+9	-	-	PUNCT	FF	_	10	punct	_	SpaceAfter=No
+10	earth	earth	ADJ	A	Degree=Pos	11	amod	_	_
+11	biospheres	biosphere	NOUN	S	Number=Plur	5	nmod	_	SpaceAfter=No
+12	—	—	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+13	for	for	ADP	E	_	14	case	_	_
+14	example	example	NOUN	S	Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	human	human	ADJ	A	Degree=Pos	19	amod	_	SpaceAfter=No
+17	-	-	PUNCT	FF	_	18	punct	_	SpaceAfter=No
+18	centered	centered	ADJ	A	Degree=Pos	19	amod	_	_
+19	biospheres	biosphere	NOUN	S	Number=Plur	14	conj	_	_
+20	or	or	CCONJ	CC	_	23	cc	_	_
+21	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	23	det	_	_
+22	native	native	ADJ	A	Degree=Pos	23	amod	_	_
+23	martian	martian	NOUN	S	Number=Sing	19	conj	_	_
+24	biosphere	biosphere	PRON	PR	PronType=Rel	25	nsubj	_	SpaceAfter=No
+25	—as	—as	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+26	part	part	NOUN	S	Number=Sing	25	obj	_	_
+27	of	of	ADP	E	_	29	case	_	_
+28	the	the	DET	RD	Definite=Def|PronType=Art	29	det	_	_
+29	topic	topic	NOUN	S	Number=Sing	26	nmod	_	_
+30	of	of	ADP	E	_	31	case	_	_
+31	biospherics	biospherics	NOUN	S	Number=Plur	29	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\s
+
+# sent_id = 22
+# text = === age === stromatolite fossil estimated at 3.2–
+1	===	===	SYM	X	_	5	nmod	_	_
+2	age	age	NOUN	S	Number=Sing	5	nmod	_	_
+3	===	===	SYM	X	_	5	nmod	_	SpacesAfter=\n
+4	stromatolite	stromatolite	ADJ	A	Degree=Pos	5	amod	_	_
+5	fossil	fossil	NOUN	S	Number=Sing	0	root	_	_
+6	estimated	estimate	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	5	acl	_	_
+7	at	at	ADP	E	_	8	case	_	_
+8	3.2	3.2	NUM	N	NumType=Card	6	obl	_	SpaceAfter=No
+9	–	–	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 23
+# text = 3.6 billion years old the earliest evidence for life on earth includes biogenic graphite found in 3.7 billion-year-old metasedimentary rocks from western greenland and microbial mat fossils found in 3.48 billion-year-old sandstone from western australia.
+1	3.6	3.6	NUM	N	NumType=Card	3	nummod	_	_
+2	billion	billion	NUM	N	NumType=Card	3	nummod	_	_
+3	years	year	NOUN	S	Number=Plur	12	obl	_	_
+4	old	old	ADJ	A	Degree=Pos	7	amod	_	SpacesAfter=\n
+5	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+6	earliest	earliest	ADJ	A	Degree=Sup	7	amod	_	_
+7	evidence	evidence	NOUN	S	Number=Sing	12	nsubj	_	_
+8	for	for	ADP	E	_	9	case	_	_
+9	life	life	NOUN	S	Number=Sing	7	nmod	_	_
+10	on	on	ADP	E	_	11	case	_	_
+11	earth	earth	NOUN	S	Number=Sing	9	nmod	_	_
+12	includes	include	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	biogenic	biogenic	ADJ	A	Degree=Pos	14	amod	_	_
+14	graphite	graphite	NOUN	S	Number=Sing	12	obj	_	_
+15	found	find	VERB	V	Tense=Past|VerbForm=Part	14	acl	_	_
+16	in	in	ADP	E	_	20	case	_	_
+17	3.7	3.7	NUM	N	NumType=Card	18	nummod	_	_
+18	billion	billion	NUM	N	NumType=Card	20	nummod	_	SpaceAfter=No
+19	-	-	PUNCT	FF	_	18	punct	_	SpaceAfter=No
+20	year	year	NOUN	S	Number=Sing	15	obl	_	SpaceAfter=No
+21	-	-	PUNCT	FF	_	24	punct	_	SpaceAfter=No
+22	old	old	ADJ	A	Degree=Pos	24	amod	_	_
+23	metasedimentary	metasedimentary	ADJ	A	Degree=Pos	24	amod	_	_
+24	rocks	rock	NOUN	S	Number=Plur	15	obl	_	_
+25	from	from	ADP	E	_	27	case	_	_
+26	western	western	ADJ	A	Degree=Pos	27	amod	_	_
+27	greenland	greenland	NOUN	S	Number=Sing	24	nmod	_	_
+28	and	and	CCONJ	CC	_	31	cc	_	_
+29	microbial	microbial	ADJ	A	Degree=Pos	31	amod	_	_
+30	mat	mat	NOUN	S	Number=Sing	31	nmod	_	_
+31	fossils	fossil	NOUN	S	Number=Plur	27	conj	_	_
+32	found	find	VERB	V	Tense=Past|VerbForm=Part	24	acl	_	_
+33	in	in	ADP	E	_	40	case	_	_
+34	3.48	3.48	NUM	N	NumType=Card	35	nummod	_	_
+35	billion	billion	NUM	N	NumType=Card	37	nummod	_	SpaceAfter=No
+36	-	-	PUNCT	FF	_	35	punct	_	SpaceAfter=No
+37	year	year	NOUN	S	Number=Sing	39	obl	_	SpaceAfter=No
+38	-	-	PUNCT	FF	_	39	punct	_	SpaceAfter=No
+39	old	old	ADJ	A	Degree=Pos	40	amod	_	_
+40	sandstone	sandstone	NOUN	S	Number=Sing	32	obl	_	_
+41	from	from	ADP	E	_	43	case	_	_
+42	western	western	ADJ	A	Degree=Pos	43	amod	_	_
+43	australia	australia	NOUN	S	Number=Plur	40	nmod	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\s\s
+
+# sent_id = 24
+# text = more recently, in 2015, "remains of biotic life" were found in 4.1 billion-year-old rocks in western australia.
+1	more	more	ADV	B	Degree=Cmp	2	advmod	_	_
+2	recently	recently	ADV	B	_	8	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	2015	2015	NUM	N	NumType=Card	2	nummod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+8	remains	remain	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	nsubj:pass	_	_
+9	of	of	ADP	E	_	11	case	_	_
+10	biotic	biotic	ADJ	A	Degree=Pos	11	amod	_	_
+11	life	life	NOUN	S	Number=Sing	8	obl	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	11	punct	_	_
+13	were	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	14	aux:pass	_	_
+14	found	find	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	4.1	4.1	NUM	N	NumType=Card	17	nummod	_	_
+17	billion	billion	NUM	N	NumType=Card	14	obl	_	SpaceAfter=No
+18	-	-	PUNCT	FF	_	19	punct	_	SpaceAfter=No
+19	year	year	NOUN	S	Number=Sing	21	obl	_	SpaceAfter=No
+20	-	-	PUNCT	FF	_	19	punct	_	SpaceAfter=No
+21	old	old	ADJ	A	Degree=Pos	22	amod	_	_
+22	rocks	rock	NOUN	S	Number=Plur	14	obl	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	western	western	ADJ	A	Degree=Pos	25	amod	_	_
+25	australia	australia	NOUN	S	Number=Plur	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 25
+# text = in 2017, putative fossilized microorganisms (or microfossils) were announced to have been discovered in hydrothermal vent precipitates in the nuvvuagittuq belt of quebec, canada that were as old as 4.28 billion years, the oldest record of life on earth, suggesting "an almost instantaneous emergence of life" after ocean formation 4.4 billion years ago, and not long after the formation of the earth 4.54 billion years ago.
+1	in	in	ADP	E	_	2	case	_	_
+2	2017	2017	NUM	N	NumType=Card	6	nummod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	putative	putative	ADJ	A	Degree=Pos	6	amod	_	_
+5	fossilized	fossilize	ADJ	A	Degree=Pos	6	amod	_	_
+6	microorganisms	microorganism	NOUN	S	Number=Plur	12	nsubj:pass	_	_
+7	(	(	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+8	or	or	CCONJ	CC	_	9	cc	_	_
+9	microfossils	microfossil	ADV	B	_	6	conj	_	SpaceAfter=No
+10	)	)	PUNCT	FB	_	9	punct	_	_
+11	were	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
+12	announced	announce	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+13	to	to	PART	PART	_	16	mark	_	_
+14	have	have	AUX	VA	VerbForm=Inf	16	aux	_	_
+15	been	be	AUX	VA	Tense=Past|VerbForm=Part	16	aux:pass	_	_
+16	discovered	discover	VERB	V	Tense=Past|VerbForm=Part	12	ccomp	_	_
+17	in	in	ADP	E	_	20	case	_	_
+18	hydrothermal	hydrothermal	ADJ	A	Degree=Pos	20	amod	_	_
+19	vent	vent	ADJ	A	Degree=Pos	20	amod	_	_
+20	precipitates	precipitate	NOUN	S	Number=Plur	16	obl	_	_
+21	in	in	ADP	E	_	24	case	_	_
+22	the	the	DET	RD	Definite=Def|PronType=Art	24	det	_	_
+23	nuvvuagittuq	nuvvuagittuq	NOUN	S	Number=Sing	24	nmod	_	_
+24	belt	belt	NOUN	S	Number=Sing	16	obl	_	_
+25	of	of	ADP	E	_	26	case	_	_
+26	quebec	quebec	NOUN	S	Number=Sing	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	16	punct	_	_
+28	canada	canada	NOUN	S	Number=Sing	16	obl	_	_
+29	that	that	PRON	PR	PronType=Rel	32	nsubj	_	_
+30	were	be	AUX	V	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	32	cop	_	_
+31	as	as	ADV	B	_	32	advmod	_	_
+32	old	old	ADJ	A	Degree=Pos	28	acl:relcl	_	_
+33	as	as	ADP	E	_	34	case	_	_
+34	4.28	4.28	NUM	N	NumType=Card	36	nummod	_	_
+35	billion	billion	NUM	N	NumType=Card	34	nummod	_	_
+36	years	year	NOUN	S	Number=Plur	32	obl	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	36	punct	_	_
+38	the	the	DET	RD	Definite=Def|PronType=Art	40	det	_	_
+39	oldest	oldest	ADJ	A	Degree=Pos	40	amod	_	_
+40	record	record	NOUN	S	Number=Sing	32	conj	_	_
+41	of	of	ADP	E	_	42	case	_	_
+42	life	life	NOUN	S	Number=Sing	40	nmod	_	_
+43	on	on	ADP	E	_	44	case	_	_
+44	earth	earth	NOUN	S	Number=Sing	42	nmod	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	40	punct	_	_
+46	suggesting	suggest	VERB	V	Person=3|VerbForm=Ger	40	acl	_	_
+47	"	"	PUNCT	FB	_	51	punct	_	SpaceAfter=No
+48	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	51	det	_	_
+49	almost	almost	ADV	B	_	50	advmod	_	_
+50	instantaneous	instantaneous	ADJ	A	Degree=Pos	51	amod	_	_
+51	emergence	emergence	NOUN	S	Number=Sing	46	obj	_	_
+52	of	of	ADP	E	_	53	case	_	_
+53	life	life	NOUN	S	Number=Sing	51	nmod	_	SpaceAfter=No
+54	"	"	PUNCT	FB	_	51	punct	_	_
+55	after	after	ADP	E	_	57	case	_	_
+56	ocean	ocean	NOUN	S	Number=Sing	57	nmod	_	_
+57	formation	formation	NOUN	S	Number=Sing	51	nmod	_	_
+58	4.4	4.4	NUM	N	NumType=Card	60	nummod	_	_
+59	billion	billion	NUM	N	NumType=Card	60	nummod	_	_
+60	years	year	NOUN	S	Number=Plur	57	nmod	_	_
+61	ago	ago	ADV	B	_	51	advmod	_	SpaceAfter=No
+62	,	,	PUNCT	FF	_	68	punct	_	_
+63	and	and	CCONJ	CC	_	68	cc	_	_
+64	not	not	PART	PART	Polarity=Neg	65	advmod	_	_
+65	long	long	ADV	B	_	68	advmod	_	_
+66	after	after	ADP	E	_	68	case	_	_
+67	the	the	DET	RD	Definite=Def|PronType=Art	68	det	_	_
+68	formation	formation	NOUN	S	Number=Sing	51	conj	_	_
+69	of	of	ADP	E	_	71	case	_	_
+70	the	the	DET	RD	Definite=Def|PronType=Art	71	det	_	_
+71	earth	earth	NOUN	S	Number=Sing	68	nmod	_	_
+72	4.54	4.54	NUM	N	NumType=Card	74	nummod	_	_
+73	billion	billion	NUM	N	NumType=Card	72	nummod	_	_
+74	years	year	NOUN	S	Number=Plur	71	nmod	_	_
+75	ago	ago	ADV	B	_	46	advmod	_	SpaceAfter=No
+76	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 26
+# text = according to biologist stephen blair hedges, "if life arose relatively quickly on earth ... then it could be common in the universe."
+1	according	accord	VERB	V	VerbForm=Ger	11	advcl	_	_
+2	to	to	ADP	E	_	4	case	_	_
+3	biologist	biologist	ADJ	NO	Degree=Pos|NumType=Ord	4	amod	_	_
+4	stephen	stephen	NOUN	S	Number=Sing	1	obl	_	_
+5	blair	blair	ADP	E	_	6	case	_	_
+6	hedges	hedge	NOUN	S	Number=Plur	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+9	if	if	SCONJ	CS	_	11	mark	_	_
+10	life	life	NOUN	S	Number=Sing	11	nsubj	_	_
+11	arose	arose	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	21	advcl	_	_
+12	relatively	relatively	ADV	B	_	11	advmod	_	_
+13	quickly	quickly	ADV	B	_	11	advmod	_	_
+14	on	on	ADP	E	_	15	case	_	_
+15	earth	earth	PRON	PI	PronType=Ind	11	obl	_	_
+16	...	.	PUNCT	FF	_	11	punct	_	_
+17	then	then	ADV	B	_	21	advmod	_	_
+18	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+19	could	can	AUX	VM	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	21	aux	_	_
+20	be	be	AUX	V	VerbForm=Inf	21	cop	_	_
+21	common	common	ADJ	A	Degree=Pos	0	root	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	the	the	DET	RD	Definite=Def|PronType=Art	24	det	_	_
+24	universe	universe	NOUN	S	Number=Sing	21	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	21	punct	_	SpaceAfter=No
+26	"	"	PUNCT	FB	_	21	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 27
+# text = === extent === rüppell's vulture xenophyophore, a barophilic organism, from the galapagos rift.
+1	===	===	SYM	X	_	6	nmod	_	_
+2	extent	extent	NOUN	S	Number=Sing	4	nmod	_	_
+3	===	===	SYM	X	_	4	nmod	_	SpacesAfter=\n
+4	rüppell	rüppell	NOUN	S	Number=Sing	6	nmod	_	SpaceAfter=No
+5	's	's	PART	PART	_	4	case	_	_
+6	vulture	vulture	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n
+7	xenophyophore	xenophyophore	ADV	B	_	11	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	11	det	_	_
+10	barophilic	barophilic	ADJ	A	Degree=Pos	11	amod	_	_
+11	organism	organism	NOUN	S	Number=Sing	6	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	6	punct	_	_
+13	from	from	ADP	E	_	16	case	_	_
+14	the	the	DET	RD	Definite=Def|PronType=Art	16	det	_	_
+15	galapagos	galapago	ADJ	A	Degree=Pos	16	amod	_	_
+16	rift	rift	NOUN	S	Number=Sing	6	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 28
+# text = every part of the planet, from the polar ice caps to the equator, features life of some kind.
+1	every	every	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	part	part	NOUN	S	Number=Sing	16	nsubj	_	_
+3	of	of	ADP	E	_	5	case	_	_
+4	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+5	planet	planet	NOUN	S	Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	from	from	ADP	E	_	11	case	_	_
+8	the	the	DET	RD	Definite=Def|PronType=Art	11	det	_	_
+9	polar	polar	ADJ	A	Degree=Pos	10	amod	_	_
+10	ice	ice	NOUN	S	Number=Sing	11	nmod	_	_
+11	caps	cap	NOUN	S	Number=Plur	2	nmod	_	_
+12	to	to	ADP	E	_	14	case	_	_
+13	the	the	DET	RD	Definite=Def|PronType=Art	14	det	_	_
+14	equator	equator	NOUN	S	Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	features	feature	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	life	life	NOUN	S	Number=Sing	16	obj	_	_
+18	of	of	ADP	E	_	20	case	_	_
+19	some	some	DET	DI	PronType=Ind	20	det	_	_
+20	kind	kind	NOUN	S	Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 29
+# text = recent advances in microbiology have demonstrated that microbes live deep beneath the earth's terrestrial surface, and that the total mass of microbial life in so-called "uninhabitable zones" may, in biomass, exceed all animal and plant life on the surface.
+1	recent	recent	ADJ	A	Degree=Pos	2	amod	_	_
+2	advances	advance	NOUN	S	Number=Plur	6	nsubj	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	microbiology	microbiology	NOUN	S	Number=Sing	2	nmod	_	_
+5	have	have	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	demonstrated	demonstrate	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+7	that	that	SCONJ	CS	_	9	mark	_	_
+8	microbes	microbe	NOUN	S	Number=Plur	9	nsubj	_	_
+9	live	live	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+10	deep	deep	ADJ	A	Degree=Pos	9	xcomp	_	_
+11	beneath	beneath	ADP	E	_	16	case	_	_
+12	the	the	DET	RD	Definite=Def|PronType=Art	13	det	_	_
+13	earth	earth	NOUN	S	Number=Sing	16	nmod	_	SpaceAfter=No
+14	's	's	PART	PART	_	13	case	_	_
+15	terrestrial	terrestrial	ADJ	A	Degree=Pos	16	amod	_	_
+16	surface	surface	NOUN	S	Number=Sing	9	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	37	punct	_	_
+18	and	and	CCONJ	CC	_	37	cc	_	_
+19	that	that	SCONJ	CS	_	37	mark	_	_
+20	the	the	DET	RD	Definite=Def|PronType=Art	22	det	_	_
+21	total	total	ADJ	A	Degree=Pos	22	amod	_	_
+22	mass	mass	NOUN	S	Number=Plur	37	nsubj	_	_
+23	of	of	ADP	E	_	25	case	_	_
+24	microbial	microbial	ADJ	A	Degree=Pos	25	amod	_	_
+25	life	life	NOUN	S	Number=Sing	22	nmod	_	_
+26	in	in	ADP	E	_	30	case	_	_
+27	so-called	so-called	ADJ	A	Degree=Pos	30	amod	_	_
+28	"	"	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+29	uninhabitable	uninhabitable	ADJ	A	Degree=Pos	30	amod	_	_
+30	zones	zone	NOUN	S	Number=Plur	25	nmod	_	SpaceAfter=No
+31	"	"	PUNCT	FB	_	30	punct	_	_
+32	may	may	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	35	punct	_	_
+34	in	in	ADP	E	_	35	case	_	_
+35	biomass	biomass	NOUN	S	Number=Plur	37	obl	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	35	punct	_	_
+37	exceed	exceed	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	6	conj	_	_
+38	all	all	DET	T	PronType=Tot	39	det	_	_
+39	animal	animal	NOUN	S	Number=Sing	37	obj	_	_
+40	and	and	CCONJ	CC	_	42	cc	_	_
+41	plant	plant	ADJ	A	Degree=Pos	42	amod	_	_
+42	life	life	NOUN	S	Number=Sing	39	conj	_	_
+43	on	on	ADP	E	_	45	case	_	_
+44	the	the	DET	RD	Definite=Def|PronType=Art	45	det	_	_
+45	surface	surface	NOUN	S	Number=Sing	42	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 30
+# text = the actual thickness of the biosphere on earth is difficult to measure.
+1	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+2	actual	actual	ADJ	A	Degree=Pos	3	amod	_	_
+3	thickness	thickness	NOUN	S	Number=Sing	10	nsubj	_	_
+4	of	of	ADP	E	_	6	case	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+6	biosphere	biosphere	NOUN	S	Number=Sing	3	nmod	_	_
+7	on	on	ADP	E	_	8	case	_	_
+8	earth	earth	NOUN	S	Number=Sing	3	nmod	_	_
+9	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	difficult	difficult	ADJ	A	Degree=Pos	0	root	_	_
+11	to	to	PART	PART	_	12	mark	_	_
+12	measure	measure	VERB	V	VerbForm=Inf	10	advcl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 31
+# text = birds typically fly at altitudes as high as and fish live as much as underwater in the puerto rico trench.
+1	birds	bird	NOUN	S	Number=Plur	5	nsubj	_	_
+2	typically	typically	ADV	B	_	3	advmod	_	_
+3	fly	fly	ADV	B	_	5	advmod	_	_
+4	at	at	ADP	E	_	5	mark	_	_
+5	altitudes	altitude	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	as	as	ADV	B	_	7	advmod	_	_
+7	high	high	ADJ	A	Degree=Pos	5	xcomp	_	_
+8	as	as	ADP	E	_	11	mark	_	SpacesAfter=\s\s
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	fish	fish	ADJ	A	Degree=Pos	8	conj	_	_
+11	live	live	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+12	as	as	ADV	B	_	11	advmod	_	_
+13	much	much	ADV	B	_	12	fixed	_	_
+14	as	as	ADP	E	_	12	fixed	_	SpacesAfter=\s\s
+15	underwater	underwater	ADV	B	_	11	advmod	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	the	the	DET	RD	Definite=Def|PronType=Art	18	det	_	_
+18	puerto	puerto	NOUN	S	Number=Sing	11	obl	_	_
+19	rico	rico	ADP	E	_	20	case	_	_
+20	trench	trench	NOUN	S	Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 32
+# text = there are more extreme examples for life on the planet:
+1	there	there	PRON	_	_	5	expl	_	_
+2	are	be	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	more	more	ADV	B	Degree=Cmp	4	advmod	_	_
+4	extreme	extreme	ADJ	A	Degree=Pos	5	amod	_	_
+5	examples	example	NOUN	S	Number=Plur	0	root	_	_
+6	for	for	ADP	E	_	7	case	_	_
+7	life	life	NOUN	S	Number=Sing	5	nmod	_	_
+8	on	on	ADP	E	_	10	case	_	_
+9	the	the	DET	RD	Definite=Def|PronType=Art	10	det	_	_
+10	planet	planet	NOUN	S	Number=Sing	5	nmod	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 33
+# text = rüppell's vulture has been found at altitudes of ; bar-headed geese migrate at altitudes of at least ; yaks live at elevations as high as above sea level;
+1	rüppell	rüppell	NOUN	S	Number=Sing	3	nmod	_	SpaceAfter=No
+2	's	's	PART	PART	_	1	case	_	_
+3	vulture	vulture	NOUN	S	Number=Sing	6	nsubj:pass	_	_
+4	has	have	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	been	be	AUX	VA	Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	found	find	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+7	at	at	ADP	E	_	8	case	_	_
+8	altitudes	altitude	NOUN	S	Number=Plur	6	obl	_	_
+9	of	of	ADP	E	_	13	mark	_	_
+10	;	;	PUNCT	FF	_	13	punct	_	_
+11	bar	bar	ADJ	A	Degree=Pos	13	amod	_	SpaceAfter=No
+12	-	-	PUNCT	FF	_	13	punct	_	SpaceAfter=No
+13	headed	heade	VERB	V	Tense=Past|VerbForm=Part	8	acl	_	_
+14	geese	geis	DET	DD	Number=Plur|PronType=Dem	15	det	_	_
+15	migrate	migrate	NOUN	S	Number=Sing	13	obj	_	_
+16	at	at	ADP	E	_	17	case	_	_
+17	altitudes	altitude	NOUN	S	Number=Plur	13	obl	_	_
+18	of	of	ADP	E	_	22	case	_	_
+19	at	at	ADV	B	_	22	advmod	_	_
+20	least	least	ADV	B	Degree=Sup	19	fixed	_	_
+21	;	;	PUNCT	FC	_	22	punct	_	_
+22	yaks	yak	NOUN	S	Number=Plur	17	nmod	_	_
+23	live	live	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	22	acl	_	_
+24	at	at	ADP	E	_	25	case	_	_
+25	elevations	elevation	NOUN	S	Number=Plur	23	obl	_	_
+26	as	as	ADP	E	_	31	case	_	_
+27	high	high	ADV	B	_	26	fixed	_	_
+28	as	as	ADP	E	_	26	fixed	_	SpacesAfter=\s\s
+29	above	above	ADV	B	_	30	advmod	_	_
+30	sea	sea	ADJ	A	Degree=Pos	31	amod	_	_
+31	level	level	NOUN	S	Number=Sing	23	obl	_	SpaceAfter=No
+32	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 34
+# text = mountain goats live up to . herbivorous animals at these elevations depend on lichens, grasses, and herbs.
+1	mountain	mountain	DET	DI	PronType=Ind	2	det	_	_
+2	goats	goat	NOUN	S	Number=Plur	3	nsubj	_	_
+3	live	live	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	up	up	ADP	E	_	3	compound:prt	_	_
+5	to	to	ADP	E	_	8	case	_	_
+6	.	.	PUNCT	FS	_	8	punct	_	_
+7	herbivorous	herbivorous	ADJ	A	Degree=Pos	8	amod	_	_
+8	animals	animal	NOUN	S	Number=Plur	3	obl	_	_
+9	at	at	ADP	E	_	11	case	_	_
+10	these	this	DET	DD	Number=Plur|PronType=Dem	11	det	_	_
+11	elevations	elevation	NOUN	S	Number=Plur	3	obl	_	_
+12	depend	depend	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	11	acl	_	_
+13	on	on	ADP	E	_	14	case	_	_
+14	lichens	lichen	NOUN	S	Number=Plur	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	grasses	grass	NOUN	S	Number=Plur	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	herbs	herb	NOUN	S	Number=Plur	14	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 35
+# text = life forms live in every part of the earth's biosphere, including soil, hot springs, inside rocks at least deep underground, the deepest parts of the ocean, and at least high in the atmosphere.
+1	life	life	NOUN	S	Number=Sing	2	nmod	_	_
+2	forms	form	NOUN	S	Number=Plur	3	nsubj	_	_
+3	live	live	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	every	every	DET	DI	Number=Sing|PronType=Ind	6	det	_	_
+6	part	part	NOUN	S	Number=Sing	3	obl	_	_
+7	of	of	ADP	E	_	9	case	_	_
+8	the	the	DET	RD	Definite=Def|PronType=Art	9	det	_	_
+9	earth	earth	NOUN	S	Number=Sing	6	nmod	_	SpaceAfter=No
+10	's	's	PART	PART	_	9	case	_	_
+11	biosphere	biosphere	ADV	B	_	9	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	including	include	VERB	V	VerbForm=Ger	3	advcl	_	_
+14	soil	soil	ADJ	A	Degree=Pos	17	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	hot	hot	ADJ	A	Degree=Pos	17	amod	_	_
+17	springs	spring	NOUN	S	Number=Plur	13	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	13	punct	_	_
+19	inside	inside	ADP	E	_	20	case	_	_
+20	rocks	rock	NOUN	S	Number=Plur	13	obl	_	_
+21	at	at	ADP	E	_	24	case	_	_
+22	least	least	ADV	B	Degree=Sup	23	advmod	_	SpacesAfter=\s\s
+23	deep	deep	ADJ	A	Degree=Pos	24	amod	_	_
+24	underground	underground	NOUN	S	Number=Sing	20	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	28	punct	_	_
+26	the	the	DET	RD	Definite=Def|PronType=Art	28	det	_	_
+27	deepest	deepest	ADJ	A	Degree=Sup	28	amod	_	_
+28	parts	part	NOUN	S	Number=Plur	20	conj	_	_
+29	of	of	ADP	E	_	31	case	_	_
+30	the	the	DET	RD	Definite=Def|PronType=Art	31	det	_	_
+31	ocean	ocean	NOUN	S	Number=Sing	28	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	39	punct	_	_
+33	and	and	CCONJ	CC	_	39	cc	_	_
+34	at	at	ADV	B	_	39	advmod	_	_
+35	least	least	ADV	B	Degree=Sup	34	fixed	_	SpacesAfter=\s\s
+36	high	high	ADV	B	_	39	advmod	_	_
+37	in	in	ADP	E	_	39	case	_	_
+38	the	the	DET	RD	Definite=Def|PronType=Art	39	det	_	_
+39	atmosphere	atmosphere	NOUN	S	Number=Sing	20	conj	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 36
+# text = microorganisms, under certain test conditions, have been observed to survive the vacuum of outer space.
+1	microorganisms	microorganism	NOUN	S	Number=Plur	10	nsubj:pass	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	under	under	ADP	E	_	6	case	_	_
+4	certain	certain	ADJ	A	Degree=Pos	6	amod	_	_
+5	test	test	NOUN	S	Number=Sing	6	nmod	_	_
+6	conditions	condition	NOUN	S	Number=Plur	1	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	have	have	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	been	be	AUX	VA	Tense=Past|VerbForm=Part	10	aux:pass	_	_
+10	observed	observe	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+11	to	to	PART	PART	_	12	mark	_	_
+12	survive	survive	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	the	the	DET	RD	Definite=Def|PronType=Art	14	det	_	_
+14	vacuum	vacuum	NOUN	S	Number=Sing	12	obj	_	_
+15	of	of	ADP	E	_	17	case	_	_
+16	outer	outer	NOUN	S	Number=Sing	17	nmod	_	_
+17	space	space	NOUN	S	Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 37
+# text = the total amount of soil and subsurface bacterial carbon is estimated as 5 × 1017 g, or the "weight of the united kingdom".
+1	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+2	total	total	ADJ	A	Degree=Pos	3	amod	_	_
+3	amount	amount	NOUN	S	Number=Sing	11	nsubj:pass	_	_
+4	of	of	ADP	E	_	9	case	_	_
+5	soil	soil	ADJ	A	Degree=Pos	9	amod	_	_
+6	and	and	CCONJ	CC	_	9	cc	_	_
+7	subsurface	subsurface	ADJ	A	Degree=Pos	9	amod	_	_
+8	bacterial	bacterial	ADJ	A	Degree=Pos	9	amod	_	_
+9	carbon	carbon	NOUN	S	Number=Sing	3	nmod	_	_
+10	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	estimated	estimated	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+12	as	as	ADP	E	_	13	case	_	_
+13	5	5	NUM	N	NumType=Card	11	obl	_	_
+14	×	×	SYM	X	_	16	nmod	_	_
+15	1017	1017	NUM	N	NumType=Card	16	nummod	_	_
+16	g	g	NOUN	S	Number=Sing	13	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	21	punct	_	_
+18	or	or	CCONJ	CC	_	21	cc	_	_
+19	the	the	DET	RD	Definite=Def|PronType=Art	21	det	_	_
+20	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+21	weight	weight	NOUN	S	Number=Sing	11	conj	_	_
+22	of	of	ADP	E	_	25	case	_	_
+23	the	the	DET	RD	Definite=Def|PronType=Art	25	det	_	_
+24	united	united	ADJ	A	Degree=Pos	25	amod	_	_
+25	kingdom	kingdom	NOUN	S	Number=Sing	21	nmod	_	SpaceAfter=No
+26	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 38
+# text = the mass of prokaryote microorganisms—which includes bacteria and archaea, but not the nucleated eukaryote microorganisms—may be as much as 0.8 trillion tons of carbon (of the total biosphere mass, estimated at between 1 and 4 trillion tons).
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	mass	mass	NOUN	S	Number=Sing	0	root	_	_
+3	of	of	ADP	E	_	5	case	_	_
+4	prokaryote	prokaryote	ADJ	A	Degree=Pos	5	amod	_	_
+5	microorganisms	microorganism	NOUN	S	Number=Plur	2	nmod	_	SpaceAfter=No
+6	—	—	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	which	which	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	includes	include	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+9	bacteria	bacterion	DET	RI	Definite=Ind|Number=Sing|PronType=Art	25	det	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	archaea	archaea	NOUN	S	Number=Sing	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	21	punct	_	_
+13	but	but	CCONJ	CC	_	21	cc	_	_
+14	not	not	PART	PART	Polarity=Neg	17	advmod	_	_
+15	the	the	DET	RD	Definite=Def|PronType=Art	17	det	_	_
+16	nucleated	nucleated	ADJ	A	Degree=Pos	17	amod	_	_
+17	eukaryote	eukaryote	NOUN	S	Number=Sing	21	nsubj	_	_
+18	microorganisms—may	microorganisms—might	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+19	be	be	AUX	V	VerbForm=Inf	21	cop	_	_
+20	as	as	ADV	B	_	21	advmod	_	_
+21	much	much	ADV	B	_	25	advmod	_	_
+22	as	as	ADP	E	_	25	case	_	_
+23	0.8	0.8	NUM	N	NumType=Card	24	nummod	_	_
+24	trillion	trillion	NOUN	S	Number=Sing	25	nmod	_	_
+25	tons	ton	NOUN	S	Number=Plur	8	obj	_	_
+26	of	of	ADP	E	_	27	case	_	_
+27	carbon	carbon	NOUN	S	Number=Sing	25	nmod	_	_
+28	(	(	PUNCT	FB	_	33	punct	_	SpaceAfter=No
+29	of	of	ADP	E	_	33	case	_	_
+30	the	the	DET	RD	Definite=Def|PronType=Art	33	det	_	_
+31	total	total	ADJ	A	Degree=Pos	33	amod	_	_
+32	biosphere	biosphere	ADJ	A	Degree=Pos	33	amod	_	_
+33	mass	mass	NOUN	S	Number=Plur	27	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	33	punct	_	_
+35	estimated	estimated	VERB	V	Tense=Past|VerbForm=Part	33	acl	_	_
+36	at	at	ADP	E	_	38	case	_	_
+37	between	between	ADP	E	_	38	case	_	_
+38	1	1	NUM	N	NumType=Card	35	obl	_	_
+39	and	and	CCONJ	CC	_	42	cc	_	_
+40	4	4	NUM	N	NumType=Card	42	nummod	_	_
+41	trillion	trillion	NOUN	S	Number=Sing	42	nmod	_	_
+42	tons	ton	NOUN	S	Number=Plur	38	conj	_	SpaceAfter=No
+43	)	)	PUNCT	FB	_	33	punct	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 39
+# text = barophilic marine microbes have been found at more than a depth of in the mariana trench, the deepest spot in the earth's oceans.
+1	barophilic	barophilic	ADJ	A	Degree=Pos	3	amod	_	_
+2	marine	marine	NUM	N	NumType=Card	3	nummod	_	_
+3	microbes	microbe	NOUN	S	Number=Plur	6	nsubj:pass	_	_
+4	have	have	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	been	be	AUX	VA	Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	found	find	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+7	at	at	ADP	E	_	11	case	_	_
+8	more	more	ADJ	A	Degree=Cmp	11	amod	_	_
+9	than	than	ADP	E	_	8	fixed	_	_
+10	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	11	det	_	_
+11	depth	depth	NOUN	S	Number=Sing	6	obl	_	_
+12	of	of	ADP	E	_	16	case	_	SpacesAfter=\s\s
+13	in	in	ADP	E	_	16	case	_	_
+14	the	the	DET	RD	Definite=Def|PronType=Art	16	det	_	_
+15	mariana	mariana	NOUN	S	Number=Sing	16	nmod	_	_
+16	trench	trench	NOUN	S	Number=Sing	11	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	6	punct	_	_
+18	the	the	DET	RD	Definite=Def|PronType=Art	20	det	_	_
+19	deepest	deepest	ADJ	A	Degree=Sup	20	amod	_	_
+20	spot	spot	NOUN	S	Number=Sing	6	obj	_	_
+21	in	in	ADP	E	_	25	case	_	_
+22	the	the	DET	RD	Definite=Def|PronType=Art	23	det	_	_
+23	earth	earth	NOUN	S	Number=Sing	25	nmod	_	SpaceAfter=No
+24	's	's	PART	PART	_	23	case	_	_
+25	oceans	ocean	NOUN	S	Number=Sing	6	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 40
+# text = in fact, single-celled life forms have been found in the deepest part of the mariana trench, by the challenger deep, at depths of . other researchers reported related studies that microorganisms thrive inside rocks up to below the sea floor under of ocean off the coast of the northwestern united states, as well as beneath the seabed off japan.
+1	in	in	ADP	E	_	2	case	_	_
+2	fact	fact	NOUN	S	Number=Sing	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	single	single	ADJ	A	Degree=Pos	6	amod	_	SpaceAfter=No
+5	-	-	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+6	celled	cel	VERB	V	Tense=Past|VerbForm=Part	8	acl	_	_
+7	life	life	NOUN	S	Number=Sing	8	nmod	_	_
+8	forms	forms	NOUN	S	Number=Plur	11	nsubj:pass	_	_
+9	have	have	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	been	be	AUX	VA	Tense=Past|VerbForm=Part	11	aux:pass	_	_
+11	found	find	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+12	in	in	ADP	E	_	15	case	_	_
+13	the	the	DET	RD	Definite=Def|PronType=Art	15	det	_	_
+14	deepest	deepest	ADJ	A	Degree=Sup	15	amod	_	_
+15	part	part	NOUN	S	Number=Sing	11	obl	_	_
+16	of	of	ADP	E	_	19	case	_	_
+17	the	the	DET	RD	Definite=Def|PronType=Art	19	det	_	_
+18	mariana	mariana	NOUN	S	Number=Sing	19	nmod	_	_
+19	trench	trench	NOUN	S	Number=Sing	15	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	11	punct	_	_
+21	by	by	ADP	E	_	24	case	_	_
+22	the	the	DET	RD	Definite=Def|PronType=Art	24	det	_	_
+23	challenger	challenger	NOUN	S	Number=Sing	24	nmod	_	_
+24	deep	deep	NOUN	S	Number=Sing	11	obl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	at	at	ADP	E	_	27	case	_	_
+27	depths	depth	NOUN	S	Number=Plur	11	obl	_	_
+28	of	of	ADP	E	_	31	case	_	_
+29	.	.	PUNCT	FS	_	31	punct	_	_
+30	other	other	ADJ	A	Degree=Pos	31	amod	_	_
+31	researchers	researcher	NOUN	S	Number=Plur	27	nmod	_	_
+32	reported	report	VERB	V	Tense=Past|VerbForm=Part	27	acl	_	_
+33	related	related	ADJ	A	Degree=Pos	34	amod	_	_
+34	studies	study	NOUN	S	Number=Plur	32	obj	_	_
+35	that	that	PRON	PR	PronType=Rel	36	nsubj	_	_
+36	microorganisms	microorganism	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	acl:relcl	_	_
+37	thrive	thrive	NUM	N	NumType=Card	39	nummod	_	_
+38	inside	inside	ADJ	A	Degree=Pos	39	amod	_	_
+39	rocks	rock	NOUN	S	Number=Plur	36	obj	_	_
+40	up	up	ADV	B	_	36	advmod	_	_
+41	to	to	PART	PART	_	42	mark	_	SpacesAfter=\s\s
+42	below	below	VERB	V	VerbForm=Inf	36	advcl	_	_
+43	the	the	DET	RD	Definite=Def|PronType=Art	45	det	_	_
+44	sea	sea	ADJ	A	Degree=Pos	45	amod	_	_
+45	floor	floor	NOUN	S	Number=Sing	42	obj	_	_
+46	under	under	ADP	E	_	48	case	_	SpacesAfter=\s\s
+47	of	of	ADP	E	_	46	fixed	_	_
+48	ocean	ocean	NOUN	S	Number=Sing	42	obl	_	_
+49	off	off	ADP	E	_	51	case	_	_
+50	the	the	DET	RD	Definite=Def|PronType=Art	51	det	_	_
+51	coast	coast	NOUN	S	Number=Sing	42	obl	_	_
+52	of	of	ADP	E	_	56	case	_	_
+53	the	the	DET	RD	Definite=Def|PronType=Art	56	det	_	_
+54	northwestern	northwestern	ADJ	A	Degree=Pos	56	amod	_	_
+55	united	united	ADJ	A	Degree=Pos	56	amod	_	_
+56	states	state	NOUN	S	Number=Plur	51	nmod	_	SpaceAfter=No
+57	,	,	PUNCT	FF	_	65	punct	_	_
+58	as	as	ADV	B	_	65	cc	_	_
+59	well	well	ADV	B	_	58	fixed	_	_
+60	as	as	ADP	E	_	58	fixed	_	SpacesAfter=\s\s
+61	beneath	beneath	ADP	E	_	63	case	_	_
+62	the	the	DET	RD	Definite=Def|PronType=Art	63	det	_	_
+63	seabed	seabed	NOUN	S	Number=Sing	65	nmod	_	_
+64	off	off	ADP	E	_	63	case	_	_
+65	japan	japan	NOUN	S	Number=Sing	42	conj	_	SpaceAfter=No
+66	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\s\s
+
+# sent_id = 41
+# text = culturable thermophilic microbes have been extracted from cores drilled more than into the earth's crust in sweden, from rocks between . temperature increases with increasing depth into the earth's crust.
+1	culturable	culturable	ADJ	A	Degree=Pos	3	amod	_	_
+2	thermophilic	thermophilic	ADJ	A	Degree=Pos	3	amod	_	_
+3	microbes	microbe	NOUN	S	Number=Plur	6	nsubj:pass	_	_
+4	have	have	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	been	be	AUX	VA	Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	extracted	extract	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+7	from	from	ADP	E	_	8	case	_	_
+8	cores	core	NOUN	S	Number=Plur	6	obl	_	_
+9	drilled	dril	VERB	V	Tense=Past|VerbForm=Part	8	acl	_	_
+10	more	more	ADV	B	Degree=Cmp	9	advmod	_	_
+11	than	than	ADP	E	_	16	case	_	SpacesAfter=\s\s
+12	into	into	ADP	E	_	16	case	_	_
+13	the	the	DET	RD	Definite=Def|PronType=Art	14	det	_	_
+14	earth	earth	NOUN	S	Number=Sing	16	nmod	_	SpaceAfter=No
+15	's	's	PART	PART	_	14	case	_	_
+16	crust	crust	NOUN	S	Number=Sing	9	obl	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	sweden	sweden	NOUN	S	Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	6	punct	_	_
+20	from	from	ADP	E	_	21	case	_	_
+21	rocks	rock	NOUN	S	Number=Plur	6	obl	_	_
+22	between	between	ADP	E	_	24	case	_	_
+23	.	.	PUNCT	FS	_	24	punct	_	_
+24	temperature	temperature	NOUN	S	Number=Sing	21	nmod	_	_
+25	increases	increase	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl	_	_
+26	with	with	ADP	E	_	28	case	_	_
+27	increasing	increasing	ADJ	A	Degree=Pos	28	amod	_	_
+28	depth	depth	NOUN	S	Number=Sing	25	obl	_	_
+29	into	into	ADP	E	_	33	case	_	_
+30	the	the	DET	RD	Definite=Def|PronType=Art	31	det	_	_
+31	earth	earth	NOUN	S	Number=Sing	33	nmod	_	SpaceAfter=No
+32	's	's	PART	PART	_	31	case	_	_
+33	crust	crust	NOUN	S	Number=Sing	25	obl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 42
+# text = the rate at which the temperature increases depends on many factors, including type of crust (continental vs.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	rate	rate	NOUN	S	Number=Sing	8	nsubj	_	_
+3	at	at	ADP	E	_	4	case	_	_
+4	which	which	PRON	PR	PronType=Rel	7	obl	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+6	temperature	temperature	NOUN	S	Number=Sing	7	nsubj	_	_
+7	increases	increas	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+8	depends	depend	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	on	on	ADP	E	_	11	case	_	_
+10	many	many	ADJ	A	Degree=Pos	11	amod	_	_
+11	factors	factor	NOUN	S	Number=Plur	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	including	include	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	11	acl	_	_
+14	type	type	NOUN	S	Number=Sing	19	nmod	_	_
+15	of	of	ADP	E	_	16	case	_	_
+16	crust	crust	NOUN	S	Number=Sing	19	nmod	_	_
+17	(	(	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+18	continental	continental	ADJ	A	Degree=Pos	19	amod	_	_
+19	vs	v	NOUN	S	Number=Plur	13	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 43
+# text = oceanic), rock type, geographic location, etc.
+1	oceanic	oceanic	ADJ	A	Degree=Pos	5	amod	_	SpaceAfter=No
+2	)	)	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	rock	rock	ADJ	A	Degree=Pos	5	amod	_	_
+5	type	type	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	geographic	geographic	ADJ	A	Degree=Pos	8	amod	_	_
+8	location	location	NOUN	S	Number=Sing	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	etc.	etc.	INTJ	I	_	5	conj	_	_
+
+# sent_id = 44
+# text = the greatest known temperature at which microbial life can exist is (''methanopyrus kandleri'' strain 116), and it is likely that the limit of life in the "deep biosphere" is defined by temperature rather than absolute depth.
+1	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+2	greatest	greatest	ADJ	A	Degree=Sup	4	amod	_	_
+3	known	known	ADJ	A	Degree=Pos	4	amod	_	_
+4	temperature	temperature	NOUN	S	Number=Sing	15	nsubj	_	_
+5	at	at	ADP	E	_	6	case	_	_
+6	which	which	PRON	PR	PronType=Rel	10	obl	_	_
+7	microbial	microbial	ADJ	A	Degree=Pos	8	amod	_	_
+8	life	life	NOUN	S	Number=Sing	10	nsubj	_	_
+9	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	exist	exist	VERB	V	VerbForm=Inf	4	acl:relcl	_	_
+11	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	SpacesAfter=\s\s
+12	(	(	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+13	'	'	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+14	'	'	PART	PART	_	13	case	_	SpaceAfter=No
+15	methanopyrus	methanopyrus	VERB	V	VerbForm=Inf	0	root	_	_
+16	kandleri	kandleri	NOUN	S	_	19	obl	_	SpaceAfter=No
+17	'	'	PART	PART	_	16	case	_	SpaceAfter=No
+18	'	'	PART	PART	_	16	case	_	_
+19	strain	strain	VERB	V	VerbForm=Inf	15	ccomp	_	_
+20	116	116	NUM	N	NumType=Card	19	nummod	_	SpaceAfter=No
+21	)	)	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	26	punct	_	_
+23	and	and	CCONJ	CC	_	26	cc	_	_
+24	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	26	expl	_	_
+25	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+26	likely	likely	ADJ	A	Degree=Pos	19	conj	_	_
+27	that	that	SCONJ	CS	_	39	mark	_	_
+28	the	the	DET	RD	Definite=Def|PronType=Art	29	det	_	_
+29	limit	limit	NOUN	S	Number=Sing	39	nsubj:pass	_	_
+30	of	of	ADP	E	_	31	case	_	_
+31	life	life	NOUN	S	Number=Sing	29	nmod	_	_
+32	in	in	ADP	E	_	36	case	_	_
+33	the	the	DET	RD	Definite=Def|PronType=Art	36	det	_	_
+34	"	"	PUNCT	FB	_	36	punct	_	SpaceAfter=No
+35	deep	deep	ADJ	A	Degree=Pos	36	amod	_	_
+36	biosphere	biosphere	NOUN	S	Number=Sing	29	nmod	_	SpaceAfter=No
+37	"	"	PUNCT	FB	_	36	punct	_	_
+38	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	aux:pass	_	_
+39	defined	define	VERB	V	Tense=Past|VerbForm=Part	26	ccomp	_	_
+40	by	by	ADP	E	_	41	case	_	_
+41	temperature	temperature	NOUN	S	Number=Sing	39	obl	_	_
+42	rather	rather	ADP	E	_	45	case	_	_
+43	than	than	ADP	E	_	42	fixed	_	_
+44	absolute	absolute	ADJ	A	Degree=Pos	45	amod	_	_
+45	depth	depth	NOUN	S	Number=Sing	39	obl	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 45
+# text = on 20 august 2014, scientists confirmed the existence of microorganisms living below the ice of antarctica.
+1	on	on	ADP	E	_	2	case	_	_
+2	20	20	NUM	N	NumType=Card	7	obl	_	_
+3	august	august	ADJ	NO	Degree=Pos|NumType=Ord	4	amod	_	_
+4	2014	2014	NUM	N	NumType=Card	2	flat	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	scientists	scientist	NOUN	S	Number=Plur	7	nsubj	_	_
+7	confirmed	confirm	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	the	the	DET	RD	Definite=Def|PronType=Art	9	det	_	_
+9	existence	existence	NOUN	S	Number=Sing	7	obj	_	_
+10	of	of	ADP	E	_	11	case	_	_
+11	microorganisms	microorganism	NOUN	S	Number=Plur	9	nmod	_	_
+12	living	live	ADJ	A	Degree=Pos	11	amod	_	SpacesAfter=\s\s
+13	below	below	ADP	E	_	15	case	_	_
+14	the	the	DET	RD	Definite=Def|PronType=Art	15	det	_	_
+15	ice	ice	NOUN	S	Number=Sing	12	obl	_	_
+16	of	of	ADP	E	_	17	case	_	_
+17	antarctica	antarctica	NOUN	S	Number=Plur	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 46
+# text = according to one researcher, "you can find microbes everywhere - they're extremely adaptable to conditions, and survive wherever they are."
+1	according	accord	VERB	V	VerbForm=Ger	4	case	_	_
+2	to	to	ADP	E	_	1	fixed	_	_
+3	one	one	NUM	N	NumType=Card	4	nummod	_	_
+4	researcher	researcher	NOUN	S	Number=Sing	9	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+7	you	you	PRON	PE	Person=2|PronType=Prs	9	nsubj	_	_
+8	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	find	find	VERB	V	VerbForm=Inf	0	root	_	_
+10	microbes	microbe	NOUN	S	Number=Plur	9	obj	_	_
+11	everywhere	everywhere	ADV	B	_	9	advmod	_	_
+12	-	-	PUNCT	FF	_	9	punct	_	_
+13	they	they	PRON	PE	Number=Plur|Person=3|PronType=Prs	16	nsubj	_	SpaceAfter=No
+14	're	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	extremely	extremely	ADV	B	_	16	advmod	_	_
+16	adaptable	adaptable	ADJ	A	Degree=Pos	9	ccomp	_	_
+17	to	to	ADP	E	_	18	case	_	_
+18	conditions	condition	NOUN	S	Number=Plur	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	survive	survive	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	9	conj	_	_
+22	wherever	wherever	SCONJ	CS	_	24	mark	_	_
+23	they	they	PRON	PE	Number=Plur|Person=3|PronType=Prs	24	nsubj	_	_
+24	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	21	cop	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	24	punct	_	SpaceAfter=No
+26	"	"	PUNCT	FB	_	9	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 47
+# text = our biosphere is divided into a number of biomes, inhabited by fairly similar flora and fauna.
+1	our	us	DET	AP	Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	biosphere	biosphere	NOUN	S	Number=Sing	4	nsubj:pass	_	_
+3	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	divided	divide	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+5	into	into	ADP	E	_	7	case	_	_
+6	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	7	det	_	_
+7	number	number	NOUN	S	Number=Sing	4	obl	_	_
+8	of	of	ADP	E	_	9	case	_	_
+9	biomes	biome	NOUN	S	Number=Plur	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	inhabited	inhabit	VERB	V	Tense=Past|VerbForm=Part	9	acl	_	_
+12	by	by	ADP	E	_	15	case	_	_
+13	fairly	fairly	ADV	B	_	14	advmod	_	_
+14	similar	similar	ADJ	A	Degree=Pos	15	amod	_	_
+15	flora	flora	NOUN	S	Number=Plur	11	obl	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	fauna	fauna	NOUN	S	Number=Sing	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 48
+# text = on land, biomes are separated primarily by latitude.
+1	on	on	ADP	E	_	2	case	_	_
+2	land	land	NOUN	S	Number=Sing	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	biomes	biome	NOUN	S	Number=Plur	6	nsubj:pass	_	_
+5	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	separated	separate	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+7	primarily	primarily	ADV	B	_	6	advmod	_	_
+8	by	by	ADP	E	_	9	case	_	_
+9	latitude	latitude	NOUN	S	Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 49
+# text = terrestrial biomes lying within the arctic and antarctic circles are relatively barren of plant and animal life, while most of the more populous biomes lie near the equator.
+1	terrestrial	terrestrial	ADJ	A	Degree=Pos	2	amod	_	_
+2	biomes	biome	NOUN	S	Number=Plur	12	nsubj	_	_
+3	lying	ly	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	2	acl	_	_
+4	within	within	ADP	E	_	9	case	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	9	det	_	_
+6	arctic	arctic	ADJ	A	Degree=Pos	9	amod	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	antarctic	antarctic	ADJ	A	Degree=Pos	6	conj	_	_
+9	circles	circle	NOUN	S	Number=Plur	3	obl	_	_
+10	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	relatively	relatively	ADV	B	_	12	advmod	_	_
+12	barren	barren	NOUN	S	Number=Plur	0	root	_	_
+13	of	of	ADP	E	_	14	case	_	_
+14	plant	plant	NOUN	S	Number=Sing	12	nmod	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	animal	animal	NOUN	S	Number=Sing	17	nmod	_	_
+17	life	life	NOUN	S	Number=Sing	14	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	12	punct	_	_
+19	while	while	SCONJ	CS	_	26	mark	_	_
+20	most	most	ADJ	A	Degree=Sup	26	nsubj	_	_
+21	of	of	ADP	E	_	25	case	_	_
+22	the	the	DET	RD	Definite=Def|PronType=Art	25	det	_	_
+23	more	more	ADV	B	Degree=Cmp	24	advmod	_	_
+24	populous	populous	ADJ	A	Degree=Pos	25	amod	_	_
+25	biomes	biome	NOUN	S	Number=Plur	20	obl	_	_
+26	lie	lie	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+27	near	near	ADP	E	_	29	case	_	_
+28	the	the	DET	RD	Definite=Def|PronType=Art	29	det	_	_
+29	equator	equator	NOUN	S	Number=Sing	26	obl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\s\n\n
+
+# newpar
+# sent_id = 50
+# text = === annual variation ===
+1	===	===	SYM	X	_	3	nmod	_	_
+2	annual	annual	ADJ	A	Degree=Pos	3	amod	_	_
+3	variation	variation	NOUN	S	Number=Sing	0	root	_	_
+4	===	===	SYM	X	_	3	nmod	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 51
+# text = biosphere 2 in arizona.
+1	biosphere	biosphere	ADV	B	_	2	advmod	_	_
+2	2	2	NUM	N	NumType=Card	4	nummod	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	arizona	arizona	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 52
+# text = experimental biospheres, also called closed ecological systems, have been created to study ecosystems and the potential for supporting life outside the earth.
+1	experimental	experimental	ADJ	A	Degree=Pos	2	amod	_	_
+2	biospheres	biosphere	NOUN	S	Number=Plur	12	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	also	also	ADV	B	_	5	advmod	_	_
+5	called	call	VERB	V	Tense=Past|VerbForm=Part	2	acl	_	_
+6	closed	close	ADJ	A	Degree=Pos	8	amod	_	_
+7	ecological	ecologic	ADJ	A	Degree=Pos	8	amod	_	_
+8	systems	system	NOUN	S	Number=Plur	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	have	have	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	been	be	AUX	VA	Tense=Past|VerbForm=Part	12	aux:pass	_	_
+12	created	create	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+13	to	to	PART	PART	_	14	mark	_	_
+14	study	study	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	ecosystems	ecosystem	NOUN	S	Number=Plur	14	obj	_	_
+16	and	and	CCONJ	CC	_	18	cc	_	_
+17	the	the	DET	RD	Definite=Def|PronType=Art	18	det	_	_
+18	potential	potential	NOUN	S	Number=Sing	15	conj	_	_
+19	for	for	ADP	E	_	20	mark	_	_
+20	supporting	supporte	VERB	V	VerbForm=Ger	18	acl	_	_
+21	life	life	NOUN	S	Number=Sing	20	obj	_	_
+22	outside	outside	ADP	E	_	24	case	_	_
+23	the	the	DET	RD	Definite=Def|PronType=Art	24	det	_	_
+24	earth	earth	NOUN	S	Number=Sing	20	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 53
+# text = these include spacecraft and the following terrestrial laboratories:
+1	these	this	DET	DD	Number=Plur|PronType=Dem	2	det	_	_
+2	include	include	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	spacecraft	spacecraft	NOUN	S	Number=Sing	2	obj	_	_
+4	and	and	CCONJ	CC	_	8	cc	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	8	det	_	_
+6	following	following	NOUN	S	_	8	nmod	_	_
+7	terrestrial	terrestrial	ADJ	A	Degree=Pos	8	amod	_	_
+8	laboratories	laboratory	NOUN	S	Number=Plur	3	conj	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 54
+# text = * biosphere 2 in arizona, united states, 3.15 acres (13,000 m2).
+1	*	*	PUNCT	FF	_	3	punct	_	_
+2	biosphere	biosphere	ADV	B	_	3	advmod	_	_
+3	2	2	NUM	N	NumType=Card	8	nummod	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	arizona	arizona	X	SW	_	8	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	united	united	ADJ	A	Degree=Pos	8	amod	_	_
+8	states	state	NOUN	S	Number=Plur	11	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	3.15	3.15	NUM	N	NumType=Card	8	nummod	_	_
+11	acres	acre	NOUN	S	Number=Plur	0	root	_	_
+12	(	(	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+13	13,000	13,000	NUM	N	NumType=Card	11	nummod	_	_
+14	m2	m2	NUM	N	NumType=Card	13	nummod	_	SpaceAfter=No
+15	)	)	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 55
+# text = * bios-1, bios-2 and bios-3 at the institute of biophysics in krasnoyarsk, siberia, in what was then the soviet union.
+1	*	*	PUNCT	FF	_	2	punct	_	_
+2	bios	bio	NOUN	S	Number=Plur	0	root	_	SpaceAfter=No
+3	-1	-1	NUM	N	NumType=Card	2	nummod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	bios-2	bios-2	NUM	N	NumType=Card	2	nummod	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	bios-3	bios-3	NUM	N	NumType=Card	2	conj	_	_
+8	at	at	ADP	E	_	10	case	_	_
+9	the	the	DET	RD	Definite=Def|PronType=Art	10	det	_	_
+10	institute	institute	NOUN	S	Number=Sing	2	nmod	_	_
+11	of	of	ADP	E	_	12	case	_	_
+12	biophysics	biophysics	NOUN	S	Number=Plur	10	nmod	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	krasnoyarsk	krasnoyarsk	NOUN	S	Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	siberia	siberion	NOUN	S	Number=Plur	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	2	punct	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	what	what	PRON	PR	Number=Sing|PronType=Rel	2	nmod	_	_
+20	was	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	cop	_	_
+21	then	then	ADV	B	_	24	advmod	_	_
+22	the	the	DET	RD	Definite=Def|PronType=Art	24	det	_	_
+23	soviet	soviet	ADJ	A	Degree=Pos	24	amod	_	_
+24	union	union	NOUN	S	Number=Sing	19	nsubj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 56
+# text = * biosphere j (ceef, closed ecology experiment facilities), an experiment in japan.
+1	*	*	PUNCT	FF	_	2	punct	_	_
+2	biosphere	biosphere	VERB	V	VerbForm=Inf	0	root	_	_
+3	j	j	PROPN	SP	_	2	obj	_	_
+4	(	(	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	ceef	ceef	NOUN	S	Number=Sing	3	appos	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	closed	close	ADJ	A	Degree=Pos	10	amod	_	_
+8	ecology	ecology	NOUN	S	Number=Sing	10	nmod	_	_
+9	experiment	experiment	NOUN	S	Number=Sing	10	nmod	_	_
+10	facilities	facility	NOUN	S	Number=Plur	5	conj	_	SpaceAfter=No
+11	)	)	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	14	det	_	_
+14	experiment	experiment	NOUN	S	Number=Sing	3	nmod	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	japan	japan	NOUN	S	Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 57
+# text = * micro-ecological life support system alternative (melissa) at universitat autònoma de barcelona no biospheres have been detected beyond the earth;
+1	*	*	PUNCT	FF	_	7	punct	_	_
+2	micro	micro	ADV	B	_	4	advmod	_	SpaceAfter=No
+3	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+4	ecological	ecologic	ADJ	A	Degree=Pos	7	amod	_	_
+5	life	life	NOUN	S	Number=Sing	7	nmod	_	_
+6	support	support	NOUN	S	Number=Sing	7	nmod	_	_
+7	system	system	NOUN	S	Number=Sing	0	root	_	_
+8	alternative	alternative	ADJ	A	Degree=Pos	15	amod	_	_
+9	(	(	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	melissa	melissa	X	SW	_	8	obl	_	SpaceAfter=No
+11	)	)	PUNCT	FB	_	10	punct	_	_
+12	at	at	ADP	E	_	14	case	_	_
+13	universitat	universitat	ADJ	A	Degree=Pos	14	amod	_	_
+14	autònoma	autònoma	NOUN	S	Number=Plur	8	obl	_	_
+15	de	de	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	7	acl	_	_
+16	barcelona	barcelona	DET	RI	Definite=Ind|Number=Sing|PronType=Art	18	det	_	SpacesAfter=\n\s
+17	no	no	DET	DI	PronType=Ind	18	det	_	_
+18	biospheres	biosphere	NOUN	S	Number=Plur	21	nsubj:pass	_	_
+19	have	have	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	21	aux	_	_
+20	been	be	AUX	VA	Tense=Past|VerbForm=Part	21	aux:pass	_	_
+21	detected	detect	VERB	V	Tense=Past|VerbForm=Part	15	ccomp	_	_
+22	beyond	beyond	ADP	E	_	24	case	_	_
+23	the	the	DET	RD	Definite=Def|PronType=Art	24	det	_	_
+24	earth	earth	NOUN	S	Number=Sing	21	obl	_	SpaceAfter=No
+25	;	;	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 58
+# text = therefore, the existence of extraterrestrial biospheres remains hypothetical.
+1	therefore	therefore	ADV	B	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+4	existence	existence	NOUN	S	Number=Sing	8	nsubj	_	_
+5	of	of	ADP	E	_	7	case	_	_
+6	extraterrestrial	extraterrestrial	ADJ	A	Degree=Pos	7	amod	_	_
+7	biospheres	biosphere	NOUN	S	Number=Plur	4	nmod	_	_
+8	remains	remain	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	hypothetical	hypothetical	ADJ	A	Degree=Pos	8	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 59
+# text = the rare earth hypothesis suggests they should be very rare, save ones composed of microbial life only.
+1	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+2	rare	rare	ADJ	A	Degree=Pos	3	amod	_	_
+3	earth	earth	NOUN	S	Number=Sing	5	nsubj	_	_
+4	hypothesis	hypothesis	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	suggests	suggest	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	they	they	PRON	PE	Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
+7	should	shall	AUX	VM	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
+8	be	be	AUX	V	VerbForm=Inf	10	cop	_	_
+9	very	very	ADV	B	_	10	advmod	_	_
+10	rare	rare	ADJ	A	Degree=Pos	5	xcomp	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	save	save	CCONJ	CC	_	14	cc	_	_
+13	ones	one	PRON	PE	Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
+14	composed	compose	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	10	conj	_	_
+15	of	of	ADP	E	_	17	case	_	_
+16	microbial	microbial	ADJ	A	Degree=Pos	17	amod	_	_
+17	life	life	NOUN	S	Number=Sing	14	obl	_	_
+18	only	only	ADV	B	_	14	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 60
+# text = on the other hand, earth analogs may be quite numerous, at least in the milky way galaxy, given the large number of planets.
+1	on	on	ADP	E	_	4	case	_	_
+2	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+3	other	other	ADJ	A	Degree=Pos	4	amod	_	_
+4	hand	hand	NOUN	S	Number=Sing	6	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	earth	earth	DET	DI	PronType=Ind	7	det	_	_
+7	analogs	analog	NOUN	S	Number=Plur	21	nsubj:pass	_	_
+8	may	may	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+9	be	be	AUX	V	VerbForm=Inf	21	aux:pass	_	_
+10	quite	quite	ADV	B	_	11	advmod	_	_
+11	numerous	numerous	ADV	B	_	21	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	at	at	ADV	B	_	19	advmod	_	_
+14	least	least	ADV	B	Degree=Sup	13	fixed	_	_
+15	in	in	ADP	E	_	19	case	_	_
+16	the	the	DET	RD	Definite=Def|PronType=Art	19	det	_	_
+17	milky	milky	ADJ	A	Degree=Pos	18	amod	_	_
+18	way	way	NOUN	S	Number=Sing	19	nmod	_	_
+19	galaxy	galaxy	NOUN	S	Number=Sing	21	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	given	give	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+22	the	the	DET	RD	Definite=Def|PronType=Art	24	det	_	_
+23	large	large	ADJ	A	Degree=Pos	24	amod	_	_
+24	number	number	NOUN	S	Number=Sing	21	obj	_	_
+25	of	of	ADP	E	_	26	case	_	_
+26	planets	planet	NOUN	S	Number=Plur	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 61
+# text = three of the planets discovered orbiting trappist-1 could possibly contain biospheres.
+1	three	three	NUM	N	NumType=Card	10	nsubj	_	_
+2	of	of	ADP	E	_	4	case	_	_
+3	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+4	planets	planet	NOUN	S	Number=Plur	1	nmod	_	_
+5	discovered	discover	VERB	V	Tense=Past|VerbForm=Part	4	acl	_	_
+6	orbiting	orbit	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	5	xcomp	_	_
+7	trappist-1	trappist-1	NUM	N	NumType=Card	6	obj	_	_
+8	could	can	AUX	VM	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
+9	possibly	possibly	ADV	B	_	10	advmod	_	_
+10	contain	contain	VERB	V	VerbForm=Inf	0	root	_	_
+11	biospheres	biosphere	NOUN	S	Number=Plur	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\s\s
+
+# sent_id = 62
+# text = given limited understanding of abiogenesis, it is currently unknown what percentage of these planets actually develop biospheres.
+1	given	give	VERB	V	Tense=Past|VerbForm=Part	10	advcl	_	_
+2	limited	limited	ADJ	A	Degree=Pos	3	amod	_	_
+3	understanding	understanding	NOUN	S	Number=Sing	1	obj	_	_
+4	of	of	ADP	E	_	5	case	_	_
+5	abiogenesis	abiogenesis	NOUN	S	Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	10	expl	_	_
+8	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	currently	currently	ADV	B	_	10	advmod	_	_
+10	unknown	unknown	ADJ	A	Degree=Pos	0	root	_	_
+11	what	what	DET	DQ	PronType=Int	12	det	_	_
+12	percentage	percentage	NOUN	S	Number=Sing	10	obj	_	_
+13	of	of	ADP	E	_	15	case	_	_
+14	these	this	DET	DD	Number=Plur|PronType=Dem	15	det	_	_
+15	planets	planet	NOUN	S	Number=Plur	12	nmod	_	_
+16	actually	actually	ADV	B	_	17	advmod	_	_
+17	develop	develop	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	10	csubj	_	_
+18	biospheres	biosphere	NOUN	S	Number=Plur	17	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 63
+# text = based on observations by the kepler space telescope team, it has been calculated that provided the probability of abiogenesis is higher than 1 to 1000, the closest alien biosphere should be within 100 light-years from the earth.
+1	based	based	VERB	V	Tense=Past|VerbForm=Part	3	case	_	_
+2	on	on	ADP	E	_	3	case	_	_
+3	observations	observation	NOUN	S	Number=Plur	14	obl	_	_
+4	by	by	ADP	E	_	7	case	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+6	kepler	kepler	ADJ	A	Degree=Cmp	7	amod	_	_
+7	space	space	NOUN	S	Number=Sing	3	nmod	_	_
+8	telescope	telescope	ADP	E	_	9	case	_	_
+9	team	team	NOUN	S	Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	14	nsubj:pass	_	_
+12	has	have	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	been	be	AUX	VA	Tense=Past|VerbForm=Part	14	aux:pass	_	_
+14	calculated	calculate	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+15	that	that	SCONJ	CS	_	16	mark	_	_
+16	provided	provide	VERB	V	Tense=Past|VerbForm=Part	22	advcl	_	_
+17	the	the	DET	RD	Definite=Def|PronType=Art	18	det	_	_
+18	probability	probability	NOUN	S	Number=Sing	22	nsubj	_	_
+19	of	of	ADP	E	_	20	case	_	_
+20	abiogenesis	abiogenesis	PRON	PP	Poss=Yes|PronType=Prs	18	nmod	_	_
+21	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	higher	higher	ADJ	A	Degree=Cmp	38	amod	_	_
+23	than	than	ADP	E	_	24	case	_	_
+24	1	1	NUM	N	NumType=Card	22	obl	_	_
+25	to	to	ADP	E	_	26	case	_	_
+26	1000	1000	NUM	N	NumType=Card	24	nummod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	22	punct	_	_
+28	the	the	DET	RD	Definite=Def|PronType=Art	30	det	_	_
+29	closest	closest	ADJ	A	Degree=Sup	30	amod	_	_
+30	alien	alien	NOUN	S	Number=Sing	38	nmod	_	_
+31	biosphere	biosphere	PRON	PR	PronType=Rel	38	nsubj	_	_
+32	should	shall	AUX	VM	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	38	aux	_	_
+33	be	be	AUX	V	VerbForm=Inf	38	cop	_	_
+34	within	within	ADP	E	_	38	case	_	_
+35	100	100	NUM	N	NumType=Card	36	nummod	_	_
+36	light	light	NOUN	S	Number=Sing	34	fixed	_	SpaceAfter=No
+37	-	-	PUNCT	FF	_	38	punct	_	SpaceAfter=No
+38	years	year	NOUN	S	Number=Plur	14	obl	_	_
+39	from	from	ADP	E	_	41	case	_	_
+40	the	the	DET	RD	Definite=Def|PronType=Art	41	det	_	_
+41	earth	earth	NOUN	S	Number=Sing	14	obl	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	14	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 64
+# text = it is also possible that artificial biospheres will be created during the future, for example on mars.
+1	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+2	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	also	also	ADV	B	_	4	advmod	_	_
+4	possible	possible	ADJ	A	Degree=Pos	0	root	_	_
+5	that	that	SCONJ	CS	_	10	mark	_	_
+6	artificial	artificial	ADJ	A	Degree=Pos	7	amod	_	_
+7	biospheres	biosphere	NOUN	S	Number=Plur	10	nsubj:pass	_	_
+8	will	will	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	be	be	AUX	VA	VerbForm=Inf	10	aux:pass	_	_
+10	created	create	VERB	V	Tense=Past|VerbForm=Part	4	csubj	_	_
+11	during	during	ADP	E	_	13	case	_	_
+12	the	the	DET	RD	Definite=Def|PronType=Art	13	det	_	_
+13	future	future	NOUN	S	Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	10	punct	_	_
+15	for	for	ADP	E	_	16	case	_	_
+16	example	example	NOUN	S	Number=Sing	10	obl	_	_
+17	on	on	ADP	E	_	18	case	_	_
+18	mars	mar	NOUN	S	Number=Plur	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 65
+# text = the process of creating an uncontained system that mimics the function of earth's biosphere is called terraforming.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	process	process	NOUN	S	Number=Sing	17	nsubj:pass	_	_
+3	of	of	ADP	E	_	4	mark	_	_
+4	creating	create	VERB	V	VerbForm=Ger	2	acl	_	_
+5	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	7	det	_	_
+6	uncontained	uncontained	ADJ	A	Degree=Pos	7	amod	_	_
+7	system	system	NOUN	S	Number=Sing	4	obj	_	_
+8	that	that	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	mimics	mimic	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	11	det	_	_
+11	function	function	NOUN	S	Number=Sing	9	obj	_	_
+12	of	of	ADP	E	_	15	case	_	_
+13	earth	earth	NOUN	S	Number=Sing	15	nmod	_	SpaceAfter=No
+14	's	's	PART	PART	_	13	case	_	_
+15	biosphere	biosphere	NOUN	S	Number=Sing	11	nmod	_	_
+16	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
+17	called	call	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+18	terraforming	terraforming	NOUN	S	Number=Sing	17	xcomp	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	17	punct	_	SpacesAfter=\n\s\n\n
+
+# newpar
+# sent_id = 66
+# text = * climate system * cryosphere * habitable zone * homeostasis * life support system * man and the biosphere programme * montreal biosphère * noogenesis * noosphere * rare biosphere * shadow biosphere * simple biosphere model * soil biomantle * thomas gold * wardian case * winogradsky column
+1	*	*	PUNCT	FF	_	3	punct	_	_
+2	climate	climate	ADJ	A	Degree=Pos	3	amod	_	_
+3	system	system	NOUN	S	Number=Sing	49	nmod	_	SpacesAfter=\n
+4	*	*	PUNCT	FF	_	3	punct	_	_
+5	cryosphere	cryosphere	ADV	B	_	49	advmod	_	SpacesAfter=\n
+6	*	*	PUNCT	FF	_	49	punct	_	_
+7	habitable	habitable	ADJ	A	Degree=Pos	49	amod	_	_
+8	zone	zone	NUM	N	NumType=Card	49	nummod	_	SpacesAfter=\n
+9	*	*	PUNCT	FF	_	10	punct	_	_
+10	homeostasis	homeostasis	NOUN	S	Number=Sing	49	nmod	_	SpacesAfter=\n
+11	*	*	PUNCT	FF	_	10	punct	_	_
+12	life	life	NOUN	S	Number=Sing	49	nmod	_	_
+13	support	support	NOUN	S	Number=Sing	14	nmod	_	_
+14	system	system	NOUN	S	Number=Sing	49	nmod	_	SpacesAfter=\n
+15	*	*	PUNCT	FF	_	16	punct	_	_
+16	man	man	NOUN	S	Gender=Masc|Number=Sing	49	nmod	_	_
+17	and	and	CCONJ	CC	_	20	cc	_	_
+18	the	the	DET	RD	Definite=Def|PronType=Art	20	det	_	_
+19	biosphere	biosphere	NOUN	S	Number=Sing	20	nmod	_	_
+20	programme	programme	NOUN	S	Number=Sing	16	conj	_	SpacesAfter=\n
+21	*	*	PUNCT	FF	_	23	punct	_	_
+22	montreal	montreal	ADJ	A	Degree=Pos	23	amod	_	_
+23	biosphère	biosphère	NOUN	S	Number=Sing	16	nmod	_	SpacesAfter=\n
+24	*	*	PUNCT	FF	_	23	punct	_	_
+25	noogenesis	noogenesis	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	cop	_	SpacesAfter=\n
+26	*	*	PUNCT	FF	_	30	punct	_	_
+27	noosphere	noosphere	ADV	B	_	30	advmod	_	SpacesAfter=\n
+28	*	*	PUNCT	FF	_	30	punct	_	_
+29	rare	rare	ADJ	A	Degree=Pos	30	amod	_	_
+30	biosphere	biosphere	NOUN	S	Number=Sing	49	nmod	_	SpacesAfter=\n
+31	*	*	PUNCT	FF	_	30	punct	_	_
+32	shadow	shadow	ADV	B	_	40	advmod	_	_
+33	biosphere	biosphere	ADV	B	_	40	advmod	_	SpacesAfter=\n
+34	*	*	PUNCT	FF	_	33	punct	_	_
+35	simple	simple	ADJ	A	Degree=Pos	37	amod	_	_
+36	biosphere	biosphere	NOUN	S	Number=Sing	37	nmod	_	_
+37	model	model	NOUN	S	Number=Sing	40	nmod	_	SpacesAfter=\n
+38	*	*	PUNCT	FF	_	40	punct	_	_
+39	soil	soil	ADJ	A	Degree=Pos	40	amod	_	_
+40	biomantle	biomantle	NOUN	S	Number=Sing	30	nmod	_	SpacesAfter=\n
+41	*	*	PUNCT	FF	_	43	punct	_	_
+42	thomas	thoma	NOUN	S	Number=Plur	43	nmod	_	_
+43	gold	gold	NOUN	S	Number=Sing	40	conj	_	SpacesAfter=\n
+44	*	*	PUNCT	FF	_	46	punct	_	_
+45	wardian	wardian	ADJ	A	Degree=Pos	46	amod	_	_
+46	case	case	NOUN	S	Number=Sing	43	conj	_	SpacesAfter=\n
+47	*	*	PUNCT	FF	_	46	punct	_	_
+48	winogradsky	winogradsky	ADJ	A	Degree=Pos	40	amod	_	_
+49	column	column	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\s\n\s
+
+# newpar
+# sent_id = 67
+# text = * ''the biosphere'' (a ''scientific american'' book), san francisco, w.h. freeman and co.,
+1	*	*	PUNCT	FF	_	3	punct	_	_
+2	'	'	PART	PART	_	3	mark	_	SpaceAfter=No
+3	'the	'the	VERB	V	VerbForm=Inf	0	root	_	_
+4	biosphere	biosphere	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	'	'	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+6	'	'	PUNCT	FB	_	3	punct	_	_
+7	(	(	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+8	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	15	det	_	_
+9	'	'	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+10	'	'	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+11	scientific	scientific	ADJ	A	Degree=Pos	12	amod	_	_
+12	american	american	NOUN	S	Number=Sing	15	nmod	_	SpaceAfter=No
+13	'	'	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	'	'	PART	PART	_	12	case	_	_
+15	book	book	VERB	V	VerbForm=Inf	3	conj	_	SpaceAfter=No
+16	)	)	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	san	san	ADJ	A	Degree=Pos	19	amod	_	_
+19	francisco	francisco	NOUN	S	Number=Sing	3	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	3	punct	_	_
+21	w.h	w.h	ADP	E	_	23	case	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	23	punct	_	_
+23	freeman	freeman	ADJ	A	Degree=Pos	3	obl	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	co	co	ADJ	A	Degree=Pos	23	conj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	23	punct	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	3	punct	_	_
+
+# sent_id = 68
+# text = 1970, . this book, originally the december 1970 ''scientific american'' issue, covers virtually every major concern and concept since debated regarding materials and energy resources (including solar energy), population trends, and environmental degradation (including global warming).
+1	1970	1970	NUM	N	NumType=Card	5	nummod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	.	.	PUNCT	FS	_	1	punct	_	_
+4	this	this	DET	DD	Number=Sing|PronType=Dem	5	det	_	_
+5	book	book	NOUN	S	Number=Sing	17	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	originally	originally	ADV	B	_	17	advmod	_	_
+8	the	the	DET	RD	Definite=Def|PronType=Art	9	det	_	_
+9	december	december	NOUN	S	Number=Sing	17	nmod	_	_
+10	1970	1970	NUM	N	NumType=Card	14	nummod	_	_
+11	'	'	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+12	'	'	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+13	scientific	scientific	ADJ	A	Degree=Pos	14	amod	_	_
+14	american	american	NOUN	S	Number=Sing	17	nmod	_	SpaceAfter=No
+15	'	'	PART	PART	_	14	case	_	SpaceAfter=No
+16	'	'	PART	PART	_	14	case	_	_
+17	issue	issue	NOUN	S	Number=Sing	19	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	covers	cover	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	virtually	virtually	ADV	B	_	23	advmod	_	_
+21	every	every	DET	DI	Number=Sing|PronType=Ind	23	det	_	_
+22	major	major	ADJ	A	Degree=Pos	23	amod	_	_
+23	concern	concern	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	concept	concept	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	23	conj	_	_
+26	since	since	SCONJ	CS	_	27	mark	_	_
+27	debated	debate	VERB	V	Tense=Past|VerbForm=Part	25	advcl	_	_
+28	regarding	regard	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	27	advcl	_	_
+29	materials	material	NOUN	S	Number=Plur	28	obj	_	_
+30	and	and	CCONJ	CC	_	32	cc	_	_
+31	energy	energy	NOUN	S	Number=Sing	32	nmod	_	_
+32	resources	resource	NOUN	S	Number=Plur	29	conj	_	_
+33	(	(	PUNCT	FB	_	34	punct	_	SpaceAfter=No
+34	including	include	VERB	V	VerbForm=Ger	32	acl	_	_
+35	solar	solar	ADJ	A	Degree=Pos	36	amod	_	_
+36	energy	energy	NOUN	S	Number=Sing	34	obj	_	SpaceAfter=No
+37	)	)	PUNCT	FB	_	34	punct	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	40	punct	_	_
+39	population	population	NOUN	S	Number=Sing	40	nmod	_	_
+40	trends	trend	NOUN	S	Number=Plur	29	conj	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	44	punct	_	_
+42	and	and	CCONJ	CC	_	44	cc	_	_
+43	environmental	environmental	ADJ	A	Degree=Pos	44	amod	_	_
+44	degradation	degradation	NOUN	S	Number=Sing	28	conj	_	_
+45	(	(	PUNCT	FB	_	46	punct	_	SpaceAfter=No
+46	including	include	VERB	V	VerbForm=Ger	44	acl	_	_
+47	global	global	ADJ	A	Degree=Pos	48	amod	_	_
+48	warming	warming	NOUN	S	Number=Sing	46	obj	_	SpaceAfter=No
+49	)	)	PUNCT	FB	_	46	punct	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	19	punct	_	SpacesAfter=\n\s\n
+
+# newpar
+# sent_id = 69
+# text = * biosphere definition * article on the biosphere at encyclopedia of earth * globio.info, an ongoing programme to map the past, current and future impacts of human activities on the biosphere * paul crutzen interview, freeview video of paul crutzen nobel laureate for his work on decomposition of ozone talking to harry kroto nobel laureate by the vega science trust.
+1	*	*	PUNCT	FF	_	3	punct	_	SpacesAfter=\s\s
+2	biosphere	biosphere	ADJ	A	Degree=Pos	3	amod	_	_
+3	definition	definition	NOUN	S	Number=Sing	5	nmod	_	SpacesAfter=\n
+4	*	*	PUNCT	FF	_	3	punct	_	SpacesAfter=\s\s
+5	article	article	NOUN	S	Number=Sing	18	nmod	_	_
+6	on	on	ADP	E	_	8	case	_	_
+7	the	the	DET	RD	Definite=Def|PronType=Art	8	det	_	_
+8	biosphere	biosphere	NOUN	S	Number=Sing	5	nmod	_	_
+9	at	at	ADP	E	_	10	case	_	_
+10	encyclopedia	encyclopedium	NOUN	S	Number=Sing	8	nmod	_	_
+11	of	of	ADP	E	_	12	case	_	_
+12	earth	earth	NOUN	S	Number=Sing	10	nmod	_	SpacesAfter=\n
+13	*	*	PUNCT	FF	_	12	punct	_	SpacesAfter=\s\s
+14	globio.info	globio.info	ADV	B	_	5	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	5	punct	_	_
+16	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	18	det	_	_
+17	ongoing	ongoing	ADJ	A	Degree=Pos	18	amod	_	_
+18	programme	programme	NOUN	S	Number=Sing	45	obl	_	_
+19	to	to	PART	PART	_	20	mark	_	_
+20	map	map	VERB	V	VerbForm=Inf	18	acl	_	_
+21	the	the	DET	RD	Definite=Def|PronType=Art	22	det	_	_
+22	past	past	NOUN	S	Number=Sing	20	obj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	18	punct	_	_
+24	current	current	ADJ	A	Degree=Pos	27	amod	_	_
+25	and	and	CCONJ	CC	_	26	cc	_	_
+26	future	future	ADJ	A	Degree=Pos	24	conj	_	_
+27	impacts	impact	NOUN	S	Number=Plur	45	nsubj	_	_
+28	of	of	ADP	E	_	30	case	_	_
+29	human	human	ADJ	A	Degree=Pos	30	amod	_	_
+30	activities	activity	NOUN	S	Number=Plur	27	nmod	_	_
+31	on	on	ADP	E	_	33	case	_	_
+32	the	the	DET	RD	Definite=Def|PronType=Art	33	det	_	_
+33	biosphere	biosphere	NOUN	S	Number=Sing	30	nmod	_	SpacesAfter=\n
+34	*	*	PUNCT	FF	_	37	punct	_	SpacesAfter=\s\s
+35	paul	paul	ADJ	A	Degree=Pos	37	amod	_	_
+36	crutzen	crutzen	NOUN	S	Number=Sing	37	nmod	_	_
+37	interview	interview	NOUN	S	Number=Sing	33	conj	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	40	punct	_	_
+39	freeview	freeview	ADJ	A	Degree=Pos	40	amod	_	_
+40	video	video	NOUN	S	Number=Sing	33	conj	_	_
+41	of	of	ADP	E	_	43	case	_	_
+42	paul	paul	ADJ	A	Degree=Pos	43	amod	_	_
+43	crutzen	crutzen	NOUN	S	Number=Sing	40	nmod	_	_
+44	nobel	nobel	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	45	aux	_	_
+45	laureate	laureate	VERB	V	VerbForm=Inf	58	nsubj	_	_
+46	for	for	ADP	E	_	48	case	_	_
+47	his	his	DET	AP	Poss=Yes|PronType=Prs	48	nmod:poss	_	_
+48	work	work	NOUN	S	Number=Sing	45	obl	_	_
+49	on	on	ADP	E	_	50	case	_	_
+50	decomposition	decomposition	NOUN	S	Number=Sing	45	obl	_	_
+51	of	of	ADP	E	_	52	case	_	_
+52	ozone	ozone	NUM	N	NumType=Card	50	nummod	_	_
+53	talking	talk	VERB	V	VerbForm=Ger	50	acl	_	_
+54	to	to	ADP	E	_	56	case	_	_
+55	harry	harry	DET	DI	Number=Sing|PronType=Ind	56	det	_	_
+56	kroto	kroto	NOUN	S	Number=Sing	53	obl	_	_
+57	nobel	nobel	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	58	aux	_	_
+58	laureate	laureate	VERB	V	VerbForm=Inf	0	root	_	_
+59	by	by	ADP	E	_	63	case	_	_
+60	the	the	DET	RD	Definite=Def|PronType=Art	63	det	_	_
+61	vega	vega	NOUN	S	Number=Plur	63	nmod	_	_
+62	science	science	NOUN	S	Number=Sing	63	nmod	_	_
+63	trust	trust	NOUN	S	Number=Sing	58	obl	_	SpaceAfter=No
+64	.	.	PUNCT	FS	_	58	punct	_	SpacesAfter=\n
+
+# sent_id = 70
+# text = * atlas of the biosphere
+1	*	*	PUNCT	FF	_	2	punct	_	SpacesAfter=\s\s
+2	atlas	atla	NOUN	S	Number=Plur	0	root	_	_
+3	of	of	ADP	E	_	5	case	_	_
+4	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+5	biosphere	biosphere	NOUN	S	Number=Sing	2	nmod	_	SpacesAfter=\n
+

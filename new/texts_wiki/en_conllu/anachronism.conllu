@@ -1,0 +1,3007 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = the last supper'' by leonardo da vinci, 1498, depicts jesus and the apostles sitting at a long table.
+1	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+2	last	last	ADJ	NO	Degree=Pos|NumType=Ord	3	amod	_	_
+3	supper	supper	NOUN	S	Number=Sing	14	nsubj	_	SpaceAfter=No
+4	'	'	PART	PART	_	3	case	_	SpaceAfter=No
+5	'	'	PART	PART	_	3	case	_	_
+6	by	by	ADP	E	_	7	case	_	_
+7	leonardo	leonardo	NOUN	S	Number=Sing	3	nmod	_	_
+8	da	da	X	SW	_	7	nmod	_	_
+9	vinci	vinci	X	X	_	8	flat	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	1498	1498	NUM	N	NumType=Card	7	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	depicts	depict	NOUN	S	Number=Plur	7	conj	_	_
+14	jesus	jesus	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	the	the	DET	RD	Definite=Def|PronType=Art	17	det	_	_
+17	apostles	apostle	NOUN	S	Number=Plur	14	conj	_	_
+18	sitting	sit	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	17	acl	_	_
+19	at	at	ADP	E	_	22	case	_	_
+20	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	22	det	_	_
+21	long	long	ADV	B	_	22	advmod	_	_
+22	table	table	ADJ	A	Degree=Pos	18	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 2
+# text = this kind of table was unknown at the time and place of the last supper.
+1	this	this	DET	DD	Number=Sing|PronType=Dem	2	det	_	_
+2	kind	kind	NOUN	S	Number=Sing	6	nsubj	_	_
+3	of	of	ADP	E	_	4	case	_	_
+4	table	table	NOUN	S	Number=Sing	2	nmod	_	_
+5	was	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+6	unknown	unknown	ADJ	A	Degree=Pos	0	root	_	_
+7	at	at	ADP	E	_	9	case	_	_
+8	the	the	DET	RD	Definite=Def|PronType=Art	9	det	_	_
+9	time	time	NOUN	S	Number=Sing	6	obl	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	place	place	NOUN	S	Number=Sing	9	conj	_	_
+12	of	of	ADP	E	_	15	case	_	_
+13	the	the	DET	RD	Definite=Def|PronType=Art	15	det	_	_
+14	last	last	ADJ	NO	Degree=Pos|NumType=Ord	15	amod	_	_
+15	supper	supper	NOUN	S	Number=Sing	11	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = an '''anachronism''' (from the greek , "against" and , "time") is a chronological inconsistency in some arrangement, especially a juxtaposition of persons, events, objects, or customs from different periods.
+1	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	26	det	_	_
+2	'	'	PART	PART	_	26	mark	_	SpaceAfter=No
+3	'	'	PART	PART	_	2	case	_	SpaceAfter=No
+4	'	'	PART	PART	_	2	case	_	SpaceAfter=No
+5	anachronism	anachronism	NOUN	S	Number=Sing	12	nmod	_	SpaceAfter=No
+6	'	'	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	'	'	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+8	'	'	PUNCT	FB	_	5	punct	_	_
+9	(	(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+10	from	from	ADP	E	_	12	case	_	_
+11	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+12	greek	greek	NOUN	S	Number=Sing	26	nsubj	_	SpacesAfter=\s\s
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+15	against	against	ADP	E	_	20	case	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	20	punct	_	_
+17	and	and	CCONJ	CC	_	20	cc	_	SpacesAfter=\s\s
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+20	time	time	NOUN	S	Number=Sing	12	nmod	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+22	)	)	PUNCT	FB	_	20	punct	_	_
+23	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+24	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	26	det	_	_
+25	chronological	chronological	ADJ	A	Degree=Pos	26	amod	_	_
+26	inconsistency	inconsistency	NOUN	S	Number=Sing	0	root	_	_
+27	in	in	ADP	E	_	29	case	_	_
+28	some	some	DET	DI	PronType=Ind	29	det	_	_
+29	arrangement	arrangement	NOUN	S	Number=Sing	26	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	29	punct	_	_
+31	especially	especially	ADV	B	_	33	advmod	_	_
+32	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	33	det	_	_
+33	juxtaposition	juxtaposition	NOUN	S	Number=Sing	29	conj	_	_
+34	of	of	ADP	E	_	35	case	_	_
+35	persons	person	NOUN	S	Number=Plur	33	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	37	punct	_	_
+37	events	events	NOUN	S	Number=Plur	35	conj	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	39	punct	_	_
+39	objects	object	NOUN	S	Number=Plur	35	conj	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	42	punct	_	_
+41	or	or	CCONJ	CC	_	42	cc	_	_
+42	customs	custom	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	conj	_	_
+43	from	from	ADP	E	_	45	case	_	_
+44	different	different	ADJ	A	Degree=Pos	45	amod	_	_
+45	periods	period	NOUN	S	Number=Plur	42	obl	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	26	punct	_	_
+
+# sent_id = 4
+# text = the most common type of anachronism is an object misplaced in time, but it may be a verbal expression, a technology, a philosophical idea, a musical style, a material, a plant or animal, a custom, or anything else associated with a particular period that is placed outside its proper temporal domain.
+1	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+2	most	most	ADV	B	_	3	advmod	_	_
+3	common	common	ADJ	A	Degree=Pos	4	amod	_	_
+4	type	type	NOUN	S	Number=Sing	9	nsubj	_	_
+5	of	of	ADP	E	_	6	case	_	_
+6	anachronism	anachronism	NOUN	S	Number=Sing	4	nmod	_	_
+7	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	9	det	_	_
+9	object	object	NOUN	S	Number=Sing	0	root	_	_
+10	misplaced	misplace	VERB	V	Tense=Past|VerbForm=Part	9	acl	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	time	time	NOUN	S	Number=Sing	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	20	punct	_	_
+14	but	but	CCONJ	CC	_	20	cc	_	_
+15	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+16	may	may	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+17	be	be	AUX	V	VerbForm=Inf	20	cop	_	_
+18	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	20	det	_	_
+19	verbal	verbal	ADJ	A	Degree=Pos	20	amod	_	_
+20	expression	expression	NOUN	S	Number=Sing	9	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	23	punct	_	_
+22	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	23	det	_	_
+23	technology	technology	NOUN	S	Number=Sing	9	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	9	punct	_	_
+25	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	27	det	_	_
+26	philosophical	philosophical	ADJ	A	Degree=Pos	27	amod	_	_
+27	idea	idea	NOUN	S	Number=Sing	9	appos	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	27	punct	_	_
+29	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	31	det	_	_
+30	musical	musical	ADJ	A	Degree=Pos	31	amod	_	_
+31	style	style	NOUN	S	Number=Sing	27	appos	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	31	punct	_	_
+33	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	47	det	_	_
+34	material	material	ADJ	A	Degree=Pos	47	amod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	37	punct	_	_
+36	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	37	det	_	_
+37	plant	plant	NOUN	S	Number=Sing	34	conj	_	_
+38	or	or	CCONJ	CC	_	39	cc	_	_
+39	animal	animal	NOUN	S	Number=Sing	34	conj	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	42	punct	_	_
+41	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	42	det	_	_
+42	custom	custom	NOUN	S	Number=Sing	34	conj	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	45	punct	_	_
+44	or	or	CCONJ	CC	_	45	cc	_	_
+45	anything	anything	NOUN	S	Number=Sing	34	conj	_	_
+46	else	else	ADJ	A	Degree=Pos	47	amod	_	_
+47	associated	associate	VERB	V	Tense=Past|VerbForm=Part	31	acl	_	_
+48	with	with	ADP	E	_	51	case	_	_
+49	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	51	det	_	_
+50	particular	particular	ADJ	A	Degree=Pos	51	amod	_	_
+51	period	period	NOUN	S	Number=Sing	47	obl	_	_
+52	that	that	PRON	PR	PronType=Rel	54	nsubj:pass	_	_
+53	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	54	aux:pass	_	_
+54	placed	place	VERB	V	Tense=Past|VerbForm=Part	51	acl:relcl	_	_
+55	outside	outside	ADP	E	_	59	case	_	_
+56	its	its	DET	AP	Number=Sing|Poss=Yes|PronType=Prs	59	nmod:poss	_	_
+57	proper	proper	ADJ	A	Degree=Pos	59	amod	_	_
+58	temporal	temporal	ADJ	A	Degree=Pos	59	amod	_	_
+59	domain	domain	NOUN	S	Number=Sing	54	obl	_	SpaceAfter=No
+60	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = an anachronism may be either intentional or unintentional.
+1	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	2	det	_	_
+2	anachronism	anachronism	NOUN	S	Number=Sing	6	nsubj	_	_
+3	may	may	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	be	be	AUX	V	VerbForm=Inf	6	cop	_	_
+5	either	either	ADV	B	_	6	advmod	_	_
+6	intentional	intention	ADJ	A	Degree=Pos	0	root	_	_
+7	or	or	CCONJ	CC	_	8	cc	_	_
+8	unintentional	unintentional	ADJ	A	Degree=Pos	6	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = intentional anachronisms may be introduced into a literary or artistic work to help a contemporary audience engage more readily with a historical period.
+1	intentional	intention	ADJ	A	Degree=Pos	2	amod	_	_
+2	anachronisms	anachronism	NOUN	S	Number=Plur	5	nsubj:pass	_	_
+3	may	may	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	be	be	AUX	VA	VerbForm=Inf	5	aux:pass	_	_
+5	introduced	introduce	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+6	into	into	ADP	E	_	11	case	_	_
+7	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	11	det	_	_
+8	literary	literary	ADJ	A	Degree=Pos	11	amod	_	_
+9	or	or	CCONJ	CC	_	10	cc	_	_
+10	artistic	artistic	ADJ	A	Degree=Pos	8	conj	_	_
+11	work	work	NOUN	S	Number=Sing	5	obl	_	_
+12	to	to	PART	PART	_	13	mark	_	_
+13	help	help	VERB	V	VerbForm=Inf	5	advcl	_	_
+14	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	16	det	_	_
+15	contemporary	contemporary	ADJ	A	Degree=Pos	16	amod	_	_
+16	audience	audience	NOUN	S	Number=Sing	13	obj	_	_
+17	engage	engage	VERB	V	VerbForm=Inf	13	xcomp	_	_
+18	more	more	ADV	B	Degree=Cmp	19	advmod	_	_
+19	readily	readily	ADV	B	_	17	advmod	_	_
+20	with	with	ADP	E	_	23	case	_	_
+21	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	23	det	_	_
+22	historical	historic	ADJ	A	Degree=Pos	23	amod	_	_
+23	period	period	NOUN	S	Number=Sing	17	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = anachronism can also be used for purposes of rhetoric, comedy, or shock.
+1	anachronism	anachronism	PRON	PE	Number=Plur|Person=3|PronType=Prs	5	nsubj:pass	_	_
+2	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	also	also	ADV	B	_	5	advmod	_	_
+4	be	be	AUX	VA	VerbForm=Inf	5	aux:pass	_	_
+5	used	use	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+6	for	for	ADP	E	_	7	case	_	_
+7	purposes	purpose	NOUN	S	Number=Plur	5	obl	_	_
+8	of	of	ADP	E	_	11	case	_	_
+9	rhetoric	rhetoric	ADJ	A	Degree=Pos	11	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	comedy	comedy	NOUN	S	Number=Sing	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	or	or	CCONJ	CC	_	14	cc	_	_
+14	shock	shock	ADJ	A	Degree=Pos	11	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = unintentional anachronisms may occur when a writer, artist, or performer is unaware of differences in technology, language, customs, attitudes, or fashions between different historical eras.
+1	unintentional	unintentional	ADJ	A	Degree=Pos	2	amod	_	_
+2	anachronisms	anachronism	NOUN	S	Number=Plur	4	nsubj	_	_
+3	may	may	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	occur	occur	VERB	V	VerbForm=Inf	0	root	_	_
+5	when	when	SCONJ	CS	_	14	mark	_	_
+6	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	7	det	_	_
+7	writer	writer	NOUN	S	Number=Sing	14	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	artist	artist	NOUN	S	Number=Sing	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	or	or	CCONJ	CC	_	12	cc	_	_
+12	performer	performer	NOUN	S	Number=Sing	7	conj	_	_
+13	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	unaware	unaware	ADJ	A	Degree=Pos	4	advcl	_	_
+15	of	of	ADP	E	_	16	case	_	_
+16	differences	difference	NOUN	S	Number=Plur	14	obl	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	technology	technology	NOUN	S	Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	language	language	NOUN	S	Number=Sing	18	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	customs	custom	NOUN	S	Number=Plur	18	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	24	punct	_	_
+24	attitudes	attitude	NOUN	S	Number=Plur	18	conj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	27	punct	_	_
+26	or	or	CCONJ	CC	_	27	cc	_	_
+27	fashions	fashion	NOUN	S	Number=Plur	18	conj	_	_
+28	between	between	ADP	E	_	31	case	_	_
+29	different	different	ADJ	A	Degree=Pos	31	amod	_	_
+30	historical	historic	ADJ	A	Degree=Pos	31	amod	_	_
+31	eras	era	NOUN	S	Number=Plur	16	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = ==types== the ''nuremberg chronicle'' (1493) shows ancient greek philosopher aristotle in scholar's clothing of the book's time, 1,800 years too modern for aristotle
+1	==types==	==types==	NOUN	S	Number=Sing	12	nsubj	_	SpacesAfter=\s\n
+2	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+3	'	'	X	X	_	6	nmod	_	SpaceAfter=No
+4	'	'	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+5	nuremberg	nuremberg	ADJ	A	Degree=Pos	6	amod	_	_
+6	chronicle	chronicle	NOUN	S	Number=Sing	1	nmod	_	SpaceAfter=No
+7	'	'	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	'	'	PUNCT	FB	_	6	punct	_	_
+9	(	(	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	1493	1493	NUM	N	NumType=Card	6	nummod	_	SpaceAfter=No
+11	)	)	PUNCT	FB	_	10	punct	_	_
+12	shows	show	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	ancient	ancient	ADJ	A	Degree=Pos	15	amod	_	_
+14	greek	greek	ADJ	A	Degree=Pos	15	amod	_	_
+15	philosopher	philosopher	NOUN	S	Number=Sing	16	nmod	_	_
+16	aristotle	aristotle	NOUN	S	Number=Sing	12	obj	_	_
+17	in	in	ADP	E	_	20	case	_	_
+18	scholar	scholar	NOUN	S	Number=Sing	20	nmod	_	SpaceAfter=No
+19	's	's	PART	PART	_	18	case	_	_
+20	clothing	clothing	NOUN	S	Number=Sing	28	obl	_	_
+21	of	of	ADP	E	_	25	case	_	_
+22	the	the	DET	RD	Definite=Def|PronType=Art	23	det	_	_
+23	book	book	NOUN	S	Number=Sing	25	nmod	_	SpaceAfter=No
+24	's	's	PART	PART	_	23	case	_	_
+25	time	time	NOUN	S	Number=Sing	20	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	20	punct	_	_
+27	1,800	1,800	NUM	N	NumType=Card	20	nummod	_	_
+28	years	year	NOUN	S	Number=Plur	12	obl	_	_
+29	too	too	ADV	B	_	30	advmod	_	_
+30	modern	modern	ADJ	A	Degree=Pos	12	xcomp	_	_
+31	for	for	ADP	E	_	32	case	_	_
+32	aristotle	aristotle	NOUN	S	Number=Sing	30	obl	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = === parachronism === a '''parachronism''' (from the greek , "on the side", and , "time") is anything that appears in a time period in which it is not normally found (though not sufficiently out of place as to be impossible).
+1	===	===	SYM	X	_	2	nmod	_	_
+2	parachronism	parachronism	NOUN	S	Number=Sing	8	nsubj	_	_
+3	===	===	SYM	X	_	2	nmod	_	SpacesAfter=\n
+4	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	5	det	_	_
+5	'	'	PART	PART	_	3	case	_	SpaceAfter=No
+6	'	'	PART	PART	_	5	case	_	SpaceAfter=No
+7	'	'	PART	PART	_	3	case	_	SpaceAfter=No
+8	parachronism	parachronism	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	'	'	PART	PART	_	8	compound:prt	_	SpaceAfter=No
+10	'	'	PART	PART	_	30	mark	_	SpaceAfter=No
+11	'	'	PART	PART	_	10	case	_	_
+12	(	(	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+13	from	from	ADP	E	_	15	case	_	_
+14	the	the	DET	RD	Definite=Def|PronType=Art	15	det	_	_
+15	greek	greek	NOUN	S	Number=Sing	30	nmod	_	_
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+18	on	on	ADP	E	_	20	case	_	_
+19	the	the	DET	RD	Definite=Def|PronType=Art	20	det	_	_
+20	side	side	NOUN	S	Number=Sing	15	nmod	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	26	punct	_	_
+23	and	and	CCONJ	CC	_	26	cc	_	_
+24	,	,	PUNCT	FF	_	26	punct	_	_
+25	"	"	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+26	time	time	NOUN	S	Number=Sing	15	conj	_	SpaceAfter=No
+27	"	"	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+28	)	)	PUNCT	FB	_	26	punct	_	_
+29	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+30	anything	anything	NOUN	S	Number=Sing	8	obj	_	_
+31	that	that	PRON	PR	PronType=Rel	32	nsubj	_	_
+32	appears	appear	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	_
+33	in	in	ADP	E	_	36	case	_	_
+34	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	36	det	_	_
+35	time	time	NOUN	S	Number=Sing	36	nmod	_	_
+36	period	period	NOUN	S	Number=Sing	32	obl	_	_
+37	in	in	ADP	E	_	38	case	_	_
+38	which	which	PRON	PR	PronType=Rel	43	obl	_	_
+39	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	43	nsubj	_	_
+40	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	aux	_	_
+41	not	not	PART	PART	Polarity=Neg	43	advmod	_	_
+42	normally	normally	ADV	B	_	43	advmod	_	_
+43	found	find	VERB	V	VerbForm=Inf	36	acl:relcl	_	_
+44	(	(	PUNCT	FB	_	48	punct	_	SpaceAfter=No
+45	though	though	SCONJ	CS	_	48	mark	_	_
+46	not	not	PART	PART	Polarity=Neg	47	advmod	_	_
+47	sufficiently	sufficiently	ADV	B	_	48	advmod	_	_
+48	out	out	ADP	E	_	50	case	_	_
+49	of	of	ADP	E	_	48	fixed	_	_
+50	place	place	NOUN	S	Number=Sing	43	obl	_	_
+51	as	as	ADP	E	_	54	mark	_	_
+52	to	to	PART	PART	_	51	fixed	_	_
+53	be	be	AUX	V	VerbForm=Inf	54	cop	_	_
+54	impossible	impossible	ADJ	A	Degree=Pos	43	advcl	_	SpaceAfter=No
+55	)	)	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = this may be an object, idiomatic expression, technology, philosophical idea, musical style, material, custom, or anything else so closely bound to a particular time period as to seem strange when encountered in a later era.
+1	this	this	PRON	PD	Number=Sing|PronType=Dem	5	nsubj	_	_
+2	may	may	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	be	be	AUX	V	VerbForm=Inf	5	cop	_	_
+4	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	5	det	_	_
+5	object	object	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	idiomatic	idiomatic	ADJ	A	Degree=Pos	8	amod	_	_
+8	expression	expression	NOUN	S	Number=Sing	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	technology	technology	NOUN	S	Number=Sing	5	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	philosophical	philosophical	ADJ	A	Degree=Pos	13	amod	_	_
+13	idea	idea	NOUN	S	Number=Sing	5	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	musical	musical	ADJ	A	Degree=Pos	16	amod	_	_
+16	style	style	NOUN	S	Number=Sing	5	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	material	material	ADJ	A	Degree=Pos	5	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	custom	custom	NOUN	S	Number=Sing	5	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	23	punct	_	_
+22	or	or	CCONJ	CC	_	23	cc	_	_
+23	anything	anything	NOUN	S	Number=Sing	5	conj	_	_
+24	else	else	ADJ	A	Degree=Pos	27	amod	_	_
+25	so	so	ADV	B	_	24	advmod	_	_
+26	closely	closely	ADV	B	_	24	advmod	_	_
+27	bound	bind	VERB	V	Tense=Past|VerbForm=Part	5	acl	_	_
+28	to	to	ADP	E	_	32	case	_	_
+29	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	32	det	_	_
+30	particular	particular	ADJ	A	Number=Sing	32	amod	_	_
+31	time	time	NOUN	S	Number=Sing	32	nmod	_	_
+32	period	period	NOUN	S	Number=Sing	27	obl	_	_
+33	as	as	ADP	E	_	35	mark	_	_
+34	to	to	PART	PART	_	33	fixed	_	_
+35	seem	seem	VERB	V	VerbForm=Inf	27	advcl	_	_
+36	strange	strange	NOUN	S	Number=Sing	35	obj	_	_
+37	when	when	SCONJ	CS	_	38	mark	_	_
+38	encountered	encounter	VERB	V	Tense=Past|VerbForm=Part	35	advcl	_	_
+39	in	in	ADP	E	_	42	case	_	_
+40	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	42	det	_	_
+41	later	later	ADJ	A	Degree=Cmp	42	amod	_	_
+42	era	era	NOUN	S	Number=Sing	38	obl	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 12
+# text = they may be objects or ideas that were once common but are now considered rare or inappropriate.
+1	they	they	PRON	PE	Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	may	may	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	V	VerbForm=Inf	4	cop	_	_
+4	objects	object	NOUN	S	Number=Plur	0	root	_	_
+5	or	or	CCONJ	CC	_	6	cc	_	_
+6	ideas	ideas	NOUN	S	Number=Plur	4	conj	_	_
+7	that	that	PRON	PR	PronType=Rel	10	nsubj	_	_
+8	were	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	10	cop	_	_
+9	once	once	ADV	B	_	10	advmod	_	_
+10	common	common	ADJ	A	Degree=Pos	4	acl:relcl	_	_
+11	but	but	CCONJ	CC	_	14	cc	_	_
+12	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	now	now	ADV	B	_	14	advmod	_	_
+14	considered	consider	VERB	V	Tense=Past|VerbForm=Part	10	conj	_	_
+15	rare	rare	ADJ	A	Degree=Pos	14	xcomp	_	_
+16	or	or	CCONJ	CC	_	17	cc	_	_
+17	inappropriate	inappropriate	ADJ	A	Degree=Pos	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\s\s
+
+# sent_id = 13
+# text = they can take the form of obsolete technology or outdated fashion or idioms.
+1	they	they	PRON	PE	Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	take	take	VERB	V	VerbForm=Inf	0	root	_	_
+4	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+5	form	form	NOUN	S	Number=Sing	3	obj	_	_
+6	of	of	ADP	E	_	8	case	_	_
+7	obsolete	obsolete	ADJ	A	Degree=Pos	8	amod	_	_
+8	technology	technology	NOUN	S	Number=Sing	5	nmod	_	_
+9	or	or	CCONJ	CC	_	11	cc	_	_
+10	outdated	outdated	ADJ	A	Degree=Pos	11	amod	_	_
+11	fashion	fashion	NOUN	S	Number=Sing	8	conj	_	_
+12	or	or	CCONJ	CC	_	13	cc	_	_
+13	idioms	idiom	NOUN	S	Number=Plur	8	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 14
+# text = examples of parachronisms could include a suburban housewife in the united states around 1960 using a washboard for laundry (well after washing machines had become the norm);
+1	examples	examples	NOUN	S	Number=Plur	5	nsubj	_	_
+2	of	of	ADP	E	_	3	case	_	_
+3	parachronisms	parachronism	NOUN	S	Number=Plur	1	nmod	_	_
+4	could	can	AUX	VM	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+5	include	include	VERB	V	VerbForm=Inf	0	root	_	_
+6	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	8	det	_	_
+7	suburban	suburban	ADJ	A	Degree=Pos	8	amod	_	_
+8	housewife	housewife	NOUN	S	Number=Sing	5	obj	_	_
+9	in	in	ADP	E	_	12	case	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+11	united	united	ADJ	A	Degree=Pos	12	amod	_	_
+12	states	state	NOUN	S	Number=Plur	5	obl	_	_
+13	around	around	ADP	E	_	14	case	_	_
+14	1960	1960	NUM	N	NumType=Card	5	obl	_	_
+15	using	use	VERB	V	VerbForm=Ger	5	advcl	_	_
+16	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	17	det	_	_
+17	washboard	washboard	NOUN	S	Number=Sing	15	obj	_	_
+18	for	for	ADP	E	_	19	case	_	_
+19	laundry	laundry	NOUN	S	Number=Sing	17	nmod	_	_
+20	(	(	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+21	well	well	ADV	B	_	23	advmod	_	_
+22	after	after	ADP	E	_	23	mark	_	_
+23	washing	washing	VERB	V	VerbForm=Ger	19	acl	_	_
+24	machines	machine	PRON	PE	Number=Sing|Person=3|PronType=Prs	23	obj	_	_
+25	had	have	AUX	VA	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	26	aux	_	_
+26	become	become	VERB	V	Tense=Past|VerbForm=Part	5	advcl	_	_
+27	the	the	DET	RD	Definite=Def|PronType=Art	28	det	_	_
+28	norm	norm	NOUN	S	Number=Sing	26	obj	_	SpaceAfter=No
+29	)	)	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+30	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 15
+# text = a teenager from the 1980s being an avid fan of ragtime music of the late 19th and early 20th centuries;
+1	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	2	det	_	_
+2	teenager	teenager	NOUN	S	Number=Sing	9	nsubj	_	_
+3	from	from	ADP	E	_	5	case	_	_
+4	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+5	1980s	1980	NOUN	S	Number=Plur	2	nmod	_	_
+6	being	be	AUX	V	VerbForm=Ger	9	cop	_	_
+7	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	9	det	_	_
+8	avid	avid	ADJ	A	Degree=Pos	9	amod	_	_
+9	fan	fan	NOUN	S	Number=Sing	0	root	_	_
+10	of	of	ADP	E	_	12	case	_	_
+11	ragtime	ragtime	ADJ	A	Degree=Pos	12	amod	_	_
+12	music	music	NOUN	S	Number=Sing	9	nmod	_	_
+13	of	of	ADP	E	_	16	case	_	_
+14	the	the	DET	RD	Definite=Def|PronType=Art	16	det	_	_
+15	late	late	ADJ	A	Degree=Pos	16	amod	_	_
+16	19	19	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
+17	th	th	ADJ	A	Degree=Pos	16	amod	_	_
+18	and	and	CCONJ	CC	_	22	cc	_	_
+19	early	early	ADJ	A	Degree=Pos	22	amod	_	_
+20	20	20	NUM	N	NumType=Card	22	nummod	_	SpaceAfter=No
+21	th	th	ADJ	A	Degree=Pos	20	amod	_	_
+22	centuries	century	NOUN	S	Number=Plur	16	conj	_	SpaceAfter=No
+23	;	;	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 16
+# text = or a businessman in 2006 wearing late 19th century clothing.
+1	or	or	CCONJ	CC	_	3	cc	_	_
+2	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	3	det	_	_
+3	businessman	businessman	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	2006	2006	NUM	N	NumType=Card	6	nummod	_	_
+6	wearing	wear	NOUN	S	_	3	nmod	_	_
+7	late	late	ADJ	A	Degree=Pos	3	amod	_	_
+8	19	19	NUM	N	NumType=Card	11	nummod	_	SpaceAfter=No
+9	th	th	ADJ	A	Degree=Pos	10	amod	_	_
+10	century	century	NOUN	S	Number=Sing	11	nmod	_	_
+11	clothing	clothing	NOUN	S	Number=Sing	3	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = often, a parachronism is identified when a work based on a particular era's state of knowledge is read within the context of a later era—with a different state of knowledge.
+1	often	often	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	4	det	_	_
+4	parachronism	parachronism	NOUN	S	Number=Sing	6	nsubj:pass	_	_
+5	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	identified	identify	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+7	when	when	SCONJ	CS	_	20	mark	_	_
+8	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	9	det	_	_
+9	work	work	NOUN	S	Number=Sing	20	nsubj:pass	_	_
+10	based	based	VERB	V	Tense=Past|VerbForm=Part	9	acl	_	_
+11	on	on	ADP	E	_	16	case	_	_
+12	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	14	det	_	_
+13	particular	particular	ADJ	A	Degree=Pos	14	amod	_	_
+14	era	era	NOUN	S	Number=Sing	16	nmod	_	SpaceAfter=No
+15	's	's	PART	PART	_	14	case	_	_
+16	state	state	NOUN	S	Number=Sing	10	obl	_	_
+17	of	of	ADP	E	_	18	case	_	_
+18	knowledge	knowledge	NOUN	S	Number=Sing	16	nmod	_	_
+19	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:pass	_	_
+20	read	read	VERB	V	Tense=Past|VerbForm=Part	6	advcl	_	_
+21	within	within	ADP	E	_	23	case	_	_
+22	the	the	DET	RD	Definite=Def|PronType=Art	23	det	_	_
+23	context	context	NOUN	S	Number=Sing	20	obl	_	_
+24	of	of	ADP	E	_	27	case	_	_
+25	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	27	det	_	_
+26	later	later	ADJ	A	Degree=Cmp	27	amod	_	_
+27	era—with	era—with	NOUN	S	Number=Sing	23	nmod	_	_
+28	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	30	det	_	_
+29	different	different	ADJ	A	Degree=Pos	30	amod	_	_
+30	state	state	NOUN	S	Number=Sing	27	obj	_	_
+31	of	of	ADP	E	_	32	case	_	_
+32	knowledge	knowledge	NOUN	S	Number=Sing	30	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\s\s
+
+# sent_id = 18
+# text = many scientific works that rely on theories that have later been discredited have become anachronistic with the removal of those underpinnings, and works of speculative fiction often find their speculations outstripped by real-world technological developments or scientific discoveries.
+1	many	many	ADJ	A	Degree=Pos	3	amod	_	_
+2	scientific	scientific	ADJ	A	Degree=Pos	3	amod	_	_
+3	works	work	NOUN	S	Number=Plur	14	nsubj	_	_
+4	that	that	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	rely	rely	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	on	on	ADP	E	_	7	case	_	_
+7	theories	theory	NOUN	S	Number=Plur	5	obl	_	_
+8	that	that	PRON	PR	PronType=Rel	12	nsubj:pass	_	_
+9	have	have	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	12	aux	_	_
+10	later	later	ADV	B	Degree=Cmp	12	advmod	_	_
+11	been	be	AUX	VA	Tense=Past|VerbForm=Part	12	aux:pass	_	_
+12	discredited	discredited	VERB	V	Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+13	have	have	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	become	become	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+15	anachronistic	anachronistic	ADJ	A	Degree=Pos	14	xcomp	_	_
+16	with	with	ADP	E	_	18	case	_	_
+17	the	the	DET	RD	Definite=Def|PronType=Art	18	det	_	_
+18	removal	removal	NOUN	S	Number=Sing	15	obl	_	_
+19	of	of	ADP	E	_	21	case	_	_
+20	those	that	DET	DD	Number=Plur|PronType=Dem	21	det	_	_
+21	underpinnings	underpinning	NOUN	S	Number=Plur	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	29	punct	_	_
+23	and	and	CCONJ	CC	_	29	cc	_	_
+24	works	work	NOUN	S	Number=Plur	29	nsubj	_	_
+25	of	of	ADP	E	_	27	case	_	_
+26	speculative	speculative	ADJ	A	Degree=Pos	27	amod	_	_
+27	fiction	fiction	NOUN	S	Number=Sing	24	nmod	_	_
+28	often	often	ADV	B	_	29	advmod	_	_
+29	find	find	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	14	conj	_	_
+30	their	their	DET	AP	Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+31	speculations	speculation	NOUN	S	Number=Plur	29	obj	_	_
+32	outstripped	outstrip	VERB	V	Tense=Past|VerbForm=Part	31	acl	_	_
+33	by	by	ADP	E	_	38	case	_	_
+34	real	real	ADJ	A	Degree=Pos	36	amod	_	SpaceAfter=No
+35	-	-	PUNCT	FF	_	34	punct	_	SpaceAfter=No
+36	world	world	NOUN	S	Number=Sing	38	nmod	_	_
+37	technological	technological	ADJ	A	Degree=Pos	38	amod	_	_
+38	developments	development	NOUN	S	Number=Plur	32	obl	_	_
+39	or	or	CCONJ	CC	_	41	cc	_	_
+40	scientific	scientific	ADJ	A	Degree=Pos	41	amod	_	_
+41	discoveries	discovery	NOUN	S	Number=Plur	38	conj	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	14	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 19
+# text = ancient greek orpheus with a violin (invented in the 16th century) rather than a lyre.
+1	ancient	ancient	ADJ	A	Degree=Pos	2	amod	_	_
+2	greek	greek	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	orpheus	orpheus	PRON	PE	Number=Plur|Person=1|PronType=Prs	2	obj	_	_
+4	with	with	ADP	E	_	6	case	_	_
+5	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	6	det	_	_
+6	violin	violin	NOUN	S	Number=Sing	2	obl	_	_
+7	(	(	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	invented	invent	VERB	V	Tense=Past|VerbForm=Part	6	acl	_	_
+9	in	in	ADP	E	_	13	case	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	13	det	_	_
+11	16	16	NUM	N	NumType=Card	13	nummod	_	SpaceAfter=No
+12	th	th	ADJ	A	Degree=Pos	13	amod	_	_
+13	century	century	NOUN	S	Number=Sing	8	obl	_	SpaceAfter=No
+14	)	)	PUNCT	FB	_	8	punct	_	_
+15	rather	rather	ADP	E	_	18	case	_	_
+16	than	than	ADP	E	_	15	fixed	_	_
+17	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	18	det	_	_
+18	lyre	lyre	NOUN	S	Number=Sing	6	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 20
+# text = a 17th-century painting by cesare gennari.
+1	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	2	det	_	_
+2	17	17	NUM	N	NumType=Card	5	nummod	_	SpaceAfter=No
+3	th	th	ADJ	A	Degree=Pos	2	amod	_	SpaceAfter=No
+4	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+5	century	century	NOUN	S	Number=Sing	0	root	_	_
+6	painting	paint	VERB	V	Person=3|VerbForm=Ger	5	acl	_	_
+7	by	by	ADP	E	_	9	case	_	_
+8	cesare	cesare	ADJ	A	Degree=Pos	9	amod	_	_
+9	gennari	gennari	NOUN	S	Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 21
+# text = === prochronism === a '''prochronism''' (from the greek , "before", and , "time") is an impossible anachronism which occurs when an object or idea has not yet been invented when the situation takes place, and therefore could not have possibly existed at the time (e.g. ''the last supper'' by leonardo da vinci at the top of the article).
+1	===	===	SYM	X	_	2	nmod	_	_
+2	prochronism	prochronism	NOUN	S	Number=Sing	8	nsubj	_	_
+3	===	===	SYM	X	_	2	nmod	_	SpacesAfter=\n
+4	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	5	det	_	_
+5	'	'	PART	PART	_	3	case	_	SpaceAfter=No
+6	'	'	PART	PART	_	5	case	_	SpaceAfter=No
+7	'	'	PART	PART	_	3	case	_	SpaceAfter=No
+8	prochronism	prochronism	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	'	'	PART	PART	_	8	compound:prt	_	SpaceAfter=No
+10	'	'	PART	PART	_	8	compound:prt	_	SpaceAfter=No
+11	'	'	PART	PART	_	10	case	_	_
+12	(	(	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+13	from	from	ADP	E	_	15	case	_	_
+14	the	the	DET	RD	Definite=Def|PronType=Art	15	det	_	_
+15	greek	greek	NOUN	S	Number=Sing	18	obl	_	_
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+18	before	before	ADP	E	_	24	case	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	24	punct	_	_
+21	and	and	CCONJ	CC	_	24	cc	_	_
+22	,	,	PUNCT	FF	_	24	punct	_	_
+23	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+24	time	time	NOUN	S	Number=Sing	8	obl	_	SpaceAfter=No
+25	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+26	)	)	PUNCT	FB	_	24	punct	_	_
+27	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+28	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	30	det	_	_
+29	impossible	impossible	ADJ	A	Degree=Pos	30	amod	_	_
+30	anachronism	anachronism	NOUN	S	Number=Sing	8	nsubj	_	_
+31	which	which	PRON	PR	PronType=Rel	32	nsubj	_	_
+32	occurs	occurs	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	_
+33	when	when	ADV	B	_	35	advmod	_	_
+34	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	35	det	_	_
+35	object	object	NOUN	S	Number=Sing	32	obj	_	_
+36	or	or	CCONJ	CC	_	42	cc	_	_
+37	idea	idea	NOUN	S	Number=Sing	42	nsubj:pass	_	_
+38	has	have	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	aux	_	_
+39	not	not	PART	PART	Polarity=Neg	40	advmod	_	_
+40	yet	yet	ADV	B	_	42	advmod	_	_
+41	been	be	AUX	VA	Tense=Past|VerbForm=Part	42	aux:pass	_	_
+42	invented	invent	VERB	V	Tense=Past|VerbForm=Part	35	conj	_	_
+43	when	when	SCONJ	CS	_	46	mark	_	_
+44	the	the	DET	RD	Definite=Def|PronType=Art	45	det	_	_
+45	situation	situation	NOUN	S	Number=Sing	46	nsubj	_	_
+46	takes	take	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	advcl	_	_
+47	place	place	NOUN	S	Number=Sing	46	obj	_	SpaceAfter=No
+48	,	,	PUNCT	FF	_	55	punct	_	_
+49	and	and	CCONJ	CC	_	55	cc	_	_
+50	therefore	therefore	ADV	B	_	55	advmod	_	_
+51	could	can	AUX	VM	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	55	aux	_	_
+52	not	not	PART	PART	Polarity=Neg	55	advmod	_	_
+53	have	have	AUX	VA	VerbForm=Inf	55	aux	_	_
+54	possibly	possibly	ADV	B	_	55	advmod	_	_
+55	existed	existe	VERB	V	Tense=Past|VerbForm=Part	42	conj	_	_
+56	at	at	ADP	E	_	58	case	_	_
+57	the	the	DET	RD	Definite=Def|PronType=Art	58	det	_	_
+58	time	time	NOUN	S	Number=Sing	55	obl	_	_
+59	(	(	PUNCT	FB	_	62	punct	_	SpaceAfter=No
+60	e.g.	e.g.	X	SW	Foreign=Yes	62	nmod	_	_
+61	'	'	PART	PART	_	60	case	_	SpaceAfter=No
+62	'the	'the	VERB	V	VerbForm=Inf	55	advcl	_	_
+63	last	last	ADJ	NO	Degree=Pos|NumType=Ord	64	amod	_	_
+64	supper	supper	NOUN	S	Number=Sing	62	obj	_	SpaceAfter=No
+65	'	'	PART	PART	_	64	case	_	SpaceAfter=No
+66	'	'	PART	PART	_	64	case	_	_
+67	by	by	ADP	E	_	68	case	_	_
+68	leonardo	leonardo	NOUN	S	Number=Sing	64	nmod	_	_
+69	da	da	ADP	E	_	70	case	_	_
+70	vinci	vinci	NOUN	S	Number=Sing	68	nmod	_	_
+71	at	at	ADP	E	_	73	case	_	_
+72	the	the	DET	RD	Definite=Def|PronType=Art	73	det	_	_
+73	top	top	NOUN	S	Number=Sing	62	obl	_	_
+74	of	of	ADP	E	_	76	case	_	_
+75	the	the	DET	RD	Definite=Def|PronType=Art	76	det	_	_
+76	article	article	NOUN	S	Number=Sing	73	nmod	_	SpaceAfter=No
+77	)	)	PUNCT	FB	_	62	punct	_	SpaceAfter=No
+78	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 22
+# text = a prochronism may be an object not yet developed, a verbal expression that had not yet been coined, a philosophy not yet formulated, a breed of animal not yet evolved (or perhaps engineered), or use of a technology that had not yet been created.
+1	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	2	det	_	_
+2	prochronism	prochronism	NOUN	S	Number=Sing	6	nsubj	_	_
+3	may	may	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	be	be	AUX	V	VerbForm=Inf	6	cop	_	_
+5	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	6	det	_	_
+6	object	object	NOUN	S	Number=Sing	0	root	_	_
+7	not	not	PART	PART	Polarity=Neg	8	advmod	_	_
+8	yet	yet	ADV	B	_	9	advmod	_	_
+9	developed	develop	VERB	V	Tense=Past|VerbForm=Part	6	acl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	13	det	_	_
+12	verbal	verbal	ADJ	A	Degree=Pos	13	amod	_	_
+13	expression	expression	NOUN	S	Number=Sing	6	conj	_	_
+14	that	that	PRON	PR	PronType=Rel	19	nsubj:pass	_	_
+15	had	have	AUX	VA	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	19	aux	_	_
+16	not	not	PART	PART	Polarity=Neg	17	advmod	_	_
+17	yet	yet	ADV	B	_	19	advmod	_	_
+18	been	be	AUX	VA	Tense=Past|VerbForm=Part	19	aux:pass	_	_
+19	coined	coin	VERB	V	Tense=Past|VerbForm=Part	13	acl:relcl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	22	det	_	_
+22	philosophy	philosophy	NOUN	S	Number=Sing	19	obj	_	_
+23	not	not	PART	PART	Polarity=Neg	24	advmod	_	_
+24	yet	yet	ADV	B	_	25	advmod	_	_
+25	formulated	formulate	VERB	V	Tense=Past|VerbForm=Part	22	acl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	19	punct	_	_
+27	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	28	det	_	_
+28	breed	breed	NOUN	S	Number=Sing	19	nsubj	_	_
+29	of	of	ADP	E	_	30	case	_	_
+30	animal	animal	NOUN	S	Number=Sing	28	nmod	_	_
+31	not	not	PART	PART	Polarity=Neg	32	advmod	_	_
+32	yet	yet	ADV	B	_	33	advmod	_	_
+33	evolved	evolve	VERB	V	Tense=Past|VerbForm=Part	30	acl	_	_
+34	(	(	PUNCT	FB	_	37	punct	_	SpaceAfter=No
+35	or	or	CCONJ	CC	_	37	cc	_	_
+36	perhaps	perhaps	ADV	B	_	37	advmod	_	_
+37	engineered	engineer	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	19	conj	_	SpaceAfter=No
+38	)	)	PUNCT	FB	_	37	punct	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	41	punct	_	_
+40	or	or	CCONJ	CC	_	41	cc	_	_
+41	use	use	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+42	of	of	ADP	E	_	44	case	_	_
+43	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	44	det	_	_
+44	technology	technology	NOUN	S	Number=Sing	41	obl	_	_
+45	that	that	PRON	PR	PronType=Rel	50	nsubj:pass	_	_
+46	had	have	AUX	VA	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	50	aux	_	_
+47	not	not	PART	PART	Polarity=Neg	48	advmod	_	_
+48	yet	yet	ADV	B	_	50	advmod	_	_
+49	been	be	AUX	VA	Tense=Past|VerbForm=Part	50	aux:pass	_	_
+50	created	create	VERB	V	Tense=Past|VerbForm=Part	44	acl:relcl	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 23
+# text = the well-known stories of the ''one thousand and one nights'' contain a manifest anachronism:
+1	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+2	well	well	ADV	B	_	4	advmod	_	SpaceAfter=No
+3	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+4	known	known	ADJ	A	Degree=Pos	5	amod	_	_
+5	stories	story	NOUN	S	Number=Plur	0	root	_	_
+6	of	of	ADP	E	_	10	case	_	_
+7	the	the	DET	RD	Definite=Def|PronType=Art	10	det	_	_
+8	'	'	PART	PART	_	10	case	_	SpaceAfter=No
+9	'one	'one	VERB	V	Tense=Past|VerbForm=Part	10	acl	_	_
+10	thousand	thousand	NOUN	S	Number=Sing	5	nmod	_	_
+11	and	and	CCONJ	CC	_	16	cc	_	_
+12	one	one	NUM	N	NumType=Card	13	nummod	_	_
+13	nights	night	NOUN	S	Number=Plur	16	obl	_	SpaceAfter=No
+14	'	'	PART	PART	_	13	case	_	SpaceAfter=No
+15	'	'	PART	PART	_	13	case	_	_
+16	contain	contain	VERB	V	VerbForm=Inf	5	conj	_	_
+17	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	19	det	_	_
+18	manifest	manifest	ADJ	A	Degree=Pos	19	amod	_	_
+19	anachronism	anachronism	NOUN	S	Number=Sing	16	obj	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 24
+# text = in the frame story, the tales are narrated to king shahryār, presented as a member of the persian sassanid dynasty, by his wife scheherazade - yet many of the stories she tells relate to the historical abbasid caliph harun al-rashid, his grand vizier, jafar al-barmaki, and his contemporary the famous poet abu nuwas, all of whom lived some 200 years after the fall of the sassanids.
+1	in	in	ADP	E	_	4	case	_	_
+2	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+3	frame	frame	NOUN	S	Number=Sing	4	nmod	_	_
+4	story	story	NOUN	S	Number=Sing	9	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+7	tales	tale	NOUN	S	Number=Plur	9	nsubj:pass	_	_
+8	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	narrated	narrate	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+10	to	to	ADP	E	_	12	case	_	_
+11	king	k	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpacesAfter=\s\s
+12	shahryār	shahryār	NOUN	S	Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	presented	present	VERB	V	Tense=Past|VerbForm=Part	12	acl	_	_
+15	as	as	ADP	E	_	17	case	_	_
+16	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	17	det	_	_
+17	member	member	NOUN	S	Number=Sing	14	obl	_	_
+18	of	of	ADP	E	_	22	case	_	_
+19	the	the	DET	RD	Definite=Def|PronType=Art	22	det	_	_
+20	persian	persian	ADJ	A	Degree=Pos	21	amod	_	_
+21	sassanid	sassanid	NOUN	S	Number=Sing	22	nmod	_	_
+22	dynasty	dynasty	NOUN	S	Number=Sing	17	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	9	punct	_	_
+24	by	by	ADP	E	_	27	case	_	_
+25	his	his	DET	AP	Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+26	wife	wife	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	_
+27	scheherazade	scheherazade	NOUN	S	Number=Sing	29	obl	_	_
+28	-	-	PUNCT	FF	_	27	punct	_	_
+29	yet	yet	ADV	B	_	30	advmod	_	_
+30	many	many	ADJ	A	Degree=Pos	49	amod	_	_
+31	of	of	ADP	E	_	33	case	_	_
+32	the	the	DET	RD	Definite=Def|PronType=Art	33	det	_	_
+33	stories	story	NOUN	S	Number=Plur	30	obl	_	_
+34	she	she	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	41	nsubj	_	_
+35	tells	tell	NOUN	S	Number=Plur	36	nsubj	_	_
+36	relate	relate	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	34	acl:relcl	_	_
+37	to	to	ADP	E	_	39	case	_	_
+38	the	the	DET	RD	Definite=Def|PronType=Art	39	det	_	_
+39	historical	historic	NOUN	S	_	36	obl	_	_
+40	abbasid	abbasid	AUX	VM	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	41	aux	_	_
+41	caliph	caliph	VERB	V	VerbForm=Inf	33	acl:relcl	_	_
+42	harun	harun	ADJ	A	Degree=Pos	45	amod	_	_
+43	al	al	ADJ	A	Degree=Pos	45	amod	_	SpaceAfter=No
+44	-	-	PUNCT	FF	_	45	punct	_	SpaceAfter=No
+45	rashid	rashid	NOUN	S	Number=Sing	41	obj	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	30	punct	_	_
+47	his	his	DET	AP	Poss=Yes|PronType=Prs	49	nmod:poss	_	_
+48	grand	grand	ADJ	A	Degree=Pos	49	amod	_	_
+49	vizier	vizier	NOUN	S	Number=Sing	9	obl	_	SpaceAfter=No
+50	,	,	PUNCT	FF	_	54	punct	_	_
+51	jafar	jafar	CCONJ	CC	_	54	cc	_	_
+52	al	al	ADJ	A	Degree=Pos	54	amod	_	SpaceAfter=No
+53	-	-	PUNCT	FF	_	54	punct	_	SpaceAfter=No
+54	barmaki	barmaki	NOUN	S	Number=Sing	49	conj	_	SpaceAfter=No
+55	,	,	PUNCT	FF	_	61	punct	_	_
+56	and	and	CCONJ	CC	_	61	cc	_	_
+57	his	his	DET	AP	Poss=Yes|PronType=Prs	61	nmod:poss	_	_
+58	contemporary	contemporary	ADJ	A	Degree=Pos	61	amod	_	_
+59	the	the	DET	RD	Definite=Def|PronType=Art	61	det	_	_
+60	famous	famous	ADJ	A	Degree=Pos	61	amod	_	_
+61	poet	poet	NOUN	S	Number=Sing	49	conj	_	_
+62	abu	abu	ADP	E	_	63	case	_	_
+63	nuwas	nube	NOUN	S	Number=Plur	61	nmod	_	SpaceAfter=No
+64	,	,	PUNCT	FF	_	63	punct	_	_
+65	all	all	PRON	PI	PronType=Ind	63	nmod	_	_
+66	of	of	ADP	E	_	67	case	_	_
+67	whom	who	PRON	PR	PronType=Rel	68	obl	_	_
+68	lived	live	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	65	acl:relcl	_	_
+69	some	some	DET	DI	PronType=Ind	71	det	_	_
+70	200	200	NUM	N	NumType=Card	71	nummod	_	_
+71	years	year	NOUN	S	Number=Plur	68	obj	_	_
+72	after	after	ADP	E	_	74	case	_	_
+73	the	the	DET	RD	Definite=Def|PronType=Art	74	det	_	_
+74	fall	fall	NOUN	S	Number=Sing	68	obl	_	_
+75	of	of	ADP	E	_	77	case	_	_
+76	the	the	DET	RD	Definite=Def|PronType=Art	77	det	_	_
+77	sassanids	sassanid	NOUN	S	Number=Plur	74	nmod	_	SpaceAfter=No
+78	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 25
+# text = ===behavioral and cultural anachronism=== the intentional use of older, often obsolete cultural artifacts may be regarded as anachronistic.
+1	===behavioral	===behavioral	ADJ	A	Degree=Pos	4	amod	_	_
+2	and	and	CCONJ	CC	_	3	cc	_	_
+3	cultural	cultural	ADJ	A	Degree=Pos	1	conj	_	_
+4	anachronism===	anachronism===	NOUN	S	Number=Sing	7	nmod	_	SpacesAfter=\n
+5	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+6	intentional	intention	ADJ	A	Degree=Pos	7	amod	_	_
+7	use	use	NOUN	S	Number=Sing	17	nsubj:pass	_	_
+8	of	of	ADP	E	_	9	case	_	_
+9	older	older	NOUN	S	Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	14	punct	_	_
+11	often	often	ADV	B	_	14	advmod	_	_
+12	obsolete	obsolete	ADJ	A	Degree=Pos	14	amod	_	_
+13	cultural	cultural	ADJ	A	Degree=Pos	14	amod	_	_
+14	artifacts	artifact	NOUN	S	Number=Plur	7	conj	_	_
+15	may	may	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	be	be	AUX	VA	VerbForm=Inf	17	aux:pass	_	_
+17	regarded	regard	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+18	as	as	ADP	E	_	19	case	_	_
+19	anachronistic	anachronistic	ADJ	A	Degree=Pos	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 26
+# text = for example, it could be considered anachronistic for a modern-day person to wear a top hat, write with a quill, or carry on a conversation in latin.
+1	for	for	ADP	E	_	2	case	_	_
+2	example	example	NOUN	S	Number=Sing	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	7	nsubj:pass	_	_
+5	could	can	AUX	VM	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
+6	be	be	AUX	VA	VerbForm=Inf	7	aux:pass	_	_
+7	considered	consider	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+8	anachronistic	anachronistic	ADJ	A	Degree=Pos	7	xcomp	_	_
+9	for	for	ADP	E	_	12	case	_	_
+10	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	12	det	_	_
+11	modern-day	modern-day	ADJ	A	Degree=Pos	12	amod	_	_
+12	person	person	NOUN	S	Number=Sing	7	obl	_	_
+13	to	to	PART	PART	_	14	mark	_	_
+14	wear	wear	VERB	V	VerbForm=Inf	7	advcl	_	_
+15	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	17	det	_	_
+16	top	top	ADJ	A	Degree=Pos	17	amod	_	_
+17	hat	hat	PRON	PD	PronType=Dem	14	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	14	punct	_	_
+19	write	write	VERB	V	VerbForm=Inf	14	advcl	_	_
+20	with	with	ADP	E	_	22	case	_	_
+21	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	22	det	_	_
+22	quill	quill	NOUN	S	Number=Sing	19	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	25	punct	_	_
+24	or	or	CCONJ	CC	_	25	cc	_	_
+25	carry	carry	VERB	V	VerbForm=Inf	19	conj	_	_
+26	on	on	ADP	E	_	28	case	_	_
+27	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	28	det	_	_
+28	conversation	conversation	NOUN	S	Number=Sing	25	obl	_	_
+29	in	in	ADP	E	_	30	case	_	_
+30	latin	latin	NOUN	S	Number=Sing	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 27
+# text = such choices may reflect an eccentricity or an aesthetic preference.
+1	such	such	DET	DD	PronType=Dem	2	det	_	_
+2	choices	choice	NOUN	S	Number=Plur	4	nsubj	_	_
+3	may	may	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	reflect	reflect	VERB	V	VerbForm=Inf	0	root	_	_
+5	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	6	det	_	_
+6	eccentricity	eccentricity	NOUN	S	Number=Sing	4	obj	_	_
+7	or	or	CCONJ	CC	_	10	cc	_	_
+8	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	10	det	_	_
+9	aesthetic	aesthetic	ADJ	A	Degree=Pos	10	amod	_	_
+10	preference	preference	NOUN	S	Number=Sing	6	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 28
+# text = ''moldavians and muntenians become brothers'':
+1	'	'	PART	PART	_	6	mark	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	moldavians	moldavian	NOUN	S	Number=Plur	6	nsubj	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	muntenians	muntenian	NOUN	S	Number=Plur	3	conj	_	_
+6	become	become	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+7	brothers	brother	NOUN	S	Number=Plur	6	obl	_	SpaceAfter=No
+8	'	'	PART	PART	_	7	case	_	SpaceAfter=No
+9	'	'	PART	PART	_	7	case	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 29
+# text = 19th-century flags in 16th-century scene some writings and works of art promoting a political, nationalist or revolutionary cause use anachronism to depict an institution or custom as being more ancient than it actually is.
+1	19	19	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+2	th	th	ADJ	A	Degree=Pos	1	amod	_	SpaceAfter=No
+3	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+4	century	century	NOUN	S	Number=Sing	5	nsubj	_	_
+5	flags	flag	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	in	in	ADP	E	_	11	case	_	_
+7	16	16	NUM	N	NumType=Card	10	nummod	_	SpaceAfter=No
+8	th	th	ADJ	A	Degree=Pos	7	amod	_	SpaceAfter=No
+9	-	-	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+10	century	century	NOUN	S	Number=Sing	11	nmod	_	_
+11	scene	scene	NOUN	S	Number=Sing	5	obl	_	_
+12	some	some	DET	DI	PronType=Ind	13	det	_	_
+13	writings	writing	NOUN	S	Number=Plur	5	obj	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	works	work	NOUN	S	Number=Plur	13	conj	_	_
+16	of	of	ADP	E	_	17	case	_	_
+17	art	art	NOUN	S	Number=Sing	15	nmod	_	_
+18	promoting	promote	VERB	V	Person=3|VerbForm=Ger	17	acl	_	_
+19	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	25	det	_	_
+20	political	politic	ADJ	A	Degree=Pos	25	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	nationalist	nationalist	NOUN	S	Number=Sing	20	conj	_	_
+23	or	or	CCONJ	CC	_	24	cc	_	_
+24	revolutionary	revolutionary	ADJ	A	Degree=Pos	20	conj	_	_
+25	cause	cause	NOUN	S	Number=Sing	18	obj	_	_
+26	use	use	SCONJ	CS	_	27	mark	_	_
+27	anachronism	anachronism	NOUN	S	Number=Sing	25	acl	_	_
+28	to	to	PART	PART	_	29	mark	_	_
+29	depict	depict	VERB	V	VerbForm=Inf	27	acl	_	_
+30	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	31	det	_	_
+31	institution	institution	NOUN	S	Number=Sing	29	obj	_	_
+32	or	or	CCONJ	CC	_	33	cc	_	_
+33	custom	custom	NOUN	S	Number=Sing	31	conj	_	_
+34	as	as	ADP	E	_	37	mark	_	_
+35	being	be	AUX	V	VerbForm=Ger	37	cop	_	_
+36	more	more	ADV	B	Degree=Cmp	37	advmod	_	_
+37	ancient	ancient	ADJ	A	Degree=Pos	33	acl	_	_
+38	than	than	ADP	E	_	39	case	_	_
+39	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	37	obl	_	_
+40	actually	actually	ADV	B	_	37	advmod	_	_
+41	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 30
+# text = for example, the 19th-century romanian painter constantin lecca depicts the peace agreement between ioan bogdan voievod and radu voievod—two leaders in romania's 16th-century history—with the flags of moldavia (blue-red) and of wallachia (yellow-blue) seen in the background.
+1	for	for	ADP	E	_	2	case	_	_
+2	example	example	NOUN	S	Number=Sing	13	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	the	the	DET	RD	Definite=Def|PronType=Art	10	det	_	_
+5	19	19	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+6	th	th	ADJ	A	Degree=Pos	5	amod	_	SpaceAfter=No
+7	-	-	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+8	century	century	NOUN	S	Number=Sing	10	nmod	_	_
+9	romanian	romanian	ADJ	A	Degree=Pos	10	amod	_	_
+10	painter	painter	NOUN	S	Number=Sing	13	nsubj	_	_
+11	constantin	constantin	X	SW	Foreign=Yes	10	nmod	_	_
+12	lecca	lecca	X	SW	Foreign=Yes	11	flat:foreign	_	_
+13	depicts	depict	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	the	the	DET	RD	Definite=Def|PronType=Art	16	det	_	_
+15	peace	peace	NOUN	S	Number=Sing	16	nmod	_	_
+16	agreement	agreement	NOUN	S	Number=Sing	13	obj	_	_
+17	between	between	ADP	E	_	20	case	_	_
+18	ioan	ioan	DET	RI	Definite=Ind|Number=Sing|PronType=Art	20	det	_	_
+19	bogdan	bogdan	ADJ	A	Degree=Pos	20	amod	_	_
+20	voievod	voievod	NOUN	S	Number=Sing	16	nmod	_	_
+21	and	and	CCONJ	CC	_	22	cc	_	_
+22	radu	radu	NOUN	S	Number=Sing	20	conj	_	_
+23	voievod—two	voievod—two	ADP	E	_	24	case	_	_
+24	leaders	leader	NOUN	S	Number=Plur	20	nmod	_	_
+25	in	in	ADP	E	_	31	case	_	_
+26	romania	romania	NOUN	S	Number=Plur	31	nmod	_	SpaceAfter=No
+27	's	's	PART	PART	_	26	case	_	_
+28	16	16	NUM	N	NumType=Card	31	nummod	_	SpaceAfter=No
+29	th	th	ADJ	A	Degree=Pos	28	amod	_	SpaceAfter=No
+30	-	-	PUNCT	FF	_	28	punct	_	SpaceAfter=No
+31	century	century	NOUN	S	Number=Sing	13	obl	_	_
+32	history—with	history—with	ADP	E	_	34	case	_	_
+33	the	the	DET	RD	Definite=Def|PronType=Art	34	det	_	_
+34	flags	flag	NOUN	S	Number=Plur	13	obl	_	_
+35	of	of	ADP	E	_	36	case	_	_
+36	moldavia	moldavia	X	X	_	34	nmod	_	_
+37	(	(	PUNCT	FB	_	38	punct	_	SpaceAfter=No
+38	blue-red	blue-red	ADJ	A	Degree=Pos	36	amod	_	SpaceAfter=No
+39	)	)	PUNCT	FB	_	38	punct	_	_
+40	and	and	CCONJ	CC	_	44	cc	_	_
+41	of	of	ADP	E	_	44	case	_	_
+42	wallachia	wallachia	DET	RI	Definite=Ind|Number=Sing|PronType=Art	44	det	_	_
+43	(	(	PUNCT	FB	_	44	punct	_	SpaceAfter=No
+44	yellow-blue	yellow-blue	ADJ	A	Degree=Pos	36	conj	_	SpaceAfter=No
+45	)	)	PUNCT	FB	_	44	punct	_	_
+46	seen	see	VERB	V	Tense=Past|VerbForm=Part	34	acl	_	_
+47	in	in	ADP	E	_	49	case	_	_
+48	the	the	DET	RD	Definite=Def|PronType=Art	49	det	_	_
+49	background	background	NOUN	S	Number=Sing	46	obl	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 31
+# text = these flags date only from the 1830s.
+1	these	this	DET	DD	Number=Plur|PronType=Dem	2	det	_	_
+2	flags	flag	NOUN	S	Number=Plur	3	nsubj	_	_
+3	date	date	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	only	only	ADV	B	_	3	advmod	_	_
+5	from	from	ADP	E	_	7	case	_	_
+6	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+7	1830s	1830	NOUN	S	Number=Plur	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 32
+# text = here anachronism promotes legitimacy for the unification of moldavia and wallachia into the kingdom of romania at the time the painting was made.
+1	here	here	ADV	B	_	3	advmod	_	_
+2	anachronism	anachronism	PRON	PE	Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+3	promotes	promote	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	legitimacy	legitimacy	NOUN	S	Number=Sing	3	obj	_	_
+5	for	for	ADP	E	_	7	case	_	_
+6	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+7	unification	unification	NOUN	S	Number=Sing	3	obl	_	_
+8	of	of	ADP	E	_	9	case	_	_
+9	moldavia	moldavia	NOUN	S	Number=Plur	7	nmod	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	SpacesAfter=\s\s
+11	wallachia	wallachia	NOUN	S	Number=Sing	9	conj	_	_
+12	into	into	ADP	E	_	14	case	_	_
+13	the	the	DET	RD	Definite=Def|PronType=Art	14	det	_	_
+14	kingdom	kingdom	NOUN	S	Number=Sing	3	obl	_	_
+15	of	of	ADP	E	_	16	case	_	_
+16	romania	romania	NOUN	S	Number=Plur	14	nmod	_	_
+17	at	at	ADP	E	_	19	case	_	_
+18	the	the	DET	RD	Definite=Def|PronType=Art	19	det	_	_
+19	time	time	NOUN	S	Number=Sing	23	obl	_	_
+20	the	the	DET	RD	Definite=Def|PronType=Art	21	det	_	_
+21	painting	painting	NOUN	S	Number=Sing	23	nsubj:pass	_	_
+22	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	aux:pass	_	_
+23	made	made	VERB	V	Tense=Past|VerbForm=Part	3	acl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\s
+
+# sent_id = 33
+# text = lucas van leyden's 1520 painting ''lot and his daughters'' shows biblical sodom as a typical dutch city of the painter's time.
+1	lucas	lucas	SCONJ	CS	_	6	mark	_	_
+2	van	van	ADJ	A	Degree=Pos	3	amod	_	_
+3	leyden	leyden	NOUN	S	Number=Sing	5	nmod	_	SpaceAfter=No
+4	's	's	PART	PART	_	3	case	_	_
+5	1520	1520	NUM	N	NumType=Card	6	nummod	_	_
+6	painting	painting	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	0	root	_	_
+7	'	'	PART	PART	_	15	mark	_	SpaceAfter=No
+8	'	'	PART	PART	_	7	case	_	SpaceAfter=No
+9	lot	lot	NOUN	S	Number=Sing	15	nsubj	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	his	his	DET	AP	Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	daughters	daughter	NOUN	S	Number=Plur	9	conj	_	SpaceAfter=No
+13	'	'	PART	PART	_	12	case	_	SpaceAfter=No
+14	'	'	PART	PART	_	12	case	_	_
+15	shows	show	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+16	biblical	biblical	ADJ	A	Degree=Pos	17	amod	_	_
+17	sodom	sodom	NOUN	S	Number=Sing	15	obj	_	_
+18	as	as	ADP	E	_	22	case	_	_
+19	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	22	det	_	_
+20	typical	typical	ADJ	A	Degree=Pos	22	amod	_	_
+21	dutch	dutch	ADJ	A	Degree=Pos	22	amod	_	_
+22	city	city	NOUN	S	Number=Sing	15	obl	_	_
+23	of	of	ADP	E	_	27	case	_	_
+24	the	the	DET	RD	Definite=Def|PronType=Art	25	det	_	_
+25	painter	painter	NOUN	S	Number=Sing	27	nmod	_	SpaceAfter=No
+26	's	's	PART	PART	_	25	case	_	_
+27	time	time	NOUN	S	Number=Sing	22	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 34
+# text = anachronism is used especially in works of imagination that rest on a historical basis.
+1	anachronism	anachronism	PRON	PE	Number=Plur|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	used	use	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+4	especially	especially	ADV	B	_	3	advmod	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	works	work	NOUN	S	Number=Plur	3	obl	_	_
+7	of	of	ADP	E	_	8	case	_	_
+8	imagination	imagination	NOUN	S	Number=Sing	6	nmod	_	_
+9	that	that	SCONJ	CS	_	10	mark	_	_
+10	rest	rest	NOUN	S	Number=Sing	8	nmod	_	_
+11	on	on	ADP	E	_	14	case	_	_
+12	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	14	det	_	_
+13	historical	historic	ADJ	A	Degree=Pos	14	amod	_	_
+14	basis	basis	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 35
+# text = anachronisms may be introduced in many ways:
+1	anachronisms	anachronism	NOUN	S	Number=Plur	4	nsubj:pass	_	_
+2	may	may	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VA	VerbForm=Inf	4	aux:pass	_	_
+4	introduced	introduce	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	many	many	ADJ	A	Degree=Pos	7	amod	_	_
+7	ways	way	NOUN	S	Number=Plur	4	obl	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 36
+# text = for example, in the disregard of the different modes of life and thought that characterize different periods, or in ignorance of the progress of the arts and sciences and other facts of history.
+1	for	for	ADP	E	_	2	case	_	_
+2	example	example	NOUN	S	Number=Sing	14	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+6	disregard	disregard	NOUN	S	Number=Sing	2	nmod	_	_
+7	of	of	ADP	E	_	10	case	_	_
+8	the	the	DET	RD	Definite=Def|PronType=Art	10	det	_	_
+9	different	different	ADJ	A	Degree=Pos	10	amod	_	_
+10	modes	mode	NOUN	S	Number=Plur	6	nmod	_	_
+11	of	of	ADP	E	_	12	case	_	_
+12	life	life	NOUN	S	Number=Sing	10	nmod	_	_
+13	and	and	CCONJ	CC	_	2	cc	_	_
+14	thought	thought	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	that	that	SCONJ	CS	_	18	mark	_	_
+16	characterize	characterize	NOUN	S	Number=Sing	18	nmod	_	_
+17	different	different	ADJ	A	Degree=Pos	18	amod	_	_
+18	periods	period	NOUN	S	Number=Plur	14	ccomp	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	22	punct	_	_
+20	or	or	CCONJ	CC	_	22	cc	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	ignorance	ignorance	NOUN	S	Number=Sing	18	conj	_	_
+23	of	of	ADP	E	_	25	case	_	_
+24	the	the	DET	RD	Definite=Def|PronType=Art	25	det	_	_
+25	progress	progress	NOUN	S	Number=Sing	22	nmod	_	_
+26	of	of	ADP	E	_	28	case	_	_
+27	the	the	DET	RD	Definite=Def|PronType=Art	28	det	_	_
+28	arts	art	NOUN	S	Number=Plur	25	nmod	_	_
+29	and	and	CCONJ	CC	_	30	cc	_	_
+30	sciences	sciences	NOUN	S	Number=Plur	28	conj	_	_
+31	and	and	CCONJ	CC	_	33	cc	_	_
+32	other	other	ADJ	A	Degree=Pos	33	amod	_	_
+33	facts	fact	NOUN	S	Number=Plur	28	conj	_	_
+34	of	of	ADP	E	_	35	case	_	_
+35	history	history	NOUN	S	Number=Sing	33	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 37
+# text = they vary from glaring inconsistencies to scarcely perceptible misrepresentation.
+1	they	they	PRON	PE	Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	vary	vary	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	from	from	ADP	E	_	5	case	_	_
+4	glaring	glaring	ADP	E	_	5	case	_	_
+5	inconsistencies	inconsistency	NOUN	S	Number=Plur	2	obl	_	_
+6	to	to	ADP	E	_	9	case	_	_
+7	scarcely	scarcely	ADV	B	_	8	advmod	_	_
+8	perceptible	perceptible	ADJ	A	Degree=Pos	9	amod	_	_
+9	misrepresentation	misrepresentation	NOUN	S	Number=Sing	2	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 38
+# text = it is only since the close of the 18th century that this kind of deviation from historical reality has jarred on a general audience.
+1	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	only	only	ADV	B	_	6	advmod	_	_
+4	since	since	ADP	E	_	6	case	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+6	close	close	NOUN	S	Number=Sing	0	root	_	_
+7	of	of	ADP	E	_	11	case	_	_
+8	the	the	DET	RD	Definite=Def|PronType=Art	11	det	_	_
+9	18	18	NUM	N	NumType=Card	11	nummod	_	SpaceAfter=No
+10	th	th	ADJ	A	Degree=Pos	9	amod	_	_
+11	century	century	NOUN	S	Number=Sing	6	nmod	_	_
+12	that	that	SCONJ	CS	_	21	mark	_	_
+13	this	this	DET	DD	Number=Sing|PronType=Dem	14	det	_	_
+14	kind	kind	NOUN	S	Number=Sing	21	nsubj	_	_
+15	of	of	ADP	E	_	16	case	_	_
+16	deviation	deviation	NOUN	S	Number=Sing	14	nmod	_	_
+17	from	from	ADP	E	_	19	case	_	_
+18	historical	historic	ADJ	A	Degree=Pos	19	amod	_	_
+19	reality	reality	NOUN	S	Number=Sing	14	nmod	_	_
+20	has	have	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	jarred	jar	VERB	V	Tense=Past|VerbForm=Part	11	acl	_	_
+22	on	on	ADP	E	_	25	case	_	_
+23	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	25	det	_	_
+24	general	general	ADJ	A	Degree=Pos	25	amod	_	_
+25	audience	audience	NOUN	S	Number=Sing	21	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 39
+# text = sir walter scott justified the use of anachronism in historical literature:
+1	sir	sir	DET	AP	Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+2	walter	walter	NOUN	S	Number=Sing	3	nmod	_	_
+3	scott	scott	NOUN	S	Number=Sing	4	nsubj	_	_
+4	justified	justifie	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+6	use	use	NOUN	S	Number=Sing	4	obj	_	_
+7	of	of	ADP	E	_	8	case	_	_
+8	anachronism	anachronism	NOUN	S	Number=Sing	6	nmod	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	historical	historic	ADJ	A	Degree=Pos	11	amod	_	_
+11	literature	literature	NOUN	S	Number=Sing	4	obl	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 40
+# text = "it is necessary, for exciting interest of any kind, that the subject assumed should be, as it were, translated into the manners as well as the language of the age we live in."
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	necessary	necessary	ADJ	A	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	for	for	ADP	E	_	7	mark	_	_
+7	exciting	excit	VERB	V	VerbForm=Ger	4	advcl	_	_
+8	interest	interest	NOUN	S	Number=Sing	7	obj	_	_
+9	of	of	ADP	E	_	11	case	_	_
+10	any	any	DET	DI	PronType=Ind	11	det	_	_
+11	kind	kind	NOUN	S	Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	that	that	SCONJ	CS	_	24	mark	_	_
+14	the	the	DET	RD	Definite=Def|PronType=Art	16	det	_	_
+15	subject	subject	ADJ	A	Degree=Pos	16	amod	_	_
+16	assumed	assume	NOUN	S	Number=Sing	24	nsubj:pass	_	_
+17	should	shall	AUX	VM	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	24	aux	_	_
+18	be	be	AUX	VA	VerbForm=Inf	24	cop	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	as	as	SCONJ	CS	_	24	mark	_	_
+21	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	24	nsubj:pass	_	_
+22	were	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	24	aux:pass	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24	translated	translate	VERB	V	Tense=Past|VerbForm=Part	4	ccomp	_	_
+25	into	into	ADP	E	_	27	case	_	_
+26	the	the	DET	RD	Definite=Def|PronType=Art	27	det	_	_
+27	manners	manner	NOUN	S	Number=Plur	24	obl	_	_
+28	as	as	ADV	B	_	32	cc	_	_
+29	well	well	ADV	B	_	28	fixed	_	_
+30	as	as	ADP	E	_	28	fixed	_	_
+31	the	the	DET	RD	Definite=Def|PronType=Art	32	det	_	_
+32	language	language	NOUN	S	Number=Sing	24	conj	_	_
+33	of	of	ADP	E	_	35	case	_	_
+34	the	the	DET	RD	Definite=Def|PronType=Art	35	det	_	_
+35	age	age	NOUN	S	Number=Sing	32	nmod	_	_
+36	we	we	PRON	PE	Number=Plur|Person=1|PronType=Prs	37	nsubj	_	_
+37	live	live	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	35	acl:relcl	_	_
+38	in	in	ADP	E	_	37	compound:prt	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	38	punct	_	SpaceAfter=No
+40	"	"	PUNCT	FB	_	4	punct	_	_
+
+# sent_id = 41
+# text = however, as fashions move on, such attempts to use anachronisms to engage an audience may have quite the reverse effect, as the details in question are increasingly recognized as belonging neither to the historical era being represented, nor to the present, but to the intervening period in which the artwork was created.
+1	however	however	ADV	B	_	22	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	as	as	ADP	E	_	4	case	_	_
+4	fashions	fashion	NOUN	S	Number=Plur	22	nsubj	_	_
+5	move	move	ADJ	A	Degree=Pos	4	acl	_	_
+6	on	on	ADP	E	_	9	case	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	such	such	DET	DD	PronType=Dem	9	det	_	_
+9	attempts	attempt	NOUN	S	Number=Plur	5	obl	_	_
+10	to	to	PART	PART	_	11	mark	_	_
+11	use	use	VERB	V	VerbForm=Inf	9	acl	_	_
+12	anachronisms	anachronism	NOUN	S	Number=Plur	11	obj	_	_
+13	to	to	PART	PART	_	14	mark	_	_
+14	engage	engage	VERB	V	VerbForm=Inf	11	xcomp	_	_
+15	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	16	det	_	_
+16	audience	audience	NOUN	S	Number=Sing	14	obj	_	_
+17	may	may	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+18	have	have	AUX	VA	VerbForm=Inf	22	cop	_	_
+19	quite	quite	ADV	B	_	22	advmod	_	_
+20	the	the	DET	RD	Definite=Def|PronType=Art	22	det	_	_
+21	reverse	reverse	NOUN	S	Number=Sing	22	nmod	_	_
+22	effect	effect	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24	as	as	SCONJ	CS	_	31	mark	_	_
+25	the	the	DET	RD	Definite=Def|PronType=Art	26	det	_	_
+26	details	detail	NOUN	S	Number=Plur	31	nsubj:pass	_	_
+27	in	in	ADP	E	_	28	case	_	_
+28	question	question	NOUN	S	Number=Sing	26	nmod	_	_
+29	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	31	aux:pass	_	_
+30	increasingly	increasingly	ADV	B	_	31	advmod	_	_
+31	recognized	recognize	VERB	V	Tense=Past|VerbForm=Part	22	advcl	_	_
+32	as	as	SCONJ	CS	_	33	mark	_	_
+33	belonging	belonge	VERB	V	VerbForm=Ger	31	advcl	_	_
+34	neither	neither	CCONJ	CC	_	38	cc	_	_
+35	to	to	ADP	E	_	38	case	_	_
+36	the	the	DET	RD	Definite=Def|PronType=Art	38	det	_	_
+37	historical	historic	ADJ	A	Degree=Pos	38	amod	_	_
+38	era	era	NOUN	S	Number=Sing	33	obl	_	_
+39	being	be	AUX	VA	Number=Sing|Tense=Pres|VerbForm=Part	40	aux:pass	_	_
+40	represented	represent	VERB	V	Tense=Past|VerbForm=Part	38	acl	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	31	punct	_	_
+42	nor	nor	CCONJ	CC	_	45	cc	_	_
+43	to	to	ADP	E	_	45	case	_	_
+44	the	the	DET	RD	Definite=Def|PronType=Art	45	det	_	_
+45	present	present	NOUN	S	Number=Sing	31	conj	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	31	punct	_	_
+47	but	but	CCONJ	CC	_	51	cc	_	_
+48	to	to	ADP	E	_	51	case	_	_
+49	the	the	DET	RD	Definite=Def|PronType=Art	51	det	_	_
+50	intervening	intervening	NOUN	S	_	51	nmod	_	_
+51	period	period	NOUN	S	Number=Sing	31	conj	_	_
+52	in	in	ADP	E	_	53	case	_	_
+53	which	which	PRON	PR	PronType=Rel	57	obl	_	_
+54	the	the	DET	RD	Definite=Def|PronType=Art	55	det	_	_
+55	artwork	artwork	NOUN	S	Number=Sing	57	nsubj:pass	_	_
+56	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	57	aux:pass	_	_
+57	created	create	VERB	V	Tense=Past|VerbForm=Part	51	acl:relcl	_	SpaceAfter=No
+58	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 42
+# text = "nothing becomes obsolete like a period vision of an older period", writes anthony grafton;
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	nothing	nothing	PRON	PE	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	becomes	become	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	obsolete	obsolete	ADJ	A	Degree=Pos	3	xcomp	_	_
+5	like	like	ADP	E	_	8	case	_	_
+6	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	8	det	_	_
+7	period	period	NOUN	S	Number=Sing	8	nmod	_	_
+8	vision	vision	NOUN	S	Number=Sing	4	obl	_	_
+9	of	of	ADP	E	_	12	case	_	_
+10	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	12	det	_	_
+11	older	older	ADJ	A	Degree=Cmp	12	amod	_	_
+12	period	period	NOUN	S	Number=Sing	8	nmod	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	8	punct	_	_
+15	writes	write	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	_
+16	anthony	anthony	DET	DI	PronType=Ind	17	det	_	_
+17	grafton	grafton	NOUN	S	Number=Sing	15	obj	_	SpaceAfter=No
+18	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 43
+# text = "hearing a mother in a historical movie of the 1940s call out 'ludwig!
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	hearing	hear	VERB	V	VerbForm=Ger	12	csubj	_	_
+3	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	4	det	_	_
+4	mother	mother	NOUN	S	Number=Sing	2	obj	_	_
+5	in	in	ADP	E	_	8	case	_	_
+6	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	8	det	_	_
+7	historical	historic	ADJ	A	Degree=Pos	8	amod	_	_
+8	movie	movie	NOUN	S	Number=Sing	2	obl	_	_
+9	of	of	ADP	E	_	11	case	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	11	det	_	_
+11	1940s	1940s	NOUN	S	Number=Plur	8	nmod	_	_
+12	call	call	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	out	out	ADP	E	_	12	compound:prt	_	_
+14	'	'	PART	PART	_	12	case	_	SpaceAfter=No
+15	ludwig	ludwig	VERB	V	VerbForm=Inf	12	xcomp	_	SpaceAfter=No
+16	!	!	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 44
+# text = ludwig van beethoven!
+1	ludwig	ludwig	ADP	E	_	3	case	_	_
+2	van	van	DET	RI	Definite=Ind|Number=Sing|PronType=Art	3	det	_	_
+3	beethoven	beethoven	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 45
+# text = come in and practice your piano now!' we are jerked from our suspension of disbelief by what was intended as a means of reinforcing it, and plunged directly into the american bourgeois world of the filmmaker."
+1	come	come	VERB	V	Tense=Past|VerbForm=Part	12	advcl	_	_
+2	in	in	ADP	E	_	6	case	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	practice	practice	NOUN	S	Number=Sing	2	conj	_	_
+5	your	you	DET	AP	Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	piano	pianumber	NOUN	S	Number=Sing	1	obl	_	_
+7	now	now	ADV	B	_	1	advmod	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+9	'	'	PUNCT	FF	_	1	punct	_	_
+10	we	we	PRON	PE	Number=Plur|Person=1|PronType=Prs	12	nsubj:pass	_	_
+11	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+12	jerked	jerk	VERB	V	Tense=Past|VerbForm=Part	21	nsubj:pass	_	_
+13	from	from	ADP	E	_	15	case	_	_
+14	our	us	DET	AP	Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	suspension	suspension	NOUN	S	Number=Sing	12	obl	_	_
+16	of	of	ADP	E	_	17	case	_	_
+17	disbelief	disbelief	NOUN	S	Number=Sing	15	nmod	_	_
+18	by	by	ADP	E	_	19	case	_	_
+19	what	what	PRON	PR	Number=Sing|PronType=Rel	12	obl	_	_
+20	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	aux:pass	_	_
+21	intended	intend	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+22	as	as	ADP	E	_	24	case	_	_
+23	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	24	det	_	_
+24	means	means	NOUN	S	Number=Sing	21	obl	_	_
+25	of	of	ADP	E	_	26	mark	_	_
+26	reinforcing	reinforce	VERB	V	VerbForm=Ger	24	acl	_	_
+27	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	26	obj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	30	punct	_	_
+29	and	and	CCONJ	CC	_	30	cc	_	_
+30	plunged	plunge	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	21	conj	_	_
+31	directly	directly	ADV	B	_	30	advmod	_	_
+32	into	into	ADP	E	_	36	case	_	_
+33	the	the	DET	RD	Definite=Def|PronType=Art	36	det	_	_
+34	american	american	ADJ	A	Degree=Pos	36	amod	_	_
+35	bourgeois	bourgeois	ADJ	A	Degree=Pos	36	amod	_	_
+36	world	world	NOUN	S	Number=Sing	30	obl	_	_
+37	of	of	ADP	E	_	39	case	_	_
+38	the	the	DET	RD	Definite=Def|PronType=Art	39	det	_	_
+39	filmmaker	filmmaker	NOUN	S	Number=Sing	36	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	21	punct	_	SpaceAfter=No
+41	"	"	PUNCT	FB	_	21	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 46
+# text = anachronism can also be an aesthetic choice.
+1	anachronism	anachronism	PRON	PE	Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
+2	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	also	also	ADV	B	_	7	advmod	_	_
+4	be	be	AUX	V	VerbForm=Inf	7	cop	_	_
+5	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	7	det	_	_
+6	aesthetic	aesthetic	ADJ	A	Degree=Pos	7	amod	_	_
+7	choice	choice	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 47
+# text = anachronisms abound in the works of raphael and shakespeare, as well as in those of less celebrated painters and playwrights of earlier times.
+1	anachronisms	anachronism	NOUN	S	Number=Plur	2	nsubj	_	_
+2	abound	abound	VERB	V	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+5	works	work	NOUN	S	Number=Plur	2	obl	_	_
+6	of	of	ADP	E	_	7	case	_	_
+7	raphael	raphael	NOUN	S	Number=Sing	5	nmod	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	shakespeare	shakespeare	NOUN	S	Number=Sing	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	as	as	ADV	B	_	2	advmod	_	_
+12	well	well	ADV	B	_	11	fixed	_	_
+13	as	as	ADP	E	_	11	fixed	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	those	that	PRON	PD	Number=Plur|PronType=Dem	2	obl	_	_
+16	of	of	ADP	E	_	19	case	_	_
+17	less	less	ADV	B	Degree=Cmp	18	advmod	_	_
+18	celebrated	celebrated	ADJ	A	Degree=Pos	19	amod	_	_
+19	painters	painter	NOUN	S	Number=Plur	15	nmod	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	playwrights	playwright	NOUN	S	Number=Plur	19	conj	_	_
+22	of	of	ADP	E	_	24	case	_	_
+23	earlier	earlier	ADJ	A	Degree=Cmp	24	amod	_	_
+24	times	time	NOUN	S	Number=Plur	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 48
+# text = anachronisms can exist in ancient texts.
+1	anachronisms	anachronism	NOUN	S	Number=Plur	3	nsubj	_	_
+2	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	exist	exist	VERB	V	VerbForm=Inf	0	root	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	ancient	ancient	ADJ	A	Degree=Pos	6	amod	_	_
+6	texts	text	NOUN	S	Number=Plur	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 49
+# text = carol meyers says that these anachronisms can be used to better understand the stories by asking what the anachronism represents.
+1	carol	carol	VERB	V	Mood=Imp|Person=3|Tense=Pres|VerbForm=Fin	3	csubj	_	_
+2	meyers	meyer	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+3	says	say	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	CS	_	9	mark	_	_
+5	these	this	DET	DD	Number=Plur|PronType=Dem	6	det	_	_
+6	anachronisms	anachronism	NOUN	S	Number=Plur	9	nsubj:pass	_	_
+7	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	be	be	AUX	VA	VerbForm=Inf	9	aux:pass	_	_
+9	used	use	VERB	V	Tense=Past|VerbForm=Part	3	ccomp	_	_
+10	to	to	PART	PART	_	12	mark	_	_
+11	better	better	ADV	B	_	12	advmod	_	_
+12	understand	understand	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	9	xcomp	_	_
+13	the	the	DET	RD	Definite=Def|PronType=Art	14	det	_	_
+14	stories	story	NOUN	S	Number=Plur	12	obj	_	_
+15	by	by	ADP	E	_	16	mark	_	_
+16	asking	ask	VERB	V	VerbForm=Ger	9	advcl	_	_
+17	what	what	PRON	PR	Number=Sing|PronType=Rel	16	obj	_	_
+18	the	the	DET	RD	Definite=Def|PronType=Art	20	det	_	_
+19	anachronism	anachronism	NOUN	S	Number=Sing	20	nmod	_	_
+20	represents	represent	NOUN	S	Number=Plur	17	nsubj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 50
+# text = repeated anachronisms and historical errors can become an accepted part of popular culture, such as roman legionaries that wear leather armor.
+1	repeated	repeate	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	7	acl	_	_
+2	anachronisms	anachronism	NOUN	S	Number=Plur	1	obj	_	_
+3	and	and	CCONJ	CC	_	5	cc	_	_
+4	historical	historic	ADJ	A	Degree=Pos	5	amod	_	_
+5	errors	error	NOUN	S	Number=Plur	2	conj	_	_
+6	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	become	become	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+8	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	10	det	_	_
+9	accepted	accept	VERB	V	Tense=Past|VerbForm=Part	10	acl	_	_
+10	part	part	NOUN	S	Number=Sing	7	obj	_	_
+11	of	of	ADP	E	_	13	case	_	_
+12	popular	popular	ADJ	A	Degree=Pos	13	amod	_	_
+13	culture	culture	NOUN	S	Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	such	such	ADJ	A	Degree=Pos	18	amod	_	_
+16	as	as	ADP	E	_	15	fixed	_	_
+17	roman	roman	ADJ	A	Degree=Pos	18	amod	_	_
+18	legionaries	legionary	NOUN	S	Number=Plur	13	nmod	_	_
+19	that	that	PRON	PR	PronType=Rel	20	nsubj	_	_
+20	wear	wear	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+21	leather	leather	DET	RI	Definite=Ind|Number=Sing|PronType=Art	22	det	_	_
+22	armor	armor	NOUN	S	Number=Sing	20	obj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 51
+# text = dinosaurs co-existing with hominids, as here in ''the flintstones'', is a relatively common anachronistic depiction in comics and animated cartoons.
+1	dinosaurs	dinosaur	NOUN	S	Number=Plur	6	nmod	_	_
+2	co	co	ADJ	A	Degree=Pos	6	amod	_	SpaceAfter=No
+3	-	-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+4	existing	existe	ADJ	A	Degree=Pos	6	amod	_	_
+5	with	with	ADP	E	_	6	case	_	_
+6	hominids	hominid	NOUN	S	Number=Plur	22	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	as	as	ADP	E	_	12	mark	_	_
+9	here	here	ADV	B	_	8	fixed	_	_
+10	in	in	ADP	E	_	8	fixed	_	_
+11	'	'	PART	PART	_	8	case	_	SpaceAfter=No
+12	'the	'the	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	6	acl	_	_
+13	flintstones	flintstones	NOUN	S	Number=Plur	12	obl	_	SpaceAfter=No
+14	'	'	PART	PART	_	13	case	_	SpaceAfter=No
+15	'	'	PART	PART	_	13	case	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	13	punct	_	_
+17	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+18	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	22	det	_	_
+19	relatively	relatively	ADV	B	_	20	advmod	_	_
+20	common	common	ADJ	A	Degree=Pos	22	amod	_	_
+21	anachronistic	anachronistic	ADJ	A	Degree=Pos	22	amod	_	_
+22	depiction	depiction	NOUN	S	Number=Sing	0	root	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	comics	comics	NOUN	S	Number=Plur	22	nmod	_	_
+25	and	and	CCONJ	CC	_	26	cc	_	_
+26	animated	animate	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	22	conj	_	_
+27	cartoons	cartoon	NOUN	S	Number=Plur	26	obj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	22	punct	_	SpacesAfter=\n
+
+# sent_id = 52
+# text = === comical anachronism === comedy fiction set in the past may use anachronism for humorous effect.
+1	===	===	SYM	X	_	6	nmod	_	_
+2	comical	comic	ADJ	A	Degree=Pos	3	amod	_	_
+3	anachronism	anachronism	NOUN	S	Number=Sing	6	nmod	_	_
+4	===	===	SYM	X	_	6	nmod	_	SpacesAfter=\n
+5	comedy	comedy	ADJ	A	Degree=Pos	6	amod	_	_
+6	fiction	fiction	NOUN	S	Number=Sing	12	nsubj	_	_
+7	set	set	VERB	V	Tense=Past|VerbForm=Part	6	acl	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	the	the	DET	RD	Definite=Def|PronType=Art	10	det	_	_
+10	past	past	NOUN	S	Number=Sing	7	obl	_	_
+11	may	may	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	use	use	VERB	V	VerbForm=Inf	0	root	_	_
+13	anachronism	anachronism	NOUN	S	Number=Sing	12	obj	_	_
+14	for	for	ADP	E	_	16	case	_	_
+15	humorous	humorous	ADJ	A	Degree=Pos	16	amod	_	_
+16	effect	effect	NOUN	S	Number=Sing	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 53
+# text = comedic anachronism can be used to make serious points about both historical and modern society, such as drawing parallels to political or social conventions.
+1	comedic	comedic	ADJ	A	Degree=Pos	2	amod	_	_
+2	anachronism	anachronism	NOUN	S	Number=Sing	5	nsubj:pass	_	_
+3	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	be	be	AUX	VA	VerbForm=Inf	5	aux:pass	_	_
+5	used	use	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+6	to	to	PART	PART	_	7	mark	_	_
+7	make	make	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	serious	serious	ADJ	A	Degree=Pos	9	amod	_	_
+9	points	point	NOUN	S	Number=Plur	7	obj	_	_
+10	about	about	ADP	E	_	15	case	_	_
+11	both	both	CCONJ	CC	_	12	cc	_	_
+12	historical	historic	ADJ	A	Degree=Pos	15	amod	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	modern	modern	ADJ	A	Degree=Pos	12	conj	_	_
+15	society	society	NOUN	S	Number=Sing	7	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	7	punct	_	_
+17	such	such	ADJ	A	Degree=Pos	19	amod	_	_
+18	as	as	ADP	E	_	17	fixed	_	_
+19	drawing	draw	VERB	V	VerbForm=Ger	7	advcl	_	_
+20	parallels	parallel	NOUN	S	Number=Plur	19	obj	_	_
+21	to	to	ADP	E	_	25	case	_	_
+22	political	politic	ADJ	A	Degree=Pos	25	amod	_	_
+23	or	or	CCONJ	CC	_	24	cc	_	_
+24	social	social	ADJ	A	Degree=Pos	22	conj	_	_
+25	conventions	convention	NOUN	S	Number=Plur	19	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 54
+# text = the flintstones, and many american animated cartoon films such as aladdin, hercules, the emperor's new groove, and the shrek film series set in the past include many anachronisms.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	flintstones	flintstone	NOUN	S	Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	7	punct	_	_
+4	and	and	CCONJ	CC	_	7	cc	_	_
+5	many	many	ADJ	A	Degree=Pos	7	nsubj:pass	_	_
+6	american	american	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	animated	animate	VERB	V	Tense=Past|VerbForm=Part	2	conj	_	_
+8	cartoon	cartoon	NOUN	S	Number=Sing	9	nmod	_	_
+9	films	film	NOUN	S	Number=Plur	7	obj	_	_
+10	such	such	ADJ	A	Degree=Pos	12	amod	_	_
+11	as	as	ADP	E	_	10	fixed	_	_
+12	aladdin	aladdin	NOUN	S	Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	hercules	hercule	NOUN	S	Number=Plur	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	20	punct	_	_
+16	the	the	DET	RD	Definite=Def|PronType=Art	17	det	_	_
+17	emperor	emperor	NOUN	S	Number=Sing	20	nmod	_	SpaceAfter=No
+18	's	's	PART	PART	_	17	case	_	_
+19	new	new	ADJ	A	Degree=Pos	20	amod	_	_
+20	groove	groove	NOUN	S	Number=Sing	12	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	24	punct	_	_
+22	and	and	CCONJ	CC	_	24	cc	_	_
+23	the	the	DET	RD	Definite=Def|PronType=Art	24	det	_	_
+24	shrek	shrek	NOUN	S	Number=Sing	2	conj	_	_
+25	film	film	PRON	PR	PronType=Rel	26	nsubj	_	_
+26	series	series	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+27	set	set	NOUN	S	Number=Sing	26	obj	_	_
+28	in	in	ADP	E	_	30	case	_	_
+29	the	the	DET	RD	Definite=Def|PronType=Art	30	det	_	_
+30	past	past	ADJ	A	Degree=Pos	31	obl	_	_
+31	include	include	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	26	advcl	_	_
+32	many	many	ADJ	A	Degree=Pos	33	amod	_	_
+33	anachronisms	anachronism	NOUN	S	Number=Plur	31	obj	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 55
+# text = === future anachronism ===
+1	===	===	SYM	X	_	3	nmod	_	_
+2	future	future	ADJ	A	Degree=Pos	3	amod	_	_
+3	anachronism	anachronism	NOUN	S	Number=Sing	0	root	_	_
+4	===	===	SYM	X	_	3	nmod	_	SpacesAfter=\s\n\n
+
+# newpar
+# sent_id = 56
+# text = in the future envisioned on this 1931 cover of ''amazing stories'', propeller airplanes would coexist with space technology advanced enough for a large-scale colonization of mars.
+1	in	in	ADP	E	_	3	case	_	_
+2	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+3	future	future	NOUN	S	Number=Sing	4	obl	_	_
+4	envisioned	envision	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	on	on	ADP	E	_	8	case	_	_
+6	this	this	DET	DD	Number=Sing|PronType=Dem	8	det	_	_
+7	1931	1931	NUM	N	NumType=Card	8	nummod	_	_
+8	cover	cover	NOUN	S	Number=Sing	4	obl	_	_
+9	of	of	ADP	E	_	13	case	_	_
+10	'	'	PART	PART	_	12	mark	_	SpaceAfter=No
+11	'	'	PART	PART	_	10	case	_	SpaceAfter=No
+12	amazing	amaze	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	13	acl	_	_
+13	stories	story	NOUN	S	Number=Plur	8	nmod	_	SpaceAfter=No
+14	'	'	PART	PART	_	13	case	_	SpaceAfter=No
+15	'	'	PART	PART	_	13	case	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	8	punct	_	_
+17	propeller	propeller	DET	DI	PronType=Ind	18	det	_	_
+18	airplanes	airplanes	NOUN	S	Number=Plur	20	nsubj	_	_
+19	would	will	AUX	VM	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	20	aux	_	_
+20	coexist	coexist	VERB	V	VerbForm=Inf	4	conj	_	_
+21	with	with	ADP	E	_	23	case	_	_
+22	space	space	NOUN	S	Number=Sing	23	nmod	_	_
+23	technology	technology	NOUN	S	Number=Sing	20	obl	_	_
+24	advanced	advanced	ADJ	A	Degree=Pos	25	amod	_	_
+25	enough	enough	ADV	B	_	20	advmod	_	_
+26	for	for	ADP	E	_	31	case	_	_
+27	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	31	det	_	_
+28	large	large	ADJ	A	Degree=Pos	31	amod	_	SpaceAfter=No
+29	-	-	PUNCT	FF	_	30	punct	_	SpaceAfter=No
+30	scale	scale	ADJ	A	Degree=Pos	31	amod	_	_
+31	colonization	colonization	NOUN	S	Number=Sing	20	obl	_	_
+32	of	of	ADP	E	_	33	case	_	_
+33	mars	mar	NOUN	S	Number=Plur	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 57
+# text = even with careful research, science fiction writers risk anachronism as their works age because they cannot predict all political, social, and technological change.
+1	even	even	ADV	B	_	4	advmod	_	_
+2	with	with	ADP	E	_	4	case	_	_
+3	careful	careful	ADJ	A	Degree=Pos	4	amod	_	_
+4	research	research	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	9	punct	_	_
+6	science	science	NOUN	S	Number=Sing	9	obl	_	_
+7	fiction	fiction	NOUN	S	Number=Sing	8	nmod	_	_
+8	writers	writer	NOUN	S	Number=Plur	9	nsubj	_	_
+9	risk	risk	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	4	conj	_	_
+10	anachronism	anachronism	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+11	as	as	ADP	E	_	14	case	_	_
+12	their	their	DET	AP	Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+13	works	work	NOUN	S	Number=Plur	14	nmod	_	_
+14	age	age	NOUN	S	Number=Sing	9	obl	_	_
+15	because	because	SCONJ	CS	_	19	mark	_	_
+16	they	they	PRON	PE	Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
+17-18	cannot	_	_	_	_	_	_	_	_
+17	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	not	not	PART	PART	Polarity=Neg	19	advmod	_	_
+19	predict	predict	VERB	V	VerbForm=Inf	9	advcl	_	_
+20	all	all	DET	T	PronType=Tot	21	det	_	_
+21	political	politic	ADJ	A	Degree=Pos	19	obj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23	social	social	ADJ	A	Degree=Pos	21	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	27	punct	_	_
+25	and	and	CCONJ	CC	_	27	cc	_	_
+26	technological	technological	ADJ	A	Degree=Pos	27	amod	_	_
+27	change	change	NOUN	S	Number=Sing	21	conj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 58
+# text = for example, many books, television shows, radio productions and films nominally set in the mid-21st century or later refer to the soviet union, to saint petersburg in russia as leningrad, to the continuing struggle between the eastern and western blocs and to divided germany and divided berlin.
+1	for	for	ADP	E	_	2	case	_	_
+2	example	example	NOUN	S	Number=Sing	5	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	many	many	ADJ	A	Degree=Pos	5	amod	_	_
+5	books	book	NOUN	S	Number=Plur	8	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	television	television	NOUN	S	Number=Sing	8	nsubj	_	_
+8	shows	show	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	radio	radio	ADJ	A	Degree=Pos	11	amod	_	_
+11	productions	production	NOUN	S	Number=Plur	8	obj	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	films	film	NOUN	S	Number=Plur	11	conj	_	_
+14	nominally	nominally	ADV	B	_	15	advmod	_	_
+15	set	set	VERB	V	Tense=Past|VerbForm=Part	11	acl	_	_
+16	in	in	ADP	E	_	21	case	_	_
+17	the	the	DET	RD	Definite=Def|PronType=Art	21	det	_	_
+18	mid	mid	ADJ	A	Degree=Pos	20	amod	_	SpaceAfter=No
+19	-	-	PUNCT	FF	_	20	punct	_	SpaceAfter=No
+20	21st	21st	NOUN	S	Number=Sing	21	nmod	_	_
+21	century	century	NOUN	S	Number=Sing	15	obl	_	_
+22	or	or	CCONJ	CC	_	24	cc	_	_
+23	later	later	ADJ	A	Degree=Cmp	24	amod	_	_
+24	refer	refer	NOUN	S	Number=Sing	21	conj	_	_
+25	to	to	ADP	E	_	28	case	_	_
+26	the	the	DET	RD	Definite=Def|PronType=Art	28	det	_	_
+27	soviet	soviet	ADJ	A	Degree=Pos	28	amod	_	_
+28	union	union	NOUN	S	Number=Sing	8	obl	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	8	punct	_	_
+30	to	to	PART	PART	_	31	mark	_	_
+31	saint	saint	VERB	V	VerbForm=Inf	8	xcomp	_	_
+32	petersburg	petersburg	ADP	E	_	34	case	_	_
+33	in	in	ADP	E	_	34	case	_	_
+34	russia	russia	NOUN	S	Number=Plur	31	obl	_	_
+35	as	as	ADP	E	_	36	case	_	_
+36	leningrad	leningrad	NOUN	S	Number=Sing	31	obl	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	8	punct	_	_
+38	to	to	ADP	E	_	41	case	_	_
+39	the	the	DET	RD	Definite=Def|PronType=Art	41	det	_	_
+40	continuing	continue	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	41	acl	_	_
+41	struggle	struggle	NOUN	S	Number=Sing	8	obl	_	_
+42	between	between	ADP	E	_	47	case	_	_
+43	the	the	DET	RD	Definite=Def|PronType=Art	47	det	_	_
+44	eastern	eastern	ADJ	A	Degree=Pos	47	amod	_	_
+45	and	and	CCONJ	CC	_	46	cc	_	_
+46	western	western	ADJ	A	Degree=Pos	44	conj	_	_
+47	blocs	bloc	NOUN	S	Number=Plur	41	nmod	_	_
+48	and	and	CCONJ	CC	_	50	cc	_	_
+49	to	to	PART	PART	_	50	mark	_	_
+50	divided	divide	VERB	V	Tense=Past|VerbForm=Part	47	conj	_	_
+51	germany	germany	NOUN	S	Number=Sing	50	obj	_	_
+52	and	and	CCONJ	CC	_	53	cc	_	_
+53	divided	divide	VERB	V	Tense=Past|VerbForm=Part	51	conj	_	_
+54	berlin	berlin	ADV	B	_	53	advmod	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 59
+# text = ''star trek'' has suffered from future anachronisms;
+1	'	'	PART	PART	_	8	mark	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	star	star	NOUN	S	Number=Sing	4	nmod	_	_
+4	trek	trek	NOUN	S	Number=Sing	8	nsubj	_	SpaceAfter=No
+5	'	'	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+6	'	'	PUNCT	FB	_	4	punct	_	_
+7	has	have	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	suffered	suffer	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+9	from	from	ADP	E	_	11	case	_	_
+10	future	future	ADJ	A	Degree=Pos	11	amod	_	_
+11	anachronisms	anachronism	NOUN	S	Number=Plur	8	obl	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 60
+# text = instead of "retconning" these errors, the 2009 film retained them for consistency with older franchises.
+1	instead	instead	ADV	B	_	4	mark	_	_
+2	of	of	ADP	E	_	1	fixed	_	_
+3	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	retconning	retconn	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	12	advcl	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	4	punct	_	_
+6	these	this	DET	DD	Number=Plur|PronType=Dem	7	det	_	_
+7	errors	error	NOUN	S	Number=Plur	4	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	the	the	DET	RD	Definite=Def|PronType=Art	11	det	_	_
+10	2009	2009	NUM	N	NumType=Card	11	nummod	_	_
+11	film	film	NOUN	S	Number=Sing	12	nsubj	_	_
+12	retained	retain	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	them	they	PRON	PE	Number=Plur|Person=3|PronType=Prs	12	obj	_	_
+14	for	for	ADP	E	_	15	case	_	_
+15	consistency	consistency	NOUN	S	Number=Sing	12	obl	_	_
+16	with	with	ADP	E	_	18	case	_	_
+17	older	older	ADJ	A	Degree=Cmp	18	amod	_	_
+18	franchises	franchise	NOUN	S	Number=Plur	12	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\s\s\n\n
+
+# newpar
+# sent_id = 61
+# text = buildings or natural features, such as the world trade center in new york city, can become out of place once they disappear.
+1	buildings	building	NOUN	S	Number=Plur	18	nsubj	_	_
+2	or	or	CCONJ	CC	_	4	cc	_	_
+3	natural	natural	ADJ	A	Degree=Pos	4	amod	_	_
+4	features	feature	NOUN	S	Number=Plur	1	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	such	such	ADJ	A	Degree=Pos	11	amod	_	_
+7	as	as	ADP	E	_	6	fixed	_	_
+8	the	the	DET	RD	Definite=Def|PronType=Art	11	det	_	_
+9	world	world	NOUN	S	Number=Sing	11	nmod	_	_
+10	trade	trade	NOUN	S	Number=Sing	11	nmod	_	_
+11	center	center	NOUN	S	Number=Sing	1	nmod	_	_
+12	in	in	ADP	E	_	15	case	_	_
+13	new	new	ADJ	A	Degree=Pos	14	amod	_	_
+14	york	york	NOUN	S	Number=Sing	15	nmod	_	_
+15	city	city	NOUN	S	Number=Sing	11	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	11	punct	_	_
+17	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	become	become	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+19	out	out	ADP	E	_	18	compound:prt	_	_
+20	of	of	ADP	E	_	21	case	_	_
+21	place	place	NOUN	S	Number=Sing	18	obl	_	_
+22	once	once	SCONJ	CS	_	24	mark	_	_
+23	they	they	PRON	PE	Number=Plur|Person=3|PronType=Prs	24	nsubj	_	_
+24	disappear	disappear	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	18	advcl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	18	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 62
+# text = === language anachronism === language anachronisms in novels and films are quite common, both intentional and unintentional.
+1	===	===	SYM	X	_	13	mark	_	_
+2	language	language	NOUN	S	Number=Sing	6	nmod	_	_
+3	anachronism	anachronism	NOUN	S	Number=Sing	6	nmod	_	_
+4	===	===	SYM	X	_	6	nmod	_	SpacesAfter=\n
+5	language	language	NOUN	S	Number=Sing	6	nmod	_	_
+6	anachronisms	anachronism	NOUN	S	Number=Plur	13	nsubj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	novels	novel	NOUN	S	Number=Plur	6	nmod	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	films	film	NOUN	S	Number=Plur	8	conj	_	_
+11	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	quite	quite	ADV	B	_	13	advmod	_	_
+13	common	common	ADJ	A	Degree=Pos	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	both	both	CCONJ	CC	_	16	cc	_	_
+16	intentional	intention	ADJ	A	Degree=Pos	13	conj	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	unintentional	unintentional	ADJ	A	Degree=Pos	16	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 63
+# text = intentional anachronisms inform the audience more readily about a film set in the past.
+1	intentional	intention	ADJ	A	Degree=Pos	2	amod	_	_
+2	anachronisms	anachronism	NOUN	S	Number=Plur	3	nsubj	_	_
+3	inform	inform	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+5	audience	audience	NOUN	S	Number=Sing	3	obj	_	_
+6	more	more	ADV	B	Degree=Cmp	7	advmod	_	_
+7	readily	readily	ADV	B	_	11	advmod	_	_
+8	about	about	ADP	E	_	11	case	_	_
+9	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	11	det	_	_
+10	film	film	ADJ	A	Degree=Pos	11	amod	_	_
+11	set	set	NOUN	S	Number=Sing	3	obl	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	the	the	DET	RD	Definite=Def|PronType=Art	14	det	_	_
+14	past	past	NOUN	S	Number=Sing	3	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 64
+# text = in this regard, language and pronunciation change so fast that most modern people (even many scholars) would find it difficult, or even impossible, to understand a film with dialogue in 15th-century english;
+1	in	in	ADP	E	_	3	case	_	_
+2	this	this	DET	DD	Number=Sing|PronType=Dem	3	det	_	_
+3	regard	regard	NOUN	S	Number=Sing	5	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	language	language	NOUN	S	Number=Sing	0	root	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	pronunciation	pronunciation	NOUN	S	Number=Sing	8	nmod	_	_
+8	change	change	NOUN	S	Number=Sing	5	conj	_	_
+9	so	so	ADV	B	_	10	advmod	_	_
+10	fast	fast	ADV	B	Degree=Sup	21	advmod	_	_
+11	that	that	SCONJ	CS	_	21	mark	_	_
+12	most	most	ADJ	A	Degree=Sup	14	amod	_	_
+13	modern	modern	ADJ	A	Degree=Pos	14	amod	_	_
+14	people	people	NOUN	S	Number=Plur	21	nsubj	_	_
+15	(	(	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+16	even	even	ADV	B	_	17	advmod	_	_
+17	many	many	ADJ	A	Degree=Pos	18	amod	_	_
+18	scholars	scholar	NOUN	S	Number=Plur	14	appos	_	SpaceAfter=No
+19	)	)	PUNCT	FB	_	18	punct	_	_
+20	would	will	AUX	VM	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	21	aux	_	_
+21	find	find	VERB	V	VerbForm=Inf	5	acl	_	_
+22	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	23	expl	_	_
+23	difficult	difficult	ADJ	A	Degree=Pos	21	xcomp	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	27	punct	_	_
+25	or	or	CCONJ	CC	_	27	cc	_	_
+26	even	even	ADV	B	_	27	advmod	_	_
+27	impossible	impossible	ADJ	A	Degree=Pos	21	conj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	27	punct	_	_
+29	to	to	PART	PART	_	30	mark	_	_
+30	understand	understand	VERB	V	VerbForm=Inf	21	xcomp	_	_
+31	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	32	det	_	_
+32	film	film	NOUN	S	Number=Sing	30	obj	_	_
+33	with	with	ADP	E	_	34	case	_	_
+34	dialogue	dialogue	NOUN	S	Number=Sing	32	nmod	_	_
+35	in	in	ADP	E	_	39	case	_	_
+36	15th	15th	ADJ	A	Degree=Pos	38	amod	_	SpaceAfter=No
+37	-	-	PUNCT	FF	_	36	punct	_	SpaceAfter=No
+38	century	century	NOUN	S	Number=Sing	39	nmod	_	_
+39	english	english	NOUN	S	Number=Sing	34	nmod	_	SpaceAfter=No
+40	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 65
+# text = thus, we willingly accept characters speaking an updated language, and modern slang and figures of speech are often used in these films.
+1	thus	thus	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	we	we	PRON	PE	Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+4	willingly	willingly	ADV	B	_	5	advmod	_	_
+5	accept	accept	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	characters	character	NOUN	S	Number=Plur	5	obj	_	_
+7	speaking	speak	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	6	acl	_	_
+8	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	10	det	_	_
+9	updated	update	ADJ	A	Degree=Pos	10	amod	_	_
+10	language	language	NOUN	S	Number=Sing	7	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	and	and	CCONJ	CC	_	14	cc	_	_
+13	modern	modern	ADJ	A	Degree=Pos	14	amod	_	_
+14	slang	slang	NOUN	S	Number=Sing	21	nsubj:pass	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	figures	figure	NOUN	S	Number=Plur	14	conj	_	_
+17	of	of	ADP	E	_	18	case	_	_
+18	speech	speech	NOUN	S	Number=Sing	16	nmod	_	_
+19	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	21	aux:pass	_	_
+20	often	often	ADV	B	_	21	advmod	_	_
+21	used	use	VERB	V	Tense=Past|VerbForm=Part	5	conj	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	these	this	DET	DD	Number=Plur|PronType=Dem	24	det	_	_
+24	films	film	NOUN	S	Number=Plur	21	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\s
+
+# sent_id = 66
+# text = a russian commemorative coin depicting the meeting of soviet and american troops at torgau in 1945 shows the 50-star flag of the united states of america, a flag not in use until 1960.
+1	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	4	det	_	_
+2	russian	russian	ADJ	A	Degree=Pos	4	amod	_	_
+3	commemorative	commemorative	ADJ	A	Degree=Pos	4	amod	_	_
+4	coin	coin	NOUN	S	Number=Sing	17	nsubj	_	_
+5	depicting	depict	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	4	acl	_	_
+6	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+7	meeting	meeting	NOUN	S	Number=Sing	5	obj	_	_
+8	of	of	ADP	E	_	12	case	_	_
+9	soviet	soviet	ADJ	A	Degree=Pos	12	amod	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	american	american	ADJ	A	Degree=Pos	9	conj	_	_
+12	troops	troop	NOUN	S	Number=Plur	7	nmod	_	_
+13	at	at	ADP	E	_	14	case	_	_
+14	torgau	torgau	NOUN	S	Number=Sing	12	nmod	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	1945	1945	NUM	N	NumType=Card	4	nummod	_	_
+17	shows	show	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	the	the	DET	RD	Definite=Def|PronType=Art	22	det	_	_
+19	50	50	NUM	N	NumType=Card	21	nummod	_	SpaceAfter=No
+20	-	-	PUNCT	FF	_	21	punct	_	SpaceAfter=No
+21	star	star	NOUN	S	Number=Sing	22	nmod	_	_
+22	flag	flag	NOUN	S	Number=Sing	17	obj	_	_
+23	of	of	ADP	E	_	26	case	_	_
+24	the	the	DET	RD	Definite=Def|PronType=Art	26	det	_	_
+25	united	united	ADJ	A	Degree=Pos	26	amod	_	_
+26	states	state	NOUN	S	Number=Plur	22	nmod	_	_
+27	of	of	ADP	E	_	28	case	_	_
+28	america	america	PROPN	SP	_	31	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	28	punct	_	_
+30	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	31	det	_	_
+31	flag	flag	NOUN	S	_	26	nmod	_	_
+32	not	not	PART	PART	Polarity=Neg	34	advmod	_	_
+33	in	in	ADP	E	_	34	case	_	_
+34	use	use	NOUN	S	Number=Sing	26	nmod	_	_
+35	until	until	ADP	E	_	36	case	_	_
+36	1960	1960	NUM	N	NumType=Card	17	obl	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 67
+# text = the us flag used during the second world war had 48 stars.
+1	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+2	us	us	PRON	PE	Number=Plur|Person=1|PronType=Prs	3	nmod	_	_
+3	flag	flag	NOUN	S	Number=Sing	12	nsubj	_	_
+4	used	use	VERB	V	Tense=Past|VerbForm=Part	3	acl	_	_
+5	during	during	ADP	E	_	9	case	_	_
+6	the	the	DET	RD	Definite=Def|PronType=Art	9	det	_	_
+7	second	second	ADJ	NO	Degree=Pos|NumType=Ord	9	amod	_	_
+8	world	world	NOUN	S	Number=Sing	9	nmod	_	_
+9	war	war	NOUN	S	Number=Sing	4	obl	_	_
+10	had	have	AUX	VA	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
+11	48	48	NUM	N	NumType=Card	12	nummod	_	_
+12	stars	star	NOUN	S	Number=Plur	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 68
+# text = unintentional anachronisms may occur even in what are intended as wholly objective and accurate records or representations of historic artifacts and artworks, because the recorder's perspective is conditioned by the assumptions and practices of his or her own times (a form of cultural bias).
+1	unintentional	unintentional	ADJ	A	Degree=Pos	2	amod	_	_
+2	anachronisms	anachronism	NOUN	S	Number=Plur	4	nsubj	_	_
+3	may	may	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	occur	occur	VERB	V	VerbForm=Inf	9	nsubj:pass	_	_
+5	even	even	ADV	B	_	4	advmod	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	what	what	PRON	PR	Number=Sing|PronType=Rel	4	obl	_	_
+8	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	intended	intend	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+10	as	as	ADP	E	_	15	case	_	_
+11	wholly	wholly	ADV	B	_	12	advmod	_	_
+12	objective	objective	ADJ	A	Degree=Pos	15	amod	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	accurate	accurate	ADJ	A	Degree=Pos	12	conj	_	_
+15	records	record	NOUN	S	Number=Plur	9	obl	_	_
+16	or	or	CCONJ	CC	_	17	cc	_	_
+17	representations	representation	NOUN	S	Number=Plur	15	conj	_	_
+18	of	of	ADP	E	_	20	case	_	_
+19	historic	historic	ADJ	A	Degree=Pos	20	amod	_	_
+20	artifacts	artifact	NOUN	S	Number=Plur	17	nmod	_	_
+21	and	and	CCONJ	CC	_	22	cc	_	_
+22	artworks	artwork	NOUN	S	Number=Sing	20	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	9	punct	_	_
+24	because	because	SCONJ	CS	_	30	mark	_	_
+25	the	the	DET	RD	Definite=Def|PronType=Art	26	det	_	_
+26	recorder	recorder	NOUN	S	Number=Sing	28	nmod	_	SpaceAfter=No
+27	's	's	PART	PART	_	26	case	_	_
+28	perspective	perspective	NOUN	S	Number=Sing	30	nsubj:pass	_	_
+29	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux:pass	_	_
+30	conditioned	condition	VERB	V	Tense=Past|VerbForm=Part	9	advcl	_	_
+31	by	by	ADP	E	_	33	case	_	_
+32	the	the	DET	RD	Definite=Def|PronType=Art	33	det	_	_
+33	assumptions	assumption	NOUN	S	Number=Plur	30	obl	_	_
+34	and	and	CCONJ	CC	_	35	cc	_	_
+35	practices	practice	NOUN	S	Number=Plur	33	conj	_	_
+36	of	of	ADP	E	_	41	case	_	_
+37	his	his	DET	AP	Poss=Yes|PronType=Prs	41	nmod:poss	_	_
+38	or	or	CCONJ	CC	_	41	cc	_	_
+39	her	she	DET	AP	Poss=Yes|PronType=Prs	41	nmod:poss	_	_
+40	own	own	ADJ	A	Degree=Pos	41	amod	_	_
+41	times	time	NOUN	S	Number=Plur	35	nmod	_	_
+42	(	(	PUNCT	FB	_	44	punct	_	SpaceAfter=No
+43	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	44	det	_	_
+44	form	form	NOUN	S	Number=Sing	30	obl	_	_
+45	of	of	ADP	E	_	47	case	_	_
+46	cultural	cultural	ADJ	A	Degree=Pos	47	amod	_	_
+47	bias	bia	NOUN	S	Number=Plur	44	nmod	_	SpaceAfter=No
+48	)	)	PUNCT	FB	_	44	punct	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 69
+# text = one example is the attribution of historically inaccurate beards to various medieval tomb effigies and figures in stained glass in records made by english antiquaries of the late 16th and early 17th centuries.
+1	one	one	NUM	N	NumType=Card	2	nummod	_	_
+2	example	example	NOUN	S	Number=Sing	5	nsubj	_	_
+3	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+5	attribution	attribution	NOUN	S	Number=Sing	0	root	_	_
+6	of	of	ADP	E	_	9	case	_	_
+7	historically	historically	ADV	B	_	8	advmod	_	_
+8	inaccurate	inaccurate	ADJ	A	Degree=Pos	9	amod	_	_
+9	beards	beard	NOUN	S	Number=Plur	5	nmod	_	_
+10	to	to	ADP	E	_	14	case	_	_
+11	various	various	ADJ	A	Degree=Pos	13	amod	_	_
+12	medieval	medieval	ADJ	A	Degree=Pos	13	amod	_	_
+13	tomb	tomb	NOUN	S	Number=Sing	14	nmod	_	_
+14	effigies	effigy	NOUN	S	Number=Plur	9	nmod	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	figures	figure	NOUN	S	Number=Plur	14	conj	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	stained	stain	VERB	V	Tense=Past|VerbForm=Part	19	acl	_	_
+19	glass	glass	NOUN	S	Number=Sing	5	nmod	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	records	record	NOUN	S	Number=Plur	5	nmod	_	_
+22	made	make	VERB	V	Tense=Past|VerbForm=Part	21	acl	_	_
+23	by	by	ADP	E	_	25	case	_	_
+24	english	english	ADJ	A	Degree=Pos	25	amod	_	_
+25	antiquaries	antiquary	NOUN	S	Number=Plur	22	obl	_	_
+26	of	of	ADP	E	_	29	case	_	_
+27	the	the	DET	RD	Definite=Def|PronType=Art	29	det	_	_
+28	late	late	ADJ	A	Degree=Pos	29	amod	_	_
+29	16	16	NUM	N	NumType=Card	25	nummod	_	SpaceAfter=No
+30	th	th	ADJ	A	Degree=Pos	29	amod	_	_
+31	and	and	CCONJ	CC	_	35	cc	_	_
+32	early	early	ADJ	A	Degree=Pos	35	amod	_	_
+33	17	17	NUM	N	NumType=Card	35	nummod	_	SpaceAfter=No
+34	th	th	ADJ	A	Degree=Pos	33	amod	_	_
+35	centuries	centuries	NOUN	S	Number=Plur	29	conj	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 70
+# text = working in an age in which beards were in fashion and widespread, the antiquaries seem to have subconsciously projected the fashion back into an era in which it was rare.
+1	working	work	VERB	V	VerbForm=Ger	0	root	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	4	det	_	_
+4	age	age	NOUN	S	Number=Sing	1	obl	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	which	which	PRON	PR	PronType=Rel	16	obl	_	_
+7	beards	beards	ADV	B	_	16	advmod	_	_
+8	were	be	AUX	V	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	16	cop	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	fashion	fashion	NOUN	S	Number=Sing	16	obl	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	widespread	widespread	NOUN	S	Number=Sing	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	the	the	DET	RD	Definite=Def|PronType=Art	15	det	_	_
+15	antiquaries	antiquary	NOUN	S	Number=Plur	16	nsubj	_	_
+16	seem	seem	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+17	to	to	PART	PART	_	20	mark	_	_
+18	have	have	AUX	VA	VerbForm=Inf	20	aux	_	_
+19	subconsciously	subconsciously	ADV	B	_	20	advmod	_	_
+20	projected	project	VERB	V	Tense=Past|VerbForm=Part	16	xcomp	_	_
+21	the	the	DET	RD	Definite=Def|PronType=Art	22	det	_	_
+22	fashion	fashion	NOUN	S	Number=Sing	20	obj	_	_
+23	back	back	ADV	B	_	20	advmod	_	_
+24	into	into	ADP	E	_	26	case	_	_
+25	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	26	det	_	_
+26	era	era	NOUN	S	Number=Sing	20	obl	_	_
+27	in	in	ADP	E	_	28	case	_	_
+28	which	which	PRON	PR	PronType=Rel	31	obl	_	_
+29	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
+30	was	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	cop	_	_
+31	rare	rare	ADJ	A	Degree=Pos	26	acl:relcl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\s
+
+# sent_id = 71
+# text = the extensive science fiction subgenre depicting time travel in effect consists of deliberate, consciously created anachronisms, letting people of one time meet and interact with those of another time.
+1	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+2	extensive	extensive	ADJ	A	Degree=Pos	4	amod	_	_
+3	science	science	NOUN	S	Number=Sing	4	nmod	_	_
+4	fiction	fiction	NOUN	S	Number=Sing	0	root	_	_
+5	subgenre	subgenre	X	X	_	8	nmod	_	_
+6	depicting	depict	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	8	acl	_	SpacesAfter=\s\s
+7	time	time	NOUN	S	Number=Sing	8	nmod	_	_
+8	travel	travel	NOUN	S	Number=Sing	4	nmod	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	effect	effect	NOUN	S	Number=Sing	11	nmod	_	_
+11	consists	consist	NOUN	S	Number=Plur	8	nmod	_	_
+12	of	of	ADP	E	_	13	case	_	_
+13	deliberate	deliberate	NOUN	S	Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	4	punct	_	_
+15	consciously	consciously	ADV	B	_	16	advmod	_	_
+16	created	create	VERB	V	Tense=Past|VerbForm=Part	17	acl	_	_
+17	anachronisms	anachronism	NOUN	S	Number=Plur	4	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	4	punct	_	_
+19	letting	lett	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	20	acl	_	_
+20	people	people	NOUN	S	Number=Plur	26	nsubj	_	_
+21	of	of	ADP	E	_	24	case	_	_
+22	one	one	NUM	N	NumType=Card	23	nummod	_	_
+23	time	time	NOUN	S	Number=Sing	24	nmod	_	_
+24	meet	moot	NOUN	S	Number=Sing	20	nmod	_	_
+25	and	and	CCONJ	CC	_	26	cc	_	_
+26	interact	interact	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	4	conj	_	_
+27	with	with	ADP	E	_	28	case	_	_
+28	those	that	PRON	PD	Number=Plur|PronType=Dem	26	obl	_	_
+29	of	of	ADP	E	_	31	case	_	_
+30	another	another	DET	RI	Definite=Ind|Number=Sing|PronType=Art	31	det	_	_
+31	time	time	NOUN	S	Number=Sing	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 72
+# text = covers of time-travel books often depict deliberate anachronisms of this kind.
+1	covers	cover	NOUN	S	Number=Plur	0	root	_	_
+2	of	of	ADP	E	_	6	case	_	_
+3	time	time	NOUN	S	Number=Sing	5	nmod	_	SpaceAfter=No
+4	-	-	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+5	travel	travel	NOUN	S	Number=Sing	6	nmod	_	_
+6	books	book	NOUN	S	Number=Plur	1	nmod	_	_
+7	often	often	ADV	B	_	10	advmod	_	_
+8	depict	depict	ADP	E	_	10	case	_	_
+9	deliberate	deliberate	ADJ	A	Degree=Pos	10	amod	_	_
+10	anachronisms	anachronism	NOUN	S	Number=Plur	1	nmod	_	_
+11	of	of	ADP	E	_	13	case	_	_
+12	this	this	DET	DD	Number=Sing|PronType=Dem	13	det	_	_
+13	kind	kind	NOUN	S	Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 73
+# text = for example, the cover of harry turtledove's ''the guns of the south'' (1992) features a portrait of confederate general robert e.
+1	for	for	ADP	E	_	2	case	_	_
+2	example	example	NOUN	S	Number=Sing	21	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+5	cover	cover	NOUN	S	Number=Sing	21	nsubj	_	_
+6	of	of	ADP	E	_	11	mark	_	_
+7	harry	harry	DET	DI	Number=Sing|PronType=Ind	8	det	_	_
+8	turtledove	turtledove	NOUN	S	Number=Sing	11	nmod	_	SpaceAfter=No
+9	's	's	PART	PART	_	8	case	_	_
+10	'	'	PART	PART	_	8	case	_	SpaceAfter=No
+11	'the	'the	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	5	acl	_	_
+12	guns	gun	NOUN	S	Number=Plur	11	obj	_	_
+13	of	of	ADP	E	_	15	case	_	_
+14	the	the	DET	RD	Definite=Def|PronType=Art	15	det	_	_
+15	south	south	NOUN	S	Number=Sing	12	nmod	_	SpaceAfter=No
+16	'	'	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+17	'	'	PUNCT	FB	_	15	punct	_	_
+18	(	(	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+19	1992	1992	NUM	N	NumType=Card	15	nummod	_	SpaceAfter=No
+20	)	)	PUNCT	FB	_	19	punct	_	_
+21	features	feature	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+22	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	23	det	_	_
+23	portrait	portrait	NOUN	S	Number=Sing	21	obj	_	_
+24	of	of	ADP	E	_	28	case	_	_
+25	confederate	confederate	ADJ	A	Degree=Pos	27	amod	_	_
+26	general	general	ADJ	A	Degree=Pos	27	amod	_	_
+27	robert	robert	NOUN	S	Number=Sing	28	nmod	_	_
+28	e	e	NOUN	S	Number=Sing	23	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 74
+# text = lee holding an ak-47 rifle.
+1	lee	lee	ADV	B	_	2	advmod	_	_
+2	holding	hold	VERB	V	VerbForm=Ger	0	root	_	_
+3	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	5	det	_	_
+4	ak-47	ak-47	NUM	N	NumType=Card	5	nummod	_	_
+5	rifle	rifle	NOUN	S	Number=Sing	2	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\s
+
+# sent_id = 75
+# text = in historical writing, the most common type of anachronism is the adoption of the political, social or cultural concerns and assumptions of one era to interpret or evaluate the events and actions of another.
+1	in	in	ADP	E	_	3	case	_	_
+2	historical	historic	ADJ	A	Degree=Pos	3	amod	_	_
+3	writing	writing	NOUN	S	Number=Sing	13	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	8	det	_	_
+6	most	most	ADV	B	_	7	advmod	_	_
+7	common	common	ADJ	A	Degree=Pos	8	amod	_	_
+8	type	type	NOUN	S	Number=Sing	13	nsubj	_	_
+9	of	of	ADP	E	_	10	case	_	_
+10	anachronism	anachronism	NOUN	S	Number=Sing	8	nmod	_	_
+11	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	the	the	DET	RD	Definite=Def|PronType=Art	13	det	_	_
+13	adoption	adoption	NOUN	S	Number=Sing	0	root	_	_
+14	of	of	ADP	E	_	21	case	_	_
+15	the	the	DET	RD	Definite=Def|PronType=Art	21	det	_	_
+16	political	political	ADJ	A	Degree=Pos	21	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	social	social	ADJ	A	Degree=Pos	16	conj	_	_
+19	or	or	CCONJ	CC	_	20	cc	_	_
+20	cultural	cultural	ADJ	A	Degree=Pos	16	conj	_	_
+21	concerns	concern	NOUN	S	Number=Plur	13	nmod	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	assumptions	assumption	NOUN	S	Number=Plur	21	conj	_	_
+24	of	of	ADP	E	_	26	case	_	_
+25	one	one	NUM	N	NumType=Card	26	nummod	_	_
+26	era	era	NOUN	S	Number=Sing	23	nmod	_	_
+27	to	to	PART	PART	_	28	mark	_	_
+28	interpret	interpret	VERB	V	VerbForm=Inf	26	acl	_	_
+29	or	or	CCONJ	CC	_	30	cc	_	_
+30	evaluate	evaluate	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	28	conj	_	_
+31	the	the	DET	RD	Definite=Def|PronType=Art	32	det	_	_
+32	events	event	NOUN	S	Number=Plur	30	obj	_	_
+33	and	and	CCONJ	CC	_	34	cc	_	_
+34	actions	action	NOUN	S	Number=Plur	32	conj	_	_
+35	of	of	ADP	E	_	36	case	_	_
+36	another	another	DET	RI	Definite=Ind|Number=Sing|PronType=Art	34	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 76
+# text = the anachronistic application of present-day perspectives to comment on the historical past is sometimes described as presentism.
+1	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+2	anachronistic	anachronistic	ADJ	A	Degree=Pos	3	amod	_	_
+3	application	application	NOUN	S	Number=Sing	15	nsubj:pass	_	_
+4	of	of	ADP	E	_	6	case	_	_
+5	present-day	present-day	ADJ	A	Degree=Pos	6	amod	_	_
+6	perspectives	perspective	NOUN	S	Number=Plur	3	nmod	_	_
+7	to	to	PART	PART	_	8	mark	_	_
+8	comment	comment	VERB	V	VerbForm=Inf	3	acl	_	_
+9	on	on	ADP	E	_	12	case	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+11	historical	historic	ADJ	A	Degree=Pos	12	amod	_	_
+12	past	past	NOUN	S	Number=Sing	8	obl	_	_
+13	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+14	sometimes	sometimes	ADV	B	_	15	advmod	_	_
+15	described	describe	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+16	as	as	ADP	E	_	17	case	_	_
+17	presentism	presentism	NOUN	S	Number=Sing	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 77
+# text = empiricist historians, working in the traditions established by leopold von ranke in the 19th century, regard this as a great error, and a trap to be avoided.
+1	empiricist	empiricist	ADP	E	_	2	case	_	_
+2	historians	historian	NOUN	S	Number=Plur	4	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	working	work	VERB	V	VerbForm=Ger	0	root	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+7	traditions	traditions	NOUN	S	Number=Plur	4	obl	_	_
+8	established	establish	VERB	V	Tense=Past|VerbForm=Part	7	acl	_	_
+9	by	by	ADP	E	_	10	case	_	_
+10	leopold	leopold	NOUN	S	Number=Sing	8	obl	_	_
+11	von	von	ADP	E	_	12	case	_	_
+12	ranke	ranke	NOUN	S	Number=Sing	10	nmod	_	_
+13	in	in	ADP	E	_	17	case	_	_
+14	the	the	DET	RD	Definite=Def|PronType=Art	17	det	_	_
+15	19	19	NUM	N	NumType=Card	17	nummod	_	SpaceAfter=No
+16	th	th	ADJ	A	Degree=Pos	15	amod	_	_
+17	century	century	NOUN	S	Number=Sing	4	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	4	punct	_	_
+19	regard	regard	NOUN	S	Number=Sing	20	nmod	_	_
+20	this	this	PRON	PD	Number=Sing|PronType=Dem	4	obj	_	_
+21	as	as	ADP	E	_	24	case	_	_
+22	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	24	det	_	_
+23	great	great	ADJ	A	Degree=Pos	24	amod	_	_
+24	error	error	NOUN	S	Number=Sing	4	obl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	28	punct	_	_
+26	and	and	CCONJ	CC	_	28	cc	_	_
+27	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	28	det	_	_
+28	trap	trap	NOUN	S	Number=Sing	4	conj	_	_
+29	to	to	PART	PART	_	31	mark	_	_
+30	be	be	AUX	VA	VerbForm=Inf	31	aux:pass	_	_
+31	avoided	avoid	VERB	V	Tense=Past|VerbForm=Part	28	acl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 78
+# text = arthur marwick has argued that "a grasp of the fact that past societies are very different from our own, and ... very difficult to get to know" is an essential and fundamental skill of the professional historian;
+1	arthur	arthur	DET	AP	Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	marwick	marwick	NOUN	S	Number=Sing	4	nsubj	_	_
+3	has	have	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	argued	argue	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+5	that	that	SCONJ	CS	_	8	mark	_	_
+6	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+7	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	8	det	_	_
+8	grasp	grasp	NOUN	S	Number=Sing	4	ccomp	_	_
+9	of	of	ADP	E	_	11	case	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	11	det	_	_
+11	fact	fact	NOUN	S	Number=Sing	8	nmod	_	_
+12	that	that	SCONJ	CS	_	17	mark	_	_
+13	past	past	ADJ	A	Degree=Pos	14	amod	_	_
+14	societies	society	NOUN	S	Number=Plur	17	nsubj	_	_
+15	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	very	very	ADV	B	_	17	advmod	_	_
+17	different	different	ADJ	A	Degree=Pos	11	acl	_	_
+18	from	from	ADP	E	_	19	case	_	_
+19	our	us	PRON	PP	Poss=Yes|PronType=Prs	17	obl	_	_
+20	own	own	ADJ	A	Degree=Pos	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	25	punct	_	_
+22	and	and	CCONJ	CC	_	25	cc	_	_
+23	...	...	PUNCT	FF	_	25	punct	_	_
+24	very	very	ADV	B	_	25	advmod	_	_
+25	difficult	difficult	ADJ	A	Degree=Pos	11	conj	_	_
+26	to	to	PART	PART	_	27	mark	_	_
+27	get	get	VERB	V	VerbForm=Inf	8	acl	_	_
+28	to	to	PART	PART	_	29	mark	_	_
+29	know	know	VERB	V	VerbForm=Inf	27	xcomp	_	SpaceAfter=No
+30	"	"	PUNCT	FB	_	36	punct	_	_
+31	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	cop	_	_
+32	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	36	det	_	_
+33	essential	essential	ADJ	A	Degree=Pos	36	amod	_	_
+34	and	and	CCONJ	CC	_	35	cc	_	_
+35	fundamental	fundamental	ADJ	A	Degree=Pos	33	conj	_	_
+36	skill	skill	NOUN	S	Number=Sing	29	obj	_	_
+37	of	of	ADP	E	_	40	case	_	_
+38	the	the	DET	RD	Definite=Def|PronType=Art	40	det	_	_
+39	professional	professional	ADJ	A	Degree=Pos	40	amod	_	_
+40	historian	historian	NOUN	S	Number=Sing	36	nmod	_	SpaceAfter=No
+41	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 79
+# text = and that "anachronism is still one of the most obvious faults when the unqualified (those expert in other disciplines, perhaps) attempt to do history".
+1	and	and	CCONJ	CC	_	5	cc	_	_
+2	that	that	SCONJ	CS	_	5	mark	_	_
+3	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+4	anachronism	anachronism	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	is	be	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	still	still	ADV	B	_	5	advmod	_	_
+7	one	one	NUM	N	NumType=Card	5	xcomp	_	_
+8	of	of	ADP	E	_	12	case	_	_
+9	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+10	most	most	ADV	B	_	11	advmod	_	_
+11	obvious	obvious	ADJ	A	Degree=Pos	12	amod	_	_
+12	faults	fault	NOUN	S	Number=Plur	7	nmod	_	_
+13	when	when	SCONJ	CS	_	25	mark	_	_
+14	the	the	DET	RD	Definite=Def|PronType=Art	25	det	_	_
+15	unqualified	unqualified	ADJ	A	Degree=Pos	25	amod	_	_
+16	(	(	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+17	those	that	PRON	PD	Number=Plur|PronType=Dem	18	nsubj	_	_
+18	expert	expert	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	15	conj	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	other	other	ADJ	A	Degree=Pos	21	amod	_	_
+21	disciplines	discipline	NOUN	S	Number=Plur	18	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	18	punct	_	_
+23	perhaps	perhaps	ADV	B	_	18	advmod	_	SpaceAfter=No
+24	)	)	PUNCT	FB	_	18	punct	_	_
+25	attempt	attempt	NOUN	S	Number=Sing	5	advcl	_	_
+26	to	to	PART	PART	_	27	mark	_	_
+27	do	do	VERB	V	VerbForm=Inf	25	acl	_	_
+28	history	history	NOUN	S	Number=Sing	27	obj	_	SpaceAfter=No
+29	"	"	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 80
+# text = anachronism in academic writing is considered at best embarrassing, as in early-20th-century scholarship's use of translatio imperii, first formulated in the 12th century, to interpret 10th-century literature.
+1	anachronism	anachronism	NOUN	S	Number=Sing	6	nsubj:pass	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	academic	academic	ADJ	A	Degree=Pos	4	amod	_	_
+4	writing	writing	NOUN	S	Number=Sing	1	nmod	_	_
+5	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	considered	consider	VERB	V	Tense=Past|VerbForm=Part	26	advcl	_	_
+7	at	at	ADP	E	_	9	case	_	_
+8	best	best	ADJ	A	Degree=Sup	9	amod	_	_
+9	embarrassing	embarrassing	NOUN	S	Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	as	as	ADP	E	_	20	case	_	_
+12	in	in	ADP	E	_	11	fixed	_	_
+13	early-	early-	X	X	_	11	fixed	_	SpaceAfter=No
+14	20	20	NUM	N	NumType=Card	17	nummod	_	SpaceAfter=No
+15	th	th	ADJ	A	Degree=Pos	14	amod	_	SpaceAfter=No
+16	-	-	PUNCT	FF	_	14	punct	_	SpaceAfter=No
+17	century	century	NOUN	S	Number=Sing	18	nmod	_	_
+18	scholarship	scholarship	NOUN	S	Number=Sing	20	nmod	_	SpaceAfter=No
+19	's	's	PART	PART	_	18	case	_	_
+20	use	use	NOUN	S	Number=Sing	6	obl	_	_
+21	of	of	ADP	E	_	23	case	_	_
+22	translatio	translatio	NOUN	S	Number=Sing	23	nmod	_	_
+23	imperii	thimperrd	NOUN	S	Number=Sing	20	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	6	punct	_	_
+25	first	first	PRON	NO	NumType=Ord|PronType=Ind	26	nsubj	_	_
+26	formulated	formulate	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+27	in	in	ADP	E	_	30	case	_	_
+28	the	the	DET	RD	Definite=Def|PronType=Art	30	det	_	_
+29	12th	12th	ADJ	A	Degree=Pos	30	amod	_	_
+30	century	century	NOUN	S	Number=Sing	26	obl	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	26	punct	_	_
+32	to	to	PART	PART	_	33	mark	_	_
+33	interpret	interpret	VERB	V	VerbForm=Inf	26	advcl	_	_
+34	10	10	NUM	N	NumType=Card	37	nummod	_	SpaceAfter=No
+35	th	th	ADJ	A	Degree=Pos	34	amod	_	SpaceAfter=No
+36	-	-	PUNCT	FF	_	34	punct	_	SpaceAfter=No
+37	century	century	NOUN	S	Number=Sing	38	nmod	_	_
+38	literature	literature	NOUN	S	Number=Sing	33	obj	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	26	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 81
+# text = the use of anachronism in a rhetorical or hyperbolic sense is more complex.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	use	use	NOUN	S	Number=Sing	13	nsubj	_	_
+3	of	of	ADP	E	_	4	case	_	_
+4	anachronism	anachronism	NOUN	S	Number=Sing	2	nmod	_	_
+5	in	in	ADP	E	_	10	case	_	_
+6	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	10	det	_	_
+7	rhetorical	rhetorical	ADJ	A	Degree=Pos	10	amod	_	_
+8	or	or	CCONJ	CC	_	9	cc	_	_
+9	hyperbolic	hyperbolic	ADJ	A	Degree=Pos	7	conj	_	_
+10	sense	sense	NOUN	S	Number=Sing	2	nmod	_	_
+11	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	more	more	ADV	B	Degree=Cmp	13	advmod	_	_
+13	complex	complex	ADJ	A	Degree=Pos	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 82
+# text = to refer to the holy roman empire as the first reich, for example, is technically inaccurate but may be a useful comparative exercise;
+1	to	to	PART	PART	_	2	mark	_	_
+2	refer	refer	VERB	V	VerbForm=Inf	0	root	_	_
+3	to	to	ADP	E	_	7	case	_	_
+4	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+5	holy	holy	ADV	B	_	6	advmod	_	_
+6	roman	roman	ADJ	A	Degree=Pos	7	amod	_	_
+7	empire	empire	NOUN	S	Number=Sing	2	obl	_	_
+8	as	as	ADP	E	_	11	case	_	_
+9	the	the	DET	RD	Definite=Def|PronType=Art	11	det	_	_
+10	first	first	ADJ	NO	Degree=Pos|NumType=Ord	11	amod	_	_
+11	reich	reich	NOUN	S	Number=Sing	2	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	for	for	ADP	E	_	14	case	_	_
+14	example	example	NOUN	S	Number=Sing	2	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	technically	technically	ADV	B	_	18	advmod	_	_
+18	inaccurate	inaccurate	ADJ	A	Degree=Pos	2	conj	_	_
+19	but	but	CCONJ	CC	_	25	cc	_	_
+20	may	may	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+21	be	be	AUX	V	VerbForm=Inf	25	cop	_	_
+22	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	25	det	_	_
+23	useful	useful	ADJ	A	Degree=Pos	25	amod	_	_
+24	comparative	comparative	ADJ	A	Degree=Pos	25	amod	_	_
+25	exercise	exercise	NOUN	S	Number=Sing	18	conj	_	SpaceAfter=No
+26	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 83
+# text = the application of theory to works which predate marxist, feminist or freudian subjectivities is considered an essential part of theoretical practice.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	application	application	NOUN	S	Number=Sing	16	nsubj:pass	_	_
+3	of	of	ADP	E	_	4	case	_	_
+4	theory	theory	NOUN	S	Number=Sing	2	nmod	_	_
+5	to	to	ADP	E	_	6	case	_	_
+6	works	work	NOUN	S	Number=Plur	2	nmod	_	_
+7	which	which	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	predate	predate	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
+9	marxist	marxist	NOUN	S	Number=Sing	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	feminist	feminist	ADJ	A	Degree=Pos	9	conj	_	_
+12	or	or	CCONJ	CC	_	14	cc	_	_
+13	freudian	freudian	ADJ	A	Degree=Pos	14	amod	_	_
+14	subjectivities	subjectivity	NOUN	S	Number=Plur	9	conj	_	_
+15	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
+16	considered	consider	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+17	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	19	det	_	_
+18	essential	essential	ADJ	A	Degree=Pos	19	amod	_	_
+19	part	part	NOUN	S	Number=Sing	16	xcomp	_	_
+20	of	of	ADP	E	_	22	case	_	_
+21	theoretical	theoretic	ADJ	A	Degree=Pos	22	amod	_	_
+22	practice	practice	NOUN	S	Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 84
+# text = in most cases, however, the practitioner will acknowledge or justify the use or context.
+1	in	in	ADP	E	_	3	case	_	_
+2	most	most	ADJ	A	Degree=Sup	3	amod	_	_
+3	cases	case	NOUN	S	Number=Plur	10	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	however	however	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	the	the	DET	RD	Definite=Def|PronType=Art	8	det	_	_
+8	practitioner	practitioner	NOUN	S	Number=Sing	10	nsubj	_	_
+9	will	will	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	acknowledge	acknowledge	VERB	V	VerbForm=Inf	0	root	_	_
+11	or	or	CCONJ	CC	_	12	cc	_	_
+12	justify	justify	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin	10	conj	_	_
+13	the	the	DET	RD	Definite=Def|PronType=Art	14	det	_	_
+14	use	use	NOUN	S	Number=Sing	12	obj	_	_
+15	or	or	CCONJ	CC	_	16	cc	_	_
+16	context	context	NOUN	S	Number=Sing	14	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n\s
+
+# sent_id = 85
+# text = the ability to identify anachronisms may be employed as a critical and forensic tool to demonstrate the fraudulence of a document or artifact purporting to be from an earlier time.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	ability	ability	NOUN	S	Number=Sing	8	nsubj:pass	_	_
+3	to	to	PART	PART	_	4	mark	_	_
+4	identify	identify	VERB	V	VerbForm=Inf	2	acl	_	_
+5	anachronisms	anachronism	NOUN	S	Number=Plur	4	obj	_	_
+6	may	may	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	be	be	AUX	VA	VerbForm=Inf	8	aux:pass	_	_
+8	employed	employ	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+9	as	as	ADP	E	_	14	case	_	_
+10	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	14	det	_	_
+11	critical	critical	ADJ	A	Degree=Pos	14	amod	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	forensic	forensic	ADJ	A	Degree=Pos	11	conj	_	_
+14	tool	tool	NOUN	S	Number=Sing	8	obl	_	_
+15	to	to	PART	PART	_	16	mark	_	_
+16	demonstrate	demonstrate	VERB	V	VerbForm=Inf	8	advcl	_	_
+17	the	the	DET	RD	Definite=Def|PronType=Art	18	det	_	_
+18	fraudulence	fraudulence	NOUN	S	Number=Sing	16	obj	_	_
+19	of	of	ADP	E	_	21	case	_	_
+20	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	21	det	_	_
+21	document	document	NOUN	S	Number=Sing	18	nmod	_	_
+22	or	or	CCONJ	CC	_	23	cc	_	_
+23	artifact	artifact	NOUN	S	Number=Sing	21	conj	_	_
+24	purporting	purport	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	23	acl	_	_
+25	to	to	PART	PART	_	30	mark	_	_
+26	be	be	AUX	V	VerbForm=Inf	30	cop	_	_
+27	from	from	ADP	E	_	30	case	_	_
+28	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	30	det	_	_
+29	earlier	earlier	ADJ	A	Degree=Cmp	30	amod	_	_
+30	time	time	NOUN	S	Number=Sing	24	xcomp	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 86
+# text = anthony grafton discusses, for example, the work of the 3rd-century philosopher porphyry, of isaac casaubon (1559–1614), and of richard reitzenstein (1861–1931), all of whom succeeded in exposing literary forgeries and plagiarisms, such as those included in the "hermetic corpus", through – among other techniques – the recognition of anachronisms.
+1	anthony	anthony	DET	DI	Number=Plur|PronType=Ind	2	det	_	_
+2	grafton	grafton	NOUN	S	Number=Sing	3	nsubj	_	_
+3	discusses	discuss	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	for	for	ADP	E	_	6	case	_	_
+6	example	example	NOUN	S	Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	the	the	DET	RD	Definite=Def|PronType=Art	9	det	_	_
+9	work	work	NOUN	S	Number=Sing	3	obj	_	_
+10	of	of	ADP	E	_	16	case	_	_
+11	the	the	DET	RD	Definite=Def|PronType=Art	16	det	_	_
+12	3rd	3rd	ADJ	A	Degree=Pos	14	amod	_	SpaceAfter=No
+13	-	-	PUNCT	FF	_	14	punct	_	SpaceAfter=No
+14	century	century	NOUN	S	Number=Sing	15	nmod	_	_
+15	philosopher	philosopher	NOUN	S	Number=Sing	16	nmod	_	_
+16	porphyry	porphyry	NOUN	S	Number=Sing	9	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	of	of	ADP	E	_	20	case	_	_
+19	isaac	isaac	ADJ	A	Degree=Pos	20	amod	_	_
+20	casaubon	casaubon	NOUN	S	Number=Sing	16	nmod	_	_
+21	(	(	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+22	1559	1559	NUM	N	NumType=Card	20	nummod	_	SpaceAfter=No
+23	–	–	PUNCT	FF	_	22	punct	_	SpaceAfter=No
+24	1614	1614	NUM	N	NumType=Card	22	nummod	_	SpaceAfter=No
+25	)	)	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	30	punct	_	_
+27	and	and	CCONJ	CC	_	30	cc	_	_
+28	of	of	ADP	E	_	30	case	_	_
+29	richard	richard	ADJ	NO	Degree=Pos|NumType=Ord	30	amod	_	_
+30	reitzenstein	reitzenstein	NOUN	S	Number=Sing	3	conj	_	_
+31	(	(	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+32	1861	1861	NUM	N	NumType=Card	30	nummod	_	SpaceAfter=No
+33	–	–	PUNCT	FF	_	32	punct	_	SpaceAfter=No
+34	1931	1931	NUM	N	NumType=Card	32	nummod	_	SpaceAfter=No
+35	)	)	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	3	punct	_	_
+37	all	all	PRON	PI	PronType=Ind	40	nsubj	_	_
+38	of	of	ADP	E	_	39	case	_	_
+39	whom	who	PRON	PR	PronType=Rel	37	nmod	_	_
+40	succeeded	succeed	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	3	advcl	_	_
+41	in	in	ADP	E	_	42	mark	_	_
+42	exposing	exposing	VERB	V	VerbForm=Ger	40	advcl	_	_
+43	literary	literary	ADJ	A	Degree=Pos	44	amod	_	_
+44	forgeries	forgery	NOUN	S	Number=Plur	42	obj	_	_
+45	and	and	CCONJ	CC	_	46	cc	_	_
+46	plagiarisms	plagiarism	NOUN	S	Number=Plur	44	conj	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	42	punct	_	_
+48	such	such	ADP	E	_	50	case	_	_
+49	as	as	ADP	E	_	48	fixed	_	_
+50	those	that	PRON	PD	Number=Plur|PronType=Dem	51	obl	_	_
+51	included	include	VERB	V	Tense=Past|VerbForm=Part	66	acl	_	_
+52	in	in	ADP	E	_	56	case	_	_
+53	the	the	DET	RD	Definite=Def|PronType=Art	56	det	_	_
+54	"	"	PUNCT	FB	_	56	punct	_	SpaceAfter=No
+55	hermetic	hermetic	ADJ	A	Degree=Pos	56	amod	_	_
+56	corpus	corpus	NOUN	S	Number=Sing	59	obl	_	SpaceAfter=No
+57	"	"	PUNCT	FB	_	56	punct	_	SpaceAfter=No
+58	,	,	PUNCT	FF	_	56	punct	_	_
+59	through	through	ADP	E	_	63	case	_	_
+60	–	–	PUNCT	FF	_	59	punct	_	_
+61	among	among	ADP	E	_	63	case	_	_
+62	other	other	ADJ	A	Degree=Pos	63	amod	_	_
+63	techniques	technique	NOUN	S	Number=Plur	66	obl	_	_
+64	–	–	PUNCT	FF	_	66	punct	_	_
+65	the	the	DET	RD	Definite=Def|PronType=Art	66	det	_	_
+66	recognition	recognition	NOUN	S	Number=Sing	42	conj	_	_
+67	of	of	ADP	E	_	68	case	_	_
+68	anachronisms	anachronism	NOUN	S	Number=Plur	66	nmod	_	SpaceAfter=No
+69	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 87
+# text = the detection of anachronisms is an important element within the scholarly discipline of diplomatics, the critical analysis of the forms and language of documents, developed by the maurist scholar jean mabillon (1632–1707) and his successors rené-prosper tassin (1697–1777) and charles-françois toustain (1700–1754).
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	detection	detection	NOUN	S	Number=Sing	8	nsubj	_	_
+3	of	of	ADP	E	_	4	case	_	_
+4	anachronisms	anachronism	NOUN	S	Number=Plur	2	nmod	_	_
+5	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	8	det	_	_
+7	important	important	ADJ	A	Degree=Pos	8	amod	_	_
+8	element	element	NOUN	S	Number=Sing	0	root	_	_
+9	within	within	ADP	E	_	12	case	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+11	scholarly	scholarly	ADJ	A	Degree=Pos	12	amod	_	_
+12	discipline	discipline	NOUN	S	Number=Sing	8	nmod	_	_
+13	of	of	ADP	E	_	14	case	_	_
+14	diplomatics	diplomatics	NOUN	S	Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	8	punct	_	_
+16	the	the	DET	RD	Definite=Def|PronType=Art	18	det	_	_
+17	critical	critic	ADJ	A	Degree=Pos	18	amod	_	_
+18	analysis	analysis	NOUN	S	Number=Sing	8	nmod	_	_
+19	of	of	ADP	E	_	21	case	_	_
+20	the	the	DET	RD	Definite=Def|PronType=Art	21	det	_	_
+21	forms	form	NOUN	S	Number=Plur	18	nmod	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	language	language	NOUN	S	Number=Sing	21	conj	_	_
+24	of	of	ADP	E	_	25	case	_	_
+25	documents	document	NOUN	S	Number=Plur	23	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	18	punct	_	_
+27	developed	develop	VERB	V	Tense=Past|VerbForm=Part	18	acl	_	_
+28	by	by	ADP	E	_	33	case	_	_
+29	the	the	DET	RD	Definite=Def|PronType=Art	33	det	_	_
+30	maurist	maurist	NOUN	S	Number=Sing	33	nmod	_	_
+31	scholar	scholar	NOUN	S	Number=Sing	33	nmod	_	_
+32	jean	jean	ADJ	A	Degree=Pos	33	amod	_	_
+33	mabillon	mabillon	NOUN	S	Number=Sing	27	obl	_	_
+34	(	(	PUNCT	FB	_	35	punct	_	SpaceAfter=No
+35	1632	1632	NUM	N	NumType=Card	33	nummod	_	SpaceAfter=No
+36	–	–	PUNCT	FF	_	35	punct	_	SpaceAfter=No
+37	1707	1707	NUM	N	NumType=Card	35	nummod	_	SpaceAfter=No
+38	)	)	PUNCT	FB	_	35	punct	_	_
+39	and	and	CCONJ	CC	_	45	cc	_	_
+40	his	his	DET	AP	Poss=Yes|PronType=Prs	45	nmod:poss	_	_
+41	successors	successor	NOUN	S	Number=Plur	45	nmod	_	_
+42	rené	rené	PROPN	SP	_	44	nmod	_	SpaceAfter=No
+43	-	-	PUNCT	FF	_	44	punct	_	SpaceAfter=No
+44	prosper	prosper	NOUN	S	Number=Sing	45	nmod	_	_
+45	tassin	tassin	NOUN	S	Number=Sing	33	conj	_	_
+46	(	(	PUNCT	FB	_	47	punct	_	SpaceAfter=No
+47	1697	1697	NUM	N	NumType=Card	18	nummod	_	SpaceAfter=No
+48	–	–	PUNCT	FF	_	47	punct	_	SpaceAfter=No
+49	1777	1777	NUM	N	NumType=Card	47	nummod	_	SpaceAfter=No
+50	)	)	PUNCT	FB	_	47	punct	_	_
+51	and	and	CCONJ	CC	_	52	cc	_	_
+52	charles	charle	NOUN	S	Number=Plur	18	conj	_	SpaceAfter=No
+53	-	-	PUNCT	FF	_	8	punct	_	SpaceAfter=No
+54	françois	françois	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	_
+55	toustain	toustain	ADV	B	_	54	advmod	_	_
+56	(	(	PUNCT	FB	_	57	punct	_	SpaceAfter=No
+57	1700	1700	NUM	N	NumType=Card	54	obl	_	SpaceAfter=No
+58	–	–	PUNCT	FF	_	57	punct	_	SpaceAfter=No
+59	1754	1754	NUM	N	NumType=Card	57	nummod	_	SpaceAfter=No
+60	)	)	PUNCT	FB	_	57	punct	_	SpaceAfter=No
+61	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 88
+# text = the philosopher and reformer jeremy bentham wrote at the beginning of the 19th century:
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	philosopher	philosopher	NOUN	S	Number=Sing	0	root	_	_
+3	and	and	CCONJ	CC	_	5	cc	_	_
+4	reformer	reformer	NOUN	S	Number=Sing	5	nmod	_	_
+5	jeremy	jeremy	NOUN	S	Number=Sing	2	conj	_	_
+6	bentham	benthbe	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	wrote	write	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+8	at	at	ADP	E	_	10	case	_	_
+9	the	the	DET	RD	Definite=Def|PronType=Art	10	det	_	_
+10	beginning	beginning	NOUN	S	Number=Sing	7	obl	_	_
+11	of	of	ADP	E	_	15	case	_	_
+12	the	the	DET	RD	Definite=Def|PronType=Art	15	det	_	_
+13	19	19	NUM	N	NumType=Card	15	nummod	_	SpaceAfter=No
+14	th	th	ADJ	A	Degree=Pos	13	amod	_	_
+15	century	century	NOUN	S	Number=Sing	10	nmod	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	2	punct	_	SpacesAfter=\n\n\n
+
+# newpar
+# sent_id = 89
+# text = examples are:
+1	examples	examples	NOUN	S	Number=Plur	0	root	_	_
+2	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	1	cop	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 90
+# text = * the exposure by lorenzo valla in 1440 of the so-called donation of constantine, a decree purportedly issued by the emperor constantine the great in either 315 or 317 ad, as a later forgery, depended to a considerable degree on the identification of anachronisms, such as references to the city of constantinople (a name not in fact bestowed until 330 ad).
+1	*	*	PUNCT	FF	_	3	punct	_	_
+2	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+3	exposure	exposure	NOUN	S	Number=Sing	23	nsubj	_	_
+4	by	by	ADP	E	_	6	case	_	_
+5	lorenzo	lorenzo	ADJ	A	Degree=Pos	6	amod	_	_
+6	valla	valla	NOUN	S	Number=Plur	3	nmod	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	1440	1440	NUM	N	NumType=Card	3	nummod	_	_
+9	of	of	ADP	E	_	12	case	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+11	so-called	so-called	ADJ	A	Degree=Pos	12	amod	_	_
+12	donation	donation	NOUN	S	Number=Sing	3	nmod	_	_
+13	of	of	ADP	E	_	14	case	_	_
+14	constantine	constantine	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	3	punct	_	_
+16	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	17	det	_	_
+17	decree	decree	NOUN	S	Number=Sing	3	nmod	_	_
+18	purportedly	purportedly	ADV	B	_	19	advmod	_	_
+19	issued	issu	VERB	V	Tense=Past|VerbForm=Part	17	acl	_	_
+20	by	by	ADP	E	_	22	case	_	_
+21	the	the	DET	RD	Definite=Def|PronType=Art	22	det	_	_
+22	emperor	emperor	NOUN	S	Number=Sing	19	obl	_	_
+23	constantine	constantine	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+24	the	the	DET	RD	Definite=Def|PronType=Art	25	det	_	_
+25	great	great	NOUN	S	Number=Sing	23	obj	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	either	either	ADV	B	_	28	advmod	_	_
+28	315	315	NUM	N	NumType=Card	23	obl	_	_
+29	or	or	CCONJ	CC	_	31	cc	_	_
+30	317	317	NUM	N	NumType=Card	31	nummod	_	_
+31	ad	ad	NOUN	S	Number=Sing	28	conj	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	23	punct	_	_
+33	as	as	ADP	E	_	36	case	_	_
+34	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	36	det	_	_
+35	later	later	ADJ	A	Degree=Cmp	36	amod	_	_
+36	forgery	forgery	NOUN	S	Number=Sing	23	obl	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	23	punct	_	_
+38	depended	depend	VERB	V	Tense=Past|VerbForm=Part	23	acl	_	_
+39	to	to	ADP	E	_	42	case	_	_
+40	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	42	det	_	_
+41	considerable	considerable	ADJ	A	Degree=Pos	42	amod	_	_
+42	degree	degree	NOUN	S	Number=Sing	38	obl	_	_
+43	on	on	ADP	E	_	45	case	_	_
+44	the	the	DET	RD	Definite=Def|PronType=Art	45	det	_	_
+45	identification	identification	NOUN	S	Number=Sing	38	obl	_	_
+46	of	of	ADP	E	_	47	case	_	_
+47	anachronisms	anachronism	NOUN	S	Number=Plur	45	nmod	_	SpaceAfter=No
+48	,	,	PUNCT	FF	_	47	punct	_	_
+49	such	such	ADP	E	_	51	case	_	_
+50	as	as	ADP	E	_	49	fixed	_	_
+51	references	reference	NOUN	S	Number=Plur	47	nmod	_	_
+52	to	to	ADP	E	_	54	case	_	_
+53	the	the	DET	RD	Definite=Def|PronType=Art	54	det	_	_
+54	city	city	NOUN	S	Number=Sing	51	nmod	_	_
+55	of	of	ADP	E	_	56	case	_	_
+56	constantinople	constantinople	NOUN	S	Number=Sing	54	nmod	_	_
+57	(	(	PUNCT	FB	_	59	punct	_	SpaceAfter=No
+58	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	59	det	_	_
+59	name	name	NOUN	S	Number=Sing	56	appos	_	_
+60	not	not	PART	PART	Polarity=Neg	62	advmod	_	_
+61	in	in	ADP	E	_	62	case	_	_
+62	fact	fact	NOUN	S	Number=Sing	59	nmod	_	_
+63	bestowed	bestow	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	59	acl	_	_
+64	until	until	SCONJ	CS	_	66	case	_	_
+65	330	330	NUM	N	NumType=Card	66	nummod	_	_
+66	ad	ad	NOUN	S	Number=Sing	63	obl	_	SpaceAfter=No
+67	)	)	PUNCT	FB	_	59	punct	_	SpaceAfter=No
+68	.	.	PUNCT	FS	_	23	punct	_	SpacesAfter=\n
+
+# sent_id = 91
+# text = * a large number of apparent anachronisms in the book of mormon have served to convince critics that the book was written in the 19th century, and not, as its adherents claim, in pre-columbian america.
+1	*	*	PUNCT	FF	_	4	punct	_	_
+2	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	4	det	_	_
+3	large	large	ADJ	A	Degree=Pos	4	amod	_	_
+4	number	number	NOUN	S	Number=Sing	14	nsubj	_	_
+5	of	of	ADP	E	_	7	case	_	_
+6	apparent	apparent	ADJ	A	Degree=Pos	7	amod	_	_
+7	anachronisms	anachronism	NOUN	S	Number=Plur	4	nmod	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	the	the	DET	RD	Definite=Def|PronType=Art	10	det	_	_
+10	book	book	NOUN	S	Number=Sing	4	nmod	_	_
+11	of	of	ADP	E	_	12	case	_	_
+12	mormon	mormon	NOUN	S	Number=Sing	10	nmod	_	_
+13	have	have	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	served	serve	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+15	to	to	PART	PART	_	16	mark	_	_
+16	convince	convince	VERB	V	VerbForm=Inf	14	xcomp	_	_
+17	critics	critic	NOUN	S	Number=Plur	16	obj	_	_
+18	that	that	SCONJ	CS	_	22	mark	_	_
+19	the	the	DET	RD	Definite=Def|PronType=Art	20	det	_	_
+20	book	book	NOUN	S	Number=Sing	22	nsubj:pass	_	_
+21	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux:pass	_	_
+22	written	write	VERB	V	Tense=Past|VerbForm=Part	17	acl	_	_
+23	in	in	ADP	E	_	27	case	_	_
+24	the	the	DET	RD	Definite=Def|PronType=Art	27	det	_	_
+25	19	19	NUM	N	NumType=Card	27	nummod	_	SpaceAfter=No
+26	th	th	ADJ	A	Degree=Pos	27	amod	_	_
+27	century	century	NOUN	S	Number=Sing	22	obl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	35	punct	_	_
+29	and	and	CCONJ	CC	_	35	cc	_	_
+30	not	not	PART	PART	Polarity=Neg	35	advmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	30	punct	_	_
+32	as	as	ADP	E	_	34	case	_	_
+33	its	its	DET	AP	Number=Sing|Poss=Yes|PronType=Prs	34	nmod:poss	_	_
+34	adherents	adherent	NOUN	S	Number=Plur	35	nsubj	_	_
+35	claim	claim	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	14	conj	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	35	punct	_	_
+37	in	in	ADP	E	_	41	case	_	_
+38	pre	pre	ADJ	A	Degree=Pos	41	amod	_	SpaceAfter=No
+39	-	-	PUNCT	FF	_	40	punct	_	SpaceAfter=No
+40	columbian	columbian	ADJ	A	Degree=Pos	41	amod	_	_
+41	america	america	NOUN	S	Number=Plur	35	obl	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	14	punct	_	SpacesAfter=\n
+
+# sent_id = 92
+# text = * the use of 19th- and 20th-century anti-semitic terminology demonstrates that the purported "franklin prophecy" (attributed to benjamin franklin, who died in 1790) is a forgery.
+1	*	*	PUNCT	FF	_	3	punct	_	_
+2	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+3	use	use	NOUN	S	Number=Sing	17	nsubj	_	_
+4	of	of	ADP	E	_	5	case	_	_
+5	19	19	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+6	th	th	ADJ	A	Degree=Pos	5	amod	_	SpaceAfter=No
+7	-	-	PUNCT	FF	_	3	punct	_	_
+8	and	and	CCONJ	CC	_	16	cc	_	_
+9	20	20	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
+10	th	th	ADJ	A	Degree=Pos	9	amod	_	SpaceAfter=No
+11	-	-	PUNCT	FF	_	9	punct	_	SpaceAfter=No
+12	century	century	NOUN	S	Number=Sing	13	nmod	_	_
+13	anti	anti	NOUN	S	Number=Sing	16	nmod	_	SpaceAfter=No
+14	-	-	PUNCT	FF	_	13	punct	_	SpaceAfter=No
+15	semitic	semitic	ADJ	A	Degree=Pos	16	amod	_	_
+16	terminology	terminology	NOUN	S	Number=Sing	3	conj	_	_
+17	demonstrates	demonstrate	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	that	that	SCONJ	CS	_	20	mark	_	_
+19	the	the	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+20	purported	purport	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	17	ccomp	_	_
+21	"	"	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+22	franklin	franklin	ADJ	A	Degree=Pos	23	amod	_	_
+23	prophecy	prophecy	NOUN	S	Number=Sing	20	obj	_	SpaceAfter=No
+24	"	"	PUNCT	FB	_	23	punct	_	_
+25	(	(	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+26	attributed	attribute	VERB	V	Tense=Past|VerbForm=Part	23	acl	_	_
+27	to	to	ADP	E	_	29	case	_	_
+28	benjamin	benjamin	DET	DI	PronType=Ind	29	det	_	_
+29	franklin	franklin	NOUN	S	Number=Sing	26	obl	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	29	punct	_	_
+31	who	who	PRON	PR	PronType=Rel	32	nsubj	_	_
+32	died	died	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	29	acl:relcl	_	_
+33	in	in	ADP	E	_	34	case	_	_
+34	1790	1790	NUM	N	NumType=Card	32	obl	_	SpaceAfter=No
+35	)	)	PUNCT	FB	_	23	punct	_	_
+36	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	cop	_	_
+37	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	38	det	_	_
+38	forgery	forgery	NOUN	S	Number=Sing	20	nsubj	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	17	punct	_	SpacesAfter=\n
+
+# sent_id = 93
+# text = * the "william lynch speech", an address, supposedly delivered in 1712, on the control of slaves in virginia, is now considered to be a 20th-century forgery, partly on account of its use of anachronistic terms such as "program" and "refueling".
+1	*	*	PUNCT	FF	_	6	punct	_	_
+2	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+3	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+4	william	willibe	ADJ	A	Degree=Pos	6	amod	_	_
+5	lynch	lynch	NOUN	S	Number=Sing	6	nmod	_	_
+6	speech	speech	NOUN	S	Number=Sing	10	nmod	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	10	det	_	_
+10	address	address	NOUN	S	Number=Sing	27	nsubj:pass	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	supposedly	supposedly	ADV	B	_	13	advmod	_	_
+13	delivered	deliver	VERB	V	Tense=Past|VerbForm=Part	10	acl	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	1712	1712	NUM	N	NumType=Card	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	10	punct	_	_
+17	on	on	ADP	E	_	19	case	_	_
+18	the	the	DET	RD	Definite=Def|PronType=Art	19	det	_	_
+19	control	control	NOUN	S	Number=Sing	10	nmod	_	_
+20	of	of	ADP	E	_	21	case	_	_
+21	slaves	slaf	NOUN	S	Number=Plur	19	nmod	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	virginia	virginia	NOUN	S	Number=Plur	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	10	punct	_	_
+25	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux:pass	_	_
+26	now	now	ADV	B	_	27	advmod	_	_
+27	considered	consider	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+28	to	to	PART	PART	_	35	mark	_	_
+29	be	be	AUX	V	VerbForm=Inf	35	cop	_	_
+30	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	35	det	_	_
+31	20	20	NUM	N	NumType=Card	34	nummod	_	SpaceAfter=No
+32	th	th	ADJ	A	Degree=Pos	31	amod	_	SpaceAfter=No
+33	-	-	PUNCT	FF	_	34	punct	_	SpaceAfter=No
+34	century	century	NOUN	S	Number=Sing	35	nmod	_	_
+35	forgery	forgery	NOUN	S	Number=Sing	27	xcomp	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	35	punct	_	_
+37	partly	partly	ADV	B	_	35	advmod	_	_
+38	on	on	ADP	E	_	39	case	_	_
+39	account	account	NOUN	S	Number=Sing	35	nmod	_	_
+40	of	of	ADP	E	_	42	case	_	_
+41	its	its	DET	AP	Number=Sing|Poss=Yes|PronType=Prs	42	nmod:poss	_	_
+42	use	use	NOUN	S	Number=Sing	35	nmod	_	_
+43	of	of	ADP	E	_	45	case	_	_
+44	anachronistic	anachronistic	ADJ	A	Degree=Pos	45	amod	_	_
+45	terms	term	NOUN	S	Number=Plur	42	nmod	_	_
+46	such	such	ADJ	A	Degree=Pos	49	amod	_	_
+47	as	as	ADP	E	_	46	fixed	_	_
+48	"	"	PUNCT	FB	_	49	punct	_	SpaceAfter=No
+49	program	program	NOUN	S	Number=Sing	45	nmod	_	SpaceAfter=No
+50	"	"	PUNCT	FB	_	49	punct	_	_
+51	and	and	CCONJ	CC	_	53	cc	_	_
+52	"	"	PUNCT	FB	_	53	punct	_	SpaceAfter=No
+53	refueling	refueling	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	49	conj	_	SpaceAfter=No
+54	"	"	PUNCT	FB	_	53	punct	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	27	punct	_	SpacesAfter=\n\s
+
+# sent_id = 94
+# text = * anatopism * invented traditions * presentism * retrofuturism * society for creative anachronism * steampunk * whig history * 1812 overture#anachronism of nationalist motifs * evolutionary anachronism * * *
+1	*	*	PUNCT	FF	_	2	punct	_	_
+2	anatopism	anatopism	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n
+3	*	*	PUNCT	FF	_	4	punct	_	_
+4	invented	invent	VERB	V	Tense=Past|VerbForm=Part	2	acl	_	_
+5	traditions	traditions	NOUN	S	Number=Plur	11	nmod	_	SpacesAfter=\n
+6	*	*	PUNCT	FF	_	7	punct	_	_
+7	presentism	presentism	NOUN	S	Number=Sing	11	nmod	_	SpacesAfter=\n
+8	*	*	PUNCT	FF	_	9	punct	_	_
+9	retrofuturism	retrofuturism	NOUN	S	Number=Sing	7	conj	_	SpacesAfter=\n
+10	*	*	PUNCT	FF	_	7	punct	_	_
+11	society	society	NOUN	S	Number=Sing	4	obj	_	_
+12	for	for	ADP	E	_	14	case	_	_
+13	creative	creative	ADJ	A	Degree=Pos	14	amod	_	_
+14	anachronism	anachronism	NOUN	S	Number=Sing	4	obl	_	SpacesAfter=\n
+15	*	*	PUNCT	FF	_	16	punct	_	_
+16	steampunk	steampunk	NOUN	S	Number=Sing	14	conj	_	SpacesAfter=\n
+17	*	*	PUNCT	FF	_	19	punct	_	_
+18	whig	whig	ADJ	A	Degree=Pos	19	amod	_	_
+19	history	history	NOUN	S	Number=Sing	24	nmod	_	SpacesAfter=\n
+20	*	*	PUNCT	FF	_	22	punct	_	_
+21	1812	1812	NUM	N	NumType=Card	22	nummod	_	_
+22	overture	overture	NOUN	S	Number=Sing	19	conj	_	SpaceAfter=No
+23	#	#	PUNCT	FF	_	22	punct	_	SpaceAfter=No
+24	anachronism	anachronism	NOUN	S	Number=Sing	16	conj	_	_
+25	of	of	ADP	E	_	27	case	_	_
+26	nationalist	nationalist	NOUN	S	Number=Sing	27	nmod	_	_
+27	motifs	motif	NOUN	S	Number=Plur	24	nmod	_	SpacesAfter=\n
+28	*	*	PUNCT	FF	_	30	punct	_	_
+29	evolutionary	evolutionary	DET	DI	Number=Sing|PronType=Ind	30	det	_	_
+30	anachronism	anachronism	NOUN	S	Number=Sing	16	conj	_	SpacesAfter=\n\s\n\s
+31	*	*	PUNCT	FF	_	30	punct	_	SpacesAfter=\n\s\n
+32	*	*	PUNCT	FF	_	16	punct	_	SpacesAfter=\s\n
+33	*	*	PUNCT	FF	_	2	punct	_	SpacesAfter=\n
+

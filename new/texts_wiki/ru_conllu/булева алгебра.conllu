@@ -1,0 +1,1207 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = : ''эта статья об алгебраической системе. о разделе математической логики, изучающем высказывания и операции над ними, см. алгебра логики.'' '''булевой алгеброй''' называется непустое множество ''a'' с двумя бинарными операциями (аналог конъюнкции), (аналог дизъюнкции), одной унарной операцией (аналог отрицания) и двумя выделенными элементами: 0 (или ложь) и 1 (или истина) такими, что для любых ''a'', ''b'' и ''c'' из множества ''a'' верны следующие аксиомы:
+1	:	:	PUNCT	_	_	6	punct	_	_
+2	''эта	''эт	DET	_	Case=Nom|Gender=Fem|Number=Sing	3	det	_	_
+3	статья	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+4	об	о	ADP	_	_	6	case	_	_
+5	алгебраической	алгебраический	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	системе	система	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+8	о	о	ADP	_	_	9	case	_	_
+9	разделе	раздел	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	_
+10	математической	математический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	логики	логика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	изучающем	изучать	VERB	_	Aspect=Imp|Case=Loc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	9	acl	_	_
+14	высказывания	высказывание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	obl	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	операции	операция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	conj	_	_
+17	над	над	ADP	_	_	18	case	_	_
+18	ними	они	PRON	_	Case=Ins|Number=Plur|Person=3	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	13	punct	_	_
+20	см.	смотреть	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	25	xcomp	_	_
+21	алгебра	алгебра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	_
+22	логики.''	логики.''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpacesAfter=\n
+23	'''булевой	'''булевой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	алгеброй'''	алгеброй'''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+25	называется	называться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	34	parataxis	_	_
+26	непустое	непустый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	_
+27	множество	множество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	34	nsubj	_	_
+28	''a''	''a''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_
+29	с	с	ADP	_	_	32	case	_	_
+30	двумя	два	NUM	_	Case=Ins	32	nummod	_	_
+31	бинарными	бинарный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	32	amod	_	_
+32	операциями	операция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	27	nmod	_	SpacesAfter=\s\s
+33	(	(	PUNCT	_	_	34	punct	_	SpaceAfter=No
+34	аналог	аналог	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+35	конъюнкции	конъюнкция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+36	)	)	PUNCT	_	_	34	punct	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	34	punct	_	SpacesAfter=\s\s
+38	(	(	PUNCT	_	_	39	punct	_	SpaceAfter=No
+39	аналог	аналог	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	34	parataxis	_	_
+40	дизъюнкции	дизъюнкция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	39	nmod	_	SpaceAfter=No
+41	)	)	PUNCT	_	_	39	punct	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	45	punct	_	_
+43	одной	один	NUM	_	Case=Ins|Gender=Fem	45	nummod	_	_
+44	унарной	унарный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	45	amod	_	_
+45	операцией	операция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	34	nmod	_	SpacesAfter=\s\s
+46	(	(	PUNCT	_	_	47	punct	_	SpaceAfter=No
+47	аналог	аналог	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	45	parataxis	_	_
+48	отрицания	отрицание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	47	nmod	_	SpaceAfter=No
+49	)	)	PUNCT	_	_	47	punct	_	_
+50	и	и	CCONJ	_	_	53	cc	_	_
+51	двумя	два	NUM	_	Case=Ins	53	nummod	_	_
+52	выделенными	выделить	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	53	amod	_	_
+53	элементами	элемент	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	45	conj	_	SpaceAfter=No
+54	:	:	PUNCT	_	_	53	punct	_	_
+55	0	0	NUM	_	_	66	nummod	_	_
+56	(	(	PUNCT	_	_	58	punct	_	SpaceAfter=No
+57	или	или	CCONJ	_	_	58	cc	_	_
+58	ложь	ложь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	55	parataxis	_	SpaceAfter=No
+59	)	)	PUNCT	_	_	58	punct	_	_
+60	и	и	CCONJ	_	_	61	cc	_	_
+61	1	1	NUM	_	_	55	conj	_	_
+62	(	(	PUNCT	_	_	64	punct	_	SpaceAfter=No
+63	или	или	CCONJ	_	_	64	cc	_	_
+64	истина	истина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	61	parataxis	_	SpaceAfter=No
+65	)	)	PUNCT	_	_	64	punct	_	_
+66	такими	такой	DET	_	Case=Ins|Number=Plur	53	det	_	SpaceAfter=No
+67	,	,	PUNCT	_	_	79	punct	_	_
+68	что	что	SCONJ	_	_	79	mark	_	_
+69	для	для	ADP	_	_	71	case	_	_
+70	любых	любой	DET	_	Case=Gen|Number=Plur	71	det	_	_
+71	''a''	''a''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	79	obl	_	SpaceAfter=No
+72	,	,	PUNCT	_	_	73	punct	_	_
+73	''b''	''b''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	71	conj	_	_
+74	и	и	CCONJ	_	_	75	cc	_	_
+75	''c''	''c''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	71	conj	_	_
+76	из	из	ADP	_	_	77	case	_	_
+77	множества	множество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	75	nmod	_	_
+78	''a''	''a''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	77	nmod	_	_
+79	верны	верный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	66	obl	_	_
+80	следующие	следующий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	81	amod	_	_
+81	аксиомы	аксиома	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	79	nsubj	_	SpaceAfter=No
+82	:	:	PUNCT	_	_	34	punct	_	SpacesAfter=\n\n\n\n\n\n\n\n\n\s
+
+# newpar
+# sent_id = 2
+# text = ассоциативность
+1	ассоциативность	ассоциативность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpacesAfter=\n\n\n\n\n\n\n\n\s
+
+# newpar
+# sent_id = 3
+# text = коммутативность
+1	коммутативность	коммутативность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpacesAfter=\n\n\n\n\n\n\n\n\s
+
+# newpar
+# sent_id = 4
+# text = законы поглощения
+1	законы	закон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+2	поглощения	поглощение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	SpacesAfter=\n\n\n\n\n\n\n\n\s
+
+# newpar
+# sent_id = 5
+# text = дистрибутивность
+1	дистрибутивность	дистрибутивность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpacesAfter=\n\n\n\n\n\n\n\n\s
+
+# newpar
+# sent_id = 6
+# text = дополнительность
+1	дополнительность	дополнительность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpacesAfter=\n\n\n\n\s\n\n
+
+# newpar
+# sent_id = 7
+# text = первые три аксиомы означают, что (''a'', , ) является решёткой. таким образом, булева алгебра может быть определена как дистрибутивная решётка, в которой выполнены две последние аксиомы. структура, в которой выполняются все аксиомы, кроме предпоследней, называется псевдобулевой алгеброй. названа в честь джорджа буля. из аксиом видно, что наименьшим элементом является 0, наибольшим является 1, а дополнение ¬''a'' любого элемента ''a'' однозначно определено. для всех ''a'' и ''b'' из ''a'' верны также следующие равенства:
+1	первые	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	2	amod	_	_
+2	три	три	NUM	_	Animacy=Inan|Case=Acc	3	nummod:gov	_	_
+3	аксиомы	аксиома	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	означают	означать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	12	punct	_	_
+6	что	что	SCONJ	_	_	12	nsubj	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	''a''	''a''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	parataxis	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	)	)	PUNCT	_	_	8	punct	_	_
+12	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	ccomp	_	_
+13	решёткой	решётка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	4	punct	_	_
+15	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	16	det	_	_
+16	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	20	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	булева	булева	ADV	_	Degree=Pos	20	advmod	_	_
+19	алгебра	алгебра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj:pass	_	_
+20	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+21	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	22	aux:pass	_	_
+22	определена	определить	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	20	xcomp	_	_
+23	как	как	SCONJ	_	_	25	mark	_	_
+24	дистрибутивная	дистрибутивный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	решётка	решётка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	advcl	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	29	punct	_	_
+27	в	в	ADP	_	_	28	case	_	_
+28	которой	который	PRON	_	Case=Loc	29	obl	_	_
+29	выполнены	выполнить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	25	acl:relcl	_	_
+30	две	два	NUM	_	Case=Nom|Gender=Fem	32	nummod:gov	_	_
+31	последние	последний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	32	amod	_	_
+32	аксиомы	аксиома	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	29	nsubj:pass	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	_
+34	структура	структура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	38	punct	_	_
+36	в	в	ADP	_	_	37	case	_	_
+37	которой	который	PRON	_	Case=Loc	38	obl	_	_
+38	выполняются	выполнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	34	acl:relcl	_	_
+39	все	весь	DET	_	Case=Nom|Number=Plur	40	det	_	_
+40	аксиомы	аксиома	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	45	nsubj	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	45	punct	_	_
+42	кроме	кроме	ADP	_	_	43	case	_	_
+43	предпоследней	предпоследень	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	45	obl	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	43	punct	_	_
+45	называется	называться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	38	conj	_	_
+46	псевдобулевой	псевдобулевой	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	47	amod	_	_
+47	алгеброй	алгебра	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	45	obl	_	SpaceAfter=No
+48	.	.	PUNCT	_	_	45	punct	_	SpacesAfter=\n
+49	названа	назвать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	45	xcomp	_	_
+50	в	в	ADP	_	_	51	case	_	_
+51	честь	честь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	49	obl	_	_
+52	джорджа	джордж	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	51	nmod	_	_
+53	буля	буль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	52	nmod	_	SpaceAfter=No
+54	.	.	PUNCT	_	_	53	punct	_	SpacesAfter=\n\s
+55	из	из	ADP	_	_	56	case	_	_
+56	аксиом	аксиома	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	53	nmod	_	_
+57	видно	видно	ADV	_	Degree=Pos	49	advmod	_	SpaceAfter=No
+58	,	,	PUNCT	_	_	62	punct	_	_
+59	что	что	SCONJ	_	_	62	mark	_	_
+60	наименьшим	наименьший	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	61	amod	_	_
+61	элементом	элемент	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	62	obl	_	_
+62	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	49	conj	_	_
+63	0	0	NUM	_	_	66	nummod	_	SpaceAfter=No
+64	,	,	PUNCT	_	_	65	punct	_	_
+65	наибольшим	наибольший	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	63	conj	_	_
+66	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	62	csubj	_	_
+67	1	1	NUM	_	_	66	nummod	_	SpaceAfter=No
+68	,	,	PUNCT	_	_	70	punct	_	_
+69	а	а	CCONJ	_	_	70	cc	_	_
+70	дополнение	дополнение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	76	nsubj:pass	_	_
+71	¬''a''	¬''a''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	70	nmod	_	_
+72	любого	любой	DET	_	Case=Gen|Gender=Masc|Number=Sing	73	det	_	_
+73	элемента	элемент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	71	nmod	_	_
+74	''a''	''a''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	73	nmod	_	_
+75	однозначно	однозначно	ADV	_	Degree=Pos	76	advmod	_	_
+76	определено	определить	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	66	nsubj	_	SpaceAfter=No
+77	.	.	PUNCT	_	_	76	punct	_	_
+78	для	для	ADP	_	_	80	case	_	_
+79	всех	весь	DET	_	Case=Gen|Number=Plur	80	det	_	_
+80	''a''	''a''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	76	obl	_	_
+81	и	и	CCONJ	_	_	82	cc	_	_
+82	''b''	''b''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	80	conj	_	_
+83	из	из	ADP	_	_	84	case	_	_
+84	''a''	''a''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	82	nmod	_	_
+85	верны	верный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	76	obl	_	_
+86	также	также	ADV	_	Degree=Pos	87	obl	_	_
+87	следующие	следующий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	88	amod	_	_
+88	равенства	равенство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	85	obj	_	SpaceAfter=No
+89	:	:	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n\n\n\n\s\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\s
+
+# newpar
+# sent_id = 8
+# text = дополнение 0 есть 1 и наоборот
+1	дополнение	дополнение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	0	0	NUM	_	_	1	nummod	_	_
+3	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	1	1	NUM	_	_	3	nummod	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	наоборот	наоборот	ADV	_	Degree=Pos	3	conj	_	SpacesAfter=\n\n\n\n\n\n\n\n\s
+
+# newpar
+# sent_id = 9
+# text = законы де моргана
+1	законы	закон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	де	де	PART	_	_	1	advmod	_	_
+3	моргана	морган	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	SpacesAfter=\n\n\n\n\s
+
+# newpar
+# sent_id = 10
+# text = .
+1	.	.	PUNCT	_	_	0	root	_	SpacesAfter=\n\n\n\n\s
+
+# newpar
+# sent_id = 11
+# text = инволютивность отрицания, закон снятия двойного отрицания.
+1	инволютивность	инволютивность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	отрицания	отрицание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	закон	закон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+5	снятия	снятие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	двойного	двойной	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	отрицания	отрицание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n\n\s
+
+# newpar
+# sent_id = 12
+# text = в данном разделе повторяются свойства и аксиомы, описанные выше с добавлением ещё нескольких.
+1	в	в	ADP	_	_	3	case	_	_
+2	данном	данный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	разделе	раздел	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+4	повторяются	повторять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	свойства	свойство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	аксиомы	аксиома	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	описанные	описать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	advcl	_	_
+10	выше	высоко	ADV	_	Degree=Cmp	9	advmod	_	_
+11	с	с	ADP	_	_	12	case	_	_
+12	добавлением	добавление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	obl	_	_
+13	ещё	еще	ADV	_	Degree=Pos	14	advmod	_	_
+14	нескольких	несколько	NUM	_	Case=Gen	12	nummod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 13
+# text = сводная таблица свойств и аксиом, описанных выше:
+1	сводная	сводный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	таблица	таблица	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+3	свойств	свойство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	аксиом	аксиома	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	описанных	описать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	_
+8	выше	высоко	ADV	_	Degree=Cmp	7	advmod	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n\n\n\n\n\n\n
+
+# newpar
+# sent_id = 14
+# text = 1 коммутативность, переместительность
+1	1	1	NUM	_	_	2	nummod	_	_
+2	коммутативность	коммутативность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	переместительность	переместительность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	conj	_	SpacesAfter=\n\n\n\n\n\n\n\n
+
+# newpar
+# sent_id = 15
+# text = 2 ассоциативность, сочетательность
+1	2	2	NUM	_	_	2	nummod	_	_
+2	ассоциативность	ассоциативность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	сочетательность	сочетательность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	conj	_	SpacesAfter=\n\n\n\n
+
+# newpar
+# sent_id = 16
+# text = 3.1 конъюнкция относительно дизъюнкции
+1	3.1	3.1	NUM	_	_	2	nummod	_	_
+2	конъюнкция	конъюнкция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+3	относительно	относительно	ADP	_	_	4	case	_	_
+4	дизъюнкции	дизъюнкция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpacesAfter=\s\n\n
+
+# newpar
+# sent_id = 17
+# text = 3.2 дизъюнкция относительно конъюнкции
+1	3.2	3.2	NUM	_	_	2	nummod	_	_
+2	дизъюнкция	дизъюнкция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+3	относительно	относительно	ADP	_	_	4	case	_	_
+4	конъюнкции	конъюнкция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpacesAfter=\s\n\n
+
+# newpar
+# sent_id = 18
+# text = 3 дистрибутивность, распределительность
+1	3	3	NUM	_	_	2	nummod	_	_
+2	дистрибутивность	дистрибутивность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	распределительность	распределительность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	conj	_	SpacesAfter=\n\n\n\n\n\n\n\n
+
+# newpar
+# sent_id = 19
+# text = 4 комплементность, дополнительность (свойства отрицаний)
+1	4	4	NUM	_	_	2	nummod	_	_
+2	комплементность	комплементность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	дополнительность	дополнительность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	conj	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	свойства	свойство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	parataxis	_	_
+7	отрицаний	отрицание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	6	punct	_	SpacesAfter=\n\n\n\n\n\n\n\n\s
+
+# newpar
+# sent_id = 20
+# text = 5 законы де моргана
+1	5	5	NUM	_	_	2	nummod	_	_
+2	законы	закон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	де	де	PART	_	_	4	cop	_	_
+4	моргана	морган	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	SpacesAfter=\n\n\n\n\n\n\n\n\s
+
+# newpar
+# sent_id = 21
+# text = 6 законы поглощения
+1	6	6	NUM	_	_	2	nummod	_	_
+2	законы	закон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+3	поглощения	поглощение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	SpacesAfter=\n\n\n\n\n\n\n\n\s
+
+# newpar
+# sent_id = 22
+# text = 7 блейка-порецкого
+1	7	7	NUM	_	_	2	nummod	_	_
+2	блейка	блейка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	-порецкого	-порецкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	2	obl	_	SpacesAfter=\n\n\n\n\s\n\n\n\n\s
+
+# newpar
+# sent_id = 23
+# text = 8 идемпотентность
+1	8	8	NUM	_	_	2	nummod	_	_
+2	идемпотентность	идемпотентность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpacesAfter=\n\n\n\n\s\n\n\n\n\s
+
+# newpar
+# sent_id = 24
+# text = 9 инволютивность отрицания, закон снятия двойного отрицания
+1	9	9	NUM	_	_	2	nummod	_	_
+2	инволютивность	инволютивность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+3	отрицания	отрицание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	закон	закон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+6	снятия	снятие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	двойного	двойной	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	отрицания	отрицание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	SpacesAfter=\n\n\n\n\n\n\n\n\s
+
+# newpar
+# sent_id = 25
+# text = 10 свойства констант
+1	10	10	NUM	_	_	2	nummod	_	_
+2	свойства	свойство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	0	root	_	_
+3	констант	константа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	SpacesAfter=\n\n\n\n\n\n\n\n\n\n\s
+
+# newpar
+# sent_id = 26
+# text = дополнение 0 есть 1
+1	дополнение	дополнение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	0	0	NUM	_	_	1	nummod	_	_
+3	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	1	1	NUM	_	_	3	nummod	_	SpacesAfter=\s\n\n\s
+
+# newpar
+# sent_id = 27
+# text = дополнение 1 есть 0
+1	дополнение	дополнение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	1	1	NUM	_	_	1	nummod	_	_
+3	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	0	0	NUM	_	_	3	nummod	_	SpacesAfter=\s\n\n\n\n\s\n\n\n\n\s
+
+# newpar
+# sent_id = 28
+# text = 11 склеивание
+1	11	11	NUM	_	_	2	nummod	_	_
+2	склеивание	склеивание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpacesAfter=\n\n\n\n\n\s
+
+# newpar
+# sent_id = 29
+# text = * самая простая нетривиальная булева алгебра содержит всего два элемента, 0 и 1, а действия в ней определяются следующей таблицей:
+1	*	*	PUNCT	_	_	7	punct	_	_
+2	самая	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	простая	простой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+4	нетривиальная	нетривиальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	булева	булева	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+6	алгебра	алгебра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	содержит	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	всего	всего	PART	_	_	9	advmod	_	_
+9	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	10	nummod:gov	_	_
+10	элемента	элемент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	22	punct	_	_
+12	0	0	NUM	_	_	22	nummod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	1	1	NUM	_	_	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	20	punct	_	_
+16	а	а	CCONJ	_	_	20	cc	_	_
+17	действия	действие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	20	nsubj:pass	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	ней	она	PRON	_	Case=Loc|Gender=Fem|Number=Sing|Person=3	17	nmod	_	_
+20	определяются	определять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	conj	_	_
+21	следующей	следующий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	таблицей	таблица	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+23	:	:	PUNCT	_	_	7	punct	_	SpacesAfter=\n\n\n\n\n\n\n\n\n\n\n\n\n\n\s
+
+# newpar
+# sent_id = 30
+# text = ∧
+1	∧	∧	SYM	_	_	0	root	_	SpacesAfter=\s\n\n\s
+
+# newpar
+# sent_id = 31
+# text = 0
+1	0	0	NUM	_	_	0	root	_	SpacesAfter=\s\n\n\s
+
+# newpar
+# sent_id = 32
+# text = 1
+1	1	1	NUM	_	_	0	root	_	SpacesAfter=\n\n\n\n\s
+
+# newpar
+# sent_id = 33
+# text = 0
+1	0	0	NUM	_	_	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 34
+# text = 0
+1	0	0	NUM	_	_	0	root	_	SpacesAfter=\s\n\n\s
+
+# newpar
+# sent_id = 35
+# text = 0
+1	0	0	NUM	_	_	0	root	_	SpacesAfter=\n\n\n\n\s
+
+# newpar
+# sent_id = 36
+# text = 1
+1	1	1	NUM	_	_	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 37
+# text = 0
+1	0	0	NUM	_	_	0	root	_	SpacesAfter=\s\n\n\s
+
+# newpar
+# sent_id = 38
+# text = 1
+1	1	1	NUM	_	_	0	root	_	SpacesAfter=\n\n\n\n\n\n\n\n\n\n\n\n\n\n\s
+
+# newpar
+# sent_id = 39
+# text = ∨
+1	∨	∨	SYM	_	_	0	root	_	SpacesAfter=\s\n\n\s
+
+# newpar
+# sent_id = 40
+# text = 0
+1	0	0	NUM	_	_	0	root	_	SpacesAfter=\s\n\n\s
+
+# newpar
+# sent_id = 41
+# text = 1
+1	1	1	NUM	_	_	0	root	_	SpacesAfter=\n\n\n\n\s
+
+# newpar
+# sent_id = 42
+# text = 0
+1	0	0	NUM	_	_	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 43
+# text = 0
+1	0	0	NUM	_	_	0	root	_	SpacesAfter=\s\n\n\s
+
+# newpar
+# sent_id = 44
+# text = 1
+1	1	1	NUM	_	_	0	root	_	SpacesAfter=\n\n\n\n\s
+
+# newpar
+# sent_id = 45
+# text = 1
+1	1	1	NUM	_	_	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 46
+# text = 1
+1	1	1	NUM	_	_	0	root	_	SpacesAfter=\s\n\n\s
+
+# newpar
+# sent_id = 47
+# text = 1
+1	1	1	NUM	_	_	0	root	_	SpacesAfter=\n\n\n\n\n\n\n\n\n\n\n\n\n\n\s
+
+# newpar
+# sent_id = 48
+# text = a
+1	a	a	X	_	Foreign=Yes	0	root	_	SpacesAfter=\s\n\n\s
+
+# newpar
+# sent_id = 49
+# text = 0
+1	0	0	NUM	_	_	0	root	_	SpacesAfter=\s\n\n\s
+
+# newpar
+# sent_id = 50
+# text = 1
+1	1	1	NUM	_	_	0	root	_	SpacesAfter=\n\n\n\n\s
+
+# newpar
+# sent_id = 51
+# text = ¬a
+1	¬a	¬a	X	_	Foreign=Yes	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 52
+# text = 1
+1	1	1	NUM	_	_	0	root	_	SpacesAfter=\s\n\n\s
+
+# newpar
+# sent_id = 53
+# text = 0
+1	0	0	NUM	_	_	0	root	_	SpacesAfter=\n\n\n\n\n
+
+# newpar
+# sent_id = 54
+# text = : эта булева алгебра наиболее часто используется в логике, так как является точной моделью классического исчисления высказываний. в этом случае 0 называют ''ложью'', 1 — ''истиной''. выражения, содержащие булевы операции и переменные, представляют собой высказывательные формы. * множество всех подмножеств данного множества ''s'' образует булеву алгебру относительно операций ∨ := ∪ (объединение), ∧ := ∩ (пересечение) и унарной операции дополнения. наименьший элемент здесь — пустое множество, а наибольший — всё ''s''. * рассмотрим множество всех натуральных делителей заданного натурального числа свободного от квадратов. определим на две бинарные операции: нахождение наибольшего общего делителя (аналог конъюнкции) и наименьшего общего кратного (аналог дизъюнкции); роль отрицания играет одноместная операция, сопоставляющая делителю делитель полученная структура является булевой алгеброй; в ней аналогами булевских нуля и единицы выступают соответственно числа 1 и переложение приведенных выше общих аксиом и свойств булевой алгебры для множества даёт ряд полезных и не очевидных теоретико-числовых тождеств. * алгебра линденбаума — тарского (фактормножество всех утверждений по отношению равносильности в данном исчислении с соответствующими операциями) какого-либо исчисления высказываний является булевой алгеброй. в этом случае истинностная оценка формул исчисления является гомоморфизмом алгебры линденбаума — тарского в двухэлементную булеву алгебру. * если ''r'' — произвольное кольцо, то на нём можно определить множество ''центральных идемпотентов'' так: ''a'' = { ''e'' ∈ ''r'' : ''e''² = ''e'', ''ex'' = ''xe'', ∀''x'' ∈ ''r'' }, тогда множество ''a'' будет булевой алгеброй с операциями ''e'' ∨ ''f'' := ''e'' + ''f'' − ''ef'' и ''e'' ∧ ''f'' := ''ef''. в булевых алгебрах существуют двойственные утверждения, они либо одновременно верны, либо одновременно неверны. именно, если в формуле, которая верна в некоторой булевой алгебре, поменять все конъюнкции на дизъюнкции, 0 на 1, ≤ на > и наоборот или < на ≥ и наоборот, то получится формула, также истинная в этой булевой алгебре. это следует из симметричности аксиом относительно таких замен.
+1	:	:	PUNCT	_	_	7	punct	_	_
+2	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	3	det	_	_
+3	булева	булева	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+4	алгебра	алгебра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	наиболее	наиболее	ADV	_	Degree=Pos	6	advmod	_	_
+6	часто	часто	ADV	_	Degree=Pos	7	advmod	_	_
+7	используется	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	логике	логика	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	_
+11	так	так	ADV	_	Degree=Pos	13	mark	_	_
+12	как	как	SCONJ	_	_	11	fixed	_	_
+13	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	7	advcl	_	_
+14	точной	точный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	моделью	модель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	obl	_	_
+16	классического	классический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	исчисления	исчисление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+18	высказываний	высказывание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	13	punct	_	_
+20	в	в	ADP	_	_	22	case	_	_
+21	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing	22	det	_	_
+22	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	24	obl	_	_
+23	0	0	NUM	_	_	24	nummod	_	_
+24	называют	называть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	xcomp	_	_
+25	''ложью''	''ложью''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	29	punct	_	_
+27	1	1	NUM	_	_	29	nummod	_	SpacesAfter= 
+28	—	—	PUNCT	_	_	27	punct	_	_
+29	''истиной''	''истиной''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	conj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	25	punct	_	_
+31	выражения	выражение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	33	punct	_	_
+33	содержащие	содержать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	24	conj	_	_
+34	булевы	булева	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	33	obl	_	_
+35	операции	операция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	34	nsubj	_	_
+36	и	и	CCONJ	_	_	37	cc	_	_
+37	переменные	переменная	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	35	conj	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	39	punct	_	_
+39	представляют	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	34	conj	_	_
+40	собой	себя	PRON	_	Case=Ins	39	fixed	_	_
+41	высказывательные	высказывательный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	42	amod	_	_
+42	формы	форма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	39	obj	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	SpacesAfter=\n
+44	*	*	PUNCT	_	_	45	punct	_	_
+45	множество	множество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	42	conj	_	_
+46	всех	весь	DET	_	Case=Gen|Number=Plur	47	det	_	_
+47	подмножеств	подмножество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	45	nmod	_	_
+48	данного	данный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	49	amod	_	_
+49	множества	множество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	47	nmod	_	_
+50	''s''	''s''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	49	nmod	_	_
+51	образует	образовывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	42	conj	_	_
+52	булеву	булева	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	51	iobj	_	_
+53	алгебру	алгебра	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	51	iobj	_	_
+54	относительно	относительно	ADP	_	_	55	case	_	_
+55	операций	операция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	53	nmod	_	_
+56	∨	∨	SYM	_	_	55	nmod	_	_
+57	:	:	PUNCT	_	_	56	punct	_	SpaceAfter=No
+58	=	=	SYM	_	_	59	nmod	_	_
+59	∪	∪	SYM	_	_	56	parataxis	_	_
+60	(	(	PUNCT	_	_	61	punct	_	SpaceAfter=No
+61	объединение	объединение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	59	parataxis	_	SpaceAfter=No
+62	)	)	PUNCT	_	_	61	punct	_	SpaceAfter=No
+63	,	,	PUNCT	_	_	64	punct	_	_
+64	∧	∧	SYM	_	_	59	conj	_	_
+65	:	:	PUNCT	_	_	64	punct	_	SpaceAfter=No
+66	=	=	SYM	_	_	67	nmod	_	_
+67	∩	∩	SYM	_	_	64	parataxis	_	_
+68	(	(	PUNCT	_	_	69	punct	_	SpaceAfter=No
+69	пересечение	пересечение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	67	parataxis	_	SpaceAfter=No
+70	)	)	PUNCT	_	_	69	punct	_	_
+71	и	и	CCONJ	_	_	73	cc	_	_
+72	унарной	унарный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	73	amod	_	_
+73	операции	операция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	67	conj	_	_
+74	дополнения	дополнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	73	nmod	_	SpaceAfter=No
+75	.	.	PUNCT	_	_	74	punct	_	_
+76	наименьший	наименьший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	77	amod	_	_
+77	элемент	элемент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	74	obj	_	_
+78	здесь	здесь	ADV	_	Degree=Pos	77	advmod	_	SpacesAfter= 
+79	—	—	PUNCT	_	_	81	punct	_	_
+80	пустое	пустой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	81	amod	_	_
+81	множество	множество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	77	conj	_	SpaceAfter=No
+82	,	,	PUNCT	_	_	84	punct	_	_
+83	а	а	CCONJ	_	_	84	cc	_	_
+84	наибольший	наибольший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	77	conj	_	SpacesAfter= 
+85	—	—	PUNCT	_	_	89	punct	_	_
+86	всё	весь	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	89	obj	_	_
+87	''s''.	''s''.	PROPN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	86	appos	_	SpacesAfter=\n
+88	*	*	PUNCT	_	_	86	punct	_	_
+89	рассмотрим	рассмотреть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	84	conj	_	_
+90	множество	множество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	89	nsubj	_	SpacesAfter=\s\s
+91	всех	весь	DET	_	Case=Gen|Number=Plur	93	det	_	_
+92	натуральных	натуральный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	93	amod	_	_
+93	делителей	делитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	101	obl	_	_
+94	заданного	задать	VERB	_	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	96	amod	_	_
+95	натурального	натуральный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	96	amod	_	_
+96	числа	число	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	101	obl	_	SpacesAfter=\s\s
+97	свободного	свободный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	99	amod	_	_
+98	от	от	ADP	_	_	99	case	_	_
+99	квадратов	квадрат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	101	obl	_	SpaceAfter=No
+100	.	.	PUNCT	_	_	99	punct	_	_
+101	определим	определить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	90	parataxis	_	_
+102	на	на	ADP	_	_	105	case	_	SpacesAfter=\s\s
+103	две	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Fem	105	nummod:gov	_	_
+104	бинарные	бинарный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	105	amod	_	_
+105	операции	операция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	101	obl	_	SpaceAfter=No
+106	:	:	PUNCT	_	_	101	punct	_	_
+107	нахождение	нахождение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	101	parataxis	_	_
+108	наибольшего	наибольший	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	110	amod	_	_
+109	общего	общий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	110	amod	_	_
+110	делителя	делитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	107	nmod	_	_
+111	(	(	PUNCT	_	_	112	punct	_	SpaceAfter=No
+112	аналог	аналог	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	110	parataxis	_	_
+113	конъюнкции	конъюнкция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	112	nmod	_	SpaceAfter=No
+114	)	)	PUNCT	_	_	112	punct	_	_
+115	и	и	CCONJ	_	_	118	cc	_	_
+116	наименьшего	наименьший	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	118	amod	_	_
+117	общего	общий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	118	amod	_	_
+118	кратного	кратный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	110	conj	_	_
+119	(	(	PUNCT	_	_	120	punct	_	SpaceAfter=No
+120	аналог	аналог	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	118	parataxis	_	_
+121	дизъюнкции	дизъюнкция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	120	nmod	_	SpaceAfter=No
+122	)	)	PUNCT	_	_	120	punct	_	SpaceAfter=No
+123	;	;	PUNCT	_	_	101	punct	_	_
+124	роль	роль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	126	nsubj	_	_
+125	отрицания	отрицание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	124	nmod	_	_
+126	играет	играть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	101	conj	_	_
+127	одноместная	одноместный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	128	amod	_	_
+128	операция	операция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	126	obl	_	SpaceAfter=No
+129	,	,	PUNCT	_	_	130	punct	_	_
+130	сопоставляющая	сопоставлять	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	128	acl	_	_
+131	делителю	делитель	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	130	iobj	_	SpacesAfter=\s\s
+132	делитель	делитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	135	nsubj	_	SpacesAfter=\s\s
+133	полученная	получить	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	134	amod	_	_
+134	структура	структура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	132	nmod	_	_
+135	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	130	advmod	_	_
+136	булевой	булевой	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	137	amod	_	_
+137	алгеброй	алгебра	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	135	obl	_	SpaceAfter=No
+138	;	;	PUNCT	_	_	135	punct	_	_
+139	в	в	ADP	_	_	140	case	_	_
+140	ней	она	PRON	_	Case=Loc|Gender=Fem|Number=Sing|Person=3	146	obl	_	_
+141	аналогами	аналог	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	146	obl	_	_
+142	булевских	булевский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	143	amod	_	_
+143	нуля	нуль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	141	nmod	_	_
+144	и	и	CCONJ	_	_	145	cc	_	_
+145	единицы	единица	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	141	conj	_	_
+146	выступают	выступать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	csubj:pass	_	_
+147	соответственно	соответственно	ADV	_	Degree=Pos	148	obl	_	_
+148	числа	число	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	162	obl	_	_
+149	1	1	NUM	_	_	148	nummod	_	_
+150	и	и	CCONJ	_	_	151	cc	_	SpacesAfter=\s\s
+151	переложение	переложение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	148	conj	_	_
+152	приведенных	приведеть	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	155	acl	_	_
+153	выше	высоко	ADV	_	Degree=Cmp	152	advmod	_	_
+154	общих	общий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	155	amod	_	_
+155	аксиом	аксиома	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	151	nmod	_	_
+156	и	и	CCONJ	_	_	157	cc	_	_
+157	свойств	свойство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	155	conj	_	_
+158	булевой	булевой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	159	amod	_	_
+159	алгебры	алгебра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	157	nmod	_	_
+160	для	для	ADP	_	_	161	case	_	_
+161	множества	множество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	162	obl	_	SpacesAfter=\s\s
+162	даёт	давать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	135	conj	_	_
+163	ряд	ряд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	203	nsubj	_	_
+164	полезных	полезный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	169	amod	_	_
+165	и	и	CCONJ	_	_	167	cc	_	_
+166	не	не	PART	_	_	167	advmod	_	_
+167	очевидных	очевидный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	164	conj	_	_
+168	теоретико-числовых	теоретико-числовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	169	amod	_	_
+169	тождеств.	тождествек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	203	obl	_	SpacesAfter=\n
+170	*	*	PUNCT	_	_	171	punct	_	_
+171	алгебра	алгебра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	203	obl	_	_
+172	линденбаума	линденбаум	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	203	obl	_	_
+173	—	—	PUNCT	_	_	192	punct	_	_
+174	тарского	тарский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	190	amod	_	_
+175	(	(	PUNCT	_	_	176	punct	_	SpaceAfter=No
+176	фактормножество	фактормножество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	174	parataxis	_	_
+177	всех	весь	DET	_	Case=Gen|Number=Plur	178	det	_	_
+178	утверждений	утверждение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	176	nmod	_	_
+179	по	по	ADP	_	_	184	case	_	_
+180	отношению	отношение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	179	fixed	_	_
+181	равносильности	равносильность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	179	fixed	_	_
+182	в	в	ADP	_	_	184	case	_	_
+183	данном	данный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	184	amod	_	_
+184	исчислении	исчисление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	176	nmod	_	_
+185	с	с	ADP	_	_	187	case	_	_
+186	соответствующими	соответствующий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	187	amod	_	_
+187	операциями	операция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	184	nmod	_	SpaceAfter=No
+188	)	)	PUNCT	_	_	176	punct	_	_
+189	какого-либо	какой-либо	DET	_	Case=Gen|Gender=Neut|Number=Sing	190	det	_	_
+190	исчисления	исчисление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	191	nmod	_	_
+191	высказываний	высказывание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	192	nsubj	_	_
+192	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	203	conj	_	_
+193	булевой	булевой	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	194	amod	_	_
+194	алгеброй	алгебра	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	192	obl	_	SpaceAfter=No
+195	.	.	PUNCT	_	_	192	punct	_	_
+196	в	в	ADP	_	_	198	case	_	_
+197	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing	198	det	_	_
+198	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	192	obl	_	_
+199	истинностная	истинностный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	200	amod	_	_
+200	оценка	оценка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	203	nsubj	_	_
+201	формул	формула	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	200	nmod	_	_
+202	исчисления	исчисление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	201	nmod	_	_
+203	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	162	conj	_	_
+204	гомоморфизмом	гомоморфизм	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	203	obl	_	_
+205	алгебры	алгебра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	204	nmod	_	_
+206	линденбаума	линденбаум	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	205	nmod	_	SpacesAfter= 
+207	—	—	PUNCT	_	_	212	punct	_	_
+208	тарского	тарский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	212	amod	_	_
+209	в	в	ADP	_	_	211	case	_	_
+210	двухэлементную	двухэлементный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	211	amod	_	_
+211	булеву	булева	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	208	obl	_	_
+212	алгебру	алгебра	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	206	conj	_	SpaceAfter=No
+213	.	.	PUNCT	_	_	212	punct	_	SpacesAfter=\n
+214	*	*	PUNCT	_	_	216	punct	_	_
+215	если	если	SCONJ	_	_	216	mark	_	_
+216	''r''	''r''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	212	nmod	_	SpacesAfter= 
+217	—	—	PUNCT	_	_	216	punct	_	_
+218	произвольное	произвольный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	219	amod	_	_
+219	кольцо	кольцо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	216	conj	_	SpaceAfter=No
+220	,	,	PUNCT	_	_	224	punct	_	_
+221	то	то	SCONJ	_	_	224	mark	_	_
+222	на	на	ADP	_	_	223	case	_	_
+223	нём	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	225	obl	_	_
+224	можно	можно	ADV	_	Degree=Pos	216	conj	_	_
+225	определить	определить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	224	csubj	_	_
+226	множество	множество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	225	obj	_	_
+227	''центральных	''центральный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	228	amod	_	_
+228	идемпотентов''	идемпотентов''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	226	nmod	_	_
+229	так	так	ADV	_	Degree=Pos	225	advmod	_	SpaceAfter=No
+230	:	:	PUNCT	_	_	229	punct	_	SpacesAfter=\s\s
+231	''a''	''a''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	229	parataxis	_	_
+232	=	=	SYM	_	_	231	appos	_	_
+233	{	{	PUNCT	_	_	232	punct	_	_
+234	''e''	''e''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	232	nmod	_	_
+235	∈	∈	SYM	_	_	234	nmod	_	_
+236	''r''	''r''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	235	nmod	_	_
+237	:	:	PUNCT	_	_	236	punct	_	_
+238	''e''²	''e''²	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	236	nmod	_	_
+239	=	=	SYM	_	_	238	nmod	_	_
+240	''e''	''e''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	239	nmod	_	SpaceAfter=No
+241	,	,	PUNCT	_	_	242	punct	_	_
+242	''ex''	''ex''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	240	conj	_	_
+243	=	=	SYM	_	_	242	nmod	_	_
+244	''xe''	''xe''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	243	nmod	_	SpaceAfter=No
+245	,	,	PUNCT	_	_	246	punct	_	_
+246	∀''x''	∀''x''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	244	conj	_	_
+247	∈	∈	SYM	_	_	244	conj	_	_
+248	''r''	''r''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	247	nmod	_	_
+249	}	}	PUNCT	_	_	248	punct	_	SpaceAfter=No
+250	,	,	PUNCT	_	_	256	punct	_	SpacesAfter=\s\s
+251	тогда	тогда	ADV	_	Degree=Pos	256	advmod	_	_
+252	множество	множество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	256	nsubj	_	_
+253	''a''	''a''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	252	nmod	_	_
+254	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	256	cop	_	_
+255	булевой	булевой	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	256	amod	_	_
+256	алгеброй	алгебра	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	248	conj	_	_
+257	с	с	ADP	_	_	258	case	_	_
+258	операциями	операция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	256	nmod	_	_
+259	''e''	''e''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	258	nmod	_	_
+260	∨	∨	SYM	_	_	259	nmod	_	_
+261	''f''	''f''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	260	nmod	_	_
+262	:	:	PUNCT	_	_	261	punct	_	SpaceAfter=No
+263	=	=	SYM	_	_	261	nmod	_	_
+264	''e''	''e''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	263	nmod	_	_
+265	+	+	PUNCT	_	_	264	punct	_	_
+266	''f''	''f''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	264	nmod	_	_
+267	−	−	SYM	_	_	264	nmod	_	_
+268	''ef''	''ef''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	267	nmod	_	_
+269	и	и	CCONJ	_	_	270	cc	_	_
+270	''e''	''e''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	268	conj	_	_
+271	∧	∧	SYM	_	_	268	nmod	_	_
+272	''f''	''f''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	271	nmod	_	_
+273	:	:	PUNCT	_	_	272	punct	_	SpaceAfter=No
+274	=	=	SYM	_	_	339	iobj	_	_
+275	''ef''.	''ef''.	PROPN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	274	appos	_	SpacesAfter=\n\s
+276	в	в	ADP	_	_	278	case	_	_
+277	булевых	булевой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	278	amod	_	_
+278	алгебрах	алгебра	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	279	obl	_	_
+279	существуют	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	339	advcl	_	_
+280	двойственные	двойственный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	281	amod	_	_
+281	утверждения	утверждение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	279	nsubj	_	SpaceAfter=No
+282	,	,	PUNCT	_	_	286	punct	_	_
+283	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	286	nsubj	_	_
+284	либо	либо	CCONJ	_	_	286	cc	_	_
+285	одновременно	одновременно	ADV	_	Degree=Pos	286	advmod	_	_
+286	верны	верный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	279	conj	_	SpaceAfter=No
+287	,	,	PUNCT	_	_	290	punct	_	_
+288	либо	либо	CCONJ	_	_	290	cc	_	_
+289	одновременно	одновременно	ADV	_	Degree=Pos	290	advmod	_	_
+290	неверны	неверный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	279	conj	_	SpaceAfter=No
+291	.	.	PUNCT	_	_	290	punct	_	_
+292	именно	именно	PART	_	_	305	advmod	_	SpaceAfter=No
+293	,	,	PUNCT	_	_	292	punct	_	_
+294	если	если	SCONJ	_	_	305	mark	_	_
+295	в	в	ADP	_	_	296	case	_	_
+296	формуле	формула	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	305	obl	_	SpaceAfter=No
+297	,	,	PUNCT	_	_	299	punct	_	_
+298	которая	который	PRON	_	Case=Nom	299	nsubj	_	_
+299	верна	верный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	296	acl:relcl	_	_
+300	в	в	ADP	_	_	303	case	_	_
+301	некоторой	некоторый	DET	_	Case=Loc|Gender=Fem|Number=Sing	303	det	_	_
+302	булевой	булевой	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	303	amod	_	_
+303	алгебре	алгебра	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	299	obl	_	SpaceAfter=No
+304	,	,	PUNCT	_	_	296	punct	_	_
+305	поменять	менять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	290	advcl	_	_
+306	все	весь	DET	_	Case=Acc|Number=Plur	307	det	_	_
+307	конъюнкции	конъюнкция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	305	obj	_	_
+308	на	на	ADP	_	_	309	case	_	_
+309	дизъюнкции	дизъюнкция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	307	nmod	_	SpaceAfter=No
+310	,	,	PUNCT	_	_	311	punct	_	_
+311	0	0	NUM	_	_	307	conj	_	_
+312	на	на	ADP	_	_	313	case	_	_
+313	1	1	NUM	_	_	311	nummod	_	SpaceAfter=No
+314	,	,	PUNCT	_	_	315	punct	_	_
+315	≤	≤	SYM	_	_	307	conj	_	_
+316	на	на	ADP	_	_	317	case	_	_
+317	>	>	SYM	_	_	315	nmod	_	_
+318	и	и	CCONJ	_	_	321	cc	_	_
+319	наоборот	наоборот	ADV	_	Degree=Pos	321	parataxis	_	_
+320	или	или	CCONJ	_	_	321	cc	_	_
+321	<	<	SYM	_	_	307	conj	_	_
+322	на	на	ADP	_	_	323	case	_	_
+323	≥	≥	SYM	_	_	321	nmod	_	_
+324	и	и	CCONJ	_	_	325	cc	_	_
+325	наоборот	наоборот	ADV	_	Degree=Pos	307	conj	_	SpaceAfter=No
+326	,	,	PUNCT	_	_	305	punct	_	_
+327	то	то	SCONJ	_	_	328	mark	_	_
+328	получится	получиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	339	advcl	_	_
+329	формула	формула	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	328	nsubj	_	SpaceAfter=No
+330	,	,	PUNCT	_	_	332	punct	_	_
+331	также	также	ADV	_	Degree=Pos	332	obl	_	_
+332	истинная	истинный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	328	amod	_	_
+333	в	в	ADP	_	_	336	case	_	_
+334	этой	этот	DET	_	Case=Loc|Gender=Fem|Number=Sing	336	det	_	_
+335	булевой	булевой	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	336	amod	_	_
+336	алгебре	алгебра	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	332	obl	_	SpaceAfter=No
+337	.	.	PUNCT	_	_	328	punct	_	_
+338	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	339	nsubj	_	_
+339	следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	272	parataxis	_	_
+340	из	из	ADP	_	_	341	case	_	_
+341	симметричности	симметричность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	339	obl	_	_
+342	аксиом	аксиома	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	341	nmod	_	_
+343	относительно	относительно	ADP	_	_	345	case	_	_
+344	таких	такой	DET	_	Case=Gen|Number=Plur	345	det	_	_
+345	замен.	заменута	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	341	nmod	_	SpacesAfter=\n\s
+
+# sent_id = 55
+# text = можно доказать, что любая конечная булева алгебра изоморфна булевой алгебре всех подмножеств какого-то множества. отсюда следует, что количество элементов в любой конечной булевой алгебре будет степенью двойки.
+1	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+2	доказать	доказать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	csubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	9	punct	_	_
+4	что	что	SCONJ	_	_	9	mark	_	_
+5	любая	любой	DET	_	Case=Nom|Gender=Fem|Number=Sing	7	det	_	_
+6	конечная	конечный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	булева	булева	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+8	алгебра	алгебра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	изоморфна	изоморфть	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	2	ccomp	_	_
+10	булевой	булевой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	алгебре	алгебра	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	iobj	_	_
+12	всех	весь	DET	_	Case=Gen|Number=Plur	13	det	_	_
+13	подмножеств	подмножество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	_
+14	какого-то	какой-то	DET	_	Case=Gen|Gender=Neut|Number=Sing	15	det	_	_
+15	множества	множество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	9	punct	_	_
+17	отсюда	отсюда	ADV	_	Degree=Pos	18	advmod	_	_
+18	следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	29	punct	_	_
+20	что	что	SCONJ	_	_	29	mark	_	_
+21	количество	количество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	29	nsubj	_	_
+22	элементов	элемент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
+23	в	в	ADP	_	_	27	case	_	_
+24	любой	любой	DET	_	Case=Loc|Gender=Fem|Number=Sing	27	det	_	_
+25	конечной	конечный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+26	булевой	булевой	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	алгебре	алгебра	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	29	nmod	_	_
+28	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	29	cop	_	_
+29	степенью	степень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	ccomp	_	_
+30	двойки	двойка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 56
+# text = теорема стоуна утверждает, что любая булева алгебра изоморфна булевой алгебре всех открыто-замкнутых множеств какого-то компактного вполне несвязного хаусдорфова топологического пространства. в 1933 году американский математик предложил следующую аксиоматизацию для булевых алгебр: # ''аксиома коммутативности'': ''x'' + ''y'' = ''y'' + ''x''. # ''аксиома ассоциативности'': (''x'' + ''y'') + ''z'' = ''x'' + (''y'' + ''z''). # ''уравнение хантингтона'': ''n''(''n''(''x'') + ''y'') + ''n''(''n''(''x'') + ''n''(''y'')) = ''x''. здесь использованы обозначения хантингтона: + означает дизъюнкцию, n — отрицание.
+1	теорема	теорема	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	стоуна	стоун	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	утверждает	утверждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	9	punct	_	_
+5	что	что	SCONJ	_	_	9	mark	_	_
+6	любая	любой	DET	_	Case=Nom|Gender=Fem|Number=Sing	7	det	_	_
+7	булева	булева	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+8	алгебра	алгебра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	изоморфна	изоморфть	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	ccomp	_	_
+10	булевой	булевой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	алгебре	алгебра	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	iobj	_	_
+12	всех	весь	DET	_	Case=Gen|Number=Plur	16	det	_	_
+13	открыто	открытый	ADJ	_	Degree=Pos	15	compound	_	SpaceAfter=No
+14	-	-	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	замкнутых	замкнутый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	множеств	множество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	_
+17	какого-то	какой-то	DET	_	Case=Gen|Gender=Masc|Number=Sing	18	det	_	_
+18	компактного	компактный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+19	вполне	вполне	ADV	_	Degree=Pos	20	obl	_	_
+20	несвязного	несвязный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	хаусдорфова	хаусдорфова	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+22	топологического	топологический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+23	пространства	пространство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n\s
+25	в	в	ADP	_	_	27	case	_	_
+26	1933	1933	NUM	_	_	27	nummod	_	SpacesAfter= 
+27	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+28	американский	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	математик	математика	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	30	nsubj	_	SpacesAfter=\s\s
+30	предложил	предложить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	_
+31	следующую	следующий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
+32	аксиоматизацию	аксиоматизация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	30	obj	_	_
+33	для	для	ADP	_	_	35	case	_	_
+34	булевых	булевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	35	amod	_	_
+35	алгебр	алгебра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	32	nmod	_	SpaceAfter=No
+36	:	:	PUNCT	_	_	35	punct	_	SpacesAfter=\n
+37	#	#	PUNCT	_	_	38	punct	_	_
+38	''аксиома	''аксиом	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	35	parataxis	_	_
+39	коммутативности''	коммутативности''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	38	nmod	_	SpaceAfter=No
+40	:	:	PUNCT	_	_	39	punct	_	_
+41	''x''	''x''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	94	nsubj:pass	_	_
+42	+	+	SYM	_	_	94	obl	_	_
+43	''y''	''y''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	94	obl	_	_
+44	=	=	SYM	_	_	94	nsubj:pass	_	_
+45	''y''	''y''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	94	obl	_	_
+46	+	+	SYM	_	_	94	obl	_	_
+47	''x''	''x''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	94	obl	_	SpaceAfter=No
+48	.	.	PUNCT	_	_	47	punct	_	SpacesAfter=\n
+49	#	#	PUNCT	_	_	50	punct	_	_
+50	''аксиома	''аксиом	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	94	nsubj:pass	_	_
+51	ассоциативности''	ассоциативности''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	50	nmod	_	SpaceAfter=No
+52	:	:	PUNCT	_	_	50	punct	_	_
+53	(	(	PUNCT	_	_	54	punct	_	SpaceAfter=No
+54	''x''	''x''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	50	parataxis	_	_
+55	+	+	SYM	_	_	54	nmod	_	_
+56	''y''	''y''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	55	nmod	_	SpaceAfter=No
+57	)	)	PUNCT	_	_	54	punct	_	_
+58	+	+	SYM	_	_	94	aux:pass	_	_
+59	''z''	''z''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	94	obl	_	_
+60	=	=	SYM	_	_	94	obl	_	_
+61	''x''	''x''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	94	obl	_	_
+62	+	+	PUNCT	_	_	61	punct	_	_
+63	(	(	PUNCT	_	_	64	punct	_	SpaceAfter=No
+64	''y''	''y''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	94	nsubj:pass	_	_
+65	+	+	SYM	_	_	94	aux:pass	_	_
+66	''z''	''z''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	94	obl	_	SpaceAfter=No
+67	)	)	PUNCT	_	_	66	punct	_	SpaceAfter=No
+68	.	.	PUNCT	_	_	66	punct	_	SpacesAfter=\n
+69	#	#	PUNCT	_	_	70	punct	_	_
+70	''уравнение	''уравнение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	66	parataxis	_	_
+71	хантингтона''	хантингтона''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	70	nmod	_	SpaceAfter=No
+72	:	:	PUNCT	_	_	71	punct	_	_
+73	''n''(	''n''(	PUNCT	_	_	75	punct	_	SpaceAfter=No
+74	''n''(	''n''(	PUNCT	_	_	75	punct	_	SpaceAfter=No
+75	''x''	''x''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	71	parataxis	_	SpaceAfter=No
+76	)	)	PUNCT	_	_	75	punct	_	_
+77	+	+	SYM	_	_	71	appos	_	_
+78	''y''	''y''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	77	nmod	_	SpaceAfter=No
+79	)	)	PUNCT	_	_	77	punct	_	_
+80	+	+	SYM	_	_	71	appos	_	_
+81	''n''(	''n''(	PUNCT	_	_	80	punct	_	SpaceAfter=No
+82	''n''(	''n''(	PUNCT	_	_	83	punct	_	SpaceAfter=No
+83	''x''	''x''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	80	appos	_	SpaceAfter=No
+84	)	)	PUNCT	_	_	83	punct	_	_
+85	+	+	SYM	_	_	83	appos	_	_
+86	''n''(	''n''(	PUNCT	_	_	85	punct	_	SpaceAfter=No
+87	''y''	''y''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	85	nmod	_	SpaceAfter=No
+88	)	)	PUNCT	_	_	83	punct	_	SpaceAfter=No
+89	)	)	PUNCT	_	_	70	punct	_	_
+90	=	=	SYM	_	_	94	obl	_	_
+91	''x''	''x''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	94	obl	_	SpaceAfter=No
+92	.	.	PUNCT	_	_	91	punct	_	SpacesAfter=\n
+93	здесь	здесь	ADV	_	Degree=Pos	94	advmod	_	_
+94	использованы	использовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	39	parataxis	_	_
+95	обозначения	обозначение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	94	nsubj:pass	_	_
+96	хантингтона	хантингтон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	95	nmod	_	SpaceAfter=No
+97	:	:	PUNCT	_	_	96	punct	_	_
+98	+	+	PUNCT	_	_	96	punct	_	_
+99	означает	означать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	94	parataxis	_	_
+100	дизъюнкцию	дизъюнкция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	99	obj	_	SpaceAfter=No
+101	,	,	PUNCT	_	_	102	punct	_	_
+102	n	н-лат	NOUN	_	_	100	conj	_	SpacesAfter= 
+103	—	—	PUNCT	_	_	102	punct	_	_
+104	отрицание	отрицание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	102	obj	_	SpaceAfter=No
+105	.	.	PUNCT	_	_	94	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 57
+# text = герберт роббинс поставил следующий вопрос: можно ли сократить последнюю аксиому так, как написано ниже, то есть будет ли определённая выписанными ниже аксиомами структура булевой алгеброй?
+1	герберт	герберт	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	роббинс	роббинс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+3	поставил	ставить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	следующий	следующий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	вопрос	вопрос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	5	punct	_	_
+7	можно	можно	ADV	_	Degree=Pos	21	advcl	_	_
+8	ли	ли	PART	_	_	7	advmod	_	_
+9	сократить	сократить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	csubj	_	_
+10	последнюю	последний	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	аксиому	аксиый	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	9	iobj	_	_
+12	так	так	ADV	_	Degree=Pos	9	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	как	как	SCONJ	_	_	15	mark	_	_
+15	написано	писать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	12	advcl	_	_
+16	ниже	низкий	ADV	_	Degree=Pos	15	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	7	punct	_	_
+18	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	mark	_	_
+19	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	fixed	_	_
+20	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	cop	_	_
+21	ли	ли	PART	_	_	5	advmod	_	_
+22	определённая	определённый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+23	выписанными	выписать	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	26	acl	_	_
+24	ниже	низкий	ADJ	_	Degree=Cmp	23	obl	_	_
+25	аксиомами	аксиома	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	24	obl	_	_
+26	структура	структура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
+27	булевой	булевой	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	алгеброй	алгебра	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+29	?	?	PUNCT	_	_	21	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 58
+# text = аксиоматизация алгебры роббинса: # ''аксиома коммутативности'': ''x'' + ''y'' = ''y'' + ''x''. # ''аксиома ассоциативности'': (''x'' + ''y'') + ''z'' = ''x'' + (''y'' + ''z''). # ''уравнение роббинса'': ''n''(''n''(''x'' + ''y'') + ''n''(''x'' + ''n''(''y''))) = ''x''. этот вопрос оставался открытым с 1930-х годов и был любимым вопросом тарского и его учеников.
+1	аксиоматизация	аксиоматизация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	алгебры	алгебра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	роббинса	роббинс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+5	#	#	PUNCT	_	_	6	punct	_	_
+6	''аксиома	''аксиом	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	parataxis	_	_
+7	коммутативности''	коммутативности''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	7	punct	_	_
+9	''x''	''x''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	61	nsubj	_	_
+10	+	+	SYM	_	_	61	cop	_	_
+11	''y''	''y''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	61	obl	_	_
+12	=	=	SYM	_	_	61	nmod	_	_
+13	''y''	''y''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	61	nsubj	_	_
+14	+	+	SYM	_	_	61	cop	_	_
+15	''x''	''x''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	61	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
+17	#	#	PUNCT	_	_	18	punct	_	_
+18	''аксиома	''аксиом	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	61	nsubj	_	_
+19	ассоциативности''	ассоциативности''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+20	:	:	PUNCT	_	_	18	punct	_	_
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	''x''	''x''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	parataxis	_	_
+23	+	+	SYM	_	_	22	nmod	_	_
+24	''y''	''y''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	22	punct	_	_
+26	+	+	SYM	_	_	61	cop	_	_
+27	''z''	''z''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	61	nsubj	_	_
+28	=	=	SYM	_	_	61	cop	_	_
+29	''x''	''x''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	61	obl	_	_
+30	+	+	SYM	_	_	61	nmod	_	_
+31	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
+32	''y''	''y''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	61	nsubj	_	_
+33	+	+	SYM	_	_	61	cop	_	_
+34	''z''	''z''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	61	nmod	_	SpaceAfter=No
+35	)	)	PUNCT	_	_	34	punct	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	34	punct	_	SpacesAfter=\n
+37	#	#	PUNCT	_	_	38	punct	_	_
+38	''уравнение	''уравнение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	34	parataxis	_	_
+39	роббинса''	роббинса''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	38	nmod	_	SpaceAfter=No
+40	:	:	PUNCT	_	_	39	punct	_	_
+41	''n''(	''n''(	PUNCT	_	_	43	punct	_	SpaceAfter=No
+42	''n''(	''n''(	PUNCT	_	_	43	punct	_	SpaceAfter=No
+43	''x''	''x''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	39	parataxis	_	_
+44	+	+	SYM	_	_	43	nmod	_	_
+45	''y''	''y''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	44	nmod	_	SpaceAfter=No
+46	)	)	PUNCT	_	_	43	punct	_	_
+47	+	+	SYM	_	_	39	appos	_	_
+48	''n''(	''n''(	PUNCT	_	_	47	punct	_	SpaceAfter=No
+49	''x''	''x''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	47	nmod	_	_
+50	+	+	SYM	_	_	49	appos	_	_
+51	''n''(	''n''(	PUNCT	_	_	50	punct	_	SpaceAfter=No
+52	''y''	''y''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	50	nmod	_	SpaceAfter=No
+53	)	)	PUNCT	_	_	50	punct	_	SpaceAfter=No
+54	)	)	PUNCT	_	_	38	punct	_	SpaceAfter=No
+55	)	)	PUNCT	_	_	34	punct	_	_
+56	=	=	SYM	_	_	61	nmod	_	_
+57	''x''	''x''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	61	obl	_	SpaceAfter=No
+58	.	.	PUNCT	_	_	57	punct	_	SpacesAfter=\n
+59	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	60	det	_	_
+60	вопрос	вопрос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	61	nsubj	_	_
+61	оставался	оставаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	7	parataxis	_	_
+62	открытым	открытый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	61	obl	_	_
+63	с	с	ADP	_	_	65	case	_	_
+64	1930-х	1930-й	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	65	amod	_	_
+65	годов	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	62	nmod	_	_
+66	и	и	CCONJ	_	_	69	cc	_	_
+67	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	69	cop	_	_
+68	любимым	любить	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	69	amod	_	_
+69	вопросом	вопрос	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	62	conj	_	_
+70	тарского	тарский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	69	nmod	_	_
+71	и	и	CCONJ	_	_	73	cc	_	_
+72	его	его	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	73	nmod	_	_
+73	учеников	ученик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	70	conj	_	SpaceAfter=No
+74	.	.	PUNCT	_	_	61	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 59
+# text = в 1996 году вильям маккьюн, используя некоторые полученные до него результаты, дал утвердительный ответ на этот вопрос. таким образом, любая алгебра роббинса является булевой алгеброй. * алгебра логики * булева функция * битовые операции * * * *
+1	в	в	ADP	_	_	3	case	_	_
+2	1996	1996	NUM	_	_	3	nummod	_	SpacesAfter= 
+3	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
+4	вильям	вил	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	14	iobj	_	_
+5	маккьюн	маккьюна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	4	punct	_	_
+7	используя	использовать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	14	advcl	_	_
+8	некоторые	некоторый	DET	_	Case=Acc|Number=Plur	12	det	_	_
+9	полученные	получить	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	acl	_	_
+10	до	до	ADP	_	_	11	case	_	_
+11	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	9	obl	_	_
+12	результаты	результат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	7	punct	_	_
+14	дал	дать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+15	утвердительный	утвердительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	ответ	ответ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+17	на	на	ADP	_	_	19	case	_	_
+18	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing	19	det	_	_
+19	вопрос	вопрос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	14	punct	_	_
+21	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	22	det	_	_
+22	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	27	punct	_	_
+24	любая	любой	DET	_	Case=Nom|Gender=Fem|Number=Sing	25	det	_	_
+25	алгебра	алгебра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	27	nsubj	_	_
+26	роббинса	роббинс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+27	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	22	acl:relcl	_	_
+28	булевой	булевой	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	алгеброй	алгебра	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	27	obl	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpacesAfter=\n\s
+31	*	*	PUNCT	_	_	32	punct	_	_
+32	алгебра	алгебра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	29	parataxis	_	_
+33	логики	логика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	SpacesAfter=\n
+34	*	*	PUNCT	_	_	32	punct	_	_
+35	булева	булева	ADV	_	Degree=Pos	36	obl	_	_
+36	функция	функция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	32	nsubj	_	SpacesAfter=\n
+37	*	*	PUNCT	_	_	39	punct	_	_
+38	битовые	битовый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	39	amod	_	_
+39	операции	операция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	36	appos	_	SpacesAfter=\n\s\n\s
+40	*	*	PUNCT	_	_	41	punct	_	SpacesAfter=\s\n
+41	*	*	X	_	Foreign=Yes	39	flat:foreign	_	SpacesAfter=\s\n
+42	*	*	X	_	Foreign=Yes	41	flat:foreign	_	SpacesAfter=\s\n
+43	*	*	PUNCT	_	_	14	punct	_	SpacesAfter=\s\n\n\n\n
+
+# newpar
+# sent_id = 60
+# text = категория:теория решёток категория:математическая логика * категория:дискретная математика
+1	категория	категория	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	теория	теория	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	parataxis	_	_
+4	решёток	решётка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	SpacesAfter=\n
+5	категория	категория	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	математическая	математический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	логика	логика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	parataxis	_	SpacesAfter=\n
+9	*	*	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+10	категория	категория	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	дискретная	дискретный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	математика	математика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	parataxis	_	SpacesAfter=\n
+

@@ -1,0 +1,83 @@
+1. 	аксон.conllu	ru	
+1	axon.conllu	en	0.9168320298194885	
+2	аллергия.conllu	ru	0.9082531929016113	
+3	анемия.conllu	ru	0.8859241604804993	
+4	allergy.conllu	en	0.8644840717315674	
+5	anemia.conllu	en	0.8639642596244812	
+
+2. 	аллергия.conllu	ru	
+1	анемия.conllu	ru	0.9686065316200256	
+2	allergy.conllu	en	0.9597498178482056	
+3	anemia.conllu	en	0.9383013844490051	
+4	аксон.conllu	ru	0.9082531929016113	
+5	axon.conllu	en	0.8855452537536621	
+
+3. 	алюминий.conllu	ru	
+1	aluminium.conllu	en	0.9507342576980591	
+2	аллергия.conllu	ru	0.8702688217163086	
+3	анемия.conllu	ru	0.8590171933174133	
+4	аксон.conllu	ru	0.8496720790863037	
+5	allergy.conllu	en	0.8482491374015808	
+
+4. 	анемия.conllu	ru	
+1	аллергия.conllu	ru	0.9686065316200256	
+2	anemia.conllu	en	0.9574357867240906	
+3	allergy.conllu	en	0.9469207525253296	
+4	аксон.conllu	ru	0.8859241604804993	
+5	aluminium.conllu	en	0.8727426528930664	
+
+5. 	анаграмма.conllu	ru	
+1	анахронизм.conllu	ru	0.9488455057144165	
+2	anachronism.conllu	en	0.9419488906860352	
+3	anagrams.conllu	en	0.9268353581428528	
+4	аллергия.conllu	ru	0.8670482039451599	
+5	аксон.conllu	ru	0.8328095078468323	
+
+6. 	анахронизм.conllu	ru	
+1	anachronism.conllu	en	0.9538013935089111	
+2	анаграмма.conllu	ru	0.9488455057144165	
+3	anagrams.conllu	en	0.8827388286590576	
+4	аллергия.conllu	ru	0.8304288983345032	
+5	алюминий.conllu	ru	0.7984205484390259	
+
+7. 	axon.conllu	en	
+1	аксон.conllu	ru	0.9168320298194885	
+2	anemia.conllu	en	0.8968111276626587	
+3	allergy.conllu	en	0.8924622535705566	
+4	аллергия.conllu	ru	0.8855452537536621	
+5	aluminium.conllu	en	0.8762786388397217	
+
+8. 	allergy.conllu	en	
+1	anemia.conllu	en	0.9665056467056274	
+2	аллергия.conllu	ru	0.9597498178482056	
+3	анемия.conllu	ru	0.9469207525253296	
+4	aluminium.conllu	en	0.8982023596763611	
+5	axon.conllu	en	0.8924622535705566	
+
+9. 	aluminium.conllu	en	
+1	алюминий.conllu	ru	0.9507342576980591	
+2	allergy.conllu	en	0.8982023596763611	
+3	anemia.conllu	en	0.8914464116096497	
+4	аллергия.conllu	ru	0.8834291100502014	
+5	axon.conllu	en	0.8762786388397217	
+
+10. 	anemia.conllu	en	
+1	allergy.conllu	en	0.9665056467056274	
+2	анемия.conllu	ru	0.9574357867240906	
+3	аллергия.conllu	ru	0.9383013844490051	
+4	axon.conllu	en	0.8968111276626587	
+5	aluminium.conllu	en	0.8914464116096497	
+
+11. 	anagrams.conllu	en	
+1	анаграмма.conllu	ru	0.9268351793289185	
+2	anachronism.conllu	en	0.908029317855835	
+3	анахронизм.conllu	ru	0.8827388286590576	
+4	aluminium.conllu	en	0.8328947424888611	
+5	аллергия.conllu	ru	0.8197306990623474	
+
+12. 	anachronism.conllu	en	
+1	анахронизм.conllu	ru	0.9538012742996216	
+2	анаграмма.conllu	ru	0.9419488906860352	
+3	anagrams.conllu	en	0.908029317855835	
+4	aluminium.conllu	en	0.8402085304260254	
+5	аллергия.conllu	ru	0.836668848991394	

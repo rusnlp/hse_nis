@@ -1,0 +1,403 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = '''жасми́н''' (, от — ''ясемин'') — род вечнозелёных кустарников из семейства маслиновые (''oleaceae '').
+1	'''жасми́н'''	'''жасми́н'''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	root	_	_
+2	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	от	от	ADP	_	_	6	case	_	SpacesAfter=\s 
+5	—	—	PUNCT	_	_	6	punct	_	_
+6	''ясемин''	''ясемин''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	parataxis	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	SpacesAfter= 
+8	—	—	PUNCT	_	_	1	punct	_	_
+9	род	род	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+10	вечнозелёных	вечнозелёный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	кустарников	кустарник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+12	из	из	ADP	_	_	13	case	_	_
+13	семейства	семейство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+14	маслиновые	маслиновый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	''oleaceae	''oleaceae	X	_	Foreign=Yes	14	parataxis	_	_
+17	''	''	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = не следует путать его с кустарником чубушник (''philadelphus''), который в россии часто неправильно называют жасмином.
+1	не	не	PART	_	_	2	advmod	_	_
+2	следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	путать	путать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	csubj	_	_
+4	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	3	obj	_	_
+5	с	с	ADP	_	_	6	case	_	_
+6	кустарником	кустарник	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+7	чубушник	чубушник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	''philadelphus''	''philadelphus''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	appos	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	17	punct	_	_
+12	который	который	PRON	_	Case=Nom	17	nsubj	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	россии	россия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	obl	_	_
+15	часто	часто	ADV	_	Degree=Pos	17	advmod	_	_
+16	неправильно	неправильно	ADV	_	Degree=Pos	17	advmod	_	_
+17	называют	называть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+18	жасмином	жасмин	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = представители рода встречаются в тёплом поясе обоих полушарий, включая субтропики. вьющиеся или прямостоячие кустарники с простыми, тройчатыми или непарноперистыми листьями без прилистников и крупными правильными цветками.
+1	представители	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	рода	род	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	встречаются	встречаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	тёплом	тёпло	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	поясе	пояс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+7	обоих	оба	NUM	_	Case=Gen|Gender=Masc	8	nummod	_	_
+8	полушарий	полушарие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	включая	включая	ADV	_	Degree=Pos	6	acl:relcl	_	_
+11	субтропики	субтропик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n\s
+13	вьющиеся	вьться	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	16	amod	_	_
+14	или	или	CCONJ	_	_	15	cc	_	_
+15	прямостоячие	прямостоячий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	conj	_	_
+16	кустарники	кустарник	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	appos	_	_
+17	с	с	ADP	_	_	23	case	_	_
+18	простыми	простой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	23	amod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	тройчатыми	тройчатый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	18	conj	_	_
+21	или	или	CCONJ	_	_	22	cc	_	_
+22	непарноперистыми	непарноперистый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	18	conj	_	_
+23	листьями	лист	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	16	nmod	_	_
+24	без	без	ADP	_	_	25	case	_	_
+25	прилистников	прилистник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+26	и	и	CCONJ	_	_	29	cc	_	_
+27	крупными	крупный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	29	amod	_	_
+28	правильными	правильный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	29	amod	_	_
+29	цветками	цветок	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	25	conj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = венчик цветков белый, жёлтый или красноватый раздельный, большей частью с узкой длинной трубкой, внутри которой сидят две тычинки с короткими нитями; завязь верхняя, обращающаяся при созревании в ягоду. жасмин культивируют как декоративное растение ради красивых цветов в садах и как домашнее растение.
+1	венчик	венчик	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	цветков	цветок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	белый	белый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	жёлтый	жёлтый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	conj	_	_
+6	или	или	CCONJ	_	_	7	cc	_	_
+7	красноватый	красноватый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	conj	_	_
+8	раздельный	раздельный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	большей	больший	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	conj	_	_
+11	частью	часть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	obl	_	_
+12	с	с	ADP	_	_	15	case	_	_
+13	узкой	узкий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+14	длинной	длинный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	трубкой	трубка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	19	punct	_	_
+17	внутри	внутри	ADV	_	Degree=Pos	18	advmod	_	_
+18	которой	который	PRON	_	Case=Gen	19	obl	_	_
+19	сидят	сидеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	acl:relcl	_	_
+20	две	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Fem	21	nummod:gov	_	_
+21	тычинки	тычинка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	obl	_	_
+22	с	с	ADP	_	_	24	case	_	_
+23	короткими	короткий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	24	amod	_	_
+24	нитями	нить	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	21	nmod	_	SpaceAfter=No
+25	;	;	PUNCT	_	_	8	punct	_	_
+26	завязь	завязь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	36	nsubj	_	_
+27	верхняя	верхний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	_
+29	обращающаяся	обращаться	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	27	conj	_	_
+30	при	при	ADP	_	_	31	case	_	_
+31	созревании	созревание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	29	obl	_	_
+32	в	в	ADP	_	_	33	case	_	_
+33	ягоду	ягода	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	27	punct	_	SpacesAfter=\n\s\n
+35	жасмин	жасмин	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	36	obj	_	_
+36	культивируют	культивировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+37	как	как	SCONJ	_	_	39	mark	_	_
+38	декоративное	декоративный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	39	amod	_	_
+39	растение	растение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	36	advcl	_	_
+40	ради	ради	ADP	_	_	42	case	_	_
+41	красивых	красивый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	42	amod	_	_
+42	цветов	цветы	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	36	obl	_	_
+43	в	в	ADP	_	_	44	case	_	_
+44	садах	сад	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	36	obl	_	_
+45	и	и	CCONJ	_	_	48	cc	_	_
+46	как	как	SCONJ	_	_	48	mark	_	_
+47	домашнее	домашний	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	48	amod	_	_
+48	растение	растение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	36	advcl	_	SpaceAfter=No
+49	.	.	PUNCT	_	_	36	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = в южной и юго-восточной азии цветы жасмина широко используют как украшение. в индонезии жасмин — главный цветок на свадебных церемониях этнических индонезийцев.
+1	в	в	ADP	_	_	5	case	_	_
+2	южной	южной	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	юго-восточной	юго-восточный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	2	conj	_	_
+5	азии	азия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_
+6	цветы	цветы	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+7	жасмина	жасмин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	широко	широко	ADV	_	Degree=Pos	9	advmod	_	_
+9	используют	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	как	как	SCONJ	_	_	11	mark	_	_
+11	украшение	украшение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	advcl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+13	в	в	ADP	_	_	14	case	_	_
+14	индонезии	индонезия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	11	nmod	_	_
+15	жасмин	жасмин	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	appos	_	SpacesAfter= 
+16	—	—	PUNCT	_	_	15	punct	_	_
+17	главный	главный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	цветок	цветок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+19	на	на	ADP	_	_	21	case	_	_
+20	свадебных	свадебный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	21	amod	_	_
+21	церемониях	церемония	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	18	nmod	_	_
+22	этнических	этнический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	_
+23	индонезийцев	индонезиец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = цветки жасмина используют также в качестве ароматической добавки к зелёному чаю.
+1	цветки	цветок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+2	жасмина	жасмин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	используют	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	также	также	ADV	_	Degree=Pos	3	advmod	_	_
+5	в	в	ADP	_	_	8	case	_	_
+6	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	fixed	_	_
+7	ароматической	ароматический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	добавки	добавка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
+9	к	к	ADP	_	_	11	case	_	_
+10	зелёному	зелёный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	чаю.	чаю.	PROPN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = из цветков жасмина душистого (''jasminum odoratissimum''), жасмина крупноцветного (''jasminum grandiflorum'') и жасмина индийского (''jasminum sambac'') добывают душистое эфирное масло (точнее, абсолю), которое используется в производстве духов и ладана).
+1	из	из	ADP	_	_	2	case	_	_
+2	цветков	цветок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	obl	_	_
+3	жасмина	жасмин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	душистого	душистый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	''jasminum	''jasminum	X	_	Foreign=Yes	3	flat:foreign	_	_
+7	odoratissimum''	odoratissimum''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	appos	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	жасмина	жасмин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	conj	_	_
+11	крупноцветного	крупноцветный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	''jasminum	''jasminum	X	_	Foreign=Yes	11	flat:foreign	_	_
+14	grandiflorum''	grandiflorum''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	17	punct	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	жасмина	жасмин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	conj	_	_
+18	индийского	индийский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	''jasminum	''jasminum	X	_	Foreign=Yes	18	flat:foreign	_	_
+21	sambac''	sambac''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	17	punct	_	_
+23	добывают	добывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+24	душистое	душистый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
+25	эфирное	эфирный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
+26	масло	масло	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	23	obj	_	_
+27	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
+28	точнее	точно	ADV	_	Degree=Cmp	30	parataxis	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	абсолю	абсоля	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	26	parataxis	_	SpaceAfter=No
+31	)	)	PUNCT	_	_	30	punct	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	34	punct	_	_
+33	которое	который	PRON	_	Case=Nom	34	nsubj:pass	_	_
+34	используется	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	26	acl:relcl	_	_
+35	в	в	ADP	_	_	36	case	_	_
+36	производстве	производство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	34	obl	_	_
+37	духов	дух	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	36	nmod	_	_
+38	и	и	CCONJ	_	_	39	cc	_	_
+39	ладана	ладан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	37	conj	_	SpaceAfter=No
+40	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 8
+# text = жасмин индийский, или самбак (''jasminum sambac'') — национальный цветок индонезии, где он называется «мелати», и филиппин, где он называется «сампагита».
+1	жасмин	жасмин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	индийский	индийский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	или	или	CCONJ	_	_	5	cc	_	_
+5	самбак	самбака	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	''jasminum	''jasminum	X	_	Foreign=Yes	2	parataxis	_	_
+8	sambac''	sambac''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	7	punct	_	SpacesAfter= 
+10	—	—	PUNCT	_	_	8	punct	_	_
+11	национальный	национальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	цветок	цветок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+13	индонезии	индонезия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	17	punct	_	_
+15	где	где	ADV	_	Degree=Pos	17	advmod	_	_
+16	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	17	nsubj	_	_
+17	называется	называться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	13	acl:relcl	_	_
+18	«мелати»	«мелати»	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	21	punct	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	филиппин	филиппин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	25	punct	_	_
+23	где	где	ADV	_	Degree=Pos	25	advmod	_	_
+24	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	25	nsubj	_	_
+25	называется	называться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	21	acl:relcl	_	_
+26	«сампагита»	«сампагита»	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = жасмин белый (''jasminum officinale'') — национальный цветок пакистана, где он известен как «чамбели».
+1	жасмин	жасмин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj:pass	_	_
+2	белый	белый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	''jasminum	''jasminum	X	_	Foreign=Yes	1	flat:foreign	_	_
+5	officinale''	officinale''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	SpacesAfter= 
+7	—	—	PUNCT	_	_	5	punct	_	_
+8	национальный	национальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	цветок	цветок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj:pass	_	_
+10	пакистана	пакистан	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12	где	где	ADV	_	Degree=Pos	14	advmod	_	_
+13	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+14	известен	известный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	10	conj	_	_
+15	как	как	SCONJ	_	_	16	mark	_	_
+16	«чамбели»	«чамбели»	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = ''jasminum fluminense'' — широко распространённый сорняк на гавайях, где он называется неточным названием «бразильский жасмин». по информации базы данных ''the plant list'', род включает 198 видов. некоторые из них:
+1	''jasminum	''jasminum	X	_	Foreign=Yes	6	nsubj	_	_
+2	fluminense''	fluminense''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	SpacesAfter= 
+3	—	—	PUNCT	_	_	1	punct	_	_
+4	широко	широко	ADV	_	Degree=Pos	5	obl	_	_
+5	распространённый	распространённый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	сорняк	сорняк	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	гавайях	гавайе	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10	где	где	ADV	_	Degree=Pos	12	advmod	_	_
+11	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+12	называется	называться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	8	acl:relcl	_	_
+13	неточным	неточный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	названием	название	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	12	obl	_	_
+15	«бразильский	«бразильский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	жасмин».	жасмин».	PROPN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	14	iobj	_	SpacesAfter=\n\s\n
+17	по	по	ADP	_	_	18	case	_	_
+18	информации	информация	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	16	nmod	_	_
+19	базы	база	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	19	nmod	_	_
+21	''the	''the	X	_	Foreign=Yes	19	flat:foreign	_	_
+22	plant	plant	X	_	Foreign=Yes	19	flat:foreign	_	_
+23	list''	list''	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	26	punct	_	_
+25	род	род	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	_
+26	включает	включать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	_
+27	198	198	NUM	_	_	28	nummod	_	_
+28	видов	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	obl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	30	punct	_	_
+30	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	28	det	_	_
+31	из	из	ADP	_	_	32	case	_	_
+32	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	30	nmod	_	SpaceAfter=No
+33	:	:	PUNCT	_	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = * * * * * * летом 2011 года китайское правительство, напуганное волнениями в странах арабского мира, решило запретить продавать жасмин и подвергает название этого цветка цензуре в интернете (китайский интернет стали наполнять анонимные призывы к протестам против насилия со стороны властей и за свободу слова — бунтовщики призывали китайцев молча выходить на улицы каждое воскресенье с цветами жасмина в руке).
+1	*	*	X	_	Foreign=Yes	11	nsubj	_	SpacesAfter=\s\n
+2	*	*	X	_	Foreign=Yes	1	flat:foreign	_	SpacesAfter=\s\n
+3	*	*	X	_	Foreign=Yes	1	flat:foreign	_	SpacesAfter=\s\n
+4	*	*	X	_	Foreign=Yes	1	flat:foreign	_	SpacesAfter=\s\n
+5	*	*	X	_	Foreign=Yes	1	flat:foreign	_	SpacesAfter=\s\n
+6	*	*	X	_	Foreign=Yes	1	flat:foreign	_	SpacesAfter=\s\n\s
+7	летом	лето	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	1	fixed	_	_
+8	2011	2011	NUM	_	_	9	nummod	_	_
+9	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+10	китайское	китайский	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	правительство	правительство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	20	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	напуганное	напугать	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	acl	_	_
+14	волнениями	волнение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	13	obl	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	странах	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	13	obl	_	_
+17	арабского	арабский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	мира	мир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	13	punct	_	_
+20	решило	решить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+21	запретить	запретить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	20	xcomp	_	_
+22	продавать	продавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	21	xcomp	_	_
+23	жасмин	жасмин	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+24	и	и	CCONJ	_	_	25	cc	_	_
+25	подвергает	подвергать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	conj	_	_
+26	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	25	obj	_	_
+27	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	28	det	_	_
+28	цветка	цветок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
+29	цензуре	цензура	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	26	nmod	_	_
+30	в	в	ADP	_	_	31	case	_	_
+31	интернете	интернет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	29	nmod	_	_
+32	(	(	PUNCT	_	_	35	punct	_	SpaceAfter=No
+33	китайский	китайский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+34	интернет	интернет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	36	obj	_	_
+35	стали	стать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	29	parataxis	_	_
+36	наполнять	наполнять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	35	xcomp	_	_
+37	анонимные	анонимный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	38	amod	_	_
+38	призывы	призыв	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	36	obj	_	_
+39	к	к	ADP	_	_	40	case	_	_
+40	протестам	протест	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	38	nmod	_	_
+41	против	против	ADP	_	_	42	case	_	_
+42	насилия	насилие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	40	nmod	_	_
+43	со	со	ADP	_	_	45	case	_	_
+44	стороны	сторона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	43	fixed	_	_
+45	властей	власть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	42	nmod	_	_
+46	и	и	CCONJ	_	_	48	cc	_	_
+47	за	за	ADP	_	_	48	case	_	_
+48	свободу	свобода	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	40	conj	_	_
+49	слова	слово	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	48	nmod	_	SpacesAfter= 
+50	—	—	PUNCT	_	_	52	punct	_	_
+51	бунтовщики	бунтовщик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	52	nsubj	_	_
+52	призывали	призывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	35	conj	_	_
+53	китайцев	китаец	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	52	obj	_	_
+54	молча	молча	ADV	_	Degree=Pos	55	advmod	_	_
+55	выходить	выходить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	52	xcomp	_	_
+56	на	на	ADP	_	_	57	case	_	_
+57	улицы	улица	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	55	obl	_	_
+58	каждое	каждый	DET	_	Case=Acc|Gender=Neut|Number=Sing	59	det	_	_
+59	воскресенье	воскресенье	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	55	obj	_	_
+60	с	с	ADP	_	_	61	case	_	_
+61	цветами	цветы	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	59	nmod	_	_
+62	жасмина	жасмин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	61	nmod	_	_
+63	в	в	ADP	_	_	64	case	_	_
+64	руке	рука	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	61	nmod	_	SpaceAfter=No
+65	)	)	PUNCT	_	_	35	punct	_	SpaceAfter=No
+66	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\n\s\n\n\s
+
+# newpar
+# sent_id = 12
+# text = * * *
+1	*	*	X	_	Foreign=Yes	0	root	_	SpacesAfter=\s\n
+2	*	*	X	_	Foreign=Yes	1	appos	_	SpacesAfter=\s\n\s
+3	*	*	PUNCT	_	_	1	punct	_	SpacesAfter=\s\n\n
+
+# newpar
+# sent_id = 13
+# text = категория:маслиновые категория:флора средиземноморья категория:декоративные кустарники
+1	категория	категория	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	маслиновые	маслиновый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	SpacesAfter=\n
+4	категория	категория	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	parataxis	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	флора	флора	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	parataxis	_	_
+7	средиземноморья	средиземноморье	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	SpacesAfter=\n
+8	категория	категория	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	декоративные	декоративный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	кустарники	кустарник	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	parataxis	_	SpacesAfter=\n
+
