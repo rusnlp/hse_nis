@@ -1,0 +1,4231 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ball-and-stick model of an alcohol molecule (r3coh).
+1	ball	ball	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+3	and	and	CCONJ	CC	_	5	cc	_	SpaceAfter=No
+4	-	-	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+5	stick	stick	NOUN	S	Number=Sing	1	conj	_	_
+6	model	model	NOUN	S	Number=Sing	0	root	_	_
+7	of	of	ADP	E	_	10	case	_	_
+8	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	10	det	_	_
+9	alcohol	alcohol	ADJ	A	Degree=Pos	10	amod	_	_
+10	molecule	molecule	NOUN	S	Number=Sing	6	nmod	_	_
+11	(	(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	r3coh	r3coh	NOUN	S	Number=Sing	10	appos	_	SpaceAfter=No
+13	)	)	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = the red and grey balls represent the hydroxyl group (-oh).
+1	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+2	red	re	ADJ	A	Degree=Pos	5	amod	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	grey	grey	ADJ	A	Degree=Pos	2	conj	_	_
+5	balls	ball	NOUN	S	Number=Plur	6	nsubj	_	_
+6	represent	represent	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	the	the	DET	RD	Definite=Def|PronType=Art	9	det	_	_
+8	hydroxyl	hydroxyl	ADJ	A	Degree=Pos	9	amod	_	_
+9	group	group	NOUN	S	Number=Sing	6	obj	_	_
+10	(	(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+11	-	-	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	oh	oh	PRON	PI	PronType=Ind	6	obl	_	SpaceAfter=No
+13	)	)	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = the three "r's" stand for carbon substituents or hydrogen atoms.
+1	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+2	three	three	NUM	N	NumType=Card	4	nummod	_	_
+3	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	r	r	NOUN	S	Number=Sing	6	nmod	_	SpaceAfter=No
+5	'	'	PART	PART	_	4	case	_	SpaceAfter=No
+6	s	s	X	X	_	8	nsubj	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	_
+8	stand	stand	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	for	for	ADP	E	_	11	case	_	_
+10	carbon	carbon	ADP	E	_	11	case	_	_
+11	substituents	substituent	NOUN	S	Number=Plur	8	obl	_	_
+12	or	or	CCONJ	CC	_	14	cc	_	_
+13	hydrogen	hydrogen	ADJ	A	Degree=Pos	14	amod	_	_
+14	atoms	atom	NOUN	S	Number=Plur	11	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = the bond angle between an hydroxyl group (-oh) and a chain of carbon atoms (r)
+1	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+2	bond	bond	ADJ	NO	Degree=Pos|NumType=Ord	3	amod	_	_
+3	angle	angle	NOUN	S	Number=Sing	0	root	_	_
+4	between	between	ADP	E	_	7	case	_	_
+5	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	7	det	_	_
+6	hydroxyl	hydroxyl	ADJ	A	Degree=Pos	7	amod	_	_
+7	group	group	NOUN	S	Number=Sing	3	nmod	_	_
+8	(	(	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+9	-	-	PUNCT	FF	_	10	punct	_	SpaceAfter=No
+10	oh	oh	VERB	V	VerbForm=Inf	7	conj	_	SpaceAfter=No
+11	)	)	PUNCT	FB	_	10	punct	_	_
+12	and	and	CCONJ	CC	_	14	cc	_	_
+13	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	14	det	_	_
+14	chain	chain	NOUN	S	Number=Sing	3	conj	_	_
+15	of	of	ADP	E	_	17	case	_	_
+16	carbon	carbon	NOUN	S	Number=Sing	17	nmod	_	_
+17	atoms	atom	NOUN	S	Number=Plur	14	nmod	_	_
+18	(	(	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+19	r	r	CCONJ	CC	_	17	cc	_	SpaceAfter=No
+20	)	)	PUNCT	FB	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = in chemistry, '''alcohols''' are organic compounds that carry at least one hydroxyl functional group (c–oh) bound to their aliphatic substructure.
+1	in	in	ADP	E	_	2	case	_	_
+2	chemistry	chemistry	NOUN	S	Number=Sing	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	'	'	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+5	'	'	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+6	'	'	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+7	alcohols	alcohol	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	nmod	_	SpaceAfter=No
+8	'	'	PART	PART	_	7	case	_	SpaceAfter=No
+9	'	'	PART	PART	_	13	mark	_	SpaceAfter=No
+10	'	'	PART	PART	_	9	case	_	_
+11	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	organic	organic	ADJ	A	Degree=Pos	13	amod	_	_
+13	compounds	compound	NOUN	S	Number=Plur	0	root	_	_
+14	that	that	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	carry	carry	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+16	at	at	ADV	B	_	19	advmod	_	_
+17	least	least	ADV	B	Degree=Sup	16	fixed	_	_
+18	one	one	NUM	N	NumType=Card	19	nsubj	_	_
+19	hydroxyl	hydroxyl	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
+20	functional	functional	ADJ	A	Degree=Pos	21	amod	_	_
+21	group	group	NOUN	S	Number=Sing	19	obj	_	_
+22	(	(	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+23	c	c	NOUN	S	Number=Sing	21	nmod	_	SpaceAfter=No
+24	–	–	PUNCT	FF	_	23	punct	_	SpaceAfter=No
+25	oh	oh	ADV	B	_	23	advmod	_	SpaceAfter=No
+26	)	)	PUNCT	FB	_	23	punct	_	_
+27	bound	bind	VERB	V	VerbForm=Inf	19	acl	_	_
+28	to	to	ADP	E	_	31	case	_	_
+29	their	their	DET	AP	Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+30	aliphatic	aliphatic	ADJ	A	Degree=Pos	31	amod	_	_
+31	substructure	substructure	NOUN	S	Number=Sing	27	obl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 6
+# text = the term alcohol originally referred to the primary alcohol ethanol (ethyl alcohol), which is used as a drug and is the main alcohol present in alcoholic beverages.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	term	term	NOUN	S	Number=Sing	5	nsubj	_	_
+3	alcohol	alcohol	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	originally	originally	ADV	B	_	5	advmod	_	_
+5	referred	refer	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	to	to	ADP	E	_	9	case	_	_
+7	the	the	DET	RD	Definite=Def|PronType=Art	9	det	_	_
+8	primary	primary	ADJ	A	Degree=Pos	9	amod	_	_
+9	alcohol	alcohol	NOUN	S	Number=Sing	5	obl	_	_
+10	ethanol	ethanol	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	(	(	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+12	ethyl	ethyl	ADJ	A	Degree=Pos	13	amod	_	_
+13	alcohol	alcohol	NOUN	S	Number=Sing	5	nsubj	_	SpaceAfter=No
+14	)	)	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	13	punct	_	_
+16	which	which	PRON	PR	PronType=Rel	18	nsubj:pass	_	_
+17	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
+18	used	use	VERB	V	Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+19	as	as	ADP	E	_	21	case	_	_
+20	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	21	det	_	_
+21	drug	drug	NOUN	S	Number=Sing	18	obl	_	_
+22	and	and	CCONJ	CC	_	27	cc	_	_
+23	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+24	the	the	DET	RD	Definite=Def|PronType=Art	27	det	_	_
+25	main	main	ADJ	A	Degree=Pos	26	amod	_	_
+26	alcohol	alcohol	NOUN	S	Number=Sing	27	nmod	_	_
+27	present	present	NOUN	S	Number=Sing	21	conj	_	_
+28	in	in	ADP	E	_	30	case	_	_
+29	alcoholic	alcoholic	ADJ	A	Degree=Pos	30	amod	_	_
+30	beverages	beverage	NOUN	S	Number=Plur	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 7
+# text = an important class of alcohols, of which methanol and ethanol are the simplest members, includes all compounds for which the general formula is cnh2n+1oh.
+1	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	3	det	_	_
+2	important	important	ADJ	A	Degree=Pos	3	amod	_	_
+3	class	class	NOUN	S	Number=Sing	17	nsubj	_	_
+4	of	of	ADP	E	_	5	case	_	_
+5	alcohols	alcohol	NOUN	S	Number=Plur	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	of	of	ADP	E	_	15	case	_	_
+8	which	which	PRON	PR	PronType=Rel	15	nmod	_	_
+9	methanol	methanol	NOUN	S	Number=Sing	15	nsubj	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	ethanol	ethanol	NOUN	S	Number=Sing	9	conj	_	_
+12	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13	the	the	DET	RD	Definite=Def|PronType=Art	15	det	_	_
+14	simplest	simplest	ADJ	A	Degree=Pos	15	amod	_	_
+15	members	member	NOUN	S	Number=Plur	3	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	includes	include	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	all	all	DET	T	PronType=Tot	19	det	_	_
+19	compounds	compound	NOUN	S	Number=Plur	17	obj	_	_
+20	for	for	ADP	E	_	21	case	_	_
+21	which	which	PRON	PR	PronType=Rel	26	obl	_	_
+22	the	the	DET	RD	Definite=Def|PronType=Art	24	det	_	_
+23	general	general	ADJ	A	Degree=Pos	24	amod	_	_
+24	formula	formula	NOUN	S	Number=Plur	26	nsubj	_	_
+25	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+26	cnh2n+1oh	cnh2n+1oh	ADJ	A	Degree=Pos	19	acl:relcl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	17	punct	_	SpacesAfter=\s\s
+
+# sent_id = 8
+# text = simple monoalcohols that are the subject of this article include primary (rch2oh), secondary (r2choh), and tertiary (r3coh) alcohols.
+1	simple	simple	ADJ	A	Degree=Pos	2	amod	_	_
+2	monoalcohols	monoalcohol	NOUN	S	Number=Plur	0	root	_	_
+3	that	that	PRON	PR	PronType=Rel	6	nsubj	_	_
+4	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+6	subject	subject	NOUN	S	Number=Sing	2	acl:relcl	_	_
+7	of	of	ADP	E	_	9	case	_	_
+8	this	this	DET	DD	Number=Sing|PronType=Dem	9	det	_	_
+9	article	article	NOUN	S	Number=Sing	6	nmod	_	_
+10	include	include	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	6	acl	_	_
+11	primary	primary	ADJ	A	Degree=Pos	13	amod	_	_
+12	(	(	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+13	rch2oh	rch2oh	NOUN	S	Number=Sing	10	obj	_	SpaceAfter=No
+14	)	)	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	secondary	secondary	ADJ	A	Degree=Pos	13	conj	_	_
+17	(	(	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+18	r2choh	r2choh	NOUN	S	Number=Sing	13	conj	_	SpaceAfter=No
+19	)	)	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	26	punct	_	_
+21	and	and	CCONJ	CC	_	26	cc	_	_
+22	tertiary	tertiary	ADV	B	_	26	advmod	_	_
+23	(	(	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+24	r3coh	r3coh	ADP	E	_	26	case	_	SpaceAfter=No
+25	)	)	PUNCT	FB	_	24	punct	_	_
+26	alcohols	alcohol	NOUN	S	Number=Plur	13	conj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = the suffix ''-ol'' appears in the iupac chemical name of all substances where the hydroxyl group is the functional group with the highest priority.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	suffix	suffix	NOUN	S	Number=Sing	6	nsubj	_	_
+3	'	'	PART	PART	_	2	case	_	SpaceAfter=No
+4	'	'	PART	PART	_	2	case	_	SpaceAfter=No
+5	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+6	ol	ol	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	'	'	PART	PART	_	6	compound:prt	_	SpaceAfter=No
+8	'	'	PART	PART	_	6	compound:prt	_	_
+9	appears	appear	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+10	in	in	ADP	E	_	14	case	_	_
+11	the	the	DET	RD	Definite=Def|PronType=Art	14	det	_	_
+12	iupac	iupac	ADJ	A	Degree=Pos	14	amod	_	_
+13	chemical	chemical	ADJ	A	Degree=Pos	14	amod	_	_
+14	name	name	NOUN	S	Number=Sing	9	obl	_	_
+15	of	of	ADP	E	_	17	case	_	_
+16	all	all	DET	T	PronType=Tot	17	det	_	_
+17	substances	substance	NOUN	S	Number=Plur	14	nmod	_	_
+18	where	where	ADV	B	_	25	advmod	_	_
+19	the	the	DET	RD	Definite=Def|PronType=Art	21	det	_	_
+20	hydroxyl	hydroxyl	ADJ	A	Degree=Pos	21	amod	_	_
+21	group	group	NOUN	S	Number=Sing	25	nsubj	_	_
+22	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+23	the	the	DET	RD	Definite=Def|PronType=Art	25	det	_	_
+24	functional	functional	ADJ	A	Degree=Pos	25	amod	_	_
+25	group	group	NOUN	S	Number=Sing	9	obl	_	_
+26	with	with	ADP	E	_	29	case	_	_
+27	the	the	DET	RD	Definite=Def|PronType=Art	29	det	_	_
+28	highest	highest	ADJ	A	Degree=Sup	29	amod	_	_
+29	priority	priority	NOUN	S	Number=Sing	25	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 10
+# text = when a higher priority group is present in the compound, the prefix ''hydroxy-'' is used in its iupac name.
+1	when	when	SCONJ	CS	_	7	mark	_	_
+2	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	5	det	_	_
+3	higher	higher	ADJ	A	Degree=Cmp	5	amod	_	_
+4	priority	priority	NOUN	S	Number=Sing	5	nmod	_	_
+5	group	group	NOUN	S	Number=Sing	7	nsubj	_	_
+6	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	present	present	ADJ	A	Degree=Pos	21	advcl	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	the	the	DET	RD	Definite=Def|PronType=Art	10	det	_	_
+10	compound	compound	NOUN	S	Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	the	the	DET	RD	Definite=Def|PronType=Art	13	det	_	_
+13	prefix	prefix	NOUN	S	Number=Sing	21	nsubj:pass	_	_
+14	'	'	PART	PART	_	13	case	_	SpaceAfter=No
+15	'	'	PART	PART	_	13	case	_	SpaceAfter=No
+16	hydroxy	hydroxy	ADV	B	_	13	advmod	_	SpaceAfter=No
+17	-	-	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+18	'	'	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+19	'	'	PUNCT	FB	_	16	punct	_	_
+20	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:pass	_	_
+21	used	use	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+22	in	in	ADP	E	_	25	case	_	_
+23	its	its	DET	AP	Number=Sing|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+24	iupac	iupac	ADJ	A	Degree=Pos	25	amod	_	_
+25	name	name	NOUN	S	Number=Sing	21	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 11
+# text = the suffix ''-ol'' in non-iupac names (such as paracetamol or cholesterol) also typically indicates that the substance is an alcohol.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	suffix	suffix	NOUN	S	Number=Sing	6	nsubj	_	_
+3	'	'	PART	PART	_	2	case	_	SpaceAfter=No
+4	'	'	PART	PART	_	2	case	_	SpaceAfter=No
+5	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+6	ol	ol	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	'	'	PART	PART	_	6	compound:prt	_	SpaceAfter=No
+8	'	'	PART	PART	_	6	compound:prt	_	_
+9	in	in	ADP	E	_	13	case	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	SpaceAfter=No
+11	-	-	PUNCT	FF	_	12	punct	_	SpaceAfter=No
+12	iupac	iupac	ADJ	A	Degree=Pos	13	amod	_	_
+13	names	name	NOUN	S	Number=Plur	6	obl	_	_
+14	(	(	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+15	such	such	ADJ	A	Degree=Pos	17	amod	_	_
+16	as	as	ADP	E	_	15	fixed	_	_
+17	paracetamol	paracetamol	NOUN	S	Number=Sing	6	obl	_	_
+18	or	or	CCONJ	CC	_	19	cc	_	_
+19	cholesterol	cholesterol	ADV	B	_	17	conj	_	SpaceAfter=No
+20	)	)	PUNCT	FB	_	17	punct	_	_
+21	also	also	ADV	B	_	23	advmod	_	_
+22	typically	typically	ADV	B	_	23	advmod	_	_
+23	indicates	indicate	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+24	that	that	SCONJ	CS	_	29	mark	_	_
+25	the	the	DET	RD	Definite=Def|PronType=Art	26	det	_	_
+26	substance	substance	NOUN	S	Number=Sing	29	nsubj	_	_
+27	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+28	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	29	det	_	_
+29	alcohol	alcohol	NOUN	S	Number=Sing	23	ccomp	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 12
+# text = however, many substances that contain hydroxyl functional groups (particularly sugars, such as glucose and sucrose) have names which include neither the suffix ''-ol'', nor the prefix ''hydroxy-''.
+1	however	however	ADV	B	_	20	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	many	many	ADJ	A	Degree=Pos	4	amod	_	_
+4	substances	substance	NOUN	S	Number=Plur	20	nsubj	_	_
+5	that	that	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	contain	contain	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	hydroxyl	hydroxyl	ADV	B	_	8	advmod	_	_
+8	functional	functional	ADJ	A	Degree=Pos	9	amod	_	_
+9	groups	group	NOUN	S	Number=Plur	6	obj	_	_
+10	(	(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+11	particularly	particularly	ADV	B	_	12	advmod	_	_
+12	sugars	sugar	NOUN	S	Number=Plur	6	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	such	such	DET	DD	PronType=Dem	15	det	_	_
+15	as	as	NOUN	S	Number=Plur	16	nsubj	_	_
+16	glucose	glucose	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	12	conj	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	sucrose	sucrose	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	16	conj	_	SpaceAfter=No
+19	)	)	PUNCT	FB	_	12	punct	_	_
+20	have	have	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+21	names	name	NOUN	S	Number=Plur	20	obj	_	_
+22	which	which	PRON	PR	PronType=Rel	23	nsubj	_	_
+23	include	include	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+24	neither	neither	CCONJ	CC	_	26	cc	_	_
+25	the	the	DET	RD	Definite=Def|PronType=Art	26	det	_	_
+26	suffix	suffix	NOUN	S	Gender=Masc|Number=Sing	23	conj	_	_
+27	'	'	PART	PART	_	26	case	_	SpaceAfter=No
+28	'	'	PART	PART	_	26	case	_	SpaceAfter=No
+29	-	-	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+30	ol	ol	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	23	xcomp	_	SpaceAfter=No
+31	'	'	PART	PART	_	30	case	_	SpaceAfter=No
+32	'	'	PART	PART	_	30	compound:prt	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	36	punct	_	_
+34	nor	nor	CCONJ	CC	_	36	cc	_	_
+35	the	the	DET	RD	Definite=Def|PronType=Art	36	det	_	_
+36	prefix	prefix	NOUN	S	Gender=Masc|Number=Sing	30	conj	_	_
+37	'	'	PART	PART	_	36	case	_	SpaceAfter=No
+38	'	'	PART	PART	_	36	case	_	SpaceAfter=No
+39	hydroxy	hydroxy	ADV	B	_	42	advmod	_	SpaceAfter=No
+40	-	-	PUNCT	FB	_	39	punct	_	SpaceAfter=No
+41	'	'	PUNCT	FB	_	39	punct	_	SpaceAfter=No
+42	'	'	PUNCT	FB	_	36	punct	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	20	punct	_	SpacesAfter=\s\n\n\s
+
+# newpar
+# sent_id = 13
+# text = alcohol distillation likely originated in india.
+1	alcohol	alcohol	VERB	V	Mood=Imp|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	distillation	distillation	NOUN	S	Number=Sing	1	obj	_	_
+3	likely	likely	ADV	B	_	4	advmod	_	_
+4	originated	originate	VERB	V	Tense=Past|VerbForm=Part	2	acl	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	india	indium	DET	RI	Definite=Ind|Number=Sing|PronType=Art	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 14
+# text = during 2000 bce, people of india used an alcoholic drink called ''sura''.
+1	during	during	ADP	E	_	3	case	_	_
+2	2000	2000	NUM	N	NumType=Card	3	nummod	_	_
+3	bce	bce	NOUN	S	Number=Sing	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	people	people	NOUN	S	Number=Plur	8	nsubj	_	_
+6	of	of	ADP	E	_	7	case	_	_
+7	india	indium	NOUN	S	Number=Plur	5	nmod	_	_
+8	used	use	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	11	det	_	_
+10	alcoholic	alcoholic	ADJ	A	Degree=Pos	11	amod	_	_
+11	drink	drink	NOUN	S	Number=Sing	8	obj	_	_
+12	called	call	VERB	V	Tense=Past|VerbForm=Part	11	acl	_	_
+13	'	'	PART	PART	_	12	case	_	SpaceAfter=No
+14	'	'	PART	PART	_	15	mark	_	SpaceAfter=No
+15	sura	sura	NOUN	S	Number=Sing	12	xcomp	_	SpaceAfter=No
+16	'	'	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+17	'	'	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 15
+# text = alcohol distillation was known to islamic chemists as early as the eighth century.
+1	alcohol	alcohol	ADJ	A	Number=Sing	2	amod	_	_
+2	distillation	distillation	NOUN	S	Number=Sing	4	nsubj:pass	_	_
+3	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	known	know	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+5	to	to	ADP	E	_	7	case	_	_
+6	islamic	islamic	ADJ	A	Degree=Pos	7	amod	_	_
+7	chemists	chemist	NOUN	S	Number=Plur	4	obl	_	_
+8	as	as	ADP	E	_	13	case	_	_
+9	early	early	ADV	B	_	8	fixed	_	_
+10	as	as	ADP	E	_	8	fixed	_	_
+11	the	the	DET	RD	Definite=Def|PronType=Art	13	det	_	_
+12	eighth	eighth	ADJ	A	Degree=Pos	13	amod	_	_
+13	century	century	NOUN	S	Number=Sing	4	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = the arab chemist, al-kindi, unambiguously described the distillation of wine in a treatise titled as "the book of the chemistry of perfume and distillations".
+1	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+2	arab	arab	NOUN	S	Number=Sing	3	nmod	_	_
+3	chemist	chemist	NOUN	S	Number=Sing	10	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	al	al	ADJ	A	Degree=Pos	7	amod	_	SpaceAfter=No
+6	-	-	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+7	kindi	kindi	NOUN	S	Number=Sing	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	unambiguously	unambiguously	ADV	B	_	10	advmod	_	_
+10	described	describe	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+12	distillation	distillation	NOUN	S	Number=Sing	10	obj	_	_
+13	of	of	ADP	E	_	14	case	_	_
+14	wine	wine	NUM	N	NumType=Card	12	nummod	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	17	det	_	_
+17	treatise	treatise	NOUN	S	Number=Sing	10	obl	_	_
+18	titled	title	VERB	V	Tense=Past|VerbForm=Part	17	acl	_	_
+19	as	as	ADP	E	_	22	case	_	_
+20	"	"	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+21	the	the	DET	RD	Definite=Def|PronType=Art	22	det	_	_
+22	book	book	NOUN	S	Number=Sing	18	obl	_	_
+23	of	of	ADP	E	_	25	case	_	_
+24	the	the	DET	RD	Definite=Def|PronType=Art	25	det	_	_
+25	chemistry	chemistry	NOUN	S	Number=Sing	22	nmod	_	_
+26	of	of	ADP	E	_	27	case	_	_
+27	perfume	perfume	NOUN	S	Number=Sing	25	nmod	_	_
+28	and	and	CCONJ	CC	_	29	cc	_	_
+29	distillations	distillation	NOUN	S	Number=Plur	27	conj	_	SpaceAfter=No
+30	"	"	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 17
+# text = the persian physician, alchemist, polymath and philosopher rhazes (854 ce – 925 ce) is credited with the discovery of ethanol.
+1	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+2	persian	persian	ADJ	A	Degree=Pos	3	amod	_	_
+3	physician	physician	NOUN	S	Number=Sing	19	nsubj:pass	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	alchemist	alchemist	ADV	B	_	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	polymath	polymath	NOUN	S	Number=Sing	5	conj	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	philosopher	philosopher	NOUN	S	Number=Sing	10	nmod	_	_
+10	rhazes	rhaze	NOUN	S	Number=Plur	3	conj	_	_
+11	(	(	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+12	854	854	NUM	N	NumType=Card	13	nummod	_	_
+13	ce	ce	NOUN	S	Number=Sing	3	nmod	_	_
+14	–	–	PUNCT	FF	_	13	punct	_	_
+15	925	925	NUM	N	NumType=Card	16	nummod	_	_
+16	ce	ce	NOUN	S	Number=Sing	13	nmod	_	SpaceAfter=No
+17	)	)	PUNCT	FB	_	13	punct	_	_
+18	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
+19	credited	credited	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+20	with	with	ADP	E	_	22	case	_	_
+21	the	the	DET	RD	Definite=Def|PronType=Art	22	det	_	_
+22	discovery	discovery	NOUN	S	Number=Sing	19	obl	_	_
+23	of	of	ADP	E	_	24	case	_	_
+24	ethanol	ethanol	NOUN	S	Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	19	punct	_	SpacesAfter=\n\s
+
+# sent_id = 18
+# text = ===etymology=== the word "alcohol" is from the arabic ''kohl'' (), a powder used as an eyeliner.
+1	===etymology===	===etymology===	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n
+2	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+3	word	word	PRON	NO	NumType=Ord|PronType=Ind	13	nsubj	_	_
+4	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	alcohol	alcohol	ADJ	A	Degree=Pos	3	amod	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	_
+7	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+8	from	from	ADP	E	_	10	case	_	_
+9	the	the	DET	RD	Definite=Def|PronType=Art	10	det	_	_
+10	arabic	arabic	NOUN	S	Number=Sing	13	nmod	_	_
+11	'	'	PART	PART	_	10	case	_	SpaceAfter=No
+12	'	'	PART	PART	_	10	case	_	SpaceAfter=No
+13	kohl	kohl	VERB	V	VerbForm=Inf	1	acl:relcl	_	SpaceAfter=No
+14	'	'	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+15	'	'	PUNCT	FB	_	13	punct	_	_
+16	(	(	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	)	)	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	1	punct	_	_
+19	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	20	det	_	_
+20	powder	powder	NOUN	S	Number=Sing	1	nmod	_	_
+21	used	use	VERB	V	Tense=Past|VerbForm=Part	20	acl	_	_
+22	as	as	ADP	E	_	24	case	_	_
+23	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	24	det	_	_
+24	eyeliner	eyeliner	NOUN	S	Number=Sing	21	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 19
+# text = al- is the arabic definite article, equivalent to ''the'' in english.
+1	al	al	ADJ	A	Degree=Pos	7	amod	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	_
+3	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+5	arabic	arabic	ADJ	A	Degree=Pos	6	amod	_	_
+6	definite	definite	NOUN	S	Number=Sing	7	nmod	_	_
+7	article	article	NOUN	S	Number=Sing	9	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	equivalent	equivalend	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	to	to	PART	PART	_	12	mark	_	_
+11	'	'	PART	PART	_	10	case	_	SpaceAfter=No
+12	'the	'the	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	9	xcomp	_	SpaceAfter=No
+13	'	'	PART	PART	_	12	compound:prt	_	SpaceAfter=No
+14	'	'	PART	PART	_	12	compound:prt	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	english	english	PRON	PI	PronType=Ind	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 20
+# text = ''alcohol'' was originally used for the very fine powder produced by the sublimation of the natural mineral stibnite to form antimony trisulfide . it was considered to be the essence or "spirit" of this mineral.
+1	'	'	PART	PART	_	3	mark	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	alcohol	alcohol	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	8	nsubj:pass	_	SpaceAfter=No
+4	'	'	PART	PART	_	3	compound:prt	_	SpaceAfter=No
+5	'	'	PART	PART	_	3	compound:prt	_	_
+6	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+7	originally	originally	ADV	B	_	8	advmod	_	_
+8	used	use	VERB	V	Tense=Past|VerbForm=Part	30	advcl	_	_
+9	for	for	ADP	E	_	13	case	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	13	det	_	_
+11	very	very	ADV	B	_	12	advmod	_	_
+12	fine	fine	ADJ	A	Degree=Pos	13	amod	_	_
+13	powder	powder	NOUN	S	Number=Sing	8	obl	_	_
+14	produced	produce	VERB	V	Tense=Past|VerbForm=Part	13	acl	_	_
+15	by	by	ADP	E	_	17	case	_	_
+16	the	the	DET	RD	Definite=Def|PronType=Art	17	det	_	_
+17	sublimation	sublimation	NOUN	S	Number=Sing	14	obl	_	_
+18	of	of	ADP	E	_	22	case	_	_
+19	the	the	DET	RD	Definite=Def|PronType=Art	22	det	_	_
+20	natural	natural	ADJ	A	Degree=Pos	22	amod	_	_
+21	mineral	mineral	ADJ	A	Degree=Pos	22	amod	_	_
+22	stibnite	stibnite	NOUN	S	Number=Sing	17	nmod	_	_
+23	to	to	PART	PART	_	24	mark	_	_
+24	form	form	VERB	V	VerbForm=Inf	22	acl	_	_
+25	antimony	antimony	DET	DI	Number=Plur|PronType=Ind	26	det	_	_
+26	trisulfide	trisulfide	NOUN	S	Number=Sing	24	obj	_	_
+27	.	.	PUNCT	FS	_	8	punct	_	_
+28	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	30	nsubj:pass	_	_
+29	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	aux:pass	_	_
+30	considered	consider	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+31	to	to	PART	PART	_	34	mark	_	_
+32	be	be	AUX	V	VerbForm=Inf	34	cop	_	_
+33	the	the	DET	RD	Definite=Def|PronType=Art	34	det	_	_
+34	essence	essence	NOUN	S	Number=Sing	30	xcomp	_	_
+35	or	or	CCONJ	CC	_	37	cc	_	_
+36	"	"	PUNCT	FB	_	37	punct	_	SpaceAfter=No
+37	spirit	spirit	NOUN	S	Number=Sing	34	conj	_	SpaceAfter=No
+38	"	"	PUNCT	FB	_	37	punct	_	_
+39	of	of	ADP	E	_	41	case	_	_
+40	this	this	DET	DD	Number=Sing|PronType=Dem	41	det	_	_
+41	mineral	mineral	ADJ	A	Degree=Pos	37	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	30	punct	_	_
+
+# sent_id = 21
+# text = it was used as an antiseptic, eyeliner, and cosmetic.
+1	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	used	use	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+4	as	as	ADP	E	_	6	case	_	_
+5	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	6	det	_	_
+6	antiseptic	antiseptic	NOUN	S	Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	eyeliner	eyeliner	NOUN	S	Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	cosmetic	cosmetic	ADJ	A	Degree=Pos	3	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 22
+# text = the meaning of alcohol was extended to distilled substances in general, and then narrowed to ethanol, when "spirits" was a synonym for hard liquor.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	meaning	meaning	NOUN	S	Number=Sing	6	nsubj:pass	_	_
+3	of	of	ADP	E	_	4	case	_	_
+4	alcohol	alcohol	NOUN	S	Number=Sing	2	nmod	_	_
+5	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+6	extended	extend	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+7	to	to	ADP	E	_	9	case	_	_
+8	distilled	distil	ADJ	A	Degree=Pos	9	amod	_	_
+9	substances	substance	NOUN	S	Number=Plur	6	obl	_	_
+10	in	in	ADP	E	_	9	case	_	_
+11	general	full	ADJ	A	Degree=Pos	10	fixed	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	then	then	ADV	B	_	15	advmod	_	_
+15	narrowed	narrow	VERB	V	Tense=Past|VerbForm=Part	6	conj	_	_
+16	to	to	PART	PART	_	17	mark	_	_
+17	ethanol	ethanol	VERB	V	VerbForm=Inf	15	xcomp	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	when	when	SCONJ	CS	_	25	mark	_	_
+20	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+21	spirits	spirit	NOUN	S	Number=Plur	25	nsubj	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	21	punct	_	_
+23	was	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	cop	_	_
+24	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	25	det	_	_
+25	synonym	synonym	NOUN	S	Number=Sing	17	advcl	_	_
+26	for	for	ADP	E	_	28	case	_	_
+27	hard	hard	ADJ	A	Degree=Pos	28	amod	_	_
+28	liquor	liquor	NOUN	S	Number=Sing	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 23
+# text = bartholomew traheron, in his 1543 translation of john of vigo, introduces the word as a term used by "barbarous" (moorish) authors for "fine powder."
+1	bartholomew	bartholomew	ADJ	A	Degree=Pos	2	amod	_	_
+2	traheron	traheron	NOUN	S	Number=Sing	13	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	in	in	ADP	E	_	7	case	_	_
+5	his	his	DET	AP	Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+6	1543	1543	NUM	N	NumType=Card	7	nummod	_	_
+7	translation	translation	NOUN	S	Number=Sing	2	nmod	_	_
+8	of	of	ADP	E	_	9	case	_	_
+9	john	john	NOUN	S	Number=Sing	7	nmod	_	_
+10	of	of	ADP	E	_	11	case	_	_
+11	vigo	vigo	NOUN	S	Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	introduces	introduce	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	the	the	DET	RD	Definite=Def|PronType=Art	15	det	_	_
+15	word	word	NOUN	S	Number=Sing	13	obj	_	_
+16	as	as	ADP	E	_	18	case	_	_
+17	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	18	det	_	_
+18	term	term	NOUN	S	Number=Sing	13	obl	_	_
+19	used	use	VERB	V	Tense=Past|VerbForm=Part	18	acl	_	_
+20	by	by	ADP	E	_	27	case	_	_
+21	"	"	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+22	barbarous	barbarous	ADJ	A	Degree=Pos	27	amod	_	SpaceAfter=No
+23	"	"	PUNCT	FB	_	22	punct	_	_
+24	(	(	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+25	moorish	moorish	VERB	V	VerbForm=Inf	22	parataxis	_	SpaceAfter=No
+26	)	)	PUNCT	FB	_	25	punct	_	_
+27	authors	author	NOUN	S	Number=Plur	19	obl	_	_
+28	for	for	ADP	E	_	31	case	_	_
+29	"	"	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+30	fine	fine	ADJ	A	Degree=Pos	31	amod	_	_
+31	powder	powder	NOUN	S	Number=Sing	19	obl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	13	punct	_	SpaceAfter=No
+33	"	"	PUNCT	FB	_	13	punct	_	_
+
+# sent_id = 24
+# text = vigo wrote:
+1	vigo	vigo	ADV	B	_	2	advmod	_	_
+2	wrote	write	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 25
+# text = "the barbarous auctours use alcohol, or (as i fynde it sometymes wryten) alcofoll, for moost fine poudre."
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+3	barbarous	barbarous	ADJ	A	Degree=Pos	4	amod	_	_
+4	auctours	auctour	NOUN	S	Number=Plur	5	nsubj	_	_
+5	use	use	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	alcohol	alcohol	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	14	punct	_	_
+8	or	or	CCONJ	CC	_	14	cc	_	_
+9	(	(	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+10	as	as	ADP	E	_	11	case	_	_
+11	i	i	X	X	_	12	obl	_	_
+12	fynde	fynde	ADV	B	_	14	advmod	_	_
+13	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	sometymes	sometymes	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+15	wryten	wryten	ADV	B	_	14	advmod	_	SpaceAfter=No
+16	)	)	PUNCT	FB	_	14	punct	_	_
+17	alcofoll	alcofoll	ADV	B	_	5	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	5	punct	_	_
+19	for	for	ADP	E	_	22	case	_	_
+20	moost	moost	ADJ	NO	Degree=Pos|NumType=Ord	22	amod	_	_
+21	fine	fine	ADJ	A	Degree=Pos	22	amod	_	_
+22	poudre	poudre	NOUN	S	Number=Sing	5	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	5	punct	_	SpaceAfter=No
+24	"	"	PUNCT	FB	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 26
+# text = the 1657 ''lexicon chymicum'', by william johnson glosses the word as "antimonium sive stibium."
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	1657	1657	NUM	N	NumType=Card	5	nummod	_	_
+3	'	'	PART	PART	_	2	case	_	SpaceAfter=No
+4	'	'	PART	PART	_	2	case	_	SpaceAfter=No
+5	lexicon	lexicon	NOUN	S	Number=Sing	6	nsubj	_	_
+6	chymicum	chymicum	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	'	'	PART	PART	_	6	compound:prt	_	SpaceAfter=No
+8	'	'	PART	PART	_	7	case	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	by	by	ADP	E	_	11	case	_	_
+11	william	willibe	PRON	PE	Number=Plur|Person=3|PronType=Prs	6	obl	_	_
+12	johnson	johnson	ADV	B	_	13	advmod	_	_
+13	glosses	gloss	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+14	the	the	DET	RD	Definite=Def|PronType=Art	15	det	_	_
+15	word	word	NOUN	S	Number=Sing	13	obj	_	_
+16	as	as	ADP	E	_	20	case	_	_
+17	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+18	antimonium	antimonium	ADJ	A	Degree=Pos	20	amod	_	_
+19	sive	sive	ADJ	A	Degree=Pos	20	amod	_	_
+20	stibium	stibium	NOUN	S	Number=Sing	13	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	13	punct	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	6	punct	_	_
+
+# sent_id = 27
+# text = by extension, the word came to refer to any fluid obtained by distillation, including "alcohol of wine," the distilled essence of wine.
+1	by	by	ADP	E	_	2	case	_	_
+2	extension	extension	NOUN	S	Number=Sing	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+5	word	word	NOUN	S	Number=Sing	6	nsubj	_	_
+6	came	come	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	to	to	PART	PART	_	8	mark	_	_
+8	refer	refer	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	to	to	ADP	E	_	11	case	_	_
+10	any	any	DET	DI	PronType=Ind	11	det	_	_
+11	fluid	fluid	NOUN	S	Number=Sing	8	obl	_	_
+12	obtained	obtain	VERB	V	Tense=Past|VerbForm=Part	11	acl	_	_
+13	by	by	ADP	E	_	14	case	_	_
+14	distillation	distillation	NOUN	S	Number=Sing	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	8	punct	_	_
+16	including	include	VERB	V	VerbForm=Ger	8	advcl	_	_
+17	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+18	alcohol	alcohol	NOUN	S	Number=Sing	16	obj	_	_
+19	of	of	ADP	E	_	20	case	_	_
+20	wine	wine	NOUN	S	Number=Sing	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	18	punct	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	25	punct	_	_
+23	the	the	DET	RD	Definite=Def|PronType=Art	25	det	_	_
+24	distilled	distilled	ADJ	A	Degree=Pos	25	amod	_	_
+25	essence	essence	NOUN	S	Number=Sing	18	conj	_	_
+26	of	of	ADP	E	_	27	case	_	_
+27	wine	wine	NOUN	S	Number=Sing	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 28
+# text = libavius in ''alchymia'' (1594) refers to "vini alcohol vel vinum alcalisatum".
+1	libavius	libavius	ADP	E	_	5	case	_	_
+2	in	in	ADP	E	_	5	case	_	_
+3	'	'	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+4	'	'	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+5	alchymia	alchymia	PROPN	SP	_	11	obl	_	SpaceAfter=No
+6	'	'	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	'	'	PUNCT	FB	_	5	punct	_	_
+8	(	(	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	1594	1594	NUM	N	NumType=Card	5	nummod	_	SpaceAfter=No
+10	)	)	PUNCT	FB	_	5	punct	_	_
+11	refers	refer	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	to	to	ADP	E	_	15	case	_	_
+13	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+14	vini	vini	ADJ	A	Degree=Pos	15	amod	_	_
+15	alcohol	alcohol	NOUN	S	Number=Sing	17	obl	_	_
+16	vel	vel	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	vinum	vinum	VERB	V	VerbForm=Inf	11	conj	_	_
+18	alcalisatum	alcalisatum	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 29
+# text = johnson (1657) glosses ''alcohol vini'' as "quando omnis superfluitas vini a vino separatur, ita ut accensum ardeat donec totum consumatur, nihilque fæcum aut phlegmatis in fundo remaneat."
+1	johnson	johnson	ADV	B	_	5	advmod	_	_
+2	(	(	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	1657	1657	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+4	)	)	PUNCT	FB	_	3	punct	_	_
+5	glosses	gloss	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	'	'	PART	PART	_	16	mark	_	SpaceAfter=No
+7	'	'	PART	PART	_	6	case	_	SpaceAfter=No
+8	alcohol	alcohol	ADJ	A	Degree=Pos	9	amod	_	_
+9	vini	vini	NOUN	S	Number=Sing	16	nsubj	_	SpaceAfter=No
+10	'	'	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+11	'	'	PUNCT	FB	_	9	punct	_	_
+12	as	as	ADP	E	_	16	mark	_	_
+13	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+14	quando	quando	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	omnis	omnis	PRON	PP	Poss=Yes|PronType=Prs	16	nsubj	_	_
+16	superfluitas	superfluitas	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+17	vini	vini	ADJ	A	Degree=Pos	20	amod	_	_
+18	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	20	det	_	_
+19	vino	vino	ADJ	A	Degree=Pos	20	amod	_	_
+20	separatur	separatur	NOUN	S	Number=Sing	16	obj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	16	punct	_	_
+22	ita	ita	DET	RI	Definite=Ind|Number=Sing|PronType=Art	24	det	_	_
+23	ut	ut	ADJ	A	Degree=Pos	24	amod	_	_
+24	accensum	accensum	NOUN	S	Number=Sing	16	conj	_	_
+25	ardeat	ardeat	SCONJ	CS	_	36	mark	_	_
+26	donec	donec	ADJ	A	Degree=Pos	28	amod	_	_
+27	totum	totum	NOUN	S	Number=Sing	28	nmod	_	_
+28	consumatur	consumatur	NOUN	S	Number=Sing	36	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	28	punct	_	_
+30	nihilque	nihilque	SCONJ	CS	_	36	mark	_	_
+31	fæcum	fæcum	ADJ	A	Degree=Pos	32	amod	_	_
+32	aut	aut	NOUN	S	Number=Sing	36	nsubj	_	_
+33	phlegmatis	phlegmatis	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	cop	_	_
+34	in	in	ADP	E	_	36	case	_	_
+35	fundo	fundo	NOUN	S	Number=Sing	36	nmod	_	_
+36	remaneat	remaneat	NOUN	S	Number=Sing	24	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	36	punct	_	SpaceAfter=No
+38	"	"	PUNCT	FB	_	16	punct	_	_
+
+# sent_id = 30
+# text = the word's meaning became restricted to "spirit of wine" (the chemical known today as ethanol) in the 18th century and was extended to the class of substances so-called as "alcohols" in modern chemistry after 1850.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	word	word	NOUN	S	Number=Sing	4	nmod	_	SpaceAfter=No
+3	's	's	PART	PART	_	2	case	_	_
+4	meaning	meaning	NOUN	S	Number=Sing	5	nsubj	_	_
+5	became	become	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	restricted	restrict	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	5	xcomp	_	_
+7	to	to	ADP	E	_	9	case	_	_
+8	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	spirit	spirit	NOUN	S	Number=Sing	6	obl	_	_
+10	of	of	ADP	E	_	11	case	_	_
+11	wine	wine	NUM	N	NumType=Card	9	nummod	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	11	punct	_	_
+13	(	(	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+14	the	the	DET	RD	Definite=Def|PronType=Art	16	det	_	_
+15	chemical	chemical	ADJ	A	Degree=Pos	16	amod	_	_
+16	known	known	NOUN	S	Number=Sing	9	appos	_	_
+17	today	today	ADV	B	_	16	advmod	_	_
+18	as	as	ADP	E	_	19	case	_	_
+19	ethanol	ethanol	ADV	B	_	16	advmod	_	SpaceAfter=No
+20	)	)	PUNCT	FB	_	16	punct	_	_
+21	in	in	ADP	E	_	25	case	_	_
+22	the	the	DET	RD	Definite=Def|PronType=Art	25	det	_	_
+23	18	18	NUM	N	NumType=Card	25	nummod	_	SpaceAfter=No
+24	th	th	ADJ	A	Degree=Pos	23	amod	_	_
+25	century	century	NOUN	S	Number=Sing	5	obl	_	_
+26	and	and	CCONJ	CC	_	28	cc	_	_
+27	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	aux:pass	_	_
+28	extended	extend	VERB	V	Tense=Past|VerbForm=Part	5	conj	_	_
+29	to	to	ADP	E	_	31	case	_	_
+30	the	the	DET	RD	Definite=Def|PronType=Art	31	det	_	_
+31	class	class	NOUN	S	Number=Sing	28	obl	_	_
+32	of	of	ADP	E	_	33	case	_	_
+33	substances	substance	NOUN	S	Number=Plur	31	nmod	_	_
+34	so-called	so-called	ADJ	A	Degree=Pos	33	amod	_	_
+35	as	as	ADP	E	_	37	case	_	_
+36	"	"	PUNCT	FB	_	37	punct	_	SpaceAfter=No
+37	alcohols	alcohol	NOUN	S	Number=Plur	34	obl	_	SpaceAfter=No
+38	"	"	PUNCT	FB	_	37	punct	_	_
+39	in	in	ADP	E	_	41	case	_	_
+40	modern	modern	ADJ	A	Degree=Pos	41	amod	_	_
+41	chemistry	chemistry	NOUN	S	Number=Sing	28	obl	_	_
+42	after	after	ADP	E	_	43	case	_	_
+43	1850	1850	NUM	N	NumType=Card	41	nummod	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 31
+# text = the term ''ethanol'' was invented 1892, combining the word ethane with the "-ol" ending of "alcohol".
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	term	term	NOUN	S	Number=Sing	5	nsubj	_	_
+3	'	'	PART	PART	_	2	case	_	SpaceAfter=No
+4	'	'	PART	PART	_	2	case	_	SpaceAfter=No
+5	ethanol	ethanol	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	'	'	PART	PART	_	5	compound:prt	_	SpaceAfter=No
+7	'	'	PART	PART	_	9	mark	_	_
+8	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	invented	invent	VERB	V	Tense=Past|VerbForm=Part	5	xcomp	_	_
+10	1892	1892	NUM	N	NumType=Card	9	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	combining	combin	VERB	V	VerbForm=Ger	9	advcl	_	_
+13	the	the	DET	RD	Definite=Def|PronType=Art	15	det	_	_
+14	word	word	NOUN	S	Number=Sing	15	nmod	_	_
+15	ethane	ethane	NOUN	S	Number=Sing	12	obj	_	_
+16	with	with	ADP	E	_	22	mark	_	_
+17	the	the	DET	RD	Definite=Def|PronType=Art	22	det	_	_
+18	"	"	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+19	-	-	PUNCT	FF	_	20	punct	_	SpaceAfter=No
+20	ol	ol	ADV	B	_	22	advmod	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	20	punct	_	_
+22	ending	end	VERB	V	VerbForm=Ger	12	advcl	_	_
+23	of	of	ADP	E	_	25	case	_	_
+24	"	"	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+25	alcohol	alcohol	NOUN	S	Number=Sing	22	obl	_	SpaceAfter=No
+26	"	"	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 32
+# text = ===systematic names=== iupac nomenclature is used in scientific publications and where precise identification of the substance is important, especially in cases where the relative complexity of the molecule does not make such a systematic name unwieldy.
+1	===systematic	===systematic	ADJ	A	Degree=Pos	2	amod	_	_
+2	names===	names===	NOUN	S	Number=Sing	4	nmod	_	SpacesAfter=\n
+3	iupac	iupac	ADJ	A	Degree=Pos	4	amod	_	_
+4	nomenclature	nomenclature	NOUN	S	Number=Sing	6	nsubj:pass	_	_
+5	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	used	use	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	scientific	scientific	ADJ	A	Degree=Pos	9	amod	_	_
+9	publications	publication	NOUN	S	Number=Plur	6	obl	_	_
+10	and	and	CCONJ	CC	_	13	cc	_	_
+11	where	where	ADV	B	_	12	advmod	_	_
+12	precise	precise	ADJ	A	Degree=Pos	13	amod	_	_
+13	identification	identification	NOUN	S	Number=Sing	9	conj	_	_
+14	of	of	ADP	E	_	16	case	_	_
+15	the	the	DET	RD	Definite=Def|PronType=Art	16	det	_	_
+16	substance	substance	NOUN	S	Number=Sing	13	nmod	_	_
+17	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	_
+18	important	important	ADJ	A	Degree=Pos	32	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	especially	especially	ADV	B	_	22	advmod	_	_
+21	in	in	ADP	E	_	22	mark	_	_
+22	cases	case	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	advcl	_	_
+23	where	where	ADV	B	_	26	advmod	_	_
+24	the	the	DET	RD	Definite=Def|PronType=Art	26	det	_	_
+25	relative	relative	ADJ	A	Degree=Pos	26	amod	_	_
+26	complexity	complexity	NOUN	S	Number=Sing	32	nsubj	_	_
+27	of	of	ADP	E	_	29	case	_	_
+28	the	the	DET	RD	Definite=Def|PronType=Art	29	det	_	_
+29	molecule	molecule	NOUN	S	Number=Sing	26	nmod	_	_
+30	does	do	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+31	not	not	PART	PART	Polarity=Neg	32	advmod	_	_
+32	make	make	VERB	V	VerbForm=Inf	6	ccomp	_	_
+33	such	such	DET	DD	PronType=Dem	37	det	_	_
+34	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	37	det	_	_
+35	systematic	systematic	ADJ	A	Degree=Pos	37	amod	_	_
+36	name	name	NOUN	S	Number=Sing	37	nmod	_	_
+37	unwieldy	unwieldy	NOUN	S	Number=Sing	32	obj	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 33
+# text = in naming simple alcohols, the name of the alkane chain loses the terminal ''e'' and adds the suffix ''-ol'', ''e.g.'', as in "ethanol" from the alkane chain name "ethane".
+1	in	in	ADP	E	_	2	mark	_	_
+2	naming	nam	VERB	V	VerbForm=Ger	12	advcl	_	_
+3	simple	simple	ADJ	A	Degree=Pos	4	amod	_	_
+4	alcohols	alcohol	NOUN	S	Number=Plur	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+7	name	name	NOUN	S	Number=Sing	12	nsubj	_	_
+8	of	of	ADP	E	_	11	case	_	_
+9	the	the	DET	RD	Definite=Def|PronType=Art	11	det	_	_
+10	alkane	alkane	ADJ	A	Degree=Pos	11	amod	_	_
+11	chain	chain	NOUN	S	Number=Sing	7	nmod	_	_
+12	loses	lose	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	the	the	DET	RD	Definite=Def|PronType=Art	14	det	_	_
+14	terminal	terminal	NOUN	S	Number=Sing	16	obl	_	_
+15	'	'	PART	PART	_	14	case	_	SpaceAfter=No
+16	'e	'e	VERB	V	VerbForm=Inf	12	xcomp	_	SpaceAfter=No
+17	'	'	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+18	'	'	PUNCT	FB	_	16	compound:prt	_	_
+19	and	and	CCONJ	CC	_	20	cc	_	_
+20	adds	add	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
+21	the	the	DET	RD	Definite=Def|PronType=Art	22	det	_	_
+22	suffix	suffix	NOUN	S	Number=Sing	20	obj	_	_
+23	'	'	PART	PART	_	22	case	_	SpaceAfter=No
+24	'	'	PART	PART	_	22	case	_	SpaceAfter=No
+25	-	-	PUNCT	FF	_	26	punct	_	SpaceAfter=No
+26	ol	ol	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	16	conj	_	SpaceAfter=No
+27	'	'	PART	PART	_	26	case	_	SpaceAfter=No
+28	'	'	PART	PART	_	26	compound:prt	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	26	punct	_	_
+30	'	'	PART	PART	_	26	case	_	SpaceAfter=No
+31	'e.g	'e.g	VERB	V	VerbForm=Inf	26	xcomp	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	26	punct	_	SpaceAfter=No
+33	'	'	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+34	'	'	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	26	punct	_	_
+36	as	as	ADP	E	_	47	case	_	_
+37	in	in	ADP	E	_	39	case	_	_
+38	"	"	PUNCT	FB	_	39	punct	_	SpaceAfter=No
+39	ethanol	ethanol	ADJ	A	Degree=Pos	47	amod	_	SpaceAfter=No
+40	"	"	PUNCT	FB	_	39	punct	_	_
+41	from	from	ADP	E	_	45	case	_	_
+42	the	the	DET	RD	Definite=Def|PronType=Art	45	det	_	_
+43	alkane	alkane	NUM	N	NumType=Card	45	nummod	_	_
+44	chain	chain	ADJ	A	Degree=Pos	45	amod	_	_
+45	name	name	NOUN	S	Number=Sing	39	obl	_	_
+46	"	"	PUNCT	FB	_	47	punct	_	SpaceAfter=No
+47	ethane	ethane	PRON	PE	Number=Sing|Person=3|PronType=Prs	26	obl	_	SpaceAfter=No
+48	"	"	PUNCT	FB	_	47	punct	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 34
+# text = when necessary, the position of the hydroxyl group is indicated by a number between the alkane name and the ''-ol'':
+1	when	when	SCONJ	CS	_	11	mark	_	_
+2	necessary	necessary	ADJ	A	Degree=Pos	5	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+5	position	position	NOUN	S	Number=Sing	11	nsubj:pass	_	_
+6	of	of	ADP	E	_	9	case	_	_
+7	the	the	DET	RD	Definite=Def|PronType=Art	9	det	_	_
+8	hydroxyl	hydroxyl	ADJ	A	Degree=Pos	9	amod	_	_
+9	group	group	NOUN	S	Number=Sing	5	nmod	_	_
+10	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	indicated	indicate	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+12	by	by	ADP	E	_	14	case	_	_
+13	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	14	det	_	_
+14	number	number	NOUN	S	Number=Sing	11	obl	_	_
+15	between	between	ADP	E	_	18	case	_	_
+16	the	the	DET	RD	Definite=Def|PronType=Art	18	det	_	_
+17	alkane	alkane	ADJ	A	Degree=Pos	18	amod	_	_
+18	name	name	NOUN	S	Number=Sing	11	obl	_	_
+19	and	and	CCONJ	CC	_	21	cc	_	_
+20	the	the	DET	RD	Definite=Def|PronType=Art	21	det	_	_
+21	'	'	PART	PART	_	18	conj	_	SpaceAfter=No
+22	'	'	PART	PART	_	21	case	_	SpaceAfter=No
+23	-	-	PUNCT	FF	_	24	punct	_	SpaceAfter=No
+24	ol	ol	NOUN	S	Number=Sing	26	nmod	_	SpaceAfter=No
+25	'	'	PART	PART	_	24	case	_	SpaceAfter=No
+26	'	'	PART	PART	_	21	case	_	SpaceAfter=No
+27	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 35
+# text = propan-1-ol for , propan-2-ol for . if a higher priority group is present (such as an aldehyde, ketone, or carboxylic acid), then the prefix ''hydroxy-''is used, e.g., as in 1-hydroxy-2-propanone ().
+1	propan-	propan-	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+2	1	1	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+3	-	-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+4	ol	ol	NOUN	S	Number=Sing	5	nmod	_	_
+5	for	for	NOUN	S	Number=Sing	9	nmod	_	_
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	propan-2	propan-2	NUM	N	NumType=Card	5	nummod	_	SpaceAfter=No
+8	-	-	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+9	ol	ol	NOUN	S	Number=Sing	0	root	_	_
+10	for	for	ADP	E	_	9	case	_	_
+11	.	.	PUNCT	FS	_	9	punct	_	_
+12	if	if	SCONJ	CS	_	18	mark	_	_
+13	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	16	det	_	_
+14	higher	higher	ADJ	A	Degree=Cmp	16	amod	_	_
+15	priority	priority	NOUN	S	Number=Sing	16	nmod	_	_
+16	group	group	NOUN	S	Number=Sing	18	nsubj	_	_
+17	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	present	present	ADJ	A	Degree=Pos	9	acl	_	_
+19	(	(	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+20	such	such	ADJ	A	Degree=Pos	23	amod	_	_
+21	as	as	ADP	E	_	20	fixed	_	_
+22	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	23	det	_	_
+23	aldehyde	aldehyde	NOUN	S	Number=Sing	9	appos	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	25	punct	_	_
+25	ketone	ketone	VERB	V	Tense=Past|VerbForm=Part	23	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	29	punct	_	_
+27	or	or	CCONJ	CC	_	29	cc	_	_
+28	carboxylic	carboxylic	ADJ	A	Degree=Pos	29	amod	_	_
+29	acid	acid	NOUN	S	Number=Sing	23	conj	_	SpaceAfter=No
+30	)	)	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	9	punct	_	_
+32	then	then	ADV	B	_	42	advmod	_	_
+33	the	the	DET	RD	Definite=Def|PronType=Art	34	det	_	_
+34	prefix	prefix	NOUN	S	Number=Sing	42	obl	_	_
+35	'	'	PART	PART	_	34	case	_	SpaceAfter=No
+36	'	'	PART	PART	_	34	case	_	SpaceAfter=No
+37	hydroxy	hydroxy	ADV	B	_	42	advmod	_	SpaceAfter=No
+38	-	-	PUNCT	FF	_	37	punct	_	SpaceAfter=No
+39	'	'	PART	PART	_	37	case	_	SpaceAfter=No
+40	'	'	PART	PART	_	37	case	_	SpaceAfter=No
+41	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	aux:pass	_	_
+42	used	use	VERB	V	Tense=Past|VerbForm=Part	9	acl	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	9	punct	_	_
+44	e.g.	e.g.	X	SW	Foreign=Yes	9	conj	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	44	punct	_	_
+46	as	as	ADP	E	_	48	case	_	_
+47	in	in	ADP	E	_	48	case	_	_
+48	1	1	NUM	N	NumType=Card	53	nummod	_	SpaceAfter=No
+49	-	-	PUNCT	FF	_	48	punct	_	SpaceAfter=No
+50	hydroxy-	hydroxy-	PUNCT	FF	_	53	punct	_	SpaceAfter=No
+51	2	2	NUM	N	NumType=Card	53	nummod	_	SpaceAfter=No
+52	-	-	PUNCT	FF	_	51	punct	_	SpaceAfter=No
+53	propanone	propanone	NOUN	S	Number=Sing	9	nmod	_	_
+54	(	(	PUNCT	FB	_	53	punct	_	SpaceAfter=No
+55	)	)	PUNCT	FB	_	53	punct	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n\n\n\n
+
+# newpar
+# sent_id = 36
+# text = + some examples of simple alcohols and how to name them
+1	+	+	SYM	X	_	3	nmod	_	_
+2	some	some	DET	DI	PronType=Ind	3	det	_	_
+3	examples	examples	NOUN	S	Number=Plur	11	nsubj	_	_
+4	of	of	ADP	E	_	6	case	_	_
+5	simple	simple	ADJ	A	Degree=Pos	6	amod	_	_
+6	alcohols	alcohol	NOUN	S	Number=Plur	3	nmod	_	_
+7	and	and	CCONJ	CC	_	10	cc	_	_
+8	how	how	ADV	B	_	10	advmod	_	_
+9	to	to	PART	PART	_	10	mark	_	_
+10	name	nome	VERB	V	VerbForm=Inf	6	conj	_	_
+11	them	they	PRON	PE	Number=Plur|Person=3|PronType=Prs	0	root	_	SpacesAfter=\n\n\n\n\s
+
+# newpar
+# sent_id = 37
+# text = ch3–ch2–ch2–oh
+1	ch3	ch3	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+2	–	–	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	ch2	ch2	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+4	–	–	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+5	ch2	ch2	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+6	–	–	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+7	oh	oh	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 38
+# text = 85px
+1	85px	85px	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 39
+# text = 110px
+1	110px	110px	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 40
+# text = 100px
+1	100px	100px	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 41
+# text = 100px
+1	100px	100px	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\n\n\s
+
+# newpar
+# sent_id = 42
+# text = 100px
+1	100px	100px	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 43
+# text = 60px
+1	60px	60px	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 44
+# text = 100px
+1	100px	100px	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 45
+# text = 110px
+1	110px	110px	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 46
+# text = 100px
+1	100px	100px	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\n\n\s
+
+# newpar
+# sent_id = 47
+# text = ''n''-propyl alcohol,propan-1-ol, or1-propanol
+1	'	'	PART	PART	_	16	case	_	SpaceAfter=No
+2	'n	'n	VERB	V	Tense=Past|VerbForm=Part	16	acl	_	SpaceAfter=No
+3	'	'	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+4	'	'	PART	PART	_	3	case	_	SpaceAfter=No
+5	-	-	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+6	propyl	propyl	NOUN	S	Number=Sing	7	nmod	_	_
+7	alcohol	alcohol	NOUN	S	Number=Sing	16	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+9	propan-	propan-	PUNCT	FF	_	12	punct	_	SpaceAfter=No
+10	1	1	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
+11	-	-	PUNCT	FF	_	12	punct	_	SpaceAfter=No
+12	ol	ol	NOUN	S	Number=Sing	7	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	or1	or1	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
+15	-	-	PUNCT	FF	_	12	punct	_	SpaceAfter=No
+16	propanol	propanol	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 48
+# text = isopropyl alcohol,propan-2-ol, or2-propanol
+1	isopropyl	isopropyl	ADV	B	_	2	advmod	_	_
+2	alcohol	alcohol	ADV	B	_	7	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+4	propan-	propan-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+5	2	2	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+6	-	-	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+7	ol	ol	NOUN	S	Number=Sing	11	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	or2	or2	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+10	-	-	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+11	propanol	propanol	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 49
+# text = cyclohexanol
+1	cyclohexanol	cyclohexanol	VERB	V	Mood=Imp|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 50
+# text = isobutyl alcohol,2-methylpropan-1-ol, or2-methyl-1-propanol
+1	isobutyl	isobutyl	ADV	B	_	13	advmod	_	_
+2	alcohol,2	alcohol,2	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+3	-	-	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+4	methylpropan-	methylpropan-	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+5	1	1	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+6	-	-	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+7	ol	ol	NOUN	S	Number=Sing	13	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	or2	or2	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+10	-	-	PUNCT	FF	_	11	punct	_	SpaceAfter=No
+11	methyl-1	methyl-1	NUM	N	NumType=Card	9	nummod	_	SpaceAfter=No
+12	-	-	PUNCT	FF	_	11	punct	_	SpaceAfter=No
+13	propanol	propanol	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 51
+# text = ''tert''-amyl alcohol,2-methylbutan-2-ol, or2-methyl-2-butanol
+1	'	'	PART	PART	_	19	case	_	SpaceAfter=No
+2	'	'	PART	PART	_	19	case	_	SpaceAfter=No
+3	tert	tert	VERB	V	Tense=Past|VerbForm=Part	19	acl	_	SpaceAfter=No
+4	'	'	PART	PART	_	3	case	_	SpaceAfter=No
+5	'	'	PART	PART	_	3	case	_	SpaceAfter=No
+6	-	-	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+7	amyl	amyl	NOUN	S	Number=Sing	3	obl	_	_
+8	alcohol,2	alcohol,2	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+9	-	-	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+10	methylbutan-	methylbutan-	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+11	2	2	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+12	-	-	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+13	ol	ol	NOUN	S	Number=Sing	7	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	7	punct	_	_
+15	or2	or2	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+16	-	-	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+17	methyl-2	methyl-2	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+18	-	-	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+19	butanol	butanol	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\n\n\s
+
+# newpar
+# sent_id = 52
+# text = a primary alcohol
+1	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	3	det	_	_
+2	primary	primary	ADJ	A	Degree=Pos	3	amod	_	_
+3	alcohol	alcohol	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 53
+# text = a secondary alcohol
+1	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	3	det	_	_
+2	secondary	secondary	ADJ	A	Degree=Pos	3	amod	_	_
+3	alcohol	alcohol	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 54
+# text = a secondary alcohol
+1	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	3	det	_	_
+2	secondary	secondary	ADJ	A	Degree=Pos	3	amod	_	_
+3	alcohol	alcohol	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 55
+# text = a primary alcohol
+1	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	3	det	_	_
+2	primary	primary	ADJ	A	Degree=Pos	3	amod	_	_
+3	alcohol	alcohol	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 56
+# text = a tertiary alcohol
+1	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	3	det	_	_
+2	tertiary	tertiary	ADJ	A	Degree=Pos	3	amod	_	_
+3	alcohol	alcohol	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\n
+
+# newpar
+# sent_id = 57
+# text = in cases where the oh functional group is bonded to an sp2 carbon on an aromatic ring the molecule is known as a phenol, and is named using the iupac rules for naming phenols.
+1	in	in	ADP	E	_	2	case	_	_
+2	cases	case	NOUN	S	Number=Plur	9	obl	_	_
+3	where	where	ADV	B	_	9	advmod	_	_
+4	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+5	oh	oh	ADJ	A	Degree=Pos	7	amod	_	_
+6	functional	functional	ADJ	A	Degree=Pos	7	amod	_	_
+7	group	group	NOUN	S	Number=Sing	9	nsubj:pass	_	_
+8	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	bonded	bond	VERB	V	Tense=Past|VerbForm=Part	21	acl	_	_
+10	to	to	ADP	E	_	13	case	_	_
+11	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	13	det	_	_
+12	sp2	sp2	NUM	N	NumType=Card	13	nummod	_	_
+13	carbon	carbon	NOUN	S	Number=Sing	9	obl	_	_
+14	on	on	ADP	E	_	17	mark	_	_
+15	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	17	det	_	_
+16	aromatic	aromatic	ADJ	A	Degree=Pos	17	amod	_	_
+17	ring	r	VERB	V	VerbForm=Ger	9	advcl	_	_
+18	the	the	DET	RD	Definite=Def|PronType=Art	19	det	_	_
+19	molecule	molecule	NOUN	S	Number=Sing	17	obj	_	_
+20	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	known	know	ADJ	A	Degree=Pos	0	root	_	_
+22	as	as	ADP	E	_	24	case	_	_
+23	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	24	det	_	_
+24	phenol	phenol	NOUN	S	Number=Sing	21	obl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	28	punct	_	_
+26	and	and	CCONJ	CC	_	28	cc	_	_
+27	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux:pass	_	_
+28	named	name	VERB	V	Tense=Past|VerbForm=Part	21	conj	_	_
+29	using	use	VERB	V	VerbForm=Ger	28	advcl	_	_
+30	the	the	DET	RD	Definite=Def|PronType=Art	32	det	_	_
+31	iupac	iupac	ADJ	A	Degree=Pos	32	amod	_	_
+32	rules	rule	NOUN	S	Number=Plur	29	obj	_	_
+33	for	for	ADP	E	_	34	mark	_	_
+34	naming	nam	VERB	V	VerbForm=Ger	29	advcl	_	_
+35	phenols	phenol	NOUN	S	Number=Plur	34	obj	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	21	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 58
+# text = ===common names=== in other less formal contexts, an alcohol is often called with the name of the corresponding alkyl group followed by the word "alcohol", e.g., methyl alcohol, ethyl alcohol.
+1	===common	===common	ADP	E	_	2	case	_	_
+2	names===	names===	NOUN	S	Number=Sing	13	obl	_	SpacesAfter=\n
+3	in	in	ADP	E	_	7	case	_	_
+4	other	other	ADJ	A	Degree=Pos	7	amod	_	_
+5	less	less	ADV	B	Degree=Cmp	6	advmod	_	_
+6	formal	form	ADJ	A	Degree=Pos	7	amod	_	_
+7	contexts	context	NOUN	S	Number=Plur	2	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	10	det	_	_
+10	alcohol	alcohol	NOUN	S	Number=Sing	13	nsubj:pass	_	_
+11	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+12	often	often	ADV	B	_	13	advmod	_	_
+13	called	call	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+14	with	with	ADP	E	_	16	case	_	_
+15	the	the	DET	RD	Definite=Def|PronType=Art	16	det	_	_
+16	name	name	NOUN	S	Number=Sing	13	obl	_	_
+17	of	of	ADP	E	_	21	case	_	_
+18	the	the	DET	RD	Definite=Def|PronType=Art	21	det	_	_
+19	corresponding	corresponding	ADJ	A	Degree=Pos	21	amod	_	_
+20	alkyl	alkyl	NOUN	S	Number=Sing	21	nmod	_	_
+21	group	group	NOUN	S	Number=Sing	16	nmod	_	_
+22	followed	follow	VERB	V	Tense=Past|VerbForm=Part	21	acl	_	_
+23	by	by	ADP	E	_	25	case	_	_
+24	the	the	DET	RD	Definite=Def|PronType=Art	25	det	_	_
+25	word	word	NOUN	S	Number=Sing	22	obl	_	_
+26	"	"	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+27	alcohol	alcohol	ADJ	A	Degree=Pos	25	amod	_	SpaceAfter=No
+28	"	"	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	30	punct	_	_
+30	e.g.	e.g.	X	SW	Foreign=Yes	27	conj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	33	punct	_	_
+32	methyl	methyl	ADJ	A	Degree=Pos	33	amod	_	_
+33	alcohol	alcohol	NOUN	S	Number=Sing	27	conj	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	36	punct	_	_
+35	ethyl	ethyl	ADJ	A	Degree=Pos	36	amod	_	_
+36	alcohol	alcohol	NOUN	S	Number=Sing	27	conj	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 59
+# text = propyl alcohol may be ''n''-propyl alcohol or isopropyl alcohol, depending on whether the hydroxyl group is bonded to the end or middle carbon on the straight propane chain.
+1	propyl	propyl	ADJ	A	Degree=Pos	2	amod	_	_
+2	alcohol	alcohol	NOUN	S	Number=Sing	6	nsubj:pass	_	_
+3	may	may	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	be	be	AUX	V	VerbForm=Inf	6	aux:pass	_	_
+5	'	'	PART	PART	_	6	mark	_	SpaceAfter=No
+6	'n	'n	VERB	V	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	'	'	PART	PART	_	16	mark	_	SpaceAfter=No
+8	'	'	PART	PART	_	7	case	_	SpaceAfter=No
+9	-	-	PUNCT	FF	_	11	punct	_	SpaceAfter=No
+10	propyl	propyl	NOUN	S	Number=Sing	11	nmod	_	_
+11	alcohol	alcohol	NOUN	S	Number=Sing	16	nsubj	_	_
+12	or	or	CCONJ	CC	_	14	cc	_	_
+13	isopropyl	isopropyl	ADJ	A	Degree=Pos	14	amod	_	_
+14	alcohol	alcohol	NOUN	S	Number=Sing	11	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	11	punct	_	_
+16	depending	depende	VERB	V	VerbForm=Ger	6	advcl	_	_
+17	on	on	ADP	E	_	23	case	_	_
+18	whether	whether	SCONJ	CS	_	23	mark	_	_
+19	the	the	DET	RD	Definite=Def|PronType=Art	21	det	_	_
+20	hydroxyl	hydroxyl	ADJ	A	Degree=Pos	21	amod	_	_
+21	group	group	NOUN	S	Number=Sing	23	nsubj:pass	_	_
+22	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux:pass	_	_
+23	bonded	bond	VERB	V	Tense=Past|VerbForm=Part	16	advcl	_	_
+24	to	to	ADP	E	_	26	case	_	_
+25	the	the	DET	RD	Definite=Def|PronType=Art	26	det	_	_
+26	end	end	NOUN	S	Number=Sing	23	obl	_	_
+27	or	or	CCONJ	CC	_	29	cc	_	_
+28	middle	middle	ADJ	A	Degree=Pos	29	amod	_	_
+29	carbon	carbon	NOUN	S	Number=Sing	26	conj	_	_
+30	on	on	ADP	E	_	34	case	_	_
+31	the	the	DET	RD	Definite=Def|PronType=Art	34	det	_	_
+32	straight	straight	NOUN	S	Number=Sing	34	nmod	_	_
+33	propane	propane	NOUN	S	Number=Sing	34	nmod	_	_
+34	chain	chain	NOUN	S	Number=Sing	23	obl	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 60
+# text = as described under systematic naming, if another group on the molecule takes priority, the alcohol moiety is often indicated using the "hydroxy-" prefix.
+1	as	as	ADP	E	_	2	mark	_	_
+2	described	describe	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+3	under	under	ADP	E	_	5	case	_	_
+4	systematic	systematic	ADJ	A	Degree=Pos	5	amod	_	_
+5	naming	naming	NOUN	S	Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	if	if	SCONJ	CS	_	13	mark	_	_
+8	another	another	DET	RI	Definite=Ind|Number=Sing|PronType=Art	9	det	_	_
+9	group	group	NOUN	S	Number=Sing	13	nsubj	_	_
+10	on	on	ADP	E	_	12	case	_	_
+11	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+12	molecule	molecule	NOUN	S	Number=Sing	13	obl	_	_
+13	takes	take	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+14	priority	priority	NOUN	S	Number=Sing	21	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	the	the	DET	RD	Definite=Def|PronType=Art	18	det	_	_
+17	alcohol	alcohol	ADJ	A	Degree=Pos	18	amod	_	_
+18	moiety	moiety	NOUN	S	Number=Sing	21	nsubj:pass	_	_
+19	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:pass	_	_
+20	often	often	ADV	B	_	21	advmod	_	_
+21	indicated	indicate	VERB	V	Tense=Past|VerbForm=Part	13	ccomp	_	_
+22	using	us	VERB	V	VerbForm=Ger	21	advcl	_	_
+23	the	the	DET	RD	Definite=Def|PronType=Art	28	det	_	_
+24	"	"	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+25	hydroxy	hydroxy	NOUN	S	Number=Sing	28	nmod	_	SpaceAfter=No
+26	-	-	PUNCT	FF	_	25	punct	_	SpaceAfter=No
+27	"	"	PUNCT	FB	_	25	punct	_	_
+28	prefix	prefix	NOUN	S	Number=Sing	22	obj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n\n
+
+# newpar
+# sent_id = 61
+# text = alcohols are then classified into primary, secondary (''sec-'', ''s-''), and tertiary (''tert-'', ''t-''), based upon the number of carbon atoms connected to the carbon atom that bears the hydroxyl functional group.
+1	alcohols	alcohol	NOUN	S	Number=Plur	4	nsubj:pass	_	_
+2	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+3	then	then	ADV	B	_	4	advmod	_	_
+4	classified	classify	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+5	into	into	ADP	E	_	29	case	_	_
+6	primary	primary	ADJ	A	Degree=Pos	29	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	secondary	secondary	ADJ	A	Degree=Pos	6	conj	_	_
+9	(	(	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	'	'	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+11	'	'	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	sec	sec	ADJ	A	Degree=Pos	6	conj	_	SpaceAfter=No
+13	-	-	PUNCT	FF	_	12	punct	_	SpaceAfter=No
+14	'	'	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+15	'	'	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	12	punct	_	_
+17	'	'	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+18	's	's	PART	PART	_	17	case	_	SpaceAfter=No
+19	-	-	PUNCT	FF	_	17	punct	_	SpaceAfter=No
+20	'	'	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+21	'	'	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+22	)	)	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	25	punct	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	tertiary	tertiary	NOUN	S	Number=Sing	6	conj	_	_
+26	(	(	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+27	'	'	PART	PART	_	6	case	_	SpaceAfter=No
+28	'	'	PART	PART	_	6	case	_	SpaceAfter=No
+29	tert	tert	NOUN	S	Number=Sing	4	obl	_	SpaceAfter=No
+30	-	-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+31	'	'	PART	PART	_	4	case	_	SpaceAfter=No
+32	'	'	PART	PART	_	4	compound:prt	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	4	punct	_	_
+34	'	'	PART	PART	_	35	mark	_	SpaceAfter=No
+35	't	't	VERB	V	VerbForm=Inf	4	advcl	_	SpaceAfter=No
+36	-	-	PUNCT	FB	_	35	punct	_	SpaceAfter=No
+37	'	'	PUNCT	FB	_	35	punct	_	SpaceAfter=No
+38	'	'	PUNCT	FB	_	35	punct	_	SpaceAfter=No
+39	)	)	PUNCT	FB	_	35	punct	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	4	punct	_	_
+41	based	based	VERB	V	Tense=Past|VerbForm=Part	4	acl	_	_
+42	upon	upon	ADP	E	_	44	case	_	_
+43	the	the	DET	RD	Definite=Def|PronType=Art	44	det	_	_
+44	number	number	NOUN	S	Number=Sing	41	obl	_	_
+45	of	of	ADP	E	_	47	case	_	_
+46	carbon	carbon	NOUN	S	Number=Sing	47	nmod	_	_
+47	atoms	atom	NOUN	S	Number=Plur	44	nmod	_	_
+48	connected	connect	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	47	acl	_	_
+49	to	to	ADP	E	_	52	case	_	_
+50	the	the	DET	RD	Definite=Def|PronType=Art	52	det	_	_
+51	carbon	carbon	NOUN	S	Number=Sing	52	nmod	_	_
+52	atom	atom	NOUN	S	Number=Sing	48	obl	_	_
+53	that	that	PRON	PR	PronType=Rel	54	nsubj	_	_
+54	bears	bear	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	52	acl:relcl	_	_
+55	the	the	DET	RD	Definite=Def|PronType=Art	58	det	_	_
+56	hydroxyl	hydroxyl	ADJ	A	Degree=Pos	58	amod	_	_
+57	functional	functional	ADJ	A	Degree=Pos	58	amod	_	_
+58	group	group	NOUN	S	Number=Sing	54	obj	_	SpaceAfter=No
+59	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 62
+# text = (the respective numeric shorthands 1°, 2°, and 3° are also sometimes used in informal settings.)
+1	(	(	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+3	respective	respective	ADJ	A	Degree=Pos	5	amod	_	_
+4	numeric	numeric	ADJ	A	Degree=Pos	5	amod	_	_
+5	shorthands	shorthand	NOUN	S	Number=Plur	15	nsubj:pass	_	_
+6	1°	1°	NUM	N	NumType=Card	5	nummod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	2°	2°	NUM	N	NumType=Card	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	3°	3°	NUM	N	NumType=Card	5	conj	_	_
+12	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+13	also	also	ADV	B	_	14	advmod	_	_
+14	sometimes	sometimes	ADV	B	_	15	advmod	_	_
+15	used	use	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	informal	inform	ADJ	A	Degree=Pos	18	amod	_	_
+18	settings	setting	NOUN	S	Number=Plur	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	15	punct	_	SpaceAfter=No
+20	)	)	PUNCT	FB	_	15	punct	_	_
+
+# sent_id = 63
+# text = the primary alcohols have general formulas rch2oh.
+1	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+2	primary	primary	ADJ	A	Degree=Pos	3	amod	_	_
+3	alcohols	alcohol	NOUN	S	Number=Plur	4	nsubj	_	_
+4	have	have	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	general	full	ADJ	A	Degree=Pos	7	amod	_	_
+6	formulas	formulas	NOUN	S	Number=Plur	7	nmod	_	_
+7	rch2oh	rch2oh	NOUN	S	Number=Sing	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 64
+# text = the simplest primary alcohol is methanol (ch3oh), for which r=h, and the next is ethanol, for which r=ch3, the methyl group.
+1	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+2	simplest	simplest	ADJ	A	Degree=Sup	4	amod	_	_
+3	primary	primary	ADJ	A	Degree=Pos	4	amod	_	_
+4	alcohol	alcohol	NOUN	S	Number=Sing	6	nsubj	_	_
+5	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	methanol	methanol	ADJ	A	Degree=Pos	0	root	_	_
+7	(	(	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	ch3oh	ch3oh	NOUN	S	Number=Sing	6	appos	_	SpaceAfter=No
+9	)	)	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	for	for	ADP	E	_	12	case	_	_
+12	which	which	PRON	PR	PronType=Rel	13	obl	_	_
+13	r=h	r=h	ADJ	A	Degree=Pos	6	advcl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	19	punct	_	_
+15	and	and	CCONJ	CC	_	19	cc	_	_
+16	the	the	DET	RD	Definite=Def|PronType=Art	17	det	_	_
+17	next	next	NOUN	S	Number=Sing	19	nsubj	_	_
+18	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	ethanol	ethanol	ADJ	A	Degree=Pos	13	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	13	punct	_	_
+21	for	for	ADP	E	_	22	case	_	_
+22	which	which	PRON	PR	PronType=Rel	13	obl	_	_
+23	r=ch3	r=ch3	NUM	N	NumType=Card	22	nummod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	13	punct	_	_
+25	the	the	DET	RD	Definite=Def|PronType=Art	27	det	_	_
+26	methyl	methyl	ADJ	A	Degree=Pos	27	amod	_	_
+27	group	group	NOUN	S	Number=Sing	13	conj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 65
+# text = secondary alcohols are those of the form rr'choh, the simplest of which is 2-propanol (r=r'=ch3).
+1	secondary	secondary	ADJ	A	Degree=Pos	2	amod	_	_
+2	alcohols	alcohol	NOUN	S	Number=Plur	4	nsubj	_	_
+3	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	those	that	PRON	PD	Number=Plur|PronType=Dem	19	nmod	_	_
+5	of	of	ADP	E	_	10	case	_	_
+6	the	the	DET	RD	Definite=Def|PronType=Art	8	det	_	_
+7	form	form	NOUN	S	Number=Sing	8	nmod	_	_
+8	rr	rr	NOUN	S	Number=Sing	10	nmod	_	SpaceAfter=No
+9	'	'	PART	PART	_	8	case	_	SpaceAfter=No
+10	choh	choh	NOUN	S	Number=Sing	4	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	the	the	DET	RD	Definite=Def|PronType=Art	13	det	_	_
+13	simplest	simplest	NOUN	S	Number=Sing	19	nsubj	_	_
+14	of	of	ADP	E	_	15	case	_	_
+15	which	which	PRON	PR	PronType=Rel	13	nmod	_	_
+16	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+17	2	2	NUM	N	NumType=Card	19	nummod	_	SpaceAfter=No
+18	-	-	PUNCT	FF	_	17	punct	_	SpaceAfter=No
+19	propanol	propanol	NOUN	S	Number=Sing	0	root	_	_
+20	(	(	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+21	r=r	r=r	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	19	appos	_	SpaceAfter=No
+22	'	'	PART	PART	_	23	case	_	SpaceAfter=No
+23	=ch3	=ch3	NUM	N	NumType=Card	21	nummod	_	SpaceAfter=No
+24	)	)	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 66
+# text = for the tertiary alcohols the general form is rr'r"coh.
+1	for	for	ADP	E	_	3	case	_	_
+2	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+3	tertiary	tertiary	NOUN	S	Number=Sing	9	obl	_	_
+4	alcohols	alcohol	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+6	general	general	ADJ	A	Degree=Pos	7	amod	_	_
+7	form	form	NOUN	S	Number=Sing	4	obj	_	_
+8	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	rr	rr	ADJ	A	Degree=Pos	0	root	_	SpaceAfter=No
+10	'	'	PART	PART	_	11	mark	_	SpaceAfter=No
+11	r	r	VERB	V	VerbForm=Inf	9	advcl	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+13	coh	coh	NOUN	S	Number=Sing	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 67
+# text = the simplest example is tert-butanol (2-methylpropan-2-ol), for which each of r, r', and r" is ch3.
+1	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+2	simplest	simplest	ADJ	A	Degree=Pos	3	amod	_	_
+3	example	example	NOUN	S	Number=Sing	7	nmod	_	_
+4	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	tert	tert	ADJ	A	Degree=Pos	7	amod	_	SpaceAfter=No
+6	-	-	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+7	butanol	butanol	NOUN	S	Number=Sing	0	root	_	_
+8	(	(	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+9	2-	2-	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+10	methylpropan-	methylpropan-	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+11	2	2	NUM	N	NumType=Card	13	nummod	_	SpaceAfter=No
+12	-	-	PUNCT	FF	_	11	punct	_	SpaceAfter=No
+13	ol	ol	NOUN	S	Number=Sing	7	appos	_	SpaceAfter=No
+14	)	)	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	7	punct	_	_
+16	for	for	ADP	E	_	17	case	_	_
+17	which	which	PRON	PR	PronType=Rel	29	nmod	_	_
+18	each	each	PRON	PI	PronType=Ind	29	nsubj	_	_
+19	of	of	ADP	E	_	20	case	_	_
+20	r	r	NOUN	S	Number=Sing	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	r	r	NOUN	S	Number=Sing	20	conj	_	SpaceAfter=No
+23	'	'	PUNCT	FF	_	20	punct	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	26	punct	_	_
+25	and	and	CCONJ	CC	_	26	cc	_	_
+26	r	r	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	18	conj	_	SpaceAfter=No
+27	"	"	PUNCT	FB	_	26	punct	_	_
+28	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+29	ch3	ch3	NUM	N	NumType=Card	7	acl:relcl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 68
+# text = in these shorthands, r, r', and r" represent substituents, alkyl or other attached, generally organic groups.
+1	in	in	ADP	E	_	3	case	_	_
+2	these	this	DET	DD	Number=Plur|PronType=Dem	3	det	_	_
+3	shorthands	shorthand	NOUN	S	Number=Plur	5	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	r	r	NOUN	S	Number=Sing	13	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	r	r	NOUN	S	Number=Sing	5	conj	_	SpaceAfter=No
+8	'	'	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	r	r	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	5	punct	_	_
+13	represent	represent	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	substituents	substituent	NOUN	S	Number=Plur	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	alkyl	alkyl	ADJ	A	Degree=Pos	14	conj	_	_
+17	or	or	CCONJ	CC	_	19	cc	_	_
+18	other	other	ADJ	A	Degree=Pos	19	amod	_	_
+19	attached	attach	VERB	V	Tense=Past|VerbForm=Part	14	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	13	punct	_	_
+21	generally	generally	ADV	B	_	22	advmod	_	_
+22	organic	organic	ADJ	A	Degree=Pos	23	amod	_	_
+23	groups	group	NOUN	S	Number=Plur	13	obj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	13	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 69
+# text = in archaic nomenclature, alcohols can be named as derivatives of methanol using "-carbinol" as the ending.
+1	in	in	ADP	E	_	3	case	_	_
+2	archaic	archaic	ADJ	A	Degree=Pos	3	amod	_	_
+3	nomenclature	nomenclature	NOUN	S	Number=Sing	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	alcohols	alcohol	NOUN	S	Number=Plur	8	nsubj:pass	_	_
+6	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	be	be	AUX	VA	VerbForm=Inf	8	aux:pass	_	_
+8	named	name	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+9	as	as	ADP	E	_	10	case	_	_
+10	derivatives	derivative	NOUN	S	Number=Plur	8	obl	_	_
+11	of	of	ADP	E	_	13	case	_	_
+12	methanol	methanol	ADJ	A	Degree=Pos	13	amod	_	_
+13	using	use	NOUN	S	Number=Sing	10	nmod	_	_
+14	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+15	-	-	PUNCT	FF	_	16	punct	_	SpaceAfter=No
+16	carbinol	carbinol	NOUN	S	Number=Sing	10	nmod	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	16	punct	_	_
+18	as	as	ADP	E	_	20	case	_	_
+19	the	the	DET	RD	Definite=Def|PronType=Art	20	det	_	_
+20	ending	ending	NOUN	S	Number=Sing	8	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\s\s
+
+# sent_id = 70
+# text = for instance, (ch3)3coh can be named trimethylcarbinol.
+1	for	for	ADP	E	_	2	case	_	_
+2	instance	instance	NOUN	S	Number=Sing	10	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	(	(	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	ch3	ch3	NUM	N	NumType=Card	2	nummod	_	SpaceAfter=No
+6	)	)	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	3coh	3coh	NOUN	S	Number=Sing	10	nsubj:pass	_	_
+8	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	be	be	AUX	VA	VerbForm=Inf	10	aux:pass	_	_
+10	named	name	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+11	trimethylcarbinol	trimethylcarbinol	NOUN	S	Number=Sing	10	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n\n\n\n\n\s
+
+# newpar
+# sent_id = 71
+# text = type
+1	type	type	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 72
+# text = formula
+1	formula	formula	DET	RI	Definite=Ind|Number=Sing|PronType=Art	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 73
+# text = iupac name
+1	iupac	iupac	ADJ	A	Degree=Pos	2	amod	_	_
+2	name	name	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 74
+# text = common name
+1	common	common	ADJ	A	Degree=Pos	2	amod	_	_
+2	name	name	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\n\n
+
+# newpar
+# sent_id = 75
+# text = ''monohydricalcohols''
+1	'	'	PART	PART	_	0	root	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	monohydricalcohols	monohydricalcohol	NOUN	S	Number=Plur	1	obl	_	SpaceAfter=No
+4	'	'	PART	PART	_	3	case	_	SpaceAfter=No
+5	'	'	PART	PART	_	3	case	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 76
+# text = ch3oh
+1	ch3oh	ch3oh	ADP	E	_	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 77
+# text = methanol
+1	methanol	methanol	VERB	V	Mood=Imp|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 78
+# text = wood alcohol
+1	wood	wood	NOUN	S	Number=Sing	0	root	_	_
+2	alcohol	alcohol	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	SpacesAfter=\n\n\n\n\s
+
+# newpar
+# sent_id = 79
+# text = c2h5oh
+1	c2h5oh	c2h5oh	ADP	E	_	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 80
+# text = ethanol
+1	ethanol	ethanol	VERB	V	Mood=Imp|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 81
+# text = alcohol
+1	alcohol	alcohol	ADV	B	_	0	root	_	SpacesAfter=\n\n\n\n\s
+
+# newpar
+# sent_id = 82
+# text = c3h7oh
+1	c3h7	c3h7	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+2	oh	oh	ADP	E	_	1	case	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 83
+# text = propan-2-ol
+1	propan-	propan-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+2	2	2	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+3	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+4	ol	ol	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 84
+# text = isopropyl alcohol,rubbing alcohol
+1	isopropyl	isopropyl	ADV	B	_	2	advmod	_	_
+2	alcohol	alcohol	ADV	B	_	4	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+4	rubbing	rubb	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	0	root	_	_
+5	alcohol	alcohol	ADV	B	_	4	advmod	_	SpacesAfter=\n\n\n\n\s
+
+# newpar
+# sent_id = 85
+# text = c4h9oh
+1	c4h9	c4h9	ADJ	A	Degree=Pos	0	root	_	SpaceAfter=No
+2	oh	oh	ADP	E	_	1	case	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 86
+# text = butan-1-ol
+1	butan-	butan-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+2	1	1	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+3	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+4	ol	ol	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\s\n\n\s
+
+# newpar
+# sent_id = 87
+# text = butanol,butyl alcohol
+1	butanol	butanol	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	butyl	butyl	ADJ	A	Degree=Pos	4	amod	_	_
+4	alcohol	alcohol	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\n\n\s
+
+# newpar
+# sent_id = 88
+# text = c5h11oh
+1	c5h11oh	c5h11oh	ADP	E	_	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 89
+# text = pentan-1-ol
+1	pentan-1	pentan-1	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	ol	ol	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 90
+# text = pentanol,amyl alcohol
+1	pentanol	pentanol	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	amyl	amyl	ADJ	A	Degree=Pos	4	amod	_	_
+4	alcohol	alcohol	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\n\n\s
+
+# newpar
+# sent_id = 91
+# text = c16h33oh
+1	c16h33oh	c16h33oh	ADP	E	_	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 92
+# text = hexadecan-1-ol
+1	hexadecan	hexadecan	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+3	1	1	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+4	-	-	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+5	ol	ol	NOUN	S	Number=Sing	1	obj	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 93
+# text = cetyl alcohol
+1	cetyl	cetyl	ADJ	A	Degree=Pos	2	amod	_	_
+2	alcohol	alcohol	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\n\n
+
+# newpar
+# sent_id = 94
+# text = ''polyhydricalcohols''
+1	'	'	PART	PART	_	0	root	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	polyhydricalcohols	polyhydricalcohol	NOUN	S	Number=Plur	1	obl	_	SpaceAfter=No
+4	'	'	PART	PART	_	3	case	_	SpaceAfter=No
+5	'	'	PART	PART	_	3	case	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 95
+# text = c2h4(oh)2
+1	c2h4(	c2h4(	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	oh	oh	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	)	)	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+4	2	2	NUM	N	NumType=Card	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 96
+# text = ethane-1,2-diol
+1	ethane-1,2	ethane-1,2	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	diol	diol	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 97
+# text = ethylene glycol
+1	ethylene	ethylene	PRON	PE	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	glycol	glycol	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\n\n\n\n\s
+
+# newpar
+# sent_id = 98
+# text = c3h6(oh)2
+1	c3h6	c3h6	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+2	(	(	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	oh	oh	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+4	)	)	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+5	2	2	NUM	N	NumType=Card	3	nummod	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 99
+# text = propane-1,2-diol
+1	propane-	propane-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+2	1,2	1,2	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+3	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+4	diol	diol	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 100
+# text = propylene glycol
+1	propylene	propylene	PRON	PE	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	glycol	glycol	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\n\n\n\n\s
+
+# newpar
+# sent_id = 101
+# text = c3h5(oh)3
+1	c3h5(	c3h5(	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	oh	oh	ADV	B	_	4	advmod	_	SpaceAfter=No
+3	)	)	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+4	3	3	NUM	N	NumType=Card	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 102
+# text = propane-1,2,3-triol
+1	propane-1	propane-1	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	2,3	2,3	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+4	-triol	-triol	ADJ	A	Degree=Pos	1	amod	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 103
+# text = glycerol
+1	glycerol	glycerol	VERB	V	Mood=Imp|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\n\n\n\n\s
+
+# newpar
+# sent_id = 104
+# text = c4h6(oh)4
+1	c4h6	c4h6	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+2	(	(	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	oh	oh	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+4	)	)	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+5	4	4	NUM	N	NumType=Card	3	nummod	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 105
+# text = butane-1,2,3,4-tetraol
+1	butane-1,	butane-1,	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+2	2,3,4-tetraol	2,3,4-tetraol	ADJ	A	Degree=Pos	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 106
+# text = erythritol,threitol
+1	erythritol	erythritol	ADV	B	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	threitol	threitol	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	SpacesAfter=\n\n\n\n\s
+
+# newpar
+# sent_id = 107
+# text = c5h7(oh)5
+1	c5h7	c5h7	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+2	(	(	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	oh	oh	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+4	)	)	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+5	5	5	NUM	N	NumType=Card	3	nummod	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 108
+# text = pentane-1,2,3,4,5-pentol
+1	pentane-1,	pentane-1,	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+2	2,3,	2,3,	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+3	4	4	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+5	5	5	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+6	-	-	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+7	pentol	pentol	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 109
+# text = xylitol
+1	xylitol	xylitol	VERB	V	Mood=Imp|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\n\n\n\n\s
+
+# newpar
+# sent_id = 110
+# text = c6h8(oh)6
+1	c6h8	c6h8	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+2	(	(	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	oh	oh	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+4	)	)	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+5	6	6	NUM	N	NumType=Card	3	nummod	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 111
+# text = hexane-1,2,3,4,5,6-hexol
+1	hexane-1	hexane-1	NUM	N	NumType=Card	9	nummod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	2,3	2,3	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+5	4,5	4,5	NUM	N	NumType=Card	1	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+7	6	6	NUM	N	NumType=Card	5	nummod	_	SpaceAfter=No
+8	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+9	hexol	hexol	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 112
+# text = mannitol,sorbitol
+1	mannitol	mannitol	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	sorbitol	sorbitol	ADJ	A	Degree=Pos	0	root	_	SpacesAfter=\n\n\n\n\s
+
+# newpar
+# sent_id = 113
+# text = c7h9(oh)7
+1	c7h9	c7h9	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+2	(	(	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	oh	oh	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+4	)	)	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+5	7	7	NUM	N	NumType=Card	3	nummod	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 114
+# text = heptane-1,2,3,4,5,6,7-heptol
+1	heptane-1	heptane-1	NUM	N	NumType=Card	11	nummod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	2,3	2,3	NUM	N	NumType=Card	1	flat	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+5	4,5	4,5	NUM	N	NumType=Card	1	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+7	6	6	NUM	N	NumType=Card	5	nummod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+9	7	7	NUM	N	NumType=Card	5	nummod	_	SpaceAfter=No
+10	-	-	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+11	heptol	heptol	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 115
+# text = volemitol
+1	volemitol	volemitol	VERB	V	Mood=Imp|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\n\n\n\n
+
+# newpar
+# sent_id = 116
+# text = ''unsaturatedaliphaticalcohols''
+1	'	'	PART	PART	_	0	root	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	unsaturatedaliphaticalcohols	unsaturatedaliphaticalcohol	NOUN	S	Number=Plur	1	obl	_	SpaceAfter=No
+4	'	'	PART	PART	_	3	case	_	SpaceAfter=No
+5	'	'	PART	PART	_	3	case	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 117
+# text = c3h5oh
+1	c3h5oh	c3h5oh	ADP	E	_	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 118
+# text = prop-2-ene-1-ol
+1	prop-2	prop-2	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+3	ene	ene	NOUN	S	Number=Sing	6	nmod	_	SpaceAfter=No
+4	-1	-1	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+5	-	-	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+6	ol	ol	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 119
+# text = allyl alcohol
+1	allyl	allyl	ADV	B	_	2	advmod	_	_
+2	alcohol	alcohol	ADV	B	_	0	root	_	SpacesAfter=\n\n\n\n\s
+
+# newpar
+# sent_id = 120
+# text = c10h17oh
+1	c10h17	c10h17	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+2	oh	oh	ADP	E	_	1	case	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 121
+# text = 3,7-dimethylocta-2,6-dien-1-ol
+1	3	3	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	7	7	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+4	-	-	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+5	dimethylocta-2	dimethylocta-2	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+7	6	6	NUM	N	NumType=Card	9	nummod	_	SpaceAfter=No
+8	-	-	PUNCT	FF	_	9	punct	_	SpaceAfter=No
+9	dien	die	NOUN	S	Number=Sing	12	nmod	_	SpaceAfter=No
+10	-1	-1	NUM	N	NumType=Card	9	nummod	_	SpaceAfter=No
+11	-	-	PUNCT	FF	_	9	punct	_	SpaceAfter=No
+12	ol	ol	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 122
+# text = geraniol
+1	geraniol	geraniol	VERB	V	Mood=Imp|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\n\n\n\n
+
+# newpar
+# sent_id = 123
+# text = c3h3oh
+1	c3h3oh	c3h3oh	ADP	E	_	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 124
+# text = prop-2-yn-1-ol
+1	prop-2	prop-2	NUM	N	NumType=Card	5	nummod	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	yn-1	yn-1	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+4	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+5	ol	ol	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 125
+# text = propargyl alcohol
+1	propargyl	propargyl	NOUN	S	Number=Sing	0	root	_	_
+2	alcohol	alcohol	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	SpacesAfter=\n\n\n\n
+
+# newpar
+# sent_id = 126
+# text = ''alicyclicalcohols''
+1	'	'	PART	PART	_	0	root	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	alicyclicalcohols	alicyclicalcohol	NOUN	S	Number=Plur	1	obl	_	SpaceAfter=No
+4	'	'	PART	PART	_	3	case	_	SpaceAfter=No
+5	'	'	PART	PART	_	3	case	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 127
+# text = c6h6(oh)6
+1	c6h6	c6h6	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+2	(	(	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	oh	oh	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+4	)	)	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+5	6	6	NUM	N	NumType=Card	3	nummod	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 128
+# text = cyclohexane-1,2,3,4,5,6-hexol
+1	cyclohexane-1	cyclohexane-1	NUM	N	NumType=Card	9	nummod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	2,3	2,3	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+5	4,5	4,5	NUM	N	NumType=Card	1	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+7	6	6	NUM	N	NumType=Card	5	nummod	_	SpaceAfter=No
+8	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+9	hexol	hexol	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 129
+# text = inositol
+1	inositol	inositol	VERB	V	Mood=Imp|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\n\n\n\n\s
+
+# newpar
+# sent_id = 130
+# text = c10h19oh
+1	c10h19	c10h19	ADJ	A	Degree=Pos	0	root	_	SpaceAfter=No
+2	oh	oh	ADP	E	_	1	case	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 131
+# text = 5-methyl-2-(propan-2-yl)cyclohexan-1-ol
+1	5	5	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	methyl-2	methyl-2	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+4	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+5	(	(	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+6	propan-2	propan-2	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+7	-	-	PUNCT	FF	_	8	punct	_	SpaceAfter=No
+8	yl	yl	NOUN	S	Number=Sing	12	nmod	_	SpaceAfter=No
+9	)	)	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+10	cyclohexan-1	cyclohexan-1	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+11	-	-	PUNCT	FF	_	8	punct	_	SpaceAfter=No
+12	ol	ol	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 132
+# text = menthol
+1	menthol	menthol	VERB	V	Mood=Imp|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\n\n\n\s
+
+# newpar
+# sent_id = 133
+# text = alcohol per capita consumption (15+), in litres of pure ethanol
+1	alcohol	alcohol	X	SW	Foreign=Yes	4	amod	_	_
+2	per	per	X	SW	Foreign=Yes	4	amod	_	_
+3	capita	capita	X	SW	Foreign=Yes	2	flat:foreign	_	_
+4	consumption	consumption	NOUN	S	Number=Sing	13	nmod	_	_
+5	(	(	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	15+	15+	NOUN	S	Number=Sing	4	appos	_	SpaceAfter=No
+7	)	)	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	litres	litre	NOUN	S	Number=Plur	4	nmod	_	_
+11	of	of	ADP	E	_	12	case	_	_
+12	pure	pure	NOUN	S	Number=Sing	10	nmod	_	_
+13	ethanol	ethanol	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 134
+# text = alcohols have a long history of myriad uses.
+1	alcohols	alcohol	NOUN	S	Number=Plur	2	nsubj	_	_
+2	have	have	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	5	det	_	_
+4	long	long	ADJ	A	Degree=Pos	5	amod	_	_
+5	history	history	NOUN	S	Number=Sing	2	obj	_	_
+6	of	of	ADP	E	_	8	case	_	_
+7	myriad	myriad	ADJ	A	Degree=Pos	8	amod	_	_
+8	uses	use	NOUN	S	Number=Plur	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 135
+# text = for simple mono-alcohols, which is the focus on this article, the following are most important industrial alcohols:
+1	for	for	ADP	E	_	5	case	_	_
+2	simple	simple	ADJ	A	Degree=Pos	5	amod	_	_
+3	mono	monumber	ADJ	A	Degree=Pos	5	amod	_	SpaceAfter=No
+4	-	-	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+5	alcohols	alcohol	NOUN	S	Number=Sing	10	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	which	which	PRON	PR	PronType=Rel	10	nsubj	_	_
+8	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	the	the	DET	RD	Definite=Def|PronType=Art	10	det	_	_
+10	focus	focus	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+11	on	on	ADP	E	_	13	case	_	_
+12	this	this	DET	DD	Number=Sing|PronType=Dem	13	det	_	_
+13	article	article	NOUN	S	Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	10	punct	_	_
+15	the	the	DET	RD	Definite=Def|PronType=Art	16	det	_	_
+16	following	following	NOUN	S	Number=Sing	21	nsubj	_	_
+17	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	21	cop	_	_
+18	most	most	ADV	B	_	19	advmod	_	_
+19	important	important	ADJ	A	Degree=Pos	21	amod	_	_
+20	industrial	industrial	ADJ	A	Degree=Pos	21	amod	_	_
+21	alcohols	alcohol	NOUN	S	Number=Plur	0	root	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	21	punct	_	SpacesAfter=\n
+
+# sent_id = 136
+# text = *methanol, mainly for the production of formaldehyde and as a fuel additive *ethanol, mainly for alcoholic beverages, fuel additive, solvent *1-propanol, 1-butanol, and isobutyl alcohol for use as a solvent and precursor to solvents *c6–c11 alcohols used for plasticizers, e.g. in polyvinylchloride *fatty alcohol (c12–c18), precursors to detergents methanol is the most common industrial alcohol, with about 12 million tons/y produced in 1980.
+1	*methanol	*methanol	ADV	B	_	49	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	mainly	mainly	ADV	B	_	6	advmod	_	_
+4	for	for	ADP	E	_	6	case	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+6	production	production	NOUN	S	Number=Sing	49	obl	_	_
+7	of	of	ADP	E	_	8	case	_	_
+8	formaldehyde	formaldehyde	NOUN	S	Number=Sing	6	nmod	_	_
+9	and	and	CCONJ	CC	_	14	cc	_	_
+10	as	as	ADP	E	_	14	case	_	_
+11	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	14	det	_	_
+12	fuel	fuel	ADJ	A	Degree=Pos	14	amod	_	_
+13	additive	additive	ADJ	A	Degree=Pos	14	amod	_	SpacesAfter=\n
+14	*ethanol	*ethanol	NOUN	S	Number=Sing	8	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	6	punct	_	_
+16	mainly	mainly	ADV	B	_	19	advmod	_	_
+17	for	for	ADP	E	_	19	case	_	_
+18	alcoholic	alcoholic	ADJ	A	Degree=Pos	19	amod	_	_
+19	beverages	beverage	NOUN	S	Number=Plur	49	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	fuel	fuel	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	49	aux	_	_
+22	additive	additive	ADJ	A	Degree=Pos	48	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	27	punct	_	_
+24	solvent	solvent	ADJ	A	Degree=Pos	27	amod	_	SpacesAfter=\n
+25	*1	*1	NUM	N	NumType=Card	27	nummod	_	SpaceAfter=No
+26	-	-	PUNCT	FF	_	27	punct	_	SpaceAfter=No
+27	propanol	propanol	NOUN	S	Number=Sing	22	conj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	31	punct	_	_
+29	1	1	NUM	N	NumType=Card	31	nummod	_	SpaceAfter=No
+30	-	-	PUNCT	FF	_	31	punct	_	SpaceAfter=No
+31	butanol	butanol	NOUN	S	Number=Sing	22	conj	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	35	punct	_	_
+33	and	and	CCONJ	CC	_	35	cc	_	_
+34	isobutyl	isobutyl	ADJ	A	Degree=Pos	35	amod	_	_
+35	alcohol	alcohol	NOUN	S	Number=Sing	22	conj	_	_
+36	for	for	ADP	E	_	37	case	_	_
+37	use	use	NOUN	S	Number=Sing	22	obl	_	_
+38	as	as	ADP	E	_	40	case	_	_
+39	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	40	det	_	_
+40	solvent	solvent	NOUN	S	Number=Sing	48	nmod	_	_
+41	and	and	CCONJ	CC	_	42	cc	_	_
+42	precursor	precursor	NOUN	S	Number=Sing	40	conj	_	_
+43	to	to	ADP	E	_	44	case	_	_
+44	solvents	solvent	NOUN	S	Number=Plur	40	nmod	_	SpacesAfter=\n
+45	*c6	*c6	NUM	N	NumType=Card	44	nummod	_	SpaceAfter=No
+46	–	–	PUNCT	FF	_	40	punct	_	SpaceAfter=No
+47	c11	c11	NUM	N	NumType=Card	40	nummod	_	_
+48	alcohols	alcohol	NOUN	S	Number=Plur	49	nsubj	_	_
+49	used	use	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	73	acl	_	_
+50	for	for	ADP	E	_	51	case	_	_
+51	plasticizers	plasticizer	NOUN	S	Number=Plur	49	obl	_	SpaceAfter=No
+52	,	,	PUNCT	FF	_	49	punct	_	_
+53	e.g.	e.g.	X	SW	Foreign=Yes	49	obl	_	_
+54	in	in	ADP	E	_	56	case	_	_
+55	polyvinylchloride	polyvinylchloride	ADJ	A	Degree=Pos	56	amod	_	SpacesAfter=\n
+56	*fatty	*fatty	NOUN	S	Number=Sing	53	nmod	_	_
+57	alcohol	alcohol	ADV	B	_	53	advmod	_	_
+58	(	(	PUNCT	FB	_	59	punct	_	SpaceAfter=No
+59	c12	c12	NUM	N	NumType=Card	53	nummod	_	SpaceAfter=No
+60	–	–	PUNCT	FF	_	59	punct	_	SpaceAfter=No
+61	c18	c18	NUM	N	NumType=Card	59	nummod	_	SpaceAfter=No
+62	)	)	PUNCT	FB	_	59	punct	_	SpaceAfter=No
+63	,	,	PUNCT	FF	_	49	punct	_	_
+64	precursors	precursor	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	advcl	_	_
+65	to	to	ADP	E	_	67	case	_	_
+66	detergents	detergent	DET	AP	Number=Sing|Poss=Yes|PronType=Prs	67	nmod:poss	_	SpacesAfter=\n
+67	methanol	methanol	NOUN	S	Number=Sing	64	obl	_	_
+68	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	73	cop	_	_
+69	the	the	DET	RD	Definite=Def|PronType=Art	73	det	_	_
+70	most	most	ADV	B	_	71	advmod	_	_
+71	common	common	ADJ	A	Degree=Pos	73	amod	_	_
+72	industrial	industrial	ADJ	A	Degree=Pos	73	amod	_	_
+73	alcohol	alcohol	NOUN	S	Number=Sing	82	nsubj	_	SpaceAfter=No
+74	,	,	PUNCT	FF	_	73	punct	_	_
+75	with	with	ADP	E	_	79	case	_	_
+76	about	about	ADV	B	_	78	advmod	_	_
+77	12	12	NUM	N	NumType=Card	78	compound	_	_
+78	million	million	NUM	N	NumType=Card	79	nummod	_	_
+79	tons	ton	NOUN	S	Number=Plur	73	nmod	_	SpaceAfter=No
+80	/	/	PUNCT	FF	_	79	punct	_	SpaceAfter=No
+81	y	y	ADV	B	_	82	advmod	_	_
+82	produced	produce	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+83	in	in	ADP	E	_	84	case	_	_
+84	1980	1980	NUM	N	NumType=Card	82	obl	_	SpaceAfter=No
+85	.	.	PUNCT	FS	_	82	punct	_	_
+
+# sent_id = 137
+# text = the combined capacity of the other alcohols is about the same, distributed roughly equally.
+1	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+2	combined	combined	ADJ	A	Degree=Pos	3	amod	_	_
+3	capacity	capacity	NOUN	S	Number=Sing	11	nsubj	_	_
+4	of	of	ADP	E	_	7	case	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+6	other	other	ADJ	A	Degree=Pos	7	amod	_	_
+7	alcohols	alcohol	NOUN	S	Number=Plur	3	nmod	_	_
+8	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	about	about	ADP	E	_	11	case	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	11	det	_	_
+11	same	same	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	distributed	distribute	VERB	V	Tense=Past|VerbForm=Part	11	acl	_	_
+14	roughly	roughly	ADV	B	_	13	advmod	_	_
+15	equally	equally	ADV	B	_	13	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\n\s\n
+
+# newpar
+# sent_id = 138
+# text = with respect to acute toxicity, simple alcohols have low acute toxicities.
+1	with	with	ADP	E	_	2	case	_	_
+2	respect	respect	NOUN	S	Number=Sing	9	obl	_	_
+3	to	to	PART	PART	_	4	mark	_	_
+4	acute	acute	VERB	V	VerbForm=Inf	2	acl	_	_
+5	toxicity	toxicity	NOUN	S	Number=Sing	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	simple	simple	ADJ	A	Degree=Pos	8	amod	_	_
+8	alcohols	alcohol	NOUN	S	Number=Plur	9	nsubj	_	_
+9	have	have	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	low	low	ADJ	A	Degree=Pos	12	amod	_	_
+11	acute	acute	NOUN	S	Number=Sing	12	nmod	_	_
+12	toxicities	toxicity	NOUN	S	Number=Plur	9	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\s\s
+
+# sent_id = 139
+# text = doses of several milliliters are tolerated.
+1	doses	dose	NOUN	S	Number=Plur	6	nsubj:pass	_	_
+2	of	of	ADP	E	_	4	case	_	_
+3	several	several	ADJ	A	Degree=Pos	4	amod	_	_
+4	milliliters	milliliter	NOUN	S	Number=Plur	1	nmod	_	_
+5	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	tolerated	tolerate	VERB	V	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\s\s
+
+# sent_id = 140
+# text = for pentanols, hexanols, octanols and longer alcohols, ld50 range from 2–5 g/kg (rats, oral).
+1	for	for	ADP	E	_	2	case	_	_
+2	pentanols	pentanol	NOUN	S	Number=Plur	12	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	hexanols	hexanol	NOUN	S	Number=Plur	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	octanols	octanol	NOUN	S	Number=Plur	2	conj	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	longer	longer	ADJ	A	Degree=Cmp	9	amod	_	_
+9	alcohols	alcohol	NOUN	S	Number=Plur	2	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	ld50	ld50	ADJ	A	Degree=Pos	12	amod	_	_
+12	range	range	NOUN	S	Number=Sing	0	root	_	_
+13	from	from	ADP	E	_	14	case	_	_
+14	2	2	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
+15	–	–	PUNCT	FF	_	16	punct	_	SpaceAfter=No
+16	5	5	NUM	N	NumType=Card	14	nummod	_	_
+17	g	g	NOUN	S	_	16	conj	_	SpaceAfter=No
+18	/	/	PUNCT	FF	_	17	punct	_	SpaceAfter=No
+19	kg	kg	ADP	E	_	17	case	_	_
+20	(	(	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+21	rats	rat	NOUN	S	Number=Plur	17	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23	oral	oral	ADJ	A	Degree=Pos	21	conj	_	SpaceAfter=No
+24	)	)	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\s\s
+
+# sent_id = 141
+# text = methanol and ethanol are less acutely toxic.
+1	methanol	methanol	NOUN	S	Number=Sing	7	nsubj	_	_
+2	and	and	CCONJ	CC	_	3	cc	_	_
+3	ethanol	ethanol	NOUN	S	Number=Sing	1	conj	_	_
+4	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	less	less	ADV	B	Degree=Cmp	6	advmod	_	_
+6	acutely	acutely	ADV	B	_	7	advmod	_	_
+7	toxic	toxic	ADJ	A	Degree=Pos	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\s\s
+
+# sent_id = 142
+# text = all alcohols are mild skin irritants.
+1	all	all	DET	T	PronType=Tot	2	det	_	_
+2	alcohols	alcohol	NOUN	S	Number=Plur	4	nsubj	_	_
+3	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	mild	mild	VERB	V	VerbForm=Inf	0	root	_	_
+5	skin	skin	ADJ	A	Degree=Pos	6	amod	_	_
+6	irritants	irritant	NOUN	S	Number=Plur	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 143
+# text = the metabolism of methanol (and ethylene glycol) is affected by the presence of ethanol, which has a higher affinity for liver alcohol dehydrogenase.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	metabolism	metabolism	NOUN	S	Number=Sing	11	nsubj:pass	_	_
+3	of	of	ADP	E	_	4	case	_	_
+4	methanol	methanol	NOUN	S	Number=Sing	2	nmod	_	_
+5	(	(	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	ethylene	ethylene	ADJ	A	Degree=Pos	8	amod	_	_
+8	glycol	glycol	NOUN	S	Number=Sing	2	nmod	_	SpaceAfter=No
+9	)	)	PUNCT	FB	_	8	punct	_	_
+10	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	affected	affect	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+12	by	by	ADP	E	_	14	case	_	_
+13	the	the	DET	RD	Definite=Def|PronType=Art	14	det	_	_
+14	presence	presence	NOUN	S	Number=Sing	11	obl	_	_
+15	of	of	ADP	E	_	16	case	_	_
+16	ethanol	ethanol	NOUN	S	Number=Sing	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	which	which	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	has	have	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+20	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	22	det	_	_
+21	higher	higher	ADJ	A	Degree=Cmp	22	amod	_	_
+22	affinity	affinity	NOUN	S	Number=Sing	19	obj	_	_
+23	for	for	ADP	E	_	24	case	_	_
+24	liver	liver	NOUN	S	Number=Sing	22	nmod	_	_
+25	alcohol	alcohol	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	dehydrogenase	dehydrogenase	VERB	V	VerbForm=Inf	19	xcomp	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\s\s
+
+# sent_id = 144
+# text = in this way methanol will be excreted intact in urine.
+1	in	in	ADP	E	_	4	case	_	_
+2	this	this	DET	DD	Number=Sing|PronType=Dem	4	det	_	_
+3	way	way	NOUN	S	Number=Sing	4	nmod	_	_
+4	methanol	methanol	NOUN	S	Number=Sing	7	obl	_	_
+5	will	will	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	be	be	AUX	VA	VerbForm=Inf	7	aux:pass	_	_
+7	excreted	excret	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+8	intact	intact	NOUN	S	Number=Sing	7	obj	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	urine	urine	NOUN	S	Number=Sing	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n\s
+
+# sent_id = 145
+# text = in general, the hydroxyl group makes alcohols polar.
+1	in	in	ADP	E	_	2	case	_	_
+2	general	full	ADJ	A	Number=Sing	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+5	hydroxyl	hydroxyl	ADJ	A	Degree=Pos	6	amod	_	_
+6	group	group	NOUN	S	Number=Sing	7	nsubj	_	_
+7	makes	make	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	alcohols	alcohol	ADJ	A	Degree=Pos	9	amod	_	_
+9	polar	polar	NOUN	S	Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 146
+# text = those groups can form hydrogen bonds to one another and to most other compounds.
+1	those	that	DET	DD	Number=Plur|PronType=Dem	2	det	_	_
+2	groups	group	NOUN	S	Number=Plur	4	nsubj	_	_
+3	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	form	form	VERB	V	VerbForm=Inf	0	root	_	_
+5	hydrogen	hydrogen	SCONJ	CS	_	6	mark	_	_
+6	bonds	bond	NOUN	S	Number=Plur	4	advcl	_	_
+7	to	to	PART	PART	_	8	mark	_	_
+8	one	o	VERB	V	VerbForm=Inf	6	acl	_	_
+9	another	another	DET	RI	Definite=Ind|Number=Sing|PronType=Art	8	obj	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	to	to	PART	PART	_	12	mark	_	_
+12	most	most	VERB	V	VerbForm=Inf	8	conj	_	_
+13	other	other	ADJ	A	Degree=Pos	14	amod	_	_
+14	compounds	compound	NOUN	S	Number=Plur	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\s\s
+
+# sent_id = 147
+# text = owing to the presence of the polar oh alcohols are more water-soluble than simple hydrocarbons.
+1	owing	owe	VERB	V	VerbForm=Ger	0	root	_	_
+2	to	to	ADP	E	_	4	case	_	_
+3	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+4	presence	presence	NOUN	S	Number=Sing	1	obl	_	_
+5	of	of	ADP	E	_	7	case	_	_
+6	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+7	polar	polar	NOUN	S	Number=Sing	4	nmod	_	_
+8	oh	oh	ADP	E	_	9	case	_	_
+9	alcohols	alcohol	NOUN	S	Number=Plur	7	nmod	_	_
+10	are	be	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	more	more	ADV	B	Degree=Cmp	12	advmod	_	_
+12	water	water	ADV	B	Degree=Cmp	13	advmod	_	SpaceAfter=No
+13	-soluble	-soluble	ADJ	A	Degree=Pos	1	conj	_	_
+14	than	than	ADP	E	_	16	case	_	_
+15	simple	simple	ADJ	A	Degree=Pos	16	amod	_	_
+16	hydrocarbons	hydrocarbon	NOUN	S	Number=Plur	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\s
+
+# sent_id = 148
+# text = methanol, ethanol, and propanol are miscible in water.
+1	methanol	methanol	ADV	B	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	ethanol	ethanol	ADJ	A	Degree=Pos	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	propanol	propanol	NOUN	S	Number=Sing	1	conj	_	_
+7	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	miscible	miscible	ADJ	A	Degree=Pos	0	root	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	water	water	NOUN	S	Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 149
+# text = butanol, with a four-carbon chain, is moderately soluble.
+1	butanol	butanol	ADV	B	_	12	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	with	with	ADP	E	_	8	case	_	_
+4	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	8	det	_	_
+5	four	four	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+6	-	-	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+7	carbon	carbon	NOUN	S	Number=Sing	8	nmod	_	_
+8	chain	chain	NOUN	S	Number=Sing	12	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	moderately	moderately	ADV	B	_	12	advmod	_	_
+12	soluble	soluble	ADJ	A	Degree=Pos	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 150
+# text = because of hydrogen bonding, alcohols tend to have higher boiling points than comparable hydrocarbons and ethers.
+1	because	because	ADP	E	_	4	case	_	_
+2	of	of	ADP	E	_	1	fixed	_	_
+3	hydrogen	hydrogen	VERB	V	Tense=Past|VerbForm=Part	4	acl	_	_
+4	bonding	bonding	NOUN	S	Number=Sing	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	alcohols	alcohol	NOUN	S	Number=Plur	7	nsubj	_	_
+7	tend	tend	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	to	to	PART	PART	_	9	mark	_	_
+9	have	have	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	higher	higher	ADJ	A	Degree=Cmp	12	amod	_	_
+11	boiling	boiling	NOUN	S	Number=Sing	12	nmod	_	_
+12	points	point	NOUN	S	Number=Plur	9	obj	_	_
+13	than	than	ADP	E	_	15	case	_	_
+14	comparable	comparable	ADJ	A	Degree=Pos	15	amod	_	_
+15	hydrocarbons	hydrocarbon	NOUN	S	Number=Plur	12	nmod	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	ethers	ether	NOUN	S	Number=Plur	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 151
+# text = the boiling point of the alcohol ethanol is 78.29 °c, compared to 69 °c for the hydrocarbon hexane, and 34.6 °c for diethyl ether.
+1	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+2	boiling	boiling	NOUN	S	Number=Sing	3	nmod	_	_
+3	point	point	NOUN	S	Number=Sing	10	nsubj	_	_
+4	of	of	ADP	E	_	7	case	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+6	alcohol	alcohol	ADJ	A	Degree=Pos	7	amod	_	_
+7	ethanol	ethanol	NOUN	S	Number=Sing	3	nmod	_	_
+8	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	78.29	78.29	NUM	N	NumType=Card	10	nummod	_	SpacesAfter= 
+10	°c	°c	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	compared	compare	VERB	V	Tense=Past|VerbForm=Part	10	acl	_	_
+13	to	to	ADP	E	_	15	case	_	_
+14	69	69	NUM	N	NumType=Card	15	nummod	_	SpacesAfter= 
+15	°c	°c	NOUN	S	Number=Sing	12	obl	_	_
+16	for	for	ADP	E	_	19	case	_	_
+17	the	the	DET	RD	Definite=Def|PronType=Art	19	det	_	_
+18	hydrocarbon	hydrocarbon	NOUN	S	Number=Sing	19	nmod	_	_
+19	hexane	hexane	NOUN	S	Number=Sing	15	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	23	punct	_	_
+21	and	and	CCONJ	CC	_	23	cc	_	_
+22	34.6	34.6	NUM	N	NumType=Card	23	nummod	_	SpacesAfter= 
+23	°c	°c	NOUN	S	Number=Sing	19	conj	_	_
+24	for	for	ADP	E	_	26	case	_	_
+25	diethyl	diethyl	ADJ	A	Number=Sing	26	amod	_	_
+26	ether	ether	NOUN	S	Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n\s
+
+# sent_id = 152
+# text = simple alcohols are found widely in nature.
+1	simple	simple	ADJ	A	Degree=Pos	2	amod	_	_
+2	alcohols	alcohol	NOUN	S	Number=Plur	4	nsubj:pass	_	_
+3	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	found	find	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+5	widely	widely	ADV	B	_	4	advmod	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	nature	nature	NOUN	S	Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\s\s
+
+# sent_id = 153
+# text = ethanol is most prominent because it is the product of fermentation, a major energy-producing pathway.
+1	ethanol	ethanol	ADV	B	_	4	advmod	_	_
+2	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	most	most	ADV	B	_	4	advmod	_	_
+4	prominent	prominent	ADJ	A	Degree=Pos	0	root	_	_
+5	because	because	SCONJ	CS	_	9	mark	_	_
+6	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+7	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	the	the	DET	RD	Definite=Def|PronType=Art	9	det	_	_
+9	product	product	NOUN	S	Number=Sing	4	advcl	_	_
+10	of	of	ADP	E	_	11	case	_	_
+11	fermentation	fermentation	NOUN	S	Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	18	det	_	_
+14	major	major	ADJ	A	Degree=Pos	15	amod	_	_
+15	energy	energy	NOUN	S	Number=Sing	17	nmod	_	SpaceAfter=No
+16	-	-	PUNCT	FF	_	17	punct	_	SpaceAfter=No
+17	producing	produce	NOUN	S	Number=Sing	18	nmod	_	_
+18	pathway	pathway	NOUN	S	Number=Sing	9	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\s\s
+
+# sent_id = 154
+# text = the other simple alcohols are formed in only trace amounts.
+1	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+2	other	other	ADJ	A	Degree=Pos	4	amod	_	_
+3	simple	simple	ADJ	A	Degree=Pos	4	amod	_	_
+4	alcohols	alcohol	NOUN	S	Number=Plur	6	nsubj:pass	_	_
+5	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	formed	form	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+7	in	in	ADP	E	_	10	case	_	_
+8	only	only	ADV	B	_	9	advmod	_	_
+9	trace	trace	ADJ	A	Degree=Pos	10	amod	_	_
+10	amounts	amount	NOUN	S	Number=Plur	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\s\s
+
+# sent_id = 155
+# text = more complex alcohols are pervasive, as manifested in sugars, some amino acids, and fatty acids.
+1	more	more	ADV	B	Degree=Cmp	2	advmod	_	_
+2	complex	complex	ADJ	A	Degree=Pos	3	amod	_	_
+3	alcohols	alcohol	NOUN	S	Number=Plur	5	nsubj	_	_
+4	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	pervasive	pervasive	ADJ	A	Degree=Pos	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	as	as	ADP	E	_	8	mark	_	_
+8	manifested	manifest	VERB	V	Tense=Past|VerbForm=Part	5	advcl	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	sugars	sugar	NOUN	S	Number=Plur	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	some	some	DET	DI	PronType=Ind	14	det	_	_
+13	amino	amino	DET	DI	PronType=Ind	14	det	_	_
+14	acids	acid	NOUN	S	Number=Plur	5	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	and	and	CCONJ	CC	_	18	cc	_	_
+17	fatty	fatty	ADJ	A	Degree=Pos	18	amod	_	_
+18	acids	acid	NOUN	S	Number=Plur	5	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\s\n
+
+# newpar
+# sent_id = 156
+# text = ===ziegler and oxo processes=== in the ziegler process, linear alcohols are produced from ethylene and triethylaluminium followed by oxidation and hydrolysis.
+1	===ziegler	===ziegler	ADP	E	_	8	case	_	_
+2	and	and	CCONJ	CC	_	4	cc	_	_
+3	oxo	oxo	ADJ	A	Degree=Pos	4	amod	_	_
+4	processes===	processes===	NOUN	S	Number=Sing	1	conj	_	SpacesAfter=\n
+5	in	in	ADP	E	_	8	case	_	_
+6	the	the	DET	RD	Definite=Def|PronType=Art	8	det	_	_
+7	ziegler	ziegler	NOUN	S	Number=Sing	8	nmod	_	_
+8	process	process	NOUN	S	Number=Sing	13	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	linear	linear	ADJ	A	Degree=Pos	11	amod	_	_
+11	alcohols	alcohol	NOUN	S	Number=Plur	13	nsubj:pass	_	_
+12	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+13	produced	produce	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+14	from	from	ADP	E	_	15	case	_	_
+15	ethylene	ethylene	NUM	N	NumType=Card	13	obl	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	triethylaluminium	triethylaluminium	NOUN	S	Number=Sing	15	conj	_	_
+18	followed	follow	VERB	V	Tense=Past|VerbForm=Part	13	acl	_	_
+19	by	by	ADP	E	_	20	case	_	_
+20	oxidation	oxidation	NOUN	S	Number=Sing	18	obl	_	_
+21	and	and	CCONJ	CC	_	22	cc	_	_
+22	hydrolysis	hydrolysis	NOUN	S	Number=Sing	20	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	13	punct	_	SpacesAfter=\s\s
+
+# sent_id = 157
+# text = an idealized synthesis of 1-octanol is shown:
+1	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	3	det	_	_
+2	idealized	idealize	VERB	V	Tense=Past|VerbForm=Part	3	acl	_	_
+3	synthesis	synthesis	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+4	of	of	ADP	E	_	5	case	_	_
+5	1	1	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+6	-	-	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+7	octanol	octanol	NOUN	S	Number=Sing	9	nsubj:pass	_	_
+8	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	shown	shown	VERB	V	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	9	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 158
+# text = :al(c2h5)3 + 9 c2h4 → al(c8h17)3 :al(c8h17)3 + 3 o + 3 h2o → 3 hoc8h17 + al(oh)3
+1	:	:	PUNCT	FC	_	2	punct	_	SpaceAfter=No
+2	al	al	ADJ	A	Degree=Pos	7	amod	_	SpaceAfter=No
+3	(	(	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	c2h5	c2h5	PROPN	SP	_	2	appos	_	SpaceAfter=No
+5	)	)	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+6	3	3	NUM	N	NumType=Card	7	nummod	_	SpacesAfter=\s\s
+7	+	+	SYM	X	_	0	root	_	SpacesAfter=\s\s
+8	9	9	NUM	N	NumType=Card	10	nummod	_	_
+9	c2h4	c2h4	NUM	N	NumType=Card	10	nummod	_	SpacesAfter=\s\s\s
+10	→	→	SYM	X	_	7	nmod	_	SpacesAfter=\s\s
+11	al(	al(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	c8h17	c8h17	NUM	N	NumType=Card	10	nummod	_	SpaceAfter=No
+13	)	)	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	3	3	NUM	N	NumType=Card	10	nummod	_	SpacesAfter=\n
+15	:	:	PUNCT	FC	_	10	punct	_	SpaceAfter=No
+16	al(	al(	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	c8h17	c8h17	NUM	N	NumType=Card	10	nummod	_	SpaceAfter=No
+18	)	)	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+19	3	3	NUM	N	NumType=Card	20	nummod	_	_
+20	+	+	SYM	X	_	10	nmod	_	SpacesAfter=\s\s
+21	3	3	NUM	N	NumType=Card	20	nummod	_	_
+22	o	o	ADP	E	_	26	case	_	SpacesAfter=\s\s
+23	+	+	SYM	X	_	26	nmod	_	SpacesAfter=\s\s
+24	3	3	NUM	N	NumType=Card	26	nummod	_	_
+25	h2o	h2o	NUM	N	NumType=Card	26	nummod	_	SpacesAfter=\s\s
+26	→	→	SYM	X	_	20	nmod	_	SpacesAfter=\s\s
+27	3	3	NUM	N	NumType=Card	29	nummod	_	_
+28	hoc8h17	hoc8h17	NUM	N	NumType=Card	29	nummod	_	SpacesAfter=\s\s
+29	+	+	SYM	X	_	26	nmod	_	SpacesAfter=\s\s
+30	al(	al(	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+31	oh	oh	PRON	PI	PronType=Ind	29	conj	_	SpaceAfter=No
+32	)	)	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+33	3	3	NUM	N	NumType=Card	26	nummod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 159
+# text = the process generates a range of alcohols that are separated by distillation.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	process	process	NOUN	S	Number=Sing	3	nsubj	_	_
+3	generates	generate	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	5	det	_	_
+5	range	range	NOUN	S	Number=Sing	3	obj	_	_
+6	of	of	ADP	E	_	7	case	_	_
+7	alcohols	alcohol	NOUN	S	Number=Plur	5	nmod	_	_
+8	that	that	PRON	PR	PronType=Rel	10	nsubj:pass	_	_
+9	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	separated	separate	VERB	V	Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+11	by	by	ADP	E	_	12	case	_	_
+12	distillation	distillation	NOUN	S	Number=Sing	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 160
+# text = many higher alcohols are produced by hydroformylation of alkenes followed by hydrogenation.
+1	many	many	ADJ	A	Degree=Pos	3	amod	_	_
+2	higher	higher	ADJ	A	Degree=Cmp	3	amod	_	_
+3	alcohols	alcohol	NOUN	S	Number=Plur	5	nsubj:pass	_	_
+4	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	produced	produce	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+6	by	by	ADP	E	_	7	case	_	_
+7	hydroformylation	hydroformylation	NOUN	S	Number=Sing	5	obl	_	_
+8	of	of	ADP	E	_	9	case	_	_
+9	alkenes	alkene	NOUN	S	Number=Plur	7	nmod	_	_
+10	followed	follow	VERB	V	Tense=Past|VerbForm=Part	9	acl	_	_
+11	by	by	ADP	E	_	12	case	_	_
+12	hydrogenation	hydrogenation	NOUN	S	Number=Sing	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 161
+# text = when applied to a terminal alkene, as is common, one typically obtains a linear alcohol:
+1	when	when	SCONJ	CS	_	2	mark	_	_
+2	applied	apply	VERB	V	Tense=Past|VerbForm=Part	14	advcl	_	_
+3	to	to	ADP	E	_	6	case	_	_
+4	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	6	det	_	_
+5	terminal	terminal	ADJ	A	Degree=Pos	6	amod	_	_
+6	alkene	alkene	NOUN	S	Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	as	as	ADP	E	_	10	mark	_	_
+9	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	common	common	ADJ	A	Degree=Pos	2	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	one	one	PRON	PE	Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+13	typically	typically	ADV	B	_	14	advmod	_	_
+14	obtains	obtain	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	17	det	_	_
+16	linear	linear	ADJ	A	Degree=Pos	17	amod	_	_
+17	alcohol	alcohol	NOUN	S	Number=Sing	14	obj	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	14	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 162
+# text = :rch=ch2 + h2 + co → rch2ch2cho :rch2ch2cho + 3 h2 → rch2ch2ch2oh
+1	:	:	PUNCT	FC	_	8	punct	_	SpaceAfter=No
+2	rch=ch2	rch=ch2	NUM	N	NumType=Card	8	nummod	_	SpacesAfter=\s\s
+3	+	+	SYM	X	_	8	nmod	_	SpacesAfter=\s\s
+4	h2	h2	NUM	N	NumType=Card	5	nummod	_	SpacesAfter=\s\s
+5	+	+	SYM	X	_	8	nmod	_	SpacesAfter=\s\s
+6	co	co	ADJ	A	Degree=Pos	8	amod	_	SpacesAfter=\s\s\s
+7	→	→	SYM	X	_	8	nmod	_	SpacesAfter=\s\s
+8	rch2ch2cho	rch2ch2cho	NOUN	S	Number=Sing	10	nsubj	_	SpacesAfter=\n
+9	:	:	PUNCT	FC	_	8	punct	_	SpaceAfter=No
+10	rch2ch2cho	rch2ch2cho	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	+	+	SYM	X	_	10	obj	_	SpacesAfter=\s\s
+12	3	3	NUM	N	NumType=Card	15	nummod	_	_
+13	h2	h2	NUM	N	NumType=Card	15	nummod	_	SpacesAfter=\s\s
+14	→	→	SYM	X	_	15	nmod	_	SpacesAfter=\s\s
+15	rch2ch2ch2oh	rch2ch2ch2oh	NOUN	S	Number=Sing	11	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 163
+# text = such processes give fatty alcohols, which are useful for detergents.
+1	such	such	DET	DD	PronType=Dem	2	det	_	_
+2	processes	process	NOUN	S	Number=Plur	3	nsubj	_	_
+3	give	give	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	fatty	fatty	NUM	N	NumType=Card	5	nummod	_	_
+5	alcohols	alcohol	NOUN	S	Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	which	which	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	useful	useful	ADJ	A	Degree=Pos	5	acl:relcl	_	_
+10	for	for	ADP	E	_	11	case	_	_
+11	detergents	detergent	NOUN	S	Number=Plur	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 164
+# text = ===hydration reactions=== some low molecular weight alcohols of industrial importance are produced by the addition of water to alkenes.
+1	===hydration	===hydration	NOUN	S	Number=Sing	2	nmod	_	_
+2	reactions===	reactions===	NOUN	S	Number=Sing	7	nmod	_	SpacesAfter=\n
+3	some	some	DET	DI	PronType=Ind	7	det	_	_
+4	low	low	ADJ	A	Degree=Pos	7	amod	_	_
+5	molecular	molecular	ADJ	A	Degree=Pos	7	amod	_	_
+6	weight	weight	NOUN	S	Number=Sing	7	nmod	_	_
+7	alcohols	alcohol	NOUN	S	Number=Plur	12	nsubj:pass	_	_
+8	of	of	ADP	E	_	10	case	_	_
+9	industrial	industrial	ADJ	A	Degree=Pos	10	amod	_	_
+10	importance	importance	NOUN	S	Number=Sing	7	nmod	_	_
+11	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+12	produced	produce	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+13	by	by	ADP	E	_	15	case	_	_
+14	the	the	DET	RD	Definite=Def|PronType=Art	15	det	_	_
+15	addition	addition	NOUN	S	Number=Sing	12	obl	_	_
+16	of	of	ADP	E	_	17	case	_	_
+17	water	water	NOUN	S	Number=Sing	15	nmod	_	_
+18	to	to	ADP	E	_	19	case	_	_
+19	alkenes	alkene	NOUN	S	Number=Plur	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 165
+# text = ethanol, isopropanol, 2-butanol, and tert-butanol are produced by this general method.
+1	ethanol	ethanol	ADV	B	_	14	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	isopropanol	isopropanol	ADV	B	_	14	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	2	2	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+6	-	-	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+7	butanol	butanol	NOUN	S	Number=Sing	14	nsubj:pass	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	12	punct	_	_
+9	and	and	CCONJ	CC	_	12	cc	_	_
+10	tert	tert	NOUN	S	Number=Sing	12	nmod	_	SpaceAfter=No
+11	-	-	PUNCT	FF	_	10	punct	_	SpaceAfter=No
+12	butanol	butanol	NOUN	S	Number=Sing	7	conj	_	_
+13	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+14	produced	produce	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+15	by	by	ADP	E	_	18	case	_	_
+16	this	this	DET	DD	Number=Sing|PronType=Dem	18	det	_	_
+17	general	general	ADJ	A	Degree=Pos	18	amod	_	_
+18	method	method	NOUN	S	Number=Sing	14	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 166
+# text = two implementations are employed, the direct and indirect methods.
+1	two	two	NUM	N	NumType=Card	2	nummod	_	_
+2	implementations	implementation	NOUN	S	Number=Plur	4	nsubj:pass	_	_
+3	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	employed	employ	VERB	V	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	10	punct	_	_
+6	the	the	DET	RD	Definite=Def|PronType=Art	10	det	_	_
+7	direct	direct	ADJ	A	Degree=Pos	10	amod	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	indirect	indirect	ADJ	A	Degree=Pos	7	conj	_	_
+10	methods	method	NOUN	S	Number=Plur	4	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 167
+# text = the direct method avoids the formation of stable intermediates, typically using acid catalysts.
+1	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+2	direct	direct	ADJ	A	Degree=Pos	3	amod	_	_
+3	method	method	NOUN	S	Number=Sing	4	nsubj	_	_
+4	avoids	avoid	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+6	formation	formation	NOUN	S	Number=Sing	4	obj	_	_
+7	of	of	ADP	E	_	9	case	_	_
+8	stable	stable	ADJ	A	Degree=Pos	9	amod	_	_
+9	intermediates	intermediate	NOUN	S	Number=Plur	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	typically	typically	ADV	B	_	12	advmod	_	_
+12	using	use	VERB	V	VerbForm=Ger	4	advcl	_	_
+13	acid	acid	ADJ	A	Degree=Pos	14	amod	_	_
+14	catalysts	catalyst	NOUN	S	Number=Plur	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 168
+# text = in the indirect method, the alkene is converted to the sulfate ester, which is subsequently hydrolyzed.
+1	in	in	ADP	E	_	4	case	_	_
+2	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+3	indirect	indirect	ADJ	A	Degree=Pos	4	amod	_	_
+4	method	method	NOUN	S	Number=Sing	9	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+7	alkene	alkene	PRON	PE	Number=Sing|Person=3|PronType=Prs	9	nsubj:pass	_	_
+8	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	converted	convert	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+10	to	to	ADP	E	_	13	case	_	_
+11	the	the	DET	RD	Definite=Def|PronType=Art	13	det	_	_
+12	sulfate	sulfate	NOUN	S	Number=Sing	13	nmod	_	_
+13	ester	ester	NOUN	S	Number=Sing	9	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	9	punct	_	_
+15	which	which	PRON	PR	PronType=Rel	18	nsubj:pass	_	_
+16	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
+17	subsequently	subsequently	ADV	B	_	18	advmod	_	_
+18	hydrolyzed	hydrolyze	VERB	V	Tense=Past|VerbForm=Part	9	acl:relcl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 169
+# text = the direct hydration using ethylene (ethylene hydration) or other alkenes from cracking of fractions of distilled crude oil.
+1	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+2	direct	direct	ADJ	A	Degree=Pos	3	amod	_	_
+3	hydration	hydration	NOUN	S	Number=Sing	0	root	_	_
+4	using	use	VERB	V	Tense=Pres|VerbForm=Part	3	acl	_	_
+5	ethylene	ethylene	ADV	B	_	4	advmod	_	_
+6	(	(	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+7	ethylene	ethylene	VERB	V	Tense=Past|VerbForm=Part	8	acl	_	_
+8	hydration	hydration	NOUN	S	Number=Sing	3	conj	_	SpaceAfter=No
+9	)	)	PUNCT	FB	_	8	punct	_	_
+10	or	or	CCONJ	CC	_	12	cc	_	_
+11	other	other	ADJ	A	Degree=Pos	12	amod	_	_
+12	alkenes	alkene	NOUN	S	Number=Plur	3	conj	_	_
+13	from	from	ADP	E	_	14	case	_	_
+14	cracking	cracking	NOUN	S	Number=Sing	3	nmod	_	_
+15	of	of	ADP	E	_	16	case	_	_
+16	fractions	fraction	NOUN	S	Number=Plur	14	nmod	_	_
+17	of	of	ADP	E	_	20	case	_	_
+18	distilled	distil	ADJ	A	Degree=Pos	19	amod	_	_
+19	crude	crude	NOUN	S	Number=Sing	20	nmod	_	_
+20	oil	oil	NOUN	S	Number=Sing	16	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 170
+# text = hydration is also used industrially to produce the diol ethylene glycol from ethylene oxide.
+1	hydration	hydration	NOUN	S	Number=Sing	4	nsubj:pass	_	_
+2	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+3	also	also	ADV	B	_	4	advmod	_	_
+4	used	use	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+5	industrially	industrially	ADV	B	_	4	advmod	_	_
+6	to	to	PART	PART	_	7	mark	_	_
+7	produce	produce	VERB	V	VerbForm=Inf	4	xcomp	_	_
+8	the	the	DET	RD	Definite=Def|PronType=Art	10	det	_	_
+9	diol	diol	ADJ	A	Degree=Pos	10	amod	_	_
+10	ethylene	ethylene	NOUN	S	Number=Sing	7	obj	_	_
+11	glycol	glycol	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12	from	from	ADP	E	_	14	case	_	_
+13	ethylene	ethylene	NUM	N	NumType=Card	14	nummod	_	_
+14	oxide	oxide	NOUN	S	_	7	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 171
+# text = ===biological routes=== ethanol is obtained by fermentation using glucose produced from sugar from the hydrolysis of starch, in the presence of yeast and temperature of less than 37 °c to produce ethanol.
+1	===biological	===biological	ADJ	A	Degree=Pos	2	amod	_	_
+2	routes===	routes===	NOUN	S	Number=Sing	5	nsubj:pass	_	SpacesAfter=\n
+3	ethanol	ethanol	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	obtained	obtain	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+6	by	by	ADP	E	_	7	case	_	_
+7	fermentation	fermentation	NOUN	S	Number=Sing	5	obl	_	_
+8	using	use	VERB	V	Tense=Pres|VerbForm=Part	10	acl	_	_
+9	glucose	glucose	PRON	PD	Number=Plur|PronType=Dem	10	nsubj	_	_
+10	produced	produce	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	5	advcl	_	_
+11	from	from	ADP	E	_	12	case	_	_
+12	sugar	sugar	NOUN	S	Number=Sing	10	obl	_	_
+13	from	from	ADP	E	_	15	case	_	_
+14	the	the	DET	RD	Definite=Def|PronType=Art	15	det	_	_
+15	hydrolysis	hydrolysis	NOUN	S	Number=Sing	12	nmod	_	_
+16	of	of	ADP	E	_	17	case	_	_
+17	starch	starch	NOUN	S	Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	10	punct	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	the	the	DET	RD	Definite=Def|PronType=Art	21	det	_	_
+21	presence	presence	NOUN	S	Number=Sing	10	obl	_	_
+22	of	of	ADP	E	_	23	case	_	_
+23	yeast	yeast	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	temperature	temperature	NOUN	S	Number=Sing	23	conj	_	_
+26	of	of	ADP	E	_	27	case	_	_
+27	less	less	ADV	B	Degree=Cmp	30	advmod	_	_
+28	than	than	ADP	E	_	29	case	_	_
+29	37	37	NUM	N	NumType=Card	30	nummod	_	SpacesAfter= 
+30	°c	°c	ADJ	A	Degree=Pos	25	amod	_	_
+31	to	to	PART	PART	_	32	mark	_	_
+32	produce	produce	VERB	V	VerbForm=Inf	30	advcl	_	_
+33	ethanol	ethanol	ADV	B	_	32	advmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 172
+# text = for instance, such a process might proceed by the conversion of sucrose by the enzyme invertase into glucose and fructose, then the conversion of glucose by the enzyme complex zymase into ethanol (and carbon dioxide).
+1	for	for	ADP	E	_	2	case	_	_
+2	instance	instance	NOUN	S	Number=Sing	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	such	such	DET	DD	PronType=Dem	6	det	_	_
+5	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	6	det	_	_
+6	process	process	NOUN	S	Number=Sing	8	nsubj	_	_
+7	might	may	AUX	VM	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+8	proceed	proceed	VERB	V	VerbForm=Inf	0	root	_	_
+9	by	by	ADP	E	_	11	case	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	11	det	_	_
+11	conversion	conversion	NOUN	S	Number=Sing	8	obl	_	_
+12	of	of	ADP	E	_	13	case	_	_
+13	sucrose	sucrose	NOUN	S	Number=Sing	11	nmod	_	_
+14	by	by	ADP	E	_	17	case	_	_
+15	the	the	DET	RD	Definite=Def|PronType=Art	17	det	_	_
+16	enzyme	enzyme	NOUN	S	Number=Sing	17	nmod	_	_
+17	invertase	invertase	NOUN	S	Number=Sing	8	obl	_	_
+18	into	into	ADP	E	_	19	case	_	_
+19	glucose	glucose	NOUN	S	Number=Sing	17	nmod	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	fructose	fructose	NOUN	S	Number=Sing	19	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	8	punct	_	_
+23	then	then	ADV	B	_	25	advmod	_	_
+24	the	the	DET	RD	Definite=Def|PronType=Art	25	det	_	_
+25	conversion	conversion	NOUN	S	Number=Sing	8	conj	_	_
+26	of	of	ADP	E	_	27	case	_	_
+27	glucose	glucose	NOUN	S	Number=Sing	25	nmod	_	_
+28	by	by	ADP	E	_	32	case	_	_
+29	the	the	DET	RD	Definite=Def|PronType=Art	32	det	_	_
+30	enzyme	enzyme	NOUN	S	Number=Sing	32	nmod	_	_
+31	complex	complex	ADJ	A	Degree=Pos	32	amod	_	_
+32	zymase	zymase	NOUN	S	Number=Sing	25	nmod	_	_
+33	into	into	ADP	E	_	34	case	_	_
+34	ethanol	ethanol	NOUN	S	Number=Sing	25	nmod	_	_
+35	(	(	PUNCT	FB	_	38	punct	_	SpaceAfter=No
+36	and	and	CCONJ	CC	_	38	cc	_	_
+37	carbon	carbon	NOUN	S	Number=Sing	38	nmod	_	_
+38	dioxide	dioxide	NOUN	S	Number=Sing	25	conj	_	SpaceAfter=No
+39	)	)	PUNCT	FB	_	38	punct	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 173
+# text = several species of the benign bacteria in the intestine use fermentation as a form of anaerobic metabolism.
+1	several	several	ADJ	A	Degree=Pos	2	amod	_	_
+2	species	species	NOUN	S	Number=Plur	0	root	_	_
+3	of	of	ADP	E	_	6	case	_	_
+4	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+5	benign	benign	ADJ	A	Degree=Pos	6	amod	_	_
+6	bacteria	bacterion	NOUN	S	Number=Sing	2	nmod	_	_
+7	in	in	ADP	E	_	11	case	_	_
+8	the	the	DET	RD	Definite=Def|PronType=Art	11	det	_	_
+9	intestine	intestine	ADJ	A	Degree=Pos	11	amod	_	_
+10	use	use	NOUN	S	Number=Sing	11	nmod	_	_
+11	fermentation	fermentation	NOUN	S	Number=Sing	2	nmod	_	_
+12	as	as	ADP	E	_	14	case	_	_
+13	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	14	det	_	_
+14	form	form	NOUN	S	Number=Sing	2	nmod	_	_
+15	of	of	ADP	E	_	17	case	_	_
+16	anaerobic	anaerobic	ADJ	A	Degree=Pos	17	amod	_	_
+17	metabolism	metabolism	NOUN	S	Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 174
+# text = this metabolic reaction produces ethanol as a waste product.
+1	this	this	DET	DD	Number=Sing|PronType=Dem	4	det	_	_
+2	metabolic	metabolic	ADJ	A	Degree=Pos	4	amod	_	_
+3	reaction	reaction	NOUN	S	Number=Sing	4	nmod	_	_
+4	produces	produce	NOUN	S	Number=Plur	0	root	_	_
+5	ethanol	ethanol	ADJ	A	Degree=Pos	4	amod	_	_
+6	as	as	ADP	E	_	9	case	_	_
+7	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	9	det	_	_
+8	waste	waste	ADJ	A	Degree=Pos	9	amod	_	_
+9	product	product	NOUN	S	Number=Sing	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 175
+# text = thus, human bodies contain some quantity of alcohol endogenously produced by these bacteria.
+1	thus	thus	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	human	human	ADJ	A	Degree=Pos	4	amod	_	_
+4	bodies	body	NOUN	S	Number=Plur	5	nsubj	_	_
+5	contain	contain	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	some	some	DET	DI	PronType=Ind	7	det	_	_
+7	quantity	quantity	NOUN	S	Number=Sing	5	obj	_	_
+8	of	of	ADP	E	_	11	mark	_	_
+9	alcohol	alcohol	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	endogenously	endogenously	ADV	B	_	11	advmod	_	_
+11	produced	produce	VERB	V	Tense=Past|VerbForm=Part	7	acl	_	_
+12	by	by	ADP	E	_	14	case	_	_
+13	these	this	DET	DD	Number=Plur|PronType=Dem	14	det	_	_
+14	bacteria	bacterion	NOUN	S	Number=Plur	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 176
+# text = in rare cases, this can be sufficient to cause "auto-brewery syndrome" in which intoxicating quantities of alcohol are produced.
+1	in	in	ADP	E	_	3	case	_	_
+2	rare	rare	ADJ	A	Degree=Pos	3	amod	_	_
+3	cases	case	NOUN	S	Number=Plur	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	this	this	PRON	PD	Number=Sing|PronType=Dem	8	nsubj	_	_
+6	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	be	be	AUX	V	VerbForm=Inf	8	cop	_	_
+8	sufficient	sufficient	ADJ	A	Degree=Pos	0	root	_	_
+9	to	to	PART	PART	_	10	mark	_	_
+10	cause	cause	VERB	V	VerbForm=Inf	8	advcl	_	_
+11	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+12	auto	auto	ADP	E	_	15	case	_	SpaceAfter=No
+13	-	-	PUNCT	FF	_	14	punct	_	SpaceAfter=No
+14	brewery	brewery	ADJ	A	Degree=Pos	15	amod	_	_
+15	syndrome	syndrome	NOUN	S	Number=Sing	10	obj	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	15	punct	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	which	which	PRON	PR	PronType=Rel	24	obl	_	_
+19	intoxicating	intoxicat	VERB	V	Person=3|VerbForm=Ger	24	nsubj:pass	_	_
+20	quantities	quantity	NOUN	S	Number=Plur	19	obj	_	_
+21	of	of	ADP	E	_	22	case	_	_
+22	alcohol	alcohol	NOUN	S	Number=Sing	20	nmod	_	_
+23	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	24	aux:pass	_	_
+24	produced	produce	VERB	V	Tense=Past|VerbForm=Part	10	acl:relcl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 177
+# text = like ethanol, butanol can be produced by fermentation processes.
+1	like	like	ADP	E	_	2	case	_	_
+2	ethanol	ethanol	NOUN	S	Number=Sing	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	butanol	butanol	NOUN	S	Number=Sing	7	nsubj:pass	_	_
+5	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	be	be	AUX	VA	VerbForm=Inf	7	aux:pass	_	_
+7	produced	produce	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+8	by	by	ADP	E	_	10	case	_	_
+9	fermentation	fermentation	NOUN	S	Number=Sing	10	nmod	_	_
+10	processes	process	NOUN	S	Number=Plur	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 178
+# text = saccharomyces yeast are known to produce these higher alcohols at temperatures above . the bacterium ''clostridium acetobutylicum'' can feed on cellulose to produce butanol on an industrial scale.
+1	saccharomyces	saccharomyce	NOUN	S	Number=Plur	4	nsubj	_	_
+2	yeast	yeast	ADV	B	Degree=Sup	1	advmod	_	_
+3	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	known	known	ADJ	A	Degree=Pos	23	nsubj	_	_
+5	to	to	PART	PART	_	6	mark	_	_
+6	produce	produce	VERB	V	VerbForm=Inf	4	advcl	_	_
+7	these	this	DET	DD	Number=Plur|PronType=Dem	9	det	_	_
+8	higher	higher	ADJ	A	Degree=Cmp	9	amod	_	_
+9	alcohols	alcohol	NOUN	S	Number=Plur	6	obj	_	_
+10	at	at	ADP	E	_	11	case	_	_
+11	temperatures	temperature	NOUN	S	Number=Plur	6	obl	_	_
+12	above	above	ADV	B	_	11	advmod	_	_
+13	.	.	PUNCT	FS	_	4	punct	_	_
+14	the	the	DET	RD	Definite=Def|PronType=Art	15	det	_	_
+15	bacterium	bacterium	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+16	'	'	PART	PART	_	15	case	_	SpaceAfter=No
+17	'	'	PART	PART	_	15	case	_	SpaceAfter=No
+18	clostridium	clostridium	VERB	V	VerbForm=Inf	4	acl	_	_
+19	acetobutylicum	acetobutylicum	NOUN	S	Number=Sing	18	obl	_	SpaceAfter=No
+20	'	'	PART	PART	_	19	case	_	SpaceAfter=No
+21	'	'	PART	PART	_	19	case	_	_
+22	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	feed	feed	VERB	V	VerbForm=Inf	0	root	_	_
+24	on	on	ADP	E	_	25	case	_	_
+25	cellulose	cellulose	NOUN	S	Number=Sing	23	obl	_	_
+26	to	to	PART	PART	_	27	mark	_	_
+27	produce	produce	VERB	V	VerbForm=Inf	23	advcl	_	_
+28	butanol	butanol	NOUN	S	Number=Sing	27	obj	_	_
+29	on	on	ADP	E	_	32	case	_	_
+30	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	32	det	_	_
+31	industrial	industrial	ADJ	A	Degree=Pos	32	amod	_	_
+32	scale	scale	NOUN	S	Number=Sing	27	obl	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	23	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 179
+# text = ====substitution==== primary alkyl halides react with aqueous naoh or koh mainly to primary alcohols in nucleophilic aliphatic substitution.
+1	====substitution====	====substitution====	NOUN	S	Number=Sing	4	nsubj	_	SpacesAfter=\n
+2	primary	primary	ADJ	A	Degree=Pos	1	amod	_	_
+3	alkyl	alkyl	ADV	B	_	4	advmod	_	_
+4	halides	halide	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	react	react	NOUN	S	Number=Sing	4	obj	_	_
+6	with	with	ADP	E	_	8	mark	_	_
+7	aqueous	aqueous	PRON	PE	Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+8	naoh	naoh	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+9	or	or	CCONJ	CC	_	10	cc	_	_
+10	koh	koh	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	8	conj	_	_
+11	mainly	mainly	ADV	B	_	10	advmod	_	_
+12	to	to	ADP	E	_	14	case	_	_
+13	primary	primary	ADJ	A	Degree=Pos	14	amod	_	_
+14	alcohols	alcohol	NOUN	S	Number=Plur	10	obl	_	_
+15	in	in	ADP	E	_	18	case	_	_
+16	nucleophilic	nucleophilic	ADJ	A	Degree=Pos	18	amod	_	_
+17	aliphatic	aliphatic	ADJ	A	Degree=Pos	18	amod	_	_
+18	substitution	substitution	NOUN	S	Number=Sing	10	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 180
+# text = (secondary and especially tertiary alkyl halides will give the elimination (alkene) product instead).
+1	(	(	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	secondary	secondary	ADJ	A	Degree=Pos	6	amod	_	_
+3	and	and	CCONJ	CC	_	5	cc	_	_
+4	especially	especially	ADV	B	_	5	advmod	_	_
+5	tertiary	tertiary	ADJ	A	Degree=Pos	2	conj	_	_
+6	alkyl	alkyl	ADV	B	_	7	advmod	_	_
+7	halides	halide	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	will	will	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	give	give	VERB	V	VerbForm=Inf	7	conj	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	11	det	_	_
+11	elimination	elimination	NOUN	S	Number=Sing	9	obj	_	_
+12	(	(	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+13	alkene	alkene	NUM	N	NumType=Card	11	nummod	_	SpaceAfter=No
+14	)	)	PUNCT	FB	_	13	punct	_	_
+15	product	product	NOUN	S	Number=Sing	11	nmod	_	_
+16	instead	instead	ADV	B	_	9	advmod	_	SpaceAfter=No
+17	)	)	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 181
+# text = grignard reagents react with carbonyl groups to secondary and tertiary alcohols.
+1	grignard	grignard	ADJ	A	Degree=Pos	2	amod	_	_
+2	reagents	reagent	NOUN	S	Number=Plur	3	nsubj	_	_
+3	react	react	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	with	with	ADP	E	_	6	case	_	_
+5	carbonyl	carbonyl	ADJ	A	Degree=Pos	6	amod	_	_
+6	groups	group	NOUN	S	Number=Plur	3	obl	_	_
+7	to	to	PART	PART	_	8	mark	_	_
+8	secondary	secondary	VERB	V	VerbForm=Inf	3	xcomp	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	tertiary	tertiary	ADJ	A	Degree=Pos	11	amod	_	_
+11	alcohols	alcohol	NOUN	S	Number=Plur	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 182
+# text = related reactions are the barbier reaction and the nozaki-hiyama reaction.
+1	related	related	ADJ	A	Degree=Pos	2	amod	_	_
+2	reactions	reaction	NOUN	S	Number=Plur	6	nsubj	_	_
+3	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+5	barbier	barbier	ADJ	A	Degree=Pos	6	amod	_	_
+6	reaction	reaction	NOUN	S	Number=Sing	0	root	_	_
+7	and	and	CCONJ	CC	_	12	cc	_	_
+8	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+9	nozaki	nozaki	X	X	_	11	nmod	_	SpaceAfter=No
+10	-	-	PUNCT	FF	_	9	punct	_	SpaceAfter=No
+11	hiyama	hiyama	DET	RI	Definite=Ind|Number=Sing|PronType=Art	12	det	_	_
+12	reaction	reaction	NOUN	S	Number=Sing	6	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 183
+# text = ====reduction==== aldehydes or ketones are reduced with sodium borohydride or lithium aluminium hydride (after an acidic workup).
+1	====reduction====	====reduction====	NOUN	S	Number=Sing	2	nmod	_	SpacesAfter=\n
+2	aldehydes	aldehyde	NOUN	S	Number=Plur	6	nsubj:pass	_	_
+3	or	or	CCONJ	CC	_	4	cc	_	_
+4	ketones	ketone	NOUN	S	Number=Plur	2	conj	_	_
+5	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	reduced	reduce	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+7	with	with	ADP	E	_	8	case	_	_
+8	sodium	sodium	PRON	PE	Number=Plur|Person=3|PronType=Prs	6	obl	_	_
+9	borohydride	borohydride	ADJ	A	Degree=Pos	8	amod	_	_
+10	or	or	CCONJ	CC	_	12	cc	_	_
+11	lithium	lithium	ADJ	A	Degree=Pos	12	amod	_	_
+12	aluminium	aluminium	NOUN	S	Number=Sing	9	conj	_	_
+13	hydride	hydride	ADV	B	_	6	advmod	_	_
+14	(	(	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+15	after	after	ADP	E	_	18	case	_	_
+16	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	18	det	_	_
+17	acidic	acidic	ADJ	A	Degree=Pos	18	amod	_	_
+18	workup	workup	NOUN	S	Number=Sing	6	obl	_	SpaceAfter=No
+19	)	)	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 184
+# text = another reduction by aluminiumisopropylates is the meerwein-ponndorf-verley reduction.
+1	another	another	DET	RI	Definite=Ind|Number=Sing|PronType=Art	2	det	_	_
+2	reduction	reduction	NOUN	S	Number=Sing	12	nsubj	_	_
+3	by	by	ADP	E	_	4	case	_	_
+4	aluminiumisopropylates	aluminiumisopropylate	NOUN	S	Number=Plur	2	nmod	_	_
+5	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+6	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+7	meerwein	meerwein	NOUN	S	Number=Sing	9	nmod	_	SpaceAfter=No
+8	-	-	PUNCT	FF	_	9	punct	_	SpaceAfter=No
+9	ponndorf	ponndorf	NOUN	S	Number=Sing	11	nmod	_	SpaceAfter=No
+10	-	-	PUNCT	FF	_	11	punct	_	SpaceAfter=No
+11	verley	verley	NOUN	S	Number=Sing	12	nmod	_	_
+12	reduction	reduction	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 185
+# text = noyori asymmetric hydrogenation is the asymmetric reduction of β-keto-esters.
+1	noyori	noyori	ADJ	A	Degree=Pos	3	amod	_	_
+2	asymmetric	asymmetric	ADJ	A	Degree=Pos	3	amod	_	_
+3	hydrogenation	hydrogenation	NOUN	S	Number=Sing	7	nsubj	_	_
+4	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+6	asymmetric	asymmetric	ADJ	A	Degree=Pos	7	amod	_	_
+7	reduction	reduction	NOUN	S	Number=Sing	0	root	_	_
+8	of	of	ADP	E	_	11	case	_	_
+9	β-keto	β-keto	NUM	N	NumType=Card	11	nummod	_	SpaceAfter=No
+10	-	-	PUNCT	FF	_	11	punct	_	SpaceAfter=No
+11	esters	ester	NOUN	S	Number=Plur	7	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 186
+# text = ====hydrolysis==== alkenes engage in an acid catalysed hydration reaction using concentrated sulfuric acid as a catalyst that gives usually secondary or tertiary alcohols.
+1	====hydrolysis====	====hydrolysis====	NOUN	S	Number=Sing	2	nmod	_	SpacesAfter=\n
+2	alkenes	alkene	PRON	PE	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	engage	engage	VERB	V	VerbForm=Inf	0	root	_	_
+4	in	in	ADP	E	_	9	case	_	_
+5	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	9	det	_	_
+6	acid	acid	ADJ	A	Degree=Pos	8	amod	_	_
+7	catalysed	catalyse	ADJ	A	Degree=Pos	8	amod	_	_
+8	hydration	hydration	NOUN	S	Number=Sing	9	nmod	_	_
+9	reaction	reaction	NOUN	S	Number=Sing	3	obl	_	_
+10	using	use	VERB	V	VerbForm=Ger	9	acl	_	_
+11	concentrated	concentrated	ADJ	A	Degree=Pos	13	amod	_	_
+12	sulfuric	sulfuric	ADJ	A	Degree=Pos	13	amod	_	_
+13	acid	acid	VERB	V	Tense=Past|VerbForm=Part	10	xcomp	_	_
+14	as	as	ADP	E	_	16	case	_	_
+15	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	16	det	_	_
+16	catalyst	catalyst	NOUN	S	Number=Sing	13	obl	_	_
+17	that	that	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	gives	give	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+19	usually	usually	ADV	B	_	20	advmod	_	_
+20	secondary	secondary	ADJ	A	Degree=Pos	23	amod	_	_
+21	or	or	CCONJ	CC	_	22	cc	_	_
+22	tertiary	tertiary	ADJ	A	Degree=Pos	20	conj	_	_
+23	alcohols	alcohol	NOUN	S	Number=Plur	18	obj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 187
+# text = the hydroboration-oxidation and oxymercuration-reduction of alkenes are more reliable in organic synthesis.
+1	the	the	DET	RD	Definite=Def|PronType=Art	8	det	_	_
+2	hydroboration	hydroboration	NOUN	S	Number=Sing	4	nmod	_	SpaceAfter=No
+3	-	-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+4	oxidation	oxidation	NOUN	S	Number=Sing	8	nmod	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	oxymercuration	oxymercuration	NOUN	S	Number=Sing	4	conj	_	SpaceAfter=No
+7	-	-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+8	reduction	reduction	NOUN	S	Number=Sing	13	nsubj	_	_
+9	of	of	ADP	E	_	10	case	_	_
+10	alkenes	alkene	NOUN	S	Number=Plur	8	nmod	_	_
+11	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	more	more	ADV	B	Degree=Cmp	13	advmod	_	_
+13	reliable	reliable	ADJ	A	Degree=Pos	0	root	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	organic	organic	ADJ	A	Degree=Pos	16	amod	_	_
+16	synthesis	synthesis	NOUN	S	Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 188
+# text = alkenes react with nbs and water in halohydrin formation reaction.
+1	alkenes	alkene	PRON	PE	Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	react	react	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	with	with	ADP	E	_	4	case	_	_
+4	nbs	nb	NOUN	S	Number=Plur	2	obl	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	water	water	NOUN	S	Number=Sing	4	conj	_	_
+7	in	in	ADP	E	_	10	case	_	_
+8	halohydrin	halohydrin	DET	DI	PronType=Ind	10	det	_	_
+9	formation	formation	NOUN	S	Number=Sing	10	nmod	_	_
+10	reaction	reaction	NOUN	S	Number=Sing	2	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 189
+# text = amines can be converted to diazonium salts, which are then hydrolyzed.
+1	amines	amine	PRON	PE	Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	_
+2	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VA	VerbForm=Inf	4	aux:pass	_	_
+4	converted	convert	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+5	to	to	PART	PART	_	6	mark	_	_
+6	diazonium	diazonium	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	salts	salt	NOUN	S	Number=Plur	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	which	which	PRON	PR	PronType=Rel	12	nsubj:pass	_	_
+10	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+11	then	then	ADV	B	_	12	advmod	_	_
+12	hydrolyzed	hydrolyze	VERB	V	Tense=Past|VerbForm=Part	7	acl:relcl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 190
+# text = the formation of a secondary alcohol via reduction and hydration is shown:
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	formation	formation	NOUN	S	Number=Sing	12	nsubj:pass	_	_
+3	of	of	ADP	E	_	6	case	_	_
+4	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	6	det	_	_
+5	secondary	secondary	ADJ	A	Degree=Pos	6	amod	_	_
+6	alcohol	alcohol	NOUN	S	Number=Sing	2	nmod	_	_
+7	via	via	ADP	E	_	8	case	_	_
+8	reduction	reduction	NOUN	S	Number=Sing	6	nmod	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	hydration	hydration	NOUN	S	Number=Sing	8	conj	_	_
+11	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+12	shown	show	VERB	V	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	12	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 191
+# text = :preparation of a secondary alcohol
+1	:	:	PUNCT	FC	_	2	punct	_	SpaceAfter=No
+2	preparation	preparation	NOUN	S	Number=Sing	0	root	_	_
+3	of	of	ADP	E	_	6	case	_	_
+4	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	6	det	_	_
+5	secondary	secondary	ADJ	A	Degree=Pos	6	amod	_	_
+6	alcohol	alcohol	NOUN	S	Number=Sing	2	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 192
+# text = ==reactions==
+1	==reactions==	==reactions==	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 193
+# text = ===deprotonation=== with a pka of around 16–19, they are, in general, slightly weaker acids than water.
+1	===deprotonation===	===deprotonation===	NOUN	S	Number=Sing	19	nmod	_	SpacesAfter=\n
+2	with	with	ADP	E	_	4	case	_	_
+3	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	4	det	_	_
+4	pka	pka	NOUN	S	Number=Sing	1	nmod	_	_
+5	of	of	ADP	E	_	6	case	_	_
+6	around	around	NOUN	S	Number=Sing	4	nmod	_	_
+7	16	16	NUM	N	NumType=Card	6	nummod	_	SpaceAfter=No
+8	–	–	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+9	19	19	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	they	they	PRON	PE	Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
+12	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	19	cop	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	in	in	ADP	E	_	19	case	_	_
+15	general	full	ADJ	A	Number=Sing	19	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	slightly	slightly	ADV	B	_	18	advmod	_	_
+18	weaker	weaker	ADJ	A	Degree=Cmp	19	amod	_	_
+19	acids	acid	NOUN	S	Number=Plur	0	root	_	_
+20	than	than	ADP	E	_	21	case	_	_
+21	water	water	NOUN	S	Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	19	punct	_	SpacesAfter=\s\s
+
+# sent_id = 194
+# text = with strong bases such as sodium hydride or sodium they form salts called '''alkoxides''', with the general formula ro− m+.
+1	with	with	ADP	E	_	3	case	_	_
+2	strong	strong	ADJ	A	Degree=Pos	3	amod	_	_
+3	bases	base	NOUN	S	Number=Plur	0	root	_	_
+4	such	such	ADJ	A	Degree=Pos	6	amod	_	_
+5	as	as	ADP	E	_	4	fixed	_	_
+6	sodium	sodium	PRON	PE	Number=Plur|Person=3|PronType=Prs	3	nmod	_	_
+7	hydride	hydride	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	6	conj	_	_
+8	or	or	CCONJ	CC	_	9	cc	_	_
+9	sodium	sodium	PRON	PE	Number=Plur|Person=3|PronType=Prs	7	conj	_	_
+10	they	they	PRON	PE	Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+11	form	form	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+12	salts	salt	NOUN	S	Number=Plur	11	obj	_	SpacesAfter=\s\s
+13	called	call	VERB	V	Tense=Past|VerbForm=Part	12	acl	_	_
+14	'	'	PART	PART	_	13	case	_	SpaceAfter=No
+15	'	'	PART	PART	_	13	case	_	SpaceAfter=No
+16	'	'	PART	PART	_	13	obl	_	SpaceAfter=No
+17	alkoxides	alkoxides	NOUN	S	Number=Plur	20	nmod	_	SpaceAfter=No
+18	'	'	PART	PART	_	17	case	_	SpaceAfter=No
+19	'	'	PART	PART	_	17	case	_	SpaceAfter=No
+20	'	'	PART	PART	_	16	case	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	13	punct	_	_
+22	with	with	ADP	E	_	27	case	_	_
+23	the	the	DET	RD	Definite=Def|PronType=Art	27	det	_	_
+24	general	general	ADJ	A	Degree=Pos	26	amod	_	_
+25	formula	formula	NOUN	S	Number=Sing	26	nmod	_	_
+26	ro−	ro−	NOUN	S	Number=Sing	27	nmod	_	_
+27	m+	m+	NOUN	S	Number=Sing	13	obl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 195
+# text = : 2 r-oh + 2 nah → 2 r-o−na+ + 2 h2 : 2 r-oh + 2 na → 2 r-o−na+ + h2
+1	:	:	PUNCT	FC	_	3	punct	_	_
+2	2	2	NUM	N	NumType=Card	3	nummod	_	_
+3	r	r	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+4	-	-	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+5	oh	oh	PRON	PI	PronType=Ind	3	nmod	_	_
+6	+	+	SYM	X	_	5	nmod	_	_
+7	2	2	NUM	N	NumType=Card	9	nummod	_	_
+8	nah	nah	NOUN	S	Number=Sing	9	nmod	_	SpacesAfter=\s\s
+9	→	→	SYM	X	_	6	nmod	_	_
+10	2	2	NUM	N	NumType=Card	30	nummod	_	_
+11	r	r	ADJ	A	Degree=Pos	30	amod	_	SpaceAfter=No
+12	-	-	PUNCT	FF	_	13	punct	_	SpaceAfter=No
+13	o−na+	o−na+	NOUN	S	Number=Sing	30	nmod	_	_
+14	+	+	SYM	X	_	30	nmod	_	_
+15	2	2	NUM	N	NumType=Card	30	nummod	_	_
+16	h2	h2	NUM	N	NumType=Card	15	flat	_	SpacesAfter=\n
+17	:	:	PUNCT	FC	_	15	punct	_	_
+18	2	2	NUM	N	NumType=Card	19	nummod	_	_
+19	r	r	NOUN	S	Number=Sing	30	nmod	_	SpaceAfter=No
+20	-	-	PUNCT	FF	_	21	punct	_	SpaceAfter=No
+21	oh	oh	PRON	PI	PronType=Ind	30	nmod	_	_
+22	+	+	SYM	X	_	30	nmod	_	_
+23	2	2	NUM	N	NumType=Card	29	nummod	_	_
+24	na	na	X	SW	_	29	nmod	_	SpacesAfter=\s\s\s
+25	→	→	SYM	X	_	29	nmod	_	SpacesAfter=\s\s\s
+26	2	2	NUM	N	NumType=Card	29	nummod	_	_
+27	r	r	ADJ	A	Degree=Pos	29	amod	_	SpaceAfter=No
+28	-	-	PUNCT	FF	_	29	punct	_	SpaceAfter=No
+29	o−na+	o−na+	NOUN	S	Number=Sing	30	nmod	_	_
+30	+	+	SYM	X	_	9	nmod	_	_
+31	h2	h2	NUM	N	NumType=Card	30	nummod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 196
+# text = the acidity of alcohols is strongly affected by solvation.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	acidity	acidity	NOUN	S	Number=Sing	7	nsubj:pass	_	_
+3	of	of	ADP	E	_	4	case	_	_
+4	alcohols	alcohol	NOUN	S	Number=Plur	2	nmod	_	_
+5	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+6	strongly	strongly	ADV	B	_	7	advmod	_	_
+7	affected	affect	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+8	by	by	ADP	E	_	9	case	_	_
+9	solvation	solvation	NOUN	S	Number=Sing	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\s\s
+
+# sent_id = 197
+# text = in the gas phase, alcohols are more acidic than is water.
+1	in	in	ADP	E	_	4	case	_	_
+2	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+3	gas	gas	NOUN	S	_	4	nmod	_	_
+4	phase	phase	NOUN	S	Number=Sing	9	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	alcohols	alcohol	NOUN	S	Number=Plur	9	nsubj	_	_
+7	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	more	more	ADV	B	Degree=Cmp	9	advmod	_	_
+9	acidic	acidic	ADJ	A	Degree=Pos	0	root	_	_
+10	than	than	ADP	E	_	12	case	_	_
+11	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	water	water	NOUN	S	Number=Sing	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 198
+# text = ===nucleophilic substitution=== the oh group is not a good leaving group in nucleophilic substitution reactions, so neutral alcohols do not react in such reactions.
+1	===nucleophilic	===nucleophilic	ADJ	A	Degree=Pos	2	amod	_	_
+2	substitution===	substitution===	NOUN	S	Number=Sing	5	nmod	_	SpacesAfter=\n
+3	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+4	oh	oh	ADJ	A	Degree=Pos	5	amod	_	_
+5	group	group	NOUN	S	Number=Sing	11	nsubj	_	_
+6	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+7	not	not	PART	PART	Polarity=Neg	11	advmod	_	_
+8	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	11	det	_	_
+9	good	good	ADJ	A	Degree=Pos	11	amod	_	_
+10	leaving	leaving	NOUN	S	Number=Sing	11	nmod	_	_
+11	group	group	NOUN	S	Number=Sing	22	obl	_	_
+12	in	in	ADP	E	_	15	case	_	_
+13	nucleophilic	nucleophilic	ADJ	A	Degree=Pos	14	amod	_	_
+14	substitution	substitution	NOUN	S	Number=Sing	15	nmod	_	_
+15	reactions	reaction	NOUN	S	Number=Plur	11	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	11	punct	_	_
+17	so	so	ADV	B	_	18	advmod	_	_
+18	neutral	neutral	ADJ	A	Degree=Pos	19	amod	_	_
+19	alcohols	alcohol	NOUN	S	Number=Plur	22	nsubj	_	_
+20	do	do	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	not	not	PART	PART	Polarity=Neg	22	advmod	_	_
+22	react	react	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	such	such	DET	DD	PronType=Dem	25	det	_	_
+25	reactions	reaction	NOUN	S	Number=Plur	22	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 199
+# text = however, if the oxygen is first protonated to give r−oh2+, the leaving group (water) is much more stable, and the nucleophilic substitution can take place.
+1	however	however	ADV	B	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	if	if	SCONJ	CS	_	8	mark	_	_
+4	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+5	oxygen	oxygen	NOUN	S	Number=Sing	8	nsubj	_	_
+6	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	first	first	PRON	NO	NumType=Ord|PronType=Ind	8	nsubj	_	_
+8	protonated	protonate	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	22	advcl	_	_
+9	to	to	PART	PART	_	10	mark	_	_
+10	give	give	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	r−oh2+	r−oh2+	NOUN	S	Number=Sing	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13	the	the	DET	RD	Definite=Def|PronType=Art	15	det	_	_
+14	leaving	leaving	NOUN	S	Number=Sing	15	nmod	_	_
+15	group	group	NOUN	S	Number=Sing	22	nsubj	_	_
+16	(	(	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	water	water	NOUN	S	Number=Sing	15	nmod	_	SpaceAfter=No
+18	)	)	PUNCT	FB	_	17	punct	_	_
+19	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+20	much	much	ADV	B	_	21	advmod	_	_
+21	more	more	ADV	B	Degree=Cmp	22	advmod	_	_
+22	stable	stable	ADJ	A	Degree=Pos	29	nsubj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	27	punct	_	_
+24	and	and	CCONJ	CC	_	27	cc	_	_
+25	the	the	DET	RD	Definite=Def|PronType=Art	27	det	_	_
+26	nucleophilic	nucleophilic	ADJ	A	Degree=Pos	27	amod	_	_
+27	substitution	substitution	NOUN	S	Number=Sing	22	conj	_	_
+28	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	take	take	VERB	V	VerbForm=Inf	0	root	_	_
+30	place	place	NOUN	S	Number=Sing	29	obj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	29	punct	_	_
+
+# sent_id = 200
+# text = for instance, tertiary alcohols react with hydrochloric acid to produce tertiary alkyl halides, where the hydroxyl group is replaced by a chlorine atom by unimolecular nucleophilic substitution.
+1	for	for	ADP	E	_	2	case	_	_
+2	instance	instance	NOUN	S	Number=Sing	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	tertiary	tertiary	DET	DI	Number=Sing|PronType=Ind	5	det	_	_
+5	alcohols	alcohol	NOUN	S	Number=Plur	6	nsubj	_	_
+6	react	react	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	with	with	ADP	E	_	9	case	_	_
+8	hydrochloric	hydrochloric	ADJ	A	Degree=Pos	9	amod	_	_
+9	acid	acid	NOUN	S	Number=Sing	6	obl	_	_
+10	to	to	PART	PART	_	11	mark	_	_
+11	produce	produce	VERB	V	VerbForm=Inf	9	acl	_	_
+12	tertiary	tertiary	DET	DI	Number=Sing|PronType=Ind	14	det	_	_
+13	alkyl	alkyl	ADJ	A	Degree=Pos	14	amod	_	_
+14	halides	halide	NOUN	S	Number=Plur	11	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	6	punct	_	_
+16	where	where	ADV	B	_	21	advmod	_	_
+17	the	the	DET	RD	Definite=Def|PronType=Art	19	det	_	_
+18	hydroxyl	hydroxyl	ADJ	A	Degree=Pos	19	amod	_	_
+19	group	group	NOUN	S	Number=Sing	21	nsubj:pass	_	_
+20	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:pass	_	_
+21	replaced	replace	VERB	V	Tense=Past|VerbForm=Part	6	advcl	_	_
+22	by	by	ADP	E	_	25	case	_	_
+23	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	25	det	_	_
+24	chlorine	chlorine	ADJ	A	Degree=Pos	25	amod	_	_
+25	atom	atom	NOUN	S	Number=Sing	21	obl	_	_
+26	by	by	ADP	E	_	29	case	_	_
+27	unimolecular	unimolecular	ADJ	A	Degree=Pos	29	amod	_	_
+28	nucleophilic	nucleophilic	ADJ	A	Degree=Pos	29	amod	_	_
+29	substitution	substitution	NOUN	S	Number=Sing	25	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 201
+# text = if primary or secondary alcohols are to be reacted with hydrochloric acid, an activator such as zinc chloride is needed.
+1	if	if	SCONJ	CS	_	6	mark	_	_
+2	primary	primary	ADJ	A	Degree=Pos	5	amod	_	_
+3	or	or	CCONJ	CC	_	4	cc	_	_
+4	secondary	secondary	ADJ	A	Degree=Pos	2	conj	_	_
+5	alcohols	alcohol	NOUN	S	Number=Plur	6	nsubj	_	_
+6	are	be	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+7	to	to	PART	PART	_	9	mark	_	_
+8	be	be	AUX	VA	VerbForm=Inf	9	aux:pass	_	_
+9	reacted	react	VERB	V	Tense=Past|VerbForm=Part	6	xcomp	_	_
+10	with	with	ADP	E	_	12	case	_	_
+11	hydrochloric	hydrochloric	ADJ	A	Degree=Pos	12	amod	_	_
+12	acid	acid	ADJ	A	Degree=Pos	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	6	punct	_	_
+14	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	15	det	_	_
+15	activator	activator	NOUN	S	Number=Sing	21	nsubj:pass	_	_
+16	such	such	ADJ	A	Degree=Pos	19	amod	_	_
+17	as	as	ADP	E	_	16	fixed	_	_
+18	zinc	zinc	ADJ	A	Degree=Pos	19	amod	_	_
+19	chloride	chloride	NOUN	S	Number=Sing	15	nmod	_	_
+20	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:pass	_	_
+21	needed	need	VERB	V	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 202
+# text = in alternative fashion, the conversion may be performed directly using thionyl chloride.1
+1	in	in	ADP	E	_	3	case	_	_
+2	alternative	alternative	ADJ	A	Degree=Pos	3	amod	_	_
+3	fashion	fashion	NOUN	S	Number=Sing	9	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+6	conversion	conversion	NOUN	S	Number=Sing	9	nsubj:pass	_	_
+7	may	may	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	be	be	AUX	VA	VerbForm=Inf	9	aux:pass	_	_
+9	performed	perform	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+10	directly	directly	ADV	B	_	11	advmod	_	_
+11	using	use	VERB	V	Tense=Pres|VerbForm=Part	9	advcl	_	_
+12	thionyl	thionyl	ADV	B	_	11	advmod	_	_
+13	chloride.1	chloride.1	NUM	N	NumType=Card	11	nummod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 203
+# text = some simple conversions of alcohols to alkyl chlorides
+1	some	some	DET	DI	PronType=Ind	3	det	_	_
+2	simple	simple	ADJ	A	Degree=Pos	3	amod	_	_
+3	conversions	conversion	NOUN	S	Number=Plur	0	root	_	_
+4	of	of	ADP	E	_	5	case	_	_
+5	alcohols	alcohol	NOUN	S	Number=Plur	3	nmod	_	_
+6	to	to	PART	PART	_	7	mark	_	_
+7	alkyl	alkyl	VERB	V	VerbForm=Inf	3	acl	_	_
+8	chlorides	chloride	NOUN	S	Number=Plur	7	obj	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 204
+# text = alcohols may, likewise, be converted to alkyl bromides using hydrobromic acid or phosphorus tribromide, for example:
+1	alcohols	alcohol	NOUN	S	Number=Plur	7	nsubj:pass	_	_
+2	may	may	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	likewise	likewise	ADJ	A	Degree=Pos	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	be	be	AUX	VA	VerbForm=Inf	7	aux:pass	_	_
+7	converted	convert	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+8	to	to	PART	PART	_	9	mark	_	_
+9	alkyl	alkyl	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	bromides	bromide	NOUN	S	Number=Plur	9	obj	_	_
+11	using	use	VERB	V	VerbForm=Ger	10	acl	_	_
+12	hydrobromic	hydrobromic	ADJ	A	Degree=Pos	16	amod	_	_
+13	acid	acid	ADJ	A	Degree=Pos	16	amod	_	_
+14	or	or	CCONJ	CC	_	15	cc	_	_
+15	phosphorus	phosphorus	ADJ	A	Degree=Pos	13	conj	_	_
+16	tribromide	tribromide	NOUN	S	Number=Sing	11	obj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	11	punct	_	_
+18	for	for	ADP	E	_	19	case	_	_
+19	example	example	NOUN	S	Number=Sing	11	obl	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 205
+# text = : 3 r-oh + pbr3 → 3 rbr + h3po3
+1	:	:	PUNCT	FC	_	6	punct	_	_
+2	3	3	NUM	N	NumType=Card	3	nummod	_	_
+3	r	r	NOUN	S	Number=Sing	5	nmod	_	SpaceAfter=No
+4	-	-	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+5	oh	oh	PRON	PI	PronType=Ind	6	nmod	_	_
+6	+	+	SYM	X	_	0	root	_	_
+7	pbr3	pbr3	NUM	N	NumType=Card	11	nummod	_	_
+8	→	→	SYM	X	_	11	nmod	_	_
+9	3	3	NUM	N	NumType=Card	10	nummod	_	_
+10	rbr	rbr	NOUN	S	Number=Sing	11	nmod	_	_
+11	+	+	SYM	X	_	6	nmod	_	_
+12	h3po3	h3po3	NUM	N	NumType=Card	11	nummod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 206
+# text = in the barton-mccombie deoxygenation an alcohol is deoxygenated to an alkane with tributyltin hydride or a trimethylborane-water complex in a radical substitution reaction.
+1	in	in	ADP	E	_	6	case	_	_
+2	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+3	barton	barton	NOUN	S	Number=Sing	6	nmod	_	SpaceAfter=No
+4	-	-	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+5	mccombie	mccombie	NOUN	S	Number=Sing	6	nmod	_	_
+6	deoxygenation	deoxygenation	NOUN	S	Number=Sing	10	obl	_	_
+7	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	8	det	_	_
+8	alcohol	alcohol	NOUN	S	Number=Sing	10	nsubj:pass	_	_
+9	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	deoxygenated	deoxygenate	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+11	to	to	ADP	E	_	13	case	_	_
+12	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	13	det	_	_
+13	alkane	alkane	NOUN	S	Number=Sing	10	obl	_	_
+14	with	with	ADP	E	_	16	case	_	_
+15	tributyltin	tributyltin	DET	DI	PronType=Ind	16	det	_	_
+16	hydride	hydride	NOUN	S	Number=Sing	13	nmod	_	_
+17	or	or	CCONJ	CC	_	22	cc	_	_
+18	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	22	det	_	_
+19	trimethylborane	trimethylborane	NOUN	S	Number=Sing	21	nmod	_	SpaceAfter=No
+20	-	-	PUNCT	FF	_	21	punct	_	SpaceAfter=No
+21	water	water	NOUN	S	Number=Sing	22	nmod	_	_
+22	complex	complex	NOUN	S	Number=Sing	16	conj	_	_
+23	in	in	ADP	E	_	27	case	_	_
+24	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	27	det	_	_
+25	radical	radical	ADJ	A	Degree=Pos	26	amod	_	_
+26	substitution	substitution	NOUN	S	Number=Sing	27	nmod	_	_
+27	reaction	reaction	NOUN	S	Number=Sing	10	obl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 207
+# text = ===dehydration=== meanwhile, the oxygen atom has lone pairs of nonbonded electrons that render it weakly basic in the presence of strong acids such as sulfuric acid.
+1	===dehydration===	===dehydration===	NOUN	S	Number=Sing	2	nmod	_	SpacesAfter=\n
+2	meanwhile	meanwhile	NOUN	S	Number=Sing	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+5	oxygen	oxygen	ADJ	A	Degree=Pos	6	amod	_	_
+6	atom	atom	NOUN	S	Number=Sing	8	nsubj	_	_
+7	has	have	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	lone	lone	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+9	pairs	pair	NOUN	S	Number=Plur	8	obj	_	_
+10	of	of	ADP	E	_	12	case	_	_
+11	nonbonded	nonbond	ADJ	A	Degree=Pos	12	amod	_	_
+12	electrons	electron	NOUN	S	Number=Plur	9	nmod	_	_
+13	that	that	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	render	render	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	weakly	weakly	ADV	B	_	17	advmod	_	_
+17	basic	basic	ADJ	A	Degree=Pos	14	xcomp	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	the	the	DET	RD	Definite=Def|PronType=Art	20	det	_	_
+20	presence	presence	NOUN	S	Number=Sing	14	obl	_	_
+21	of	of	ADP	E	_	23	case	_	_
+22	strong	strong	ADJ	A	Degree=Pos	23	amod	_	_
+23	acids	acid	NOUN	S	Number=Plur	20	nmod	_	_
+24	such	such	ADJ	A	Degree=Pos	27	amod	_	_
+25	as	as	ADP	E	_	24	fixed	_	_
+26	sulfuric	sulfuric	ADJ	A	Degree=Pos	27	amod	_	_
+27	acid	acid	NOUN	S	Number=Sing	23	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 208
+# text = for example, with methanol:
+1	for	for	ADP	E	_	2	case	_	_
+2	example	example	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	with	with	ADP	E	_	5	case	_	_
+5	methanol	methanol	NOUN	S	_	2	nmod	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 209
+# text = acidity & basicity of methanol
+1	acidity	acidity	NOUN	S	Number=Sing	3	nmod	_	_
+2	&	&	PUNCT	FF	_	1	punct	_	_
+3	basicity	basicity	NOUN	S	Number=Sing	0	root	_	_
+4	of	of	ADP	E	_	5	case	_	_
+5	methanol	methanol	NOUN	S	Number=Sing	3	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 210
+# text = upon treatment with strong acids, alcohols undergo the e1 elimination reaction to produce alkenes.
+1	upon	upon	ADP	E	_	2	case	_	_
+2	treatment	treatment	NOUN	S	Number=Sing	7	obl	_	_
+3	with	with	ADP	E	_	5	case	_	_
+4	strong	strong	ADJ	A	Degree=Pos	5	amod	_	_
+5	acids	acid	NOUN	S	Number=Plur	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	alcohols	alcohol	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	undergo	undergo	ADP	E	_	12	case	_	_
+9	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+10	e1	e1	NUM	N	NumType=Card	12	nummod	_	_
+11	elimination	elimination	NOUN	S	Number=Sing	12	nmod	_	_
+12	reaction	reaction	NOUN	S	Number=Sing	7	obl	_	_
+13	to	to	PART	PART	_	14	mark	_	_
+14	produce	produce	VERB	V	VerbForm=Inf	12	acl	_	_
+15	alkenes	alkene	PRON	PE	Number=Sing|Person=3|PronType=Prs	14	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 211
+# text = the reaction, in general, obeys zaitsev's rule, which states that the most stable (usually the most substituted) alkene is formed.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	reaction	reaction	NOUN	S	Number=Sing	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	general	full	ADJ	A	Number=Sing	7	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	obeys	obeys	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	zaitsev	zaitsefifth	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+9	's	's	PART	PART	_	8	case	_	_
+10	rule	rule	NOUN	S	Number=Sing	7	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	which	which	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	states	state	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+14	that	that	SCONJ	CS	_	26	mark	_	_
+15	the	the	DET	RD	Definite=Def|PronType=Art	24	det	_	_
+16	most	most	ADV	B	_	17	advmod	_	_
+17	stable	stable	ADJ	A	Degree=Pos	24	amod	_	_
+18	(	(	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+19	usually	usually	ADV	B	_	22	advmod	_	_
+20	the	the	DET	RD	Definite=Def|PronType=Art	22	det	_	_
+21	most	most	ADV	B	_	22	advmod	_	_
+22	substituted	substituted	ADJ	A	Degree=Pos	17	conj	_	SpaceAfter=No
+23	)	)	PUNCT	FB	_	22	punct	_	_
+24	alkene	alkene	PRON	PE	Number=Sing|Person=3|PronType=Prs	26	nsubj:pass	_	_
+25	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux:pass	_	_
+26	formed	form	VERB	V	Tense=Past|VerbForm=Part	13	ccomp	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 212
+# text = tertiary alcohols eliminate easily at just above room temperature, but primary alcohols require a higher temperature.
+1	tertiary	tertiary	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	alcohols	alcohol	NOUN	S	Number=Plur	3	nsubj	_	_
+3	eliminate	eliminate	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	easily	easily	ADV	B	_	3	advmod	_	_
+5	at	at	ADP	E	_	9	case	_	_
+6	just	just	ADV	B	_	7	advmod	_	_
+7	above	above	ADJ	A	Degree=Pos	9	amod	_	_
+8	room	room	NOUN	S	Number=Sing	9	nmod	_	_
+9	temperature	temperature	NOUN	S	Number=Sing	3	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	14	punct	_	_
+11	but	but	CCONJ	CC	_	14	cc	_	_
+12	primary	primary	ADJ	A	Degree=Pos	13	amod	_	_
+13	alcohols	alcohol	NOUN	S	Number=Plur	14	nsubj	_	_
+14	require	require	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	3	conj	_	_
+15	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	17	det	_	_
+16	higher	higher	ADJ	A	Degree=Cmp	17	amod	_	_
+17	temperature	temperature	NOUN	S	Number=Sing	14	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 213
+# text = this is a diagram of acid catalysed dehydration of ethanol to produce ethylene:
+1	this	this	PRON	PD	Number=Sing|PronType=Dem	4	nsubj	_	_
+2	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	4	det	_	_
+4	diagram	diagram	NOUN	S	Number=Sing	0	root	_	_
+5	of	of	ADP	E	_	8	case	_	_
+6	acid	acid	ADJ	A	Degree=Pos	8	amod	_	_
+7	catalysed	catalyse	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	8	acl	_	_
+8	dehydration	dehydration	NOUN	S	Number=Sing	4	nmod	_	_
+9	of	of	ADP	E	_	10	case	_	_
+10	ethanol	ethanol	NOUN	S	Number=Sing	8	nmod	_	_
+11	to	to	PART	PART	_	12	mark	_	_
+12	produce	produce	VERB	V	VerbForm=Inf	4	acl	_	_
+13	ethylene	ethylene	PRON	PE	Number=Sing|Person=3|PronType=Prs	12	obj	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 214
+# text = upright=2.5
+1	upright=2.5	upright=2.5	NUM	N	NumType=Card	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 215
+# text = a more controlled elimination reaction is the with carbon disulfide and iodomethane.
+1	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	5	det	_	_
+2	more	more	ADV	B	Degree=Cmp	3	advmod	_	_
+3	controlled	control	ADJ	A	Degree=Pos	5	amod	_	_
+4	elimination	elimination	NOUN	S	Number=Sing	5	nmod	_	_
+5	reaction	reaction	NOUN	S	Number=Sing	9	nsubj	_	_
+6	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	the	the	DET	RD	Definite=Def|PronType=Art	9	det	_	SpacesAfter=\s\s
+8	with	with	ADP	E	_	9	case	_	_
+9	carbon	carbon	NOUN	S	Number=Sing	0	root	_	_
+10	disulfide	disulfide	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	9	acl	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	iodomethane	iodomethane	PRON	PE	Number=Sing|Person=3|PronType=Prs	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 216
+# text = ===esterification=== alcohol and carboxylic acids react in the so-called fischer esterification.
+1	===esterification===	===esterification===	NOUN	S	Number=Sing	5	nmod	_	SpacesAfter=\n
+2	alcohol	alcohol	ADJ	A	Number=Sing	5	amod	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	carboxylic	carboxylic	ADJ	A	Degree=Pos	2	conj	_	_
+5	acids	acid	NOUN	S	Number=Plur	6	nsubj	_	_
+6	react	react	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	in	in	ADP	E	_	11	case	_	_
+8	the	the	DET	RD	Definite=Def|PronType=Art	11	det	_	_
+9	so-called	so-called	ADJ	A	Degree=Pos	11	amod	_	_
+10	fischer	fischer	ADJ	A	Degree=Cmp	11	amod	_	_
+11	esterification	esterification	NOUN	S	Number=Sing	6	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\s\s
+
+# sent_id = 217
+# text = the reaction usually requires a catalyst, such as concentrated sulfuric acid:
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	reaction	reaction	NOUN	S	Number=Sing	4	nsubj	_	_
+3	usually	usually	ADV	B	_	4	advmod	_	_
+4	requires	require	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	6	det	_	_
+6	catalyst	catalyst	NOUN	S	Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	such	such	ADJ	A	Degree=Pos	12	amod	_	_
+9	as	as	ADP	E	_	8	fixed	_	_
+10	concentrated	concentrated	ADJ	A	Degree=Pos	12	amod	_	_
+11	sulfuric	sulfuric	ADJ	A	Degree=Pos	12	amod	_	_
+12	acid	acid	NOUN	S	Number=Sing	6	nmod	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 218
+# text = : r-oh + r'-co2h → r'-co2r + h2o other types of ester are prepared in a similar manner for example, tosyl (tosylate) esters are made by reaction of the alcohol with p-toluenesulfonyl chloride in pyridine.
+1	:	:	PUNCT	FC	_	22	punct	_	_
+2	r	r	ADJ	A	Degree=Pos	6	amod	_	SpaceAfter=No
+3	-	-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+4	oh	oh	ADJ	A	Degree=Pos	5	amod	_	_
+5	+	+	SYM	X	_	6	nmod	_	_
+6	r	r	NOUN	S	Number=Sing	9	nmod	_	SpaceAfter=No
+7	'	'	PART	PART	_	6	case	_	SpaceAfter=No
+8	-	-	PUNCT	FF	_	9	punct	_	SpaceAfter=No
+9	co2h	co2h	NOUN	S	Number=Sing	18	nmod	_	_
+10	→	→	SYM	X	_	18	nmod	_	_
+11	r	r	NOUN	S	Number=Sing	14	nmod	_	SpaceAfter=No
+12	'	'	PART	PART	_	11	case	_	SpaceAfter=No
+13	-	-	PUNCT	FF	_	14	punct	_	SpaceAfter=No
+14	co2r	co2r	NOUN	S	Number=Sing	18	nmod	_	_
+15	+	+	SYM	X	_	18	nmod	_	_
+16	h2o	h2o	ADV	B	_	17	advmod	_	SpacesAfter=\n
+17	other	other	ADJ	A	Degree=Pos	18	amod	_	_
+18	types	type	NOUN	S	Number=Plur	22	nsubj:pass	_	_
+19	of	of	ADP	E	_	20	case	_	_
+20	ester	ester	NOUN	S	Number=Sing	18	nmod	_	_
+21	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	22	aux:pass	_	_
+22	prepared	prepare	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+23	in	in	ADP	E	_	26	case	_	_
+24	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	26	det	_	_
+25	similar	similar	ADJ	A	Degree=Pos	26	amod	_	_
+26	manner	manner	NOUN	S	Number=Sing	22	obl	_	_
+27	for	for	ADP	E	_	28	case	_	_
+28	example	example	NOUN	S	Number=Sing	22	obl	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	22	punct	_	_
+30	tosyl	tosyl	ADJ	A	Degree=Pos	34	amod	_	_
+31	(	(	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+32	tosylate	tosylate	NOUN	S	Number=Sing	30	appos	_	SpaceAfter=No
+33	)	)	PUNCT	FB	_	32	punct	_	_
+34	esters	ester	NOUN	S	Number=Plur	36	nsubj:pass	_	_
+35	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	36	aux:pass	_	_
+36	made	make	VERB	V	Tense=Past|VerbForm=Part	22	conj	_	_
+37	by	by	ADP	E	_	38	case	_	_
+38	reaction	reaction	NOUN	S	Number=Sing	36	obl	_	_
+39	of	of	ADP	E	_	41	case	_	_
+40	the	the	DET	RD	Definite=Def|PronType=Art	41	det	_	_
+41	alcohol	alcohol	NOUN	S	Number=Sing	38	nmod	_	_
+42	with	with	ADP	E	_	44	case	_	_
+43	p-toluenesulfonyl	p-toluenesulfonyl	ADJ	A	Degree=Pos	44	amod	_	_
+44	chloride	chloride	NOUN	S	Number=Sing	41	nmod	_	_
+45	in	in	ADP	E	_	46	case	_	_
+46	pyridine	pyridine	NOUN	S	Number=Sing	44	nmod	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	22	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 219
+# text = ===oxidation===
+1	===oxidation===	===oxidation===	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 220
+# text = primary alcohols (r-ch2oh) can be oxidized either to aldehydes (r-cho) or to carboxylic acids (r-co2h).
+1	primary	primary	ADJ	A	Degree=Pos	2	amod	_	_
+2	alcohols	alcohol	NOUN	S	Number=Plur	10	nsubj:pass	_	_
+3	(	(	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+4	r	r	ADJ	A	Degree=Pos	6	amod	_	SpaceAfter=No
+5	-	-	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+6	ch2oh	ch2oh	NOUN	S	Number=Sing	2	nmod	_	SpaceAfter=No
+7	)	)	PUNCT	FB	_	6	punct	_	_
+8	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	be	be	AUX	VA	VerbForm=Inf	10	aux:pass	_	_
+10	oxidized	oxidize	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+11	either	either	ADV	B	_	10	advmod	_	_
+12	to	to	ADP	E	_	13	case	_	_
+13	aldehydes	aldehyde	NOUN	S	Number=Plur	10	obl	_	_
+14	(	(	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+15	r	r	ADJ	A	Degree=Pos	17	amod	_	SpaceAfter=No
+16	-	-	PUNCT	FF	_	17	punct	_	SpaceAfter=No
+17	cho	cho	NOUN	S	Number=Sing	13	conj	_	SpaceAfter=No
+18	)	)	PUNCT	FB	_	17	punct	_	_
+19	or	or	CCONJ	CC	_	22	cc	_	_
+20	to	to	ADP	E	_	22	case	_	_
+21	carboxylic	carboxylic	ADJ	A	Degree=Pos	22	amod	_	_
+22	acids	acid	NOUN	S	Number=Plur	13	conj	_	_
+23	(	(	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+24	r	r	ADJ	A	Degree=Pos	26	amod	_	SpaceAfter=No
+25	-	-	PUNCT	FF	_	26	punct	_	SpaceAfter=No
+26	co2h	co2h	NOUN	S	Number=Sing	22	appos	_	SpaceAfter=No
+27	)	)	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\s\s
+
+# sent_id = 221
+# text = the oxidation of secondary alcohols (r1r2ch-oh) normally terminates at the ketone (r1r2c=o) stage.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	oxidation	oxidation	NOUN	S	Number=Sing	12	nsubj	_	_
+3	of	of	ADP	E	_	5	case	_	_
+4	secondary	secondary	ADJ	A	Degree=Pos	5	amod	_	_
+5	alcohols	alcohol	NOUN	S	Number=Plur	2	nmod	_	_
+6	(	(	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+7	r1r2ch	r1r2ch	ADJ	A	Degree=Pos	9	amod	_	SpaceAfter=No
+8	-	-	PUNCT	FF	_	9	punct	_	SpaceAfter=No
+9	oh	oh	NOUN	S	Number=Sing	5	appos	_	SpaceAfter=No
+10	)	)	PUNCT	FB	_	9	punct	_	_
+11	normally	normally	ADV	B	_	12	advmod	_	_
+12	terminates	terminate	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	at	at	ADP	E	_	15	case	_	_
+14	the	the	DET	RD	Definite=Def|PronType=Art	15	det	_	_
+15	ketone	ketone	PRON	PE	Number=Sing|Person=3|PronType=Prs	12	obl	_	_
+16	(	(	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	r1r2c=o	r1r2c=o	ADJ	A	Degree=Pos	19	amod	_	SpaceAfter=No
+18	)	)	PUNCT	FB	_	17	punct	_	_
+19	stage	stage	NOUN	S	Number=Sing	12	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 222
+# text = tertiary alcohols (r1r2r3c-oh) are resistant to oxidation.
+1	tertiary	tertiary	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	alcohols	alcohol	NOUN	S	Number=Plur	9	nsubj:pass	_	_
+3	(	(	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+4	r1r2r3c	r1r2r3c	ADJ	A	Degree=Pos	6	amod	_	SpaceAfter=No
+5	-	-	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+6	oh	oh	NOUN	S	Number=Sing	2	nmod	_	SpaceAfter=No
+7	)	)	PUNCT	FB	_	6	punct	_	_
+8	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	resistant	resistan	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+10	to	to	ADP	E	_	11	case	_	_
+11	oxidation	oxidation	NOUN	S	Number=Sing	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 223
+# text = the direct oxidation of primary alcohols to carboxylic acids normally proceeds via the corresponding aldehyde, which is transformed via an ''aldehyde hydrate'' (r-ch(oh)2) by reaction with water before it can be further oxidized to the carboxylic acid.
+1	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+2	direct	direct	ADJ	A	Degree=Pos	3	amod	_	_
+3	oxidation	oxidation	NOUN	S	Number=Sing	25	nsubj	_	_
+4	of	of	ADP	E	_	6	case	_	_
+5	primary	primary	ADJ	A	Degree=Pos	6	amod	_	_
+6	alcohols	alcohol	NOUN	S	Number=Plur	3	nmod	_	_
+7	to	to	ADP	E	_	9	case	_	_
+8	carboxylic	carboxylic	ADJ	A	Degree=Pos	9	amod	_	_
+9	acids	acid	NOUN	S	Number=Plur	3	nmod	_	_
+10	normally	normally	ADV	B	_	11	advmod	_	_
+11	proceeds	proceed	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl	_	_
+12	via	via	ADP	E	_	15	case	_	_
+13	the	the	DET	RD	Definite=Def|PronType=Art	15	det	_	_
+14	corresponding	corresponding	ADJ	A	Degree=Pos	15	amod	_	_
+15	aldehyde	aldehyde	NOUN	S	Number=Sing	11	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	3	punct	_	_
+17	which	which	PRON	PR	PronType=Rel	19	nsubj:pass	_	_
+18	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
+19	transformed	transform	VERB	V	Tense=Past|VerbForm=Part	25	acl:relcl	_	_
+20	via	via	ADP	E	_	25	case	_	_
+21	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	25	det	_	_
+22	'	'	PART	PART	_	21	case	_	SpaceAfter=No
+23	'	'	PART	PART	_	21	case	_	SpaceAfter=No
+24	aldehyde	aldehyde	ADV	B	_	25	advmod	_	_
+25	hydrate	hydrate	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+26	'	'	PART	PART	_	25	case	_	SpaceAfter=No
+27	'	'	PART	PART	_	25	case	_	_
+28	(	(	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+29	r-ch(	r-ch(	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+30	oh	oh	ADV	B	_	32	advmod	_	SpaceAfter=No
+31	)	)	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+32	2	2	NUM	N	NumType=Card	25	nummod	_	SpaceAfter=No
+33	)	)	PUNCT	FB	_	25	punct	_	_
+34	by	by	ADP	E	_	35	case	_	_
+35	reaction	reaction	NOUN	S	Number=Sing	25	obl	_	_
+36	with	with	ADP	E	_	37	case	_	_
+37	water	water	NOUN	S	Number=Sing	35	nmod	_	_
+38	before	before	ADV	B	_	43	advmod	_	_
+39	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	43	nsubj:pass	_	_
+40	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	43	aux	_	_
+41	be	be	AUX	VA	VerbForm=Inf	43	aux:pass	_	_
+42	further	further	ADV	B	_	43	advmod	_	_
+43	oxidized	oxidize	VERB	V	Tense=Past|VerbForm=Part	35	acl	_	_
+44	to	to	ADP	E	_	47	case	_	_
+45	the	the	DET	RD	Definite=Def|PronType=Art	47	det	_	_
+46	carboxylic	carboxylic	ADJ	A	Degree=Pos	47	amod	_	_
+47	acid	acid	NOUN	S	Number=Sing	43	obl	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	25	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 224
+# text = mechanism of oxidation of primary alcohols to carboxylic acids via aldehydes and aldehyde hydrates
+1	mechanism	mechanism	NOUN	S	Number=Sing	0	root	_	_
+2	of	of	ADP	E	_	3	case	_	_
+3	oxidation	oxidation	NOUN	S	Number=Sing	1	nmod	_	_
+4	of	of	ADP	E	_	6	case	_	_
+5	primary	primary	ADJ	A	Degree=Pos	6	amod	_	_
+6	alcohols	alcohol	NOUN	S	Number=Plur	3	nmod	_	_
+7	to	to	ADP	E	_	9	case	_	_
+8	carboxylic	carboxylic	ADJ	A	Degree=Pos	9	amod	_	_
+9	acids	acid	NOUN	S	Number=Plur	6	nmod	_	_
+10	via	via	ADP	E	_	11	case	_	_
+11	aldehydes	aldehyde	NOUN	S	Number=Plur	9	nmod	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	aldehyde	aldehyde	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	_
+14	hydrates	hydrate	NOUN	S	Number=Plur	13	obj	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 225
+# text = reagents useful for the transformation of primary alcohols to aldehydes are normally also suitable for the oxidation of secondary alcohols to ketones.
+1	reagents	reagent	NOUN	S	Number=Plur	14	nsubj	_	_
+2	useful	useful	ADJ	A	Degree=Pos	1	amod	_	_
+3	for	for	ADP	E	_	5	case	_	_
+4	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+5	transformation	transformation	NOUN	S	Number=Sing	2	obl	_	_
+6	of	of	ADP	E	_	8	case	_	_
+7	primary	primary	ADJ	A	Degree=Pos	8	amod	_	_
+8	alcohols	alcohol	NOUN	S	Number=Plur	5	nmod	_	_
+9	to	to	ADP	E	_	10	case	_	_
+10	aldehydes	aldehyde	NOUN	S	Number=Plur	8	nmod	_	_
+11	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12	normally	normally	ADV	B	_	14	advmod	_	_
+13	also	also	ADV	B	_	14	advmod	_	_
+14	suitable	suitable	ADJ	A	Degree=Pos	0	root	_	_
+15	for	for	ADP	E	_	17	case	_	_
+16	the	the	DET	RD	Definite=Def|PronType=Art	17	det	_	_
+17	oxidation	oxidation	NOUN	S	Number=Sing	14	obl	_	_
+18	of	of	ADP	E	_	20	case	_	_
+19	secondary	secondary	ADJ	A	Degree=Pos	20	amod	_	_
+20	alcohols	alcohol	NOUN	S	Number=Plur	17	nmod	_	_
+21	to	to	ADP	E	_	22	case	_	_
+22	ketones	ketone	NOUN	S	Number=Plur	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 226
+# text = these include collins reagent and dess-martin periodinane.
+1	these	this	DET	DD	Number=Plur|PronType=Dem	2	det	_	_
+2	include	include	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	collins	collin	NOUN	S	Number=Plur	2	obj	_	_
+4	reagent	reagent	ADJ	A	_	9	amod	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	dess	dess	ADJ	A	Degree=Cmp	4	conj	_	SpaceAfter=No
+7	-	-	PUNCT	FF	_	8	punct	_	SpaceAfter=No
+8	martin	martin	NOUN	S	Number=Sing	9	nmod	_	_
+9	periodinane	periodinane	NOUN	S	Number=Sing	3	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 227
+# text = the direct oxidation of primary alcohols to carboxylic acids can be carried out using potassium permanganate or the jones reagent.
+1	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+2	direct	direct	ADJ	A	Degree=Pos	3	amod	_	_
+3	oxidation	oxidation	NOUN	S	Number=Sing	12	nsubj:pass	_	_
+4	of	of	ADP	E	_	6	case	_	_
+5	primary	primary	ADJ	A	Degree=Pos	6	amod	_	_
+6	alcohols	alcohol	NOUN	S	Number=Plur	3	nmod	_	_
+7	to	to	ADP	E	_	9	case	_	_
+8	carboxylic	carboxylic	ADJ	A	Degree=Pos	9	amod	_	_
+9	acids	acid	NOUN	S	Number=Plur	6	nmod	_	_
+10	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	be	be	AUX	VA	VerbForm=Inf	12	aux:pass	_	_
+12	carried	carry	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+13	out	out	ADP	E	_	12	compound:prt	_	_
+14	using	using	ADJ	A	Degree=Pos	16	amod	_	_
+15	potassium	potassium	NOUN	S	Number=Sing	16	nmod	_	_
+16	permanganate	permanganate	NOUN	S	Number=Sing	12	obj	_	_
+17	or	or	CCONJ	CC	_	20	cc	_	_
+18	the	the	DET	RD	Definite=Def|PronType=Art	20	det	_	_
+19	jones	jone	NOUN	S	Number=Plur	20	nmod	_	_
+20	reagent	reagent	NOUN	S	Number=Sing	16	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n\s\n\n
+
+# newpar
+# sent_id = 228
+# text = * enol * ethanol fuel * fatty alcohol * index of alcohol-related articles * polyol * rubbing alcohol * sugar alcohol * transesterification * viktor meyer test * lucas test
+1	*	*	PUNCT	FF	_	30	punct	_	_
+2	enol	enol	ADV	B	_	30	advmod	_	SpacesAfter=\n
+3	*	*	PUNCT	FF	_	2	punct	_	_
+4	ethanol	ethanol	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+5	fuel	fuel	ADJ	A	Degree=Pos	8	amod	_	SpacesAfter=\n
+6	*	*	PUNCT	FF	_	8	punct	_	_
+7	fatty	fatty	NOUN	S	Number=Sing	8	nmod	_	_
+8	alcohol	alcohol	NOUN	S	Number=Sing	30	nmod	_	SpacesAfter=\n
+9	*	*	PUNCT	FF	_	8	punct	_	_
+10	index	index	NOUN	S	Number=Sing	8	nmod	_	_
+11	of	of	ADP	E	_	13	case	_	_
+12	alcohol-related	alcohol-related	ADJ	A	Degree=Pos	13	amod	_	_
+13	articles	article	NOUN	S	Number=Plur	10	nmod	_	SpacesAfter=\n
+14	*	*	PUNCT	FF	_	15	punct	_	_
+15	polyol	polyol	NOUN	S	Number=Sing	13	nmod	_	SpacesAfter=\n
+16	*	*	PUNCT	FF	_	15	punct	_	_
+17	rubbing	rubb	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	15	acl	_	_
+18	alcohol	alcohol	ADV	B	_	17	advmod	_	SpacesAfter=\n
+19	*	*	PUNCT	FF	_	21	punct	_	_
+20	sugar	sugar	ADJ	A	Degree=Cmp	21	amod	_	_
+21	alcohol	alcohol	NOUN	S	Number=Sing	23	nmod	_	SpacesAfter=\n
+22	*	*	PUNCT	FF	_	23	punct	_	_
+23	transesterification	transesterification	NOUN	S	Number=Sing	17	obj	_	SpacesAfter=\n
+24	*	*	PUNCT	FF	_	29	punct	_	_
+25	viktor	viktor	ADP	E	_	27	case	_	_
+26	meyer	meyer	DET	DI	PronType=Ind	27	det	_	_
+27	test	test	NOUN	S	Number=Sing	29	nmod	_	SpacesAfter=\n
+28	*	*	PUNCT	FF	_	27	punct	_	_
+29	lucas	luca	NOUN	S	Number=Plur	23	conj	_	_
+30	test	test	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n\s\n\s
+
+# newpar
+# sent_id = 229
+# text = * * alcohol (ethanol) at ''the periodic table of videos'' (university of nottingham)
+1	*	*	PUNCT	FF	_	5	punct	_	SpacesAfter=\s\n\s\n
+2	*	*	PUNCT	FF	_	1	punct	_	SpacesAfter=\s\s
+3	alcohol	alcohol	ADV	B	_	2	advmod	_	_
+4	(	(	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	ethanol	ethanol	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	)	)	PUNCT	FB	_	5	punct	_	_
+7	at	at	ADP	E	_	11	case	_	_
+8	'	'	PART	PART	_	7	case	_	SpaceAfter=No
+9	'the	'the	ADV	B	_	10	advmod	_	_
+10	periodic	periodic	ADJ	A	Degree=Pos	11	amod	_	_
+11	table	table	NOUN	S	Number=Plur	5	obl	_	_
+12	of	of	ADP	E	_	17	case	_	_
+13	videos	video	NOUN	S	Number=Plur	17	nmod	_	SpaceAfter=No
+14	'	'	PART	PART	_	13	case	_	SpaceAfter=No
+15	'	'	PART	PART	_	13	case	_	_
+16	(	(	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	university	university	NOUN	S	Number=Sing	11	nmod	_	_
+18	of	of	ADP	E	_	19	case	_	_
+19	nottingham	nottingham	PRON	PE	Number=Plur|Person=3|PronType=Prs	17	nmod	_	SpaceAfter=No
+20	)	)	PUNCT	FB	_	5	punct	_	SpacesAfter=\n
+

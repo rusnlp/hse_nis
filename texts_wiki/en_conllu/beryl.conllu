@@ -1,0 +1,2861 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = '''beryl''' ( ) is a mineral composed of beryllium aluminium cyclosilicate with the chemical formula be3al2si6o18.
+1	'	'	PART	PART	_	4	mark	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	'	'	PART	PART	_	4	mark	_	SpaceAfter=No
+4	beryl	beryl	VERB	V	VerbForm=Inf	13	advcl	_	SpaceAfter=No
+5	'	'	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+6	'	'	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+7	'	'	PUNCT	FB	_	4	punct	_	_
+8	(	(	PUNCT	FB	_	9	punct	_	_
+9	)	)	PUNCT	FB	_	4	punct	_	_
+10	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+11	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	13	det	_	_
+12	mineral	mineral	ADJ	A	Degree=Pos	13	amod	_	_
+13	composed	compose	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+14	of	of	ADP	E	_	15	case	_	_
+15	beryllium	beryllium	PRON	PE	Number=Plur|Person=3|PronType=Prs	13	obl	_	_
+16	aluminium	aluminium	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	cyclosilicate	cyclosilicate	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18	with	with	ADP	E	_	21	case	_	_
+19	the	the	DET	RD	Definite=Def|PronType=Art	21	det	_	_
+20	chemical	chemical	ADJ	A	Degree=Pos	21	amod	_	_
+21	formula	formula	NOUN	S	Number=Plur	17	obl	_	_
+22	be3al2si6o18	be3al2si6o18	NUM	N	NumType=Card	21	nummod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 2
+# text = well-known varieties of beryl include emerald and aquamarine.
+1	well	well	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	known	known	ADJ	A	Degree=Pos	4	amod	_	_
+4	varieties	variety	NOUN	S	Number=Plur	7	nsubj	_	_
+5	of	of	ADP	E	_	7	case	_	_
+6	beryl	beryl	ADJ	A	Number=Sing	7	amod	_	_
+7	include	include	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	emerald	emerald	NOUN	S	Number=Sing	7	obj	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	aquamarine	aquamarine	NOUN	S	Number=Sing	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = naturally occurring, hexagonal crystals of beryl can be up to several meters in size, but terminated crystals are relatively rare.
+1	naturally	naturally	ADV	B	_	2	advmod	_	_
+2	occurring	occurr	VERB	V	VerbForm=Ger	10	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\s\s
+4	hexagonal	hexagonal	ADJ	A	Degree=Pos	5	amod	_	_
+5	crystals	crystal	NOUN	S	Number=Plur	10	nsubj	_	_
+6	of	of	ADP	E	_	7	case	_	_
+7	beryl	beryl	NOUN	S	Number=Sing	5	nmod	_	_
+8	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	be	be	AUX	V	VerbForm=Inf	10	cop	_	_
+10	up	up	ADV	B	_	22	advmod	_	_
+11	to	to	ADP	E	_	13	case	_	_
+12	several	several	ADJ	A	Degree=Pos	13	amod	_	_
+13	meters	meter	NOUN	S	Number=Plur	10	obl	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	size	size	NOUN	S	Number=Sing	10	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	10	punct	_	_
+17	but	but	CCONJ	CC	_	18	cc	_	_
+18	terminated	terminate	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	10	conj	_	_
+19	crystals	crystal	NOUN	S	Number=Plur	18	obj	_	_
+20	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	22	cop	_	_
+21	relatively	relatively	ADV	B	_	22	advmod	_	_
+22	rare	rare	ADJ	A	Degree=Pos	0	root	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 4
+# text = pure beryl is colorless, but it is frequently tinted by impurities;
+1	pure	pure	NOUN	S	Number=Sing	4	nsubj	_	_
+2	beryl	beryl	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	colorless	colorless	ADJ	A	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	10	punct	_	_
+6	but	but	CCONJ	CC	_	10	cc	_	_
+7	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	10	nsubj:pass	_	_
+8	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+9	frequently	frequently	ADV	B	_	10	advmod	_	_
+10	tinted	tint	VERB	V	Tense=Past|VerbForm=Part	4	conj	_	_
+11	by	by	ADP	E	_	12	case	_	_
+12	impurities	impurity	NOUN	S	Number=Plur	10	obl	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 5
+# text = possible colors are green, blue, yellow, red (the rarest), and white.
+1	possible	possible	ADJ	A	Degree=Pos	2	amod	_	_
+2	colors	color	NOUN	S	Number=Plur	4	nsubj	_	_
+3	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	green	green	ADJ	A	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	blue	blue	NOUN	S	Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	yellow	yellow	ADV	B	_	4	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	red	re	VERB	V	Tense=Past|VerbForm=Part	4	conj	_	_
+11	(	(	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+12	the	the	DET	RD	Definite=Def|PronType=Art	13	det	_	_
+13	rarest	rarest	NOUN	S	Number=Sing	4	conj	_	SpaceAfter=No
+14	)	)	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	white	white	ADJ	A	Degree=Pos	4	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = beryl is also an ore source of beryllium.
+1	beryl	beryl	ADV	B	_	6	advmod	_	_
+2	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	also	also	ADV	B	_	6	advmod	_	_
+4	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	6	det	_	_
+5	ore	ore	ADJ	A	Degree=Pos	6	amod	_	_
+6	source	source	NOUN	S	Number=Sing	0	root	_	_
+7	of	of	ADP	E	_	8	case	_	_
+8	beryllium	beryllium	NOUN	S	Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\s
+
+# sent_id = 7
+# text = the name "beryl" is derived (via , , and ) from greek βήρυλλος ''beryllos'' which referred to a "precious blue-green color-of-sea-water stone";
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	name	name	NOUN	S	Number=Sing	7	nsubj:pass	_	_
+3	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	beryl	beryl	ADJ	A	Degree=Pos	2	acl	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	4	punct	_	_
+6	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	derived	derive	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+8	(	(	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	via	via	NOUN	S	Number=Sing	7	conj	_	_
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	and	and	CCONJ	CC	_	9	cc	_	_
+13	)	)	PUNCT	FB	_	9	punct	_	_
+14	from	from	ADP	E	_	19	case	_	_
+15	greek	greek	ADJ	A	Degree=Pos	16	amod	_	_
+16	βήρυλλος	βήρυλλος	NOUN	S	Number=Sing	19	nmod	_	_
+17	'	'	PART	PART	_	16	case	_	SpaceAfter=No
+18	'	'	PART	PART	_	16	case	_	SpaceAfter=No
+19	beryllos	beryllo	NOUN	S	Number=Plur	7	obl	_	SpaceAfter=No
+20	'	'	PART	PART	_	19	case	_	SpaceAfter=No
+21	'	'	PUNCT	FB	_	19	punct	_	_
+22	which	which	PRON	PR	PronType=Rel	23	nsubj	_	_
+23	referred	refer	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	19	acl:relcl	_	_
+24	to	to	ADP	E	_	31	case	_	_
+25	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	31	det	_	_
+26	"	"	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+27	precious	precious	ADJ	A	Degree=Pos	28	amod	_	_
+28	blue	blue	NOUN	S	Number=Sing	31	nmod	_	SpaceAfter=No
+29	-	-	PUNCT	FF	_	31	punct	_	SpaceAfter=No
+30	green	green	ADJ	A	Degree=Pos	31	amod	_	_
+31	color	color	NOUN	S	Number=Sing	23	obl	_	SpaceAfter=No
+32	-	-	PUNCT	FF	_	31	punct	_	SpaceAfter=No
+33	of	of	ADP	E	_	38	case	_	SpaceAfter=No
+34	-	-	PUNCT	FF	_	35	punct	_	SpaceAfter=No
+35	sea	sea	ADJ	A	Degree=Pos	37	amod	_	SpaceAfter=No
+36	-	-	PUNCT	FF	_	37	punct	_	SpaceAfter=No
+37	water	water	NOUN	S	Number=Sing	38	nmod	_	_
+38	stone	stone	NUM	N	NumType=Card	31	nummod	_	SpaceAfter=No
+39	"	"	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+40	;	;	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 8
+# text = akin to prakrit ''verulia'', ''veluriya'' ("beryl").
+1	akin	akin	ADJ	A	Degree=Pos	0	root	_	_
+2	to	to	PART	PART	_	3	mark	_	_
+3	prakrit	prakrit	VERB	V	VerbForm=Inf	1	advcl	_	_
+4	'	'	PART	PART	_	3	compound:prt	_	SpaceAfter=No
+5	'	'	PART	PART	_	3	compound:prt	_	SpaceAfter=No
+6	verulia	verulia	NOUN	S	Number=Plur	3	obl	_	SpaceAfter=No
+7	'	'	PART	PART	_	6	case	_	SpaceAfter=No
+8	'	'	PART	PART	_	6	case	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	'	'	PART	PART	_	17	mark	_	SpaceAfter=No
+11	'	'	PART	PART	_	10	case	_	SpaceAfter=No
+12	veluriya	veluriya	NOUN	S	Number=Plur	17	obl	_	SpaceAfter=No
+13	'	'	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	'	'	PUNCT	FB	_	12	punct	_	_
+15	(	(	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	beryl	beryl	VERB	V	VerbForm=Inf	3	advcl	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+19	)	)	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = the term was later adopted for the mineral beryl more exclusively.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	term	term	NOUN	S	Number=Sing	5	nsubj:pass	_	_
+3	was	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+4	later	later	ADV	B	Degree=Cmp	5	advmod	_	_
+5	adopted	adopt	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+6	for	for	ADP	E	_	9	case	_	_
+7	the	the	DET	RD	Definite=Def|PronType=Art	9	det	_	_
+8	mineral	mineral	ADJ	A	Degree=Pos	9	amod	_	_
+9	beryl	beryl	NOUN	S	Number=Sing	5	obl	_	_
+10	more	more	ADV	B	Degree=Cmp	11	advmod	_	_
+11	exclusively	exclusively	ADV	B	_	9	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = when the first eyeglasses were constructed in 13th century italy, the lenses were made of beryl (or of rock crystal) as glass could not be made clear enough.
+1	when	when	SCONJ	CS	_	6	mark	_	_
+2	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+3	first	first	ADJ	NO	Degree=Pos|NumType=Ord	4	amod	_	_
+4	eyeglasses	eyeglass	NOUN	S	Number=Plur	6	nsubj:pass	_	_
+5	were	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+6	constructed	construct	VERB	V	Tense=Past|VerbForm=Part	15	advcl	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	13th	13th	ADJ	A	Degree=Pos	9	amod	_	_
+9	century	century	NOUN	S	Number=Sing	6	obl	_	_
+10	italy	italy	ADV	B	_	6	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	the	the	DET	RD	Definite=Def|PronType=Art	13	det	_	_
+13	lenses	lens	NOUN	S	Number=Plur	15	nsubj:pass	_	_
+14	were	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	15	aux:pass	_	_
+15	made	make	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+16	of	of	ADP	E	_	17	case	_	_
+17	beryl	beryl	ADJ	A	Degree=Pos	15	obl	_	_
+18	(	(	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+19	or	or	CCONJ	CC	_	22	cc	_	_
+20	of	of	ADP	E	_	22	case	_	_
+21	rock	rock	ADJ	A	Degree=Pos	22	amod	_	_
+22	crystal	crystal	NOUN	S	Number=Sing	17	conj	_	SpaceAfter=No
+23	)	)	PUNCT	FB	_	22	punct	_	_
+24	as	as	SCONJ	CS	_	29	mark	_	_
+25	glass	glass	NOUN	S	Number=Sing	29	nsubj:pass	_	_
+26	could	can	AUX	VM	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	29	aux	_	_
+27	not	not	PART	PART	Polarity=Neg	29	advmod	_	_
+28	be	be	AUX	VA	VerbForm=Inf	29	aux:pass	_	_
+29	made	make	VERB	V	Tense=Past|VerbForm=Part	15	advcl	_	_
+30	clear	clear	NOUN	S	Number=Sing	29	obj	_	_
+31	enough	enough	ADV	B	_	29	advmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 11
+# text = consequently, glasses were named ''brillen'' in german (''bril'' in dutch and ''briller'' in danish).
+1	consequently	consequently	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	glasses	glass	NOUN	S	Number=Plur	5	nsubj:pass	_	_
+4	were	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	named	name	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+6	'	'	PART	PART	_	5	compound:prt	_	SpaceAfter=No
+7	'	'	PART	PART	_	5	compound:prt	_	SpaceAfter=No
+8	brillen	brillen	VERB	V	Tense=Past|VerbForm=Part	5	xcomp	_	SpaceAfter=No
+9	'	'	PART	PART	_	8	case	_	SpaceAfter=No
+10	'	'	PART	PART	_	8	compound:prt	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	german	german	NOUN	S	Number=Sing	8	obl	_	_
+13	(	(	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	'	'	PART	PART	_	20	mark	_	SpaceAfter=No
+15	'	'	PART	PART	_	14	case	_	SpaceAfter=No
+16	bril	bril	NOUN	S	Number=Sing	20	nmod	_	SpaceAfter=No
+17	'	'	PART	PART	_	16	case	_	SpaceAfter=No
+18	'	'	PART	PART	_	16	case	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	dutch	dutch	NOUN	S	Number=Sing	8	advcl	_	_
+21	and	and	CCONJ	CC	_	28	cc	_	_
+22	'	'	PART	PART	_	21	case	_	SpaceAfter=No
+23	'	'	PART	PART	_	21	case	_	SpaceAfter=No
+24	briller	briller	NOUN	S	Number=Sing	28	nmod	_	SpaceAfter=No
+25	'	'	PART	PART	_	24	case	_	SpaceAfter=No
+26	'	'	PART	PART	_	24	case	_	_
+27	in	in	ADP	E	_	28	case	_	_
+28	danish	danish	NOUN	S	Number=Sing	20	conj	_	SpaceAfter=No
+29	)	)	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\s
+
+# sent_id = 12
+# text = beryl of various colors is found most commonly in granitic pegmatites, but also occurs in mica schists in the ural mountains, and limestone in colombia.
+1	beryl	beryl	NOUN	S	Number=Sing	6	nsubj:pass	_	_
+2	of	of	ADP	E	_	4	case	_	_
+3	various	various	ADJ	A	Degree=Pos	4	amod	_	_
+4	colors	color	NOUN	S	Number=Plur	1	nmod	_	_
+5	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	found	find	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+7	most	most	ADV	B	_	8	advmod	_	_
+8	commonly	commonly	ADV	B	_	6	advmod	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	granitic	granitic	ADJ	A	Degree=Pos	11	amod	_	_
+11	pegmatites	pegmatite	NOUN	S	Number=Plur	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	but	but	CCONJ	CC	_	15	cc	_	_
+14	also	also	ADV	B	_	15	advmod	_	_
+15	occurs	ccus	NOUN	S	Number=Plur	6	conj	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	mica	mica	DET	RI	Definite=Ind|PronType=Art	18	det	_	_
+18	schists	schist	NOUN	S	Number=Plur	15	nmod	_	_
+19	in	in	ADP	E	_	22	case	_	_
+20	the	the	DET	RD	Definite=Def|PronType=Art	22	det	_	_
+21	ural	ural	ADJ	A	Degree=Pos	22	amod	_	_
+22	mountains	mountain	NOUN	S	Number=Plur	15	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	25	punct	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	limestone	limestone	NOUN	S	Number=Sing	22	conj	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	colombia	colombia	NOUN	S	Number=Sing	22	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 13
+# text = beryl is often associated with tin and tungsten ore bodies.
+1	beryl	beryl	ADV	B	_	4	advmod	_	_
+2	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+3	often	often	ADV	B	_	4	advmod	_	_
+4	associated	associate	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+5	with	with	ADP	E	_	6	case	_	_
+6	tin	tin	NOUN	S	Number=Sing	4	obl	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	tungsten	tungsten	NOUN	S	Number=Sing	6	conj	_	_
+9	ore	ore	ADP	E	_	10	case	_	_
+10	bodies	body	NOUN	S	Number=Plur	4	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = beryl is found in europe in norway, austria, germany, sweden (especially morganite), ireland and russia, as well as brazil, colombia, madagascar, mozambique, pakistan, afghanistan, south africa, the united states, and zambia.
+1	beryl	beryl	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	found	find	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	europe	europe	NOUN	S	Number=Sing	3	obl	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	norway	norway	NOUN	S	Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	austria	austria	X	X	_	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	germany	germany	NOUN	S	Number=Sing	7	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	sweden	sweden	VERB	V	Tense=Past|VerbForm=Part	7	conj	_	_
+14	(	(	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+15	especially	especially	ADV	B	_	16	advmod	_	_
+16	morganite	morganite	ADV	B	_	7	conj	_	SpaceAfter=No
+17	)	)	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	ireland	ireland	NOUN	S	Number=Sing	7	conj	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	russia	russia	NOUN	S	Number=Sing	7	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	3	punct	_	_
+23	as	as	ADV	B	_	26	cc	_	_
+24	well	well	ADV	B	_	23	fixed	_	_
+25	as	as	ADP	E	_	23	fixed	_	_
+26	brazil	brazil	ADJ	A	Degree=Pos	3	conj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	28	punct	_	_
+28	colombia	colombia	NOUN	S	Number=Sing	26	conj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	30	punct	_	_
+30	madagascar	madagascar	NOUN	S	Number=Sing	3	conj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	32	punct	_	_
+32	mozambique	mozambique	NOUN	S	Number=Sing	3	conj	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	34	punct	_	_
+34	pakistan	pakistan	NOUN	S	Number=Sing	3	conj	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	36	punct	_	_
+36	afghanistan	afghanistan	ADJ	A	Degree=Pos	3	conj	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	39	punct	_	_
+38	south	south	ADJ	A	Degree=Pos	39	amod	_	_
+39	africa	africa	NOUN	S	Number=Sing	3	conj	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	3	punct	_	_
+41	the	the	DET	RD	Definite=Def|PronType=Art	43	det	_	_
+42	united	united	ADJ	A	Degree=Pos	43	amod	_	_
+43	states	state	NOUN	S	Number=Plur	3	conj	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	46	punct	_	_
+45	and	and	CCONJ	CC	_	46	cc	_	_
+46	zambia	zambia	X	X	_	3	conj	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = us beryl locations are in california, colorado, connecticut, georgia, idaho, maine, new hampshire, new mexico, north carolina, south dakota and utah.
+1	us	us	PRON	PE	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	beryl	beryl	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	locations	location	NOUN	S	Number=Plur	0	root	_	_
+4	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	california	california	NOUN	S	Number=Sing	3	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	colorado	colorado	NOUN	S	Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	connecticut	connecticut	CCONJ	CC	_	6	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	georgia	georgia	X	X	_	6	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	idaho	idaho	ADJ	A	Degree=Pos	6	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	maine	maine	ADJ	A	Degree=Pos	6	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	new	new	ADJ	A	Degree=Pos	19	amod	_	_
+19	hampshire	hampshire	X	X	_	6	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	22	punct	_	_
+21	new	new	ADJ	A	Degree=Pos	22	amod	_	_
+22	mexico	mexico	NOUN	S	Number=Sing	19	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	25	punct	_	_
+24	north	north	ADJ	A	Degree=Pos	25	amod	_	_
+25	carolina	carolina	NOUN	S	Number=Sing	19	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	28	punct	_	_
+27	south	south	ADJ	A	Degree=Pos	28	amod	_	_
+28	dakota	dakotum	NOUN	S	Number=Plur	19	conj	_	_
+29	and	and	CCONJ	CC	_	30	cc	_	_
+30	utah	utah	NOUN	S	Number=Sing	19	conj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = new england's pegmatites have produced some of the largest beryls found, including one massive crystal from the bumpus quarry in albany, maine with dimensions with a mass of around 18 metric tons;
+1	new	new	ADJ	A	Degree=Pos	4	amod	_	_
+2	england	england	NOUN	S	Number=Sing	4	nmod	_	SpaceAfter=No
+3	's	's	PART	PART	_	2	case	_	_
+4	pegmatites	pegmatite	NOUN	S	Number=Plur	6	nsubj	_	_
+5	have	have	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	produced	produce	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+7	some	some	PRON	PI	PronType=Ind	6	obj	_	_
+8	of	of	ADP	E	_	11	case	_	_
+9	the	the	DET	RD	Definite=Def|PronType=Art	11	det	_	_
+10	largest	largest	ADJ	A	Degree=Sup	11	amod	_	_
+11	beryls	beryl	NOUN	S	Number=Plur	7	nmod	_	_
+12	found	find	VERB	V	Tense=Past|VerbForm=Part	11	acl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	6	punct	_	_
+14	including	include	VERB	V	VerbForm=Ger	6	advcl	_	_
+15	one	one	NUM	N	NumType=Card	17	nummod	_	_
+16	massive	massive	ADJ	A	Degree=Pos	17	amod	_	_
+17	crystal	crystal	NOUN	S	Number=Sing	14	obj	_	_
+18	from	from	ADP	E	_	21	case	_	_
+19	the	the	DET	RD	Definite=Def|PronType=Art	21	det	_	_
+20	bumpus	bumpus	ADJ	A	Degree=Pos	21	amod	_	_
+21	quarry	quarry	NOUN	S	Number=Sing	17	nmod	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	albany	albany	NOUN	S	Number=Sing	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	17	punct	_	_
+25	maine	maine	VERB	V	Tense=Past|VerbForm=Part	17	acl	_	_
+26	with	with	ADP	E	_	27	case	_	_
+27	dimensions	dimension	NOUN	S	Number=Plur	25	obl	_	SpacesAfter=\s\s
+28	with	with	ADP	E	_	30	case	_	_
+29	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	30	det	_	_
+30	mass	mass	NOUN	S	Number=Sing	25	obl	_	_
+31	of	of	ADP	E	_	32	case	_	_
+32	around	around	NOUN	S	Number=Sing	35	nmod	_	_
+33	18	18	NUM	N	NumType=Card	35	nummod	_	_
+34	metric	metric	ADJ	A	Degree=Pos	35	amod	_	_
+35	tons	ton	NOUN	S	Number=Plur	30	nmod	_	SpaceAfter=No
+36	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 17
+# text = it is new hampshire's state mineral.
+1	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	new	new	ADJ	A	Degree=Pos	4	amod	_	_
+4	hampshire	hampshire	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+5	's	's	PART	PART	_	4	case	_	_
+6	state	state	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	acl	_	_
+7	mineral	mineral	ADJ	A	Degree=Pos	6	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 18
+# text = , the world's largest known naturally occurring crystal of any mineral is a crystal of beryl from malakialina, madagascar, long and in diameter, and weighing . beryl crystal structure with view down c axis beryl belongs to the hexagonal crystal system.
+1	,	,	PUNCT	FF	_	15	punct	_	_
+2	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+3	world	world	NOUN	S	Number=Sing	15	nmod	_	SpaceAfter=No
+4	's	's	PART	PART	_	3	case	_	_
+5	largest	largest	ADJ	A	Degree=Sup	15	amod	_	_
+6	known	known	ADJ	A	Degree=Pos	15	amod	_	_
+7	naturally	naturally	ADV	B	_	9	advmod	_	_
+8	occurring	occurr	ADP	E	_	9	case	_	_
+9	crystal	crystal	ADJ	A	Degree=Pos	15	amod	_	_
+10	of	of	ADP	E	_	12	case	_	_
+11	any	any	DET	DI	PronType=Ind	12	det	_	_
+12	mineral	mineral	ADJ	A	Degree=Pos	15	amod	_	_
+13	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	15	det	_	_
+15	crystal	crystal	NOUN	S	Number=Sing	40	nsubj	_	_
+16	of	of	ADP	E	_	17	case	_	_
+17	beryl	beryl	NOUN	S	Number=Sing	15	nmod	_	_
+18	from	from	ADP	E	_	19	case	_	_
+19	malakialina	malakialina	NOUN	S	Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	21	punct	_	_
+21	madagascar	madagascar	NOUN	S	Number=Sing	19	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	23	punct	_	SpacesAfter=\s\s
+23	long	long	ADV	B	_	19	conj	_	_
+24	and	and	CCONJ	CC	_	26	cc	_	SpacesAfter=\s\s
+25	in	in	ADP	E	_	26	case	_	_
+26	diameter	diameter	NOUN	S	Number=Sing	19	conj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	29	punct	_	_
+28	and	and	CCONJ	CC	_	29	cc	_	_
+29	weighing	weighing	PRON	PE	Number=Sing|Person=3|PronType=Prs	15	conj	_	_
+30	.	.	PUNCT	FS	_	33	punct	_	SpacesAfter=\n\s
+31	beryl	beryl	ADJ	A	Degree=Pos	33	amod	_	_
+32	crystal	crystal	ADJ	A	Degree=Pos	33	amod	_	_
+33	structure	structure	NOUN	S	Number=Sing	40	nsubj	_	_
+34	with	with	ADP	E	_	35	case	_	_
+35	view	view	NOUN	S	Number=Sing	33	nmod	_	_
+36	down	down	ADP	E	_	37	case	_	_
+37	c	c	NOUN	S	Number=Sing	35	nmod	_	_
+38	axis	axis	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	aux	_	SpacesAfter=\n
+39	beryl	beryl	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	40	aux	_	_
+40	belongs	belong	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+41	to	to	ADP	E	_	45	case	_	_
+42	the	the	DET	RD	Definite=Def|PronType=Art	45	det	_	_
+43	hexagonal	hexagonal	ADJ	A	Degree=Pos	45	amod	_	_
+44	crystal	crystal	ADJ	A	Degree=Pos	45	amod	_	_
+45	system	system	NOUN	S	Number=Sing	40	obl	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	40	punct	_	_
+
+# sent_id = 19
+# text = normally beryl forms hexagonal columns but can also occur in massive habits.
+1	normally	normally	ADV	B	_	3	advmod	_	_
+2	beryl	beryl	ADJ	A	Degree=Pos	3	amod	_	_
+3	forms	form	NOUN	S	Number=Plur	9	nsubj	_	_
+4	hexagonal	hexagonal	ADJ	A	Degree=Pos	5	amod	_	_
+5	columns	column	NOUN	S	Number=Plur	3	nmod	_	_
+6	but	but	CCONJ	CC	_	3	cc	_	_
+7	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	also	also	ADV	B	_	9	advmod	_	_
+9	occur	occur	VERB	V	VerbForm=Inf	0	root	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	massive	massive	ADJ	A	Degree=Pos	12	amod	_	_
+12	habits	habit	NOUN	S	Number=Plur	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 20
+# text = as a cyclosilicate beryl incorporates rings of silicate tetrahedra of si6o18 that are arranged in columns along the c axis and as parallel layers perpendicular to the c axis, forming channels along the c axis.
+1	as	as	ADP	E	_	3	case	_	_
+2	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	3	det	_	_
+3	cyclosilicate	cyclosilicate	NOUN	S	Number=Sing	5	nsubj	_	_
+4	beryl	beryl	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	incorporates	incorporate	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	rings	ring	NOUN	S	Number=Plur	5	obj	_	_
+7	of	of	ADP	E	_	9	case	_	_
+8	silicate	silicate	ADJ	A	Degree=Pos	9	amod	_	_
+9	tetrahedra	tetrahedra	NOUN	S	Number=Plur	6	nmod	_	_
+10	of	of	ADP	E	_	11	case	_	_
+11	si6o18	si6o18	NUM	N	NumType=Card	9	nmod	_	_
+12	that	that	PRON	PR	PronType=Rel	14	nsubj:pass	_	_
+13	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+14	arranged	arrange	VERB	V	Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	columns	column	NOUN	S	Number=Plur	25	obl	_	_
+17	along	along	ADP	E	_	19	case	_	_
+18	the	the	DET	RD	Definite=Def|PronType=Art	19	det	_	_
+19	c	c	NOUN	S	Number=Sing	25	nsubj	_	_
+20	axis	axis	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+21	and	and	CCONJ	CC	_	24	cc	_	_
+22	as	as	ADP	E	_	24	case	_	_
+23	parallel	parallel	ADJ	A	Degree=Pos	24	amod	_	_
+24	layers	layer	NOUN	S	Number=Plur	20	conj	_	_
+25	perpendicular	perpendicular	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+26	to	to	ADP	E	_	28	case	_	_
+27	the	the	DET	RD	Definite=Def|PronType=Art	28	det	_	_
+28	c	c	NOUN	S	Number=Sing	29	obl	_	_
+29	axis	axis	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	29	punct	_	_
+31	forming	for	VERB	V	VerbForm=Ger	29	advcl	_	_
+32	channels	channel	NOUN	S	Number=Plur	31	obj	_	_
+33	along	along	ADP	E	_	36	case	_	_
+34	the	the	DET	RD	Definite=Def|PronType=Art	36	det	_	_
+35	c	c	ADJ	A	Degree=Pos	36	amod	_	_
+36	axis	axis	NOUN	S	Number=Sing	31	obl	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 21
+# text = these channels permit a variety of ions, neutral atoms, and molecules to be incorporated into the crystal thus disrupting the overall charge of the crystal permitting further substitutions in aluminium, silicon, and beryllium sites in the crystal structure.
+1	these	this	DET	DD	Number=Plur|PronType=Dem	2	det	_	_
+2	channels	channel	NOUN	S	Number=Plur	3	nsubj	_	_
+3	permit	permit	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	5	det	_	_
+5	variety	variety	NOUN	S	Number=Sing	3	obj	_	_
+6	of	of	ADP	E	_	7	case	_	_
+7	ions	ion	NOUN	S	Number=Plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	neutral	neutral	ADJ	A	Degree=Pos	10	amod	_	_
+10	atoms	atom	NOUN	S	Number=Plur	7	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	molecules	molecule	NOUN	S	Number=Plur	3	conj	_	_
+14	to	to	PART	PART	_	16	mark	_	_
+15	be	be	AUX	VA	VerbForm=Inf	16	aux:pass	_	_
+16	incorporated	incorporate	VERB	V	Tense=Past|VerbForm=Part	13	acl	_	_
+17	into	into	ADP	E	_	19	case	_	_
+18	the	the	DET	RD	Definite=Def|PronType=Art	19	det	_	_
+19	crystal	crystal	NOUN	S	Number=Sing	16	obl	_	_
+20	thus	thus	ADV	B	_	21	advmod	_	_
+21	disrupting	disrupt	VERB	V	VerbForm=Ger	16	advcl	_	_
+22	the	the	DET	RD	Definite=Def|PronType=Art	24	det	_	_
+23	overall	overall	ADJ	A	Degree=Pos	24	amod	_	_
+24	charge	charge	NOUN	S	Number=Sing	21	obj	_	_
+25	of	of	ADP	E	_	28	case	_	_
+26	the	the	DET	RD	Definite=Def|PronType=Art	28	det	_	_
+27	crystal	crystal	ADJ	A	Degree=Pos	28	amod	_	_
+28	permitting	permitt	NOUN	S	Number=Sing	24	nmod	_	_
+29	further	further	ADV	B	_	30	advmod	_	_
+30	substitutions	substitution	NOUN	S	Number=Plur	28	nmod	_	_
+31	in	in	ADP	E	_	32	case	_	_
+32	aluminium	aluminium	NOUN	S	Number=Sing	30	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	34	punct	_	_
+34	silicon	silicon	NOUN	S	Number=Sing	32	conj	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	38	punct	_	_
+36	and	and	CCONJ	CC	_	38	cc	_	_
+37	beryllium	beryllium	ADJ	A	Degree=Pos	38	amod	_	_
+38	sites	site	NOUN	S	Number=Plur	32	conj	_	_
+39	in	in	ADP	E	_	42	case	_	_
+40	the	the	DET	RD	Definite=Def|PronType=Art	42	det	_	_
+41	crystal	crystal	ADJ	A	Degree=Pos	42	amod	_	_
+42	structure	structure	NOUN	S	Number=Sing	21	obl	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 22
+# text = these impurities give rise to the variety of colors of beryl that can be found.
+1	these	this	DET	DD	Number=Plur|PronType=Dem	2	det	_	_
+2	impurities	impurity	NOUN	S	Number=Plur	3	nsubj	_	_
+3	give	give	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	rise	rise	NOUN	S	Number=Sing	3	obj	_	_
+5	to	to	ADP	E	_	7	case	_	_
+6	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+7	variety	variety	NOUN	S	Number=Sing	3	obl	_	_
+8	of	of	ADP	E	_	9	case	_	_
+9	colors	color	NOUN	S	Number=Plur	7	nmod	_	_
+10	of	of	ADP	E	_	11	case	_	_
+11	beryl	beryl	NOUN	S	Number=Sing	9	nmod	_	_
+12	that	that	PRON	PR	PronType=Rel	15	nsubj:pass	_	_
+13	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	be	be	AUX	VA	VerbForm=Inf	15	aux:pass	_	_
+15	found	found	VERB	V	Tense=Past|VerbForm=Part	11	acl:relcl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 23
+# text = increasing alkali content within the silicate ring channels causes increases to the refractive indices and birefringence.
+1	increasing	increasing	VERB	V	VerbForm=Ger	10	csubj	_	_
+2	alkali	alkali	ADJ	NO	Degree=Pos|NumType=Ord	3	amod	_	_
+3	content	content	NOUN	S	Number=Sing	1	obj	_	_
+4	within	within	ADP	E	_	6	case	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+6	silicate	silicate	NOUN	S	Number=Sing	1	obl	_	_
+7	ring	r	ADP	E	_	9	case	_	_
+8	channels	channel	NOUN	S	Number=Plur	9	nmod	_	_
+9	causes	cause	NOUN	S	Number=Plur	6	nmod	_	_
+10	increases	increase	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	to	to	ADP	E	_	14	case	_	_
+12	the	the	DET	RD	Definite=Def|PronType=Art	14	det	_	_
+13	refractive	refractive	ADJ	A	Degree=Pos	14	amod	_	_
+14	indices	indice	NOUN	S	Number=Plur	10	obl	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	birefringence	birefringence	NOUN	S	Number=Sing	14	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n\s\n
+
+# newpar
+# sent_id = 24
+# text = beryl is a beryllium compound that is a known carcinogen with acute toxic effects leading to pneumonitis when inhaled.
+1	beryl	beryl	ADJ	A	Degree=Pos	5	nsubj	_	_
+2	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	5	det	_	_
+4	beryllium	beryllium	ADJ	A	Degree=Pos	5	amod	_	_
+5	compound	compound	NOUN	S	Number=Sing	0	root	_	_
+6	that	that	PRON	PR	PronType=Rel	10	nsubj	_	_
+7	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	10	det	_	_
+9	known	known	ADJ	A	Degree=Pos	10	amod	_	_
+10	carcinogen	carcinogen	NOUN	S	Number=Sing	5	acl:relcl	_	_
+11	with	with	ADP	E	_	14	case	_	_
+12	acute	acute	ADV	B	_	13	advmod	_	_
+13	toxic	toxic	ADJ	A	Degree=Pos	14	amod	_	_
+14	effects	effect	NOUN	S	Number=Plur	10	nmod	_	_
+15	leading	lead	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	14	acl	_	_
+16	to	to	PART	PART	_	17	mark	_	_
+17	pneumonitis	pneumonitis	VERB	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	xcomp	_	_
+18	when	when	SCONJ	CS	_	19	mark	_	_
+19	inhaled	inhal	VERB	V	Tense=Past|VerbForm=Part	17	advcl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 25
+# text = care must thus be used when mining, handling, and refining these gems.
+1	care	care	NOUN	S	Number=Sing	5	nsubj:pass	_	_
+2	must	must	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	thus	thus	ADV	B	_	5	advmod	_	_
+4	be	be	AUX	VA	VerbForm=Inf	5	aux:pass	_	_
+5	used	use	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+6	when	when	SCONJ	CS	_	7	mark	_	_
+7	mining	mining	NOUN	S	Number=Sing	5	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	handling	handl	NOUN	S	Number=Sing	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	refining	refin	VERB	V	VerbForm=Ger	7	conj	_	_
+13	these	this	DET	DD	Number=Plur|PronType=Dem	14	det	_	_
+14	gems	gem	NOUN	S	Number=Plur	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\s\n
+
+# newpar
+# sent_id = 26
+# text = ===aquamarine and maxixe=== aquamarine aquamarine (from , “sea water”,) is a blue or cyan variety of beryl.
+1	===aquamarine	===aquamarine	NOUN	S	Number=Sing	19	nsubj	_	_
+2	and	and	CCONJ	CC	_	3	cc	_	_
+3	maxixe===	maxixe===	NOUN	S	Number=Sing	1	conj	_	SpacesAfter=\n
+4	aquamarine	aquamarine	X	SW	Foreign=Yes	1	nmod	_	SpacesAfter=\n
+5	aquamarine	aquamarine	X	SW	Foreign=Yes	4	flat:foreign	_	_
+6	(	(	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+7	from	from	ADP	E	_	10	case	_	_
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	“sea	“sea	ADJ	A	Degree=Pos	10	amod	_	_
+10	water	water	NOUN	S	Number=Sing	4	nmod	_	SpaceAfter=No
+11	”	”	PUNCT	FF	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	SpaceAfter=No
+13	)	)	PUNCT	FB	_	10	punct	_	_
+14	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+15	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	19	det	_	_
+16	blue	blue	ADJ	A	Degree=Pos	19	amod	_	_
+17	or	or	CCONJ	CC	_	18	cc	_	_
+18	cyan	cyan	ADJ	A	Degree=Pos	16	conj	_	_
+19	variety	variety	NOUN	S	Number=Sing	0	root	_	_
+20	of	of	ADP	E	_	21	case	_	_
+21	beryl	beryl	NOUN	S	Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 27
+# text = it occurs at most localities which yield ordinary beryl.
+1	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	occurs	ccus	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	at	at	ADP	E	_	5	case	_	_
+4	most	most	ADJ	A	Degree=Sup	5	amod	_	_
+5	localities	locality	NOUN	S	Number=Plur	2	obl	_	_
+6	which	which	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	yield	yiold	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	ordinary	ordinary	DET	DI	Number=Sing|PronType=Ind	9	det	_	_
+9	beryl	beryl	NOUN	S	Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 28
+# text = the gem-gravel placer deposits of sri lanka contain aquamarine.
+1	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+2	gem-gravel	gem-gravel	ADJ	A	Degree=Pos	3	amod	_	_
+3	placer	placer	NOUN	S	Number=Sing	4	nmod	_	_
+4	deposits	deposit	NOUN	S	Number=Plur	8	nsubj	_	_
+5	of	of	ADP	E	_	7	case	_	_
+6	sri	sri	ADJ	NO	Degree=Pos|NumType=Ord	7	amod	_	_
+7	lanka	lanka	NOUN	S	Number=Plur	4	nmod	_	_
+8	contain	contain	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	aquamarine	aquamarine	NUM	N	NumType=Card	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 29
+# text = green-yellow beryl, such as that occurring in brazil, is sometimes called ''chrysolite aquamarine''.
+1	green	green	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	yellow	yellow	ADV	B	_	4	advmod	_	_
+4	beryl	beryl	ADV	B	_	15	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	such	such	ADJ	A	Degree=Pos	9	amod	_	_
+7	as	a	ADP	E	_	6	fixed	_	_
+8	that	that	DET	DD	Number=Sing|PronType=Dem	9	det	_	_
+9	occurring	occurr	NOUN	S	Number=Sing	15	nsubj:pass	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	brazil	brazil	NOUN	S	Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+14	sometimes	sometimes	ADV	B	_	15	advmod	_	_
+15	called	call	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+16	'	'	PART	PART	_	18	mark	_	SpaceAfter=No
+17	'	'	PART	PART	_	16	case	_	SpaceAfter=No
+18	chrysolite	chrysolite	VERB	V	VerbForm=Inf	15	advcl	_	_
+19	aquamarine	aquamarine	NUM	N	NumType=Card	18	obj	_	SpaceAfter=No
+20	'	'	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+21	'	'	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 30
+# text = the deep blue version of aquamarine is called ''maxixe''.
+1	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+2	deep	deep	ADJ	A	Degree=Pos	4	amod	_	_
+3	blue	blue	NOUN	S	Number=Sing	4	nmod	_	_
+4	version	version	NOUN	S	Number=Sing	8	nsubj:pass	_	_
+5	of	of	ADP	E	_	6	case	_	_
+6	aquamarine	aquamarine	NUM	N	NumType=Card	4	nmod	_	_
+7	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	called	call	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+9	'	'	PART	PART	_	11	mark	_	SpaceAfter=No
+10	'	'	PART	PART	_	9	case	_	SpaceAfter=No
+11	maxixe	maxixe	VERB	V	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
+12	'	'	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+13	'	'	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 31
+# text = maxixe is commonly found in the country of madagascar.
+1	maxixe	maxixe	ADV	B	_	4	advmod	_	_
+2	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+3	commonly	commonly	ADV	B	_	4	advmod	_	_
+4	found	find	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+7	country	country	NOUN	S	Number=Sing	4	obl	_	_
+8	of	of	ADP	E	_	9	case	_	_
+9	madagascar	madagascar	NOUN	S	Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 32
+# text = its color fades to white when exposed to sunlight or is subjected to heat treatment, though the color returns with irradiation.
+1	its	its	DET	AP	Number=Sing|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	color	color	NOUN	S	Number=Sing	3	nsubj	_	_
+3	fades	fade	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	to	to	PART	PART	_	5	mark	_	_
+5	white	white	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	when	when	SCONJ	CS	_	7	mark	_	_
+7	exposed	expose	VERB	V	Tense=Past|VerbForm=Part	5	advcl	_	_
+8	to	to	PART	PART	_	9	mark	_	_
+9	sunlight	sunlight	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	or	or	CCONJ	CC	_	12	cc	_	_
+11	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	subjected	subject	VERB	V	Tense=Past|VerbForm=Part	9	conj	_	_
+13	to	to	ADP	E	_	15	case	_	_
+14	heat	heat	NOUN	S	Number=Sing	15	nmod	_	_
+15	treatment	treatment	NOUN	S	Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	12	punct	_	_
+17	though	though	SCONJ	CS	_	20	case	_	_
+18	the	the	DET	RD	Definite=Def|PronType=Art	20	det	_	_
+19	color	color	NOUN	S	Number=Sing	20	nmod	_	_
+20	returns	return	NOUN	S	Number=Plur	7	obl	_	_
+21	with	with	ADP	E	_	22	case	_	_
+22	irradiation	irradiation	NOUN	S	Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 33
+# text = faceted aquamarine the pale blue color of aquamarine is attributed to fe2+.
+1	faceted	face	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	10	acl	_	_
+2	aquamarine	aquamarine	NUM	N	NumType=Card	6	nummod	_	SpacesAfter=\n
+3	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+4	pale	pale	ADJ	A	Degree=Pos	6	amod	_	_
+5	blue	blue	NOUN	S	Number=Sing	6	nmod	_	_
+6	color	color	NOUN	S	Number=Sing	1	obj	_	_
+7	of	of	ADP	E	_	8	case	_	_
+8	aquamarine	aquamarine	NUM	N	NumType=Card	6	nummod	_	_
+9	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	attributed	attribute	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+11	to	to	ADP	E	_	12	case	_	_
+12	fe2+	fe2+	NOUN	S	Number=Sing	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 34
+# text = fe3+ ions produce golden-yellow color, and when both fe2+ and fe3+ are present, the color is a darker blue as in maxixe.
+1	fe3+	fe3+	NOUN	S	Number=Sing	2	nmod	_	_
+2	ions	ion	NOUN	S	Number=Plur	3	nsubj	_	_
+3	produce	produce	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	golden	golden	ADJ	A	Degree=Pos	6	amod	_	SpaceAfter=No
+5	-	-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+6	yellow	yellow	NOUN	S	Number=Sing	7	nmod	_	_
+7	color	color	NOUN	S	Number=Sing	3	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	16	punct	_	_
+9	and	and	CCONJ	CC	_	16	cc	_	_
+10	when	when	SCONJ	CS	_	16	mark	_	_
+11	both	both	DET	DI	PronType=Ind	12	det	_	_
+12	fe2+	fe2+	NOUN	S	Number=Sing	16	nsubj	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	fe3+	fe3+	NOUN	S	Number=Sing	12	conj	_	_
+15	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	present	present	ADJ	A	Degree=Pos	3	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	3	punct	_	_
+18	the	the	DET	RD	Definite=Def|PronType=Art	19	det	_	_
+19	color	color	NOUN	S	Number=Sing	22	nsubj	_	_
+20	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+21	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	22	det	_	_
+22	darker	darker	NOUN	S	Number=Sing	3	conj	_	_
+23	blue	blue	ADV	B	_	22	advmod	_	_
+24	as	as	ADP	E	_	26	case	_	_
+25	in	in	ADP	E	_	26	case	_	_
+26	maxixe	maxixe	NOUN	S	Number=Sing	23	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 35
+# text = decoloration of maxixe by light or heat thus may be due to the charge transfer between fe3+ and fe2+.
+1	decoloration	decoloration	NOUN	S	Number=Sing	11	nsubj	_	_
+2	of	of	ADP	E	_	3	case	_	_
+3	maxixe	maxixe	NOUN	S	Number=Sing	1	nmod	_	_
+4	by	by	ADP	E	_	3	case	_	_
+5	light	light	NOUN	S	Number=Sing	4	fixed	_	_
+6	or	or	CCONJ	CC	_	7	cc	_	_
+7	heat	heat	NOUN	S	Number=Sing	4	conj	_	_
+8	thus	thus	ADV	B	_	7	advmod	_	_
+9	may	may	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	be	be	AUX	V	VerbForm=Inf	11	cop	_	_
+11	due	due	ADJ	A	Degree=Pos	0	root	_	_
+12	to	to	ADP	E	_	15	case	_	_
+13	the	the	DET	RD	Definite=Def|PronType=Art	15	det	_	_
+14	charge	charge	NOUN	S	Number=Sing	15	nmod	_	_
+15	transfer	transfer	NOUN	S	Number=Sing	11	obl	_	_
+16	between	between	ADP	E	_	17	case	_	_
+17	fe3+	fe3+	NOUN	S	Number=Sing	15	nmod	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	fe2+	fe2+	NOUN	S	Number=Sing	17	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 36
+# text = dark-blue maxixe color can be produced in green, pink or yellow beryl by irradiating it with high-energy particles (gamma rays, neutrons or even x-rays).
+1	dark	dark	VERB	V	Mood=Imp|Person=3|Tense=Pres|VerbForm=Fin	7	nsubj:pass	_	SpaceAfter=No
+2	-blue	-blue	ADJ	A	Degree=Pos	4	amod	_	_
+3	maxixe	maxixe	NOUN	S	Number=Sing	4	nmod	_	_
+4	color	color	NOUN	S	Number=Sing	1	obj	_	_
+5	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	be	be	AUX	VA	VerbForm=Inf	7	aux:pass	_	_
+7	produced	produce	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	green	green	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	pink	pink	ADJ	A	Degree=Pos	9	conj	_	_
+12	or	or	CCONJ	CC	_	14	cc	_	_
+13	yellow	yellow	ADJ	A	Degree=Pos	14	amod	_	_
+14	beryl	beryl	NOUN	S	Number=Sing	9	conj	_	_
+15	by	by	ADP	E	_	16	mark	_	_
+16	irradiating	irradiat	VERB	V	VerbForm=Ger	7	advcl	_	_
+17	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+18	with	with	ADP	E	_	22	case	_	_
+19	high	high	ADJ	A	Degree=Pos	21	amod	_	SpaceAfter=No
+20	-	-	PUNCT	FF	_	21	punct	_	SpaceAfter=No
+21	energy	energy	NOUN	S	Number=Sing	22	nmod	_	_
+22	particles	particle	NOUN	S	Number=Plur	16	obl	_	_
+23	(	(	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+24	gamma	gamma	DET	RI	Definite=Ind|Number=Sing|PronType=Art	25	det	_	_
+25	rays	ray	NOUN	S	Number=Plur	22	appos	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	27	punct	_	_
+27	neutrons	neutron	NOUN	S	Number=Plur	25	conj	_	_
+28	or	or	CCONJ	CC	_	32	cc	_	_
+29	even	even	ADV	B	_	30	advmod	_	_
+30	x	x	ADJ	A	Degree=Pos	32	amod	_	SpaceAfter=No
+31	-	-	PUNCT	FF	_	32	punct	_	SpaceAfter=No
+32	rays	ray	NOUN	S	Number=Plur	25	conj	_	SpaceAfter=No
+33	)	)	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n\s\n
+
+# newpar
+# sent_id = 37
+# text = in the united states, aquamarines can be found at the summit of mt.
+1	in	in	ADP	E	_	4	case	_	_
+2	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+3	united	united	ADJ	A	Degree=Pos	4	amod	_	_
+4	states	state	NOUN	S	Number=Plur	9	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	aquamarines	aquamarine	PRON	PE	Number=Sing|Person=3|PronType=Prs	9	nsubj:pass	_	_
+7	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	be	be	AUX	VA	VerbForm=Inf	9	aux:pass	_	_
+9	found	find	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+10	at	at	ADP	E	_	12	case	_	_
+11	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+12	summit	summit	NOUN	S	Number=Sing	9	obl	_	_
+13	of	of	ADP	E	_	14	case	_	_
+14	mt	mt	NOUN	S	Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 38
+# text = antero in the sawatch range in central colorado.
+1	antero	antero	ADP	E	_	5	case	_	_
+2	in	in	ADP	E	_	1	fixed	_	_
+3	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+4	sawatch	sawatch	ADJ	A	Degree=Pos	5	amod	_	_
+5	range	range	NOUN	S	Number=Sing	0	root	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	central	central	ADJ	A	Degree=Pos	8	amod	_	_
+8	colorado	colorado	NOUN	S	Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 39
+# text = in wyoming, aquamarine has been discovered in the big horn mountains, near powder river pass.
+1	in	in	ADP	E	_	2	mark	_	_
+2	wyoming	wyoming	VERB	V	VerbForm=Ger	7	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	aquamarine	aquamarine	PRON	PE	Number=Sing|Person=3|PronType=Prs	7	nsubj:pass	_	_
+5	has	have	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	been	be	AUX	VA	Tense=Past|VerbForm=Part	7	aux:pass	_	_
+7	discovered	discover	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+8	in	in	ADP	E	_	12	case	_	_
+9	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+10	big	big	ADJ	A	Degree=Pos	11	amod	_	_
+11	horn	horn	NOUN	S	Number=Sing	12	nmod	_	_
+12	mountains	mountain	NOUN	S	Number=Plur	7	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	7	punct	_	_
+14	near	near	ADP	E	_	17	case	_	_
+15	powder	powder	DET	DI	PronType=Ind	17	det	_	_
+16	river	river	NOUN	S	Number=Sing	17	nmod	_	_
+17	pass	pass	NOUN	S	Number=Sing	7	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\s\s
+
+# sent_id = 40
+# text = another location within the united states is the sawtooth range near stanley, idaho, although the minerals are within a wilderness area which prevents collecting.
+1	another	another	DET	RI	Definite=Ind|Number=Sing|PronType=Art	2	det	_	_
+2	location	location	NOUN	S	Number=Sing	10	nsubj	_	_
+3	within	within	ADP	E	_	6	case	_	_
+4	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+5	united	united	ADJ	A	Degree=Pos	6	amod	_	_
+6	states	state	NOUN	S	Number=Plur	2	nmod	_	_
+7	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	the	the	DET	RD	Definite=Def|PronType=Art	10	det	_	_
+9	sawtooth	sawtooth	ADJ	A	Degree=Pos	10	amod	_	_
+10	range	range	NOUN	S	Number=Sing	0	root	_	_
+11	near	near	ADP	E	_	12	case	_	_
+12	stanley	stanley	NOUN	S	Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	idaho	idaho	NOUN	S	Number=Sing	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	10	punct	_	_
+16	although	although	SCONJ	CS	_	23	mark	_	_
+17	the	the	DET	RD	Definite=Def|PronType=Art	18	det	_	_
+18	minerals	mineral	NOUN	S	Number=Plur	23	nsubj	_	_
+19	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	23	cop	_	_
+20	within	within	ADP	E	_	23	case	_	_
+21	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	23	det	_	_
+22	wilderness	wilderness	NOUN	S	Number=Sing	23	nmod	_	_
+23	area	area	NOUN	S	Number=Sing	10	acl	_	_
+24	which	which	PRON	PR	PronType=Rel	25	nsubj	_	_
+25	prevents	prevent	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+26	collecting	collecting	NOUN	S	Number=Sing	25	obj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 41
+# text = in brazil, there are mines in the states of minas gerais, espírito santo, and bahia, and minorly in rio grande do norte.
+1	in	in	ADP	E	_	2	case	_	_
+2	brazil	brazil	NOUN	S	Number=Sing	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	there	there	PRON	_	_	5	expl	_	_
+5	are	be	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+6	mines	mine	NOUN	S	Number=Plur	5	nsubj	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	the	the	DET	RD	Definite=Def|PronType=Art	9	det	_	_
+9	states	state	NOUN	S	Number=Plur	5	obl	_	_
+10	of	of	ADP	E	_	12	case	_	_
+11	minas	mina	NOUN	S	Number=Plur	12	nmod	_	_
+12	gerais	gerais	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	5	punct	_	_
+14	espírito	espírito	PART	PART	_	15	mark	_	_
+15	santo	santo	VERB	V	VerbForm=Inf	26	advcl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	bahia	bahia	NOUN	S	Number=Plur	15	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	24	punct	_	_
+20	and	and	CCONJ	CC	_	24	cc	_	_
+21	minorly	minorly	ADV	B	_	24	advmod	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	rio	rio	ADJ	A	Degree=Pos	24	amod	_	_
+24	grande	grande	NOUN	S	Number=Sing	15	conj	_	_
+25	do	do	AUX	VM	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	norte	norte	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	26	punct	_	_
+
+# sent_id = 42
+# text = the mines of colombia, zambia, madagascar, malawi, tanzania and kenya also produce aquamarine.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	mines	mine	NOUN	S	Number=Plur	16	nsubj	_	_
+3	of	of	ADP	E	_	4	case	_	_
+4	colombia	colombia	NOUN	S	Number=Plur	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	zambia	zambia	X	X	_	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	madagascar	madagascar	ADJ	A	Degree=Pos	4	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	malawi	malawi	NOUN	S	Number=Sing	4	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	tanzania	tanzania	DET	RI	Definite=Ind|Number=Sing|PronType=Art	4	conj	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	kenya	kenya	X	SW	Foreign=Yes	4	conj	_	_
+15	also	also	ADV	B	_	16	advmod	_	_
+16	produce	produce	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	aquamarine	aquamarine	NUM	N	NumType=Card	16	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	16	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 43
+# text = the largest aquamarine of gemstone quality ever mined was found in marambaia, minas gerais, brazil, in 1910.
+1	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+2	largest	largest	ADJ	A	Degree=Sup	3	amod	_	_
+3	aquamarine	aquamarine	NOUN	S	Number=Sing	10	nsubj:pass	_	_
+4	of	of	ADP	E	_	6	case	_	_
+5	gemstone	gemstone	ADJ	A	Degree=Pos	6	amod	_	_
+6	quality	quality	NOUN	S	Number=Sing	3	nmod	_	_
+7	ever	ever	ADV	B	_	8	advmod	_	_
+8	mined	mined	VERB	V	Tense=Past|VerbForm=Part	6	acl	_	_
+9	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
+10	found	find	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	marambaia	marambaia	NOUN	S	Number=Plur	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	minas	mina	NOUN	S	Number=Plur	15	nmod	_	_
+15	gerais	gerais	NOUN	S	Number=Sing	12	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	brazil	brazil	NOUN	S	Number=Sing	12	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	12	punct	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	1910	1910	NUM	N	NumType=Card	10	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 44
+# text = it weighed over , and its dimensions were long and in diameter.
+1	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	weighed	weigh	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	over	over	ADV	B	_	2	advmod	_	_
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	and	and	CCONJ	CC	_	7	cc	_	_
+6	its	its	DET	AP	Number=Sing|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	dimensions	dimension	NOUN	S	Number=Plur	2	conj	_	_
+8	were	be	AUX	V	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	7	cop	_	SpacesAfter=\s\s
+9	long	long	ADV	B	_	10	advmod	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	SpacesAfter=\s\s
+11	in	in	ADP	E	_	12	case	_	_
+12	diameter	diameter	NOUN	S	Number=Sing	8	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 45
+# text = the largest cut aquamarine gem is the dom pedro aquamarine, now housed in the smithsonian institution's national museum of natural history.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	largest	largest	ADJ	A	Degree=Sup	5	amod	_	_
+3	cut	cut	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	5	acl	_	_
+4	aquamarine	aquamarine	ADJ	A	Degree=Pos	5	amod	_	_
+5	gem	gem	NOUN	S	Number=Sing	8	nsubj	_	_
+6	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	the	the	DET	RD	Definite=Def|PronType=Art	8	det	_	_
+8	dom	dom	NOUN	S	Number=Sing	0	root	_	_
+9	pedro	pedro	ADP	E	_	10	case	_	_
+10	aquamarine	aquamarine	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	now	now	ADV	B	_	13	advmod	_	_
+13	housed	hous	VERB	V	Tense=Past|VerbForm=Part	8	acl	_	_
+14	in	in	ADP	E	_	20	case	_	_
+15	the	the	DET	RD	Definite=Def|PronType=Art	17	det	_	_
+16	smithsonian	smithsonian	ADJ	A	Degree=Pos	17	amod	_	_
+17	institution	institution	NOUN	S	Number=Sing	20	nmod	_	SpaceAfter=No
+18	's	's	PART	PART	_	17	case	_	_
+19	national	national	ADJ	A	Degree=Pos	20	amod	_	_
+20	museum	museum	NOUN	S	Number=Sing	13	obl	_	_
+21	of	of	ADP	E	_	23	case	_	_
+22	natural	natural	ADJ	A	Degree=Pos	23	amod	_	_
+23	history	history	NOUN	S	Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 46
+# text = the ancient romans believed that aquamarine would protect against any dangers while travelling at sea, and that it provided energy and cured laziness.
+1	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+2	ancient	ancient	ADJ	A	Degree=Pos	3	amod	_	_
+3	romans	roman	NOUN	S	Number=Plur	4	nsubj	_	_
+4	believed	believe	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	that	that	SCONJ	CS	_	8	mark	_	_
+6	aquamarine	aquamarine	PRON	PE	Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+7	would	will	AUX	VM	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+8	protect	protect	VERB	V	VerbForm=Inf	4	ccomp	_	_
+9	against	against	ADP	E	_	11	case	_	_
+10	any	any	DET	DI	PronType=Ind	11	det	_	_
+11	dangers	danger	NOUN	S	Number=Plur	8	obl	_	_
+12	while	while	SCONJ	CS	_	13	mark	_	_
+13	travelling	travelling	VERB	V	VerbForm=Ger	8	advcl	_	_
+14	at	at	ADP	E	_	15	case	_	_
+15	sea	sea	NOUN	S	Number=Sing	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	20	punct	_	_
+17	and	and	CCONJ	CC	_	20	cc	_	_
+18	that	that	SCONJ	CS	_	20	mark	_	_
+19	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+20	provided	provide	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	13	conj	_	_
+21	energy	energy	NOUN	S	Number=Sing	20	obj	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	cured	cure	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	20	conj	_	_
+24	laziness	laziness	NOUN	S	Number=Sing	23	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 47
+# text = === emerald ===
+1	===	===	SYM	X	_	2	nmod	_	_
+2	emerald	emerald	NOUN	S	Number=Sing	0	root	_	_
+3	===	===	SYM	X	_	2	nmod	_	SpacesAfter=\n\n\n
+
+# newpar
+# sent_id = 48
+# text = rough emerald on matrix emerald is green beryl, colored by trace amounts of chromium and sometimes vanadium.
+1	rough	rough	ADJ	A	Degree=Pos	2	amod	_	_
+2	emerald	emerald	NOUN	S	Number=Sing	8	nsubj	_	_
+3	on	on	ADP	E	_	5	case	_	_
+4	matrix	matrix	NOUN	S	Number=Sing	5	nmod	_	SpacesAfter=\n
+5	emerald	emerald	NOUN	S	Number=Sing	2	nmod	_	_
+6	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	green	green	AUX	VA	Tense=Past|VerbForm=Part	8	cop	_	_
+8	beryl	beryl	ADJ	A	Degree=Pos	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	colored	colo	VERB	V	Tense=Past|VerbForm=Part	8	acl	_	_
+11	by	by	ADP	E	_	13	case	_	_
+12	trace	trace	NOUN	S	Number=Sing	13	nmod	_	_
+13	amounts	amount	NOUN	S	Number=Plur	10	obl	_	_
+14	of	of	ADP	E	_	15	case	_	_
+15	chromium	chromium	NOUN	S	Number=Sing	13	nmod	_	_
+16	and	and	CCONJ	CC	_	18	cc	_	_
+17	sometimes	sometime	ADV	B	_	18	advmod	_	_
+18	vanadium	vanadium	ADJ	A	Degree=Pos	13	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 49
+# text = most emeralds are highly included, so their brittleness (resistance to breakage) is classified as generally poor.
+1	most	most	ADV	B	_	2	advmod	_	_
+2	emeralds	emerald	NOUN	S	Number=Plur	5	nsubj:pass	_	_
+3	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	highly	highly	ADV	B	_	5	advmod	_	_
+5	included	include	VERB	V	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	so	so	SCONJ	CS	_	16	mark	_	_
+8	their	their	DET	AP	Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	brittleness	brittleness	NOUN	S	Number=Sing	16	nsubj:pass	_	_
+10	(	(	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	resistance	resistance	NOUN	S	Number=Sing	9	nmod	_	_
+12	to	to	PART	PART	_	13	mark	_	_
+13	breakage	breakage	VERB	V	VerbForm=Inf	11	acl	_	SpaceAfter=No
+14	)	)	PUNCT	FB	_	11	punct	_	_
+15	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
+16	classified	classify	VERB	V	Tense=Past|VerbForm=Part	5	advcl	_	_
+17	as	as	ADP	E	_	19	case	_	_
+18	generally	generally	ADV	B	_	19	advmod	_	_
+19	poor	poor	ADJ	A	Degree=Pos	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 50
+# text = the modern english word "emerald" comes via middle english ''emeraude'', imported from modern french via old french ''ésmeraude'' and medieval latin ''esmaraldus'', from latin ''smaragdus'', from greek σμάραγδος ''smaragdos'' meaning ‘green gem’, from hebrew ברקת ''bareket'' (one of the twelve stones in the hoshen pectoral pendant of the kohen hagadol), meaning ‘lightning flash’, referring to ‘emerald’, relating to akkadian ''baraqtu'', meaning ‘emerald’, and possibly relating to the sanskrit word मरकत ''marakata'', meaning ‘green’.
+1	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+2	modern	modern	ADJ	A	Degree=Pos	3	amod	_	_
+3	english	english	NOUN	S	Number=Sing	4	nmod	_	_
+4	word	word	NOUN	S	Number=Sing	6	nsubj	_	_
+5	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+6	emerald	emerald	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	8	punct	_	_
+8	comes	come	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl	_	_
+9	via	via	PROPN	SP	_	10	nmod	_	_
+10	middle	middle	NOUN	S	Number=Sing	6	obj	_	_
+11	english	english	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+12	'	'	PART	PART	_	11	case	_	SpaceAfter=No
+13	'	'	PART	PART	_	11	case	_	SpaceAfter=No
+14	emeraude	emeraude	VERB	V	VerbForm=Inf	18	advcl	_	SpaceAfter=No
+15	'	'	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+16	'	'	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	14	punct	_	_
+18	imported	import	VERB	V	Tense=Past|VerbForm=Part	11	xcomp	_	_
+19	from	from	ADP	E	_	21	case	_	_
+20	modern	modern	ADJ	A	Degree=Pos	21	amod	_	_
+21	french	french	NOUN	S	Number=Sing	18	obl	_	_
+22	via	via	ADP	E	_	27	mark	_	_
+23	old	old	ADJ	A	Degree=Pos	24	amod	_	_
+24	french	french	NOUN	S	Number=Sing	27	nmod	_	_
+25	'	'	PART	PART	_	24	case	_	SpaceAfter=No
+26	'	'	PART	PART	_	24	case	_	SpaceAfter=No
+27	ésmeraude	ésmeraude	VERB	V	Tense=Past|VerbForm=Part	21	acl	_	SpaceAfter=No
+28	'	'	PART	PART	_	27	case	_	SpaceAfter=No
+29	'	'	PART	PART	_	27	compound:prt	_	_
+30	and	and	CCONJ	CC	_	32	cc	_	_
+31	medieval	medieval	ADJ	A	Degree=Pos	32	amod	_	_
+32	latin	latin	NOUN	S	Number=Sing	27	conj	_	_
+33	'	'	PART	PART	_	32	case	_	SpaceAfter=No
+34	'	'	PART	PART	_	32	case	_	SpaceAfter=No
+35	esmaraldus	esmaraldus	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	27	advcl	_	SpaceAfter=No
+36	'	'	PART	PART	_	35	case	_	SpaceAfter=No
+37	'	'	PART	PART	_	35	compound:prt	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	35	punct	_	_
+39	from	from	ADP	E	_	43	case	_	_
+40	latin	latin	SCONJ	CS	_	43	mark	_	_
+41	'	'	PART	PART	_	40	case	_	SpaceAfter=No
+42	'	'	PART	PART	_	40	case	_	SpaceAfter=No
+43	smaragdus	smaragdus	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	35	advcl	_	SpaceAfter=No
+44	'	'	PART	PART	_	43	case	_	SpaceAfter=No
+45	'	'	PART	PART	_	43	compound:prt	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	43	punct	_	_
+47	from	from	ADP	E	_	52	case	_	_
+48	greek	greek	ADJ	A	Degree=Pos	49	amod	_	_
+49	σμάραγδος	σμάραγδος	NOUN	S	Number=Sing	52	nmod	_	_
+50	'	'	PUNCT	FB	_	49	punct	_	SpaceAfter=No
+51	'	'	PART	PART	_	49	case	_	SpaceAfter=No
+52	smaragdos	smaragdo	NOUN	S	Number=Plur	43	obl	_	SpaceAfter=No
+53	'	'	PART	PART	_	52	case	_	SpaceAfter=No
+54	'	'	PART	PART	_	52	case	_	_
+55	meaning	mean	VERB	V	VerbForm=Ger	52	acl	_	_
+56	‘green	‘green	ADP	E	_	57	case	_	_
+57	gem	gem	NOUN	S	Number=Sing	55	obl	_	SpaceAfter=No
+58	’	’	PUNCT	FF	_	52	punct	_	SpaceAfter=No
+59	,	,	PUNCT	FF	_	43	punct	_	_
+60	from	from	ADP	E	_	65	case	_	_
+61	hebrew	hebrow	ADJ	A	Degree=Pos	62	amod	_	_
+62	ברקת	ברקת	NOUN	S	Number=Sing	65	nmod	_	_
+63	'	'	PART	PART	_	62	case	_	SpaceAfter=No
+64	'	'	PART	PART	_	62	case	_	SpaceAfter=No
+65	bareket	bareket	NOUN	S	Number=Plur	43	obl	_	SpaceAfter=No
+66	'	'	PUNCT	FB	_	65	punct	_	SpaceAfter=No
+67	'	'	PUNCT	FB	_	65	punct	_	_
+68	(	(	PUNCT	FB	_	69	punct	_	SpaceAfter=No
+69	one	one	NUM	N	NumType=Card	65	appos	_	_
+70	of	of	ADP	E	_	73	case	_	_
+71	the	the	DET	RD	Definite=Def|PronType=Art	73	det	_	_
+72	twelve	twelve	ADJ	A	Degree=Pos	73	amod	_	_
+73	stones	stone	NOUN	S	Number=Plur	69	nmod	_	_
+74	in	in	ADP	E	_	78	case	_	_
+75	the	the	DET	RD	Definite=Def|PronType=Art	78	det	_	_
+76	hoshen	hoshen	NOUN	S	Number=Sing	78	nmod	_	_
+77	pectoral	pectoral	ADJ	A	Degree=Pos	78	amod	_	_
+78	pendant	pendant	NOUN	S	Number=Sing	73	nmod	_	_
+79	of	of	ADP	E	_	82	case	_	_
+80	the	the	DET	RD	Definite=Def|PronType=Art	82	det	_	_
+81	kohen	kohen	ADJ	A	Degree=Pos	82	amod	_	_
+82	hagadol	hagadol	NOUN	S	Number=Sing	78	nmod	_	SpaceAfter=No
+83	)	)	PUNCT	FB	_	69	punct	_	SpaceAfter=No
+84	,	,	PUNCT	FF	_	65	punct	_	_
+85	meaning	mean	VERB	V	VerbForm=Ger	65	acl	_	_
+86	‘	‘	PUNCT	FF	_	88	punct	_	SpaceAfter=No
+87	lightning	lightn	NOUN	S	Number=Sing	88	nmod	_	_
+88	flash	flash	NOUN	S	Number=Sing	85	obj	_	SpaceAfter=No
+89	’	’	PUNCT	FF	_	88	punct	_	SpaceAfter=No
+90	,	,	PUNCT	FF	_	43	punct	_	_
+91	referring	referr	VERB	V	VerbForm=Ger	43	advcl	_	_
+92	to	to	PART	PART	_	93	mark	_	_
+93	‘emerald	‘emerald	VERB	V	VerbForm=Inf	91	xcomp	_	SpaceAfter=No
+94	’	’	PUNCT	FF	_	93	punct	_	SpaceAfter=No
+95	,	,	PUNCT	FF	_	93	punct	_	_
+96	relating	relate	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	93	advcl	_	_
+97	to	to	ADP	E	_	101	case	_	_
+98	akkadian	akkadian	NOUN	S	Gender=Masc|Number=Sing	101	nmod	_	_
+99	'	'	PART	PART	_	98	case	_	SpaceAfter=No
+100	'	'	PART	PART	_	98	case	_	SpaceAfter=No
+101	baraqtu	baraqtu	NOUN	S	Gender=Masc|Number=Sing	96	obl	_	SpaceAfter=No
+102	'	'	PART	PART	_	101	case	_	SpaceAfter=No
+103	'	'	PART	PART	_	101	case	_	SpaceAfter=No
+104	,	,	PUNCT	FF	_	101	punct	_	_
+105	meaning	meaning	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	101	acl	_	_
+106	‘emerald	‘emerald	NOUN	S	Number=Sing	105	obj	_	SpaceAfter=No
+107	’	’	PUNCT	FF	_	106	punct	_	SpaceAfter=No
+108	,	,	PUNCT	FF	_	111	punct	_	_
+109	and	and	CCONJ	CC	_	111	cc	_	_
+110	possibly	possibly	ADV	B	_	111	advmod	_	_
+111	relating	relate	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	96	conj	_	_
+112	to	to	ADP	E	_	119	case	_	_
+113	the	the	DET	RD	Definite=Def|PronType=Art	116	det	_	_
+114	sanskrit	sanskrit	ADJ	A	Degree=Pos	115	amod	_	_
+115	word	word	NOUN	S	Number=Sing	116	nmod	_	_
+116	मरकत	मरकत	NOUN	S	Number=Sing	119	nmod	_	_
+117	'	'	PART	PART	_	116	case	_	SpaceAfter=No
+118	'	'	PART	PART	_	116	case	_	SpaceAfter=No
+119	marakata	marakata	NOUN	S	Number=Plur	111	obl	_	SpaceAfter=No
+120	'	'	PART	PART	_	119	case	_	SpaceAfter=No
+121	'	'	PART	PART	_	119	case	_	SpaceAfter=No
+122	,	,	PUNCT	FF	_	123	punct	_	_
+123	meaning	meaning	NOUN	S	Number=Sing	119	conj	_	_
+124	‘green	‘green	NUM	N	NumType=Card	123	nummod	_	SpaceAfter=No
+125	’	’	PUNCT	FF	_	123	punct	_	SpaceAfter=No
+126	.	.	PUNCT	FS	_	43	punct	_	_
+
+# sent_id = 51
+# text = the semitic word אזמרגד ''izmargad'', meaning ‘emerald’, is a back-loan, deriving from greek smaragdos.
+1	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+2	semitic	semitic	ADJ	A	Degree=Pos	3	amod	_	_
+3	word	word	NOUN	S	Number=Sing	4	nmod	_	_
+4	אזמרגד	אזמרגד	NOUN	S	Number=Sing	19	nsubj	_	_
+5	'	'	PART	PART	_	4	case	_	SpaceAfter=No
+6	'	'	PART	PART	_	4	case	_	SpaceAfter=No
+7	izmargad	izmargad	VERB	V	Tense=Past|VerbForm=Part	4	acl	_	SpaceAfter=No
+8	'	'	PART	PART	_	7	case	_	SpaceAfter=No
+9	'	'	PART	PART	_	7	compound:prt	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	meaning	mean	NOUN	S	Number=Sing	12	nmod	_	_
+12	‘emerald	‘emerald	NOUN	S	Number=Sing	7	obl	_	SpaceAfter=No
+13	’	’	PUNCT	FF	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+16	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	19	det	_	_
+17	back	back	ADV	B	_	19	advmod	_	SpaceAfter=No
+18	-	-	PUNCT	FF	_	17	punct	_	SpaceAfter=No
+19	loan	loan	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	deriving	derive	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	19	acl	_	_
+22	from	from	ADP	E	_	24	case	_	_
+23	greek	greek	ADJ	A	Degree=Pos	24	amod	_	_
+24	smaragdos	smaragdo	NOUN	S	Number=Plur	21	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	19	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 52
+# text = faceted emerald, 1.07ct, colombia emeralds in antiquity were mined by the egyptians and in what is now austria, as well as swat in contemporary pakistan.
+1	faceted	face	VERB	V	Person=3|Tense=Past|VerbForm=Part	11	nsubj:pass	_	_
+2	emerald	emerald	NOUN	S	Number=Sing	1	obj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	1.07ct	1.07ct	NOUN	S	Number=Sing	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	colombia	colombia	DET	RI	Definite=Ind|Number=Sing|PronType=Art	7	det	_	SpacesAfter=\n
+7	emeralds	emerald	NOUN	S	Number=Plur	2	conj	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	antiquity	antiquity	NOUN	S	Number=Sing	1	obl	_	_
+10	were	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
+11	mined	min	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+12	by	by	ADP	E	_	14	case	_	_
+13	the	the	DET	RD	Definite=Def|PronType=Art	14	det	_	_
+14	egyptians	egyptian	NOUN	S	Number=Plur	11	obl	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	what	what	PRON	PR	Number=Sing|PronType=Rel	11	obl	_	_
+18	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	now	now	ADV	B	_	20	advmod	_	_
+20	austria	austria	X	X	_	22	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	as	as	ADV	B	_	25	cc	_	_
+23	well	well	ADV	B	_	22	fixed	_	_
+24	as	as	ADP	E	_	22	fixed	_	_
+25	swat	swat	NOUN	S	Number=Sing	17	conj	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	contemporary	contemporary	ADJ	A	Degree=Pos	28	amod	_	_
+28	pakistan	pakistan	NOUN	S	Number=Sing	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 53
+# text = a rare type of emerald known as a trapiche emerald is occasionally found in the mines of colombia.
+1	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	3	det	_	_
+2	rare	rare	ADJ	A	Degree=Pos	3	amod	_	_
+3	type	type	NOUN	S	Number=Sing	13	nsubj:pass	_	_
+4	of	of	ADP	E	_	5	case	_	_
+5	emerald	emerald	NOUN	S	Number=Sing	3	nmod	_	_
+6	known	know	ADJ	A	Degree=Pos	5	amod	_	_
+7	as	as	ADP	E	_	10	case	_	_
+8	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	10	det	_	_
+9	trapiche	trapiche	NOUN	S	Number=Sing	10	nmod	_	_
+10	emerald	emerald	NOUN	S	Number=Sing	3	nmod	_	_
+11	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+12	occasionally	occasionally	ADV	B	_	13	advmod	_	_
+13	found	found	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	the	the	DET	RD	Definite=Def|PronType=Art	16	det	_	_
+16	mines	mine	NOUN	S	Number=Plur	13	obl	_	_
+17	of	of	ADP	E	_	18	case	_	_
+18	colombia	colombia	NOUN	S	Number=Plur	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 54
+# text = a trapiche emerald exhibits a "star" pattern;
+1	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	3	det	_	_
+2	trapiche	trapiche	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+3	emerald	emerald	NOUN	S	Number=Sing	4	nsubj	_	_
+4	exhibits	exhibit	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	7	det	_	_
+6	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	star	star	NOUN	S	Number=Sing	4	obj	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	7	punct	_	_
+9	pattern	pattern	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+10	;	;	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 55
+# text = it has raylike spokes of dark carbon impurities that give the emerald a six-pointed radial pattern.
+1	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	has	have	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	raylike	raylike	ADJ	A	Degree=Pos	4	amod	_	_
+4	spokes	spoke	NOUN	S	Number=Plur	2	obj	_	_
+5	of	of	ADP	E	_	8	case	_	_
+6	dark	dark	ADJ	A	Degree=Pos	7	amod	_	_
+7	carbon	carbon	NOUN	S	Number=Sing	8	nmod	_	_
+8	impurities	impurity	NOUN	S	Number=Plur	4	nmod	_	_
+9	that	that	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	give	give	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+12	emerald	emerald	NOUN	S	Number=Sing	10	obj	_	_
+13	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	18	det	_	_
+14	six	six	NUM	N	NumType=Card	16	nummod	_	SpaceAfter=No
+15	-	-	PUNCT	FF	_	16	punct	_	SpaceAfter=No
+16	pointed	point	VERB	V	Tense=Past|VerbForm=Part	18	acl	_	_
+17	radial	radial	ADJ	A	Degree=Pos	18	amod	_	_
+18	pattern	pattern	NOUN	S	Number=Sing	10	xcomp	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 56
+# text = it is named for the ''trapiche'', a grinding wheel used to process sugarcane in the region.
+1	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	named	name	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+4	for	for	ADP	E	_	15	case	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	15	det	_	_
+6	'	'	PART	PART	_	5	case	_	SpaceAfter=No
+7	'	'	PART	PART	_	15	mark	_	SpaceAfter=No
+8	trapiche	trapiche	NOUN	S	Number=Sing	13	nmod	_	SpaceAfter=No
+9	'	'	PART	PART	_	8	case	_	SpaceAfter=No
+10	'	'	PART	PART	_	8	case	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	13	det	_	_
+13	grinding	grind	NOUN	S	Number=Sing	15	nsubj	_	_
+14	wheel	wheel	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	used	use	VERB	V	Tense=Past|VerbForm=Part	3	obl	_	_
+16	to	to	PART	PART	_	17	mark	_	_
+17	process	process	VERB	V	VerbForm=Inf	15	xcomp	_	_
+18	sugarcane	sugarcane	NOUN	S	Number=Sing	17	obj	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	the	the	DET	RD	Definite=Def|PronType=Art	21	det	_	_
+21	region	region	NOUN	S	Number=Sing	17	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 57
+# text = colombian emeralds are generally the most prized due to their transparency and fire.
+1	colombian	colombian	ADJ	A	Degree=Pos	2	amod	_	_
+2	emeralds	emerald	NOUN	S	Number=Plur	7	nsubj:pass	_	_
+3	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+4	generally	generally	ADV	B	_	7	advmod	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+6	most	most	ADV	B	_	7	advmod	_	_
+7	prized	prize	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+8	due	due	ADP	E	_	11	case	_	_
+9	to	to	ADP	E	_	8	fixed	_	_
+10	their	their	DET	AP	Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	transparency	transparency	NOUN	S	Number=Sing	7	obl	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	fire	fire	NOUN	S	Number=Sing	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 58
+# text = some of the rarest emeralds come from the two main emerald belts in the eastern ranges of the colombian andes:
+1	some	some	PRON	PI	PronType=Ind	12	nsubj	_	_
+2	of	of	ADP	E	_	5	case	_	_
+3	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+4	rarest	rarest	ADJ	A	Degree=Sup	5	amod	_	_
+5	emeralds	emerald	NOUN	S	Number=Plur	1	nmod	_	_
+6	come	come	VERB	V	Tense=Past|VerbForm=Part	5	acl	_	_
+7	from	from	ADP	E	_	11	case	_	_
+8	the	the	DET	RD	Definite=Def|PronType=Art	11	det	_	_
+9	two	two	NUM	N	NumType=Card	11	nummod	_	_
+10	main	main	ADJ	A	Degree=Pos	11	amod	_	_
+11	emerald	emerald	NOUN	S	Number=Sing	6	obl	_	_
+12	belts	belt	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	in	in	ADP	E	_	16	case	_	_
+14	the	the	DET	RD	Definite=Def|PronType=Art	16	det	_	_
+15	eastern	eastern	ADJ	A	Degree=Pos	16	amod	_	_
+16	ranges	range	NOUN	S	Number=Plur	12	obl	_	_
+17	of	of	ADP	E	_	20	case	_	_
+18	the	the	DET	RD	Definite=Def|PronType=Art	20	det	_	_
+19	colombian	colombian	ADJ	A	Degree=Pos	20	amod	_	_
+20	andes	ande	NOUN	S	Number=Plur	16	nmod	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	12	punct	_	_
+
+# sent_id = 59
+# text = muzo and coscuez west of the altiplano cundiboyacense, and chivor and somondoco to the east.
+1	muzo	muzo	NUM	N	NumType=Card	4	nummod	_	_
+2	and	and	CCONJ	CC	_	3	cc	_	_
+3	coscuez	coscuez	PROPN	SP	_	1	conj	_	_
+4	west	west	ADJ	A	Degree=Sup	0	root	_	_
+5	of	of	ADP	E	_	8	case	_	_
+6	the	the	DET	RD	Definite=Def|PronType=Art	8	det	_	_
+7	altiplano	altiplano	ADJ	A	Degree=Pos	8	amod	_	_
+8	cundiboyacense	cundiboyacense	NOUN	S	Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	chivor	chivor	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	4	conj	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	somondoco	somondoco	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	4	conj	_	_
+14	to	to	ADP	E	_	16	case	_	_
+15	the	the	DET	RD	Definite=Def|PronType=Art	16	det	_	_
+16	east	east	NOUN	S	Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 60
+# text = fine emeralds are also found in other countries, such as zambia, brazil, zimbabwe, madagascar, pakistan, india, afghanistan and russia.
+1	fine	fine	ADJ	A	Degree=Pos	2	amod	_	_
+2	emeralds	emerald	NOUN	S	Number=Plur	5	nsubj:pass	_	_
+3	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	also	also	ADV	B	_	5	advmod	_	_
+5	found	find	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	other	other	ADJ	A	Degree=Pos	8	amod	_	_
+8	countries	country	NOUN	S	Number=Plur	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	such	such	ADJ	A	Degree=Pos	12	amod	_	_
+11	as	as	ADP	E	_	10	fixed	_	_
+12	zambia	zambia	NOUN	S	Number=Sing	5	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	brazil	brazil	NOUN	S	Number=Sing	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	zimbabwe	zimbabwe	PRON	PE	Number=Plur|Person=1|PronType=Prs	12	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	madagascar	madagascar	ADJ	A	Degree=Pos	12	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	pakistan	pakistan	NOUN	S	Number=Sing	12	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	india	indium	X	X	_	12	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	24	punct	_	_
+24	afghanistan	afghanistan	ADJ	A	Degree=Pos	12	conj	_	_
+25	and	and	CCONJ	CC	_	26	cc	_	_
+26	russia	russia	X	X	_	12	conj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 61
+# text = in the us, emeralds can be found in hiddenite, north carolina.
+1	in	in	ADP	E	_	3	case	_	_
+2	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+3	us	us	PRON	PE	Number=Plur|Person=1|PronType=Prs	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	emeralds	emerald	NOUN	S	Number=Plur	8	nsubj:pass	_	_
+6	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	be	be	AUX	VA	VerbForm=Inf	8	aux:pass	_	_
+8	found	find	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	hiddenite	hiddenite	NOUN	S	Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	north	north	ADJ	A	Degree=Pos	13	amod	_	_
+13	carolina	carolina	NOUN	S	Number=Plur	8	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 62
+# text = in 1998, emeralds were discovered in yukon.
+1	in	in	ADP	E	_	2	case	_	_
+2	1998	1998	NUM	N	NumType=Card	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	emeralds	emerald	NOUN	S	Number=Plur	6	nsubj:pass	_	_
+5	were	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+6	discovered	discover	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	yukon	yukon	NOUN	S	Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 63
+# text = emerald is a rare and valuable gemstone and, as such, it has provided the incentive for developing synthetic emeralds.
+1	emerald	emerald	NOUN	S	Number=Sing	7	nsubj	_	_
+2	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+3	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	7	det	_	_
+4	rare	rare	ADJ	A	Degree=Pos	7	amod	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	valuable	valuable	ADJ	A	Degree=Pos	4	conj	_	_
+7	gemstone	gemstone	NOUN	S	Number=Sing	0	root	_	_
+8	and	and	CCONJ	CC	_	15	cc	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	15	punct	_	_
+10	as	as	ADP	E	_	11	case	_	_
+11	such	such	DET	DD	PronType=Dem	15	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+14	has	have	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	provided	provide	VERB	V	Tense=Past|VerbForm=Part	7	conj	_	_
+16	the	the	DET	RD	Definite=Def|PronType=Art	17	det	_	_
+17	incentive	incentive	NOUN	S	Number=Sing	15	obj	_	_
+18	for	for	ADP	E	_	19	mark	_	_
+19	developing	develop	VERB	V	VerbForm=Ger	15	advcl	_	_
+20	synthetic	synthetic	ADJ	A	Degree=Pos	21	amod	_	_
+21	emeralds	emerald	NOUN	S	Number=Plur	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 64
+# text = both hydrothermal and ''flux-growth'' synthetics have been produced.
+1	both	both	CCONJ	CC	_	2	cc	_	_
+2	hydrothermal	hydrothermal	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	8	acl	_	_
+3	and	and	CCONJ	CC	_	6	cc	_	_
+4	'	'	PART	PART	_	6	mark	_	SpaceAfter=No
+5	'	'	PART	PART	_	4	case	_	SpaceAfter=No
+6	flux	flux	VERB	V	VerbForm=Inf	2	conj	_	SpaceAfter=No
+7	-	-	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+8	growth	growth	NOUN	S	Number=Sing	11	nmod	_	SpaceAfter=No
+9	'	'	PART	PART	_	8	case	_	SpaceAfter=No
+10	'	'	PART	PART	_	8	case	_	_
+11	synthetics	synthetics	NOUN	S	Number=Plur	14	nsubj:pass	_	_
+12	have	have	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	been	be	AUX	VA	Tense=Past|VerbForm=Part	14	aux:pass	_	_
+14	produced	produce	VERB	V	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 65
+# text = the first commercially successful emerald synthesis process was that of carroll chatham.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	first	first	PRON	NO	NumType=Ord|PronType=Ind	9	nsubj	_	_
+3	commercially	commercially	ADV	B	_	4	advmod	_	_
+4	successful	successful	ADJ	A	Degree=Pos	5	amod	_	_
+5	emerald	emerald	NOUN	S	Number=Sing	9	nmod	_	_
+6	synthesis	synthesis	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+7	process	process	NOUN	S	Number=Sing	9	nsubj	_	_
+8	was	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+9	that	that	PRON	PD	Number=Sing|PronType=Dem	0	root	_	_
+10	of	of	ADP	E	_	12	case	_	_
+11	carroll	carroll	ADJ	A	Number=Sing	12	amod	_	_
+12	chatham	chatham	NOUN	S	Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 66
+# text = the other large producer of flux emeralds was pierre gilson sr., which has been on the market since 1964.
+1	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+2	other	other	ADJ	A	Degree=Pos	4	amod	_	_
+3	large	large	ADJ	A	Degree=Pos	4	amod	_	_
+4	producer	producer	NOUN	S	Number=Sing	11	nsubj	_	_
+5	of	of	ADP	E	_	7	case	_	_
+6	flux	flux	NUM	N	NumType=Card	7	nummod	_	_
+7	emeralds	emerald	NOUN	S	Number=Plur	4	nmod	_	_
+8	was	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+9	pierre	pierre	ADJ	A	Degree=Pos	11	amod	_	_
+10	gilson	gilson	NOUN	S	Number=Sing	11	nmod	_	_
+11	sr	sr	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14	which	which	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	has	have	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	been	be	VERB	V	Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+17	on	on	ADP	E	_	19	case	_	_
+18	the	the	DET	RD	Definite=Def|PronType=Art	19	det	_	_
+19	market	market	NOUN	S	Number=Sing	16	obl	_	_
+20	since	since	ADP	E	_	21	case	_	_
+21	1964	1964	NUM	N	NumType=Card	19	nummod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 67
+# text = gilson's emeralds are usually grown on natural colorless beryl seeds which become coated on both sides.
+1	gilson	gilson	NOUN	S	Number=Sing	3	nmod	_	SpaceAfter=No
+2	's	's	PART	PART	_	1	case	_	_
+3	emeralds	emerald	NOUN	S	Number=Plur	6	nsubj:pass	_	_
+4	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+5	usually	usually	ADV	B	_	6	advmod	_	_
+6	grown	grow	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+7	on	on	ADP	E	_	11	case	_	_
+8	natural	natural	ADJ	A	Degree=Pos	9	amod	_	_
+9	colorless	colorless	NOUN	S	Number=Sing	11	nmod	_	_
+10	beryl	beryl	ADJ	A	Degree=Pos	11	amod	_	_
+11	seeds	seed	NOUN	S	Number=Plur	6	obl	_	_
+12	which	which	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	become	become	VERB	V	Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+14	coated	coate	ADJ	A	Degree=Pos	13	xcomp	_	_
+15	on	on	ADP	E	_	17	case	_	_
+16	both	both	DET	DI	PronType=Ind	17	det	_	_
+17	sides	side	NOUN	S	Number=Plur	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 68
+# text = growth occurs at the rate of per month, a typical seven-month growth run producing emerald crystals of 7 mm of thickness.
+1	growth	growth	NOUN	S	Number=Sing	2	nsubj	_	_
+2	occurs	occurs	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	at	at	ADP	E	_	5	case	_	_
+4	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+5	rate	rate	NOUN	S	Number=Sing	2	obl	_	_
+6	of	of	ADP	E	_	8	case	_	SpacesAfter=\s\s
+7	per	per	ADJ	A	Degree=Pos	8	amod	_	_
+8	month	month	NOUN	S	Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	16	det	_	_
+11	typical	typical	ADJ	A	Degree=Pos	15	amod	_	_
+12	seven	seven	ADJ	A	Degree=Pos	15	amod	_	SpaceAfter=No
+13	-	-	PUNCT	FF	_	14	punct	_	SpaceAfter=No
+14	month	month	ADJ	A	Degree=Pos	15	amod	_	_
+15	growth	growth	NOUN	S	Number=Sing	16	nmod	_	_
+16	run	run	NOUN	S	Number=Sing	2	obj	_	_
+17	producing	produce	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	16	acl	_	_
+18	emerald	emerald	ADJ	A	Degree=Pos	19	amod	_	_
+19	crystals	crystal	NOUN	S	Number=Plur	17	obj	_	_
+20	of	of	ADP	E	_	22	case	_	_
+21	7	7	NUM	N	NumType=Card	22	nummod	_	SpacesAfter= 
+22	mm	mm	NOUN	S	Number=Sing	19	nmod	_	_
+23	of	of	ADP	E	_	24	case	_	_
+24	thickness	thickness	NOUN	S	Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 69
+# text = the green color of emeralds is widely attributed to presence of cr3+ ions.
+1	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+2	green	green	ADJ	A	Degree=Pos	3	amod	_	_
+3	color	color	NOUN	S	Number=Sing	8	nsubj:pass	_	_
+4	of	of	ADP	E	_	5	case	_	_
+5	emeralds	emerald	NOUN	S	Number=Plur	3	nmod	_	_
+6	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+7	widely	widely	ADV	B	_	8	advmod	_	_
+8	attributed	attribu	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+9	to	to	ADP	E	_	10	case	_	_
+10	presence	presence	NOUN	S	Number=Sing	8	obl	_	_
+11	of	of	ADP	E	_	13	case	_	_
+12	cr3+	cr3+	NOUN	S	Number=Sing	13	nmod	_	_
+13	ions	ion	NOUN	S	Number=Plur	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 70
+# text = intensely green beryls from brazil, zimbabwe and elsewhere in which the color is attributed to vanadium have also been sold and certified as emeralds.
+1	intensely	intensely	ADV	B	_	2	advmod	_	_
+2	green	green	ADJ	A	Degree=Pos	3	amod	_	_
+3	beryls	beryl	NOUN	S	Number=Plur	21	nsubj:pass	_	_
+4	from	from	ADP	E	_	5	case	_	_
+5	brazil	brazil	NOUN	S	Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	zimbabwe	zimbabwe	PRON	PE	Number=Plur|Person=1|PronType=Prs	5	conj	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	elsewhere	elsewhere	ADV	B	_	5	conj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	which	which	PRON	PR	PronType=Rel	15	obl	_	_
+12	the	the	DET	RD	Definite=Def|PronType=Art	13	det	_	_
+13	color	color	NOUN	S	Number=Sing	15	nsubj:pass	_	_
+14	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+15	attributed	attribute	VERB	V	Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+16	to	to	ADP	E	_	17	case	_	_
+17	vanadium	vanadium	PRON	PE	Number=Plur|Person=3|PronType=Prs	15	obl	_	_
+18	have	have	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	21	aux	_	_
+19	also	also	ADV	B	_	21	advmod	_	_
+20	been	be	AUX	VA	Tense=Past|VerbForm=Part	21	aux:pass	_	_
+21	sold	sold	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	certified	certified	VERB	V	Tense=Past|VerbForm=Part	21	conj	_	_
+24	as	as	ADP	E	_	25	case	_	_
+25	emeralds	emerald	NOUN	S	Number=Plur	23	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	21	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 71
+# text = ===golden beryl and heliodor===
+1	===golden	===golden	SCONJ	CS	_	2	mark	_	_
+2	beryl	beryl	NOUN	S	Number=Sing	0	root	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	heliodor===	heliodor===	NOUN	S	Number=Sing	2	conj	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 72
+# text = golden beryl faceted golden beryl, 48.75 ct, brazil ''golden beryl'' can range in colors from pale yellow to a brilliant gold.
+1	golden	golden	ADJ	A	Degree=Pos	2	amod	_	_
+2	beryl	beryl	NOUN	S	Number=Sing	3	nsubj	_	SpacesAfter=\n
+3	faceted	face	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	golden	golden	ADJ	A	Degree=Pos	5	amod	_	_
+5	beryl	beryl	NOUN	S	Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	48.75	48.75	NUM	N	NumType=Card	8	nummod	_	_
+8	ct	ct	NOUN	S	Number=Sing	3	appos	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	brazil	brazil	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	3	advcl	_	SpacesAfter=\n
+11	'	'	PART	PART	_	10	case	_	SpaceAfter=No
+12	'	'	PART	PART	_	10	compound:prt	_	SpaceAfter=No
+13	golden	golden	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+14	beryl	beryl	ADV	B	_	18	advmod	_	SpaceAfter=No
+15	'	'	PART	PART	_	14	case	_	SpaceAfter=No
+16	'	'	PART	PART	_	14	case	_	_
+17	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	range	range	VERB	V	VerbForm=Inf	13	ccomp	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	colors	color	NOUN	S	Number=Plur	18	obl	_	_
+21	from	from	ADP	E	_	23	case	_	_
+22	pale	pale	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	yellow	yellow	NOUN	S	Number=Sing	20	nmod	_	_
+24	to	to	ADP	E	_	27	case	_	_
+25	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	27	det	_	_
+26	brilliant	brilliant	ADJ	A	Degree=Pos	27	amod	_	_
+27	gold	gold	NOUN	S	Number=Sing	18	obl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 73
+# text = unlike emerald, golden beryl generally has very few flaws.
+1	unlike	unlike	ADP	E	_	2	case	_	_
+2	emerald	emerald	NOUN	S	Number=Sing	10	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	golden	golden	ADJ	A	Degree=Pos	5	amod	_	_
+5	beryl	beryl	NOUN	S	Number=Sing	10	nmod	_	_
+6	generally	generally	ADV	B	_	5	advmod	_	_
+7	has	have	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+8	very	very	ADV	B	_	9	advmod	_	_
+9	few	few	ADJ	A	Degree=Pos	10	amod	_	_
+10	flaws	flaws	NOUN	S	Number=Plur	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 74
+# text = the term "golden beryl" is sometimes synonymous with ''heliodor'' (from greek ''hēlios – ἥλιος'' "sun" + ''dōron – δῶρον'' "gift") but golden beryl refers to pure yellow or golden yellow shades, while heliodor refers to the greenish-yellow shades.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	term	term	NOUN	S	Number=Sing	9	nsubj	_	_
+3	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+4	golden	golden	ADJ	A	Degree=Pos	5	amod	_	_
+5	beryl	beryl	NOUN	S	Number=Sing	2	nmod	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	_
+7	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	sometimes	sometimes	ADV	B	_	9	advmod	_	_
+9	synonymous	synonymous	ADJ	A	Degree=Pos	0	root	_	_
+10	with	with	ADP	E	_	13	mark	_	_
+11	'	'	PART	PART	_	10	case	_	SpaceAfter=No
+12	'	'	PART	PART	_	10	case	_	SpaceAfter=No
+13	heliodor	heliodor	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	9	advcl	_	SpaceAfter=No
+14	'	'	PART	PART	_	13	case	_	SpaceAfter=No
+15	'	'	PART	PART	_	13	compound:prt	_	_
+16	(	(	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+17	from	from	ADP	E	_	21	case	_	_
+18	greek	greek	NOUN	S	Number=Sing	21	nmod	_	_
+19	'	'	PART	PART	_	18	case	_	SpaceAfter=No
+20	'	'	PART	PART	_	18	case	_	SpaceAfter=No
+21	hēlios	hēlio	NOUN	S	Number=Plur	13	obl	_	_
+22	–	–	PUNCT	FB	_	21	punct	_	_
+23	ἥλιος	ἥλιος	NOUN	S	Number=Sing	27	obl	_	SpaceAfter=No
+24	'	'	PART	PART	_	23	case	_	SpaceAfter=No
+25	'	'	PART	PART	_	23	case	_	_
+26	"	"	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+27	sun	sin	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	21	acl	_	SpaceAfter=No
+28	"	"	PUNCT	FB	_	27	punct	_	_
+29	+	+	SYM	X	_	32	nmod	_	_
+30	'	'	PART	PART	_	29	case	_	SpaceAfter=No
+31	'	'	PART	PART	_	29	case	_	SpaceAfter=No
+32	dōron	dōron	NOUN	S	Number=Sing	27	obj	_	_
+33	–	–	PUNCT	FB	_	32	punct	_	_
+34	δῶρον	δῶρον	NOUN	S	Number=Sing	38	obl	_	SpaceAfter=No
+35	'	'	PART	PART	_	34	case	_	SpaceAfter=No
+36	'	'	PART	PART	_	34	case	_	_
+37	"	"	PUNCT	FB	_	38	punct	_	SpaceAfter=No
+38	gift	gift	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	32	acl	_	SpaceAfter=No
+39	"	"	PUNCT	FB	_	38	punct	_	SpaceAfter=No
+40	)	)	PUNCT	FB	_	38	punct	_	_
+41	but	but	CCONJ	CC	_	42	cc	_	_
+42	golden	golden	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	27	conj	_	_
+43	beryl	beryl	ADJ	A	Number=Sing	44	amod	_	_
+44	refers	refer	NOUN	S	Number=Plur	42	obj	_	_
+45	to	to	PART	PART	_	46	mark	_	_
+46	pure	pure	VERB	V	VerbForm=Inf	42	xcomp	_	_
+47	yellow	yellow	ADJ	A	Degree=Pos	50	amod	_	_
+48	or	or	CCONJ	CC	_	49	cc	_	_
+49	golden	golden	ADJ	A	Degree=Pos	47	conj	_	_
+50	yellow	yellow	NOUN	S	Number=Sing	51	nmod	_	_
+51	shades	shade	NOUN	S	Number=Plur	46	obj	_	SpaceAfter=No
+52	,	,	PUNCT	FF	_	46	punct	_	_
+53	while	while	SCONJ	CS	_	55	mark	_	_
+54	heliodor	heliodor	ADJ	A	Degree=Pos	55	amod	_	_
+55	refers	refer	NOUN	S	Number=Plur	46	advcl	_	_
+56	to	to	ADP	E	_	61	case	_	_
+57	the	the	DET	RD	Definite=Def|PronType=Art	61	det	_	_
+58	greenish	greenish	NOUN	S	_	61	nmod	_	SpaceAfter=No
+59	-	-	PUNCT	FF	_	61	punct	_	SpaceAfter=No
+60	yellow	yellow	ADJ	A	Degree=Pos	61	amod	_	_
+61	shades	shade	NOUN	S	Number=Plur	55	nmod	_	SpaceAfter=No
+62	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 75
+# text = the golden yellow color is attributed to fe3+ ions.
+1	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+2	golden	golden	ADJ	A	Degree=Pos	3	amod	_	_
+3	yellow	yellow	NOUN	S	Number=Sing	4	nmod	_	_
+4	color	color	NOUN	S	Number=Sing	6	nsubj:pass	_	_
+5	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	attributed	attribute	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+7	to	to	ADP	E	_	9	case	_	_
+8	fe3+	fe3+	NOUN	S	Number=Sing	9	nmod	_	_
+9	ions	ion	NOUN	S	Number=Plur	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 76
+# text = both golden beryl and heliodor are used as gems.
+1	both	both	CCONJ	CC	_	3	cc	_	_
+2	golden	golden	ADJ	A	Degree=Pos	3	amod	_	_
+3	beryl	beryl	NOUN	S	Number=Sing	7	nsubj:pass	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	heliodor	heliodor	NOUN	S	Number=Sing	3	conj	_	_
+6	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	used	use	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+8	as	as	ADP	E	_	9	case	_	_
+9	gems	gem	NOUN	S	Number=Plur	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 77
+# text = probably the largest cut golden beryl is the flawless 2054-carat stone on display in the hall of gems, washington, d.c., united states.
+1	probably	probably	ADV	B	_	3	advmod	_	_
+2	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+3	largest	largest	ADJ	A	Degree=Sup	6	amod	_	_
+4	cut	cut	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	6	acl	_	_
+5	golden	golden	ADJ	A	Degree=Pos	6	amod	_	_
+6	beryl	beryl	NOUN	S	Number=Sing	9	nsubj	_	_
+7	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	the	the	DET	RD	Definite=Def|PronType=Art	9	det	_	_
+9	flawless	flawless	NOUN	S	Number=Sing	0	root	_	_
+10	2054	2054	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
+11	-	-	PUNCT	FF	_	12	punct	_	SpaceAfter=No
+12	carat	carat	NOUN	S	Number=Sing	9	nmod	_	_
+13	stone	stone	NUM	N	NumType=Card	12	nummod	_	_
+14	on	on	ADP	E	_	15	case	_	_
+15	display	display	NOUN	S	Number=Sing	12	nmod	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	the	the	DET	RD	Definite=Def|PronType=Art	18	det	_	_
+18	hall	hall	NOUN	S	Number=Sing	9	nmod	_	_
+19	of	of	ADP	E	_	20	case	_	_
+20	gems	gem	NOUN	S	Number=Plur	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	washington	washington	NOUN	S	Number=Sing	20	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	27	punct	_	_
+24	d.c.	d.c.	PUNCT	FS	_	27	punct	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	27	punct	_	_
+26	united	united	ADJ	A	Degree=Pos	27	amod	_	_
+27	states	state	NOUN	S	Number=Plur	20	conj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n\n\n
+
+# newpar
+# sent_id = 78
+# text = ===goshenite=== goshenite faceted goshenite, 1.88 ct, brazil colorless beryl is called ''goshenite''.
+1	===goshenite===	===goshenite===	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n
+2	goshenite	goshenite	SCONJ	CS	_	13	mark	_	SpacesAfter=\n
+3	faceted	face	VERB	V	Tense=Past|VerbForm=Part	4	acl	_	_
+4	goshenite	goshenite	NOUN	S	Number=Sing	10	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	1.88	1.88	NUM	N	NumType=Card	7	nummod	_	_
+7	ct	ct	NOUN	S	Number=Sing	4	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	brazil	brazil	ADJ	A	Degree=Pos	10	amod	_	SpacesAfter=\n
+10	colorless	colorless	NOUN	S	Number=Sing	13	nsubj:pass	_	_
+11	beryl	beryl	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+13	called	call	VERB	V	Tense=Past|VerbForm=Part	1	acl	_	_
+14	'	'	PART	PART	_	16	mark	_	SpaceAfter=No
+15	'	'	PART	PART	_	14	case	_	SpaceAfter=No
+16	goshenite	goshenite	VERB	V	VerbForm=Inf	13	xcomp	_	SpaceAfter=No
+17	'	'	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+18	'	'	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 79
+# text = the name originates from goshen, massachusetts, where it was originally discovered.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	name	name	NOUN	S	Number=Sing	3	nsubj	_	_
+3	originates	originate	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	from	from	ADP	E	_	5	case	_	_
+5	goshen	goshen	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	massachusetts	massachusett	NOUN	S	Number=Plur	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	where	where	ADV	B	_	13	advmod	_	_
+10	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	13	nsubj:pass	_	_
+11	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
+12	originally	originally	ADV	B	_	13	advmod	_	_
+13	discovered	discover	VERB	V	Tense=Past|VerbForm=Part	3	advcl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 80
+# text = in the past, goshenite was used for manufacturing eyeglasses and lenses owing to its transparency.
+1	in	in	ADP	E	_	3	case	_	_
+2	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+3	past	past	NOUN	S	Number=Sing	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	goshenite	goshenite	NOUN	S	Number=Sing	7	nsubj:pass	_	_
+6	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	used	use	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+8	for	for	ADP	E	_	10	case	_	_
+9	manufacturing	manufacturing	NOUN	S	Number=Sing	10	nmod	_	_
+10	eyeglasses	eyeglass	NOUN	S	Number=Plur	7	obl	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	lenses	lens	NOUN	S	Number=Plur	10	conj	_	_
+13	owing	owe	VERB	V	VerbForm=Ger	7	advcl	_	_
+14	to	to	ADP	E	_	16	case	_	_
+15	its	its	DET	AP	Number=Sing|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	transparency	transparency	NOUN	S	Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 81
+# text = nowadays, it is most commonly used for gemstone purposes.
+1	nowadays	nowadays	ADV	B	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	7	nsubj:pass	_	_
+4	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+5	most	most	ADV	B	_	6	advmod	_	_
+6	commonly	commonly	ADV	B	_	7	advmod	_	_
+7	used	use	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+8	for	for	ADP	E	_	10	case	_	_
+9	gemstone	gemstone	NUM	N	NumType=Card	10	nummod	_	_
+10	purposes	purpose	NOUN	S	Number=Plur	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 82
+# text = the gem value of goshenite is relatively low.
+1	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+2	gem	gem	NOUN	S	Number=Sing	3	nmod	_	_
+3	value	value	NOUN	S	Number=Sing	8	nsubj	_	_
+4	of	of	ADP	E	_	5	case	_	_
+5	goshenite	goshenite	NOUN	S	Number=Sing	3	nmod	_	_
+6	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	relatively	relatively	ADV	B	_	8	advmod	_	_
+8	low	low	ADJ	A	Degree=Pos	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 83
+# text = however, goshenite can be colored yellow, green, pink, blue and in intermediate colors by irradiating it with high-energy particles.
+1	however	however	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	goshenite	goshenite	ADJ	A	Degree=Pos	6	nsubj:pass	_	_
+4	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	be	be	AUX	VA	VerbForm=Inf	6	aux:pass	_	_
+6	colored	colo	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+7	yellow	yellow	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	green	green	ADJ	A	Degree=Pos	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	pink	pink	NOUN	S	Number=Sing	6	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	blue	blue	NOUN	S	Number=Sing	6	conj	_	_
+14	and	and	CCONJ	CC	_	17	cc	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	intermediate	intermediate	ADJ	A	Degree=Pos	17	amod	_	_
+17	colors	color	NOUN	S	Number=Plur	6	obl	_	_
+18	by	by	ADP	E	_	19	mark	_	_
+19	irradiating	irradiat	VERB	V	VerbForm=Ger	6	advcl	_	_
+20	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+21	with	with	ADP	E	_	25	case	_	_
+22	high	high	ADJ	A	Degree=Pos	24	amod	_	SpaceAfter=No
+23	-	-	PUNCT	FF	_	22	punct	_	SpaceAfter=No
+24	energy	energy	NOUN	S	Number=Sing	25	nmod	_	_
+25	particles	particle	NOUN	S	Number=Plur	19	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 84
+# text = the resulting color depends on the content of ca, sc, ti, v, fe, and co impurities.
+1	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+2	resulting	result	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	3	acl	_	_
+3	color	color	NOUN	S	Number=Sing	4	nsubj	_	_
+4	depends	depend	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	on	on	ADP	E	_	7	case	_	_
+6	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+7	content	content	NOUN	S	Number=Sing	4	obl	_	_
+8	of	of	ADP	E	_	9	case	_	_
+9	ca	ca	NOUN	S	Number=Plur	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	sc	sc	ADJ	A	Degree=Pos	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	ti	ti	NOUN	S	Number=Sing	9	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	v	fifth	ADJ	NO	Degree=Pos|NumType=Ord	9	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	fe	fe	NOUN	S	Number=Sing	9	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19	and	and	CCONJ	CC	_	21	cc	_	_
+20	co	co	ADJ	A	Degree=Pos	21	amod	_	_
+21	impurities	impurity	NOUN	S	Number=Plur	9	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n\n
+
+# newpar
+# sent_id = 85
+# text = ===morganite=== morganite faceted morganite, 2.01 ct, brazil morganite, also known as "pink beryl", "rose beryl" "pink emerald" (which is not a legal term to be used as per the new federal trade commission guidelines and regulations), and "cesian (or ''caesian'') beryl", is a rare light pink to rose-colored gem-quality variety of beryl.
+1	===morganite===	===morganite===	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n
+2	morganite	morganite	SCONJ	CS	_	21	mark	_	SpacesAfter=\n
+3	faceted	face	VERB	V	Tense=Past|VerbForm=Part	4	acl	_	_
+4	morganite	morganite	NOUN	S	Number=Sing	7	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	2.01	2.01	NUM	N	NumType=Card	4	nummod	_	_
+7	ct	ct	NOUN	S	Number=Sing	21	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	brazil	brazil	ADJ	A	Degree=Pos	10	amod	_	SpacesAfter=\n
+10	morganite	morganite	NOUN	S	Number=Sing	7	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	also	also	ADV	B	_	13	advmod	_	_
+13	known	know	ADJ	A	Degree=Pos	7	conj	_	_
+14	as	as	ADP	E	_	17	case	_	_
+15	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+16	pink	pink	ADJ	A	Degree=Pos	17	amod	_	_
+17	beryl	beryl	NOUN	S	Number=Sing	13	obl	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	17	punct	_	_
+20	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+21	rose	rise	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	1	acl	_	_
+22	beryl	beryl	ADV	B	_	21	advmod	_	SpaceAfter=No
+23	"	"	PUNCT	FB	_	26	punct	_	_
+24	"	"	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+25	pink	pink	ADJ	A	Degree=Pos	26	amod	_	_
+26	emerald	emerald	NOUN	S	Number=Sing	21	obj	_	SpaceAfter=No
+27	"	"	PUNCT	FB	_	26	punct	_	_
+28	(	(	PUNCT	FB	_	34	punct	_	SpaceAfter=No
+29	which	which	PRON	PR	PronType=Rel	34	nsubj	_	_
+30	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	_
+31	not	not	PART	PART	Polarity=Neg	34	advmod	_	_
+32	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	34	det	_	_
+33	legal	legal	ADJ	A	Degree=Pos	34	amod	_	_
+34	term	term	NOUN	S	Number=Sing	26	appos	_	_
+35	to	to	PART	PART	_	37	mark	_	_
+36	be	be	AUX	VA	VerbForm=Inf	37	aux:pass	_	_
+37	used	use	VERB	V	Tense=Past|VerbForm=Part	34	acl	_	_
+38	as	as	ADP	E	_	45	case	_	_
+39	per	per	ADP	E	_	38	fixed	_	_
+40	the	the	DET	RD	Definite=Def|PronType=Art	45	det	_	_
+41	new	new	ADJ	A	Degree=Pos	45	amod	_	_
+42	federal	federal	ADJ	A	Degree=Pos	44	amod	_	_
+43	trade	trade	NOUN	S	Number=Sing	44	nmod	_	_
+44	commission	commission	NOUN	S	Number=Sing	45	nmod	_	_
+45	guidelines	guideline	NOUN	S	Number=Plur	37	obl	_	_
+46	and	and	CCONJ	CC	_	47	cc	_	_
+47	regulations	regulation	NOUN	S	Number=Plur	45	conj	_	SpaceAfter=No
+48	)	)	PUNCT	FB	_	34	punct	_	SpaceAfter=No
+49	,	,	PUNCT	FF	_	52	punct	_	_
+50	and	and	CCONJ	CC	_	52	cc	_	_
+51	"	"	PUNCT	FB	_	52	punct	_	SpaceAfter=No
+52	cesian	cesian	ADJ	A	Degree=Pos	26	conj	_	_
+53	(	(	PUNCT	FB	_	55	punct	_	SpaceAfter=No
+54	or	or	CCONJ	CC	_	55	cc	_	_
+55	'	'	PART	PART	_	52	conj	_	SpaceAfter=No
+56	'	'	PART	PART	_	55	case	_	SpaceAfter=No
+57	caesian	caesian	NOUN	S	Number=Sing	61	obl	_	SpaceAfter=No
+58	'	'	PART	PART	_	57	case	_	SpaceAfter=No
+59	'	'	PART	PART	_	57	case	_	SpaceAfter=No
+60	)	)	PUNCT	FB	_	61	punct	_	_
+61	beryl	beryl	ADJ	A	Degree=Pos	55	xcomp	_	SpaceAfter=No
+62	"	"	PUNCT	FB	_	52	punct	_	SpaceAfter=No
+63	,	,	PUNCT	FF	_	52	punct	_	_
+64	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	68	cop	_	_
+65	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	68	det	_	_
+66	rare	rare	ADJ	A	Degree=Pos	67	amod	_	_
+67	light	light	NOUN	S	Number=Sing	68	nmod	_	_
+68	pink	pink	NOUN	S	Number=Sing	52	nsubj	_	_
+69	to	to	ADP	E	_	71	case	_	_
+70	rose-colored	rose-colore	ADJ	A	Degree=Pos	71	amod	_	_
+71	gem	gem	NOUN	S	Number=Sing	73	nmod	_	SpaceAfter=No
+72	-	-	PUNCT	FF	_	71	punct	_	SpaceAfter=No
+73	quality	quality	NOUN	S	Number=Sing	74	nmod	_	_
+74	variety	variety	NOUN	S	Number=Sing	68	conj	_	_
+75	of	of	ADP	E	_	76	case	_	_
+76	beryl	beryl	NOUN	S	Number=Sing	74	nmod	_	SpaceAfter=No
+77	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 86
+# text = orange/yellow varieties of morganite can also be found, and color banding is common.
+1	orange	orange	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	/	/	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	yellow	yellow	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	10	nsubj:pass	_	_
+4	varieties	variety	NOUN	S	Number=Plur	3	obj	_	_
+5	of	of	ADP	E	_	6	case	_	_
+6	morganite	morganite	NOUN	S	Number=Sing	4	nmod	_	_
+7	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+8	also	also	ADV	B	_	10	advmod	_	_
+9	be	be	AUX	VA	VerbForm=Inf	10	aux:pass	_	_
+10	found	find	VERB	V	Tense=Past|VerbForm=Part	16	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	and	and	CCONJ	CC	_	14	cc	_	_
+13	color	color	ADJ	A	Degree=Cmp	14	amod	_	_
+14	banding	banding	NOUN	S	Number=Sing	10	conj	_	_
+15	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	common	common	ADJ	A	Degree=Pos	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 87
+# text = it can be routinely heat treated to remove patches of yellow and is occasionally treated by irradiation to improve its color.
+1	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	be	be	AUX	V	VerbForm=Inf	5	cop	_	_
+4	routinely	routinely	ADJ	A	Degree=Pos	5	amod	_	_
+5	heat	heat	NOUN	S	Number=Sing	15	nsubj:pass	_	_
+6	treated	treate	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	5	acl	_	_
+7	to	to	PART	PART	_	8	mark	_	_
+8	remove	remove	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	patches	patch	NOUN	S	Number=Plur	8	obj	_	_
+10	of	of	ADP	E	_	11	case	_	_
+11	yellow	yellow	NOUN	S	Number=Sing	9	nmod	_	_
+12	and	and	CCONJ	CC	_	8	cc	_	_
+13	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+14	occasionally	occasionally	ADV	B	_	15	advmod	_	_
+15	treated	treate	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+16	by	by	ADP	E	_	17	case	_	_
+17	irradiation	irradiation	NOUN	S	Number=Sing	15	obl	_	_
+18	to	to	PART	PART	_	19	mark	_	_
+19	improve	improve	VERB	V	VerbForm=Inf	15	advcl	_	_
+20	its	its	DET	AP	Number=Sing|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	color	color	NOUN	S	Number=Sing	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 88
+# text = the pink color of morganite is attributed to mn2+ ions.
+1	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+2	pink	pink	NOUN	S	Number=Sing	3	nmod	_	_
+3	color	color	NOUN	S	Number=Sing	7	nsubj:pass	_	_
+4	of	of	ADP	E	_	5	case	_	_
+5	morganite	morganite	NOUN	S	Number=Sing	3	nmod	_	_
+6	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	attributed	attribute	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+8	to	to	ADP	E	_	10	case	_	_
+9	mn2+	mn2+	NOUN	S	Number=Sing	10	nmod	_	_
+10	ions	ion	NOUN	S	Number=Plur	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n\s\n
+
+# newpar
+# sent_id = 89
+# text = pink beryl of fine color and good sizes was first discovered on an island off the coast of madagascar in 1910.
+1	pink	pink	VERB	V	Mood=Imp|Person=3|Tense=Pres|VerbForm=Fin	11	nsubj:pass	_	_
+2	beryl	beryl	NOUN	S	Number=Sing	1	obj	_	_
+3	of	of	ADP	E	_	5	case	_	_
+4	fine	fine	ADJ	A	Degree=Pos	5	amod	_	_
+5	color	color	NOUN	S	Number=Sing	2	nmod	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	good	good	ADJ	A	Degree=Pos	8	amod	_	_
+8	sizes	size	NOUN	S	Number=Plur	5	conj	_	_
+9	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
+10	first	first	ADV	B	_	11	advmod	_	_
+11	discovered	discover	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+12	on	on	ADP	E	_	14	case	_	_
+13	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	14	det	_	_
+14	island	island	NOUN	S	Number=Sing	11	obl	_	_
+15	off	off	ADP	E	_	17	case	_	_
+16	the	the	DET	RD	Definite=Def|PronType=Art	17	det	_	_
+17	coast	coast	NOUN	S	Number=Sing	11	obl	_	_
+18	of	of	ADP	E	_	19	case	_	_
+19	madagascar	madagascar	NOUN	S	Number=Sing	17	nmod	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	1910	1910	NUM	N	NumType=Card	17	nummod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 90
+# text = it was also known, with other gemstone minerals, such as tourmaline and kunzite, at pala, california.
+1	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	also	also	ADV	B	_	4	advmod	_	_
+4	known	known	ADJ	A	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	with	with	ADP	E	_	9	case	_	_
+7	other	other	ADJ	A	Degree=Pos	9	amod	_	_
+8	gemstone	gemstone	ADJ	A	Degree=Pos	9	amod	_	_
+9	minerals	mineral	NOUN	S	Number=Plur	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	such	such	ADJ	A	Degree=Pos	13	amod	_	_
+12	as	as	ADP	E	_	11	fixed	_	_
+13	tourmaline	tourmaline	NOUN	S	Number=Sing	4	nmod	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	kunzite	kunzite	NOUN	S	Number=Sing	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	4	punct	_	_
+17	at	at	ADP	E	_	18	case	_	_
+18	pala	palum	NOUN	S	Number=Plur	20	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	california	california	NOUN	S	Number=Plur	4	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 91
+# text = in december 1910, the new york academy of sciences named the pink variety of beryl "morganite" after financier j. p. morgan.
+1	in	in	ADP	E	_	2	case	_	_
+2	december	december	NOUN	S	Number=Sing	0	root	_	_
+3	1910	1910	NUM	N	NumType=Card	2	nummod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	8	det	_	_
+6	new	new	ADJ	A	Degree=Pos	7	amod	_	_
+7	york	york	NOUN	S	Number=Sing	8	nmod	_	_
+8	academy	academy	NOUN	S	Number=Sing	2	conj	_	_
+9	of	of	ADP	E	_	10	case	_	_
+10	sciences	science	NOUN	S	Number=Plur	8	nmod	_	_
+11	named	name	VERB	V	Tense=Past|VerbForm=Part	10	acl	_	_
+12	the	the	DET	RD	Definite=Def|PronType=Art	14	det	_	_
+13	pink	pink	NOUN	S	Number=Sing	14	nmod	_	_
+14	variety	variety	NOUN	S	Number=Sing	11	obj	_	_
+15	of	of	ADP	E	_	18	case	_	_
+16	beryl	beryl	ADJ	A	Number=Sing	18	amod	_	_
+17	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+18	morganite	morganite	NOUN	S	Number=Sing	14	nmod	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	18	punct	_	_
+20	after	after	ADP	E	_	22	case	_	_
+21	financier	financier	ADP	E	_	22	case	_	_
+22	j	j	PROPN	SP	_	11	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	24	punct	_	_
+24	p	p	NOUN	S	Number=Sing	2	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	26	punct	_	_
+26	morgan	morgan	NOUN	S	Number=Sing	2	conj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\s\n
+
+# newpar
+# sent_id = 92
+# text = on october 7, 1989, one of the largest gem morganite specimens ever uncovered, eventually called "the rose of maine", was found at the bennett quarry in buckfield, maine, us.
+1	on	on	ADP	E	_	2	case	_	_
+2	october	october	NOUN	S	Number=Sing	0	root	_	_
+3	7	7	NUM	N	NumType=Card	2	flat	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	1989	1989	NUM	N	NumType=Card	2	nummod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	one	one	NUM	N	NumType=Card	13	nummod	_	_
+8	of	of	ADP	E	_	11	case	_	_
+9	the	the	DET	RD	Definite=Def|PronType=Art	11	det	_	_
+10	largest	largest	ADJ	A	Degree=Sup	11	amod	_	_
+11	gem	gem	NOUN	S	Number=Sing	13	nmod	_	_
+12	morganite	morganite	ADJ	A	Degree=Pos	13	amod	_	_
+13	specimens	specimen	NOUN	S	Number=Plur	2	nmod	_	_
+14	ever	ever	ADV	B	_	15	advmod	_	_
+15	uncovered	uncovered	VERB	V	Tense=Past|VerbForm=Part	13	acl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	eventually	eventually	ADV	B	_	18	advmod	_	_
+18	called	call	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	15	advcl	_	_
+19	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+20	the	the	DET	RD	Definite=Def|PronType=Art	21	det	_	_
+21	rose	rose	NOUN	S	Number=Sing	27	nsubj:pass	_	_
+22	of	of	ADP	E	_	23	case	_	_
+23	maine	maine	NUM	N	NumType=Card	21	nummod	_	SpaceAfter=No
+24	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	21	punct	_	_
+26	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	aux:pass	_	_
+27	found	find	VERB	V	Tense=Past|VerbForm=Part	18	ccomp	_	_
+28	at	at	ADP	E	_	31	case	_	_
+29	the	the	DET	RD	Definite=Def|PronType=Art	31	det	_	_
+30	bennett	bennett	ADJ	A	Degree=Sup	31	amod	_	_
+31	quarry	quarry	NOUN	S	Number=Sing	27	obl	_	_
+32	in	in	ADP	E	_	33	case	_	_
+33	buckfield	buckfield	NOUN	S	Number=Sing	35	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	33	punct	_	_
+35	maine	maine	NOUN	S	Number=Sing	31	conj	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	27	punct	_	_
+37	us	us	PRON	PE	Number=Plur|Person=1|PronType=Prs	27	obl	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 93
+# text = the crystal, originally somewhat orange in hue, was long and about across, and weighed (along with its matrix) just over .
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	crystal	crystal	NOUN	S	Number=Sing	11	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	originally	originally	ADV	B	_	5	advmod	_	_
+5	somewhat	somewhat	ADV	B	_	6	advmod	_	_
+6	orange	orange	ADJ	A	Degree=Pos	2	acl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	hue	hue	NOUN	S	Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	was	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	SpacesAfter=\s\s
+11	long	long	ADJ	A	Degree=Pos	0	root	_	_
+12	and	and	CCONJ	CC	_	14	cc	_	_
+13	about	about	ADJ	A	Degree=Pos	14	amod	_	SpacesAfter=\s\s
+14	across	across	NOUN	S	Number=Sing	11	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	weighed	weigh	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	_
+18	(	(	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+19	along	along	ADP	E	_	22	case	_	_
+20	with	with	ADP	E	_	19	fixed	_	_
+21	its	its	DET	AP	Number=Sing|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	matrix	matrix	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+23	)	)	PUNCT	FB	_	22	punct	_	_
+24	just	just	ADV	B	_	25	advmod	_	_
+25	over	over	ADV	B	_	17	advmod	_	_
+26	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\n\n\n
+
+# newpar
+# sent_id = 94
+# text = ===red beryl=== red beryl red beryl (formerly known as "bixbite" and marketed as "red emerald" or "scarlet emerald" but note that both latter terms involving "emerald" terminology are now prohibited in the united states under federal trade commission regulations) is a red variety of beryl.
+1	===red	===r	NUM	N	NumType=Card	2	nummod	_	_
+2	beryl===	beryl===	NOUN	S	Number=Sing	3	nsubj	_	SpacesAfter=\n
+3	red	re	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	beryl	beryl	ADJ	A	Degree=Pos	6	amod	_	SpacesAfter=\n
+5	red	red	ADJ	A	Degree=Pos	6	amod	_	_
+6	beryl	beryl	NOUN	S	Number=Sing	3	obj	_	_
+7	(	(	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+8	formerly	formerly	ADV	B	_	9	advmod	_	_
+9	known	know	ADJ	A	Degree=Pos	3	xcomp	_	_
+10	as	as	ADP	E	_	12	case	_	_
+11	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	bixbite	bixbite	ADJ	A	Degree=Pos	9	obl	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	15	punct	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	marketed	market	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	12	conj	_	_
+16	as	as	ADP	E	_	19	case	_	_
+17	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+18	red	re	ADJ	A	Degree=Pos	19	amod	_	_
+19	emerald	emerald	NOUN	S	Number=Sing	15	obl	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	19	punct	_	_
+21	or	or	CCONJ	CC	_	24	cc	_	_
+22	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+23	scarlet	scarlet	ADJ	A	Degree=Pos	24	amod	_	_
+24	emerald	emerald	NOUN	S	Number=Sing	19	conj	_	SpaceAfter=No
+25	"	"	PUNCT	FB	_	19	punct	_	_
+26	but	but	CCONJ	CC	_	27	cc	_	_
+27	note	note	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+28	that	that	SCONJ	CS	_	39	mark	_	_
+29	both	both	CCONJ	CC	_	31	cc	_	_
+30	latter	latter	ADJ	A	Degree=Cmp	31	amod	_	_
+31	terms	term	NOUN	S	Number=Plur	39	nsubj:pass	_	_
+32	involving	involve	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	31	acl	_	_
+33	"	"	PUNCT	FB	_	34	punct	_	SpaceAfter=No
+34	emerald	emerald	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	36	acl	_	SpaceAfter=No
+35	"	"	PUNCT	FB	_	34	punct	_	_
+36	terminology	terminology	NOUN	S	Number=Sing	32	obj	_	_
+37	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	39	aux:pass	_	_
+38	now	now	ADV	B	_	39	advmod	_	_
+39	prohibited	prohibit	VERB	V	Tense=Past|VerbForm=Part	27	ccomp	_	_
+40	in	in	ADP	E	_	43	case	_	_
+41	the	the	DET	RD	Definite=Def|PronType=Art	43	det	_	_
+42	united	united	ADJ	A	Degree=Pos	43	amod	_	_
+43	states	state	NOUN	S	Number=Plur	39	obl	_	_
+44	under	under	ADP	E	_	48	case	_	_
+45	federal	federal	ADJ	A	Degree=Pos	48	amod	_	_
+46	trade	trade	NOUN	S	Number=Sing	47	nmod	_	_
+47	commission	commission	NOUN	S	Number=Sing	48	nmod	_	_
+48	regulations	regulation	NOUN	S	Number=Plur	43	nmod	_	SpaceAfter=No
+49	)	)	PUNCT	FB	_	48	punct	_	_
+50	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	53	cop	_	_
+51	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	53	det	_	_
+52	red	red	ADJ	A	Degree=Pos	53	amod	_	_
+53	variety	variety	NOUN	S	Number=Sing	9	conj	_	_
+54	of	of	ADP	E	_	55	case	_	_
+55	beryl	beryl	NOUN	S	Number=Sing	53	nmod	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 95
+# text = it was first described in 1904 for an occurrence, its type locality, at maynard's claim (pismire knolls), thomas range, juab county, utah.
+1	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	_
+2	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+3	first	first	ADV	B	_	4	advmod	_	_
+4	described	describe	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	1904	1904	NUM	N	NumType=Card	4	obl	_	_
+7	for	for	ADP	E	_	9	case	_	_
+8	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	9	det	_	_
+9	occurrence	occurrence	NOUN	S	Number=Sing	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	its	its	DET	AP	Number=Sing|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+12	type	type	NOUN	S	Number=Sing	13	nmod	_	_
+13	locality	locality	NOUN	S	Number=Sing	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	9	punct	_	_
+15	at	at	ADP	E	_	18	case	_	_
+16	maynard	maynard	NOUN	S	Number=Sing	18	nmod	_	SpaceAfter=No
+17	's	's	PART	PART	_	16	case	_	_
+18	claim	claim	NOUN	S	Number=Sing	4	obl	_	_
+19	(	(	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+20	pismire	pismire	ADJ	A	Degree=Pos	21	amod	_	_
+21	knolls	knoll	NOUN	S	Number=Plur	18	nmod	_	SpaceAfter=No
+22	)	)	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	25	punct	_	_
+24	thomas	thoma	NOUN	S	Number=Plur	25	nmod	_	_
+25	range	range	NOUN	S	Number=Sing	18	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	28	punct	_	_
+27	juab	juab	NOUN	S	Number=Sing	28	nmod	_	_
+28	county	county	NOUN	S	Number=Sing	18	conj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	18	punct	_	_
+30	utah	utah	ADP	E	_	18	conj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 96
+# text = the old synonym "bixbite" is deprecated from the cibjo, because of the risk of confusion with the mineral bixbyite (both were named after the mineralogist maynard bixby).
+1	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+2	old	old	ADJ	A	Degree=Pos	3	amod	_	_
+3	synonym	synonym	NOUN	S	Number=Sing	8	nsubj:pass	_	_
+4	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	bixbite	bixbite	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	3	acl	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	_
+7	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	deprecated	deprecate	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+9	from	from	ADP	E	_	11	case	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	11	det	_	_
+11	cibjo	cibjo	NOUN	S	Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13	because	because	ADP	E	_	16	case	_	_
+14	of	of	ADP	E	_	13	fixed	_	_
+15	the	the	DET	RD	Definite=Def|PronType=Art	16	det	_	_
+16	risk	risk	NOUN	S	Number=Sing	8	obl	_	_
+17	of	of	ADP	E	_	18	case	_	_
+18	confusion	confusion	NOUN	S	Number=Sing	16	nmod	_	_
+19	with	with	ADP	E	_	22	case	_	_
+20	the	the	DET	RD	Definite=Def|PronType=Art	22	det	_	_
+21	mineral	mineral	ADJ	A	Degree=Pos	22	amod	_	_
+22	bixbyite	bixbyite	NOUN	S	Number=Sing	16	nmod	_	_
+23	(	(	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+24	both	both	CCONJ	CC	_	26	cc	_	_
+25	were	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	26	aux:pass	_	_
+26	named	name	VERB	V	Tense=Past|VerbForm=Part	8	conj	_	_
+27	after	after	ADP	E	_	31	case	_	_
+28	the	the	DET	RD	Definite=Def|PronType=Art	31	det	_	_
+29	mineralogist	mineralogist	NOUN	S	Number=Sing	31	nmod	_	_
+30	maynard	maynard	ADJ	NO	Degree=Pos|NumType=Ord	31	amod	_	_
+31	bixby	bixby	NOUN	S	Number=Sing	26	obl	_	SpaceAfter=No
+32	)	)	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 97
+# text = the dark red color is attributed to mn3+ ions.
+1	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+2	dark	dark	ADJ	A	Degree=Pos	4	amod	_	_
+3	red	red	ADJ	A	Degree=Pos	4	amod	_	_
+4	color	color	NOUN	S	Number=Sing	6	nsubj:pass	_	_
+5	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	attributed	attribute	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+7	to	to	ADP	E	_	9	case	_	_
+8	mn3+	mn3+	NOUN	S	Number=Sing	9	nmod	_	_
+9	ions	ion	NOUN	S	Number=Plur	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 98
+# text = faceted red beryl, 0.56 ct, utah us red beryl is very rare and has been reported only from a handful of locations:
+1	faceted	face	VERB	V	Person=3|Tense=Past|VerbForm=Part	6	acl	_	_
+2	red	re	ADJ	A	Degree=Pos	3	amod	_	_
+3	beryl	beryl	NOUN	S	Number=Sing	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	0.56	0.56	NUM	N	NumType=Card	6	nummod	_	_
+6	ct	ct	NOUN	S	Number=Sing	11	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	utah	utah	ADP	E	_	9	case	_	_
+9	us	us	PRON	PE	Number=Plur|Person=1|PronType=Prs	11	nmod	_	SpacesAfter=\n
+10	red	re	ADJ	A	Degree=Pos	11	amod	_	_
+11	beryl	beryl	NOUN	S	Number=Sing	14	nsubj	_	_
+12	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	very	very	ADV	B	_	14	advmod	_	_
+14	rare	rare	ADJ	A	Degree=Pos	0	root	_	_
+15	and	and	CCONJ	CC	_	18	cc	_	_
+16	has	have	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	been	be	AUX	VA	Tense=Past|VerbForm=Part	18	aux:pass	_	_
+18	reported	report	VERB	V	Tense=Past|VerbForm=Part	14	conj	_	_
+19	only	only	ADV	B	_	18	advmod	_	_
+20	from	from	ADP	E	_	22	case	_	_
+21	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	22	det	_	_
+22	handful	handful	NOUN	S	Number=Sing	18	obl	_	_
+23	of	of	ADP	E	_	24	case	_	_
+24	locations	location	NOUN	S	Number=Plur	22	nmod	_	SpaceAfter=No
+25	:	:	PUNCT	FC	_	14	punct	_	_
+
+# sent_id = 99
+# text = wah wah mountains, beaver county, utah;
+1	wah	wah	ADP	E	_	3	case	_	_
+2	wah	wah	DET	DI	PronType=Ind	3	det	_	_
+3	mountains	mountain	NOUN	S	Number=Plur	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	beaver	beaver	ADP	E	_	6	case	_	_
+6	county	county	NOUN	S	Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	utah	utah	NOUN	S	Number=Sing	6	conj	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 100
+# text = paramount canyon and round mountain, sierra county, new mexico, although the latter locality does not often produce gem grade stones;
+1	paramount	paramount	NOUN	S	Number=Sing	2	nmod	_	_
+2	canyon	canyon	NOUN	S	Number=Sing	0	root	_	_
+3	and	and	CCONJ	CC	_	5	cc	_	_
+4	round	round	NOUN	S	Number=Sing	5	nmod	_	_
+5	mountain	mountain	NOUN	S	Number=Sing	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	sierra	sierra	DET	RI	Definite=Ind|Number=Sing|PronType=Art	8	det	_	_
+8	county	county	NOUN	S	Number=Sing	2	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	new	new	ADJ	A	Degree=Pos	11	amod	_	_
+11	mexico	mexico	NOUN	S	Number=Sing	2	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	although	although	SCONJ	CS	_	20	mark	_	_
+14	the	the	DET	RD	Definite=Def|PronType=Art	16	det	_	_
+15	latter	latter	ADJ	A	Degree=Pos	16	amod	_	_
+16	locality	locality	NOUN	S	Number=Sing	20	nsubj	_	_
+17	does	do	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+18	not	not	PART	PART	Polarity=Neg	20	advmod	_	_
+19	often	often	ADV	B	_	20	advmod	_	_
+20	produce	produce	VERB	V	VerbForm=Inf	2	acl	_	_
+21	gem	gem	ADJ	A	Degree=Pos	23	amod	_	_
+22	grade	grade	NOUN	S	Number=Sing	23	nmod	_	_
+23	stones	stone	NOUN	S	Number=Plur	20	obj	_	SpaceAfter=No
+24	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 101
+# text = and juab county, utah.
+1	and	and	CCONJ	CC	_	3	cc	_	_
+2	juab	juab	ADJ	A	Degree=Pos	3	amod	_	_
+3	county	county	NOUN	S	Number=Sing	5	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	utah	utah	ADJ	A	Degree=Pos	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 102
+# text = the greatest concentration of gem-grade red beryl comes from the ruby-violet claim in the wah wah mountains of mid-western utah, discovered in 1958 by lamar hodges, of fillmore, utah, while he was prospecting for uranium.
+1	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+2	greatest	greatest	ADJ	A	Degree=Sup	3	amod	_	_
+3	concentration	concentration	NOUN	S	Number=Sing	8	nsubj	_	_
+4	of	of	ADP	E	_	7	case	_	_
+5	gem-grade	gem-grade	ADJ	A	Degree=Pos	7	amod	_	_
+6	red	re	ADJ	A	Degree=Pos	7	amod	_	_
+7	beryl	beryl	NOUN	S	Number=Sing	3	nmod	_	_
+8	comes	come	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	from	from	ADP	E	_	14	case	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	14	det	_	_
+11	ruby	ruby	NOUN	S	Number=Sing	14	nmod	_	SpaceAfter=No
+12	-	-	PUNCT	FF	_	14	punct	_	SpaceAfter=No
+13	violet	violet	ADJ	A	Degree=Pos	14	amod	_	_
+14	claim	claim	NOUN	S	Number=Sing	8	obl	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	the	the	DET	RD	Definite=Def|PronType=Art	17	det	_	_
+17	wah	wah	NOUN	S	Number=Sing	8	obl	_	_
+18	wah	wah	ADP	E	_	19	case	_	_
+19	mountains	mountain	NOUN	S	Number=Plur	17	nmod	_	_
+20	of	of	ADP	E	_	24	case	_	_
+21	mid	mid	ADJ	A	Degree=Pos	24	amod	_	SpaceAfter=No
+22	-	-	PUNCT	FF	_	23	punct	_	SpaceAfter=No
+23	western	western	ADJ	A	Degree=Pos	24	amod	_	_
+24	utah	utah	NOUN	S	Number=Sing	19	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	8	punct	_	_
+26	discovered	discover	VERB	V	Tense=Past|VerbForm=Part	8	acl	_	_
+27	in	in	ADP	E	_	28	case	_	_
+28	1958	1958	NUM	N	NumType=Card	26	obl	_	_
+29	by	by	ADP	E	_	31	case	_	_
+30	lamar	lamar	NOUN	S	Number=Sing	31	nmod	_	_
+31	hodges	hodge	NOUN	S	Number=Plur	26	obl	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	31	punct	_	_
+33	of	of	ADP	E	_	34	case	_	_
+34	fillmore	fillmore	NOUN	S	Number=Sing	31	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	36	punct	_	_
+36	utah	utah	NOUN	S	Number=Sing	34	conj	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	26	punct	_	_
+38	while	while	SCONJ	CS	_	41	mark	_	_
+39	he	he	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	41	nsubj	_	_
+40	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	41	aux	_	_
+41	prospecting	prospect	VERB	V	VerbForm=Ger	8	advcl	_	_
+42	for	for	ADP	E	_	43	case	_	_
+43	uranium	uranium	NOUN	S	Number=Sing	41	obl	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 103
+# text = red beryl has been known to be confused with pezzottaite, a caesium analog of beryl, that has been found in madagascar and more recently afghanistan;
+1	red	re	ADJ	A	Degree=Pos	2	amod	_	_
+2	beryl	beryl	NOUN	S	Number=Sing	5	nsubj:pass	_	_
+3	has	have	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	been	be	AUX	VA	Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	known	know	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+6	to	to	PART	PART	_	8	mark	_	_
+7	be	be	AUX	VA	VerbForm=Inf	8	aux:pass	_	_
+8	confused	confus	VERB	V	Tense=Past|VerbForm=Part	5	xcomp	_	_
+9	with	with	ADP	E	_	10	case	_	_
+10	pezzottaite	pezzottaite	NOUN	S	Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	14	det	_	_
+13	caesium	caesium	ADJ	A	Degree=Pos	14	amod	_	_
+14	analog	analog	NOUN	S	Number=Sing	8	appos	_	_
+15	of	of	ADP	E	_	16	case	_	_
+16	beryl	beryl	NOUN	S	Number=Sing	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	5	punct	_	_
+18	that	that	PRON	PR	PronType=Rel	21	nsubj:pass	_	_
+19	has	have	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+20	been	be	AUX	VA	Tense=Past|VerbForm=Part	21	aux:pass	_	_
+21	found	find	VERB	V	Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	madagascar	madagascar	NOUN	S	Number=Sing	21	obl	_	_
+24	and	and	CCONJ	CC	_	27	cc	_	_
+25	more	more	ADV	B	Degree=Cmp	26	advmod	_	_
+26	recently	recently	ADV	B	_	27	advmod	_	_
+27	afghanistan	afghanistan	ADJ	A	Degree=Pos	21	conj	_	SpaceAfter=No
+28	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 104
+# text = cut gems of the two varieties can be distinguished from their difference in refractive index, and rough crystals can be easily distinguished by differing crystal systems (pezzottaite trigonal, red beryl hexagonal).
+1	cut	cut	VERB	V	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	9	nsubj:pass	_	_
+2	gems	gem	NOUN	S	Number=Plur	1	obj	_	_
+3	of	of	ADP	E	_	6	case	_	_
+4	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+5	two	two	NUM	N	NumType=Card	6	nummod	_	_
+6	varieties	variety	NOUN	S	Number=Plur	2	nmod	_	_
+7	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	be	be	AUX	VA	VerbForm=Inf	9	aux:pass	_	_
+9	distinguished	distinguish	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+10	from	from	ADP	E	_	12	case	_	_
+11	their	their	DET	AP	Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	difference	difference	NOUN	S	Number=Sing	9	obl	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	refractive	refractive	ADJ	A	Degree=Pos	15	amod	_	_
+15	index	index	NOUN	S	Number=Sing	9	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	23	punct	_	_
+17	and	and	CCONJ	CC	_	23	cc	_	_
+18	rough	rough	ADJ	A	Degree=Pos	19	amod	_	_
+19	crystals	crystal	NOUN	S	Number=Plur	23	nsubj:pass	_	_
+20	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+21	be	be	AUX	VA	VerbForm=Inf	23	aux:pass	_	_
+22	easily	easily	ADV	B	_	23	advmod	_	_
+23	distinguished	distinguish	VERB	V	Tense=Past|VerbForm=Part	9	conj	_	_
+24	by	by	ADP	E	_	25	mark	_	_
+25	differing	differ	VERB	V	VerbForm=Ger	23	advcl	_	_
+26	crystal	crystal	ADJ	A	Degree=Pos	27	amod	_	_
+27	systems	system	NOUN	S	Number=Plur	25	obj	_	_
+28	(	(	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+29	pezzottaite	pezzottaite	NOUN	S	Number=Sing	30	nmod	_	_
+30	trigonal	trigonal	NOUN	S	Number=Sing	27	appos	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	30	punct	_	_
+32	red	re	VERB	V	Tense=Past|VerbForm=Part	34	acl	_	_
+33	beryl	beryl	ADJ	A	Degree=Pos	34	amod	_	_
+34	hexagonal	hexagonal	NOUN	S	Number=Sing	30	conj	_	SpaceAfter=No
+35	)	)	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 105
+# text = synthetic red beryl is also produced.
+1	synthetic	synthetic	ADJ	A	Degree=Pos	3	amod	_	_
+2	red	red	ADJ	A	Degree=Pos	3	amod	_	_
+3	beryl	beryl	NOUN	S	Number=Sing	6	nsubj:pass	_	_
+4	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+5	also	also	ADV	B	_	6	advmod	_	_
+6	produced	produce	VERB	V	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 106
+# text = like emerald and unlike most other varieties of beryl, red beryl is usually highly included.
+1	like	like	ADP	E	_	2	case	_	_
+2	emerald	emerald	NOUN	S	Number=Sing	16	obl	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	unlike	unlike	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	2	conj	_	_
+5	most	most	ADV	B	_	6	advmod	_	_
+6	other	other	ADJ	A	Degree=Pos	7	amod	_	_
+7	varieties	variety	NOUN	S	Number=Plur	16	nsubj:pass	_	_
+8	of	of	ADP	E	_	12	case	_	_
+9	beryl	beryl	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	red	red	ADJ	A	Degree=Pos	12	amod	_	_
+12	beryl	beryl	NOUN	S	Number=Sing	7	nmod	_	_
+13	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
+14	usually	usually	ADV	B	_	15	advmod	_	_
+15	highly	highly	ADV	B	_	16	advmod	_	_
+16	included	includ	VERB	V	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	16	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 107
+# text = while gem beryls are ordinarily found in pegmatites and certain metamorphic stones, red beryl occurs in topaz-bearing rhyolites.
+1	while	while	SCONJ	CS	_	6	mark	_	_
+2	gem	gem	NOUN	S	Number=Sing	3	nmod	_	_
+3	beryls	beryl	NOUN	S	Number=Plur	6	nsubj:pass	_	_
+4	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+5	ordinarily	ordinarily	ADV	B	_	6	advmod	_	_
+6	found	find	VERB	V	Tense=Past|VerbForm=Part	14	advcl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	pegmatites	pegmatite	NOUN	S	Number=Plur	6	obl	_	_
+9	and	and	CCONJ	CC	_	12	cc	_	_
+10	certain	certain	ADJ	A	Degree=Pos	12	amod	_	_
+11	metamorphic	metamorphic	ADJ	A	Degree=Pos	12	amod	_	_
+12	stones	stone	NOUN	S	Number=Plur	6	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	6	punct	_	_
+14	red	re	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	beryl	beryl	ADJ	A	Degree=Pos	16	amod	_	_
+16	occurs	occur	NOUN	S	Number=Plur	14	obj	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	topaz	topaz	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+19	-	-	PUNCT	FF	_	14	punct	_	SpaceAfter=No
+20	bearing	bear	VERB	V	VerbForm=Ger	14	advcl	_	_
+21	rhyolites	rhyolite	NOUN	S	Number=Plur	20	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 108
+# text = it is formed by crystallizing under low pressure and high temperature from a pneumatolytic phase along fractures or within near-surface miarolitic cavities of the rhyolite.
+1	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	formed	form	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+4	by	by	ADP	E	_	5	mark	_	_
+5	crystallizing	crystallizing	VERB	V	VerbForm=Ger	3	advcl	_	_
+6	under	under	ADP	E	_	8	case	_	_
+7	low	low	ADJ	A	Degree=Pos	8	amod	_	_
+8	pressure	pressure	NOUN	S	Number=Sing	5	obl	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	high	high	ADJ	A	Degree=Pos	11	amod	_	_
+11	temperature	temperature	NOUN	S	Number=Sing	8	conj	_	_
+12	from	from	ADP	E	_	15	case	_	_
+13	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	15	det	_	_
+14	pneumatolytic	pneumatolytic	ADJ	A	Degree=Pos	15	amod	_	_
+15	phase	phase	NOUN	S	Number=Sing	5	obl	_	_
+16	along	along	ADP	E	_	17	case	_	_
+17	fractures	fracture	NOUN	S	Number=Plur	24	nmod	_	_
+18	or	or	CCONJ	CC	_	22	cc	_	_
+19	within	within	ADP	E	_	22	case	_	_
+20	near	near	ADP	E	_	19	fixed	_	SpaceAfter=No
+21	-	-	PUNCT	FF	_	22	punct	_	SpaceAfter=No
+22	surface	surface	NOUN	S	Number=Sing	17	conj	_	_
+23	miarolitic	miarolitic	ADJ	A	Degree=Pos	24	amod	_	_
+24	cavities	cavity	NOUN	S	Number=Plur	15	conj	_	_
+25	of	of	ADP	E	_	27	case	_	_
+26	the	the	DET	RD	Definite=Def|PronType=Art	27	det	_	_
+27	rhyolite	rhyolite	NOUN	S	Number=Sing	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 109
+# text = associated minerals include bixbyite, quartz, orthoclase, topaz, spessartine, pseudobrookite and hematite.
+1	associated	associate	VERB	V	Tense=Past|VerbForm=Part	2	acl	_	_
+2	minerals	mineral	NOUN	S	Number=Plur	3	nsubj	_	_
+3	include	include	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	bixbyite	bixbyite	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	quartz	quartz	PROPN	SP	_	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	orthoclase	orthoclase	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	topaz	topaz	PROPN	SP	_	4	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	spessartine	spessartine	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	pseudobrookite	pseudobrookite	NOUN	S	Number=Sing	4	conj	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	hematite	hematite	NOUN	S	Number=Sing	4	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n\s\n
+
+# newpar
+# sent_id = 110
+# text = * chrysoberyl * list of minerals * sapphire * ruby
+1	*	*	PUNCT	FF	_	4	punct	_	_
+2	chrysoberyl	chrysoberyl	ADJ	A	Degree=Pos	4	amod	_	SpacesAfter=\n
+3	*	*	PUNCT	FF	_	2	punct	_	_
+4	list	list	NOUN	S	Number=Sing	10	nmod	_	_
+5	of	of	ADP	E	_	6	case	_	_
+6	minerals	mineral	NOUN	S	Number=Plur	4	nmod	_	SpacesAfter=\n
+7	*	*	PUNCT	FF	_	8	punct	_	_
+8	sapphire	sapphire	NOUN	S	Number=Sing	6	conj	_	SpacesAfter=\n
+9	*	*	PUNCT	FF	_	8	punct	_	_
+10	ruby	ruby	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\s\n\n
+
+# newpar
+# sent_id = 111
+# text = * * *
+1	*	*	PUNCT	FF	_	0	root	_	SpacesAfter=\s\n
+2	*	*	PUNCT	FF	_	1	punct	_	SpacesAfter=\s\n
+3	*	*	PUNCT	FF	_	1	punct	_	SpacesAfter=\s\n\n\s\n
+
+# newpar
+# sent_id = 112
+# text = * * * * * * * * *
+1	*	*	PUNCT	FF	_	2	punct	_	SpacesAfter=\n
+2	*	*	PUNCT	FF	_	0	root	_	SpacesAfter=\n
+3	*	*	PUNCT	FF	_	2	punct	_	SpacesAfter=\n
+4	*	*	PUNCT	FF	_	2	punct	_	SpacesAfter=\n
+5	*	*	PUNCT	FF	_	2	punct	_	SpacesAfter=\n
+6	*	*	PUNCT	FF	_	2	punct	_	SpacesAfter=\n
+7	*	*	PUNCT	FF	_	2	punct	_	SpacesAfter=\n
+8	*	*	PUNCT	FF	_	2	punct	_	SpacesAfter=\n
+9	*	*	PUNCT	FF	_	2	punct	_	SpacesAfter=\n
+

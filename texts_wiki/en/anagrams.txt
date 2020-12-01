@@ -1,0 +1,412 @@
+
+
+'''Anagrams''' (also known as '''Pirate Scrabble''', '''Anagram''', '''Snatch''', '''Word Making and Taking''' and '''Grabscrab''') is a tile-based word game that involves rearranging letter tiles to form words.
+
+The game pieces consist of a set of tiles with letters on them. Tiles are turned over one by one, and players form words by combining unused tiles with existing words, their own or others'. The game has never been standardized and there exist a great many varieties of sets and rules. ''Anagrams'' is now often played with tiles from another word game, such as Scrabble. Web and mobile app based versions of this game have also been created.
+ Reputed to have originated as a Victorian word game, Anagrams has appeared in many published versions in the last century.
+
+The first modern version seems to have been the game "Word Making and Taking" by Charles Hammett in 1877. The first version to include the word "Anagrams" in the title seems to be ''The Game of Letters and Anagrams on Wooden Blocks'' published by Parker Brothers around 1890. Another game called ''Anagrams'' was published in 1934 by the manufacturer Selchow and Righter, who would later publish Scrabble in 1953. ''Spelling and Anagrams'' (a set incorporating two distinct games, ''Spelling'' and ''Anagrams'') was also published in the 1930s.
+In 1975, Selchow published the ''Scrabble Scoring Anagrams'' version which featured tiles with point values similar to the familiar Scrabble system. Another version was published in the 1960s by the now defunct Transogram. The Embossing Company, formerly Halsam Products Company, also produced a yellow-on-black ''Eye-Rest'' set. Many other versions have been produced and used sets can still be found on internet auction and specialty sites. A variation called SWIPE was published by Leslie Scott (the creator of Jenga) in the early 1980s and since 1990, Scott's company, Oxford Games Ltd, has published '''Anagram, the ingenious game of juggling words'''. ''Up For Grabs'' was published by Tyco in 1995. Portobello Games produces a version under the name ''Snatch''. Prodijeux has been marketing a variant called wordXchange since 2000. ''One Up!'' is yet another version, except it adds a "wild" tile, called the Uppity tile, that can be any letter (much like a blank tile in Scrabble). In 2015 Interactive Coconut produced an iOS mobile app variant called Grabble Words.
+
+Many players use several Scrabble or Upwords sets together.
+
+A version of the game seems to be popular among tournament Scrabble players. Writers John Ciardi, James Merrill, John Malcolm Brinnin, and Richard Wilbur reputedly played together regularly in Key West, Florida, with novelist John Hersey also sometimes sitting in.
+ 
+There has never been a standardized set of rules, and players now often play by house rules, but most are variants of the rules given here.
+
+To begin, all the tiles are placed face down in the middle of the table. Taking turns around the table, each player turns over one tile, placing it in clear view of all players.
+
+Another variation is to have each player have a "bank" of tiles in front of themselves, which affords players a clearer view of the "pool" of face-up letter tiles in the middle of the table.
+
+The minimum acceptable word length can be adjusted to a player's skill level (for example, in a game with adults and children playing together, the children may be permitted to form four-letter words, while the adults are restricted to words of at least five or six letters).  Tournament Scrabble players often play with a minimum word length of six or seven.
+
+Players make words in one of two ways:
+
+'''''Words From the Pool:''''' 
+Whenever any player can form a word of acceptable length from tiles in the pool, the player calls out the word and uses those tiles to spell it out in front of himself or herself.  Typically, a player's words are oriented facing the center of the table (i.e. appearing upside-down to the player, and right side up to the others).
+
+'''''Steals:''''' 
+Whenever a player can create a new word using a word that has already been formed, plus one or more tiles from the pool, the player calls out the word.  If the word is acceptable, the existing word is "stolen" and the player making the "steal" spells out the new word in front of himself or herself.  Players may steal (or, more technically, modify) their own words subject to whatever set of rules is being used.
+
+New words cannot be mere plurals of existing words; rules typically require that the new word change the root of the old, thus allowing APPEAR to become PARAPET (APPEAR+T), but not APPEARED (+ED) or REAPPEAR (+ER).  An even stricter application of this rule requires that the letters of the existing word must undergo at least some rearrangement.  For example, under this rule MONEY could not be stolen with KS to make MONKEYS, since the letters of MONEY are not rearranged.  However, MONEY ''could'' be stolen with CO to make ECONOMY.  As the skill level of the players increases, it is not uncommon to see creative steals such as GUACAMOLE + F = CAMOUFLAGE.
+
+If two players call out words simultaneously, the longer word prevails.  If two players call out the SAME word simultaneously, those two players each turn a new tile face up, and the player whose letter is closest to "A" wins the word (the "tie-breaker" tiles are flipped back over and remixed with the other face-down tiles).
+
+Some versions only allow players to make or steal words on their turn (this slows down play).
+
+The National Scrabble Association has published a set of rules for competitive Anagrams play in tournament setting.
+
+===End of game and scoring===
+
+The game ends when all tiles are face-up and no one can create or steal any more words.
+
+There are various scoring systems:
+
+*Simple letter count. The most tiles win.
+*Simple word count. The most words win.
+*Add letter point values, using Scrabble letter values.
+*Remove one or two letters from each word and count the remaining tiles, rewarding longer words.
+*Sum of the squares of the lengths of the words, rewarding long words more.
+*First player to spell or steal 5 (or some other number) of words wins.
+
+=== Variations ===
+A host of variations come from both different versions and players' house rules. (There does not seem to be anything close to a comprehensive (or even representative) list of these on the internet.)
+
+==== The "Fanagrams" variation ====
+The rules from The Embossing Company set refer to variations by players who "have developed an interesting test of mental alertness and a highly exciting form of competition" by eliminating turns. Instead of taking turns, a dealer deals letters in and any player may call out a word. (Players may also choose to form teams.) The result, as the game's official rules note, is that it "very often happens that a quick witted player alone may defeat several others."
+*An even faster-paced version of these rules—known to some as "Alaskan rules"—has each of the players (or perhaps several, if there are too many) simultaneously turn their tiles into the pool. This results in many more possibilities being available at a time.
+
+====Miscellaneous variations====
+*Players may not create a word by creating a word that is already on the table or steal one resulting in such a word.
+*Some versions of the game name the winner as the person who, after the round of turns has finished, first acquires eight words. If more than one player has done so, then the winner is the player is the one with the most tiles. There may be a tie. (See also Tom Jukic's review of Anagrams on boardgamegeek.com).
+**A very similar rule found in The Embossing Company set simply says the "first player to complete ten words, wins."
+*Players are permitted to combine two or more existing words with zero or more letters from the pot to create a single new word, although this is often difficult in practice.
+
+=== In popular culture ===
+A game of Anagrams is played in the Alfred Hitchcock thriller ''Suspicion (1941 film)''.
+ Though there are many variants, one standard letter distribution of 188 letters (given in the Rust Hills article) is as follows: 
+
+
+
+ A 
+
+ B 
+
+ C 
+
+ D 
+
+ E 
+
+ F 
+
+ G 
+
+ H 
+
+ I 
+
+ J 
+
+ K 
+
+ L 
+
+ M 
+
+ N 
+
+ O 
+
+ P 
+
+ Q 
+
+ R 
+
+ S 
+
+ T 
+
+ U 
+
+ V 
+
+ W 
+
+ X 
+
+ Y 
+
+ Z
+
+
+
+ 13 
+
+ 5 
+
+ 6 
+
+ 7 
+
+ 24 
+
+ 6 
+
+ 7 
+
+ 6 
+
+ 12 
+
+ 2 
+
+ 2 
+
+ 8 
+
+ 8 
+
+ 11 
+
+ 15 
+
+ 4 
+
+ 2 
+
+ 12 
+
+ 10 
+
+ 10 
+
+ 6 
+
+ 2 
+
+ 4 
+
+ 2 
+
+ 2 
+
+ 2 
+
+
+
+A variant with 220 letters:
+
+
+
+ A 
+
+ B 
+
+ C 
+
+ D 
+
+ E 
+
+ F 
+
+ G 
+
+ H 
+
+ I 
+
+ J 
+
+ K 
+
+ L 
+
+ M 
+
+ N 
+
+ O 
+
+ P 
+
+ Q 
+
+ R 
+
+ S 
+
+ T 
+
+ U 
+
+ V 
+
+ W 
+
+ X 
+
+ Y 
+
+ Z
+
+
+
+ 14 
+
+ 6 
+
+ 6 
+
+ 8 
+
+ 20 
+
+ 6 
+
+ 8 
+
+ 10 
+
+ 14 
+
+ 4 
+
+ 4 
+
+ 8 
+
+ 8 
+
+ 12 
+
+ 14 
+
+ 6 
+
+ 4 
+
+ 12 
+
+ 12 
+
+ 14 
+
+ 10 
+
+ 4 
+
+ 8 
+
+ 2 
+
+ 4 
+
+ 2 
+
+
+
+The distribution of 180 letters for ''Scrabble Scoring Anagrams'' (according to a review on funagain.com):
+
+
+
+ A 
+
+ B 
+
+ C 
+
+ D 
+
+ E 
+
+ F 
+
+ G 
+
+ H 
+
+ I 
+
+ J 
+
+ K 
+
+ L 
+
+ M 
+
+ N 
+
+ O 
+
+ P 
+
+ Q 
+
+ R 
+
+ S 
+
+ T 
+
+ U 
+
+ V 
+
+ W 
+
+ X 
+
+ Y 
+
+ Z
+
+
+
+ 16 
+
+ 4 
+
+ 4 
+
+ 8 
+
+ 22 
+
+ 4 
+
+ 6 
+
+ 6 
+
+ 14 
+
+ 2 
+
+ 2 
+
+ 8 
+
+ 4 
+
+ 10 
+
+ 14 
+
+ 4 
+
+ 2 
+
+ 12 
+
+ 8 
+
+ 10 
+
+ 8 
+
+ 2 
+
+ 2 
+
+ 2 
+
+ 4 
+
+ 2 
+
+
+ * Anatree
+ 
+ * Grabble Words!, an iOS mobile app variant of the game
+* www.gtoal.com's "Letter-by-Letter Word Games FAQ"
+* www.gtoal.com's large collection images of various Anagrams sets and other wordgames.
+* "Anagrams" by Michael Schreiber, Wolfram Demonstrations Project, 2007. A computer model of anagrams.
+* "Solving Word Puzzles via Computer" by Phillip M. Feldman
+*
+* Online Anagram Solver
+
+

@@ -1,0 +1,2378 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = common jasmine '''jasmine''' (taxonomic name '''''jasminum''''' ) is a genus of shrubs and vines in the olive family (oleaceae).
+1	common	common	ADJ	A	Degree=Pos	2	amod	_	_
+2	jasmine	jasmine	NOUN	S	Number=Sing	6	nmod	_	SpacesAfter=\n
+3	'	'	PART	PART	_	2	case	_	SpaceAfter=No
+4	'	'	PART	PART	_	2	case	_	SpaceAfter=No
+5	'	'	PART	PART	_	2	case	_	SpaceAfter=No
+6	jasmine	jasmine	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	'	'	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	'	'	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+9	'	'	PUNCT	FB	_	6	punct	_	_
+10	(	(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+11	taxonomic	taxonomic	ADJ	A	Degree=Pos	12	amod	_	_
+12	name	name	NOUN	S	Number=Sing	18	nmod	_	_
+13	'	'	PART	PART	_	12	case	_	SpaceAfter=No
+14	'	'	PART	PART	_	12	case	_	SpaceAfter=No
+15	'	'	PART	PART	_	12	case	_	SpaceAfter=No
+16	'	'	PART	PART	_	12	case	_	SpaceAfter=No
+17	'	'	PART	PART	_	12	case	_	SpaceAfter=No
+18	jasminum	jasminum	NOUN	S	Number=Sing	6	obj	_	SpaceAfter=No
+19	'	'	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+20	'	'	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+21	'	'	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+22	'	'	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+23	'	'	PUNCT	FB	_	18	punct	_	_
+24	)	)	PUNCT	FB	_	18	punct	_	_
+25	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+26	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	27	det	_	_
+27	genus	genus	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+28	of	of	ADP	E	_	29	case	_	_
+29	shrubs	shrub	NOUN	S	Number=Plur	27	nmod	_	_
+30	and	and	CCONJ	CC	_	31	cc	_	_
+31	vines	vine	NOUN	S	Number=Plur	29	conj	_	_
+32	in	in	ADP	E	_	35	case	_	_
+33	the	the	DET	RD	Definite=Def|PronType=Art	35	det	_	_
+34	olive	olive	ADJ	A	Degree=Pos	35	amod	_	_
+35	family	family	NOUN	S	Number=Sing	6	obl	_	_
+36	(	(	PUNCT	FB	_	37	punct	_	SpaceAfter=No
+37	oleaceae	oleaceae	NOUN	S	Number=Sing	35	appos	_	SpaceAfter=No
+38	)	)	PUNCT	FB	_	37	punct	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = it contains around 200 species native to tropical and warm temperate regions of eurasia, australasia and oceania.
+1	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	contains	contain	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	around	around	ADV	B	_	5	advmod	_	_
+4	200	200	NUM	N	NumType=Card	5	nummod	_	_
+5	species	species	NOUN	S	Number=Plur	2	obl	_	_
+6	native	native	ADJ	A	Degree=Pos	12	amod	_	_
+7	to	to	ADP	E	_	12	case	_	_
+8	tropical	tropical	ADJ	A	Degree=Pos	12	amod	_	_
+9	and	and	CCONJ	CC	_	12	cc	_	_
+10	warm	warm	ADJ	A	Degree=Pos	12	amod	_	_
+11	temperate	temperate	NOUN	S	Number=Sing	12	nmod	_	_
+12	regions	region	NOUN	S	Number=Plur	5	nmod	_	_
+13	of	of	ADP	E	_	14	case	_	_
+14	eurasia	eurasia	NOUN	S	Number=Plur	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	australasia	australasia	DET	RI	Definite=Ind|Number=Sing|PronType=Art	14	conj	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	oceania	oceania	X	X	_	14	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = jasmines are widely cultivated for the characteristic fragrance of their flowers.
+1	jasmines	jasmine	PRON	PE	Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	_
+2	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+3	widely	widely	ADV	B	_	4	advmod	_	_
+4	cultivated	cultivate	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+5	for	for	ADP	E	_	8	case	_	_
+6	the	the	DET	RD	Definite=Def|PronType=Art	8	det	_	_
+7	characteristic	characteristic	ADJ	A	Degree=Pos	8	amod	_	_
+8	fragrance	fragrance	NOUN	S	Number=Sing	4	obl	_	_
+9	of	of	ADP	E	_	11	case	_	_
+10	their	their	DET	AP	Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	flowers	flower	NOUN	S	Number=Plur	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = a number of unrelated plants contain the word "jasmine" in their common names (see other plants called "jasmine").
+1	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	2	det	_	_
+2	number	number	NOUN	S	Number=Sing	6	nsubj	_	_
+3	of	of	ADP	E	_	5	case	_	_
+4	unrelated	unrelated	ADJ	A	Degree=Pos	5	amod	_	_
+5	plants	plant	NOUN	S	Number=Plur	2	nmod	_	_
+6	contain	contain	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	17	csubj	_	_
+7	the	the	DET	RD	Definite=Def|PronType=Art	8	det	_	_
+8	word	word	NOUN	S	Number=Sing	6	obj	_	_
+9	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	jasmine	jasmine	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	10	punct	_	_
+12	in	in	ADP	E	_	15	case	_	_
+13	their	their	DET	AP	Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+14	common	common	ADJ	A	Degree=Pos	15	amod	_	_
+15	names	name	NOUN	S	Number=Plur	6	obl	_	_
+16	(	(	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	see	see	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	other	other	ADJ	A	Degree=Pos	19	amod	_	_
+19	plants	plant	NOUN	S	Number=Plur	20	nsubj	_	_
+20	called	call	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	17	ccomp	_	_
+21	"	"	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+22	jasmine	jasmine	PRON	PE	Number=Sing|Person=3|PronType=Prs	20	obl	_	SpaceAfter=No
+23	"	"	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+24	)	)	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	17	punct	_	SpacesAfter=\n\s\n
+
+# newpar
+# sent_id = 5
+# text = jasmine can be either deciduous (leaves falling in autumn) or evergreen (green all year round), and can be erect, spreading, or climbing shrubs and vines.
+1	jasmine	jasmine	PRON	PE	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	be	be	AUX	V	VerbForm=Inf	5	cop	_	_
+4	either	either	ADV	B	_	5	advmod	_	_
+5	deciduous	deciduous	ADJ	A	Degree=Pos	0	root	_	_
+6	(	(	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	leaves	leave	NOUN	S	Number=Plur	5	obl	_	_
+8	falling	fall	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	7	acl	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	autumn	autumn	NOUN	S	Number=Sing	8	obl	_	SpaceAfter=No
+11	)	)	PUNCT	FB	_	7	punct	_	_
+12	or	or	CCONJ	CC	_	13	cc	_	_
+13	evergreen	evergreen	ADV	B	_	5	conj	_	_
+14	(	(	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+15	green	green	ADP	E	_	18	case	_	_
+16	all	all	DET	T	PronType=Tot	18	det	_	_
+17	year	year	ADJ	A	Degree=Pos	18	amod	_	_
+18	round	round	NOUN	S	Number=Sing	5	obl	_	SpaceAfter=No
+19	)	)	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	24	punct	_	_
+21	and	and	CCONJ	CC	_	24	cc	_	_
+22	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+23	be	be	AUX	VA	VerbForm=Inf	24	aux:pass	_	_
+24	erect	erect	VERB	V	Tense=Past|VerbForm=Part	5	conj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	26	punct	_	_
+26	spreading	spread	VERB	V	VerbForm=Ger	5	conj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	30	punct	_	_
+28	or	or	CCONJ	CC	_	30	cc	_	_
+29	climbing	climb	ADJ	A	Degree=Pos	30	amod	_	_
+30	shrubs	shrub	NOUN	S	Number=Plur	5	conj	_	_
+31	and	and	CCONJ	CC	_	32	cc	_	_
+32	vines	vine	NOUN	S	Number=Plur	5	conj	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = their leaves are borne in opposing or alternating arrangement and can be of simple, trifoliate, or pinnate formation.
+1	their	their	DET	AP	Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	leaves	leave	NOUN	S	Number=Plur	4	nsubj:pass	_	_
+3	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	borne	bear	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	E	_	9	case	_	_
+6	opposing	oppose	ADJ	A	Degree=Pos	9	amod	_	_
+7	or	or	CCONJ	CC	_	8	cc	_	_
+8	alternating	alternat	ADJ	A	Degree=Pos	6	conj	_	_
+9	arrangement	arrangement	NOUN	S	Number=Sing	4	obl	_	_
+10	and	and	CCONJ	CC	_	14	cc	_	_
+11	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+12	be	be	AUX	V	VerbForm=Inf	14	cop	_	_
+13	of	of	ADP	E	_	14	case	_	_
+14	simple	simple	NOUN	S	Number=Sing	4	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	trifoliate	trifoliate	NOUN	S	Number=Sing	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	or	or	CCONJ	CC	_	20	cc	_	_
+19	pinnate	pinnate	ADJ	A	Degree=Pos	20	amod	_	_
+20	formation	formation	NOUN	S	Number=Sing	14	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = the flowers are typically around in diameter.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	flowers	flower	NOUN	S	Number=Plur	5	nsubj	_	_
+3	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	typically	typically	ADV	B	_	5	advmod	_	_
+5	around	around	ADJ	A	Degree=Pos	0	root	_	SpacesAfter=\s\s
+6	in	in	ADP	E	_	7	case	_	_
+7	diameter	diameter	NOUN	S	Number=Sing	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = they are white or yellow in color, although in rare instances they can be slightly reddish.
+1	they	they	PRON	PE	Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	white	white	ADJ	A	Degree=Pos	0	root	_	_
+4	or	or	CCONJ	CC	_	5	cc	_	_
+5	yellow	yellow	ADJ	A	Degree=Pos	3	conj	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	color	color	NOUN	S	Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	although	although	ADV	B	_	12	advmod	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	rare	rare	ADJ	A	Degree=Pos	12	amod	_	_
+12	instances	instance	NOUN	S	Number=Plur	17	obl	_	_
+13	they	they	PRON	PE	Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_
+14	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+15	be	be	AUX	V	VerbForm=Inf	17	cop	_	_
+16	slightly	slightly	ADV	B	_	17	advmod	_	_
+17	reddish	reddish	VERB	V	VerbForm=Inf	3	advcl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = the flowers are borne in cymose clusters with a minimum of three flowers, though they can also be solitary on the ends of branchlets.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	flowers	flower	NOUN	S	Number=Plur	4	nsubj:pass	_	_
+3	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	borne	bear	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	cymose	cymose	DET	DD	Number=Plur|PronType=Dem	7	det	_	_
+7	clusters	cluster	NOUN	S	Number=Plur	4	obl	_	_
+8	with	with	ADP	E	_	10	case	_	_
+9	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	10	det	_	_
+10	minimum	minimum	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+11	of	of	ADP	E	_	13	case	_	_
+12	three	three	NUM	N	NumType=Card	13	nummod	_	_
+13	flowers	flower	NOUN	S	Number=Plur	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	4	punct	_	_
+15	though	though	SCONJ	CS	_	20	mark	_	_
+16	they	they	PRON	PE	Number=Plur|Person=3|PronType=Prs	20	nsubj	_	_
+17	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+18	also	also	ADV	B	_	20	advmod	_	_
+19	be	be	AUX	V	VerbForm=Inf	20	cop	_	_
+20	solitary	solitary	ADJ	A	Degree=Pos	4	advcl	_	_
+21	on	on	ADP	E	_	23	case	_	_
+22	the	the	DET	RD	Definite=Def|PronType=Art	23	det	_	_
+23	ends	end	NOUN	S	Number=Plur	20	obl	_	_
+24	of	of	ADP	E	_	25	case	_	_
+25	branchlets	branchlet	NOUN	S	Number=Plur	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = each flower has about four to nine petals, two locules, and one to four ovules.
+1	each	each	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	flower	flower	NOUN	S	Number=Sing	3	nsubj	_	_
+3	has	have	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	about	about	ADP	E	_	5	case	_	_
+5	four	four	NUM	N	NumType=Card	3	obl	_	_
+6	to	to	ADP	E	_	8	case	_	_
+7	nine	nine	NUM	N	NumType=Card	8	nummod	_	_
+8	petals	petal	NOUN	S	Number=Plur	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	two	two	NUM	N	NumType=Card	11	nummod	_	_
+11	locules	locule	NOUN	S	Number=Plur	8	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	one	one	NUM	N	NumType=Card	8	conj	_	_
+15	to	to	ADP	E	_	17	case	_	_
+16	four	four	NUM	N	NumType=Card	17	nummod	_	_
+17	ovules	ovule	NOUN	S	Number=Plur	3	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = they have two stamens with very short filaments.
+1	they	they	PRON	PE	Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	two	two	NUM	N	NumType=Card	4	nummod	_	_
+4	stamens	stamen	NOUN	S	Number=Plur	2	obj	_	_
+5	with	with	ADP	E	_	8	case	_	_
+6	very	very	ADV	B	_	7	advmod	_	_
+7	short	short	ADJ	A	Degree=Pos	8	amod	_	_
+8	filaments	filament	NOUN	S	Number=Plur	2	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = the bracts are linear or ovate.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	bracts	bract	NOUN	S	Number=Plur	4	nsubj	_	_
+3	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	linear	linear	ADJ	A	Degree=Pos	0	root	_	_
+5	or	or	CCONJ	CC	_	6	cc	_	_
+6	ovate	ovate	ADJ	A	Degree=Pos	4	conj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = the calyx is bell-shaped.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	calyx	calyx	NOUN	S	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+3	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+4	bell	bell	ADJ	A	Degree=Pos	6	amod	_	SpaceAfter=No
+5	-	-	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+6	shaped	shap	VERB	V	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 14
+# text = they are usually very fragrant.
+1	they	they	PRON	PE	Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+2	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	usually	usually	ADV	B	_	5	advmod	_	_
+4	very	very	ADV	B	_	5	advmod	_	_
+5	fragrant	fragrant	ADJ	A	Degree=Pos	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 15
+# text = the fruits of jasmines are berries that turn black when ripe.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	fruits	fruit	NOUN	S	Number=Plur	6	nsubj	_	_
+3	of	of	ADP	E	_	4	case	_	_
+4	jasmines	jasmine	NOUN	S	Number=Plur	2	nmod	_	_
+5	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	berries	berry	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	that	that	SCONJ	CS	_	11	mark	_	_
+8	turn	turn	NOUN	S	Number=Sing	9	nmod	_	_
+9	black	black	NOUN	S	Number=Sing	11	nmod	_	_
+10	when	when	SCONJ	CS	_	11	mark	_	_
+11	ripe	ripe	NOUN	S	Number=Sing	6	ccomp	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = the basic chromosome number of the genus is 13, and most species are diploid (2n=26).
+1	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+2	basic	basic	ADJ	A	Degree=Pos	3	amod	_	_
+3	chromosome	chromosome	NOUN	S	Number=Sing	4	nmod	_	_
+4	number	number	NOUN	S	Number=Sing	9	nsubj	_	_
+5	of	of	ADP	E	_	7	case	_	_
+6	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+7	genus	genus	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	13	13	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	15	punct	_	_
+11	and	and	CCONJ	CC	_	15	cc	_	_
+12	most	most	ADJ	A	Degree=Sup	13	amod	_	_
+13	species	species	NOUN	S	Number=Plur	15	nsubj:pass	_	_
+14	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+15	diploid	diploid	VERB	V	Tense=Past|VerbForm=Part	9	conj	_	_
+16	(	(	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	2n=26	2n=26	NUM	N	NumType=Card	15	obl	_	SpaceAfter=No
+18	)	)	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 17
+# text = however, natural polyploidy exists, particularly in ''jasminum sambac'' (2n=39), ''jasminum flexile'' (2n=52), ''jasminum mesnyi'' (2n=39), and ''jasminum angustifolium'' (2n=52).
+1	however	however	ADV	B	_	21	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	natural	natural	ADJ	A	Degree=Pos	5	amod	_	_
+4	polyploidy	polyploidy	NOUN	S	Number=Sing	5	nmod	_	_
+5	exists	exists	NOUN	S	Number=Plur	21	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	particularly	particularly	ADV	B	_	11	advmod	_	_
+8	in	in	ADP	E	_	11	mark	_	_
+9	'	'	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+10	'	'	PART	PART	_	8	case	_	SpaceAfter=No
+11	jasminum	jasminum	VERB	V	VerbForm=Inf	21	advcl	_	_
+12	sambac	sambac	ADJ	A	Degree=Pos	21	amod	_	SpaceAfter=No
+13	'	'	PART	PART	_	12	case	_	SpaceAfter=No
+14	'	'	PART	PART	_	12	case	_	_
+15	(	(	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	2n=39	2n=39	ADJ	A	Degree=Pos	21	amod	_	SpaceAfter=No
+17	)	)	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	16	punct	_	_
+19	'	'	PART	PART	_	16	case	_	SpaceAfter=No
+20	'	'	PART	PART	_	16	case	_	SpaceAfter=No
+21	jasminum	jasminum	VERB	V	VerbForm=Inf	0	root	_	_
+22	flexile	flexile	NOUN	S	Number=Plur	21	obl	_	SpaceAfter=No
+23	'	'	PART	PART	_	22	case	_	SpaceAfter=No
+24	'	'	PART	PART	_	22	case	_	_
+25	(	(	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+26	2n=52	2n=52	NUM	N	NumType=Card	22	nummod	_	SpaceAfter=No
+27	)	)	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	21	punct	_	_
+29	'	'	PART	PART	_	21	case	_	SpaceAfter=No
+30	'	'	PART	PART	_	21	case	_	SpaceAfter=No
+31	jasminum	jasminum	VERB	V	VerbForm=Inf	21	advcl	_	_
+32	mesnyi	mesnyi	NOUN	S	Number=Sing	31	obl	_	SpaceAfter=No
+33	'	'	PART	PART	_	32	case	_	SpaceAfter=No
+34	'	'	PART	PART	_	32	case	_	_
+35	(	(	PUNCT	FB	_	36	punct	_	SpaceAfter=No
+36	2n=39	2n=39	ADJ	A	Degree=Pos	32	amod	_	SpaceAfter=No
+37	)	)	PUNCT	FB	_	36	punct	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	43	punct	_	_
+39	and	and	CCONJ	CC	_	43	cc	_	_
+40	'	'	PART	PART	_	43	nmod	_	SpaceAfter=No
+41	'	'	PART	PART	_	40	case	_	SpaceAfter=No
+42	jasminum	jasminum	NOUN	S	Number=Sing	43	nmod	_	_
+43	angustifolium	angustifolium	NOUN	S	Number=Sing	32	conj	_	SpaceAfter=No
+44	'	'	PUNCT	FB	_	43	punct	_	SpaceAfter=No
+45	'	'	PUNCT	FB	_	43	punct	_	_
+46	(	(	PUNCT	FB	_	47	punct	_	SpaceAfter=No
+47	2n=52	2n=52	NUM	N	NumType=Card	43	nummod	_	SpaceAfter=No
+48	)	)	PUNCT	FB	_	47	punct	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	21	punct	_	SpacesAfter=\n\s
+
+# sent_id = 18
+# text = jasmines are native to tropical and subtropical regions of eurasia, australasia and oceania, although only one of the 200 species is native to europe.
+1	jasmines	jasmine	PRON	PE	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	native	native	ADJ	A	Degree=Pos	24	nsubj	_	_
+4	to	to	PART	PART	_	5	mark	_	_
+5	tropical	tropic	VERB	V	VerbForm=Inf	3	advcl	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	subtropical	subtropical	ADJ	A	Degree=Pos	8	amod	_	_
+8	regions	region	NOUN	S	Number=Plur	5	conj	_	_
+9	of	of	ADP	E	_	10	case	_	_
+10	eurasia	eurasia	NOUN	S	Number=Plur	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	australasia	australasia	NOUN	S	Number=Plur	10	conj	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	oceania	oceania	NOUN	S	Number=Sing	10	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	5	punct	_	_
+16	although	although	ADV	B	_	18	advmod	_	_
+17	only	only	ADV	B	_	18	advmod	_	_
+18	one	one	NUM	N	NumType=Card	3	nummod	_	_
+19	of	of	ADP	E	_	22	case	_	_
+20	the	the	DET	RD	Definite=Def|PronType=Art	22	det	_	_
+21	200	200	NUM	N	NumType=Card	22	nummod	_	_
+22	species	species	NOUN	S	Number=Plur	18	nmod	_	_
+23	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+24	native	native	ADJ	A	Degree=Pos	0	root	_	_
+25	to	to	PART	PART	_	26	mark	_	_
+26	europe	europe	VERB	V	VerbForm=Inf	24	advcl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 19
+# text = their center of diversity is in south asia and southeast asia.
+1	their	their	DET	AP	Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	center	center	NOUN	S	Number=Sing	8	nsubj	_	_
+3	of	of	ADP	E	_	4	case	_	_
+4	diversity	diversity	NOUN	S	Number=Sing	2	nmod	_	_
+5	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	south	south	ADJ	A	Degree=Pos	8	amod	_	_
+8	asia	asia	NOUN	S	Number=Sing	0	root	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	southeast	southeast	ADJ	A	Degree=Pos	11	amod	_	_
+11	asia	asia	NOUN	S	Number=Plur	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 20
+# text = a number of jasmine species have become naturalized in mediterranean europe.
+1	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	2	det	_	_
+2	number	number	NOUN	S	Number=Sing	7	nsubj	_	_
+3	of	of	ADP	E	_	5	case	_	_
+4	jasmine	jasmine	NUM	N	NumType=Card	5	nummod	_	_
+5	species	species	NOUN	S	Number=Plur	2	nmod	_	_
+6	have	have	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	become	become	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+8	naturalized	naturalize	VERB	V	Tense=Past|VerbForm=Part	7	xcomp	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	mediterranean	mediterranean	ADJ	A	Degree=Pos	11	amod	_	_
+11	europe	europe	NOUN	S	Number=Sing	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 21
+# text = for example, the so-called spanish jasmine (''jasminum grandiflorum'') was originally from west asia and indian subcontinent, and is now naturalized in the iberian peninsula.
+1	for	for	ADP	E	_	2	case	_	_
+2	example	example	NOUN	S	Number=Sing	11	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+5	so-called	so-called	ADJ	A	Degree=Pos	7	amod	_	_
+6	spanish	spanish	ADJ	A	Degree=Pos	7	amod	_	_
+7	jasmine	jasmine	NOUN	S	Number=Sing	2	conj	_	_
+8	(	(	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	'	'	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+10	'	'	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+11	jasminum	jasminum	PRON	PE	Number=Plur|Person=3|PronType=Prs	12	nsubj	_	_
+12	grandiflorum	grandiflorum	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	'	'	PART	PART	_	12	obl	_	SpaceAfter=No
+14	'	'	PART	PART	_	13	case	_	SpaceAfter=No
+15	)	)	PUNCT	FB	_	13	punct	_	_
+16	was	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	_
+17	originally	originally	ADV	B	_	20	advmod	_	_
+18	from	from	ADP	E	_	20	case	_	_
+19	west	west	ADJ	A	Degree=Pos	20	amod	_	_
+20	asia	asia	NOUN	S	Number=Plur	12	obj	_	_
+21	and	and	CCONJ	CC	_	23	cc	_	_
+22	indian	indian	ADJ	A	Degree=Pos	23	amod	_	_
+23	subcontinent	subcontinent	NOUN	S	Number=Sing	20	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	28	punct	_	_
+25	and	and	CCONJ	CC	_	28	cc	_	_
+26	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+27	now	now	ADV	B	_	28	advmod	_	_
+28	naturalized	naturalize	VERB	V	Tense=Past|VerbForm=Part	12	conj	_	_
+29	in	in	ADP	E	_	32	case	_	_
+30	the	the	DET	RD	Definite=Def|PronType=Art	32	det	_	_
+31	iberian	iberian	ADJ	A	Degree=Pos	32	amod	_	_
+32	peninsula	peninsulum	NOUN	S	Number=Sing	28	obl	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 22
+# text = ''jasminum fluminense'' (which is sometimes known by the inaccurate name "brazilian jasmine") and ''jasminum dichotomum'' (gold coast jasmine) are invasive species in hawaii and florida.
+1	'	'	PART	PART	_	3	mark	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	jasminum	jasminum	VERB	V	VerbForm=Inf	0	root	_	_
+4	fluminense	fluminense	NOUN	S	Number=Sing	35	nmod	_	SpaceAfter=No
+5	'	'	PART	PART	_	4	case	_	SpaceAfter=No
+6	'	'	PUNCT	FB	_	4	punct	_	_
+7	(	(	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+8	which	which	PRON	PR	PronType=Rel	11	nsubj:pass	_	_
+9	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+10	sometimes	sometimes	ADV	B	_	11	advmod	_	_
+11	known	know	VERB	V	Tense=Past|VerbForm=Part	35	acl	_	_
+12	by	by	ADP	E	_	15	case	_	_
+13	the	the	DET	RD	Definite=Def|PronType=Art	15	det	_	_
+14	inaccurate	inaccurate	ADJ	A	Degree=Pos	15	amod	_	_
+15	name	name	NOUN	S	Number=Sing	11	obl	_	_
+16	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+17	brazilian	brazilian	ADJ	A	Degree=Pos	18	amod	_	_
+18	jasmine	jasmine	NOUN	S	Number=Sing	15	nmod	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+20	)	)	PUNCT	FB	_	18	punct	_	_
+21	and	and	CCONJ	CC	_	31	cc	_	_
+22	'	'	PART	PART	_	31	nmod	_	SpaceAfter=No
+23	'	'	PART	PART	_	22	case	_	SpaceAfter=No
+24	jasminum	jasminum	NOUN	S	Number=Sing	25	nmod	_	_
+25	dichotomum	dichotomum	NOUN	S	Number=Sing	31	nmod	_	SpaceAfter=No
+26	'	'	PART	PART	_	25	case	_	SpaceAfter=No
+27	'	'	PART	PART	_	25	case	_	_
+28	(	(	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+29	gold	gold	ADJ	A	Degree=Pos	31	amod	_	_
+30	coast	coast	NOUN	S	Number=Sing	31	nmod	_	_
+31	jasmine	jasmine	NOUN	S	Number=Sing	11	conj	_	SpaceAfter=No
+32	)	)	PUNCT	FB	_	31	punct	_	_
+33	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	35	cop	_	_
+34	invasive	invasive	ADJ	A	Degree=Pos	35	amod	_	_
+35	species	species	NOUN	S	Number=Plur	3	obj	_	_
+36	in	in	ADP	E	_	37	case	_	_
+37	hawaii	hawaii	NOUN	S	Number=Sing	35	nmod	_	_
+38	and	and	CCONJ	CC	_	39	cc	_	_
+39	florida	florida	NOUN	S	Number=Sing	37	conj	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 23
+# text = ''jasminum polyanthum'', also known as white jasmine, is an invasive weed in australia.
+1	'	'	PART	PART	_	3	mark	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	jasminum	jasminum	VERB	V	VerbForm=Inf	0	root	_	_
+4	polyanthum	polyanthum	NOUN	S	Number=Sing	3	obl	_	SpaceAfter=No
+5	'	'	PART	PART	_	4	case	_	SpaceAfter=No
+6	'	'	PART	PART	_	4	case	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	also	also	ADV	B	_	9	advmod	_	_
+9	known	know	ADJ	A	Degree=Pos	3	xcomp	_	_
+10	as	as	ADP	E	_	12	case	_	_
+11	white	white	ADJ	A	Degree=Pos	12	amod	_	_
+12	jasmine	jasmine	NOUN	S	Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+15	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	17	det	_	_
+16	invasive	invasive	ADJ	A	Degree=Pos	17	amod	_	_
+17	weed	weed	NOUN	S	Number=Sing	3	nsubj	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	australia	australia	NOUN	S	Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\s
+
+# sent_id = 24
+# text = species belonging to genus ''jasminum'' are classified under the tribe jasmineae of the olive family (oleaceae).
+1	species	species	NOUN	S	Number=Plur	0	root	_	_
+2	belonging	belong	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	1	acl	_	_
+3	to	to	PART	PART	_	4	mark	_	_
+4	genus	genus	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	'	'	PART	PART	_	4	compound:prt	_	SpaceAfter=No
+6	'	'	PART	PART	_	4	compound:prt	_	SpaceAfter=No
+7	jasminum	jasminum	VERB	V	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+8	'	'	PART	PART	_	7	case	_	SpaceAfter=No
+9	'	'	PART	PART	_	7	case	_	_
+10	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	classified	classify	VERB	V	Tense=Past|VerbForm=Part	7	advcl	_	_
+12	under	under	ADP	E	_	15	case	_	_
+13	the	the	DET	RD	Definite=Def|PronType=Art	15	det	_	_
+14	tribe	tribe	NOUN	S	Number=Sing	15	nmod	_	_
+15	jasmineae	jasmineae	NOUN	S	Number=Sing	11	obl	_	_
+16	of	of	ADP	E	_	19	case	_	_
+17	the	the	DET	RD	Definite=Def|PronType=Art	19	det	_	_
+18	olive	olive	ADJ	A	Degree=Pos	19	amod	_	_
+19	family	family	NOUN	S	Number=Sing	15	nmod	_	_
+20	(	(	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+21	oleaceae	oleaceae	NOUN	S	Number=Sing	11	appos	_	SpaceAfter=No
+22	)	)	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 25
+# text = ''jasminum'' is divided into five sections—''alternifolia'', ''jasminum'', ''primulina'', ''trifoliolata'', and ''unifoliolata''.
+1	'	'	PART	PART	_	3	mark	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	jasminum	jasminum	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	7	acl	_	SpaceAfter=No
+4	'	'	PART	PART	_	3	case	_	SpaceAfter=No
+5	'	'	PART	PART	_	4	case	_	_
+6	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	divided	divide	VERB	V	Tense=Past|VerbForm=Part	39	acl	_	_
+8	into	into	ADP	E	_	10	case	_	_
+9	five	five	NUM	N	NumType=Card	10	nummod	_	_
+10	sections	section	NOUN	S	Number=Plur	7	obl	_	SpaceAfter=No
+11	—	—	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+12	'	'	PART	PART	_	39	mark	_	SpaceAfter=No
+13	'	'	PART	PART	_	12	case	_	SpaceAfter=No
+14	alternifolia	alternifolia	NOUN	S	Number=Plur	32	nmod	_	SpaceAfter=No
+15	'	'	PART	PART	_	14	case	_	SpaceAfter=No
+16	'	'	PART	PART	_	14	case	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	32	punct	_	_
+18	'	'	PART	PART	_	17	case	_	SpaceAfter=No
+19	'	'	PART	PART	_	17	case	_	SpaceAfter=No
+20	jasminum	jasminum	NOUN	S	Number=Sing	26	nmod	_	SpaceAfter=No
+21	'	'	PART	PART	_	20	case	_	SpaceAfter=No
+22	'	'	PART	PART	_	20	case	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	20	punct	_	_
+24	'	'	PART	PART	_	20	case	_	SpaceAfter=No
+25	'	'	PART	PART	_	20	case	_	SpaceAfter=No
+26	primulina	primulina	NOUN	S	Number=Plur	32	nmod	_	SpaceAfter=No
+27	'	'	PART	PART	_	26	case	_	SpaceAfter=No
+28	'	'	PART	PART	_	26	case	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	26	punct	_	_
+30	'	'	PART	PART	_	26	case	_	SpaceAfter=No
+31	'	'	PART	PART	_	26	case	_	SpaceAfter=No
+32	trifoliolata	trifoliolata	NOUN	S	Number=Plur	39	nmod	_	SpaceAfter=No
+33	'	'	PART	PART	_	32	case	_	SpaceAfter=No
+34	'	'	PART	PART	_	32	case	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	39	punct	_	_
+36	and	and	CCONJ	CC	_	39	cc	_	_
+37	'	'	PART	PART	_	39	nmod	_	SpaceAfter=No
+38	'	'	PART	PART	_	37	case	_	SpaceAfter=No
+39	unifoliolata	unifoliolata	NOUN	S	Number=Plur	0	root	_	SpaceAfter=No
+40	'	'	PART	PART	_	39	case	_	SpaceAfter=No
+41	'	'	PART	PART	_	39	case	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	39	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 26
+# text = the genus name is derived from the persian ''yasameen'' ("gift from god") through arabic and latin.
+1	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+2	genus	genus	ADJ	A	Degree=Pos	3	amod	_	_
+3	name	name	NOUN	S	Number=Sing	5	nsubj:pass	_	_
+4	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	derived	derive	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+6	from	from	ADP	E	_	11	mark	_	_
+7	the	the	DET	RD	Definite=Def|PronType=Art	8	det	_	_
+8	persian	persian	NOUN	S	Number=Sing	11	nmod	_	_
+9	'	'	PART	PART	_	8	case	_	SpaceAfter=No
+10	'	'	PART	PART	_	8	case	_	SpaceAfter=No
+11	yasameen	yasameen	VERB	V	VerbForm=Inf	5	advcl	_	SpaceAfter=No
+12	'	'	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+13	'	'	PUNCT	FB	_	11	punct	_	_
+14	(	(	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	gift	gift	VERB	V	Tense=Past|VerbForm=Part	11	appos	_	_
+17	from	from	ADP	E	_	18	case	_	_
+18	god	god	NOUN	S	Number=Sing	16	obl	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+20	)	)	PUNCT	FB	_	16	punct	_	_
+21	through	through	ADP	E	_	22	case	_	_
+22	arabic	arabic	NOUN	S	Number=Sing	11	obl	_	_
+23	and	and	CCONJ	CC	_	24	cc	_	_
+24	latin	latin	NOUN	S	Number=Sing	22	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 27
+# text = ===selected species=== ''jasminum sambac'' "grand duke of tuscany"
+1	===selected	===select	VERB	V	Person=3|Tense=Past|VerbForm=Part	2	acl	_	_
+2	species===	species===	NOUN	S	Number=Sing	5	nmod	_	SpacesAfter=\n\s
+3	'	'	PART	PART	_	2	case	_	SpaceAfter=No
+4	'	'	PART	PART	_	2	case	_	SpaceAfter=No
+5	jasminum	jasminum	NOUN	S	Number=Sing	6	nmod	_	_
+6	sambac	sambac	NOUN	S	Number=Sing	11	nmod	_	SpaceAfter=No
+7	'	'	PART	PART	_	6	case	_	SpaceAfter=No
+8	'	'	PART	PART	_	6	case	_	_
+9	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+10	grand	grand	ADJ	A	Degree=Pos	11	amod	_	_
+11	duke	duke	NOUN	S	Number=Sing	0	root	_	_
+12	of	of	ADP	E	_	13	case	_	_
+13	tuscany	tuscany	NOUN	S	Number=Sing	11	nmod	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	11	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 28
+# text = a double-flowered cultivar of ''jasminum sambac'' in flower with an unopened bud.
+1	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	5	det	_	_
+2	double	double	NOUN	S	Number=Sing	4	obl	_	SpaceAfter=No
+3	-	-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+4	flowered	flower	VERB	V	Tense=Past|VerbForm=Part	5	acl	_	_
+5	cultivar	cultivar	NOUN	S	Number=Sing	0	root	_	_
+6	of	of	ADP	E	_	14	case	_	_
+7	'	'	PART	PART	_	6	case	_	SpaceAfter=No
+8	'	'	PART	PART	_	6	case	_	SpaceAfter=No
+9	jasminum	jasminum	NOUN	S	Number=Sing	10	nmod	_	_
+10	sambac	sambac	NOUN	S	Number=Sing	14	nmod	_	SpaceAfter=No
+11	'	'	PART	PART	_	10	case	_	SpaceAfter=No
+12	'	'	PART	PART	_	10	case	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	flower	flower	NOUN	S	Number=Sing	5	nmod	_	_
+15	with	with	ADP	E	_	18	case	_	_
+16	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	18	det	_	_
+17	unopened	unopened	ADJ	A	Degree=Pos	18	amod	_	_
+18	bud	bud	NOUN	S	Number=Sing	5	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 29
+# text = jasmine buds species include:
+1	jasmine	jasmine	PRON	PE	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	buds	bud	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\n
+3	species	species	NOUN	S	Number=Plur	2	obj	_	_
+4	include	include	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	2	acl	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 30
+# text = * ''j.
+1	*	*	PUNCT	FF	_	3	punct	_	_
+2	'	'	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+3	'j	'j	PROPN	SP	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter= 
+
+# sent_id = 31
+# text = abyssinicum'' hochst.
+1	abyssinicum	abyssinicum	NOUN	S	Number=Sing	4	nmod	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	'	'	PART	PART	_	1	case	_	_
+4	hochst	hochst	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 32
+# text = ex dc. – forest jasmine * ''j.
+1	ex	ex	X	SW	Foreign=Yes	0	root	_	_
+2	dc.	dc.	X	SW	Foreign=Yes	1	flat:foreign	_	SpacesAfter= 
+3	–	–	PUNCT	FF	_	5	punct	_	SpacesAfter= 
+4	forest	forest	ADJ	A	Degree=Pos	5	amod	_	_
+5	jasmine	jasmine	NOUN	S	Number=Sing	8	nmod	_	SpacesAfter=\n
+6	*	*	PUNCT	FF	_	5	punct	_	_
+7	'	'	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+8	'j	'j	PROPN	SP	_	1	flat	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter= 
+
+# sent_id = 33
+# text = adenophyllum'' wall.
+1	adenophyllum	adenophyllum	NOUN	S	Number=Sing	4	nmod	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	'	'	PART	PART	_	1	case	_	_
+4	wall	wall	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter= 
+
+# sent_id = 34
+# text = – bluegrape jasmine, pinwheel jasmine, princess jasmine * ''j.
+1	–	–	PUNCT	FF	_	3	punct	_	SpacesAfter= 
+2	bluegrape	bluegrape	ADJ	A	Degree=Pos	3	amod	_	_
+3	jasmine	jasmine	NOUN	S	Number=Sing	12	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	pinwheel	pinwheel	ADJ	A	Degree=Pos	6	amod	_	_
+6	jasmine	jasmine	NOUN	S	Number=Sing	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	princess	princess	NOUN	S	Number=Sing	3	conj	_	_
+9	jasmine	jasmine	NUM	N	NumType=Card	8	nummod	_	SpacesAfter=\n
+10	*	*	PUNCT	FF	_	3	punct	_	_
+11	'	'	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+12	'j	'j	PROPN	SP	_	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter= 
+
+# sent_id = 35
+# text = andamanicum'' n.p.balakr.
+1	andamanicum	andamanicum	NOUN	S	Number=Sing	4	nmod	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	'	'	PART	PART	_	1	case	_	_
+4	n.p.balakr	n.p.balakr	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 36
+# text = & n.g.nair * ''j.
+1	&	&	PUNCT	FF	_	5	punct	_	_
+2	n.g.nair	n.g.nair	ADV	B	_	5	advmod	_	SpacesAfter=\n
+3	*	*	PUNCT	FF	_	2	punct	_	_
+4	'	'	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+5	'j	'j	PROPN	SP	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter= 
+
+# sent_id = 37
+# text = angulare'' vahl * ''j.
+1	angulare	angulare	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	'	'	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	'	'	PART	PART	_	1	case	_	_
+4	vahl	vahl	VERB	V	VerbForm=Inf	0	root	_	SpacesAfter=\n
+5	*	*	PUNCT	FF	_	7	punct	_	_
+6	'	'	PART	PART	_	5	case	_	SpaceAfter=No
+7	'j	'j	PROPN	SP	_	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter= 
+
+# sent_id = 38
+# text = angustifolium'' (l.) willd.
+1	angustifolium	angustifolium	PRON	PE	Number=Plur|Person=3|PronType=Prs	7	nsubj	_	SpaceAfter=No
+2	'	'	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+3	'	'	PUNCT	FB	_	1	punct	_	_
+4	(	(	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	l.	l.	ADV	B	_	7	advmod	_	SpaceAfter=No
+6	)	)	PUNCT	FB	_	5	punct	_	_
+7	willd	willd	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 39
+# text = * ''j.
+1	*	*	PUNCT	FF	_	3	punct	_	_
+2	'	'	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+3	'j	'j	PROPN	SP	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter= 
+
+# sent_id = 40
+# text = auriculatum'' vahl – indian jasmine, needle-flower jasmine * ''j.
+1	auriculatum	auriculatum	NOUN	S	Number=Sing	4	nmod	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	'	'	PART	PART	_	1	case	_	_
+4	vahl	vahl	VERB	V	VerbForm=Inf	0	root	_	SpacesAfter= 
+5	–	–	PUNCT	FB	_	7	punct	_	SpacesAfter= 
+6	indian	indian	ADJ	A	Degree=Pos	7	amod	_	_
+7	jasmine	jasmine	NOUN	S	Number=Sing	15	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	12	punct	_	_
+9	needle	needle	ADJ	A	Degree=Pos	12	amod	_	SpaceAfter=No
+10	-	-	PUNCT	FF	_	11	punct	_	SpaceAfter=No
+11	flower	flower	NOUN	S	Number=Sing	12	nmod	_	_
+12	jasmine	jasmine	NOUN	S	Number=Sing	7	conj	_	SpacesAfter=\n
+13	*	*	PUNCT	FF	_	7	punct	_	_
+14	'	'	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+15	'j	'j	PROPN	SP	_	4	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter= 
+
+# sent_id = 41
+# text = azoricum'' l. * ''j.
+1	azoricum	azoricum	NOUN	S	Number=Sing	4	nmod	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	'	'	PART	PART	_	4	case	_	_
+4	l	l	NOUN	S	Number=Sing	8	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+6	*	*	PUNCT	FF	_	7	punct	_	_
+7	'	'	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+8	'j	'j	PROPN	SP	_	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter= 
+
+# sent_id = 42
+# text = beesianum'' forrest & diels – red jasmine * ''j.
+1	beesianum	beesianum	NOUN	S	Number=Sing	4	nmod	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	'	'	PART	PART	_	1	case	_	_
+4	forrest	forrest	VERB	V	VerbForm=Inf	0	root	_	_
+5	&	&	PUNCT	FF	_	6	punct	_	_
+6	diels	diel	NOUN	S	Number=Plur	12	nmod	_	SpacesAfter= 
+7	–	–	PUNCT	FF	_	9	punct	_	SpacesAfter= 
+8	red	re	ADJ	A	Degree=Pos	9	amod	_	_
+9	jasmine	jasmine	NOUN	S	Number=Sing	6	conj	_	SpacesAfter=\n
+10	*	*	PUNCT	FF	_	6	punct	_	_
+11	'	'	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+12	'j	'j	PROPN	SP	_	4	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter= 
+
+# sent_id = 43
+# text = dichotomum'' vahl – gold coast jasmine * ''j.
+1	dichotomum	dichotomum	NOUN	S	Number=Sing	11	nmod	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	'	'	PART	PART	_	1	case	_	_
+4	vahl	vahl	ADJ	A	Degree=Pos	11	amod	_	SpacesAfter= 
+5	–	–	PUNCT	FF	_	7	punct	_	SpacesAfter= 
+6	gold	gold	ADJ	A	Degree=Pos	7	amod	_	_
+7	coast	coast	NOUN	S	Number=Sing	11	nmod	_	_
+8	jasmine	jasmine	NUM	N	NumType=Card	7	nummod	_	SpacesAfter=\n
+9	*	*	PUNCT	FF	_	7	punct	_	_
+10	'	'	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+11	'j	'j	PROPN	SP	_	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter= 
+
+# sent_id = 44
+# text = didymum'' g.forst.
+1	didymum	didymum	NOUN	S	Number=Sing	4	nmod	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	'	'	PART	PART	_	1	case	_	_
+4	g.forst	g.forst	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 45
+# text = * ''j.
+1	*	*	PUNCT	FF	_	3	punct	_	_
+2	'	'	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+3	'j	'j	PROPN	SP	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter= 
+
+# sent_id = 46
+# text = dispermum'' wall.
+1	dispermum	dispermum	NOUN	S	Number=Sing	4	nmod	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	'	'	PART	PART	_	1	case	_	_
+4	wall	wall	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 47
+# text = * ''j.
+1	*	*	PUNCT	FF	_	3	punct	_	_
+2	'	'	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+3	'j	'j	PROPN	SP	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter= 
+
+# sent_id = 48
+# text = elegans'' knobl.
+1	elegans	elegan	NOUN	S	Number=Plur	4	nmod	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	'	'	PART	PART	_	1	case	_	_
+4	knobl	knobl	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 49
+# text = * ''j.
+1	*	*	PUNCT	FF	_	3	punct	_	_
+2	'	'	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+3	'j	'j	PROPN	SP	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter= 
+
+# sent_id = 50
+# text = elongatum'' (p.j.bergius) willd.
+1	elongatum	elongatum	PRON	PE	Number=Plur|Person=3|PronType=Prs	7	nsubj	_	SpaceAfter=No
+2	'	'	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+3	'	'	PUNCT	FB	_	1	punct	_	_
+4	(	(	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	p.j.bergius	p.j.bergius	PRON	PE	Number=Plur|Person=1|PronType=Prs	1	appos	_	SpaceAfter=No
+6	)	)	PUNCT	FB	_	5	punct	_	_
+7	willd	willd	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 51
+# text = * ''j.
+1	*	*	PUNCT	FF	_	3	punct	_	_
+2	'	'	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+3	'j	'j	PROPN	SP	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter= 
+
+# sent_id = 52
+# text = floridum'' bunge * ''j.
+1	floridum	floridum	NOUN	S	Number=Sing	4	obl	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	'	'	PART	PART	_	1	case	_	_
+4	bunge	bunge	VERB	V	VerbForm=Inf	0	root	_	SpacesAfter=\n
+5	*	*	PUNCT	FF	_	7	punct	_	_
+6	'	'	PART	PART	_	5	case	_	SpaceAfter=No
+7	'j	'j	PROPN	SP	_	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter= 
+
+# sent_id = 53
+# text = fluminense'' vell.
+1	fluminense	fluminense	VERB	V	Mood=Imp|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	'	'	PART	PART	_	4	mark	_	SpaceAfter=No
+3	'	'	PART	PART	_	2	case	_	_
+4	vell	vell	VERB	V	VerbForm=Inf	1	xcomp	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 54
+# text = * ''j.
+1	*	*	PUNCT	FF	_	3	punct	_	_
+2	'	'	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+3	'j	'j	PROPN	SP	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter= 
+
+# sent_id = 55
+# text = fruticans'' l.
+1	fruticans	frutican	NOUN	S	Number=Plur	4	nmod	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	'	'	PART	PART	_	1	case	_	_
+4	l	l	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 56
+# text = * ''j.
+1	*	*	PUNCT	FF	_	3	punct	_	_
+2	'	'	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+3	'j	'j	PROPN	SP	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter= 
+
+# sent_id = 57
+# text = grandiflorum'' l.
+1	grandiflorum	grandiflorum	NOUN	S	Number=Sing	4	nmod	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	'	'	PART	PART	_	1	case	_	_
+4	l	l	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter= 
+
+# sent_id = 58
+# text = – catalan jasmine, jasmin odorant, royal jasmine, spanish jasmine * ''j.
+1	–	–	PUNCT	FF	_	3	punct	_	SpacesAfter= 
+2	catalan	catalan	ADJ	A	Degree=Pos	3	amod	_	_
+3	jasmine	jasmine	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	jasmin	jasmin	VERB	V	Tense=Past|VerbForm=Part	3	acl	_	_
+6	odorant	odorant	ADJ	A	Degree=Pos	15	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	royal	royal	ADJ	A	Degree=Pos	9	amod	_	_
+9	jasmine	jasmine	NOUN	S	Number=Sing	15	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	spanish	spanish	ADJ	A	Degree=Pos	12	amod	_	_
+12	jasmine	jasmine	NOUN	S	Number=Sing	9	conj	_	SpacesAfter=\n
+13	*	*	PUNCT	FF	_	9	punct	_	_
+14	'	'	PART	PART	_	9	case	_	SpaceAfter=No
+15	'j	'j	PROPN	SP	_	5	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter= 
+
+# sent_id = 59
+# text = humile'' l. – italian jasmine, italian yellow jasmine * ''j.
+1	humile	humile	NOUN	S	Number=Sing	4	nmod	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	'	'	PART	PART	_	1	case	_	_
+4	l	l	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter= 
+6	–	–	PUNCT	FF	_	8	punct	_	SpacesAfter= 
+7	italian	italian	ADJ	A	Degree=Pos	8	amod	_	_
+8	jasmine	jasmine	NOUN	S	Number=Sing	15	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	italian	italian	ADJ	A	Degree=Pos	11	amod	_	_
+11	yellow	yellow	NOUN	S	Number=Sing	8	conj	_	_
+12	jasmine	jasmine	NUM	N	NumType=Card	11	nummod	_	SpacesAfter=\n
+13	*	*	PUNCT	FF	_	8	punct	_	_
+14	'	'	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+15	'j	'j	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter= 
+
+# sent_id = 60
+# text = lanceolarium'' roxb.
+1	lanceolarium	lanceolarium	NOUN	S	Number=Sing	4	nmod	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	'	'	PART	PART	_	1	case	_	_
+4	roxb	roxb	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 61
+# text = * ''j.
+1	*	*	PUNCT	FF	_	3	punct	_	_
+2	'	'	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+3	'j	'j	PROPN	SP	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter= 
+
+# sent_id = 62
+# text = malabaricum'' wight * ''j.
+1	malabaricum	malabaricum	NOUN	S	Number=Sing	4	obl	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	'	'	PART	PART	_	1	case	_	_
+4	wight	wight	VERB	V	VerbForm=Inf	0	root	_	SpacesAfter=\n
+5	*	*	PUNCT	FF	_	7	punct	_	_
+6	'	'	PART	PART	_	5	case	_	SpaceAfter=No
+7	'j	'j	PROPN	SP	_	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter= 
+
+# sent_id = 63
+# text = mesnyi'' hance – japanese jasmine, primrose jasmine, yellow jasmine * ''j.
+1	mesnyi	mesnyi	NOUN	S	Number=Sing	4	nmod	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	'	'	PART	PART	_	1	case	_	_
+4	hance	hance	NOUN	S	Number=Sing	0	root	_	SpacesAfter= 
+5	–	–	PUNCT	FF	_	7	punct	_	SpacesAfter= 
+6	japanese	japanese	NOUN	S	Number=Sing	7	nmod	_	_
+7	jasmine	jasmine	NOUN	S	Number=Sing	16	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	primrose	primrose	DET	DD	Number=Plur|PronType=Dem	10	det	_	_
+10	jasmine	jasmine	NOUN	S	Number=Sing	7	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	yellow	yellow	NOUN	S	_	7	conj	_	_
+13	jasmine	jasmine	NUM	N	NumType=Card	12	nummod	_	SpacesAfter=\n
+14	*	*	PUNCT	FF	_	7	punct	_	_
+15	'	'	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+16	'j	'j	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter= 
+
+# sent_id = 64
+# text = multiflorum'' (burm.f.) andrews – indian jasmine, star jasmine, winter jasmine * ''j.
+1	multiflorum	multiflorum	PRON	PE	Number=Plur|Person=3|PronType=Prs	8	nsubj	_	SpaceAfter=No
+2	'	'	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+3	'	'	PUNCT	FB	_	1	punct	_	_
+4	(	(	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	burm.f	burm.f	NOUN	S	Number=Sing	1	appos	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	SpaceAfter=No
+7	)	)	PUNCT	FB	_	5	punct	_	_
+8	andrews	andrew	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter= 
+9	–	–	PUNCT	FF	_	8	punct	_	SpacesAfter= 
+10	indian	indian	ADJ	A	Degree=Pos	11	amod	_	_
+11	jasmine	jasmine	NOUN	S	Number=Sing	20	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	star	star	NOUN	S	Number=Sing	11	conj	_	_
+14	jasmine	jasmine	NUM	N	NumType=Card	13	nummod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	winter	winter	NOUN	S	Number=Sing	11	conj	_	_
+17	jasmine	jasmine	NUM	N	NumType=Card	16	nummod	_	SpacesAfter=\n
+18	*	*	PUNCT	FF	_	11	punct	_	_
+19	'	'	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+20	'j	'j	PROPN	SP	_	8	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter= 
+
+# sent_id = 65
+# text = multipartitum'' hochst.
+1	multipartitum	multipartitum	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	'	'	PART	PART	_	1	case	_	_
+4	hochst	hochst	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter= 
+
+# sent_id = 66
+# text = – starry wild jasmine * ''j.
+1	–	–	PUNCT	FF	_	4	punct	_	SpacesAfter= 
+2	starry	starry	DET	DI	Number=Sing|PronType=Ind	4	det	_	_
+3	wild	wild	ADJ	A	Degree=Pos	4	amod	_	_
+4	jasmine	jasmine	NOUN	S	Number=Sing	7	nmod	_	SpacesAfter=\n
+5	*	*	PUNCT	FF	_	4	punct	_	_
+6	'	'	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+7	'j	'j	PROPN	SP	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter= 
+
+# sent_id = 67
+# text = nervosum'' lour.
+1	nervosum	nervosum	NOUN	S	Number=Sing	4	nmod	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	'	'	PART	PART	_	1	case	_	_
+4	lour	lour	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 68
+# text = * ''j.
+1	*	*	PUNCT	FF	_	3	punct	_	_
+2	'	'	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+3	'j	'j	PROPN	SP	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter= 
+
+# sent_id = 69
+# text = nobile'' c.b.clarke * ''j.
+1	nobile	nobile	NOUN	S	Number=Sing	4	obl	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	'	'	PART	PART	_	1	case	_	_
+4	c.b.clarke	c.b.clarke	VERB	V	VerbForm=Inf	0	root	_	SpacesAfter=\n
+5	*	*	PUNCT	FF	_	7	punct	_	_
+6	'	'	PART	PART	_	5	case	_	SpaceAfter=No
+7	'j	'j	PROPN	SP	_	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter= 
+
+# sent_id = 70
+# text = nudiflorum'' lindl.
+1	nudiflorum	nudiflorum	NOUN	S	Number=Sing	4	nmod	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	'	'	PART	PART	_	1	case	_	_
+4	lindl	lindl	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter= 
+
+# sent_id = 71
+# text = – winter jasmine * ''j.
+1	–	–	PUNCT	FF	_	3	punct	_	SpacesAfter= 
+2	winter	winter	ADJ	A	Degree=Cmp	3	amod	_	_
+3	jasmine	jasmine	NOUN	S	Number=Sing	6	nmod	_	SpacesAfter=\n
+4	*	*	PUNCT	FF	_	3	punct	_	_
+5	'	'	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+6	'j	'j	PROPN	SP	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter= 
+
+# sent_id = 72
+# text = odoratissimum'' l. – yellow jasmine * ''j.
+1	odoratissimum	odoratissimum	PRON	PE	Number=Plur|Person=3|PronType=Prs	4	nmod	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	'	'	PART	PART	_	4	case	_	_
+4	l	l	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter= 
+6	–	–	PUNCT	FF	_	4	punct	_	SpacesAfter= 
+7	yellow	yellow	ADV	B	_	8	advmod	_	_
+8	jasmine	jasmine	VERB	V	Tense=Past|VerbForm=Part	4	acl	_	SpacesAfter=\n
+9	*	*	PUNCT	FF	_	11	punct	_	_
+10	'	'	PART	PART	_	9	case	_	SpaceAfter=No
+11	'j	'j	PROPN	SP	_	8	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter= 
+
+# sent_id = 73
+# text = officinale'' l. – common jasmine, jasmine, jessamine, poet's jasmine, summer jasmine, white jasmine * ''j.
+1	officinale	officinale	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	'	'	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	'	'	PART	PART	_	1	case	_	_
+4	l	l	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter= 
+6	–	–	PUNCT	FF	_	4	punct	_	SpacesAfter= 
+7	common	common	ADJ	A	Degree=Pos	8	amod	_	_
+8	jasmine	jasmine	NOUN	S	Number=Sing	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	jasmine	jasmine	NOUN	S	Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	jessamine	jessamine	NOUN	S	Number=Sing	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	4	punct	_	_
+14	poet	poet	NOUN	S	Number=Sing	16	nmod	_	SpaceAfter=No
+15	's	's	PART	PART	_	14	case	_	_
+16	jasmine	jasmine	NOUN	S	Number=Sing	4	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	summer	summer	NOUN	S	Number=Sing	19	nmod	_	_
+19	jasmine	jasmine	NOUN	S	Number=Sing	25	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	22	punct	_	_
+21	white	white	ADJ	A	Degree=Pos	22	amod	_	_
+22	jasmine	jasmine	NOUN	S	Number=Sing	19	conj	_	SpacesAfter=\n
+23	*	*	PUNCT	FF	_	19	punct	_	_
+24	'	'	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+25	'j	'j	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter= 
+
+# sent_id = 74
+# text = parkeri'' dunn – dwarf jasmine * ''j.
+1	parkeri	parkeri	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	'	'	PART	PART	_	4	mark	_	_
+4	dunn	dunn	VERB	V	Tense=Past|VerbForm=Part	1	acl	_	SpacesAfter= 
+5	–	–	PUNCT	FF	_	7	punct	_	SpacesAfter= 
+6	dwarf	dwarf	ADJ	A	Degree=Pos	7	amod	_	_
+7	jasmine	jasmine	NOUN	S	Number=Sing	10	nmod	_	SpacesAfter=\n
+8	*	*	PUNCT	FF	_	7	punct	_	_
+9	'	'	PART	PART	_	7	case	_	SpaceAfter=No
+10	'j	'j	PROPN	SP	_	4	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter= 
+
+# sent_id = 75
+# text = polyanthum'' franch.
+1	polyanthum	polyanthum	NOUN	S	Number=Sing	4	nmod	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	'	'	PART	PART	_	1	case	_	_
+4	franch	franch	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 76
+# text = * ''j.
+1	*	*	PUNCT	FF	_	3	punct	_	_
+2	'	'	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+3	'j	'j	PROPN	SP	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter= 
+
+# sent_id = 77
+# text = sambac'' (l.) aiton – arabian jasmine, sambac jasmine * ''j.
+1	sambac	sambac	ADJ	A	Degree=Pos	0	root	_	SpaceAfter=No
+2	'	'	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+3	'	'	PUNCT	FB	_	1	punct	_	_
+4	(	(	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	l.	l.	ADV	B	_	16	advmod	_	SpaceAfter=No
+6	)	)	PUNCT	FB	_	5	punct	_	_
+7	aiton	aiton	ADP	E	_	16	case	_	SpacesAfter= 
+8	–	–	PUNCT	FB	_	10	punct	_	SpacesAfter= 
+9	arabian	arabian	ADJ	A	Degree=Pos	10	amod	_	_
+10	jasmine	jasmine	NOUN	S	Number=Sing	16	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	sambac	sambac	ADJ	A	Degree=Pos	13	amod	_	_
+13	jasmine	jasmine	NOUN	S	Number=Sing	10	conj	_	SpacesAfter=\n
+14	*	*	PUNCT	FF	_	10	punct	_	_
+15	'	'	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+16	'j	'j	PROPN	SP	_	1	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter= 
+
+# sent_id = 78
+# text = simplicifolium'' g.forst.
+1	simplicifolium	simplicifolium	NOUN	S	Number=Sing	4	nmod	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	'	'	PART	PART	_	1	case	_	_
+4	g.forst	g.forst	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 79
+# text = * ''j.
+1	*	*	PUNCT	FF	_	3	punct	_	_
+2	'	'	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+3	'j	'j	PROPN	SP	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter= 
+
+# sent_id = 80
+# text = sinense'' hemsl.
+1	sinense	sinense	VERB	V	Mood=Imp|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	'	'	PART	PART	_	4	mark	_	SpaceAfter=No
+3	'	'	PART	PART	_	2	case	_	_
+4	hemsl	hemsl	NOUN	S	Number=Sing	1	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 81
+# text = * ''j.
+1	*	*	PUNCT	FF	_	3	punct	_	_
+2	'	'	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+3	'j	'j	PROPN	SP	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter= 
+
+# sent_id = 82
+# text = subhumile'' w.w.sm.
+1	subhumile	subhumile	NOUN	S	Number=Sing	4	nmod	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	'	'	PART	PART	_	1	case	_	_
+4	w.w.sm	w.w.sm	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 83
+# text = * ''j.
+1	*	*	PUNCT	FF	_	3	punct	_	_
+2	'	'	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+3	'j	'j	PROPN	SP	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter= 
+
+# sent_id = 84
+# text = subtriplinerve'' blume * ''j.
+1	subtriplinerve	subtriplinerve	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	'	'	PART	PART	_	4	mark	_	SpaceAfter=No
+3	'	'	PART	PART	_	2	case	_	_
+4	blume	blume	VERB	V	Tense=Past|VerbForm=Part	1	acl	_	SpacesAfter=\n
+5	*	*	PUNCT	FF	_	7	punct	_	_
+6	'	'	PART	PART	_	5	case	_	SpaceAfter=No
+7	'j	'j	PROPN	SP	_	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter= 
+
+# sent_id = 85
+# text = tortuosum'' willd.
+1	tortuosum	tortuosum	NOUN	S	Number=Sing	4	nmod	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	'	'	PART	PART	_	1	case	_	_
+4	willd	willd	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 86
+# text = * ''j.
+1	*	*	PUNCT	FF	_	3	punct	_	_
+2	'	'	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+3	'j	'j	PROPN	SP	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter= 
+
+# sent_id = 87
+# text = urophyllum'' hemsl.
+1	urophyllum	urophyllum	PRON	PE	Number=Plur|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	'	'	PART	PART	_	1	case	_	_
+4	hemsl	hemsl	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 88
+# text = * ''j.
+1	*	*	PUNCT	FF	_	3	punct	_	_
+2	'	'	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+3	'j	'j	PROPN	SP	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter= 
+
+# sent_id = 89
+# text = volubile'' jacq.
+1	volubile	volubile	NOUN	S	Number=Plur	4	nmod	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	'	'	PART	PART	_	1	case	_	_
+4	jacq	jacq	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 90
+# text = .
+1	.	.	PUNCT	FS	_	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 91
+# text = lifecycle of arabian jasmine flower jasmine flowers widely cultivated for its flowers, jasmine is enjoyed in the garden, as a house plant, and as cut flowers.
+1	lifecycle	lifecycle	NOUN	S	Number=Sing	16	obl	_	_
+2	of	of	ADP	E	_	5	case	_	_
+3	arabian	arabian	DET	RI	Definite=Ind|Number=Sing|PronType=Art	5	det	_	_
+4	jasmine	jasmine	ADJ	A	Degree=Pos	5	amod	_	_
+5	flower	flower	NOUN	S	Number=Sing	1	nmod	_	SpacesAfter=\n
+6	jasmine	jasmine	NUM	N	NumType=Card	7	nummod	_	_
+7	flowers	flower	NOUN	S	Number=Plur	5	nmod	_	SpacesAfter=\n\s
+8	widely	widely	ADV	B	_	9	advmod	_	_
+9	cultivated	cultivate	VERB	V	Tense=Past|VerbForm=Part	7	acl	_	_
+10	for	for	ADP	E	_	12	case	_	_
+11	its	its	DET	AP	Number=Sing|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	flowers	flower	NOUN	S	Number=Plur	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	1	punct	_	_
+14	jasmine	jasmine	PRON	PE	Number=Sing|Person=3|PronType=Prs	16	nsubj:pass	_	_
+15	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
+16	enjoyed	enjoye	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	the	the	DET	RD	Definite=Def|PronType=Art	19	det	_	_
+19	garden	garden	NOUN	S	Number=Sing	16	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	16	punct	_	_
+21	as	as	ADP	E	_	24	case	_	_
+22	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	24	det	_	_
+23	house	house	NOUN	S	Number=Sing	24	nmod	_	_
+24	plant	plant	NOUN	S	Number=Sing	16	obl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	28	punct	_	_
+26	and	and	CCONJ	CC	_	28	cc	_	_
+27	as	as	ADP	E	_	28	mark	_	_
+28	cut	cut	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	16	conj	_	_
+29	flowers	flower	NOUN	S	Number=Plur	28	obj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 92
+# text = the flowers are worn by women in their hair in south and south east asia.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	flowers	flower	NOUN	S	Number=Plur	4	nsubj:pass	_	_
+3	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	worn	worn	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+5	by	by	ADP	E	_	6	case	_	_
+6	women	women	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	their	their	DET	AP	Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	hair	hair	NOUN	S	Number=Sing	4	obl	_	_
+10	in	in	ADP	E	_	15	case	_	_
+11	south	south	ADJ	A	Degree=Pos	15	amod	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	south	south	ADJ	A	Degree=Pos	11	conj	_	_
+14	east	east	ADJ	NO	Degree=Pos|NumType=Ord	15	amod	_	_
+15	asia	asia	NOUN	S	Number=Sing	9	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 93
+# text = ===jasmine tea=== green tea with jasmine flowers jasmine tea is often consumed in china, where it is called jasmine-flower tea (茉莉花茶;
+1	===jasmine	===jasmine	NUM	N	NumType=Card	2	nummod	_	_
+2	tea===	tea===	NOUN	S	Number=Sing	12	nsubj:pass	_	SpacesAfter=\n
+3	green	green	ADP	E	_	4	case	_	_
+4	tea	tea	NOUN	S	Number=Sing	2	nmod	_	_
+5	with	with	ADP	E	_	6	case	_	_
+6	jasmine	jasmine	X	SW	Foreign=Yes	4	nmod	_	_
+7	flowers	flower	X	SW	Foreign=Yes	6	flat:foreign	_	SpacesAfter=\n
+8	jasmine	jasmine	X	SW	Foreign=Yes	6	flat:foreign	_	_
+9	tea	tea	X	SW	Foreign=Yes	6	flat:foreign	_	_
+10	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+11	often	often	ADV	B	_	12	advmod	_	_
+12	consumed	consume	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	china	china	NOUN	S	Number=Plur	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	where	where	ADV	B	_	23	advmod	_	_
+17	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+18	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+19	called	call	VERB	V	Tense=Past|VerbForm=Part	23	acl	_	_
+20	jasmine	jasmine	NUM	N	NumType=Card	22	nummod	_	SpaceAfter=No
+21	-	-	PUNCT	FF	_	22	punct	_	SpaceAfter=No
+22	flower	flower	NOUN	S	Number=Sing	23	nmod	_	_
+23	tea	tea	NOUN	S	Number=Sing	12	advcl	_	_
+24	(	(	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+25	茉莉花茶	茉莉花茶	NOUN	S	Number=Sing	23	appos	_	SpaceAfter=No
+26	;	;	PUNCT	FC	_	12	punct	_	_
+
+# sent_id = 94
+# text = pinyin:
+1	pinyin	pinyin	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 95
+# text = mò lì huā chá).
+1	mò	mò	NOUN	S	Number=Sing	4	nmod	_	_
+2	lì	lì	NOUN	S	Number=Sing	4	nmod	_	_
+3	huā	huā	NOUN	S	Number=Sing	4	nmod	_	_
+4	chá	chá	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+5	)	)	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 96
+# text = ''jasminum sambac'' flowers are also used to make jasmine tea, which often has a base of green tea or white tea, but sometimes an oolong base is used.
+1	'	'	PART	PART	_	3	mark	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	jasminum	jasminum	VERB	V	VerbForm=Inf	0	root	_	_
+4	sambac	sambac	NOUN	S	Number=Sing	7	nmod	_	SpaceAfter=No
+5	'	'	PART	PART	_	4	case	_	SpaceAfter=No
+6	'	'	PART	PART	_	4	case	_	_
+7	flowers	flower	NOUN	S	Number=Plur	3	obj	_	_
+8	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	also	also	ADV	B	_	10	advmod	_	_
+10	used	use	VERB	V	Tense=Past|VerbForm=Part	3	acl	_	_
+11	to	to	PART	PART	_	12	mark	_	_
+12	make	make	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	jasmine	jasmine	NUM	N	NumType=Card	14	nummod	_	_
+14	tea	tea	NOUN	S	Number=Plur	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	which	which	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	often	often	ADV	B	_	18	advmod	_	_
+18	has	have	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+19	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	20	det	_	_
+20	base	base	NOUN	S	Number=Sing	18	obj	_	_
+21	of	of	ADP	E	_	23	case	_	_
+22	green	green	ADJ	A	Degree=Pos	23	amod	_	_
+23	tea	tea	NOUN	S	Number=Sing	20	nmod	_	_
+24	or	or	CCONJ	CC	_	26	cc	_	_
+25	white	white	ADJ	A	Degree=Pos	26	amod	_	_
+26	tea	tea	NOUN	S	Number=Sing	23	conj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	34	punct	_	_
+28	but	but	CCONJ	CC	_	34	cc	_	_
+29	sometimes	sometimes	ADV	B	_	34	advmod	_	_
+30	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	32	det	_	_
+31	oolong	oolong	ADJ	A	Degree=Pos	32	amod	_	_
+32	base	base	NOUN	S	Number=Sing	34	nsubj:pass	_	_
+33	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux:pass	_	_
+34	used	use	VERB	V	Tense=Past|VerbForm=Part	18	conj	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\s
+
+# sent_id = 97
+# text = the flowers are put in machines that control temperature and humidity.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	flowers	flower	NOUN	S	Number=Plur	4	nsubj:pass	_	_
+3	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	put	put	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	machines	machine	NOUN	S	Number=Plur	4	obl	_	_
+7	that	that	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	control	control	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	temperature	temperature	NOUN	S	Number=Sing	8	obj	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	humidity	humidity	NOUN	S	Number=Sing	9	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 98
+# text = it takes about four hours for the tea to absorb the fragrance and flavour of the jasmine blossoms.
+1	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	takes	take	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	about	about	ADP	E	_	5	case	_	_
+4	four	four	NUM	N	NumType=Card	5	nummod	_	_
+5	hours	hour	NOUN	S	Number=Plur	2	obl	_	_
+6	for	for	ADP	E	_	8	case	_	_
+7	the	the	DET	RD	Definite=Def|PronType=Art	8	det	_	_
+8	tea	tea	NOUN	S	Number=Plur	2	obl	_	_
+9	to	to	PART	PART	_	10	mark	_	_
+10	absorb	absorb	VERB	V	VerbForm=Inf	2	advcl	_	_
+11	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+12	fragrance	fragrance	NOUN	S	Number=Sing	10	obj	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	flavour	flavour	NOUN	S	Number=Sing	12	conj	_	_
+15	of	of	ADP	E	_	18	case	_	_
+16	the	the	DET	RD	Definite=Def|PronType=Art	18	det	_	_
+17	jasmine	jasmine	ADJ	A	Degree=Pos	18	amod	_	_
+18	blossoms	blossom	NOUN	S	Number=Plur	14	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 99
+# text = for the highest grades of jasmine tea, this process may be repeated up to seven times.
+1	for	for	ADP	E	_	4	case	_	_
+2	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+3	highest	highest	ADJ	A	Degree=Sup	4	amod	_	_
+4	grades	grade	NOUN	S	Number=Plur	13	obl	_	_
+5	of	of	ADP	E	_	7	case	_	_
+6	jasmine	jasmine	NUM	N	NumType=Card	7	nummod	_	_
+7	tea	tea	NOUN	S	Number=Plur	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	this	this	DET	DD	Number=Sing|PronType=Dem	10	det	_	_
+10	process	process	NOUN	S	Number=Sing	13	nsubj:pass	_	_
+11	may	may	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	be	be	AUX	VA	VerbForm=Inf	13	aux:pass	_	_
+13	repeated	repeate	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+14	up	up	ADP	E	_	13	compound:prt	_	_
+15	to	to	ADP	E	_	17	case	_	_
+16	seven	seve	NUM	N	NumType=Card	17	nummod	_	_
+17	times	time	NOUN	S	Number=Plur	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 100
+# text = as the tea absorbs moisture from the fresh jasmine flowers, it must be refired to prevent spoilage.
+1	as	as	ADP	E	_	5	case	_	_
+2	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+3	tea	tea	NOUN	S	Number=Sing	5	nmod	_	_
+4	absorbs	absorb	ADJ	A	Degree=Pos	5	amod	_	_
+5	moisture	moisture	NOUN	S	Number=Sing	15	obl	_	_
+6	from	from	ADP	E	_	10	case	_	_
+7	the	the	DET	RD	Definite=Def|PronType=Art	10	det	_	_
+8	fresh	fresh	ADJ	A	Degree=Pos	10	amod	_	_
+9	jasmine	jasmine	NUM	N	NumType=Card	10	nummod	_	_
+10	flowers	flower	NOUN	S	Number=Plur	5	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	15	nsubj:pass	_	_
+13	must	must	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	be	be	AUX	VA	VerbForm=Inf	15	aux:pass	_	_
+15	refired	refire	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+16	to	to	PART	PART	_	17	mark	_	_
+17	prevent	prevent	VERB	V	VerbForm=Inf	15	advcl	_	_
+18	spoilage	spoilage	NOUN	S	Number=Sing	17	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 101
+# text = the used flowers may be removed from the final product, as the flowers contain no more aroma.
+1	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+2	used	use	VERB	V	Tense=Past|VerbForm=Part	3	acl	_	_
+3	flowers	flower	NOUN	S	Number=Plur	6	nsubj:pass	_	_
+4	may	may	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	be	be	AUX	VA	VerbForm=Inf	6	aux:pass	_	_
+6	removed	remove	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+7	from	from	ADP	E	_	10	case	_	_
+8	the	the	DET	RD	Definite=Def|PronType=Art	10	det	_	_
+9	final	final	ADJ	A	Degree=Pos	10	amod	_	_
+10	product	product	NOUN	S	Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	as	as	SCONJ	CS	_	15	mark	_	_
+13	the	the	DET	RD	Definite=Def|PronType=Art	14	det	_	_
+14	flowers	flower	NOUN	S	Number=Plur	15	nsubj	_	_
+15	contain	contain	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+16	no	no	DET	DI	PronType=Ind	18	det	_	_
+17	more	more	ADJ	A	Degree=Cmp	18	amod	_	_
+18	aroma	aroma	NOUN	S	Number=Plur	15	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 102
+# text = giant fans are used to blow away and remove the petals from the denser tea leaves.
+1	giant	giant	ADJ	A	Degree=Pos	2	amod	_	_
+2	fans	fan	NOUN	S	Number=Plur	4	nsubj:pass	_	_
+3	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	used	use	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+5	to	to	PART	PART	_	6	mark	_	_
+6	blow	blow	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	away	away	ADV	B	_	6	advmod	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	remove	remove	VERB	V	VerbForm=Inf	6	conj	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	11	det	_	_
+11	petals	petal	NOUN	S	Number=Plur	9	obj	_	_
+12	from	from	ADP	E	_	14	case	_	_
+13	the	the	DET	RD	Definite=Def|PronType=Art	14	det	_	_
+14	denser	denser	NOUN	S	Number=Sing	11	nmod	_	_
+15	tea	tea	ADP	E	_	16	case	_	_
+16	leaves	leaf	NOUN	S	Number=Plur	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 103
+# text = in okinawa, japan, jasmine tea is known as ''sanpin cha''.
+1	in	in	ADP	E	_	2	case	_	_
+2	okinawa	okinawa	X	SW	_	4	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	japan	japan	ADJ	A	Degree=Pos	9	nsubj:pass	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	jasmine	jasmine	ADJ	A	Degree=Pos	7	amod	_	_
+7	tea	tea	NOUN	S	Number=Sing	4	conj	_	_
+8	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	known	know	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+10	as	as	ADP	E	_	13	mark	_	_
+11	'	'	PART	PART	_	10	fixed	_	SpaceAfter=No
+12	'	'	PART	PART	_	10	fixed	_	SpaceAfter=No
+13	sanpin	sanpin	VERB	V	VerbForm=Inf	9	advcl	_	_
+14	cha	cha	NOUN	S	Number=Plur	13	obl	_	SpaceAfter=No
+15	'	'	PART	PART	_	14	case	_	SpaceAfter=No
+16	'	'	PART	PART	_	14	case	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 104
+# text = ===jasmonates===
+1	===jasmonates===	===jasmonates===	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 105
+# text = jasmine gave name to the jasmonate plant hormones, as methyl jasmonate isolated from the oil of ''jasminum grandiflorum'' led to the discovery of the molecular structure of jasmonates.
+1	jasmine	jasmine	PRON	PE	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	gave	give	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	name	name	NOUN	S	Number=Sing	2	obj	_	_
+4	to	to	ADP	E	_	8	case	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	8	det	_	_
+6	jasmonate	jasmonate	ADJ	A	Degree=Pos	7	amod	_	_
+7	plant	plant	NOUN	S	Number=Sing	8	nmod	_	_
+8	hormones	hormone	NOUN	S	Number=Plur	2	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	as	as	SCONJ	CS	_	12	mark	_	_
+11	methyl	methyl	ADJ	A	Degree=Pos	12	amod	_	_
+12	jasmonate	jasmonate	NOUN	S	Number=Sing	2	advcl	_	_
+13	isolated	isolate	VERB	V	Tense=Past|VerbForm=Part	12	acl	_	_
+14	from	from	ADP	E	_	16	case	_	_
+15	the	the	DET	RD	Definite=Def|PronType=Art	16	det	_	_
+16	oil	oil	NOUN	S	Number=Sing	13	obl	_	_
+17	of	of	ADP	E	_	21	case	_	_
+18	'	'	PART	PART	_	17	case	_	SpaceAfter=No
+19	'	'	PART	PART	_	17	case	_	SpaceAfter=No
+20	jasminum	jasminum	NOUN	S	Number=Sing	21	nmod	_	_
+21	grandiflorum	grandiflorum	NOUN	S	Number=Sing	16	nmod	_	SpaceAfter=No
+22	'	'	PART	PART	_	21	case	_	SpaceAfter=No
+23	'	'	PART	PART	_	21	case	_	_
+24	led	lead	VERB	V	Tense=Past|VerbForm=Part	21	acl	_	_
+25	to	to	ADP	E	_	27	case	_	_
+26	the	the	DET	RD	Definite=Def|PronType=Art	27	det	_	_
+27	discovery	discovery	NOUN	S	Number=Sing	24	obl	_	_
+28	of	of	ADP	E	_	31	case	_	_
+29	the	the	DET	RD	Definite=Def|PronType=Art	31	det	_	_
+30	molecular	molecular	ADJ	A	Degree=Pos	31	amod	_	_
+31	structure	structure	NOUN	S	Number=Sing	27	nmod	_	_
+32	of	of	ADP	E	_	33	case	_	_
+33	jasmonates	jasmonate	NOUN	S	Number=Plur	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 106
+# text = jasmonates occur ubiquitously across the plant kingdom, having key roles in responses to environmental cues, such as heat or cold stress, and participate in the signal transduction pathways of many plants.
+1	jasmonates	jasmonate	NOUN	S	Number=Plur	0	root	_	_
+2	occur	ccus	ADP	E	_	7	case	_	_
+3	ubiquitously	ubiquitously	ADV	B	_	7	advmod	_	_
+4	across	across	ADP	E	_	7	case	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+6	plant	plant	ADJ	A	Degree=Pos	7	amod	_	_
+7	kingdom	kingdom	NOUN	S	Number=Sing	1	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	having	have	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	1	acl	_	_
+10	key	key	NOUN	S	Number=Sing	11	nmod	_	_
+11	roles	role	NOUN	S	Number=Plur	9	obj	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	responses	response	NOUN	S	Number=Plur	1	nmod	_	_
+14	to	to	ADP	E	_	16	case	_	_
+15	environmental	environmental	ADJ	A	Degree=Pos	16	amod	_	_
+16	cues	cue	NOUN	S	Number=Plur	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	13	punct	_	_
+18	such	such	ADJ	A	Degree=Pos	20	amod	_	_
+19	as	as	ADP	E	_	18	fixed	_	_
+20	heat	heat	NOUN	S	Number=Sing	13	nmod	_	_
+21	or	or	CCONJ	CC	_	23	cc	_	_
+22	cold	cold	ADJ	A	Degree=Pos	23	amod	_	_
+23	stress	stress	NOUN	S	Number=Sing	20	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	26	punct	_	_
+25	and	and	CCONJ	CC	_	26	cc	_	_
+26	participate	participate	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	1	conj	_	_
+27	in	in	ADP	E	_	31	case	_	_
+28	the	the	DET	RD	Definite=Def|PronType=Art	31	det	_	_
+29	signal	sign	ADJ	A	Degree=Pos	30	amod	_	_
+30	transduction	transduction	NOUN	S	Number=Sing	31	nmod	_	_
+31	pathways	pathway	NOUN	S	Number=Plur	26	obl	_	_
+32	of	of	ADP	E	_	34	case	_	_
+33	many	many	ADJ	A	Degree=Pos	34	amod	_	_
+34	plants	plant	NOUN	S	Number=Plur	31	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 107
+# text = === plantation === jasmine plantation is usually done using the stem of an existing plant, or one having roots.
+1	===	===	SYM	X	_	5	nmod	_	_
+2	plantation	plantation	NOUN	S	Number=Sing	5	nmod	_	_
+3	===	===	SYM	X	_	5	nmod	_	SpacesAfter=\n
+4	jasmine	jasmine	ADJ	A	Degree=Pos	5	amod	_	_
+5	plantation	plantation	NOUN	S	Number=Sing	8	nsubj:pass	_	_
+6	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+7	usually	usually	ADV	B	_	8	advmod	_	_
+8	done	done	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+9	using	use	VERB	V	VerbForm=Ger	8	advcl	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	11	det	_	_
+11	stem	stem	NOUN	S	Number=Sing	9	obj	_	_
+12	of	of	ADP	E	_	15	case	_	_
+13	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	15	det	_	_
+14	existing	existing	ADJ	A	Degree=Pos	15	amod	_	_
+15	plant	plant	NOUN	S	Number=Sing	11	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	or	or	CCONJ	CC	_	18	cc	_	_
+18	one	one	NUM	N	NumType=Card	15	conj	_	_
+19	having	have	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	15	acl	_	_
+20	roots	root	NOUN	S	Number=Plur	19	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 108
+# text = in rare occasions, the flowers bear dark purple fruits with seeds.
+1	in	in	ADP	E	_	3	case	_	_
+2	rare	rare	ADJ	A	Degree=Pos	3	amod	_	_
+3	occasions	occasion	NOUN	S	Number=Plur	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+6	flowers	flower	NOUN	S	Number=Plur	3	conj	_	_
+7	bear	bear	ADP	E	_	10	case	_	_
+8	dark	dark	ADJ	A	Degree=Pos	9	amod	_	_
+9	purple	purple	NOUN	S	Number=Sing	10	nmod	_	_
+10	fruits	fruit	NOUN	S	Number=Plur	6	nmod	_	_
+11	with	with	ADP	E	_	12	case	_	_
+12	seeds	seed	NOUN	S	Number=Plur	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 109
+# text = the seeds germinated when sowed and nurtured properly.
+1	the	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	seeds	seed	NOUN	S	Number=Plur	3	nsubj	_	_
+3	germinated	germinate	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	when	when	SCONJ	CS	_	5	mark	_	_
+5	sowed	sow	VERB	V	Tense=Past|VerbForm=Part	3	advcl	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	nurtured	nurture	VERB	V	Tense=Past|VerbForm=Part	5	conj	_	_
+8	properly	properly	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 110
+# text = the flowering shrubs are usually trimmed pre-summer, as fresh branches grow and bear flowers during the summer.
+1	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+2	flowering	flowering	NOUN	S	Number=Sing	3	nmod	_	_
+3	shrubs	shrub	NOUN	S	Number=Plur	9	nsubj	_	_
+4	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	9	cop	_	_
+5	usually	usually	ADV	B	_	6	advmod	_	_
+6	trimmed	trimm	VERB	V	Tense=Past|VerbForm=Part	9	acl	_	_
+7	pre	pre	ADJ	A	Degree=Pos	9	amod	_	SpaceAfter=No
+8	-	-	PUNCT	FF	_	9	punct	_	SpaceAfter=No
+9	summer	summer	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	as	as	SCONJ	CS	_	14	mark	_	_
+12	fresh	fresh	ADJ	A	Degree=Pos	13	amod	_	_
+13	branches	branch	NOUN	S	Number=Plur	14	nsubj	_	_
+14	grow	grow	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	bear	bear	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	14	conj	_	_
+17	flowers	flower	NOUN	S	Number=Plur	16	obj	_	_
+18	during	during	ADP	E	_	20	case	_	_
+19	the	the	DET	RD	Definite=Def|PronType=Art	20	det	_	_
+20	summer	summer	NOUN	S	Number=Sing	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n\s\n
+
+# newpar
+# sent_id = 111
+# text = jasmine is cultivated commercially for domestic and industrial uses, such as the perfume industry.
+1	jasmine	jasmine	PRON	PE	Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	cultivated	cultivate	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+4	commercially	commercially	ADV	B	_	3	advmod	_	_
+5	for	for	ADP	E	_	9	case	_	_
+6	domestic	domestic	ADJ	A	Degree=Pos	9	amod	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	industrial	industrial	ADJ	A	Degree=Pos	6	conj	_	_
+9	uses	use	NOUN	S	Number=Plur	3	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	such	such	ADJ	A	Degree=Pos	15	amod	_	_
+12	as	as	ADP	E	_	11	fixed	_	_
+13	the	the	DET	RD	Definite=Def|PronType=Art	15	det	_	_
+14	perfume	perfume	NOUN	S	Number=Sing	15	nmod	_	_
+15	industry	industry	NOUN	S	Number=Sing	3	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 112
+# text = it is used in rituals like marriages, religious ceremonies and festivals.
+1	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	used	use	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	rituals	ritual	NOUN	S	Number=Plur	3	obl	_	_
+6	like	like	ADP	E	_	7	case	_	_
+7	marriages	marriage	NOUN	S	Number=Plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	religious	religious	ADJ	A	Degree=Pos	10	amod	_	_
+10	ceremonies	ceremoney	NOUN	S	Number=Plur	7	conj	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	festivals	festival	NOUN	S	Number=Plur	7	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 113
+# text = jasmine flower vendors sell garlands of jasmine, or in the case of the thicker ''motiyaa'' (in hindi) or ''mograa'' (in marathi) varieties, bunches of jasmine are common.
+1	jasmine	jasmine	PRON	PE	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	flower	flower	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	vendors	vendor	NOUN	S	Number=Plur	4	nsubj	_	_
+4	sell	sell	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+5	garlands	garland	NOUN	S	Number=Plur	4	obj	_	_
+6	of	of	ADP	E	_	7	case	_	_
+7	jasmine	jasmine	NOUN	S	Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	12	punct	_	_
+9	or	or	CCONJ	CC	_	12	cc	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+12	case	case	NOUN	S	Number=Sing	4	conj	_	_
+13	of	of	ADP	E	_	18	case	_	_
+14	the	the	DET	RD	Definite=Def|PronType=Art	15	det	_	_
+15	thicker	thicker	NOUN	S	Number=Sing	18	nmod	_	_
+16	'	'	PART	PART	_	15	case	_	SpaceAfter=No
+17	'	'	PART	PART	_	15	case	_	SpaceAfter=No
+18	motiyaa	motiyaa	NOUN	S	Number=Plur	12	nmod	_	SpaceAfter=No
+19	'	'	PART	PART	_	18	case	_	SpaceAfter=No
+20	'	'	PART	PART	_	18	case	_	_
+21	(	(	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+22	in	in	ADP	E	_	23	case	_	_
+23	hindi	hindi	X	X	_	18	nmod	_	SpaceAfter=No
+24	)	)	PUNCT	FB	_	23	punct	_	_
+25	or	or	CCONJ	CC	_	28	cc	_	_
+26	'	'	PART	PART	_	25	case	_	SpaceAfter=No
+27	'	'	PART	PART	_	25	case	_	SpaceAfter=No
+28	mograa	mograa	NOUN	S	Number=Plur	4	conj	_	SpaceAfter=No
+29	'	'	PART	PART	_	28	case	_	SpaceAfter=No
+30	'	'	PART	PART	_	28	case	_	_
+31	(	(	PUNCT	FB	_	33	punct	_	SpaceAfter=No
+32	in	in	ADP	E	_	33	case	_	_
+33	marathi	marathi	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+34	)	)	PUNCT	FB	_	33	punct	_	_
+35	varieties	variety	NOUN	S	Number=Plur	41	nsubj	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	37	punct	_	_
+37	bunches	bunch	NOUN	S	Number=Plur	35	conj	_	_
+38	of	of	ADP	E	_	39	case	_	_
+39	jasmine	jasmine	NUM	N	NumType=Card	37	nummod	_	_
+40	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	41	cop	_	_
+41	common	common	ADJ	A	Degree=Pos	28	acl:relcl	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 114
+# text = they may be found around entrances to temples, on major thoroughfares, and in major business areas.
+1	they	they	PRON	PE	Number=Plur|Person=3|PronType=Prs	4	nsubj:pass	_	_
+2	may	may	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VA	VerbForm=Inf	4	aux:pass	_	_
+4	found	find	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+5	around	around	ADP	E	_	6	case	_	_
+6	entrances	entrance	NOUN	S	Number=Plur	4	obl	_	_
+7	to	to	ADP	E	_	8	case	_	_
+8	temples	temple	NOUN	S	Number=Plur	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	on	on	ADP	E	_	12	case	_	_
+11	major	major	ADJ	A	Degree=Pos	12	amod	_	_
+12	thoroughfares	thoroughfare	NOUN	S	Number=Plur	4	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	18	punct	_	_
+14	and	and	CCONJ	CC	_	18	cc	_	_
+15	in	in	ADP	E	_	18	case	_	_
+16	major	major	ADJ	A	Degree=Pos	18	amod	_	_
+17	business	business	NOUN	S	Number=Sing	18	nmod	_	_
+18	areas	area	NOUN	S	Number=Plur	12	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 115
+# text = a change in presidency in tunisia in 1987 and the tunisian revolution of 2011 are both called "jasmine revolutions" in reference to the flower.
+1	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	2	det	_	_
+2	change	change	NOUN	S	Number=Sing	17	nsubj	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	presidency	presidency	NOUN	S	Number=Sing	2	nmod	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	tunisia	tunisia	NOUN	S	Number=Sing	4	nmod	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	1987	1987	NUM	N	NumType=Card	2	nummod	_	_
+9	and	and	CCONJ	CC	_	12	cc	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+11	tunisian	tunisian	ADJ	A	Degree=Pos	12	amod	_	_
+12	revolution	revolution	NOUN	S	Number=Sing	2	conj	_	_
+13	of	of	ADP	E	_	14	case	_	_
+14	2011	2011	NUM	N	NumType=Card	12	nummod	_	_
+15	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	both	both	PRON	PI	PronType=Ind	17	nsubj	_	_
+17	called	call	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+18	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+19	jasmine	jasmine	NUM	N	NumType=Card	20	nummod	_	_
+20	revolutions	revolution	NOUN	S	Number=Plur	23	nmod	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	20	punct	_	_
+22	in	in	ADP	E	_	20	case	_	_
+23	reference	reference	NOUN	S	Number=Sing	17	obj	_	_
+24	to	to	ADP	E	_	26	case	_	_
+25	the	the	DET	RD	Definite=Def|PronType=Art	26	det	_	_
+26	flower	flower	NOUN	S	Number=Sing	17	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	17	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 116
+# text = "jasmine" is a common female given name.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	jasmine	jasmine	PRON	PE	Number=Sing|Person=3|PronType=Prs	9	nsubj	_	SpaceAfter=No
+3	"	"	PUNCT	FB	_	2	punct	_	_
+4	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+5	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	9	det	_	_
+6	common	common	ADJ	A	Degree=Pos	9	amod	_	_
+7	female	female	ADJ	A	Degree=Pos	9	amod	_	_
+8	given	give	VERB	V	Tense=Past|VerbForm=Part	9	acl	_	_
+9	name	name	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n\n\n
+
+# newpar
+# sent_id = 117
+# text = image:tea patterns p1160028.jpg|surface of jasmine tea file:
+1	image:tea	image:tea	DET	RI	Definite=Ind|Number=Sing|PronType=Art	2	det	_	_
+2	patterns	pattern	NOUN	S	Number=Plur	0	root	_	_
+3	p1160028.jpg	p1160028.jpg	ADP	E	_	4	case	_	SpaceAfter=No
+4	|surface	|surface	NOUN	S	Number=Sing	2	nmod	_	_
+5	of	of	ADP	E	_	7	case	_	_
+6	jasmine	jasmine	ADJ	A	Degree=Pos	7	amod	_	_
+7	tea	tea	NOUN	S	Number=Sing	4	nmod	_	SpacesAfter=\n
+8	file:	file:	PUNCT	FC	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 118
+# text = chinesischer maler des 12.
+1	chinesischer	chinesischer	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	maler	maler	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	des	de	NOUN	S	Number=Plur	2	obj	_	_
+4	12	12	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 119
+# text = jahrhunderts (i) 001.jpg|''the white jasmine branch'', painting of ink and color on silk by chinese artist zhao chang, early 12th century file:
+1	jahrhunderts	jahrhundert	ADV	B	_	3	advmod	_	_
+2	(	(	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	i	i	X	X	_	5	obl	_	SpaceAfter=No
+4	)	)	PUNCT	FB	_	3	punct	_	_
+5	001.jpg	001.jpg	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	|	|	SYM	X	_	11	nmod	_	SpaceAfter=No
+7	'	'	PART	PART	_	6	case	_	SpaceAfter=No
+8	'	'	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+9	the	the	DET	RD	Definite=Def|PronType=Art	11	det	_	_
+10	white	white	ADJ	A	Degree=Pos	11	amod	_	_
+11	jasmine	jasmine	NOUN	S	Number=Sing	5	obj	_	_
+12	branch	branch	PRON	PR	PronType=Rel	16	obl	_	SpaceAfter=No
+13	'	'	PART	PART	_	12	case	_	SpaceAfter=No
+14	'	'	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	painting	paint	VERB	V	VerbForm=Ger	11	acl	_	_
+17	of	of	ADP	E	_	18	case	_	_
+18	ink	ink	NOUN	S	Number=Sing	16	obl	_	_
+19	and	and	CCONJ	CC	_	20	cc	_	_
+20	color	color	NOUN	S	Number=Sing	18	conj	_	_
+21	on	on	ADP	E	_	22	case	_	_
+22	silk	silk	NOUN	S	Number=Sing	18	nmod	_	_
+23	by	by	ADP	E	_	25	case	_	_
+24	chinese	chinese	DET	DD	Number=Plur|PronType=Dem	25	det	_	_
+25	artist	artist	NOUN	S	Number=Sing	18	nmod	_	_
+26	zhao	zhao	ADP	E	_	27	case	_	_
+27	chang	chang	NOUN	S	Number=Sing	25	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	25	punct	_	_
+29	early	early	ADV	B	_	32	advmod	_	_
+30	12th	12th	ADJ	A	Degree=Pos	32	amod	_	_
+31	century	century	NOUN	S	Number=Sing	32	nmod	_	SpacesAfter=\n
+32	file	file	NOUN	S	Number=Sing	25	conj	_	SpaceAfter=No
+33	:	:	PUNCT	FC	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 120
+# text = meenakshi sundareswarar.jpg|jasmine used as garland file:
+1	meenakshi	meenakshi	ADJ	A	Degree=Pos	2	amod	_	_
+2	sundareswarar.jpg	sundareswarar.jpg	NOUN	S	Number=Sing	3	nmod	_	SpaceAfter=No
+3	|jasmine	|jasmine	PRON	PE	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	used	use	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	as	as	ADP	E	_	6	case	_	_
+6	garland	garland	NOUN	S	Number=Sing	4	obl	_	SpacesAfter=\n
+7	file:	file:	PUNCT	FC	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 121
+# text = jasmine flower full bloom on the plant near hyderabad, andhra pradesh, india.
+1	jasmine	jasmine	PRON	PE	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	flower	flower	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	full	full	ADJ	A	Degree=Pos	4	amod	_	_
+4	bloom	bloom	NOUN	S	Number=Sing	2	obj	_	_
+5	on	on	ADP	E	_	7	case	_	_
+6	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+7	plant	plant	NOUN	S	Number=Sing	2	obl	_	_
+8	near	near	ADP	E	_	9	case	_	_
+9	hyderabad	hyderabad	NOUN	S	Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	andhra	andhra	DET	RI	Definite=Ind|Number=Sing|PronType=Art	12	det	_	_
+12	pradesh	pradesh	NOUN	S	Number=Sing	7	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	india	indium	ADP	E	_	2	compound:prt	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 122
+# text = 01.jpg|jasmine flower blooming
+1	01.jpg	01.jpg	ADP	E	_	3	case	_	SpaceAfter=No
+2	|jasmine	|jasmine	ADJ	A	Degree=Pos	3	amod	_	_
+3	flower	flower	NOUN	S	Number=Sing	0	root	_	_
+4	blooming	bloom	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	3	acl	_	SpacesAfter=\s\n\n\n
+
+# newpar
+# sent_id = 123
+# text = ===national flower===
+1	===national	===national	ADJ	A	Degree=Pos	2	amod	_	_
+2	flower===	flower===	NOUN	S	Number=Sing	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 124
+# text = several countries and states consider jasmine as a national symbol.
+1	several	several	ADJ	A	Degree=Pos	2	amod	_	_
+2	countries	country	NOUN	S	Number=Plur	5	nsubj	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	states	state	NOUN	S	Number=Plur	2	conj	_	_
+5	consider	consider	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	jasmine	jasmine	NUM	N	NumType=Card	5	obj	_	_
+7	as	as	ADP	E	_	10	case	_	_
+8	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	10	det	_	_
+9	national	national	ADJ	A	Degree=Pos	10	amod	_	_
+10	symbol	symbol	NOUN	S	Number=Sing	5	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 125
+# text = * syria:
+1	*	*	PUNCT	FF	_	2	punct	_	_
+2	syria	syria	X	X	_	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 126
+# text = the syrian city damascus is called the city of jasmine.
+1	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+2	syrian	syrian	ADJ	A	Degree=Pos	3	amod	_	_
+3	city	city	NOUN	S	Number=Sing	6	nsubj:pass	_	_
+4	damascus	damascus	PRON	PE	Number=Plur|Person=1|PronType=Prs	3	nmod	_	_
+5	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	called	call	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+7	the	the	DET	RD	Definite=Def|PronType=Art	8	det	_	_
+8	city	city	NOUN	S	Number=Sing	6	xcomp	_	_
+9	of	of	ADP	E	_	10	case	_	_
+10	jasmine	jasmine	NOUN	S	Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 127
+# text = * hawaii:
+1	*	*	PUNCT	FF	_	2	punct	_	_
+2	hawaii	thhaward	X	X	_	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 128
+# text = ''jasminum sambac'' ("''pikake''") is a common flower used in leis, and is the subject of many hawaiian songs.
+1	'	'	PART	PART	_	3	mark	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	jasminum	jasminum	VERB	V	VerbForm=Inf	0	root	_	_
+4	sambac	sambac	ADJ	A	Degree=Pos	19	amod	_	SpaceAfter=No
+5	'	'	PART	PART	_	4	case	_	SpaceAfter=No
+6	'	'	PUNCT	FB	_	4	punct	_	_
+7	(	(	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+9	'	'	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+10	'	'	PART	PART	_	9	case	_	SpaceAfter=No
+11	pikake	pikake	VERB	V	VerbForm=Inf	4	advcl	_	SpaceAfter=No
+12	'	'	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+13	'	'	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+15	)	)	PUNCT	FB	_	11	punct	_	_
+16	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+17	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	19	det	_	_
+18	common	common	ADJ	A	Degree=Pos	19	amod	_	_
+19	flower	flower	NOUN	S	Number=Sing	3	obj	_	_
+20	used	use	VERB	V	Tense=Past|VerbForm=Part	19	acl	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	leis	leis	NOUN	S	Number=Sing	20	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	27	punct	_	_
+24	and	and	CCONJ	CC	_	27	cc	_	_
+25	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+26	the	the	DET	RD	Definite=Def|PronType=Art	27	det	_	_
+27	subject	subject	NOUN	S	Number=Sing	3	conj	_	_
+28	of	of	ADP	E	_	31	case	_	_
+29	many	many	ADJ	A	Degree=Pos	31	amod	_	_
+30	hawaiian	hawaiian	ADJ	A	Degree=Pos	31	amod	_	_
+31	songs	song	NOUN	S	Number=Plur	27	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 129
+# text = * indonesia:
+1	*	*	PUNCT	FF	_	2	punct	_	_
+2	indonesia	indonesia	X	X	_	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 130
+# text = ''jasminum sambac'' is the national flower, adopted in 1990.
+1	'	'	PART	PART	_	3	mark	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	jasminum	jasminum	VERB	V	VerbForm=Inf	0	root	_	_
+4	sambac	sambac	ADJ	A	Degree=Pos	10	amod	_	SpaceAfter=No
+5	'	'	PART	PART	_	4	case	_	SpaceAfter=No
+6	'	'	PART	PART	_	4	case	_	_
+7	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	the	the	DET	RD	Definite=Def|PronType=Art	10	det	_	_
+9	national	national	ADJ	A	Degree=Pos	10	amod	_	_
+10	flower	flower	NOUN	S	Number=Sing	3	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	adopted	adopt	VERB	V	Tense=Past|VerbForm=Part	3	acl	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	1990	1990	NUM	N	NumType=Card	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 131
+# text = it goes by the name "''melati putih''" and is used in wedding ceremonies for ethnic indonesians, especially on the island of java.
+1	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	goes	go	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	by	by	ADP	E	_	5	case	_	_
+4	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+5	name	name	NOUN	S	Number=Sing	2	obl	_	_
+6	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+7	'	'	PART	PART	_	10	mark	_	SpaceAfter=No
+8	'	'	PART	PART	_	7	case	_	SpaceAfter=No
+9	melati	melati	NOUN	S	Number=Sing	10	nsubj	_	_
+10	putih	putih	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+11	'	'	PART	PART	_	16	mark	_	SpaceAfter=No
+12	'	'	PART	PART	_	11	case	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	16	punct	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
+16	used	use	VERB	V	Tense=Past|VerbForm=Part	10	ccomp	_	_
+17	in	in	ADP	E	_	18	mark	_	_
+18	wedding	wedding	VERB	V	VerbForm=Ger	16	advcl	_	_
+19	ceremonies	ceremoney	NOUN	S	Number=Plur	18	obj	_	_
+20	for	for	ADP	E	_	22	case	_	_
+21	ethnic	ethnic	ADJ	A	Degree=Pos	22	amod	_	_
+22	indonesians	indonesian	NOUN	S	Number=Plur	18	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	18	punct	_	_
+24	especially	especially	ADV	B	_	18	advmod	_	_
+25	on	on	ADP	E	_	27	case	_	_
+26	the	the	DET	RD	Definite=Def|PronType=Art	27	det	_	_
+27	island	island	NOUN	S	Number=Sing	18	obl	_	_
+28	of	of	ADP	E	_	29	case	_	_
+29	java	java	NOUN	S	Number=Sing	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	16	punct	_	SpacesAfter=\n
+
+# sent_id = 132
+# text = * pakistan:
+1	*	*	PUNCT	FF	_	2	punct	_	_
+2	pakistan	pakistan	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 133
+# text = ''jasminum officinale'' is known as the "''chambeli''" or "''yasmin''", it is the national flower.
+1	'	'	PART	PART	_	4	mark	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	jasminum	jasminum	PRON	PE	Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+4	officinale	officinale	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	8	nsubj:pass	_	SpaceAfter=No
+5	'	'	PART	PART	_	4	compound:prt	_	SpaceAfter=No
+6	'	'	PART	PART	_	4	compound:prt	_	_
+7	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	known	know	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+9	as	as	ADP	E	_	31	case	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	31	det	_	_
+11	"	"	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+12	'	'	PART	PART	_	11	case	_	SpaceAfter=No
+13	'	'	PART	PART	_	31	case	_	SpaceAfter=No
+14	chambeli	chambeli	NOUN	S	Number=Sing	31	nmod	_	SpaceAfter=No
+15	'	'	PART	PART	_	14	case	_	SpaceAfter=No
+16	'	'	PART	PART	_	14	case	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	31	punct	_	_
+18	or	or	CCONJ	CC	_	31	cc	_	_
+19	"	"	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+20	'	'	PART	PART	_	19	case	_	SpaceAfter=No
+21	'	'	PART	PART	_	22	mark	_	SpaceAfter=No
+22	yasmin	yasmin	VERB	V	VerbForm=Inf	31	advcl	_	SpaceAfter=No
+23	'	'	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+24	'	'	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+25	"	"	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	22	punct	_	_
+27	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
+28	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+29	the	the	DET	RD	Definite=Def|PronType=Art	31	det	_	_
+30	national	national	ADJ	A	Degree=Pos	31	amod	_	_
+31	flower	flower	NOUN	S	Number=Sing	8	obl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 134
+# text = * philippines:
+1	*	*	PUNCT	FF	_	2	punct	_	_
+2	philippines	philippine	NOUN	S	Number=Plur	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 135
+# text = ''jasminum sambac'' is the national flower.
+1	'	'	PART	PART	_	3	mark	_	SpaceAfter=No
+2	'	'	PART	PART	_	1	case	_	SpaceAfter=No
+3	jasminum	jasminum	VERB	V	VerbForm=Inf	0	root	_	_
+4	sambac	sambac	ADJ	A	Degree=Pos	10	amod	_	SpaceAfter=No
+5	'	'	PART	PART	_	4	case	_	SpaceAfter=No
+6	'	'	PART	PART	_	4	case	_	_
+7	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	the	the	DET	RD	Definite=Def|PronType=Art	10	det	_	_
+9	national	national	ADJ	A	Degree=Pos	10	amod	_	_
+10	flower	flower	NOUN	S	Number=Sing	3	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 136
+# text = adopted in 1935, it is known as "''sampaguita''" in the islands.
+1	adopted	adopt	VERB	V	Tense=Past|VerbForm=Part	5	acl	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	1935	1935	NUM	N	NumType=Card	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	known	known	ADJ	A	Degree=Pos	0	root	_	_
+8	as	as	ADP	E	_	18	case	_	_
+9	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+10	'	'	PART	PART	_	9	case	_	SpaceAfter=No
+11	'	'	PART	PART	_	18	case	_	SpaceAfter=No
+12	sampaguita	sampaguita	NOUN	S	Number=Plur	18	nmod	_	SpaceAfter=No
+13	'	'	PART	PART	_	12	case	_	SpaceAfter=No
+14	'	'	PART	PART	_	12	case	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	18	punct	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	the	the	DET	RD	Definite=Def|PronType=Art	18	det	_	_
+18	islands	island	NOUN	S	Number=Plur	7	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 137
+# text = it is usually strung in garlands which are then used to adorn religious images.
+1	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	usually	usually	ADV	B	_	4	advmod	_	_
+4	strung	strung	VERB	V	VerbForm=Inf	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	garlands	garland	NOUN	S	Number=Plur	4	obl	_	_
+7	which	which	PRON	PR	PronType=Rel	10	nsubj:pass	_	_
+8	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+9	then	then	ADV	B	_	10	advmod	_	_
+10	used	use	VERB	V	Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+11	to	to	PART	PART	_	12	mark	_	_
+12	adorn	adorn	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	religious	religious	ADJ	A	Degree=Pos	14	amod	_	_
+14	images	image	NOUN	S	Number=Plur	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 138
+# text = * thailand:
+1	*	*	PUNCT	FF	_	0	root	_	_
+2	thailand	thailand	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 139
+# text = jasmine flowers are used as a symbol of motherhood.
+1	jasmine	jasmine	NUM	N	NumType=Card	2	nummod	_	_
+2	flowers	flower	NOUN	S	Number=Plur	4	nsubj:pass	_	_
+3	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	used	use	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+5	as	as	ADP	E	_	7	case	_	_
+6	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	7	det	_	_
+7	symbol	symbol	NOUN	S	Number=Sing	4	obl	_	_
+8	of	of	ADP	E	_	9	case	_	_
+9	motherhood	motherhood	NOUN	S	Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\s\n
+
+# newpar
+# sent_id = 140
+# text = *brazilian jasmine ''mandevilla sanderi'' *cape jasmine ''gardenia'' *carolina jasmine ''gelsemium'' *chilean jasmine ''mandevilla laxa'' *jasmine rice, a type of long-grain rice *madagascar jasmine ''stephanotis floribunda'' *new zealand jasmine ''parsonsia capsularis'' *night-blooming jasmine ''cestrum nocturnum'' *night-flowering jasmine ''nyctanthes arbor-tristis'' *red jasmine ''plumeria rubra'' *star jasmine, confederate jasmine ''trachelospermum'' *tree jasmine (disambiguation) * *
+1	*brazilian	*brazilian	DET	RI	Definite=Ind|Number=Sing|PronType=Art	2	det	_	_
+2	jasmine	jasmine	NOUN	S	Number=Sing	6	nmod	_	_
+3	'	'	PART	PART	_	2	case	_	SpaceAfter=No
+4	'	'	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+5	mandevilla	mandevilla	DET	RI	Definite=Ind|Number=Sing|PronType=Art	6	det	_	_
+6	sanderi	sanderi	NOUN	S	Number=Sing	9	nmod	_	SpaceAfter=No
+7	'	'	PART	PART	_	6	case	_	SpaceAfter=No
+8	'	'	PART	PART	_	6	case	_	SpacesAfter=\s\n
+9	*cape	*cape	VERB	V	VerbForm=Inf	0	root	_	_
+10	jasmine	jasmine	NOUN	S	Number=Sing	13	nmod	_	_
+11	'	'	PART	PART	_	10	case	_	SpaceAfter=No
+12	'	'	PART	PART	_	10	case	_	SpaceAfter=No
+13	gardenia	gardenia	NOUN	S	Number=Plur	25	nmod	_	SpaceAfter=No
+14	'	'	PART	PART	_	13	case	_	SpaceAfter=No
+15	'	'	PART	PART	_	13	case	_	SpacesAfter=\n
+16	*	*	PUNCT	FF	_	20	punct	_	SpaceAfter=No
+17	carolina	carolina	DET	RI	Definite=Ind|Number=Sing|PronType=Art	18	det	_	_
+18	jasmine	jasmine	NOUN	S	Number=Sing	20	nmod	_	_
+19	'	'	PART	PART	_	18	case	_	SpaceAfter=No
+20	'gelsemium	'gelsemium	NOUN	S	Number=Sing	25	nmod	_	SpaceAfter=No
+21	'	'	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+22	'	'	PART	PART	_	20	case	_	SpacesAfter=\s\n
+23	*	*	PUNCT	FF	_	25	punct	_	SpaceAfter=No
+24	chilean	chilean	ADJ	A	Degree=Pos	25	amod	_	_
+25	jasmine	jasmine	NOUN	S	Number=Sing	9	obj	_	_
+26	'	'	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+27	'	'	PUNCT	FB	_	25	case	_	SpaceAfter=No
+28	mandevilla	mandevilla	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	laxa	laxa	NOUN	S	Number=Plur	32	obl	_	SpaceAfter=No
+30	'	'	PART	PART	_	29	case	_	SpaceAfter=No
+31	'	'	PART	PART	_	29	case	_	SpacesAfter=\n
+32	*jasmine	*jasmine	VERB	V	VerbForm=Inf	9	xcomp	_	_
+33	rice	rice	NOUN	S	Number=Sing	32	obj	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	33	punct	_	_
+35	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	36	det	_	_
+36	type	type	NOUN	S	Number=Sing	33	nmod	_	_
+37	of	of	ADP	E	_	39	case	_	_
+38	long-grain	long-grain	ADJ	A	Degree=Pos	39	amod	_	_
+39	rice	rice	NOUN	S	Number=Sing	36	nmod	_	SpacesAfter=\n
+40	*	*	PUNCT	FF	_	39	punct	_	SpaceAfter=No
+41	madagascar	madagascar	CCONJ	CC	_	42	cc	_	_
+42	jasmine	jasmine	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	32	conj	_	_
+43	'	'	PART	PART	_	42	case	_	SpaceAfter=No
+44	'	'	PART	PART	_	42	case	_	SpaceAfter=No
+45	stephanotis	stephanotis	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	aux	_	_
+46	floribunda	floribunda	NOUN	S	Number=Plur	49	obl	_	SpaceAfter=No
+47	'	'	PART	PART	_	46	case	_	SpaceAfter=No
+48	'	'	PART	PART	_	46	case	_	SpacesAfter=\n
+49	*new	*new	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	42	advcl	_	_
+50	zealand	zealand	CCONJ	CC	_	51	cc	_	_
+51	jasmine	jasmine	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	49	conj	_	_
+52	'	'	PART	PART	_	51	case	_	SpaceAfter=No
+53	'	'	PART	PART	_	51	compound:prt	_	SpaceAfter=No
+54	parsonsia	parsonsia	DET	RI	Definite=Ind|PronType=Art	55	det	_	_
+55	capsularis	capsularis	NOUN	S	Gender=Masc|Number=Sing	61	nmod	_	SpaceAfter=No
+56	'	'	PART	PART	_	55	case	_	SpaceAfter=No
+57	'	'	PART	PART	_	55	case	_	SpacesAfter=\n
+58	*night	*nay	ADV	B	_	60	advmod	_	SpaceAfter=No
+59	-	-	PUNCT	FF	_	58	punct	_	SpaceAfter=No
+60	blooming	bloom	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	61	acl	_	_
+61	jasmine	jasmine	NOUN	S	Number=Sing	98	nmod	_	_
+62	'	'	PART	PART	_	61	case	_	SpaceAfter=No
+63	'	'	PART	PART	_	61	case	_	SpaceAfter=No
+64	cestrum	cestrum	VERB	V	VerbForm=Inf	98	conj	_	_
+65	nocturnum	nocturnum	NOUN	S	Number=Sing	74	nmod	_	SpaceAfter=No
+66	'	'	PART	PART	_	65	case	_	SpaceAfter=No
+67	'	'	PART	PART	_	65	case	_	SpacesAfter=\s\n
+68	*night	*night	ADV	B	_	70	advmod	_	SpaceAfter=No
+69	-	-	PUNCT	FF	_	70	punct	_	SpaceAfter=No
+70	flowering	flower	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	71	acl	_	_
+71	jasmine	jasmine	NOUN	S	Number=Sing	74	nmod	_	_
+72	'	'	PART	PART	_	71	case	_	SpaceAfter=No
+73	'	'	PART	PART	_	71	case	_	SpaceAfter=No
+74	nyctanthes	nyctanth	NOUN	S	Number=Plur	64	obj	_	_
+75	arbor	arbor	CCONJ	CC	_	80	cc	_	SpaceAfter=No
+76	-	-	PUNCT	FF	_	77	punct	_	SpaceAfter=No
+77	tristis	tristis	NOUN	S	_	80	nmod	_	SpaceAfter=No
+78	'	'	PART	PART	_	77	case	_	SpaceAfter=No
+79	'	'	PART	PART	_	77	case	_	SpacesAfter=\s\n
+80	*red	*r	VERB	V	Tense=Past|VerbForm=Part	81	acl	_	_
+81	jasmine	jasmine	NOUN	S	Number=Sing	85	nmod	_	_
+82	'	'	PART	PART	_	81	case	_	SpaceAfter=No
+83	'	'	PART	PART	_	81	case	_	SpaceAfter=No
+84	plumeria	plumerion	DET	RI	Definite=Ind|PronType=Art	85	det	_	_
+85	rubra	rubra	NOUN	S	Number=Plur	88	nmod	_	SpaceAfter=No
+86	'	'	PART	PART	_	85	case	_	SpaceAfter=No
+87	'	'	PART	PART	_	85	case	_	SpacesAfter=\n
+88	*star	*star	NOUN	S	Number=Sing	92	nmod	_	_
+89	jasmine	jasmine	NUM	N	NumType=Card	88	nummod	_	SpaceAfter=No
+90	,	,	PUNCT	FF	_	88	punct	_	_
+91	confederate	confederate	NOUN	S	Number=Sing	92	nmod	_	_
+92	jasmine	jasmine	NOUN	S	Number=Sing	95	nmod	_	_
+93	'	'	PART	PART	_	92	case	_	SpaceAfter=No
+94	'	'	PART	PART	_	92	case	_	SpaceAfter=No
+95	trachelospermum	trachelospermum	NOUN	S	Number=Sing	98	nmod	_	SpaceAfter=No
+96	'	'	PART	PART	_	95	case	_	SpaceAfter=No
+97	'	'	PART	PART	_	95	case	_	SpacesAfter=\s\n
+98	*tree	*tree	VERB	V	VerbForm=Inf	51	xcomp	_	_
+99	jasmine	jasmine	NUM	N	NumType=Card	101	nummod	_	_
+100	(	(	PUNCT	FB	_	101	punct	_	SpaceAfter=No
+101	disambiguation	disambiguation	NOUN	S	Number=Sing	98	obj	_	SpaceAfter=No
+102	)	)	PUNCT	FB	_	101	punct	_	SpacesAfter=\n\s\n\s
+103	*	*	PUNCT	FF	_	101	punct	_	SpacesAfter=\s\n
+104	*	*	PUNCT	FF	_	98	punct	_	SpacesAfter=\n\s\n\n\n
+
+# newpar
+# sent_id = 141
+# text = * *
+1	*	*	PUNCT	FF	_	0	root	_	SpacesAfter=\s\n
+2	*	*	PUNCT	FF	_	1	punct	_	SpacesAfter=\n
+
