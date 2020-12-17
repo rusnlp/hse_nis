@@ -103,3 +103,11 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+
+# Texts directory
+texts/
+
+# Models
+*.bin.gz
+*.vec.gz
