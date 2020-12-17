@@ -1,3 +1,7 @@
+"""
+Подсчитываем статистики из списков отфильтрованных и сохранённых слов и собираем в таблицы
+"""
+
 from collections import Counter
 from json import load
 from statistics import mean, median

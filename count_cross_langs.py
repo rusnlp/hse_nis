@@ -1,3 +1,5 @@
+'''Считаем количество результатов на другом языке в рекомендациях'''
+
 from collections import Counter
 from numpy import sum
 

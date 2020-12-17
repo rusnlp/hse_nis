@@ -1,3 +1,6 @@
+"""
+Собираем разницы словарей моделей
+"""
 from json import dump, load
 from os import mkdir
 from test_task.utils.loaders import load_embeddings
