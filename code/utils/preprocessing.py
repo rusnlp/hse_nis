@@ -17,11 +17,13 @@ from string import punctuation
 punctuation = punctuation+'«»—…“”*№́–'
 stop_pos = {'AUX', 'NUM', 'DET', 'PRON', 'ADP', 'SCONJ', 'CCONJ', 'INTJ', 'PART', 'X'}
 
+
 class Token:
     def __init__(self, token, lemma, pos):
         self.token = token
         self.lemma = lemma
         self.pos = pos
+
     def __repr__(self):
         return '{}({})_{}'.format(self.token, self.lemma, self.pos)
 
@@ -310,13 +312,6 @@ def process_unified(line, keep_pos, keep_punct, keep_stops):
     return line_lems
 
 
-def translate_line(text, trans_dict):
-    '''Перевод строки по двуязычному словарю'''
-    translated_text = [trans_dict[word] for word in text if word in trans_dict]
-    return translated_text
-
-
 def clean_ext(name):
-    # TODO: сделать как-то умнее, чтобы не трогала точки в названиях?
-    name = name.split('.')[0]
-    return name
+    return '.'.join(name.split('.')[:-1])
+
