@@ -111,3 +111,6 @@ texts/
 # Models
 *.bin.gz
 *.vec.gz
+*.bin
+*.vec
+models/

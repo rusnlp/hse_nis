@@ -32,6 +32,10 @@ def parse_args():
                              '(0|1; default: 0)')
     parser.add_argument('--keep_punct', type=int, default=0,
                         help='Сохранять ли знаки препинания (0|1; default: 0)')
+    parser.add_argument('--join_propn', type=int, default=0,
+                        help='Склеивать ли именованные сущности (0|1; default: 0)')
+    parser.add_argument('--join_token', type=str, default='::',
+                        help='Как склеивать именованные сущности (default: ::)')
     parser.add_argument('--unite', type=int, default=1,
                         help='Убирать ли деление на предложения (0|1; default: 1)')
     parser.add_argument('--lang', type=str, default='cross',
@@ -70,23 +74,26 @@ def parse_args():
     return parser.parse_args()
 
 
-def get_corpus(texts_path, lemmatize, keep_pos, keep_punct, keep_stops, unite):
-    """собираем тексты из conllu в список"""
+def get_corpus(texts_path, lemmatize, keep_pos, keep_punct, keep_stops, join_propn, join_token, unite):
+    """собираем файлы conllu в словарь {файл: список токенов}"""
     texts = {}
-    for file in tqdm(os.listdir(texts_path)):
+    for file in tqdm(os.listdir(texts_path), desc='Collecting'):
         text = open('{}/{}'.format(texts_path, file), encoding='utf-8').read().strip()
-        preprocessed = get_text(text, lemmatize, keep_pos, keep_punct, keep_stops, unite)
+        preprocessed = get_text(text, lemmatize, keep_pos, keep_punct, keep_stops,
+                                join_propn, join_token, unite)
         texts[clean_ext(file)] = preprocessed
 
     return texts
 
 
-def main_onelang(direction, texts_path, lemmatize, keep_pos, keep_punct, keep_stops, unite,
+def main_onelang(direction, texts_path, lemmatize, keep_pos, keep_punct, keep_stops,
+                 join_propn, join_token, unite,
                  embeddings_path, output_vectors_path, method, no_duplicates, projection_path,
                  bidict_path, mis_path):
     """делаем словарь векторов для корпуса"""
     # собираем тексты из conllu
-    text_corpus = get_corpus(texts_path, lemmatize, keep_pos, keep_punct, keep_stops, unite)
+    text_corpus = get_corpus(texts_path, lemmatize, keep_pos, keep_punct, keep_stops,
+                             join_propn, join_token, unite)
 
     # для tar всегда загружаем верисю model
     vectorizer = build_vectorizer(direction, method, embeddings_path, no_duplicates,
@@ -140,13 +147,15 @@ def main():
 
         print('Векторизую src')
         src_vectors = main_onelang('src', args.src_texts_path, args.lemmatize, args.keep_pos,
-                                    args.keep_punct, args.keep_stops, args.unite,
+                                    args.keep_punct, args.keep_stops,
+                                    args.join_propn, args.join_token, args.unite,
                                     args.src_embeddings_path, args.src_output_vectors_path, args.method,
                                     args.no_duplicates, args.projection_path, args.bidict_path, args.src_mis_path)
 
         print('Векторизую tar')
         tar_vectors = main_onelang('tar', args.tar_texts_path, args.lemmatize, args.keep_pos,
-                                    args.keep_punct, args.keep_stops, args.unite,
+                                    args.keep_punct, args.keep_stops,
+                                    args.join_propn, args.join_token, args.unite,
                                     args.tar_embeddings_path, args.tar_output_vectors_path, args.method,
                                     args.no_duplicates, args.projection_path, args.bidict_path, args.tar_mis_path)
 

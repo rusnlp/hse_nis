@@ -18,13 +18,14 @@ def load_vocab(path, clean=False):
     return vocab
 
 
-def get_corpus(texts_path, lemmatize, keep_pos=False, keep_punct=False, keep_stops=False, unite=True):
-    """собираем тексты из conllu в словарь списков"""
+def get_corpus(texts_path, lemmatize, keep_pos=False, keep_punct=False, keep_stops=False,
+               join_propn=False, join_token='::', unite=True):
+    """собираем файлы conllu в словарь {файл: список токенов}"""
     texts = {}
-    for file in os.listdir(texts_path):
+    for file in tqdm(os.listdir(texts_path), desc='Collecting'):
         text = open('{}/{}'.format(texts_path, file), encoding='utf-8').read().strip()
-        preprocessed = get_text(text, lemmatize, keep_pos, keep_punct, keep_stops, unite)
-        # print(preprocessed)
+        preprocessed = get_text(text, lemmatize, keep_pos, keep_punct, keep_stops,
+                                join_propn, join_token, unite)
         texts[clean_ext(file)] = preprocessed
 
     return texts
@@ -142,7 +143,7 @@ if __name__ == '__main__':
     }
 
     not_analyzed_all = []
-    for param_dict in tqdm(params):
+    for param_dict in params:
         print(param_dict, params[param_dict])
         not_analyzed_one = main(params[param_dict])
         not_analyzed_all.extend(not_analyzed_one)
