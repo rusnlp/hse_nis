@@ -1,40 +1,40 @@
 """
 Собираем слова, которые сохранились и отфильтровались по словарям моделей, считаем проценты
 и запоминаем тексты, слова из которых не получилось проанализировать (скорее всего, их там нет)
+
+python filtered_texts.py --texts_paths=../texts_conf/texts/en_conllu+../texts_conf/texts/ru_conllu --lemmatize=1 --vocab_path=../words/cross_muse_orig_vocab.txt --stats_paths=../filtered_words/orig/en_muse_stats_lem.json+../filtered_words/orig/ru_muse_stats_lem.json --not_analyzed_path=../filtered_words/orig/not_analyzed_lem.txt
+python filtered_texts.py --texts_paths=../texts_conf/texts/en_conllu+../texts_conf/texts/ru_conllu --lemmatize=0 --vocab_path=../words/cross_muse_orig_vocab.txt --stats_paths=../filtered_words/orig/en_muse_stats_tok.json+../filtered_words/orig/ru_muse_stats_tok.json --not_analyzed_path=../filtered_words/orig/not_analyzed_tok.txt
 """
 
-import os
-from tqdm import tqdm
+import argparse
 from json import dump
-from utils.preprocessing import get_text, clean_ext
+from tqdm import tqdm
+from utils.preprocessing import get_corpus
+from utils.loaders import load_vocab, split_paths, create_dir
 
 
-def load_vocab(path, clean=False):
-    raw = open(path, encoding='utf-8').read().lower().splitlines()
-    if clean:
-        raw = [line.split('_')[0] for line in raw]
-    vocab = set(raw)
-    # print(len(vocab))
-    return vocab
+def parse_args():
+    parser = argparse.ArgumentParser(
+        description='Анализируем, сколько слов (и какие) потерялось и сохранилось при векторизации')
+    parser.add_argument('--texts_paths', type=str, required=True,
+                        help='Путь к текстам в формате conllu (можно перечислить через +)')
+    parser.add_argument('--lemmatize', type=int, required=True,
+                        help='Брать ли леммы текстов (0|1)')
+    parser.add_argument('--vocab_path', type=str, required=True,
+                        help='Путь к файлу со словарём модели')
+    parser.add_argument('--stats_paths', type=str, required=True,
+                        help='Путь к json с результатами анализа (можно перечислить через +)')
+    parser.add_argument('--not_analyzed_path', type=str, default='',
+                        help='Путь к файлу со списком текстов, которые не удалось проанализирвать')
+
+    return parser.parse_args()
 
 
-def get_corpus(texts_path, lemmatize, keep_pos=False, keep_punct=False, keep_stops=False,
-               join_propn=False, join_token='::', unite=True):
-    """собираем файлы conllu в словарь {файл: список токенов}"""
-    texts = {}
-    for file in tqdm(os.listdir(texts_path), desc='Collecting'):
-        text = open('{}/{}'.format(texts_path, file), encoding='utf-8').read().strip()
-        preprocessed = get_text(text, lemmatize, keep_pos, keep_punct, keep_stops,
-                                join_propn, join_token, unite)
-        texts[clean_ext(file)] = preprocessed
-
-    return texts
-
-
-def analyze_filtered(corpus, vocab, stats):
+def analyze_filtered(corpus, vocab):
     not_analyzed = []
+    stats = {}
 
-    for file in corpus:
+    for file in tqdm(corpus, desc='Analyzing corpus'):
 
         text = corpus[file]
         text_vocab = set(text)
@@ -51,6 +51,8 @@ def analyze_filtered(corpus, vocab, stats):
             # - насколько текст стал короче
             # - насколько словарь стал меньше
 
+            # не хотим искать пересечение множеств, чтобы подсчитать
+            # потерю длины текста, а не уникальных токенов
             vectorized = []
             lost = []
             for tok in text:
@@ -83,71 +85,27 @@ def analyze_filtered(corpus, vocab, stats):
     return stats, not_analyzed
 
 
-def main(params):
-    # print(params)
-    texts_path = params['texts_path']
-    vocab_path = params['vocab_path']
-    stats_path = params['stats_path']
-    lemmatize = params['lemmatize']
+def main():
+    args = parse_args()
+    texts_paths = args.texts_paths.split('+')
+    stats_paths = split_paths(args.stats_paths, texts_paths)
 
-    vocab = load_vocab(vocab_path, clean=False)
-    corpus = get_corpus(texts_path, lemmatize)
+    vocab = load_vocab(args.vocab_path)
+    not_analyzed_all = set()
 
-    stats = {}
-    stats, not_analyzed = analyze_filtered(corpus, vocab, stats)
-    dump(stats, open(stats_path, 'w', encoding='utf-8'))
-    return not_analyzed
+    for texts_path, stats_path in zip(texts_paths, stats_paths):
+        corpus = get_corpus(texts_path, args.lemmatize)
+        stats, not_analyzed = analyze_filtered(corpus, vocab)
+
+        create_dir(stats_path)
+        dump(stats, open(stats_path, 'w', encoding='utf-8'))
+
+        not_analyzed_all.update(not_analyzed)
+
+    print('Не проанализировано файлов: {}'.format(len(not_analyzed_all)))
+    if not_analyzed_all and args.not_analyzed_path:
+        open(args.not_analyzed_path, 'w', encoding='utf-8').write('\n'.join(not_analyzed_all))
 
 
 if __name__ == '__main__':
-    lemmatize = False
-
-    en_texts_path = '../texts_conf/texts/EN_CONLLU'
-    ru_texts_path = '../texts_conf/texts/RU_CONLLU'
-    model_vocab_path = '../words/cross_muse_vocab.txt'
-    stats_dir = '../filtered_words/'
-    en_tok_stats_path = stats_dir + 'en_muse_stats_tok.json'
-    ru_tok_stats_path = stats_dir + 'ru_muse_stats_tok.json'
-    en_lem_stats_path = stats_dir + 'en_muse_stats_lem.json'
-    ru_lem_stats_path = stats_dir + 'ru_muse_stats_lem.json'
-    try:
-        os.mkdir(stats_dir)
-    except OSError:
-        pass
-
-    params = {
-        'en_muse_tok': {
-            'texts_path': en_texts_path,
-            'lemmatize': False,
-            'vocab_path': model_vocab_path,
-            'stats_path': en_tok_stats_path
-        },
-        'ru_muse_tok': {
-            'texts_path': ru_texts_path,
-            'lemmatize': False,
-            'vocab_path': model_vocab_path,
-            'stats_path': ru_tok_stats_path
-        },
-        'en_muse_lem': {
-            'texts_path': en_texts_path,
-            'lemmatize': True,
-            'vocab_path': model_vocab_path,
-            'stats_path': en_lem_stats_path
-        },
-        'ru_muse_lem': {
-            'texts_path': ru_texts_path,
-            'lemmatize': True,
-            'vocab_path': model_vocab_path,
-            'stats_path': ru_lem_stats_path
-        }
-    }
-
-    not_analyzed_all = []
-    for param_dict in params:
-        print(param_dict, params[param_dict])
-        not_analyzed_one = main(params[param_dict])
-        not_analyzed_all.extend(not_analyzed_one)
-    not_analyzed_all = set(not_analyzed_all)
-    print('Не проанализировано файлов: {}'.format(len(not_analyzed_all)))
-    open(stats_dir+'not_analyzed.txt', 'w', encoding='utf-8').write('\n'.join(not_analyzed_all))
-
+    main()

@@ -1,0 +1,13 @@
+../filtered_words/orig/en_muse_stats_lem.json
+		LENS (%)		VOCAB (%)
+MEAN	235.83 (10.86)	130.60 (15.72)
+MED		209.00 (10.15)	117.00 (15.14)
+MAX		1265.00 (40.10)	376.00 (33.75)
+MIN		8.00 (3.00)	3.00 (1.75)
+
+../filtered_words/orig/ru_muse_stats_lem.json
+		LENS (%)		VOCAB (%)
+MEAN	242.25 (13.82)	133.97 (17.59)
+MED		220.00 (13.21)	123.00 (17.04)
+MAX		1450.00 (51.82)	681.00 (64.65)
+MIN		1.00 (2.90)	1.00 (3.85)

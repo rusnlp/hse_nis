@@ -1,4 +1,5 @@
 """
+python create_mapping.py --texts_path=../texts_conf/texts/ru_conllu+../texts_conf/texts/en_conllu --lang=ru+en --mapping_path=../texts_conf/mapping.json
 """
 
 import argparse
@@ -11,9 +12,9 @@ def parse_args():
     parser = argparse.ArgumentParser(
         description='Создание маппинга индексов в заголовки и обратно и сохранение его в json')
     parser.add_argument('--texts_path', type=str, required=True,
-                        help='Папка, в которой лежат тексты')
+                        help='Путь к текстам в формате conllu (можно перечислить через +)')
     parser.add_argument('--lang', type=str, required=True,
-                        help='Язык, для которого разбираем; '
+                        help='Языки, для которых разбираем (можно перечислить через +); '
                              'нужен для определения словаря в маппинге (ru/en')
     parser.add_argument('--mapping_path', type=str, required=True,
                         help='Файл маппинга заголовков в индексы и обратно в формате json')
@@ -23,8 +24,20 @@ def parse_args():
     return parser.parse_args()
 
 
+def split_paths(joint_path, texts_paths):
+    # делим пути по + или задаём столько пустых, сколько пришло папок с текстами
+    if joint_path:
+        paths = joint_path.split('+')
+    else:
+        paths = [''] * len(texts_paths)
+    return paths
+
+
 def main():
     args = parse_args()
+
+    texts_paths = args.texts_path.split('+')
+    langs = split_paths(args.lang, texts_paths)
 
     if os.path.isfile(args.mapping_path) and not args.forced:
         mapping = load(open(args.mapping_path, 'r', encoding='utf-8'))
@@ -34,13 +47,16 @@ def main():
         mapping = {}
         print('Маппинга ещё нет, сейчас будет')
 
-    i2lang = 'i2{}'.format(args.lang)
-    lang2i = '{}2i'.format(args.lang)
-    files = [file for file in os.listdir(args.texts_path)]
-    mapping[i2lang] = {i: clean_ext(file) for i, file in enumerate(files)}
-    mapping[lang2i] = {clean_ext(file): i for i, file in enumerate(files)}
+    for texts_path, lang in zip(texts_paths, langs):
+        print('Добавляю язык {}'.format(lang))
+        i2lang = 'i2{}'.format(lang)
+        lang2i = '{}2i'.format(lang)
+        files = [file for file in os.listdir(texts_path)]
+        mapping[i2lang] = {i: clean_ext(file) for i, file in enumerate(files)}
+        mapping[lang2i] = {clean_ext(file): i for i, file in enumerate(files)}
+
     print('Новый маппинг:')
-    print('\t'.join(['{}: {} объекта'.format(k, len(v)) for k, v in mapping.items()]))
+    print('\n'.join(['{}: {} объекта'.format(k, len(v)) for k, v in mapping.items()]))
     dump(mapping, open(args.mapping_path, 'w', encoding='utf-8'))
 
 

@@ -1,18 +1,12 @@
 """
 Вспомогательный модуль, основанный на
 https://github.com/akutuzov/webvectors/blob/master/preprocessing/rus_preprocessing_udpipe.py
-Функция process принимает на вход необработанный русский текст
-(одно предложение на строку или один абзац на строку).
-Он токенизируется, лемматизируется и размечается по частям речи с использованием UDPipe.
-На выход подаётся список лемм с частями речи ["зеленый_NOUN, трамвай_NOUN"]
-или пустой список, если в строке нет токенов, пригодных для разбора.
-
-Также есть множество функциональных чатей речи для фильтрации стоп-слов
-и функция унификации символов unicode.
 """
 
+import os
 import re
 from string import punctuation
+from tqdm import tqdm
 
 punctuation = punctuation + '«»—…“”*№́–'
 stop_pos = {'AUX', 'NUM', 'DET', 'PRON', 'ADP', 'SCONJ', 'CCONJ', 'INTJ', 'PART', 'X'}
@@ -270,8 +264,8 @@ def process_line(content, lemmatize=1, keep_pos=1, keep_punct=0, keep_stops=1,
 
     if not keep_stops:  # убираем ещё слова длиной 1
         tagged_toks = [tok for tok in tagged_toks if tok.pos not in stop_pos
-                       or len(tok.lemma) > 1
-                       or len(tok.token) > 1]
+                       and len(tok.lemma) > 1
+                       and len(tok.token) > 1]
 
     if lemmatize:
         words = [tok.lemma for tok in tagged_toks]
@@ -296,9 +290,30 @@ def get_text(conllu_text, lemmatize, keep_pos, keep_punct, keep_stops,
         if unite:
             lines.extend(line)
         else:
-            lines.append(line)
+            if line:
+                lines.append(line)
     return lines
 
 
 def clean_ext(name):
     return '.'.join(name.split('.')[:-1])
+
+
+def get_dirs(path):
+    if '/' in path:
+        return path[:path.rfind('/')]
+    else:
+        return ''
+
+
+def get_corpus(texts_path, lemmatize, keep_pos=False, keep_punct=False, keep_stops=False,
+               join_propn=False, join_token='::', unite=True):
+    """собираем файлы conllu в словарь {файл: список токенов}"""
+    texts = {}
+    for file in tqdm(os.listdir(texts_path), desc='Collecting'):
+        text = open('{}/{}'.format(texts_path, file), encoding='utf-8').read().strip()
+        preprocessed = get_text(text, lemmatize, keep_pos, keep_punct, keep_stops,
+                                join_propn, join_token, unite)
+        texts[clean_ext(file)] = preprocessed
+
+    return texts

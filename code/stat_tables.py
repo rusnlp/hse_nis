@@ -3,12 +3,33 @@
 Подсчитываем статистики из списков отфильтрованных слов, группируем и собираем в таблицы
 В таблицу записывается потерянное
 Также создаются списки отфильтрованных и сохранённых слов с частотами по всем текстам
+
+python stat_tables.py --stats_paths=../filtered_words/orig/en_muse_stats_tok.json+../filtered_words/orig/ru_muse_stats_tok.json --saved_paths=../filtered_words/orig/vocabs/en_muse_tok_saved.tsv+../filtered_words/orig/vocabs/ru_muse_tok_saved.tsv --lost_paths=../filtered_words/orig/vocabs/en_muse_tok_lost.tsv+../filtered_words/orig/vocabs/ru_muse_tok_lost.tsv --group_stats_path=../filtered_words/orig/lost_stats_tok.txt
+python stat_tables.py --stats_paths=../filtered_words/orig/en_muse_stats_lem.json+../filtered_words/orig/ru_muse_stats_lem.json --saved_paths=../filtered_words/orig/vocabs/en_muse_lem_saved.tsv+../filtered_words/orig/vocabs/ru_muse_lem_saved.tsv --lost_paths=../filtered_words/orig/vocabs/en_muse_lem_lost.tsv+../filtered_words/orig/vocabs/ru_muse_lem_lost.tsv --group_stats_path=../filtered_words/orig/lost_stats_lem.txt
 """
 
+import argparse
 from collections import Counter
 from json import load
 from statistics import mean, median
-from os import mkdir
+from tqdm import tqdm
+from utils.loaders import split_paths, create_dir
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(
+        description='Анализируем, сколько слов (и какие) потерялось и сохранилось при векторизации')
+    parser.add_argument('--stats_paths', type=str, required=True,
+                        help='Путь к json с результатами анализа (можно перечислить через +)')
+    parser.add_argument('--saved_paths', type=str, default='',
+                        help='Путь к файлу txt с сохранёнными токенами (можно перечислить через +)')
+    parser.add_argument('--lost_paths', type=str, default='',
+                        help='Путь к файлу txt с потерянными токенами (можно перечислить через +)')
+    parser.add_argument('--group_stats_path', type=str, required=True,
+                        help='Путь к файлу txt со сгруппированными статистиками')
+
+    return parser.parse_args()
+
 
 #TODO: Анализировать не множества потерянных слов, а списки?
 
@@ -52,8 +73,10 @@ def group_stats(stats_path, savedvocab_path, lostvocab_path, total=False):
     lost_vocab_freqs = Counter(lost_vocab)
     lost_vocab_sort = sorted(lost_vocab_freqs, key=lost_vocab_freqs.get, reverse=True)
 
-    open(savedvocab_path, 'w', encoding='utf-8').write('\n'.join(['{}\t{}'.format(k, saved_vocab_freqs[k]) for k in saved_vocab_sort]))
-    open(lostvocab_path, 'w', encoding='utf-8').write('\n'.join(['{}\t{}'.format(k, lost_vocab_freqs[k]) for k in lost_vocab_sort]))
+    if savedvocab_path:
+        open(savedvocab_path, 'w', encoding='utf-8').write('\n'.join(['{}\t{}'.format(k, saved_vocab_freqs[k]) for k in saved_vocab_sort]))
+    if lostvocab_path:
+        open(lostvocab_path, 'w', encoding='utf-8').write('\n'.join(['{}\t{}'.format(k, lost_vocab_freqs[k]) for k in lost_vocab_sort]))
 
     # print(saved_vocab_freqs)
     # print(lost_vocab_freqs)
@@ -62,7 +85,7 @@ def group_stats(stats_path, savedvocab_path, lostvocab_path, total=False):
     mean_lost_vocabsizes, med_lost_vocabsizes, max_lost_vocabsizes, min_lost_vocabsizes = get_stats(lost_vocabsizes)
     mean_lostvocab_procs, med_lostvocab_procs, max_lostvocab_procs, min_lostvocab_procs = get_stats(lostvocab_procs)
 
-    stat_res = '''{}
+    stats_str = '''{}
 \t\tLENS (%)\t\tVOCAB (%)
 MEAN\t{:.2f} ({:.2f})\t{:.2f} ({:.2f})
 MED\t\t{:.2f} ({:.2f})\t{:.2f} ({:.2f})
@@ -75,38 +98,27 @@ MIN\t\t{:.2f} ({:.2f})\t{:.2f} ({:.2f})
            min_lost_lens, min_losttok_procs, min_lost_vocabsizes, min_lostvocab_procs
     )
 
-    return stat_res
+    return stats_str
+
+
+def main():
+    args = parse_args()
+    stats_paths = args.stats_paths.split('+')
+    saved_paths = split_paths(args.saved_paths, stats_paths)
+    lost_paths = split_paths(args.lost_paths, stats_paths)
+
+    all_stats_strs = []
+    for stats_path, saved_path, lost_path in tqdm(zip(stats_paths, saved_paths, lost_paths),
+                                                  desc='Grouping data'):
+        create_dir(saved_path)
+        create_dir(lost_path)
+
+        stats_str = group_stats(stats_path, saved_path, lost_path)
+        all_stats_strs.append(stats_str)
+
+    open(args.group_stats_path, 'w', encoding='utf-8').write('\n'.join(all_stats_strs))
 
 
 if __name__ == '__main__':
+    main()
 
-    stats_dir = '../filtered_words/'
-    en_tok_stats_path = stats_dir + 'en_muse_stats_tok.json'
-    ru_tok_stats_path = stats_dir + 'ru_muse_stats_tok.json'
-    en_lem_stats_path = stats_dir + 'en_muse_stats_lem.json'
-    ru_lem_stats_path = stats_dir + 'ru_muse_stats_lem.json'
-    group_stats_path = stats_dir + 'lost_stats.txt'
-
-    vocab_dir = stats_dir+'/vocabs/'
-    try:
-        mkdir(vocab_dir)
-    except OSError:
-        pass
-
-    en_tok_sv_path = vocab_dir + 'en_muse_tok_saved.tsv'
-    ru_tok_sv_path = vocab_dir + 'ru_muse_tok_saved.tsv'
-    en_lem_sv_path = vocab_dir + 'en_muse_lem_saved.tsv'
-    ru_lem_sv_path = vocab_dir + 'ru_muse_lem_saved.tsv'
-
-    en_tok_lv_path = vocab_dir + 'en_muse_tok_lost.tsv'
-    ru_tok_lv_path = vocab_dir + 'ru_muse_tok_lost.tsv'
-    en_lem_lv_path = vocab_dir + 'en_muse_lem_lost.tsv'
-    ru_lem_lv_path = vocab_dir + 'ru_muse_lem_lost.tsv'
-
-    en_tok_stats = group_stats(en_tok_stats_path, en_tok_sv_path, en_tok_lv_path)
-    ru_tok_stats = group_stats(ru_tok_stats_path, ru_tok_sv_path, ru_tok_lv_path)
-    en_lem_stats = group_stats(en_lem_stats_path, en_lem_sv_path, en_lem_lv_path)
-    ru_lem_stats = group_stats(ru_lem_stats_path, ru_lem_sv_path, ru_lem_lv_path)
-
-    open(group_stats_path, 'w', encoding='utf-8').\
-        write('\n'.join([en_tok_stats, ru_tok_stats, en_lem_stats, ru_lem_stats]))
