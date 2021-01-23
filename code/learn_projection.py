@@ -26,7 +26,7 @@ def parse_args():
 
 
 def create_learn_pairs(src_model, tar_model):
-    '''собираем слова, которые есть в обеих моделях'''
+    """собираем слова, которые есть в обеих моделях"""
     src_vocab = set(src_model.vocab.keys())
     tar_vocab = set(tar_model.vocab.keys())
     pair_words = src_vocab & tar_vocab
@@ -35,7 +35,7 @@ def create_learn_pairs(src_model, tar_model):
 
 
 def create_parallel_matrices(src_model, tar_model, words):
-    '''параллельные матрицы на основе слов, которые есть в обеих моделях'''
+    """параллельные матрицы на основе слов, которые есть в обеих моделях"""
     dim = src_model.vector_size
     # делаем парные матрицы
     source_matrix = np.zeros((len(words), dim))
