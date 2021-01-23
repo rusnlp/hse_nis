@@ -51,10 +51,11 @@ def visualize(words, matrix, classes, method, fname):
 
     for word, x, y, color in tqdm(zip(words, xpositions, ypositions, class2color), desc='Plotting with {}'.format(method)):
         plot.scatter(x, y, 30, marker='.', color=color)
-        lemma = word.replace('TASK::', '')
-        mid = len(lemma) / 2
-        mid *= 4  # TODO Should really think about how to adapt this variable to the real plot size
-        # plot.annotate(lemma, xy=(x, y), size=5, color='black')
+        if 'TASK::' in word:
+            task_name = word.replace('TASK::', '')
+            mid = len(task_name) / 2
+            mid *= 4  # TODO Should really think about how to adapt this variable to the real plot size
+            plot.annotate(task_name, xy=(x, y), size=5, color='black')
 
     plot.tick_params(axis='x', which='both', bottom=False, top=False, labelbottom=False)
     plot.tick_params(axis='y', which='both', left=False, right=False, labelleft=False)
