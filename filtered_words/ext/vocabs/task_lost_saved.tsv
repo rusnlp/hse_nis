@@ -1,49 +1,49 @@
 column	task	lost_proc	saved	lost
 
-terms_short	TASK::Токенизация	50.0	tokenization	токенизация
-terms_short	TASK::Морфологический_анализ	16.7	morphology, lemmatization, морфология, морфологический, tagging	лемматизация
-terms_short	TASK::Синтаксический_анализ	20.0	синтаксис, синтаксический, syntax, parsing	парсинг
-terms_short	TASK::Проверка_правописания	0.0	орфография, правописание, spellchecker, проверка, spellchecking, spell, checking	
-terms_short	TASK::Проверка_грамматики	0.0	грамматика, проверка, checking, grammar	
+terms_short	TASK::Токенизация	0.0	tokenization	
+terms_short	TASK::Морфологический_анализ	0.0	lemmatization, morphology, морфология, лемматизации, tagging, морфологический	
+terms_short	TASK::Синтаксический_анализ	20.0	syntax, синтаксис, parsing, синтаксического	парсинга
+terms_short	TASK::Проверка_правописания	0.0	checking, орфографии, проверка, spellchecking, правописание, spell, spellchecker	
+terms_short	TASK::Проверка_грамматики	0.0	checking, проверка, грамматики, грамматика, grammar	
 terms_short	TASK::Построение_конкордансов	0.0	concordance, конкорданс	
-terms_short	TASK::Извлечение_ключевых_слов	0.0	извлечение, keyword, extraction, ключевой, ключевые	
-terms_short	TASK::Автоматическое_реферирование	50.0	summarization	суммаризация
-terms_short	TASK::Тематическая_классификация	0.0	classification, topic, тематический, классификация	
-terms_short	TASK::Тематическое_моделирование	0.0	topic, modeling, тематический, моделирование	
-terms_short	TASK::Извлечение_именованных_сущностей	16.7	recognition, сущность, entity, распознавание, name	именованный
-terms_short	TASK::Извлечение_отношений	0.0	извлечение, extraction, relation, отношения, отношение	
-terms_short	TASK::Анализ_тональности	25.0	тональность, analysis, sentiment	сентимент
-terms_short	TASK::Информационный_поиск	0.0	поиск, retrieval, информационный, information	
-terms_short	TASK::Машинный_перевод	0.0	translation, перевод, машинный, machine	
-terms_short	TASK::Обнаружение_дубликатов	33.3	duplicate, detection, обнаружение, deduplication	дупликат, дедупликация
-terms_short	TASK::Cегментация_текста	0.0	сегментация, segmentation, text, текст	
-terms_short	TASK::Обработка_речи	0.0	звучащий, speech, речь, processing	
-terms_short	TASK::Конечные_преобразователи	0.0	конечный, преобразователь, transducer, finite	
-terms_short	TASK::Языковые_модели	0.0	language, modeling, моделирование, языковой	
-terms_short	TASK::Тезаурусы	0.0	thesauri, thesaurus, тезаурус, тезаурусы	
-terms_short	TASK::Корпусы	0.0	corpus, корпус, corpora, корпусы, корпуса	
-terms_short	TASK::Дистрибутивная_семантика	28.6	semantic, distributive, семантика, embedding, distributional	эмбеддинг, дистрибутивный
+terms_short	TASK::Извлечение_ключевых_слов	0.0	ключевых, извлечение, extraction, keyword	
+terms_short	TASK::Автоматическое_реферирование	0.0	summarization, реферирования	
+terms_short	TASK::Тематическая_классификация	0.0	classification, классификации, тематической	
+terms_short	TASK::Тематическое_моделирование	0.0	topic, modeling, моделирования, тематического	
+terms_short	TASK::Извлечение_именованных_сущностей	0.0	name, сущностей, распознавания, entity, recognition, именованных	
+terms_short	TASK::Извлечение_отношений	0.0	relation, extraction, извлечение, отношение, отношений, отношения	
+terms_short	TASK::Анализ_тональности	0.0	analysis, sentiment, эмоции, тональности, тональность	
+terms_short	TASK::Информационный_поиск	0.0	поиск, information, информационный, retrieval	
+terms_short	TASK::Машинный_перевод	0.0	машинного, translation, перевод, machine, машинный, перевода	
+terms_short	TASK::Обнаружение_дубликатов	0.0	обнаружение, duplicate, deduplication, дубликатов, detection	
+terms_short	TASK::Cегментация_текста	0.0	segmentation, текста, сегментации, text	
+terms_short	TASK::Обработка_речи	0.0	обработка, speech, processing, звучащей, речи, обработки	
+terms_short	TASK::Конечные_преобразователи	0.0	transducer, finite, преобразователь, конечный	
+terms_short	TASK::Языковые_модели	0.0	языкового, modeling, моделирования, language	
+terms_short	TASK::Тезаурусы	0.0	thesaurus, thesauri, тезауруса, тезаурус	
+terms_short	TASK::Корпусы	0.0	корпуса, corpus, корпус, корпусы, corpora	
+terms_short	TASK::Дистрибутивная_семантика	25.0	semantic, distributional, embeddings, embedding, семантики, семантика	дистрибутивной, дистрибутивная
 
-terms_long	TASK::Токенизация	55.6	tokens, токен, tokenization, token	tokenise, токенизация, tokenize, токенизировать, токены
-terms_long	TASK::Морфологический_анализ	18.8	леммы, lemma, морфология, морфологический, morphologic, lemmatize, лемма, morphology, lemmatization, lemmas, morphological, lemmatisation, tagging	лемматизировать, лемматизация, lemmatise
-terms_long	TASK::Синтаксический_анализ	0.0	syntactical, синтаксический, parse, parsers, syntactically, syntax, parsing, parser, синтаксис, syntactic	
-terms_long	TASK::Проверка_правописания	0.0	spellcheck, орфография, орфографии, правописание, спеллинг, проверка, spell, checking, spelling, spellchecker, орфографический	
-terms_long	TASK::Проверка_грамматики	0.0	грамматики, грамматика, грамматических, проверка, грамматические, checking, grammar, грамматический, grammatical, check, grammatically	
-terms_long	TASK::Построение_конкордансов	0.0	concordance, concordances, конкорданс	
-terms_long	TASK::Извлечение_ключевых_слов	0.0	keywords, keyword, extraction, извлечение, ключевых, extracting, ключевой, ключевые, extract	
-terms_long	TASK::Автоматическое_реферирование	20.0	summarization, summarise, summarize, summarizing, summarising, summarized, summarised, summary	summarisation, суммаризация
-terms_long	TASK::Тематическая_классификация	0.0	темы, классификация, тема, topics, тематическая, topic, тематический, classifications, classification	
-terms_long	TASK::Тематическое_моделирование	0.0	темы, тема, topics, topic, modeling, тематический, modelling, тематическое, моделирование	
-terms_long	TASK::Извлечение_именованных_сущностей	10.0	сущностей, named, recognition, именованные, сущность, entity, распознавание, именованных, сущности	именованный
-terms_long	TASK::Извлечение_отношений	0.0	извлечение, extraction, relation, отношения, отношений, отношение	
-terms_long	TASK::Анализ_тональности	20.0	тональность, тональности, analysis, sentiment	сентимент
-terms_long	TASK::Информационный_поиск	0.0	поиск, информационного, retrieval, информация, информационный, информации, information	
-terms_long	TASK::Машинный_перевод	0.0	translators, translation, переводчик, перевода, переводы, машинный, machine, translating, машинного, translate, перевод, translator	
-terms_long	TASK::Обнаружение_дубликатов	30.0	дубликаты, обнаружение, duplicates, deduplication, detection, дубликат, duplicate	дупликат, дедупликация, дупликаты
-terms_long	TASK::Cегментация_текста	0.0	segments, segment, text, сегментация, текст, segmentation, сегмент, сегменты	
-terms_long	TASK::Обработка_речи	0.0	звучащая, processing, звучащий, speech, обработка, звучащей, речи, речь	
-terms_long	TASK::Конечные_преобразователи	0.0	преобразователь, конечные, finite, transducers, конечный, transducer	
-terms_long	TASK::Языковые_модели	0.0	model, language, modeling, модель, языковая, models, языковое, modelling, моделирование	
-terms_long	TASK::Тезаурусы	0.0	thesauri, thesaurus, тезаурус, тезаурусы	
-terms_long	TASK::Корпусы	0.0	corpus, корпус, corpora, корпусы, корпуса	
-terms_long	TASK::Дистрибутивная_семантика	35.0	semantic, neighbors, neighbour, distributive, neighbor, семантика, embedding, embeddings, представление, распределённый, distributional, вложение, neighbours	эмбеддинг, распределенное, распределённое, дистрибутивный, эмбеддинги, распределенный, дистрибутивная
+terms_long	TASK::Токенизация	55.6	tokens, token, токен, tokenization	токенизировать, tokenize, токены, токенизация, tokenise
+terms_long	TASK::Морфологический_анализ	18.8	лемма, morphology, morphological, морфология, morphologic, tagging, lemmatize, lemmatisation, lemmatization, леммы, lemmas, lemma, морфологический	лемматизировать, lemmatise, лемматизация
+terms_long	TASK::Синтаксический_анализ	0.0	parse, syntactic, синтаксис, parser, syntactically, syntax, parsing, синтаксический, parsers, syntactical	
+terms_long	TASK::Проверка_правописания	0.0	спеллинг, проверка, орфографический, орфография, spelling, checking, spellcheck, орфографии, правописание, spell, spellchecker	
+terms_long	TASK::Проверка_грамматики	0.0	check, grammatically, проверка, грамматики, грамматические, grammatical, checking, грамматический, грамматика, грамматических, grammar	
+terms_long	TASK::Построение_конкордансов	0.0	concordances, concordance, конкорданс	
+terms_long	TASK::Извлечение_ключевых_слов	0.0	keyword, extraction, извлечение, ключевые, ключевой, ключевых, keywords, extracting, extract	
+terms_long	TASK::Автоматическое_реферирование	20.0	summarised, summarizing, summarized, summarize, summarise, summarization, summarising, summary	summarization_NOUN, summarisation
+terms_long	TASK::Тематическая_классификация	0.0	topic, тема, тематическая, классификация, topics, classifications, classification, темы, тематический	
+terms_long	TASK::Тематическое_моделирование	0.0	topic, тема, тематическое, моделирование, modeling, topics, modelling, темы, тематический	
+terms_long	TASK::Извлечение_именованных_сущностей	10.0	распознавание, сущность, named, именованные, сущностей, recognition, именованных, сущности, entity	именованный
+terms_long	TASK::Извлечение_отношений	0.0	relation, extraction, извлечение, отношение, отношений, отношения	
+terms_long	TASK::Анализ_тональности	20.0	sentiment, analysis, тональности, тональность	сентимент
+terms_long	TASK::Информационный_поиск	0.0	retrieval, информационного, информации, поиск, information, информационный, информация	
+terms_long	TASK::Машинный_перевод	0.0	переводы, translation, перевод, translator, translators, machine, translate, перевода, машинного, translating, машинный, переводчик	
+terms_long	TASK::Обнаружение_дубликатов	0.0	обнаружение, duplicates, дубликаты, duplicate, deduplication, дубликат, detection	
+terms_long	TASK::Cегментация_текста	0.0	segment, сегменты, segmentation, текст, сегментация, text, segments, сегмент	
+terms_long	TASK::Обработка_речи	0.0	речь, speech, звучащей, обработка, processing, звучащий, звучащая, речи	
+terms_long	TASK::Конечные_преобразователи	0.0	finite, конечные, transducers, преобразователь, конечный, transducer	
+terms_long	TASK::Языковые_модели	0.0	model, языковая, языковое, моделирование, modeling, models, modelling, модель, language	
+terms_long	TASK::Тезаурусы	0.0	thesaurus, thesauri, тезаурус, тезаурусы	
+terms_long	TASK::Корпусы	0.0	корпуса, corpus, корпус, корпусы, corpora	
+terms_long	TASK::Дистрибутивная_семантика	31.6	semantic, neighbors, представление, distributive, neighbour, distributional, вложение, embeddings, neighbours, распределённый, embedding, семантика, neighbor	эмбеддинги, дистрибутивный, распределённое, распределенное, дистрибутивная, распределенный
