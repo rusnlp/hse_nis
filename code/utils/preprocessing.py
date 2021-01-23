@@ -300,10 +300,8 @@ def clean_ext(name):
 
 
 def get_dirs(path):
-    if '/' in path:
-        return path[:path.rfind('/')]
-    else:
-        return ''
+    parts = path.split('/')
+    return '/'.join(parts[:-1]), parts[-1]
 
 
 def get_corpus(texts_path, lemmatize, keep_pos=False, keep_punct=False, keep_stops=False,

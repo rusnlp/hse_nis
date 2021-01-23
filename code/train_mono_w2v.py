@@ -1,5 +1,5 @@
 """
-python train_mono_w2v.py --texts_paths=../texts_conf/texts/en_conllu+../texts_conf/texts/ru_conllu --model_paths=../models/en_w2v_tok.bin.gz+../models/ru_w2v_tok.bin.gz --lemmatize=0
+python train_mono_w2v.py --texts_paths=../texts_conf/texts/en_conllu+../texts_conf/texts/ru_conllu --model_paths=../models/en_w2v_tok.bin.gz+../models/ru_w2v_tok.bin.gz --lemmatize=0 --min_count=2 --max_final_vocab=10000
 """
 
 import argparse
@@ -30,13 +30,22 @@ def parse_args():
                         help='Как склеивать именованные сущности (default: ::)')
     parser.add_argument('--unite', type=int, default=1,
                         help='Убирать ли деление на предложения (0|1; default: 1)')
-    
+    parser.add_argument('--vec_size', type=int, default=300,
+                        help='Размерность эмбеддингов (default: 300)')
+    parser.add_argument('--window', type=int, default=5,
+                        help='(default: 5)')
+    parser.add_argument('--min_count', type=int, default=5,
+                        help='(default: 5)')
+    parser.add_argument('--max_final_vocab', type=int, default=None,
+                        help='(default: max_final_vocab)')
+
     return parser.parse_args()
 
 
-def train_w2v(model_path, corpus, save=True):
+def train_w2v(model_path, corpus, vec_size, window, min_count, max_final_vocab, save=True):
     # print(corpus.values())
-    w2v = Word2Vec(corpus.values(), size=300, min_count=2)
+    w2v = Word2Vec(corpus.values(), size=vec_size, window=window,
+                   min_count=min_count, max_final_vocab=max_final_vocab)
     if save:
         binary = get_binarity(model_path)
         if binary != 'NA':
@@ -54,7 +63,7 @@ def main():
     for texts_path, model_path in zip(texts_paths, model_paths):
         corpus = get_corpus(texts_path, args.lemmatize, args.keep_pos, args.keep_punct,
                             args.keep_stops, args.join_propn, args.join_token, args.unite)
-        _ = train_w2v(model_path, corpus)
+        _ = train_w2v(model_path, corpus, args.vec_size, args.window, args.min_count, args.max_final_vocab)
 
 
 if __name__ == '__main__':

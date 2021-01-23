@@ -208,7 +208,7 @@ def split_paths(joint_path, texts_paths):
 
 
 def create_dir(path):
-    path_dirs = get_dirs(path)
+    path_dirs, _ = get_dirs(path)
     if path_dirs:
         try:
             os.makedirs(path_dirs)

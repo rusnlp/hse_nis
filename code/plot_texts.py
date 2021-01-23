@@ -12,6 +12,7 @@ from sklearn.decomposition import PCA
 from sklearn.manifold import TSNE
 
 from utils.loaders import load_mapping, load_embeddings, create_dir
+from utils.preprocessing import get_dirs
 from monocorp_search import get_lang
 
 
@@ -58,7 +59,8 @@ def visualize(words, matrix, classes, method, fname):
     plot.tick_params(axis='x', which='both', bottom=False, top=False, labelbottom=False)
     plot.tick_params(axis='y', which='both', left=False, right=False, labelleft=False)
 
-    save_name = '{}_{}.png'.format(fname, method)
+    dirs, name = get_dirs(fname)
+    save_name = '{}/{}_{}.png'.format(dirs, method, name)
     plot.savefig(save_name, dpi=150,
                  bbox_inches='tight')
     print('Plot saved to {}'.format(save_name))
