@@ -1,5 +1,6 @@
 """
-python train_mono_w2v.py --texts_paths=../texts_conf/texts/en_conllu+../texts_conf/texts/ru_conllu --model_paths=../models/en_w2v_tok.bin.gz+../models/ru_w2v_tok.bin.gz --lemmatize=0 --min_count=2 --max_final_vocab=10000
+python train_mono_w2v.py --texts_paths=../texts_conf/texts/en_conllu --model_paths=../models/en_w2v_tok.bin.gz --lemmatize=0 --min_count=2 --max_final_vocab=10000
+python train_mono_w2v.py --texts_paths=../texts_conf/texts/ru_conllu --model_paths=../models/ru_w2v_tok.bin.gz --lemmatize=0 --min_count=22
 """
 
 import argparse

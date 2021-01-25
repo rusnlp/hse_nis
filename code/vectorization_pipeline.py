@@ -80,13 +80,12 @@ def main_onepath(texts_path, lemmatize, keep_pos, keep_punct, keep_stops, join_p
 
 
 def to_common(common2i, i2common, common_vectors, vectors):
-    '''добавляем корпус и заголовки в общий словарь и общий маппинг'''
-    common_vectors.update(vectors)
+    """добавляем корпус и заголовки в общий словарь и общий маппинг"""
     start_from = len(common_vectors)
     for i, title in enumerate(vectors.keys()):
         common2i[title] = i + start_from
         i2common[i + start_from] = title
-
+    common_vectors.update(vectors)
     return common_vectors, common2i, i2common
 
 

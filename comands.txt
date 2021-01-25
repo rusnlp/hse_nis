@@ -25,7 +25,8 @@ python stat_tables.py --stats_paths=../filtered_words/orig/en_muse_stats_lem.jso
 
 python plot_texts.py --model_path=../models/common_tok_muse_orig.bin.gz --method=pca+tsne --vis_path=../visual/tok_muse_orig --mapping_path=../texts_conf/mapping.json
 
-python train_mono_w2v.py --texts_paths=../texts_conf/texts/en_conllu+../texts_conf/texts/ru_conllu --model_paths=../models/en_w2v_tok.bin.gz+../models/ru_w2v_tok.bin.gz --lemmatize=0 --min_count=2 --max_final_vocab=10000
+python train_mono_w2v.py --texts_paths=../texts_conf/texts/en_conllu --model_paths=../models/en_w2v_tok.bin.gz --lemmatize=0 --min_count=2 --max_final_vocab=10000
+python train_mono_w2v.py --texts_paths=../texts_conf/texts/ru_conllu --model_paths=../models/ru_w2v_tok.bin.gz --lemmatize=0 --min_count=22
 
 python save_vocab.py --model_paths=../models/en_w2v_tok.bin.gz+../models/ru_w2v_tok.bin.gz --vocab_paths=../words/en_tok_w2v_vocab.txt+../words/ru_tok_w2v_vocab.txt
 

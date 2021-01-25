@@ -1,9 +1,9 @@
-'''
+"""
 Обучение матрицы трансформаций
 https://github.com/ltgoslo/diachronic_armed_conflicts/blob/master/helpers.py
 
 python learn_projection.py --src_model_paths=../models/en_w2v_tok.bin.gz+../models/ru_w2v_tok.bin.gz --tar_model_path=../models/cross_muse_orig.bin.gz --proj_paths=../models/en_muse_tok.proj+../models/ru_muse_tok.proj
-'''
+"""
 
 import argparse
 import numpy as np
@@ -30,7 +30,7 @@ def create_learn_pairs(src_model, tar_model):
     src_vocab = set(src_model.vocab.keys())
     tar_vocab = set(tar_model.vocab.keys())
     pair_words = src_vocab & tar_vocab
-    # print(len(pair_words), pair_words)
+    print('Общих слов: {}'.format(len(pair_words)))
     return pair_words
 
 
@@ -43,8 +43,8 @@ def create_parallel_matrices(src_model, tar_model, words):
     for i, word in tqdm(enumerate(words), desc='Creating parallel matrices'):
         source_matrix[i, :] = src_model[word]
         target_matrix[i, :] = tar_model[word]
-    print(source_matrix.shape)
-    print(target_matrix.shape)
+    # print(source_matrix.shape)
+    # print(target_matrix.shape)
 
     # pdump(source_matrix, open('models/ru_clean_lem.pkl', 'wb'))
     # pdump(target_matrix, open('models/en_clean_lem.pkl', 'wb'))
@@ -55,7 +55,7 @@ def create_bidict_matrices(src_model, tar_model):
     """объединение поиска общих слов и создания параллелльных матриц"""
     pair_words = create_learn_pairs(src_model, tar_model)
     src_matrix, tar_matrix = create_parallel_matrices(src_model, tar_model, pair_words)
-    return src_matrix, tar_matrix, pair_words
+    return src_matrix, tar_matrix
 
 
 def normalequation(data, target, lambda_value, vector_size):
@@ -107,7 +107,7 @@ def main():
         src_model = load_embeddings(src_model_path)
         dim = src_model.vector_size
 
-        src_matrix, tar_matrix, _ = create_bidict_matrices(src_model, tar_model)
+        src_matrix, tar_matrix = create_bidict_matrices(src_model, tar_model)
 
         proj = learn_projection(src_matrix, tar_matrix, dim, lmbd=1.0, proj_path=proj_path)
         print('Проекция размерности {} сохранена в {}'.format(proj.shape, proj_path))
