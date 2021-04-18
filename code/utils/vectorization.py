@@ -1,3 +1,4 @@
+from leven import levenshtein
 import numpy as np
 from numpy.linalg import norm
 from tqdm import tqdm
@@ -11,8 +12,50 @@ def str_model(model, embeddings_file):
     return '{}:\nModel: {}\nDim: {}'.format(type(model), embeddings_file, model.vector_size)
 
 
-def get_words(tokens, model, no_duplicates=0):
-    words = [token for token in tokens if token in model]
+def choose_first(words, vocab):
+    positions = {word: vocab.index(word) for word in words}
+    sorted_pos = sorted(positions, key=positions.get)
+    return sorted_pos[0]
+
+
+def find_substitution(token, model, max_end=3):
+    model_vocab = model.index2word
+    for i in range(1, max_end+1):
+        # print(i, token, token[:-i])
+        dists = {word: levenshtein(token, word) for word in model_vocab
+                    if word.startswith(token[:-i])}
+        if dists:
+            # print(token, dists)
+            if len(dists) == 1:
+                sub_word = list(dists.keys())[0]
+            else:  # выбираем слова с минимальной дистанцией
+                min_dist = min(dists.values())
+                # print(min_dist)
+                pos_subs = {word: dists[word] for word in dists if dists[word] == min_dist}
+                # print(pos_subs)
+                if len(pos_subs) == 1:
+                    sub_word = list(pos_subs.keys())[0]
+                else:  # выбираем самую частотную форму (на основе порядка в модели)
+                    sub_word = choose_first(pos_subs.keys(), model_vocab)
+            # print(i, token, sub_word)
+            # print()
+            return sub_word
+        else:
+            return ''
+
+
+def get_words(tokens, model, no_duplicates=0, substitute=0, max_end=3):
+    if substitute:
+        words = []
+        for token in tokens:
+            if token in model:
+                words.append(token)
+            else:
+                sub = find_substitution(token, model, max_end)
+                if sub:
+                    words.append(sub)
+    else:
+        words = [token for token in tokens if token in model]
     # если прилетел пустой текст, то он так и останется пустым просто
     if no_duplicates:
         words = set(words)
@@ -37,9 +80,9 @@ def get_norm_mean_vec(vecs, words):
     return vec
 
 
-def vectorize_text(tokens, model, no_duplicates=0):
+def vectorize_text(tokens, model, no_duplicates=0, substitute=0, max_end=3):
     # простая векторизация моделью
-    words = get_words(tokens, model, no_duplicates)
+    words = get_words(tokens, model, no_duplicates, substitute, max_end)
 
     if not words:
         # print('Я ничего не знаю из этих токенов: {}'.format(tokens), file=sys.stderr)
@@ -53,13 +96,13 @@ def vectorize_text(tokens, model, no_duplicates=0):
     return t_vec
 
 
-def vectorize_corpus(corpus, model, no_duplicates=0):
+def vectorize_corpus(corpus, model, no_duplicates=0, substitute=0, max_end=3):
     # векторизация корпуса в словарь
     not_vectorized = []
     corp_vectors = {}
 
     for name, text in tqdm(corpus.items(), desc='Vectorizing'):
-        vector = vectorize_text(text, model, no_duplicates)
+        vector = vectorize_text(text, model, no_duplicates, substitute, max_end)
         if not np.array_equal(vector, empty_vec(model)):  # если это не зарезервированный вектор
             corp_vectors[name] = vector
 

@@ -56,8 +56,8 @@ def upd_monolang(src_model_path, proj_path, src_words_path, not_added_path, base
             not_added.append(word)
     if not_added and not_added_path:
         open(not_added_path, 'w', encoding='utf-8').write('\n'.join(not_added))
-    base_dict.update(ext_dict)
-    return base_dict
+    ext_dict.update(base_dict)  # чтобы добавленные слова были первыми в словаре muse
+    return ext_dict
 
 
 def main():
