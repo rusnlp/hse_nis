@@ -114,3 +114,4 @@ texts/
 *.bin
 *.vec
 models/
+code/exp.py
